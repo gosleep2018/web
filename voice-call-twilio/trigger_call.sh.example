@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+curl -sS -X POST http://127.0.0.1:3100/call \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "to":"+8618502825799",
+    "text":"Boss，提醒一下：现在是你设定的时间。",
+    "lang":"zh-CN",
+    "voice":"alice",
+    "repeat":2
+  }'
