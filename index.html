@@ -1,69 +1,277 @@
-                    card.style.opacity = '0.9';
-                    card.style.borderColor = '#10b981';
-                    
-                    const btn = card.querySelector('.btn-primary');
-                    if (btn) {
-                        btn.textContent = '✅ 已学习';
-                        btn.disabled = true;
-                    }
-                }
-            });
-            
-            updateStats();
-        });
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新闻词汇 - 带例句朗读</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #0f172a; color: #f8fafc; padding: 20px; }
+        header { text-align: center; padding: 20px 0; border-bottom: 1px solid #334155; margin-bottom: 20px; }
+        h1 { color: #2563eb; margin-bottom: 10px; }
+        .word-card { background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 15px; margin-bottom: 15px; }
+        .word { font-size: 1.3rem; font-weight: bold; color: #f8fafc; }
+        .phonetic { color: #94a3b8; font-style: italic; margin: 5px 0; }
+        .pos { background: rgba(37, 99, 235, 0.2); color: #2563eb; padding: 2px 8px; border-radius: 4px; font-size: 0.9rem; }
+        .meaning { color: #f8fafc; margin: 10px 0; }
+        .example { background: rgba(30, 41, 59, 0.5); border-left: 3px solid #2563eb; padding: 10px; margin: 10px 0; }
+        .example-text { font-size: 1rem; line-height: 1.5; }
+        .example-trans { color: #94a3b8; font-size: 0.9rem; margin-top: 5px; font-style: italic; }
+        .audio-btn { background: #2563eb; color: white; border: none; padding: 8px 12px; border-radius: 6px; margin: 5px 5px 5px 0; cursor: pointer; }
+        .audio-btn.example { background: #f59e0b; }
+        .global-controls { position: fixed; bottom: 20px; right: 20px; }
+        .global-btn { background: #2563eb; color: white; border: none; border-radius: 50%; width: 50px; height: 50px; font-size: 1rem; cursor: pointer; margin: 5px; }
+        .global-btn.example { background: #f59e0b; }
+        .global-btn.stop { background: #ef4444; }
+        footer { text-align: center; padding: 20px 0; margin-top: 30px; color: #94a3b8; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>📰 CNN/BBC 新闻词汇</h1>
+        <p style="color: #94a3b8;">2026年2月17日星期二 | 每日8:00更新 | 目标：听懂CNN/BBC</p>
+        <p style="background: #3b82f6; color: white; padding: 5px 10px; border-radius: 10px; display: inline-block;">
+            🎧 新增：例句朗读功能
+        </p>
+    </header>
+    <div class="word-card">
+        <div class="word">climate</div>
+        <div class="phonetic">/ˈklaɪmət/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">气候</div>
         
-        // 全局控制
-        function playAll() {
-            const words = [
-                'election', 'parliament', 'inflation', 'GDP',
-                'inequality', 'reform', 'diplomacy', 'summit',
-                'innovation', 'climate'
-            ];
-            
+        <div>
+            <button class="audio-btn" onclick="playWord('climate')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('Climate change is affecting weather patterns.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">Climate change is affecting weather patterns.</div>
+            <div class="example-trans">气候变化正在影响天气模式。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：CNN</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">inequality</div>
+        <div class="phonetic">/ˌɪnɪˈkwɑːləti/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">不平等</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('inequality')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('The report highlights growing income inequality.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">The report highlights growing income inequality.</div>
+            <div class="example-trans">报告强调了日益加剧的收入不平等。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：BBC</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">election</div>
+        <div class="phonetic">/ɪˈlekʃn/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">选举</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('election')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('The presidential election will be held next month.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">The presidential election will be held next month.</div>
+            <div class="example-trans">总统选举将于下个月举行。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：CNN</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">diplomacy</div>
+        <div class="phonetic">/dɪˈploʊməsi/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">外交</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('diplomacy')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('Diplomatic efforts continue through peaceful diplomacy.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">Diplomatic efforts continue through peaceful diplomacy.</div>
+            <div class="example-trans">外交努力继续通过和平外交进行。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：BBC</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">inflation</div>
+        <div class="phonetic">/ɪnˈfleɪʃn/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">通货膨胀</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('inflation')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('Inflation rates have reached a 10-year high.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">Inflation rates have reached a 10-year high.</div>
+            <div class="example-trans">通货膨胀率达到10年来的最高水平。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：BBC</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">reform</div>
+        <div class="phonetic">/rɪˈfɔːrm/</div>
+        <span class="pos">n./v.</span>
+        <div class="meaning">改革</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('reform')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('Education reform is a key priority.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">Education reform is a key priority.</div>
+            <div class="example-trans">教育改革是首要任务。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：CNN</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">summit</div>
+        <div class="phonetic">/ˈsʌmɪt/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">峰会</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('summit')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('World leaders will attend the climate summit.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">World leaders will attend the climate summit.</div>
+            <div class="example-trans">世界领导人将出席气候峰会。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：CNN</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">parliament</div>
+        <div class="phonetic">/ˈpɑːrləmənt/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">议会</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('parliament')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('The bill was passed by parliament yesterday.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">The bill was passed by parliament yesterday.</div>
+            <div class="example-trans">该法案昨天在议会获得通过。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：BBC</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">innovation</div>
+        <div class="phonetic">/ˌɪnəˈveɪʃn/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">创新</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('innovation')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('Technological innovation is driving economic growth.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">Technological innovation is driving economic growth.</div>
+            <div class="example-trans">技术创新正在推动经济增长。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：BBC</div>
+        </div>
+    </div>
+    <div class="word-card">
+        <div class="word">GDP</div>
+        <div class="phonetic">/ˌdʒiː diː ˈpiː/</div>
+        <span class="pos">n.</span>
+        <div class="meaning">国内生产总值</div>
+        
+        <div>
+            <button class="audio-btn" onclick="playWord('GDP')">🔊 单词发音</button>
+            <button class="audio-btn example" onclick="playExample('The country\'s GDP grew by 3% this quarter.')">🎧 例句朗读</button>
+        </div>
+        
+        <div class="example">
+            <div class="example-text">The country's GDP grew by 3% this quarter.</div>
+            <div class="example-trans">该国本季度GDP增长3%。</div>
+            <div style="color: #94a3b8; font-size: 0.8rem; margin-top: 5px;">来源：CNN</div>
+        </div>
+    </div>
+    <div class="global-controls">
+        <button class="global-btn" onclick="playAllWords()" title="播放所有单词">🔊</button>
+        <button class="global-btn example" onclick="playAllExamples()" title="播放所有例句">🎧</button>
+        <button class="global-btn stop" onclick="stopAllAudio()" title="停止所有发音">⏹</button>
+    </div>
+    
+    <footer>
+        <p>📰 CNN/BBC新闻词汇学习系统 • 带例句朗读功能</p>
+        <p>⏰ 每日8:00更新 • 🌐 https://gosleep2018.github.io/web/</p>
+        <p>最后更新：2026/2/17 15:04:02</p>
+    </footer>
+    
+    <script>
+        function playWord(word) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(word);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.8;
+                speechSynthesis.speak(utterance);
+            }
+        }
+        
+        function playExample(text) {
+            if ('speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.75;
+                speechSynthesis.speak(utterance);
+            }
+        }
+        
+        function playAllWords() {
+            const words = ["climate","inequality","election","diplomacy","inflation","reform","summit","parliament","innovation","GDP"];
             let index = 0;
             function playNext() {
                 if (index < words.length) {
                     playWord(words[index]);
                     index++;
-                    setTimeout(playNext, 2000);
+                    setTimeout(playNext, 1500);
                 }
             }
             playNext();
         }
         
-        function stopAll() {
+        function playAllExamples() {
+            const examples = ["Climate change is affecting weather patterns.","The report highlights growing income inequality.","The presidential election will be held next month.","Diplomatic efforts continue through peaceful diplomacy.","Inflation rates have reached a 10-year high.","Education reform is a key priority.","World leaders will attend the climate summit.","The bill was passed by parliament yesterday.","Technological innovation is driving economic growth.","The country's GDP grew by 3% this quarter."];
+            let index = 0;
+            function playNext() {
+                if (index < examples.length) {
+                    playExample(examples[index]);
+                    index++;
+                    setTimeout(playNext, 2500);
+                }
+            }
+            playNext();
+        }
+        
+        function stopAllAudio() {
             if ('speechSynthesis' in window) {
                 speechSynthesis.cancel();
             }
         }
         
-        // 键盘快捷键
         document.addEventListener('keydown', function(e) {
-            if (e.code === 'Space') {
-                e.preventDefault();
-                playAll();
-            }
-            if (e.code === 'Escape') {
-                stopAll();
-            }
+            if (e.code === 'Space') playAllWords();
+            if (e.code === 'KeyE' && e.ctrlKey) playAllExamples();
+            if (e.code === 'Escape') stopAllAudio();
         });
-        
-        // 显示学习统计
-        function showStats() {
-            const learned = JSON.parse(localStorage.getItem('learnedWords') || '[]');
-            const review = JSON.parse(localStorage.getItem('reviewWords') || '[]');
-            const total = 10;
-            const progress = Math.round((learned.length / total) * 100);
-            
-            alert(`📊 学习统计：
-            
-🎯 今日进度：${learned.length}/${total} (${progress}%)
-✅ 已学习：${learned.join(', ') || '无'}
-🔄 待复习：${review.length}个单词
-📈 总词汇量：${learned.length + 35}个新闻词汇
-
-继续加油！💪`);
-        }
     </script>
 </body>
 </html>
