@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日单词卡（带发音按钮）</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --card: #141b34;
+      --text: #eaf0ff;
+      --muted: #9fb0d8;
+      --accent: #60a5fa;
+      --ok: #34d399;
+      --border: #2a355f;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Noto Sans CJK SC", sans-serif;
+      background: linear-gradient(180deg, #070b16, #0d1530);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 24px;
+    }
+    .wrap {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+    }
+    .sub {
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+    button {
+      background: #1b2650;
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 14px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    button:hover { border-color: var(--accent); }
+    .primary { background: #1f3a8a; border-color: #2746a5; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: rgba(20, 27, 52, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+    }
+    .word {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .phonetic {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: #cdd9ff;
+      margin: 6px 0;
+      line-height: 1.5;
+    }
+    .tags { margin-top: 8px; }
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      color: #b8f3d8;
+      border: 1px solid #1f7a57;
+      padding: 2px 8px;
+      border-radius: 999px;
+      margin-right: 6px;
+      margin-top: 6px;
+    }
+    .audio-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 10px;
+      flex-wrap: wrap;
+    }
+    .status {
+      margin: 12px 0 20px;
+      color: var(--ok);
+      font-size: 14px;
+      min-height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📘 每日单词卡（点击即播）</h1>
+    <div class="sub">包含：单词、音标、词义、例句、标签、发音按钮（美音/英音）</div>
+
+    <div class="toolbar">
+      <button class="primary" id="playAllUS">🔊 全部美音</button>
+      <button id="playAllUK">🔊 全部英音</button>
+      <button id="stopAll">⏹ 停止播放</button>
+    </div>
+
+    <div id="status" class="status"></div>
+    <div id="cards" class="cards"></div>
+  </div>
+
+  <script>
+    const words = [
+      {
+        text: "resilient",
+        phonetic: "/rɪˈzɪliənt/",
+        pos: "adj.",
+        meaning: "有韧性的；恢复力强的",
+        example: "She is resilient and recovers quickly from setbacks.",
+        level: "B2",
+        familiarity: "新词"
+      },
+      {
+        text: "meticulous",
+        phonetic: "/məˈtɪkjələs/",
+        pos: "adj.",
+        meaning: "一丝不苟的；非常仔细的",
+        example: "He keeps meticulous notes for every meeting.",
+        level: "C1",
+        familiarity: "复习"
+      },
+      {
+        text: "pragmatic",
+        phonetic: "/præɡˈmætɪk/",
+        pos: "adj.",
+        meaning: "务实的；讲求实际的",
+        example: "We need a pragmatic solution, not a perfect one.",
+        level: "B2",
+        familiarity: "高频"
+      }
+    ];
+
+    const statusEl = document.getElementById("status");
+    const cardsEl = document.getElementById("cards");
+
+    function speakWord(text, accent = "us") {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.rate = 0.92;
+      u.pitch = 1;
+      u.lang = accent === "uk" ? "en-GB" : "en-US";
+      statusEl.textContent = `正在播放：${text}（${accent === "uk" ? "英音" : "美音"}）`;
+      u.onend = () => { statusEl.textContent = `播放完成：${text}`; };
+      u.onerror = () => { statusEl.textContent = `播放失败：${text}（请检查浏览器语音权限）`; };
+      window.speechSynthesis.speak(u);
+    }
+
+    async function playAll(accent = "us") {
+      window.speechSynthesis.cancel();
+      for (const item of words) {
+        await new Promise((resolve) => {
+          const u = new SpeechSynthesisUtterance(item.text);
+          u.rate = 0.92;
+          u.lang = accent === "uk" ? "en-GB" : "en-US";
+          statusEl.textContent = `正在播放：${item.text}（${accent === "uk" ? "英音" : "美音"}）`;
+          u.onend = resolve;
+          u.onerror = resolve;
+          window.speechSynthesis.speak(u);
+        });
+      }
+      statusEl.textContent = "全部播放完成 ✅";
+    }
+
+    function render() {
+      cardsEl.innerHTML = words.map(w => `
+        <article class="card">
+          <div class="word">${w.text}</div>
+          <div class="phonetic">${w.phonetic}</div>
+          <div class="meta"><b>${w.pos}</b> ${w.meaning}</div>
+          <div class="meta">例句：${w.example}</div>
+          <div class="tags">
+            <span class="tag">等级 ${w.level}</span>
+            <span class="tag">${w.familiarity}</span>
+          </div>
+          <div class="audio-row">
+            <button onclick="speakWord('${w.text}', 'us')">🔊 美音</button>
+            <button onclick="speakWord('${w.text}', 'uk')">🔊 英音</button>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    document.getElementById("playAllUS").addEventListener("click", () => playAll("us"));
+    document.getElementById("playAllUK").addEventListener("click", () => playAll("uk"));
+    document.getElementById("stopAll").addEventListener("click", () => {
+      window.speechSynthesis.cancel();
+      statusEl.textContent = "已停止播放";
+    });
+
+    render();
+  </script>
+</body>
+</html>
