@@ -1,261 +1,68 @@
+                    card.style.opacity = '0.9';
+                    card.style.borderColor = '#10b981';
+                    
+                    const btn = card.querySelector('.btn-primary');
+                    if (btn) {
+                        btn.textContent = '✅ 已学习';
+                        btn.disabled = true;
+                    }
+                }
+            });
             
-            playQueue = [...words];
-            isPlayingAll = true;
-            
-            // 重置所有按钮状态
-            const buttons = document.querySelectorAll('.pronunciation-btn');
-            buttons.forEach(btn => btn.classList.remove('playing'));
-            
-            playNextWord();
-        }
+            updateStats();
+        });
         
-        function playNextWord() {
-            if (!isPlayingAll || playQueue.length === 0) {
-                isPlayingAll = false;
-                return;
-            }
-            
-            const word = playQueue.shift();
-            const button = document.querySelector(`.pronunciation-btn[onclick*="${word}"]`);
-            
-            if (button) {
-                button.classList.add('playing');
-                
-                const utterance = new SpeechSynthesisUtterance(word);
-                utterance.lang = 'en-US';
-                utterance.rate = 0.8;
-                utterance.pitch = 1;
-                utterance.volume = 1;
-                
-                utterance.onend = function() {
-                    button.classList.remove('playing');
-                    setTimeout(playNextWord, 800); // 单词间间隔
-                };
-                
-                speechSynthesis.speak(utterance);
-                currentAudio = utterance;
-            } else {
-                playNextWord();
-            }
-        }
-        
-        // 停止所有发音
-        function stopAllAudio() {
-            isPlayingAll = false;
-            playQueue = [];
-            speechSynthesis.cancel();
-            
-            const buttons = document.querySelectorAll('.pronunciation-btn');
-            buttons.forEach(btn => btn.classList.remove('playing'));
-        }
-        
-        // 学习状态管理
-        function markAsLearned(word) {
-            const card = event.target.closest('.word-card');
-            card.style.opacity = '0.9';
-            card.style.borderColor = '#10b981';
-            
-            // 保存到localStorage
-            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
-            if (!learnedWords.includes(word)) {
-                learnedWords.push(word);
-                localStorage.setItem('learnedWords', JSON.stringify(learnedWords));
-            }
-            
-            // 更新按钮状态
-            const btn = event.target;
-            btn.innerHTML = '✅ 已学习';
-            btn.classList.remove('btn-primary');
-            btn.classList.add('btn-success');
-            btn.disabled = true;
-            
-            updateLearningStats();
-        }
-        
-        function markAllAsLearned() {
+        // 全局控制
+        function playAll() {
             const words = [
                 'election', 'parliament', 'inflation', 'GDP',
                 'inequality', 'reform', 'diplomacy', 'summit',
                 'innovation', 'climate'
             ];
             
-            words.forEach(word => {
-                const card = document.querySelector(`.word-card:has(.word:contains("${word}"))`);
-                if (card) {
-                    card.style.opacity = '0.9';
-                    card.style.borderColor = '#10b981';
+            let index = 0;
+            function playNext() {
+                if (index < words.length) {
+                    playWord(words[index]);
+                    index++;
+                    setTimeout(playNext, 2000);
                 }
-                
-                const button = card?.querySelector('.btn-primary');
-                if (button) {
-                    button.innerHTML = '✅ 已学习';
-                    button.classList.remove('btn-primary');
-                    button.classList.add('btn-success');
-                    button.disabled = true;
-                }
-            });
-            
-            localStorage.setItem('learnedWords', JSON.stringify(words));
-            updateLearningStats();
-            
-            alert('🎉 已标记所有单词为已学习！');
+            }
+            playNext();
         }
         
-        function addToReview(word) {
-            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
-            if (!reviewWords.includes(word)) {
-                reviewWords.push(word);
-                localStorage.setItem('reviewWords', JSON.stringify(reviewWords));
-                alert(`✅ "${word}" 已加入复习列表`);
-            } else {
-                alert(`ℹ️ "${word}" 已在复习列表中`);
+        function stopAll() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
             }
         }
         
-        // 学习统计
-        function updateLearningStats() {
-            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
-            const totalWords = 10;
-            const learnedCount = learnedWords.length;
-            const progress = Math.round((learnedCount / totalWords) * 100);
-            
-            // 更新统计卡片
-            const progressElement = document.querySelector('.stat-card:nth-child(3) .stat-number');
-            if (progressElement) {
-                progressElement.textContent = learnedCount + 35; // 35是基础词汇量
+        // 键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                playAll();
             }
-            
-            // 更新进度条
-            const progressBar = document.querySelector('.progress-indicator');
-            if (progressBar) {
-                progressBar.style.width = `${progress}%`;
+            if (e.code === 'Escape') {
+                stopAll();
             }
-        }
+        });
         
-        function showLearningStats() {
-            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
-            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
-            const totalWords = 10;
-            const learnedCount = learnedWords.length;
-            const progress = Math.round((learnedCount / totalWords) * 100);
+        // 显示学习统计
+        function showStats() {
+            const learned = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            const review = JSON.parse(localStorage.getItem('reviewWords') || '[]');
+            const total = 10;
+            const progress = Math.round((learned.length / total) * 100);
             
             alert(`📊 学习统计：
             
-🎯 今日进度：${learnedCount}/${totalWords} (${progress}%)
-✅ 已学习：${learnedWords.join(', ')}
-🔄 待复习：${reviewWords.length}个单词
-📈 总词汇量：${learnedCount + 35}个新闻词汇
+🎯 今日进度：${learned.length}/${total} (${progress}%)
+✅ 已学习：${learned.join(', ') || '无'}
+🔄 待复习：${review.length}个单词
+📈 总词汇量：${learned.length + 35}个新闻词汇
 
 继续加油！💪`);
-        }
-        
-        function showReviewList() {
-            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
-            
-            if (reviewWords.length === 0) {
-                alert('🔄 复习列表为空\n\n所有单词都已掌握，太棒了！🎉');
-            } else {
-                alert(`🔄 复习列表 (${reviewWords.length}个单词)：
-                
-${reviewWords.map((word, index) => `${index + 1}. ${word}`).join('\n')}
-
-点击单词卡片上的"加入复习"按钮可以添加更多单词到复习列表。`);
-            }
-        }
-        
-        // 页面初始化
-        document.addEventListener('DOMContentLoaded', function() {
-            // 恢复学习状态
-            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
-            learnedWords.forEach(word => {
-                const card = document.querySelector(`.word-card:has(.word:contains("${word}"))`);
-                if (card) {
-                    card.style.opacity = '0.9';
-                    card.style.borderColor = '#10b981';
-                    
-                    const button = card.querySelector('.btn-primary');
-                    if (button) {
-                        button.innerHTML = '✅ 已学习';
-                        button.classList.remove('btn-primary');
-                        button.classList.add('btn-success');
-                        button.disabled = true;
-                    }
-                }
-            });
-            
-            updateLearningStats();
-            
-            // 添加键盘快捷键
-            document.addEventListener('keydown', function(e) {
-                // 空格键：播放/暂停
-                if (e.code === 'Space' && !e.target.matches('input, textarea')) {
-                    e.preventDefault();
-                    if (isPlayingAll) {
-                        stopAllAudio();
-                    } else {
-                        playAllWords();
-                    }
-                }
-                
-                // ESC键：停止所有发音
-                if (e.code === 'Escape') {
-                    stopAllAudio();
-                }
-                
-                // 数字键1-0：快速标记为已学
-                if (e.code >= 'Digit1' && e.code <= 'Digit0' && e.ctrlKey) {
-                    const index = e.code === 'Digit0' ? 9 : parseInt(e.code.slice(-1)) - 1;
-                    const words = [
-                        'election', 'parliament', 'inflation', 'GDP',
-                        'inequality', 'reform', 'diplomacy', 'summit',
-                        'innovation', 'climate'
-                    ];
-                    
-                    if (words[index]) {
-                        // 模拟点击标记按钮
-                        const card = document.querySelector(`.word-card:has(.word:contains("${words[index]}"))`);
-                        const button = card?.querySelector('.btn-primary');
-                        if (button) {
-                            button.click();
-                        }
-                    }
-                }
-            });
-            
-            // 添加触摸设备优化
-            if ('ontouchstart' in window) {
-                document.body.classList.add('touch-device');
-                
-                // 增加点击区域
-                const buttons = document.querySelectorAll('.btn, .pronunciation-btn');
-                buttons.forEach(btn => {
-                    btn.style.minHeight = '44px';
-                    btn.style.minWidth = '44px';
-                });
-            }
-            
-            console.log('📰 新闻词汇学习页面加载完成');
-            console.log('💡 提示：按空格键播放/暂停，按ESC键停止发音');
-        });
-        
-        // 页面卸载前保存状态
-        window.addEventListener('beforeunload', function() {
-            // 可以在这里添加保存学习进度的逻辑
-        });
-        
-        // 错误处理
-        window.addEventListener('error', function(e) {
-            console.error('页面错误:', e.error);
-        });
-        
-        // 语音合成API可用性检查
-        if (!('speechSynthesis' in window)) {
-            console.warn('⚠️ 浏览器不支持语音合成API，发音功能将不可用');
-            const buttons = document.querySelectorAll('.pronunciation-btn, .global-btn');
-            buttons.forEach(btn => {
-                btn.disabled = true;
-                btn.title = '发音功能不可用（浏览器不支持）';
-            });
         }
     </script>
 </body>
