@@ -1,223 +1,261 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>今日10词 - 2026年2月17日星期二</title>
-    <style>
-        body {
-            margin: 0;
-            background: #0b1220;
-            color: #eaf0ff;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            
+            playQueue = [...words];
+            isPlayingAll = true;
+            
+            // 重置所有按钮状态
+            const buttons = document.querySelectorAll('.pronunciation-btn');
+            buttons.forEach(btn => btn.classList.remove('playing'));
+            
+            playNextWord();
         }
-        .wrap {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 16px;
+        
+        function playNextWord() {
+            if (!isPlayingAll || playQueue.length === 0) {
+                isPlayingAll = false;
+                return;
+            }
+            
+            const word = playQueue.shift();
+            const button = document.querySelector(`.pronunciation-btn[onclick*="${word}"]`);
+            
+            if (button) {
+                button.classList.add('playing');
+                
+                const utterance = new SpeechSynthesisUtterance(word);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.8;
+                utterance.pitch = 1;
+                utterance.volume = 1;
+                
+                utterance.onend = function() {
+                    button.classList.remove('playing');
+                    setTimeout(playNextWord, 800); // 单词间间隔
+                };
+                
+                speechSynthesis.speak(utterance);
+                currentAudio = utterance;
+            } else {
+                playNextWord();
+            }
         }
-        h1 {
-            margin: 0 0 6px;
-            color: #60a5fa;
+        
+        // 停止所有发音
+        function stopAllAudio() {
+            isPlayingAll = false;
+            playQueue = [];
+            speechSynthesis.cancel();
+            
+            const buttons = document.querySelectorAll('.pronunciation-btn');
+            buttons.forEach(btn => btn.classList.remove('playing'));
         }
-        .sub {
-            color: #9fb0d8;
-            margin-bottom: 12px;
+        
+        // 学习状态管理
+        function markAsLearned(word) {
+            const card = event.target.closest('.word-card');
+            card.style.opacity = '0.9';
+            card.style.borderColor = '#10b981';
+            
+            // 保存到localStorage
+            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            if (!learnedWords.includes(word)) {
+                learnedWords.push(word);
+                localStorage.setItem('learnedWords', JSON.stringify(learnedWords));
+            }
+            
+            // 更新按钮状态
+            const btn = event.target;
+            btn.innerHTML = '✅ 已学习';
+            btn.classList.remove('btn-primary');
+            btn.classList.add('btn-success');
+            btn.disabled = true;
+            
+            updateLearningStats();
         }
-        .card {
-            background: #141b34;
-            border: 1px solid #2a355f;
-            border-radius: 12px;
-            padding: 12px;
-            margin: 10px 0;
+        
+        function markAllAsLearned() {
+            const words = [
+                'election', 'parliament', 'inflation', 'GDP',
+                'inequality', 'reform', 'diplomacy', 'summit',
+                'innovation', 'climate'
+            ];
+            
+            words.forEach(word => {
+                const card = document.querySelector(`.word-card:has(.word:contains("${word}"))`);
+                if (card) {
+                    card.style.opacity = '0.9';
+                    card.style.borderColor = '#10b981';
+                }
+                
+                const button = card?.querySelector('.btn-primary');
+                if (button) {
+                    button.innerHTML = '✅ 已学习';
+                    button.classList.remove('btn-primary');
+                    button.classList.add('btn-success');
+                    button.disabled = true;
+                }
+            });
+            
+            localStorage.setItem('learnedWords', JSON.stringify(words));
+            updateLearningStats();
+            
+            alert('🎉 已标记所有单词为已学习！');
         }
-        .top {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            gap: 8px;
+        
+        function addToReview(word) {
+            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
+            if (!reviewWords.includes(word)) {
+                reviewWords.push(word);
+                localStorage.setItem('reviewWords', JSON.stringify(reviewWords));
+                alert(`✅ "${word}" 已加入复习列表`);
+            } else {
+                alert(`ℹ️ "${word}" 已在复习列表中`);
+            }
         }
-        .word {
-            font-size: 21px;
-            font-weight: 700;
+        
+        // 学习统计
+        function updateLearningStats() {
+            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            const totalWords = 10;
+            const learnedCount = learnedWords.length;
+            const progress = Math.round((learnedCount / totalWords) * 100);
+            
+            // 更新统计卡片
+            const progressElement = document.querySelector('.stat-card:nth-child(3) .stat-number');
+            if (progressElement) {
+                progressElement.textContent = learnedCount + 35; // 35是基础词汇量
+            }
+            
+            // 更新进度条
+            const progressBar = document.querySelector('.progress-indicator');
+            if (progressBar) {
+                progressBar.style.width = `${progress}%`;
+            }
         }
-        .ph {
-            color: #9fb0d8;
-            font-size: 14px;
+        
+        function showLearningStats() {
+            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
+            const totalWords = 10;
+            const learnedCount = learnedWords.length;
+            const progress = Math.round((learnedCount / totalWords) * 100);
+            
+            alert(`📊 学习统计：
+            
+🎯 今日进度：${learnedCount}/${totalWords} (${progress}%)
+✅ 已学习：${learnedWords.join(', ')}
+🔄 待复习：${reviewWords.length}个单词
+📈 总词汇量：${learnedCount + 35}个新闻词汇
+
+继续加油！💪`);
         }
-        .meta {
-            margin-top: 8px;
-            color: #cdd9ff;
+        
+        function showReviewList() {
+            const reviewWords = JSON.parse(localStorage.getItem('reviewWords') || '[]');
+            
+            if (reviewWords.length === 0) {
+                alert('🔄 复习列表为空\n\n所有单词都已掌握，太棒了！🎉');
+            } else {
+                alert(`🔄 复习列表 (${reviewWords.length}个单词)：
+                
+${reviewWords.map((word, index) => `${index + 1}. ${word}`).join('\n')}
+
+点击单词卡片上的"加入复习"按钮可以添加更多单词到复习列表。`);
+            }
         }
-        .ex {
-            margin-top: 6px;
-            color: #a9b8db;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding-top: 20px;
-            border-top: 1px solid #334155;
-            color: #64748b;
-            font-size: 14px;
-        }
-    </style>
-</head>
-<body>
-    <div class="wrap">
-        <h1>📘 今日10个单词</h1>
-        <div class="sub">2026年2月17日星期二 • 点击单词播放发音</div>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">1. resilient</div>
-                    <div class="ph">/rɪˈzɪliənt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_0')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 有弹性的；恢复力强的
-            </div>
-            <div class="ex">例句：The economy has shown resilient growth.</div>
-            <audio id="audio_0" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">2. iterate</div>
-                    <div class="ph">/ˈɪtəreɪt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_1')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>v.</b> 迭代改进
-            </div>
-            <div class="ex">例句：We iterate the design based on feedback.</div>
-            <audio id="audio_1" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">3. coherent</div>
-                    <div class="ph">/koʊˈhɪrənt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_2')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 连贯的；条理清晰的
-            </div>
-            <div class="ex">例句：Her explanation is clear and coherent.</div>
-            <audio id="audio_2" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">4. succinct</div>
-                    <div class="ph">/səkˈsɪŋkt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_3')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 简洁的；言简意赅的
-            </div>
-            <div class="ex">例句：Please give a succinct summary.</div>
-            <audio id="audio_3" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">5. optimize</div>
-                    <div class="ph">/ˈɑːptɪmaɪz/</div>
-                </div>
-                <button class="btn" onclick="play('audio_4')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>v.</b> 优化
-            </div>
-            <div class="ex">例句：We optimize the workflow for speed.</div>
-            <audio id="audio_4" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">6. diligent</div>
-                    <div class="ph">/ˈdɪlɪdʒənt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_5')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 勤奋的；用功的
-            </div>
-            <div class="ex">例句：He is diligent in reviewing notes every day.</div>
-            <audio id="audio_5" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">7. efficient</div>
-                    <div class="ph">/ɪˈfɪʃənt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_6')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 高效的
-            </div>
-            <div class="ex">例句：The new process is more efficient.</div>
-            <audio id="audio_6" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">8. nuance</div>
-                    <div class="ph">/ˈnuːɑːns/</div>
-                </div>
-                <button class="btn" onclick="play('audio_7')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>n.</b> 细微差别
-            </div>
-            <div class="ex">例句：He noticed the nuance in her tone.</div>
-            <audio id="audio_7" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">9. validate</div>
-                    <div class="ph">/ˈvælɪdeɪt/</div>
-                </div>
-                <button class="btn" onclick="play('audio_8')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>v.</b> 验证；确认有效
-            </div>
-            <div class="ex">例句：We validate the results before launch.</div>
-            <audio id="audio_8" preload="auto"></audio>
-        </article>
-        <article class="card">
-            <div class="top">
-                <div>
-                    <div class="word">10. feasible</div>
-                    <div class="ph">/ˈfiːzəbəl/</div>
-                </div>
-                <button class="btn" onclick="play('audio_9')">🔊 发音</button>
-            </div>
-            <div class="meta">
-                <b>adj.</b> 可行的
-            </div>
-            <div class="ex">例句：This plan is feasible within two weeks.</div>
-            <audio id="audio_9" preload="auto"></audio>
-        </article>
-        <footer>
-            <p>词汇学习系统 • 每日进步一点点</p>
-            <p>最后更新: 2026/2/17 14:41:35</p>
-        </footer>
-    </div>
-    
-    <script>
-        function play(audioId) {
-            const audio = document.getElementById(audioId);
-            // 这里可以添加音频播放逻辑
-            console.log('播放: ' + audioId);
+        
+        // 页面初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 恢复学习状态
+            const learnedWords = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            learnedWords.forEach(word => {
+                const card = document.querySelector(`.word-card:has(.word:contains("${word}"))`);
+                if (card) {
+                    card.style.opacity = '0.9';
+                    card.style.borderColor = '#10b981';
+                    
+                    const button = card.querySelector('.btn-primary');
+                    if (button) {
+                        button.innerHTML = '✅ 已学习';
+                        button.classList.remove('btn-primary');
+                        button.classList.add('btn-success');
+                        button.disabled = true;
+                    }
+                }
+            });
+            
+            updateLearningStats();
+            
+            // 添加键盘快捷键
+            document.addEventListener('keydown', function(e) {
+                // 空格键：播放/暂停
+                if (e.code === 'Space' && !e.target.matches('input, textarea')) {
+                    e.preventDefault();
+                    if (isPlayingAll) {
+                        stopAllAudio();
+                    } else {
+                        playAllWords();
+                    }
+                }
+                
+                // ESC键：停止所有发音
+                if (e.code === 'Escape') {
+                    stopAllAudio();
+                }
+                
+                // 数字键1-0：快速标记为已学
+                if (e.code >= 'Digit1' && e.code <= 'Digit0' && e.ctrlKey) {
+                    const index = e.code === 'Digit0' ? 9 : parseInt(e.code.slice(-1)) - 1;
+                    const words = [
+                        'election', 'parliament', 'inflation', 'GDP',
+                        'inequality', 'reform', 'diplomacy', 'summit',
+                        'innovation', 'climate'
+                    ];
+                    
+                    if (words[index]) {
+                        // 模拟点击标记按钮
+                        const card = document.querySelector(`.word-card:has(.word:contains("${words[index]}"))`);
+                        const button = card?.querySelector('.btn-primary');
+                        if (button) {
+                            button.click();
+                        }
+                    }
+                }
+            });
+            
+            // 添加触摸设备优化
+            if ('ontouchstart' in window) {
+                document.body.classList.add('touch-device');
+                
+                // 增加点击区域
+                const buttons = document.querySelectorAll('.btn, .pronunciation-btn');
+                buttons.forEach(btn => {
+                    btn.style.minHeight = '44px';
+                    btn.style.minWidth = '44px';
+                });
+            }
+            
+            console.log('📰 新闻词汇学习页面加载完成');
+            console.log('💡 提示：按空格键播放/暂停，按ESC键停止发音');
+        });
+        
+        // 页面卸载前保存状态
+        window.addEventListener('beforeunload', function() {
+            // 可以在这里添加保存学习进度的逻辑
+        });
+        
+        // 错误处理
+        window.addEventListener('error', function(e) {
+            console.error('页面错误:', e.error);
+        });
+        
+        // 语音合成API可用性检查
+        if (!('speechSynthesis' in window)) {
+            console.warn('⚠️ 浏览器不支持语音合成API，发音功能将不可用');
+            const buttons = document.querySelectorAll('.pronunciation-btn, .global-btn');
+            buttons.forEach(btn => {
+                btn.disabled = true;
+                btn.title = '发音功能不可用（浏览器不支持）';
+            });
         }
     </script>
 </body>
