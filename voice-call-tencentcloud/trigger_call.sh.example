@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+curl -sS -X POST http://127.0.0.1:3110/call \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "to":"+8618502825799",
+    "templateParamSet":["Boss","现在是提醒时间"],
+    "playTimes":2
+  }'
