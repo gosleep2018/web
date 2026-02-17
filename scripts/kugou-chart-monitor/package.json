@@ -1,0 +1,13 @@
+{
+  "name": "kugou-chart-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node kugou-chart-monitor.js",
+    "test": "node kugou-chart-monitor.js --dry-run"
+  },
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}
