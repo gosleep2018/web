@@ -1,168 +1,163 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CNN/BBC 每日10词（可发音+可复习）</title>
-  <style>
-    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
-    .wrap{max-width:960px;margin:0 auto;padding:20px}
-    h1{font-size:28px;margin:0 0 10px;color:#60a5fa}
-    .sub{color:#94a3b8;margin-bottom:16px}
-    .bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}
-    button{border:0;border-radius:10px;padding:10px 14px;cursor:pointer;color:#fff;background:#2563eb}
-    button.warn{background:#ef4444}button.alt{background:#475569}
-    .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px;margin:12px 0}
-    .word{font-size:24px;font-weight:700}.ph{color:#94a3b8;font-style:italic}
-    .row{margin-top:8px;line-height:1.6}.zh{color:#fbbf24}
-    .example{padding:10px;border-left:3px solid #60a5fa;background:#0f172a;border-radius:8px;margin-top:8px}
-    .history{margin-top:28px}.history h2{font-size:20px;color:#93c5fd}
-    details{background:#111827;border:1px solid #334155;border-radius:10px;padding:8px 12px;margin:8px 0}
-    summary{cursor:pointer;color:#cbd5e1}
-    .tag{display:inline-block;background:#334155;color:#e2e8f0;border-radius:999px;padding:2px 8px;margin:4px 6px 0 0;font-size:12px}
-    .muted{color:#94a3b8;font-size:13px}
-  </style>
-</head>
-<body>
-<div class="wrap">
-  <h1>🎧 CNN/BBC 每日10词</h1>
-  <div class="sub">恢复：单词发音 + 例句发音 + 中文解释 + 英文释义 + 历史复习</div>
-  <div class="bar">
-    <button onclick="playAllWords()">🔊 播放今日10词</button>
-    <button onclick="playAllExamples()">🎧 播放今日例句</button>
-    <button class="warn" onclick="stopAll()">⏹ 停止</button>
-    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取今日10词</button>
-  </div>
-  <div id="today"></div>
-
-  <div class="history">
-    <h2>📚 历史记录（复习）</h2>
-    <div class="muted">自动记录每天的10个单词。可点开按日期复习。</div>
-    <div id="history"></div>
-  </div>
-</div>
-
-<script>
-const VOCAB = [
-  ["election","/ɪˈlekʃn/","选举","A formal voting process to choose leaders.","The presidential election will be held next month.","总统选举将于下个月举行。","CNN"],
-  ["summit","/ˈsʌmɪt/","峰会","A high-level meeting between leaders.","World leaders will attend the climate summit.","世界领导人将出席气候峰会。","CNN"],
-  ["parliament","/ˈpɑːrləmənt/","议会","A country’s main law-making body.","The bill was passed by parliament yesterday.","该法案昨天在议会通过。","BBC"],
-  ["innovation","/ˌɪnəˈveɪʃn/","创新","A new method, idea, or product.","Technological innovation is driving growth.","技术创新正在推动增长。","BBC"],
-  ["inequality","/ˌɪnɪˈkwɒləti/","不平等","Lack of equality in society.","The report highlights income inequality.","报告强调了收入不平等。","BBC"],
-  ["inflation","/ɪnˈfleɪʃn/","通货膨胀","A general rise in prices.","Inflation has reached a 10-year high.","通胀达到十年高位。","BBC"],
-  ["climate","/ˈklaɪmət/","气候","Long-term weather patterns.","Climate change is affecting weather patterns.","气候变化正在影响天气模式。","CNN"],
-  ["reform","/rɪˈfɔːrm/","改革","A change made to improve a system.","Education reform is a key priority.","教育改革是重点。","CNN"],
-  ["diplomacy","/dɪˈpləʊməsi/","外交","Managing international relations.","Diplomacy reduced tensions in the region.","外交缓和了地区紧张局势。","BBC"],
-  ["GDP","/ˌdʒiː diː ˈpiː/","国内生产总值","Total value of goods/services produced.","GDP grew by 3% this quarter.","本季度GDP增长3%。","CNN"],
-  ["sanction","/ˈsæŋkʃn/","制裁","A penalty imposed by one country on another.","New sanctions were announced on Friday.","周五宣布了新制裁。","BBC"],
-  ["ceasefire","/ˈsiːsfaɪə(r)/","停火","An agreement to stop fighting.","Both sides agreed to a temporary ceasefire.","双方同意临时停火。","CNN"],
-  ["coalition","/ˌkəʊəˈlɪʃn/","联盟","A temporary alliance for combined action.","A coalition government was formed.","联合政府成立了。","BBC"],
-  ["tariff","/ˈtærɪf/","关税","A tax on imported goods.","The new tariff affects steel imports.","新关税影响钢铁进口。","CNN"],
-  ["benchmark","/ˈbentʃmɑːk/","基准","A standard for comparison.","Oil prices hit a new benchmark.","油价触及新基准。","BBC"],
-  ["volatility","/ˌvɒləˈtɪləti/","波动性","Frequent and large changes.","Markets showed high volatility today.","今天市场波动较大。","CNN"],
-  ["consensus","/kənˈsensəs/","共识","General agreement among a group.","Economists reached a consensus on rates.","经济学家对利率形成共识。","BBC"],
-  ["fiscal","/ˈfɪskl/","财政的","Related to government revenue and spending.","Fiscal policy will be tightened.","财政政策将收紧。","CNN"],
-  ["stimulus","/ˈstɪmjələs/","刺激措施","Action to encourage economic activity.","The government announced a stimulus package.","政府宣布刺激方案。","BBC"],
-  ["sovereignty","/ˈsɒvrənti/","主权","A state's authority to govern itself.","The debate focused on national sovereignty.","讨论聚焦国家主权。","CNN"]
-];
-
-let currentUtterances = [];
-
-function dateKey(){
-  const d = new Date();
-  const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
-  return `${y}-${m}-${day}`;
-}
-
-function seededShuffle(arr, seedStr){
-  let seed = [...seedStr].reduce((a,c)=>a+c.charCodeAt(0),0) || 1;
-  const a = arr.slice();
-  for(let i=a.length-1;i>0;i--){
-    seed = (seed * 9301 + 49297) % 233280;
-    const j = Math.floor((seed/233280)*(i+1));
-    [a[i],a[j]]=[a[j],a[i]];
-  }
-  return a;
-}
-
-function getTodayWords(forceNew=false){
-  const k = dateKey();
-  const store = JSON.parse(localStorage.getItem('vocabHistory')||'{}');
-  if(!forceNew && store[k] && store[k].length===10) return store[k];
-  const picked = seededShuffle(VOCAB, k + (forceNew?'-force':'' )).slice(0,10);
-  store[k]=picked;
-  localStorage.setItem('vocabHistory', JSON.stringify(store));
-  return picked;
-}
-
-function speak(text){
-  stopAll();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang='en-US';
-  speechSynthesis.speak(u);
-  currentUtterances=[u];
-}
-
-function stopAll(){ speechSynthesis.cancel(); currentUtterances=[]; }
-
-function playWord(w){ speak(w); }
-function playExample(s){ speak(s); }
-function playDef(s){ speak(s); }
-
-async function playAllWords(){
-  stopAll();
-  const words=getTodayWords();
-  for(const w of words){ await speakAsync(w[0]); }
-}
-async function playAllExamples(){
-  stopAll();
-  const words=getTodayWords();
-  for(const w of words){ await speakAsync(w[4]); }
-}
-function speakAsync(text){
-  return new Promise(resolve=>{
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang='en-US';
-    u.onend=()=>resolve(); u.onerror=()=>resolve();
-    speechSynthesis.speak(u);
-  });
-}
-
-function renderToday(forceNew=false){
-  const box=document.getElementById('today');
-  const words=getTodayWords(forceNew);
-  box.innerHTML = `<div class="muted">今日日期：${dateKey()}（10个）</div>` + words.map((w,i)=>`
-    <div class="card">
-      <div class="word">${i+1}. ${w[0]}</div>
-      <div class="ph">${w[1]}</div>
-      <div class="row zh">中文解释：${w[2]}</div>
-      <div class="row">英文释义：${w[3]}</div>
-      <div class="example">
-        <div>${w[4]}</div>
-        <div class="muted">${w[5]} · Source: ${w[6]}</div>
-      </div>
-      <div class="bar">
-        <button onclick="playWord('${w[0].replace(/'/g,"\\'")}')">🔊 单词发音</button>
-        <button onclick="playExample('${w[4].replace(/'/g,"\\'")}')">🎧 例句发音</button>
-        <button class="alt" onclick="playDef('${w[3].replace(/'/g,"\\'")}')">📖 释义发音</button>
-      </div>
-    </div>`).join('');
-}
-
-function renderHistory(){
-  const el=document.getElementById('history');
-  const store=JSON.parse(localStorage.getItem('vocabHistory')||'{}');
-  const days=Object.keys(store).sort().reverse();
-  if(!days.length){ el.innerHTML='<div class="muted">暂无历史记录，今日访问后将自动记录。</div>'; return; }
-  el.innerHTML = days.map(day=>{
-    const arr=store[day]||[];
-    return `<details><summary>${day}（${arr.length}词）</summary><div style="margin-top:8px">${arr.map(x=>`<span class='tag'>${x[0]}</span>`).join('')}</div></details>`;
-  }).join('');
-}
-
-function refreshToday(force){ renderToday(force); renderHistory(); }
-
-refreshToday(false);
-</script>
-</body>
-</html>
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>新闻词汇 - 微软TTS发音 + 英语释义</title><style>*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0f172a;color:#f8fafc;padding:20px}header{text-align:center;padding:20px 0;border-bottom:1px solid #334155;margin-bottom:20px}h1{color:#2563eb;margin-bottom:10px}.feature-badge{background:linear-gradient(135deg,#0078d4,#00bcf2);color:#fff;padding:8px 16px;border-radius:10px;display:inline-block;margin:10px 0;font-size:.9rem}.word-card{background:#1e293b;border:1px solid #334155;border-radius:10px;padding:20px;margin-bottom:20px}.word{font-size:1.5rem;font-weight:bold;color:#f8fafc}.phonetic{color:#94a3b8;font-style:italic;margin:5px 0}.pos{background:rgba(37,99,235,.2);color:#2563eb;padding:4px 10px;border-radius:6px;font-size:.9rem}.meaning{color:#f8fafc;margin:10px 0}.english-def{background:rgba(0,120,212,.1);border-left:3px solid #0078d4;padding:12px;margin:10px 0;border-radius:0 8px 8px 0;font-size:.95rem;line-height:1.5}.example{background:rgba(30,41,59,.5);border-left:3px solid #2563eb;padding:12px;margin:10px 0;border-radius:0 8px 8px 0}.example-text{font-size:1rem;line-height:1.5}.example-trans{color:#94a3b8;font-size:.9rem;margin-top:5px;font-style:italic}.audio-controls{display:flex;flex-wrap:wrap;gap:10px;margin:15px 0}.audio-btn{background:#0078d4;color:#fff;border:none;padding:10px 15px;border-radius:8px;font-size:.9rem;cursor:pointer;display:flex;align-items:center;gap:8px;transition:all .2s}.audio-btn:hover{background:#106ebe;transform:translateY(-1px)}.audio-btn.example{background:#f59e0b}.audio-btn.example:hover{background:#d97706}.audio-btn.stop{background:#ef4444}.audio-btn.stop:hover{background:#dc2626}.global-controls{position:fixed;bottom:30px;right:30px;display:flex;gap:10px;z-index:1000}.global-btn{background:#0078d4;color:#fff;border:none;border-radius:50%;width:60px;height:60px;font-size:1.2rem;cursor:pointer;box-shadow:0 5px 15px rgba(0,0,0,.3);transition:all .3s}.global-btn:hover{transform:scale(1.1)}.global-btn.example{background:#f59e0b}.global-btn.stop{background:#ef4444}footer{text-align:center;padding:30px 0;margin-top:40px;border-top:1px solid #334155;color:#94a3b8;font-size:.9rem}@media(max-width:768px){body{padding:15px}.global-controls{bottom:20px;right:20px}.global-btn{width:50px;height:50px;font-size:1rem}}</style></head><body><header><h1>📰 CNN/BBC 新闻词汇</h1><div class="feature-badge">🎧 微软TTS发音 • 📖 英语释义 • ⏹ 停止按钮</div><p style="color:#94a3b8">2026年2月17日星期二 | 每日8:00更新 | 目标：听懂CNN/BBC</p></header><div class="word-card"><div class="word">election</div><div class="phonetic">/ɪˈlekʃn/</div><span class="pos">n.</span><div class="meaning">选举</div><div class="english-def"><strong>📖 英语释义：</strong>A formal decision-making process by which a population chooses an individual or multiple individuals to hold public office.<button class="audio-btn" onclick="playDef('A formal decision-making process by which a population chooses an individual or multiple individuals to hold public office.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('election')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('The presidential election will be held next month.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">The presidential election will be held next month.</div><div class="example-trans">总统选举将于下个月举行。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：CNN</div></div></div><div class="word-card"><div class="word">summit</div><div class="phonetic">/ˈsʌmɪt/</div><span class="pos">n.</span><div class="meaning">峰会</div><div class="english-def"><strong>📖 英语释义：</strong>A meeting between heads of government.<button class="audio-btn" onclick="playDef('A meeting between heads of government.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('summit')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('World leaders will attend the climate summit.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">World leaders will attend the climate summit.</div><div class="example-trans">世界领导人将出席气候峰会。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：CNN</div></div></div><div class="word-card"><div class="word">parliament</div><div class="phonetic">/ˈpɑːrləmənt/</div><span class="pos">n.</span><div class="meaning">议会</div><div class="english-def"><strong>📖 英语释义：</strong>The supreme legislative body of a country, typically composed of elected representatives.<button class="audio-btn" onclick="playDef('The supreme legislative body of a country, typically composed of elected representatives.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('parliament')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('The bill was passed by parliament yesterday.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">The bill was passed by parliament yesterday.</div><div class="example-trans">该法案昨天在议会获得通过。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：BBC</div></div></div><div class="word-card"><div class="word">innovation</div><div class="phonetic">/ˌɪnəˈveɪʃn/</div><span class="pos">n.</span><div class="meaning">创新</div><div class="english-def"><strong>📖 英语释义：</strong>The action or process of innovating; a new method, idea, product, etc.<button class="audio-btn" onclick="playDef('The action or process of innovating; a new method, idea, product, etc.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('innovation')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('Technological innovation is driving economic growth.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">Technological innovation is driving economic growth.</div><div class="example-trans">技术创新正在推动经济增长。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：BBC</div></div></div><div class="word-card"><div class="word">inequality</div><div class="phonetic">/ˌɪnɪˈkwɑːləti/</div><span class="pos">n.</span><div class="meaning">不平等</div><div class="english-def"><strong>📖 英语释义：</strong>Difference in size, degree, circumstances, or lack of equality.<button class="audio-btn" onclick="playDef('Difference in size, degree, circumstances, or lack of equality.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('inequality')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('The report highlights growing income inequality.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">The report highlights growing income inequality.</div><div class="example-trans">报告强调了日益加剧的收入不平等。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：BBC</div></div></div><div class="word-card"><div class="word">GDP</div><div class="phonetic">/ˌdʒiː diː ˈpiː/</div><span class="pos">n.</span><div class="meaning">国内生产总值</div><div class="english-def"><strong>📖 英语释义：</strong>Gross Domestic Product - the total value of goods produced and services provided in a country during one year.<button class="audio-btn" onclick="playDef('Gross Domestic Product - the total value of goods produced and services provided in a country during one year.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('GDP')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('The country\'s GDP grew by 3% this quarter.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">The country's GDP grew by 3% this quarter.</div><div class="example-trans">该国本季度GDP增长3%。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：CNN</div></div></div><div class="word-card"><div class="word">inflation</div><div class="phonetic">/ɪnˈfleɪʃn/</div><span class="pos">n.</span><div class="meaning">通货膨胀</div><div class="english-def"><strong>📖 英语释义：</strong>A general increase in prices and fall in the purchasing value of money.<button class="audio-btn" onclick="playDef('A general increase in prices and fall in the purchasing value of money.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('inflation')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('Inflation rates have reached a 10-year high.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">Inflation rates have reached a 10-year high.</div><div class="example-trans">通货膨胀率达到10年来的最高水平。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：BBC</div></div></div><div class="word-card"><div class="word">climate</div><div class="phonetic">/ˈklaɪmət/</div><span class="pos">n.</span><div class="meaning">气候</div><div class="english-def"><strong>📖 英语释义：</strong>The weather conditions prevailing in an area in general or over a long period.<button class="audio-btn" onclick="playDef('The weather conditions prevailing in an area in general or over a long period.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('climate')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('Climate change is affecting weather patterns.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">Climate change is affecting weather patterns.</div><div class="example-trans">气候变化正在影响天气模式。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：CNN</div></div></div><div class="word-card"><div class="word">reform</div><div class="phonetic">/rɪˈfɔːrm/</div><span class="pos">n./v.</span><div class="meaning">改革</div><div class="english-def"><strong>📖 英语释义：</strong>Make changes in something, typically a social, political, or economic institution or practice, in order to improve it.<button class="audio-btn" onclick="playDef('Make changes in something, typically a social, political, or economic institution or practice, in order to improve it.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('reform')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('Education reform is a key priority.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">Education reform is a key priority.</div><div class="example-trans">教育改革是首要任务。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：CNN</div></div></div><div class="word-card"><div class="word">diplomacy</div><div class="phonetic">/dɪˈploʊməsi/</div><span class="pos">n.</span><div class="meaning">外交</div><div class="english-def"><strong>📖 英语释义：</strong>The profession, activity, or skill of managing international relations, typically by a country's representatives abroad.<button class="audio-btn" onclick="playDef('The profession, activity, or skill of managing international relations, typically by a country\'s representatives abroad.')" style="margin-top:10px;background:#10b981">🔊 听英语释义</button></div><div class="audio-controls"><button class="audio-btn" onclick="playWord('diplomacy')">🔊 单词发音</button><button class="audio-btn example" onclick="playExample('Diplomatic efforts continue through peaceful diplomacy.')">🎧 例句朗读</button><button class="audio-btn stop" onclick="stopAll()" style="display:none">⏹ 停止</button></div><div class="example"><div class="example-text">Diplomatic efforts continue through peaceful diplomacy.</div><div class="example-trans">外交努力继续通过和平外交进行。</div><div style="color:#94a3b8;font-size:.8rem;margin-top:10px">来源：BBC</div></div></div><div class="global-controls"><button class="global-btn" onclick="playAllWords()" title="播放所有单词">🔊</button><button class="global-btn example" onclick="playAllExamples()" title="播放所有例句">🎧</button><button class="global-btn stop" onclick="stopAll()" title="停止所有发音" style="display:none">⏹</button></div><footer><p>📰 CNN/BBC新闻词汇学习系统 • 微软TTS发音 + 英语释义</p><p>⏰ 每日8:00更新 • 🌐 https://gosleep2018.github.io/web/</p><p>最后更新：2026/2/17 15:39:12</p></footer><script>
+        // 微软TTS发音系统 - 最终修复版
+        let isPlaying = false;
+        let microsoftVoice = null;
+        
+        // 初始化微软语音
+        function initMicrosoftVoice() {
+            if ('speechSynthesis' in window) {
+                const voices = speechSynthesis.getVoices();
+                
+                // 优先选择微软语音
+                microsoftVoice = voices.find(voice => 
+                    voice.name.includes('Microsoft') || 
+                    voice.name.includes('David') || 
+                    voice.name.includes('Zira') ||
+                    voice.name.includes('Mark') ||
+                    voice.name.includes('Google US English') ||
+                    voice.name.includes('Samantha')
+                );
+                
+                if (!microsoftVoice && voices.length > 0) {
+                    microsoftVoice = voices.find(v => v.lang === 'en-US') || voices[0];
+                }
+            }
+        }
+        
+        // 使用微软TTS发音 - 所有发音都使用这个函数
+        function speakWithMicrosoftTTS(text, rate = 1.0) {
+            if ('speechSynthesis' in window) {
+                stopAll();
+                
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = rate;
+                utterance.volume = 1;
+                utterance.pitch = 1;
+                
+                if (microsoftVoice) {
+                    utterance.voice = microsoftVoice;
+                }
+                
+                isPlaying = true;
+                
+                utterance.onend = function() {
+                    isPlaying = false;
+                    updateStop();
+                };
+                
+                utterance.onerror = function() {
+                    isPlaying = false;
+                    updateStop();
+                };
+                
+                speechSynthesis.speak(utterance);
+                updateStop();
+            }
+        }
+        
+        // 播放单词发音（微软TTS）
+        function playWord(word) {
+            speakWithMicrosoftTTS(word, 0.8);
+        }
+        
+        // 播放例句（微软TTS，更自然）
+        function playExample(text) {
+            speakWithMicrosoftTTS(text, 0.75);
+        }
+        
+        // 播放英语释义（微软TTS，最清晰）
+        function playDef(text) {
+            speakWithMicrosoftTTS(text, 0.7);
+        }
+        
+        // 播放所有单词（微软TTS）
+        function playAllWords() {
+            const words = []; // 会被替换
+            let index = 0;
+            
+            function playNext() {
+                if (index < words.length && isPlaying) {
+                    playWord(words[index]);
+                    index++;
+                    setTimeout(playNext, 2000);
+                }
+            }
+            
+            stopAll();
+            isPlaying = true;
+            updateStop();
+            playNext();
+        }
+        
+        // 播放所有例句（微软TTS）
+        function playAllExamples() {
+            const examples = []; // 会被替换
+            let index = 0;
+            
+            function playNext() {
+                if (index < examples.length && isPlaying) {
+                    playExample(examples[index]);
+                    index++;
+                    setTimeout(playNext, 3000);
+                }
+            }
+            
+            stopAll();
+            isPlaying = true;
+            updateStop();
+            playNext();
+        }
+        
+        // 停止所有音频
+        function stopAll() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+            }
+            isPlaying = false;
+            updateStop();
+        }
+        
+        // 更新停止按钮
+        function updateStop() {
+            document.querySelectorAll('.audio-btn.stop, .global-btn.stop').forEach(btn => {
+                if (isPlaying) {
+                    btn.style.display = 'flex';
+                    btn.disabled = false;
+                } else {
+                    btn.style.display = 'none';
+                    btn.disabled = true;
+                }
+            });
+        }
+        
+        // 键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                if (isPlaying) stopAll();
+                else playAllWords();
+            }
+            if (e.code === 'KeyE' && e.ctrlKey) {
+                e.preventDefault();
+                playAllExamples();
+            }
+            if (e.code === 'Escape') {
+                stopAll();
+            }
+        });
+        
+        // 页面初始化
+        document.addEventListener('DOMContentLoaded', function() {
+            // 初始化微软语音
+            setTimeout(initMicrosoftVoice, 500);
+            updateStop();
+            
+            if (!('speechSynthesis' in window)) {
+                alert('⚠️ 您的浏览器不支持语音合成功能');
+                document.querySelectorAll('.audio-btn, .global-btn').forEach(btn => {
+                    btn.disabled = true;
+                });
+            }
+        });
+    </script></body></html>
