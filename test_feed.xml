@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AI每日新闻简报</title>
+    <description>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</description>
+    <link>https://ai-daily-news.test</link>
+    <language>zh-cn</language>
+    <copyright>Copyright 2026 AI新闻主播</copyright>
+    <lastBuildDate>Wed, 18 Feb 2026 09:45:00 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2026 09:45:00 GMT</pubDate>
+    <itunes:author>AI新闻主播</itunes:author>
+    <itunes:summary>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</itunes:summary>
+    <itunes:owner>
+      <itunes:name>AI新闻主播</itunes:name>
+      <itunes:email>gosleep@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="News"/>
+    <itunes:image href="https://via.placeholder.com/1400x1400/0d6efd/ffffff?text=AI+Daily+News"/>
+    
+    <!-- 测试episode 1 -->
+    <item>
+      <title>测试集：财经新闻解读</title>
+      <description>测试音频：美国股市动态、加密货币市场分析、亚洲经济展望。</description>
+      <pubDate>Wed, 18 Feb 2026 09:45:00 GMT</pubDate>
+      <guid isPermaLink="false">test-episode-1</guid>
+      <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" length="1024000" type="audio/mpeg"/>
+      <itunes:duration>03:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+    </item>
+    
+    <!-- 测试episode 2 -->
+    <item>
+      <title>测试集：科技创新动态</title>
+      <description>测试音频：AI技术进展、科技公司财报、数字化转型趋势。</description>
+      <pubDate>Tue, 17 Feb 2026 09:45:00 GMT</pubDate>
+      <guid isPermaLink="false">test-episode-2</guid>
+      <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" length="1024000" type="audio/mpeg"/>
+      <itunes:duration>03:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+    </item>
+    
+    <!-- 测试episode 3 -->
+    <item>
+      <title>测试集：国际关系分析</title>
+      <description>测试音频：中美关系、欧洲政策、亚太合作、全球治理。</description>
+      <pubDate>Mon, 16 Feb 2026 09:45:00 GMT</pubDate>
+      <guid isPermaLink="false">test-episode-3</guid>
+      <enclosure url="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" length="1024000" type="audio/mpeg"/>
+      <itunes:duration>03:30</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+    </item>
+  </channel>
+</rss>
