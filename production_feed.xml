@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>AI每日新闻简报</title>
+    <description>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</description>
+    <link>https://gosleep2018.github.io/web/</link>
+    <language>zh-cn</language>
+    <copyright>Copyright 2026 AI新闻主播</copyright>
+    <lastBuildDate>Wed, 18 Feb 2026 09:50:00 GMT</lastBuildDate>
+    <pubDate>Wed, 18 Feb 2026 09:50:00 GMT</pubDate>
+    <itunes:author>AI新闻主播</itunes:author>
+    <itunes:summary>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</itunes:summary>
+    <itunes:owner>
+      <itunes:name>AI新闻主播</itunes:name>
+      <itunes:email>gosleep@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="News"/>
+    <itunes:image href="https://gosleep2018.github.io/web/podcast_cover_professional.jpg"/>
+    
+    <!-- 今日播客 -->
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态上涨0.8%，中美高层会谈在日内瓦举行，OpenAI发布新一代语言模型，比特币突破65,000美元，欧盟通过人工智能法案。</description>
+      <pubDate>Wed, 18 Feb 2026 08:30:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://gosleep2018.github.io/web/podcast_2026-02-18_part1.mp3" length="18432" type="audio/mpeg"/>
+      <itunes:duration>00:15</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+    </item>
+  </channel>
+</rss>
