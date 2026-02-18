@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CNN/BBC 每日10词 - Azure TTS + 词根词缀</title>
+  <title>CNN/BBC 每日10词 - 浏览器TTS + 词根词缀</title>
   <style>
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
     .wrap{max-width:960px;margin:0 auto;padding:20px}
@@ -20,38 +20,34 @@
     .etymology{background:rgba(37,99,235,0.1);border-left:3px solid #2563eb;padding:12px;margin:10px 0;border-radius:0 8px 8px 0}
     .etymology-title{color:#60a5fa;font-weight:600;margin-bottom:6px}
     .example{padding:12px;border-left:3px solid #10b981;background:rgba(16,185,129,0.1);border-radius:0 8px 8px 0;margin-top:10px}
-    .history{margin-top:28px}.history h2{font-size:20px;color:#93c5fd}
-    details{background:#111827;border:1px solid #334155;border-radius:10px;padding:8px 12px;margin:8px 0}
-    summary{cursor:pointer;color:#cbd5e1}
     .tag{display:inline-block;background:#334155;color:#e2e8f0;border-radius:999px;padding:4px 10px;margin:4px 6px 4px 0;font-size:12px}
     .tag.prefix{background:#3b82f6}.tag.root{background:#10b981}.tag.suffix{background:#8b5cf6}.tag.related{background:#f59e0b}
     .muted{color:#94a3b8;font-size:13px}
-    .audio-status{display:inline-block;margin-left:8px;font-size:12px}
-    .tips{background:rgba(245,158,11,0.1);border-left:3px solid #f59e0b;padding:12px;margin:15px 0;border-radius:0 8px 8px 0}
-    .loading{display:none;color:#60a5fa;margin-left:8px}
-    .tts-badge{background:#3b82f6;color:white;padding:2px 8px;border-radius:4px;font-size:12px;margin-left:8px}
+    .tts-badge{background:#10b981;color:white;padding:2px 8px;border-radius:4px;font-size:12px;margin-left:8px}
+    .voice-select{margin-left:10px;padding:5px;border-radius:5px;background:#1e293b;color:#e2e8f0;border:1px solid #334155}
+    .tts-status{background:rgba(245,158,11,0.1);border-left:3px solid #f59e0b;padding:12px;margin:15px 0;border-radius:0 8px 8px 0}
   </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>🎯 CNN/BBC 每日10词 <span class="tts-badge">Azure TTS</span></h1>
-  <div class="sub">🤖 微软Azure神经网络TTS • 🎧 词根词缀记忆法 • 📖 深度学习</div>
+  <h1>🎯 CNN/BBC 每日10词 <span class="tts-badge">浏览器TTS</span></h1>
+  <div class="sub">🤖 词根词缀记忆法 • 🎧 浏览器内置语音合成 • 📖 深度学习</div>
   
-  <div class="tips">
-    <div class="etymology-title">🎧 Azure TTS 发音系统</div>
-    <div>• <strong>专业神经网络语音</strong>：微软Azure最高质量语音合成</div>
-    <div>• <strong>三种发音模式</strong>：单词发音 + 例句发音 + 释义发音</div>
-    <div>• <strong>智能控制</strong>：播放/停止 + 批量播放 + 键盘快捷键</div>
-    <div>• <strong>离线缓存</strong>：已播放的音频自动缓存，无需重复请求</div>
+  <div class="tts-status">
+    <div class="etymology-title">🎧 发音系统状态</div>
+    <div id="ttsStatus">正在检查浏览器TTS支持...</div>
+    <div class="muted">使用Chrome/Edge/Safari可获得最佳发音效果</div>
   </div>
   
   <div class="bar">
-    <button onclick="playAllWords()">🔊 播放今日10词 (Azure TTS)</button>
-    <button onclick="playAllExamples()">🎧 播放今日例句 (Azure TTS)</button>
-    <button onclick="playAllDefinitions()">📖 播放今日释义 (Azure TTS)</button>
+    <button onclick="playAllWords()">🔊 播放今日10词</button>
+    <button onclick="playAllExamples()">🎧 播放今日例句</button>
     <button class="warn" onclick="stopAllAudio()">⏹ 停止所有发音</button>
-    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取今日10词</button>
-    <span class="loading" id="loading">加载中...</span>
+    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取</button>
+    <select id="voiceSelect" class="voice-select" onchange="updateVoice()">
+      <option value="en-US">美式英语</option>
+      <option value="en-GB">英式英语</option>
+    </select>
   </div>
   
   <div id="today"></div>
@@ -65,10 +61,9 @@
 
 <script>
 // ==================== 配置 ====================
-const TTS_PROXY_URL = 'http://localhost:3000/tts';
-const TODAY_VOICE = 'en-US-JennyNeural';
-const EXAMPLE_VOICE = 'en-US-JennyNeural';
-const DEF_VOICE = 'en-US-GuyNeural';
+let currentVoice = 'en-US';
+let currentUtterance = null;
+let isPlaying = false;
 
 // ==================== 词汇库 ====================
 const VOCAB_WITH_ETYMOLOGY = [
@@ -231,47 +226,154 @@ const VOCAB_WITH_ETYMOLOGY = [
       memoryTip: "历史：原指港口公布的关税表 → 泛指关税",
       relatedWords: ["customs duty (关税)", "import tax (进口税)", "trade barrier (贸易壁垒)"]
     }
-  },
-  {
-    word: "election",
-    phonetic: "/ɪˈlekʃn/",
-    chinese: "选举",
-    englishDef: "A formal voting process to choose leaders.",
-    example: "The presidential election will be held next month.",
-    exampleTrans: "总统选举将于下个月举行。",
-    source: "CNN",
-    etymology: {
-      prefix: "e- (出，向外)",
-      root: "-lect- (选择，拉丁语 legere)",
-      suffix: "-ion (名词后缀，表示行为或结果)",
-      memoryTip: "字面：选择出来 → 选举",
-      relatedWords: ["select (选择)", "collect (收集)", "elect (选举)", "intellect (智力)"]
-    }
-  },
-  {
-    word: "summit",
-    phonetic: "/ˈsʌmɪt/",
-    chinese: "峰会",
-    englishDef: "A high-level meeting between leaders.",
-    example: "World leaders will attend the climate summit.",
-    exampleTrans: "世界领导人将出席气候峰会。",
-    source: "CNN",
-    etymology: {
-      prefix: "",
-      root: "来自拉丁语 summus (最高的)",
-      suffix: "",
-      memoryTip: "原义：山顶 → 最高点 → 最高级别会议",
-      relatedWords: ["sum (总和)", "summary (摘要)", "consummate (完美的)"]
-    }
   }
 ];
 
-// ==================== 状态管理 ====================
-let currentAudio = null;
-let isPlaying = false;
-const audioCache = new Map();
+// ==================== TTS 核心函数 ====================
+function checkTTSsupport() {
+  const statusEl = document.getElementById('ttsStatus');
+  
+  if (!('speechSynthesis' in window)) {
+    statusEl.innerHTML = '❌ 您的浏览器不支持语音合成功能。<br>建议使用：Chrome、Edge、Safari';
+    statusEl.style.color = '#ef4444';
+    return false;
+  }
+  
+  // 尝试获取可用语音
+  const voices = speechSynthesis.getVoices();
+  if (voices.length === 0) {
+    statusEl.innerHTML = '⚠️ 正在加载语音引擎...（可能需要几秒钟）';
+    statusEl.style.color = '#f59e0b';
+    
+    // 语音加载后更新状态
+    speechSynthesis.onvoiceschanged = () => {
+      const loadedVoices = speechSynthesis.getVoices();
+      if (loadedVoices.length > 0) {
+        statusEl.innerHTML = `✅ TTS已就绪，${loadedVoices.length}个语音可用`;
+        statusEl.style.color = '#10b981';
+      }
+    };
+    
+    // 设置超时检查
+    setTimeout(() => {
+      const finalVoices = speechSynthesis.getVoices();
+      if (finalVoices.length === 0) {
+        statusEl.innerHTML = '⚠️ 语音引擎加载较慢，点击发音按钮可能会延迟响应';
+        statusEl.style.color = '#f59e0b';
+      }
+    }, 3000);
+    
+    return true;
+  }
+  
+  statusEl.innerHTML = `✅ TTS已就绪，${voices.length}个语音可用`;
+  statusEl.style.color = '#10b981';
+  return true;
+}
 
-// ==================== 日期函数 ====================
+function speakText(text, rate = 0.8) {
+  stopAllAudio();
+  
+  if (!('speechSynthesis' in window)) {
+    alert('您的浏览器不支持语音合成功能。请使用Chrome、Edge或Safari浏览器。');
+    return;
+  }
+  
+  currentUtterance = new SpeechSynthesisUtterance(text);
+  currentUtterance.lang = currentVoice;
+  currentUtterance.rate = rate;
+  currentUtterance.volume = 1;
+  
+  currentUtterance.onstart = () => {
+    isPlaying = true;
+    updateAudioStatus();
+  };
+  
+  currentUtterance.onend = () => {
+    isPlaying = false;
+    updateAudioStatus();
+  };
+  
+  currentUtterance.onerror = (err) => {
+    console.error('语音合成错误:', err);
+    isPlaying = false;
+    updateAudioStatus();
+    alert('发音失败，请检查浏览器设置或尝试其他浏览器。');
+  };
+  
+  speechSynthesis.speak(currentUtterance);
+}
+
+function stopAllAudio() {
+  if (speechSynthesis.speaking) {
+    speechSynthesis.cancel();
+  }
+  isPlaying = false;
+  updateAudioStatus();
+}
+
+function updateAudioStatus() {
+  const buttons = document.querySelectorAll('button');
+  buttons.forEach(btn => {
+    if (btn.textContent.includes('停止')) {
+      btn.style.display = isPlaying ? 'inline-block' : 'none';
+    }
+  });
+}
+
+function updateVoice() {
+  currentVoice = document.getElementById('voiceSelect').value;
+}
+
+// ==================== 播放函数 ====================
+function playWord(word) { 
+  speakText(word, 0.7); 
+}
+
+function playExample(sentence) { 
+  speakText(sentence, 0.8); 
+}
+
+function playDef(definition) { 
+  speakText(definition, 0.75); 
+}
+
+async function playAllWords() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    speakText(w.word, 0.7);
+    await waitForSpeechEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function playAllExamples() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    speakText(w.example, 0.8);
+    await waitForSpeechEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+function waitForSpeechEnd() {
+  return new Promise(resolve => {
+    const check = setInterval(() => {
+      if (!isPlaying) {
+        clearInterval(check);
+        resolve();
+      }
+    }, 100);
+  });
+}
+
+// ==================== 日期和存储函数 ====================
 function dateKey(){
   const d = new Date();
   const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
@@ -279,7 +381,7 @@ function dateKey(){
 }
 
 function seededShuffle(arr, seedStr){
-  let seed = [...seedStr].reduce((a,c)=>a+c.charCodeAt(0),0) || 1;
+  At(0),0) || 1;
   const a = arr.slice();
   for(let i=a.length-1;i>0;i--){
     seed = (seed * 9301 + 49297) % 233280;
@@ -299,179 +401,6 @@ function getTodayWords(forceNew=false){
   return picked;
 }
 
-// ==================== Azure TTS 核心函数 ====================
-async function speakWithAzureTTS(text, voice = TODAY_VOICE) {
-  stopAllAudio();
-  
-  // 检查缓存
-  const cacheKey = `${voice}:${text}`;
-  if (audioCache.has(cacheKey)) {
-    console.log('使用缓存音频:', cacheKey);
-    const audioUrl = audioCache.get(cacheKey);
-    return playAudioFromUrl(audioUrl);
-  }
-  
-  showLoading(true);
-  
-  try {
-    const url = `${TTS_PROXY_URL}?text=${encodeURIComponent(text)}&voice=${voice}`;
-    const response = await fetch(url);
-    
-    if (!response.ok) {
-      throw new Error(`TTS请求失败: ${response.status}`);
-    }
-    
-    const audioBlob = await response.blob();
-    const audioUrl = URL.createObjectURL(audioBlob);
-    
-    // 缓存音频
-    audioCache.set(cacheKey, audioUrl);
-    
-    showLoading(false);
-    return playAudioFromUrl(audioUrl);
-    
-  } catch (error) {
-    console.error('Azure TTS失败:', error);
-    showLoading(false);
-    // 降级到Web Speech API
-    speakWithFallback(text);
-  }
-}
-
-function playAudioFromUrl(audioUrl) {
-  currentAudio = new Audio(audioUrl);
-  currentAudio.onended = () => {
-    isPlaying = false;
-    updateAudioStatus();
-  };
-  currentAudio.onerror = (err) => {
-    console.error('音频播放错误:', err);
-    isPlaying = false;
-    updateAudioStatus();
-  };
-  
-  isPlaying = true;
-  updateAudioStatus();
-  return currentAudio.play();
-}
-
-function speakWithFallback(text) {
-  if ('speechSynthesis' in window) {
-    stopAllAudio();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'en-US';
-    utterance.rate = 0.8;
-    
-    utterance.onend = () => {
-      isPlaying = false;
-      updateAudioStatus();
-    };
-    
-    currentAudio = utterance;
-    isPlaying = true;
-    updateAudioStatus();
-    speechSynthesis.speak(utterance);
-  } else {
-    alert('抱歉，您的浏览器不支持语音合成功能。请确保Azure TTS代理服务正在运行。');
-  }
-}
-
-function stopAllAudio() {
-  if (currentAudio instanceof Audio) {
-    currentAudio.pause();
-    currentAudio.currentTime = 0;
-  } else if (currentAudio instanceof SpeechSynthesisUtterance) {
-    speechSynthesis.cancel();
-  }
-  isPlaying = false;
-  updateAudioStatus();
-}
-
-function updateAudioStatus() {
-  const buttons = document.querySelectorAll('button');
-  buttons.forEach(btn => {
-    if (btn.textContent.includes('停止')) {
-      btn.style.display = isPlaying ? 'inline-block' : 'none';
-    }
-  });
-}
-
-function showLoading(show) {
-  document.getElementById('loading').style.display = show ? 'inline-block' : 'none';
-}
-
-// ==================== 播放函数 ====================
-function playWord(word) { 
-  speakWithAzureTTS(word, TODAY_VOICE); 
-}
-
-function playExample(sentence) { 
-  speakWithAzureTTS(sentence, EXAMPLE_VOICE); 
-}
-
-function playDef(definition) { 
-  speakWithAzureTTS(definition, DEF_VOICE); 
-}
-
-async function playAllWords() {
-  const words = getTodayWords();
-  stopAllAudio();
-  
-  for (const w of words) {
-    if (!isPlaying) break;
-    await speakWithAzureTTS(w.word, TODAY_VOICE);
-    await waitForAudioEnd();
-    await new Promise(r => setTimeout(r, 500));
-  }
-}
-
-async function playAllExamples() {
-  const words = getTodayWords();
-  stopAllAudio();
-  
-  for (const w of words) {
-    if (!isPlaying) break;
-    await speakWithAzureTTS(w.example, EXAMPLE_VOICE);
-    await waitForAudioEnd();
-    await new Promise(r => setTimeout(r, 500));
-  }
-}
-
-async function playAllDefinitions() {
-  const words = getTodayWords();
-  stopAllAudio();
-  
-  for (const w of words) {
-    if (!isPlaying) break;
-    await speakWithAzureTTS(w.englishDef, DEF_VOICE);
-    await waitForAudioEnd();
-    await new Promise(r => setTimeout(r, 500));
-  }
-}
-
-function waitForAudioEnd() {
-  return new Promise(resolve => {
-    if (!currentAudio) {
-      resolve();
-      return;
-    }
-    
-    const check = setInterval(() => {
-      if (!isPlaying) {
-        clearInterval(check);
-        resolve();
-      }
-    }, 100);
-    
-    if (currentAudio instanceof Audio) {
-      currentAudio.onended = () => {
-        clearInterval(check);
-        resolve();
-      };
-    }
-  });
-}
-
 // ==================== 渲染函数 ====================
 function renderToday(forceNew=false){
   const box = document.getElementById('today');
@@ -480,7 +409,7 @@ function renderToday(forceNew=false){
   const now = new Date();
   const timeStr = now.toLocaleTimeString('zh-CN', { hour12: false });
   
-  let html = `<div class="muted">今日日期：${today}（10个）• 🎧 Azure TTS • 更新时间: ${timeStr}</div>`;
+  let html = `<div class="muted">今日日期：${today}（10个）• 🎧 浏览器TTS • 更新时间: ${timeStr}</div>`;
   
   words.forEach((w, i) => {
     const etymology = w.etymology;
@@ -523,9 +452,9 @@ function renderToday(forceNew=false){
       </div>
       
       <div class="bar">
-        <button onclick="playWord('${w.word.replace(/'/g, "\\'")}')">🔊 单词发音 (Azure)</button>
-        <button onclick="playExample('${w.example.replace(/'/g, "\\'")}')">🎧 例句发音 (Azure)</button>
-        <button class="alt" onclick="playDef('${w.englishDef.replace(/'/g, "\\'")}')">📖 释义发音 (Azure)</button>
+        <button onclick="playWord('${w.word.replace(/'/g, "\\'")}')">🔊 单词发音</button>
+        <button onclick="playExample('${w.example.replace(/'/g, "\\'")}')">🎧 例句发音</button>
+        <button class="alt" onclick="playDef('${w.englishDef.replace(/'/g, "\\'")}')">📖 释义发音</button>
         <button class="warn" onclick="stopAllAudio()" style="display:none">⏹ 停止</button>
       </div>
     </div>`;
@@ -558,37 +487,23 @@ function refreshToday(force) {
 
 // ==================== 初始化 ====================
 document.addEventListener('DOMContentLoaded', () => {
+  checkTTSsupport();
   refreshToday(false);
   
-  // 检查TTS代理服务
-  fetch(TTS_PROXY_URL + '?text=test&voice=en-US-JennyNeural')
-    .then(res => {
-      if (!res.ok) {
-        console.warn('Azure TTS代理服务可能未运行，将使用浏览器语音合成作为备选');
-      }
-    })
-    .catch(err => {
-      console.warn('无法连接到Azure TTS代理服务:', err);
-    });
-});
-
-// ==================== 键盘快捷键 ====================
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') {
-    stopAllAudio();
-  }
-  if (e.key === ' ' && e.ctrlKey) {
-    e.preventDefault();
-    playAllWords();
-  }
-  if (e.key === 'e' && e.ctrlKey) {
-    e.preventDefault();
-    playAllExamples();
-  }
-  if (e.key === 'd' && e.ctrlKey) {
-    e.preventDefault();
-    playAllDefinitions();
-  }
+  // 键盘快捷键
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      stopAllAudio();
+    }
+    if (e.key === ' ' && e.ctrlKey) {
+      e.preventDefault();
+      playAllWords();
+    }
+    if (e.key === 'e' && e.ctrlKey) {
+      e.preventDefault();
+      playAllExamples();
+    }
+  });
 });
 </script>
 </body>
