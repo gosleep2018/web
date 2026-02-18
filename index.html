@@ -262,7 +262,7 @@ async function playAllExamples() {
 function renderToday(forceNew=false){
   const box=document.getElementById('today');
   const words=getTodayWords(forceNew);
-  box.innerHTML = `<div class="muted">今日日期：${dateKey()}（10个）• 🤖 微软Azure神经网络TTS</div>` + words.map((w,i)=>`
+  box.innerHTML = `<div class="muted">今日日期：2026-02-18（10个）• 🤖 微软Azure神经网络TTS • 更新时间: 08:54:13</div>` + words.map((w,i)=>`
     <div class="card">
       <div class="word">${i+1}. ${w[0]}</div>
       <div class="ph">${w[1]}</div>
