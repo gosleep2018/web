@@ -54,23 +54,7 @@
     <span class="loading" id="loading">加载中...</span>
   </div>
   
-  <div id="today">
-  <div class="card">
-    <div class="muted">若脚本未加载，先显示基础单词列表（可刷新恢复完整样式）。</div>
-    <ol style="line-height:1.9;margin-top:8px">
-      <li>election — 选举</li>
-      <li>summit — 峰会</li>
-      <li>parliament — 议会</li>
-      <li>innovation — 创新</li>
-      <li>inequality — 不平等</li>
-      <li>inflation — 通货膨胀</li>
-      <li>climate — 气候</li>
-      <li>reform — 改革</li>
-      <li>diplomacy — 外交</li>
-      <li>GDP — 国内生产总值</li>
-    </ol>
-  </div>
-</div>
+  <div id="today"></div>
 
   <div class="history">
     <h2>📚 历史记录（复习）</h2>
@@ -81,10 +65,22 @@
 
 <script>
 // ==================== 配置 ====================
-const TTS_PROXY_URL = null; // GitHub Pages无法访问localhost
+const DEFAULT_TTS_PROXY_URL = 'https://YOUR-TTS-DOMAIN/tts'; // 部署后改成你的公网地址
 const TODAY_VOICE = 'en-US-JennyNeural';
 const EXAMPLE_VOICE = 'en-US-JennyNeural';
 const DEF_VOICE = 'en-US-GuyNeural';
+
+function getTtsProxyUrl() {
+  const q = new URLSearchParams(window.location.search).get('tts');
+  if (q) {
+    localStorage.setItem('ttsProxyUrl', q);
+    return q;
+  }
+  const saved = localStorage.getItem('ttsProxyUrl');
+  return saved || DEFAULT_TTS_PROXY_URL;
+}
+
+const TTS_PROXY_URL = getTtsProxyUrl();
 
 // ==================== 词汇库 ====================
 const VOCAB_WITH_ETYMOLOGY = [
@@ -318,30 +314,26 @@ function getTodayWords(forceNew=false){
 // ==================== Azure TTS 核心函数 ====================
 async function speakWithAzureTTS(text, voice = TODAY_VOICE) {
   stopAllAudio();
-  
-  // 在GitHub Pages上，直接使用Web Speech API
-  if (window.location.hostname.includes('github.io')) {
-    console.log('GitHub Pages环境，使用Web Speech API');
-    return speakWithFallback(text);
-  }
-  
-  // 本地环境尝试使用Azure TTS
   showLoading(true);
-  
+
   try {
-    const url = `http://localhost:3000/tts?text=${encodeURIComponent(text)}&voice=${voice}`;
+    if (!TTS_PROXY_URL || TTS_PROXY_URL.includes('YOUR-TTS-DOMAIN')) {
+      throw new Error('未配置公网TTS代理地址');
+    }
+
+    const url = `${TTS_PROXY_URL}?text=${encodeURIComponent(text)}&voice=${voice}`;
     const response = await fetch(url);
-    
+
     if (!response.ok) {
       throw new Error(`TTS请求失败: ${response.status}`);
     }
-    
+
     const audioBlob = await response.blob();
     const audioUrl = URL.createObjectURL(audioBlob);
-    
+
     showLoading(false);
     return playAudioFromUrl(audioUrl);
-    
+
   } catch (error) {
     console.error('Azure TTS失败，使用Web Speech API:', error);
     showLoading(false);
@@ -570,7 +562,12 @@ function refreshToday(force) {
 // ==================== 初始化 ====================
 document.addEventListener('DOMContentLoaded', () => {
   refreshToday(false);
-  
+
+  if (!TTS_PROXY_URL || TTS_PROXY_URL.includes('YOUR-TTS-DOMAIN')) {
+    console.warn('未配置公网Azure TTS代理地址，当前会回退到浏览器语音。可用 ?tts=https://your-domain/tts 进行配置');
+    return;
+  }
+
   // 检查TTS代理服务
   fetch(TTS_PROXY_URL + '?text=test&voice=en-US-JennyNeural')
     .then(res => {
