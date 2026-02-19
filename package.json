@@ -1,7 +1,10 @@
 {
-  "dependencies": {
-    "puppeteer-core": "^24.37.3",
-    "robotjs": "^0.6.0",
-    "ws": "^8.19.0"
-  }
+  "name": "azure-tts-proxy",
+  "version": "1.0.0",
+  "description": "Azure TTS Proxy for vocabulary website",
+  "main": "scripts/azure-tts-proxy.js",
+  "scripts": {
+    "start": "node scripts/azure-tts-proxy.js"
+  },
+  "dependencies": {}
 }
