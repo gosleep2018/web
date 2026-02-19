@@ -1,0 +1,7 @@
+# OpenClaw 崩溃恢复命令
+
+# 一键恢复（先重启，失败则启动）
+openclaw gateway restart || openclaw gateway start
+
+# 查看状态
+openclaw gateway status
