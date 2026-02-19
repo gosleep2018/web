@@ -3,36 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CNN/BBC 每日10词（可发音+可复习）</title>
+  <title>CNN/BBC 每日10词 - Azure TTS + 词根词缀</title>
   <style>
     *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
     .wrap{max-width:960px;margin:0 auto;padding:20px}
     h1{font-size:28px;margin:0 0 10px;color:#60a5fa}
     .sub{color:#94a3b8;margin-bottom:16px}
     .bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}
-    button{border:0;border-radius:10px;padding:10px 14px;cursor:pointer;color:#fff;background:#2563eb}
+    button{border:0;border-radius:10px;padding:10px 14px;cursor:pointer;color:#fff;background:#2563eb;transition:all .2s}
+    button:hover{background:#1d4ed8;transform:translateY(-1px)}
     button.warn{background:#ef4444}button.alt{background:#475569}
-    .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px;margin:12px 0}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:20px;margin:16px 0}
     .word{font-size:24px;font-weight:700}.ph{color:#94a3b8;font-style:italic}
     .row{margin-top:8px;line-height:1.6}.zh{color:#fbbf24}
-    .example{padding:10px;border-left:3px solid #60a5fa;background:#0f172a;border-radius:8px;margin-top:8px}
+    .etymology{background:rgba(37,99,235,0.1);border-left:3px solid #2563eb;padding:12px;margin:10px 0;border-radius:0 8px 8px 0}
+    .etymology-title{color:#60a5fa;font-weight:600;margin-bottom:6px}
+    .example{padding:12px;border-left:3px solid #10b981;background:rgba(16,185,129,0.1);border-radius:0 8px 8px 0;margin-top:10px}
     .history{margin-top:28px}.history h2{font-size:20px;color:#93c5fd}
     details{background:#111827;border:1px solid #334155;border-radius:10px;padding:8px 12px;margin:8px 0}
     summary{cursor:pointer;color:#cbd5e1}
-    .tag{display:inline-block;background:#334155;color:#e2e8f0;border-radius:999px;padding:2px 8px;margin:4px 6px 0 0;font-size:12px}
+    .tag{display:inline-block;background:#334155;color:#e2e8f0;border-radius:999px;padding:4px 10px;margin:4px 6px 4px 0;font-size:12px}
+    .tag.prefix{background:#3b82f6}.tag.root{background:#10b981}.tag.suffix{background:#8b5cf6}.tag.related{background:#f59e0b}
     .muted{color:#94a3b8;font-size:13px}
+    .audio-status{display:inline-block;margin-left:8px;font-size:12px}
+    .tips{background:rgba(245,158,11,0.1);border-left:3px solid #f59e0b;padding:12px;margin:15px 0;border-radius:0 8px 8px 0}
+    .loading{display:none;color:#60a5fa;margin-left:8px}
+    .tts-badge{background:#3b82f6;color:white;padding:2px 8px;border-radius:4px;font-size:12px;margin-left:8px}
   </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>🎧 CNN/BBC 每日10词</h1>
-  <div class="sub">恢复：单词发音 + 例句发音 + 中文解释 + 英文释义 + 历史复习</div>
-  <div class="bar">
-    <button onclick="playAllWords()">🔊 播放今日10词</button>
-    <button onclick="playAllExamples()">🎧 播放今日例句</button>
-    <button class="warn" onclick="stopAll()">⏹ 停止</button>
-    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取今日10词</button>
+  <h1>🎯 CNN/BBC 每日10词 <span class="tts-badge">Azure TTS</span></h1>
+  <div class="sub">🤖 微软Azure神经网络TTS • 🎧 词根词缀记忆法 • 📖 深度学习</div>
+  
+  <div class="tips">
+    <div class="etymology-title">🎧 Azure TTS 发音系统</div>
+    <div>• <strong>专业神经网络语音</strong>：微软Azure最高质量语音合成</div>
+    <div>• <strong>三种发音模式</strong>：单词发音 + 例句发音 + 释义发音</div>
+    <div>• <strong>智能控制</strong>：播放/停止 + 批量播放 + 键盘快捷键</div>
+    <div>• <strong>离线缓存</strong>：已播放的音频自动缓存，无需重复请求</div>
   </div>
+  
+  <div class="bar">
+    <button onclick="playAllWords()">🔊 播放今日10词 (Azure TTS)</button>
+    <button onclick="playAllExamples()">🎧 播放今日例句 (Azure TTS)</button>
+    <button onclick="playAllDefinitions()">📖 播放今日释义 (Azure TTS)</button>
+    <button class="warn" onclick="stopAllAudio()">⏹ 停止所有发音</button>
+    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取今日10词</button>
+    <span class="loading" id="loading">加载中...</span>
+  </div>
+  
   <div id="today"></div>
 
   <div class="history">
@@ -43,31 +64,214 @@
 </div>
 
 <script>
-const VOCAB = [
-  ["election","/ɪˈlekʃn/","选举","A formal voting process to choose leaders.","The presidential election will be held next month.","总统选举将于下个月举行。","CNN"],
-  ["summit","/ˈsʌmɪt/","峰会","A high-level meeting between leaders.","World leaders will attend the climate summit.","世界领导人将出席气候峰会。","CNN"],
-  ["parliament","/ˈpɑːrləmənt/","议会","A country’s main law-making body.","The bill was passed by parliament yesterday.","该法案昨天在议会通过。","BBC"],
-  ["innovation","/ˌɪnəˈveɪʃn/","创新","A new method, idea, or product.","Technological innovation is driving growth.","技术创新正在推动增长。","BBC"],
-  ["inequality","/ˌɪnɪˈkwɒləti/","不平等","Lack of equality in society.","The report highlights income inequality.","报告强调了收入不平等。","BBC"],
-  ["inflation","/ɪnˈfleɪʃn/","通货膨胀","A general rise in prices.","Inflation has reached a 10-year high.","通胀达到十年高位。","BBC"],
-  ["climate","/ˈklaɪmət/","气候","Long-term weather patterns.","Climate change is affecting weather patterns.","气候变化正在影响天气模式。","CNN"],
-  ["reform","/rɪˈfɔːrm/","改革","A change made to improve a system.","Education reform is a key priority.","教育改革是重点。","CNN"],
-  ["diplomacy","/dɪˈpləʊməsi/","外交","Managing international relations.","Diplomacy reduced tensions in the region.","外交缓和了地区紧张局势。","BBC"],
-  ["GDP","/ˌdʒiː diː ˈpiː/","国内生产总值","Total value of goods/services produced.","GDP grew by 3% this quarter.","本季度GDP增长3%。","CNN"],
-  ["sanction","/ˈsæŋkʃn/","制裁","A penalty imposed by one country on another.","New sanctions were announced on Friday.","周五宣布了新制裁。","BBC"],
-  ["ceasefire","/ˈsiːsfaɪə(r)/","停火","An agreement to stop fighting.","Both sides agreed to a temporary ceasefire.","双方同意临时停火。","CNN"],
-  ["coalition","/ˌkəʊəˈlɪʃn/","联盟","A temporary alliance for combined action.","A coalition government was formed.","联合政府成立了。","BBC"],
-  ["tariff","/ˈtærɪf/","关税","A tax on imported goods.","The new tariff affects steel imports.","新关税影响钢铁进口。","CNN"],
-  ["benchmark","/ˈbentʃmɑːk/","基准","A standard for comparison.","Oil prices hit a new benchmark.","油价触及新基准。","BBC"],
-  ["volatility","/ˌvɒləˈtɪləti/","波动性","Frequent and large changes.","Markets showed high volatility today.","今天市场波动较大。","CNN"],
-  ["consensus","/kənˈsensəs/","共识","General agreement among a group.","Economists reached a consensus on rates.","经济学家对利率形成共识。","BBC"],
-  ["fiscal","/ˈfɪskl/","财政的","Related to government revenue and spending.","Fiscal policy will be tightened.","财政政策将收紧。","CNN"],
-  ["stimulus","/ˈstɪmjələs/","刺激措施","Action to encourage economic activity.","The government announced a stimulus package.","政府宣布刺激方案。","BBC"],
-  ["sovereignty","/ˈsɒvrənti/","主权","A state's authority to govern itself.","The debate focused on national sovereignty.","讨论聚焦国家主权。","CNN"]
+// ==================== 配置 ====================
+const TTS_PROXY_URL = null; // GitHub Pages无法访问localhost
+const TODAY_VOICE = 'en-US-JennyNeural';
+const EXAMPLE_VOICE = 'en-US-JennyNeural';
+const DEF_VOICE = 'en-US-GuyNeural';
+
+// ==================== 词汇库 ====================
+const VOCAB_WITH_ETYMOLOGY = [
+  {
+    word: "sanction",
+    phonetic: "/ˈsæŋkʃn/",
+    chinese: "制裁",
+    englishDef: "A penalty imposed by one country on another.",
+    example: "New sanctions were announced on Friday.",
+    exampleTrans: "周五宣布了新制裁。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "-sanct- (神圣的，来自拉丁语 sanctus)",
+      suffix: "-tion (名词后缀，表示行为或状态)",
+      memoryTip: "sanction 原指'神圣化' → 引申为'官方批准' → 现代义'制裁'（官方施加的惩罚）",
+      relatedWords: ["sanctuary (避难所)", "sanctify (使神圣化)", "sanctimonious (假装神圣的)"]
+    }
+  },
+  {
+    word: "benchmark",
+    phonetic: "/ˈbentʃmɑːk/",
+    chinese: "基准",
+    englishDef: "A standard for comparison.",
+    example: "Oil prices hit a new benchmark.",
+    exampleTrans: "油价触及新基准。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "复合词：bench (长凳) + mark (标记)",
+      suffix: "",
+      memoryTip: "历史：测量员在长凳上做标记作为参考点 → 引申为'基准'",
+      relatedWords: ["landmark (地标)", "hallmark (标志)", "watermark (水印)"]
+    }
+  },
+  {
+    word: "innovation",
+    phonetic: "/ˌɪnəˈveɪʃn/",
+    chinese: "创新",
+    englishDef: "A new method, idea, or product.",
+    example: "Technological innovation is driving growth.",
+    exampleTrans: "技术创新正在推动增长。",
+    source: "BBC",
+    etymology: {
+      prefix: "in- (进入，使...)",
+      root: "-nov- (新的，拉丁语 novus)",
+      suffix: "-ation (名词后缀，表示行为或结果)",
+      memoryTip: "字面：使进入新状态 → 创新",
+      relatedWords: ["novel (新颖的)", "renovate (翻新)", "nova (新星)", "novice (新手)"]
+    }
+  },
+  {
+    word: "sovereignty",
+    phonetic: "/ˈsɒvrənti/",
+    chinese: "主权",
+    englishDef: "A state's authority to govern itself.",
+    example: "The debate focused on national sovereignty.",
+    exampleTrans: "讨论聚焦国家主权。",
+    source: "CNN",
+    etymology: {
+      prefix: "",
+      root: "-sovereign- (最高的，统治的，来自古法语 soverain)",
+      suffix: "-ty (名词后缀，表示状态或性质)",
+      memoryTip: "sovereign (君主) + -ty → 君主的状态 → 主权",
+      relatedWords: ["sovereign (君主)", "reign (统治)", "sovereignty dispute (主权争端)"]
+    }
+  },
+  {
+    word: "compliance",
+    phonetic: "/kəmˈplaɪəns/",
+    chinese: "合规",
+    englishDef: "Conforming to rules or standards.",
+    example: "The company improved its compliance procedures.",
+    exampleTrans: "公司改进了合规程序。",
+    source: "CNN",
+    etymology: {
+      prefix: "com- (共同，完全)",
+      root: "-pli- (折叠，弯曲，拉丁语 plicare)",
+      suffix: "-ance (名词后缀，表示状态)",
+      memoryTip: "字面：完全折叠（屈服）→ 遵守，顺从",
+      relatedWords: ["comply (遵守)", "compliant (顺从的)", "complex (复杂的)", "duplicate (复制)"]
+    }
+  },
+  {
+    word: "inequality",
+    phonetic: "/ˌɪnɪˈkwɒləti/",
+    chinese: "不平等",
+    englishDef: "Lack of equality in society.",
+    example: "The report highlights income inequality.",
+    exampleTrans: "报告强调了收入不平等。",
+    source: "BBC",
+    etymology: {
+      prefix: "in- (不，否定)",
+      root: "-equ- (相等，拉丁语 aequus)",
+      suffix: "-ity (名词后缀，表示状态)",
+      memoryTip: "结构：in- (不) + equal (平等) + -ity (状态) → 不平等状态",
+      relatedWords: ["equality (平等)", "equitable (公平的)", "equator (赤道)", "equation (方程式)"]
+    }
+  },
+  {
+    word: "enforcement",
+    phonetic: "/ɪnˈfɔːsmənt/",
+    chinese: "执行",
+    englishDef: "Ensuring compliance with laws.",
+    example: "Law enforcement agencies are investigating.",
+    exampleTrans: "执法机构正在调查。",
+    source: "BBC",
+    etymology: {
+      prefix: "en- (使成为，放入)",
+      root: "-force- (力量，拉丁语 fortis)",
+      suffix: "-ment (名词后缀，表示行为或结果)",
+      memoryTip: "字面：使具有力量 → 强制执行",
+      relatedWords: ["enforce (执行)", "force (力量)", "reinforce (加强)", "fortify (加强)"]
+    }
+  },
+  {
+    word: "sustainability",
+    phonetic: "/səˌsteɪnəˈbɪləti/",
+    chinese: "可持续性",
+    englishDef: "Ability to maintain at a certain level.",
+    example: "Sustainability is key for future growth.",
+    exampleTrans: "可持续性是未来增长的关键。",
+    source: "CNN",
+    etymology: {
+      prefix: "sus- (在下面，sub- 变体)",
+      root: "-tain- (持有，保持，拉丁语 tenere)",
+      suffix: "-able (能够...的) + -ity (名词后缀，表示性质)",
+      memoryTip: "结构：sus- (在下面) + tain (持有) + -able (能够) + -ity (性质) → 能够持续支撑的性质",
+      relatedWords: ["sustain (维持)", "maintain (维持)", "retain (保留)", "contain (包含)"]
+    }
+  },
+  {
+    word: "diplomacy",
+    phonetic: "/dɪˈpləʊməsi/",
+    chinese: "外交",
+    englishDef: "Managing international relations.",
+    example: "Diplomacy reduced tensions in the region.",
+    exampleTrans: "外交缓和了地区紧张局势。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "-diplo- (双重的，折叠的，希腊语 diploos)",
+      suffix: "-macy (名词后缀，来自希腊语 -mateia)",
+      memoryTip: "历史：diploma (文凭) 原指折叠的官方文件 → 外交官携带的凭证 → 外交艺术",
+      relatedWords: ["diplomat (外交官)", "diplomatic (外交的)", "diploma (文凭)", "duplicate (复制)"]
+    }
+  },
+  {
+    word: "tariff",
+    phonetic: "/ˈtærɪf/",
+    chinese: "关税",
+    englishDef: "A tax on imported goods.",
+    example: "The new tariff affects steel imports.",
+    exampleTrans: "新关税影响钢铁进口。",
+    source: "CNN",
+    etymology: {
+      prefix: "",
+      root: "来自阿拉伯语 ta'rif (通知，公告)",
+      suffix: "",
+      memoryTip: "历史：原指港口公布的关税表 → 泛指关税",
+      relatedWords: ["customs duty (关税)", "import tax (进口税)", "trade barrier (贸易壁垒)"]
+    }
+  },
+  {
+    word: "election",
+    phonetic: "/ɪˈlekʃn/",
+    chinese: "选举",
+    englishDef: "A formal voting process to choose leaders.",
+    example: "The presidential election will be held next month.",
+    exampleTrans: "总统选举将于下个月举行。",
+    source: "CNN",
+    etymology: {
+      prefix: "e- (出，向外)",
+      root: "-lect- (选择，拉丁语 legere)",
+      suffix: "-ion (名词后缀，表示行为或结果)",
+      memoryTip: "字面：选择出来 → 选举",
+      relatedWords: ["select (选择)", "collect (收集)", "elect (选举)", "intellect (智力)"]
+    }
+  },
+  {
+    word: "summit",
+    phonetic: "/ˈsʌmɪt/",
+    chinese: "峰会",
+    englishDef: "A high-level meeting between leaders.",
+    example: "World leaders will attend the climate summit.",
+    exampleTrans: "世界领导人将出席气候峰会。",
+    source: "CNN",
+    etymology: {
+      prefix: "",
+      root: "来自拉丁语 summus (最高的)",
+      suffix: "",
+      memoryTip: "原义：山顶 → 最高点 → 最高级别会议",
+      relatedWords: ["sum (总和)", "summary (摘要)", "consummate (完美的)"]
+    }
+  }
 ];
 
-let currentUtterances = [];
+// ==================== 状态管理 ====================
+let currentAudio = null;
+let isPlaying = false;
+const audioCache = new Map();
 
+// ==================== 日期函数 ====================
 function dateKey(){
   const d = new Date();
   const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
@@ -89,80 +293,298 @@ function getTodayWords(forceNew=false){
   const k = dateKey();
   const store = JSON.parse(localStorage.getItem('vocabHistory')||'{}');
   if(!forceNew && store[k] && store[k].length===10) return store[k];
-  const picked = seededShuffle(VOCAB, k + (forceNew?'-force':'' )).slice(0,10);
+  const picked = seededShuffle(VOCAB_WITH_ETYMOLOGY, k + (forceNew?'-force':'' )).slice(0,10);
   store[k]=picked;
   localStorage.setItem('vocabHistory', JSON.stringify(store));
   return picked;
 }
 
-function speak(text){
-  stopAll();
-  const u = new SpeechSynthesisUtterance(text);
-  u.lang='en-US';
-  speechSynthesis.speak(u);
-  currentUtterances=[u];
+// ==================== Azure TTS 核心函数 ====================
+async function speakWithAzureTTS(text, voice = TODAY_VOICE) {
+  stopAllAudio();
+  
+  // 在GitHub Pages上，直接使用Web Speech API
+  if (window.location.hostname.includes('github.io')) {
+    console.log('GitHub Pages环境，使用Web Speech API');
+    return speakWithFallback(text);
+  }
+  
+  // 本地环境尝试使用Azure TTS
+  showLoading(true);
+  
+  try {
+    const url = `http://localhost:3000/tts?text=${encodeURIComponent(text)}&voice=${voice}`;
+    const response = await fetch(url);
+    
+    if (!response.ok) {
+      throw new Error(`TTS请求失败: ${response.status}`);
+    }
+    
+    const audioBlob = await response.blob();
+    const audioUrl = URL.createObjectURL(audioBlob);
+    
+    showLoading(false);
+    return playAudioFromUrl(audioUrl);
+    
+  } catch (error) {
+    console.error('Azure TTS失败，使用Web Speech API:', error);
+    showLoading(false);
+    speakWithFallback(text);
+  }
 }
 
-function stopAll(){ speechSynthesis.cancel(); currentUtterances=[]; }
-
-function playWord(w){ speak(w); }
-function playExample(s){ speak(s); }
-function playDef(s){ speak(s); }
-
-async function playAllWords(){
-  stopAll();
-  const words=getTodayWords();
-  for(const w of words){ await speakAsync(w[0]); }
+function playAudioFromUrl(audioUrl) {
+  currentAudio = new Audio(audioUrl);
+  currentAudio.onended = () => {
+    isPlaying = false;
+    updateAudioStatus();
+  };
+  currentAudio.onerror = (err) => {
+    console.error('音频播放错误:', err);
+    isPlaying = false;
+    updateAudioStatus();
+  };
+  
+  isPlaying = true;
+  updateAudioStatus();
+  return currentAudio.play();
 }
-async function playAllExamples(){
-  stopAll();
-  const words=getTodayWords();
-  for(const w of words){ await speakAsync(w[4]); }
+
+function speakWithFallback(text) {
+  if ('speechSynthesis' in window) {
+    stopAllAudio();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.8;
+    
+    utterance.onend = () => {
+      isPlaying = false;
+      updateAudioStatus();
+    };
+    
+    currentAudio = utterance;
+    isPlaying = true;
+    updateAudioStatus();
+    speechSynthesis.speak(utterance);
+  } else {
+    alert('抱歉，您的浏览器不支持语音合成功能。请确保Azure TTS代理服务正在运行。');
+  }
 }
-function speakAsync(text){
-  return new Promise(resolve=>{
-    const u = new SpeechSynthesisUtterance(text);
-    u.lang='en-US';
-    u.onend=()=>resolve(); u.onerror=()=>resolve();
-    speechSynthesis.speak(u);
+
+function stopAllAudio() {
+  if (currentAudio instanceof Audio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+  } else if (currentAudio instanceof SpeechSynthesisUtterance) {
+    speechSynthesis.cancel();
+  }
+  isPlaying = false;
+  updateAudioStatus();
+}
+
+function updateAudioStatus() {
+  const buttons = document.querySelectorAll('button');
+  buttons.forEach(btn => {
+    if (btn.textContent.includes('停止')) {
+      btn.style.display = isPlaying ? 'inline-block' : 'none';
+    }
   });
 }
 
+function showLoading(show) {
+  document.getElementById('loading').style.display = show ? 'inline-block' : 'none';
+}
+
+// ==================== 播放函数 ====================
+function playWord(word) { 
+  speakWithAzureTTS(word, TODAY_VOICE); 
+}
+
+function playExample(sentence) { 
+  speakWithAzureTTS(sentence, EXAMPLE_VOICE); 
+}
+
+function playDef(definition) { 
+  speakWithAzureTTS(definition, DEF_VOICE); 
+}
+
+async function playAllWords() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    await speakWithAzureTTS(w.word, TODAY_VOICE);
+    await waitForAudioEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function playAllExamples() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    await speakWithAzureTTS(w.example, EXAMPLE_VOICE);
+    await waitForAudioEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function playAllDefinitions() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    await speakWithAzureTTS(w.englishDef, DEF_VOICE);
+    await waitForAudioEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+function waitForAudioEnd() {
+  return new Promise(resolve => {
+    if (!currentAudio) {
+      resolve();
+      return;
+    }
+    
+    const check = setInterval(() => {
+      if (!isPlaying) {
+        clearInterval(check);
+        resolve();
+      }
+    }, 100);
+    
+    if (currentAudio instanceof Audio) {
+      currentAudio.onended = () => {
+        clearInterval(check);
+        resolve();
+      };
+    }
+  });
+}
+
+// ==================== 渲染函数 ====================
 function renderToday(forceNew=false){
-  const box=document.getElementById('today');
-  const words=getTodayWords(forceNew);
-  box.innerHTML = `<div class="muted">今日日期：${dateKey()}（10个）</div>` + words.map((w,i)=>`
+  const box = document.getElementById('today');
+  const words = getTodayWords(forceNew);
+  const today = dateKey();
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString('zh-CN', { hour12: false });
+  
+  let html = `<div class="muted">今日日期：${today}（10个）• 🎧 Azure TTS • 更新时间: ${timeStr}</div>`;
+  
+  words.forEach((w, i) => {
+    const etymology = w.etymology;
+    html += `
     <div class="card">
-      <div class="word">${i+1}. ${w[0]}</div>
-      <div class="ph">${w[1]}</div>
-      <div class="row zh">中文解释：${w[2]}</div>
-      <div class="row">英文释义：${w[3]}</div>
+      <div class="word">${i+1}. ${w.word}</div>
+      <div class="ph">${w.phonetic}</div>
+      <div class="row zh">中文解释：${w.chinese}</div>
+      <div class="row">英文释义：${w.englishDef}</div>
+      
+      <div class="etymology">
+        <div class="etymology-title">🔍 词根词缀分析</div>`;
+    
+    if (etymology.prefix) {
+      html += `<div><span class="tag prefix">前缀</span> <strong>${etymology.prefix}</strong></div>`;
+    }
+    if (etymology.root) {
+      html += `<div><span class="tag root">词根</span> <strong>${etymology.root}</strong></div>`;
+    }
+    if (etymology.suffix) {
+      html += `<div><span class="tag suffix">后缀</span> <strong>${etymology.suffix}</strong></div>`;
+    }
+    
+    html += `
+        <div class="muted" style="margin-top:8px">${etymology.memoryTip}</div>
+        
+        <div class="etymology-title" style="margin-top:12px">🧠 同源词扩展</div>
+        <div>`;
+    
+    etymology.relatedWords.forEach(related => {
+      html += `<span class="tag related">${related}</span> `;
+    });
+    
+    html += `</div>
+      </div>
+      
       <div class="example">
-        <div>${w[4]}</div>
-        <div class="muted">${w[5]} · Source: ${w[6]}</div>
+        <div><strong>${w.source}例句：</strong>${w.example}</div>
+        <div class="muted">${w.exampleTrans}</div>
       </div>
+      
       <div class="bar">
-        <button onclick="playWord('${w[0].replace(/'/g,"\\'")}')">🔊 单词发音</button>
-        <button onclick="playExample('${w[4].replace(/'/g,"\\'")}')">🎧 例句发音</button>
-        <button class="alt" onclick="playDef('${w[3].replace(/'/g,"\\'")}')">📖 释义发音</button>
+        <button onclick="playWord('${w.word.replace(/'/g, "\\'")}')">🔊 单词发音 (Azure)</button>
+        <button onclick="playExample('${w.example.replace(/'/g, "\\'")}')">🎧 例句发音 (Azure)</button>
+        <button class="alt" onclick="playDef('${w.englishDef.replace(/'/g, "\\'")}')">📖 释义发音 (Azure)</button>
+        <button class="warn" onclick="stopAllAudio()" style="display:none">⏹ 停止</button>
       </div>
-    </div>`).join('');
+    </div>`;
+  });
+  
+  box.innerHTML = html;
+  updateAudioStatus();
 }
 
 function renderHistory(){
-  const el=document.getElementById('history');
-  const store=JSON.parse(localStorage.getItem('vocabHistory')||'{}');
-  const days=Object.keys(store).sort().reverse();
-  if(!days.length){ el.innerHTML='<div class="muted">暂无历史记录，今日访问后将自动记录。</div>'; return; }
-  el.innerHTML = days.map(day=>{
-    const arr=store[day]||[];
-    return `<details><summary>${day}（${arr.length}词）</summary><div style="margin-top:8px">${arr.map(x=>`<span class='tag'>${x[0]}</span>`).join('')}</div></details>`;
+  const el = document.getElementById('history');
+  const store = JSON.parse(localStorage.getItem('vocabHistory') || '{}');
+  const days = Object.keys(store).sort().reverse();
+  
+  if (!days.length) {
+    el.innerHTML = '<div class="muted">暂无历史记录，今日访问后将自动记录。</div>';
+    return;
+  }
+  
+  el.innerHTML = days.map(day => {
+    const arr = store[day] || [];
+    return `<details><summary>${day}（${arr.length}词）</summary><div style="margin-top:8px">${arr.map(x => `<span class='tag'>${x.word}</span>`).join('')}</div></details>`;
   }).join('');
 }
 
-function refreshToday(force){ renderToday(force); renderHistory(); }
+function refreshToday(force) {
+  renderToday(force);
+  renderHistory();
+}
 
-refreshToday(false);
+// ==================== 初始化 ====================
+document.addEventListener('DOMContentLoaded', () => {
+  refreshToday(false);
+  
+  // 检查TTS代理服务
+  fetch(TTS_PROXY_URL + '?text=test&voice=en-US-JennyNeural')
+    .then(res => {
+      if (!res.ok) {
+        console.warn('Azure TTS代理服务可能未运行，将使用浏览器语音合成作为备选');
+      }
+    })
+    .catch(err => {
+      console.warn('无法连接到Azure TTS代理服务:', err);
+    });
+});
+
+// ==================== 键盘快捷键 ====================
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    stopAllAudio();
+  }
+  if (e.key === ' ' && e.ctrlKey) {
+    e.preventDefault();
+    playAllWords();
+  }
+  if (e.key === 'e' && e.ctrlKey) {
+    e.preventDefault();
+    playAllExamples();
+  }
+  if (e.key === 'd' && e.ctrlKey) {
+    e.preventDefault();
+    playAllDefinitions();
+  }
+});
 </script>
 </body>
 </html>
