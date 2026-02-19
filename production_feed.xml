@@ -1,35 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI每日新闻简报</title>
     <description>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</description>
-    <link>https://gosleep2018.github.io/web/</link>
+    <link>https://YOUR-DOMAIN.com/podcast</link>
     <language>zh-cn</language>
     <copyright>Copyright 2026 AI新闻主播</copyright>
-    <lastBuildDate>Wed, 18 Feb 2026 10:40:00 GMT</lastBuildDate>
-    <pubDate>Wed, 18 Feb 2026 10:40:00 GMT</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2026 00:31:02 GMT</lastBuildDate>
+    <pubDate>Thu, 19 Feb 2026 00:31:02 GMT</pubDate>
     <itunes:author>AI新闻主播</itunes:author>
     <itunes:summary>每日全球要闻，AI主播为您解读财经、科技、国际关系、政策法规。每天早8:30更新。</itunes:summary>
     <itunes:owner>
       <itunes:name>AI新闻主播</itunes:name>
-      <itunes:email>gosleep@gmail.com</itunes:email>
+      <itunes:email>contact@example.com</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
     <itunes:category text="News"/>
-    <itunes:image href="https://gosleep2018.github.io/web/podcast_cover_professional.jpg"/>
-    
-    <!-- 今日专业播客 -->
+    <itunes:image href="https://YOUR-DOMAIN.com/podcast_cover_professional.jpg"/>
+    <image>
+      <url>https://YOUR-DOMAIN.com/podcast_cover_professional.jpg</url>
+      <title>AI每日新闻简报</title>
+      <link>https://YOUR-DOMAIN.com/podcast</link>
+    </image>
     <item>
-      <title>每日新闻简报 2026-02-18 - 专业版</title>
-      <description>今日全球要闻：美国股市上涨0.8%，中美日内瓦会谈，OpenAI发布新模型，比特币突破65,000美元，欧盟通过AI法案，数据隐私法规加强，市场情绪谨慎乐观。</description>
-      <pubDate>Wed, 18 Feb 2026 10:40:00 GMT</pubDate>
-      <guid isPermaLink="false">daily-news-pro-2026-02-18</guid>
-      <enclosure url="https://gosleep2018.github.io/web/professional_daily_news.mp3" length="2034144" type="audio/mpeg"/>
-      <itunes:duration>02:07</itunes:duration>
+      <title>每日新闻简报 2026年2月19日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-19</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/today_podcast_short.mp3" length="594144" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月19日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Thu, 19 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-19</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/professional_daily_news.mp3" length="2034144" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part9.mp3" length="158400" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part8.mp3" length="135360" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part7.mp3" length="158400" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part6.mp3" length="146016" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part5.mp3" length="157248" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part4.mp3" length="160992" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part3.mp3" length="196128" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
+    </item>
+    <item>
+      <title>每日新闻简报 2026年2月18日</title>
+      <description>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</description>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="false">daily-news-2026-02-18</guid>
+      <enclosure url="https://YOUR-DOMAIN.com/podcast/audio/podcast_2026-02-18_part2.mp3" length="87552" type="audio/mpeg"/>
+      <itunes:duration>03:45</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:season>1</itunes:season>
       <itunes:episode>1</itunes:episode>
+      <content:encoded><![CDATA[<p>今日全球要闻：美国股市动态、国际关系、科技创新、财经聚焦、政策法规。AI主播为您专业解读。</p>]]></content:encoded>
     </item>
   </channel>
 </rss>
