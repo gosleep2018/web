@@ -1,4 +1,10 @@
 #!/usr/bin/env node
+
+/**
+ * 微软Azure TTS代理服务
+ * 保护API Key，提供HTTP接口给网页调用
+ */
+
 const http = require('http');
 const https = require('https');
 const url = require('url');
@@ -6,29 +12,108 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 
+// 配置
 const CONFIG = {
-  port: Number(process.env.PORT || 10000),
-  host: process.env.HOST || '0.0.0.0',
+  port: Number(process.env.PORT || 3000),
   apiKey: process.env.AZURE_TTS_API_KEY || '',
   region: process.env.AZURE_TTS_REGION || 'eastus',
   endpoint: '',
-  defaultVoice: process.env.AZURE_TTS_DEFAULT_VOICE || 'en-US-JennyNeural',
+  defaultVoice: process.env.AZURE_TTS_DEFAULT_VOICE || 'cy-GB-NiaNeural',
   outputFormat: process.env.AZURE_TTS_OUTPUT_FORMAT || 'audio-24khz-96kbitrate-mono-mp3',
+  cacheDir: path.join(__dirname, '..', 'tts-cache'),
+  maxCacheAge: 7 * 24 * 60 * 60 * 1000, // 7天
   allowedOrigins: (process.env.ALLOWED_ORIGINS || 'https://gosleep2018.github.io').split(',').map(s => s.trim())
 };
 
 CONFIG.endpoint = `https://${CONFIG.region}.tts.speech.microsoft.com/cognitiveservices/v1`;
 
 if (!CONFIG.apiKey) {
-  console.error('❌ 缺少 AZURE_TTS_API_KEY 环境变量');
+  console.error('❌ 缺少 AZURE_TTS_API_KEY 环境变量，服务无法启动');
   process.exit(1);
 }
 
+// 确保缓存目录存在
+if (!fs.existsSync(CONFIG.cacheDir)) {
+  fs.mkdirSync(CONFIG.cacheDir, { recursive: true });
+}
+
+// 生成缓存文件名
+function getCacheKey(text, voice) {
+  const hash = crypto.createHash('md5').update(`${text}:${voice}`).digest('hex');
+  return `${hash}.mp3`;
+}
+
+// 检查缓存
+function getFromCache(text, voice) {
+  const cacheKey = getCacheKey(text, voice);
+  const cachePath = path.join(CONFIG.cacheDir, cacheKey);
+  
+  if (fs.existsSync(cachePath)) {
+    const stats = fs.statSync(cachePath);
+    const age = Date.now() - stats.mtimeMs;
+    if (age < CONFIG.maxCacheAge) {
+      console.log(`🎧 缓存命中: ${text.substring(0, 30)}...`);
+      return fs.readFileSync(cachePath);
+    }
+  }
+  return null;
+}
+
+// 保存到缓存
+function saveToCache(text, voice, audioData) {
+  const cacheKey = getCacheKey(text, voice);
+  const cachePath = path.join(CONFIG.cacheDir, cacheKey);
+  fs.writeFileSync(cachePath, audioData);
+  console.log(`💾 缓存保存: ${text.substring(0, 30)}...`);
+}
+
+// 调用Azure TTS API
+function callAzureTTS(text, voice = CONFIG.defaultVoice) {
+  return new Promise((resolve, reject) => {
+    const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="${voice}">${text}</voice></speak>`;
+    
+    const options = {
+      method: 'POST',
+      headers: {
+        'Ocp-Apim-Subscription-Key': CONFIG.apiKey,
+        'Content-Type': 'application/ssml+xml',
+        'X-Microsoft-OutputFormat': CONFIG.outputFormat,
+        'User-Agent': 'OpenClaw-TTS-Proxy'
+      }
+    };
+    
+    const req = https.request(CONFIG.endpoint, options, (res) => {
+      if (res.statusCode !== 200) {
+        reject(new Error(`Azure TTS API错误: ${res.statusCode}`));
+        return;
+      }
+      
+      const chunks = [];
+      res.on('data', (chunk) => chunks.push(chunk));
+      res.on('end', () => {
+        const audioData = Buffer.concat(chunks);
+        saveToCache(text, voice, audioData);
+        resolve(audioData);
+      });
+    });
+    
+    req.on('error', (err) => {
+      console.error('Azure TTS请求失败:', err.message);
+      reject(err);
+    });
+    
+    req.write(ssml);
+    req.end();
+  });
+}
+
+// HTTP服务器
 const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
+  
+  // CORS
   const origin = req.headers.origin || '';
   const allowAll = CONFIG.allowedOrigins.includes('*');
-  
   if (allowAll) {
     res.setHeader('Access-Control-Allow-Origin', '*');
   } else if (origin && CONFIG.allowedOrigins.includes(origin)) {
@@ -38,20 +123,24 @@ const server = http.createServer(async (req, res) => {
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   
+  // 处理OPTIONS预检请求
   if (req.method === 'OPTIONS') {
     res.writeHead(200);
     res.end();
     return;
   }
   
+  // 健康检查
   if (parsedUrl.pathname === '/health') {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({ status: 'ok', service: 'azure-tts-proxy' }));
     return;
   }
   
+  // TTS端点
   if (parsedUrl.pathname === '/tts' && req.method === 'GET') {
     const { text, voice } = parsedUrl.query;
+    
     if (!text) {
       res.writeHead(400, { 'Content-Type': 'application/json' });
       res.end(JSON.stringify({ error: '缺少text参数' }));
@@ -59,46 +148,29 @@ const server = http.createServer(async (req, res) => {
     }
     
     try {
-      console.log(`🔊 TTS请求: "${text.substring(0, 50)}..."`);
-      const ssml = `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="${voice || CONFIG.defaultVoice}">${text}</voice></speak>`;
+      console.log(`🔊 请求TTS: "${text.substring(0, 50)}..." (voice: ${voice || CONFIG.defaultVoice})`);
       
-      const options = {
-        method: 'POST',
-        headers: {
-          'Ocp-Apim-Subscription-Key': CONFIG.apiKey,
-          'Content-Type': 'application/ssml+xml',
-          'X-Microsoft-OutputFormat': CONFIG.outputFormat,
-          'User-Agent': 'OpenClaw-TTS-Proxy'
-        }
-      };
-      
-      const reqAzure = https.request(CONFIG.endpoint, options, (resAzure) => {
-        if (resAzure.statusCode !== 200) {
-          res.writeHead(500, { 'Content-Type': 'application/json' });
-          res.end(JSON.stringify({ error: `Azure API错误: ${resAzure.statusCode}` }));
-          return;
-        }
-        
-        const chunks = [];
-        resAzure.on('data', (chunk) => chunks.push(chunk));
-        resAzure.on('end', () => {
-          const audioData = Buffer.concat(chunks);
-          res.writeHead(200, {
-            'Content-Type': 'audio/mpeg',
-            'Content-Length': audioData.length
-          });
-          res.end(audioData);
+      // 检查缓存
+      const cachedAudio = getFromCache(text, voice || CONFIG.defaultVoice);
+      if (cachedAudio) {
+        res.writeHead(200, {
+          'Content-Type': 'audio/mpeg',
+          'Content-Length': cachedAudio.length,
+          'X-TTS-Cache': 'hit'
         });
-      });
+        res.end(cachedAudio);
+        return;
+      }
       
-      reqAzure.on('error', (err) => {
-        console.error('Azure请求失败:', err.message);
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'TTS合成失败', details: err.message }));
-      });
+      // 调用Azure API
+      const audioData = await callAzureTTS(text, voice || CONFIG.defaultVoice);
       
-      reqAzure.write(ssml);
-      reqAzure.end();
+      res.writeHead(200, {
+        'Content-Type': 'audio/mpeg',
+        'Content-Length': audioData.length,
+        'X-TTS-Cache': 'miss'
+      });
+      res.end(audioData);
       
     } catch (error) {
       console.error('TTS处理失败:', error.message);
@@ -108,18 +180,22 @@ const server = http.createServer(async (req, res) => {
     return;
   }
   
+  // 404
   res.writeHead(404, { 'Content-Type': 'application/json' });
   res.end(JSON.stringify({ error: '未找到端点' }));
 });
 
-server.listen(CONFIG.port, CONFIG.host, () => {
+// 启动服务器
+server.listen(CONFIG.port, () => {
   console.log(`🎧 Azure TTS代理服务运行中`);
-  console.log(`📡 地址: ${CONFIG.host}:${CONFIG.port}`);
+  console.log(`📡 端口: ${CONFIG.port}`);
   console.log(`🗣️  默认语音: ${CONFIG.defaultVoice}`);
-  console.log(`🌐 健康检查: http://${CONFIG.host}:${CONFIG.port}/health`);
-  console.log(`🔊 TTS端点: http://${CONFIG.host}:${CONFIG.port}/tts?text=Hello`);
+  console.log(`💾 缓存目录: ${CONFIG.cacheDir}`);
+  console.log(`🌐 健康检查: http://localhost:${CONFIG.port}/health`);
+  console.log(`🔊 TTS端点: http://localhost:${CONFIG.port}/tts?text=Hello`);
 });
 
+// 优雅关闭
 process.on('SIGINT', () => {
   console.log('\n🛑 正在关闭TTS代理服务...');
   server.close(() => {
