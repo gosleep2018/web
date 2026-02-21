@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNN/BBC 每日10词 - 浏览器TTS + 词根词缀</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
+    .wrap{max-width:960px;margin:0 auto;padding:20px}
+    h1{font-size:28px;margin:0 0 10px;color:#60a5fa}
+    .sub{color:#94a3b8;margin-bottom:16px}
+    .bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0 20px}
+    button{border:0;border-radius:10px;padding:10px 14px;cursor:pointer;color:#fff;background:#2563eb;transition:all .2s}
+    button:hover{background:#1d4ed8;transform:translateY(-1px)}
+    button.warn{background:#ef4444}button.alt{background:#475569}
+    button:disabled{opacity:.5;cursor:not-allowed}
+    .card{background:#1e293b;border:1px solid #334155;border-radius:12px;padding:20px;margin:16px 0}
+    .word{font-size:24px;font-weight:700}.ph{color:#94a3b8;font-style:italic}
+    .row{margin-top:8px;line-height:1.6}.zh{color:#fbbf24}
+    .etymology{background:rgba(37,99,235,0.1);border-left:3px solid #2563eb;padding:12px;margin:10px 0;border-radius:0 8px 8px 0}
+    .etymology-title{color:#60a5fa;font-weight:600;margin-bottom:6px}
+    .example{padding:12px;border-left:3px solid #10b981;background:rgba(16,185,129,0.1);border-radius:0 8px 8px 0;margin-top:10px}
+    .tag{display:inline-block;background:#334155;color:#e2e8f0;border-radius:999px;padding:4px 10px;margin:4px 6px 4px 0;font-size:12px}
+    .tag.prefix{background:#3b82f6}.tag.root{background:#10b981}.tag.suffix{background:#8b5cf6}.tag.related{background:#f59e0b}
+    .muted{color:#94a3b8;font-size:13px}
+    .tts-badge{background:#10b981;color:white;padding:2px 8px;border-radius:4px;font-size:12px;margin-left:8px}
+    .voice-select{margin-left:10px;padding:5px;border-radius:5px;background:#1e293b;color:#e2e8f0;border:1px solid #334155}
+    .tts-status{background:rgba(245,158,11,0.1);border-left:3px solid #f59e0b;padding:12px;margin:15px 0;border-radius:0 8px 8px 0}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎯 CNN/BBC 每日10词 <span class="tts-badge">浏览器TTS</span></h1>
+  <div class="sub">🤖 词根词缀记忆法 • 🎧 浏览器内置语音合成 • 📖 深度学习</div>
+  
+  <div class="tts-status">
+    <div class="etymology-title">🎧 发音系统状态</div>
+    <div id="ttsStatus">正在检查浏览器TTS支持...</div>
+    <div class="muted">使用Chrome/Edge/Safari可获得最佳发音效果</div>
+  </div>
+  
+  <div class="bar">
+    <button onclick="playAllWords()">🔊 播放今日10词</button>
+    <button onclick="playAllExamples()">🎧 播放今日例句</button>
+    <button class="warn" onclick="stopAllAudio()">⏹ 停止所有发音</button>
+    <button class="alt" onclick="refreshToday(true)">🔄 重新抽取</button>
+    <select id="voiceSelect" class="voice-select" onchange="updateVoice()">
+      <option value="en-US">美式英语</option>
+      <option value="en-GB">英式英语</option>
+    </select>
+  </div>
+  
+  <div id="today"></div>
+
+  <div class="history">
+    <h2>📚 历史记录（复习）</h2>
+    <div class="muted">自动记录每天的10个单词。可点开按日期复习。</div>
+    <div id="history"></div>
+  </div>
+</div>
+
+<script>
+// ==================== 配置 ====================
+let currentVoice = 'en-US';
+let currentUtterance = null;
+let isPlaying = false;
+
+// ==================== 词汇库 ====================
+const VOCAB_WITH_ETYMOLOGY = [
+  {
+    word: "sanction",
+    phonetic: "/ˈsæŋkʃn/",
+    chinese: "制裁",
+    englishDef: "A penalty imposed by one country on another.",
+    example: "New sanctions were announced on Friday.",
+    exampleTrans: "周五宣布了新制裁。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "-sanct- (神圣的，来自拉丁语 sanctus)",
+      suffix: "-tion (名词后缀，表示行为或状态)",
+      memoryTip: "sanction 原指'神圣化' → 引申为'官方批准' → 现代义'制裁'（官方施加的惩罚）",
+      relatedWords: ["sanctuary (避难所)", "sanctify (使神圣化)", "sanctimonious (假装神圣的)"]
+    }
+  },
+  {
+    word: "benchmark",
+    phonetic: "/ˈbentʃmɑːk/",
+    chinese: "基准",
+    englishDef: "A standard for comparison.",
+    example: "Oil prices hit a new benchmark.",
+    exampleTrans: "油价触及新基准。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "复合词：bench (长凳) + mark (标记)",
+      suffix: "",
+      memoryTip: "历史：测量员在长凳上做标记作为参考点 → 引申为'基准'",
+      relatedWords: ["landmark (地标)", "hallmark (标志)", "watermark (水印)"]
+    }
+  },
+  {
+    word: "innovation",
+    phonetic: "/ˌɪnəˈveɪʃn/",
+    chinese: "创新",
+    englishDef: "A new method, idea, or product.",
+    example: "Technological innovation is driving growth.",
+    exampleTrans: "技术创新正在推动增长。",
+    source: "BBC",
+    etymology: {
+      prefix: "in- (进入，使...)",
+      root: "-nov- (新的，拉丁语 novus)",
+      suffix: "-ation (名词后缀，表示行为或结果)",
+      memoryTip: "字面：使进入新状态 → 创新",
+      relatedWords: ["novel (新颖的)", "renovate (翻新)", "nova (新星)", "novice (新手)"]
+    }
+  },
+  {
+    word: "sovereignty",
+    phonetic: "/ˈsɒvrənti/",
+    chinese: "主权",
+    englishDef: "A state's authority to govern itself.",
+    example: "The debate focused on national sovereignty.",
+    exampleTrans: "讨论聚焦国家主权。",
+    source: "CNN",
+    etymology: {
+      prefix: "",
+      root: "-sovereign- (最高的，统治的，来自古法语 soverain)",
+      suffix: "-ty (名词后缀，表示状态或性质)",
+      memoryTip: "sovereign (君主) + -ty → 君主的状态 → 主权",
+      relatedWords: ["sovereign (君主)", "reign (统治)", "sovereignty dispute (主权争端)"]
+    }
+  },
+  {
+    word: "compliance",
+    phonetic: "/kəmˈplaɪəns/",
+    chinese: "合规",
+    englishDef: "Conforming to rules or standards.",
+    example: "The company improved its compliance procedures.",
+    exampleTrans: "公司改进了合规程序。",
+    source: "CNN",
+    etymology: {
+      prefix: "com- (共同，完全)",
+      root: "-pli- (折叠，弯曲，拉丁语 plicare)",
+      suffix: "-ance (名词后缀，表示状态)",
+      memoryTip: "字面：完全折叠（屈服）→ 遵守，顺从",
+      relatedWords: ["comply (遵守)", "compliant (顺从的)", "complex (复杂的)", "duplicate (复制)"]
+    }
+  },
+  {
+    word: "inequality",
+    phonetic: "/ˌɪnɪˈkwɒləti/",
+    chinese: "不平等",
+    englishDef: "Lack of equality in society.",
+    example: "The report highlights income inequality.",
+    exampleTrans: "报告强调了收入不平等。",
+    source: "BBC",
+    etymology: {
+      prefix: "in- (不，否定)",
+      root: "-equ- (相等，拉丁语 aequus)",
+      suffix: "-ity (名词后缀，表示状态)",
+      memoryTip: "结构：in- (不) + equal (平等) + -ity (状态) → 不平等状态",
+      relatedWords: ["equality (平等)", "equitable (公平的)", "equator (赤道)", "equation (方程式)"]
+    }
+  },
+  {
+    word: "enforcement",
+    phonetic: "/ɪnˈfɔːsmənt/",
+    chinese: "执行",
+    englishDef: "Ensuring compliance with laws.",
+    example: "Law enforcement agencies are investigating.",
+    exampleTrans: "执法机构正在调查。",
+    source: "BBC",
+    etymology: {
+      prefix: "en- (使成为，放入)",
+      root: "-force- (力量，拉丁语 fortis)",
+      suffix: "-ment (名词后缀，表示行为或结果)",
+      memoryTip: "字面：使具有力量 → 强制执行",
+      relatedWords: ["enforce (执行)", "force (力量)", "reinforce (加强)", "fortify (加强)"]
+    }
+  },
+  {
+    word: "sustainability",
+    phonetic: "/səˌsteɪnəˈbɪləti/",
+    chinese: "可持续性",
+    englishDef: "Ability to maintain at a certain level.",
+    example: "Sustainability is key for future growth.",
+    exampleTrans: "可持续性是未来增长的关键。",
+    source: "CNN",
+    etymology: {
+      prefix: "sus- (在下面，sub- 变体)",
+      root: "-tain- (持有，保持，拉丁语 tenere)",
+      suffix: "-able (能够...的) + -ity (名词后缀，表示性质)",
+      memoryTip: "结构：sus- (在下面) + tain (持有) + -able (能够) + -ity (性质) → 能够持续支撑的性质",
+      relatedWords: ["sustain (维持)", "maintain (维持)", "retain (保留)", "contain (包含)"]
+    }
+  },
+  {
+    word: "diplomacy",
+    phonetic: "/dɪˈpləʊməsi/",
+    chinese: "外交",
+    englishDef: "Managing international relations.",
+    example: "Diplomacy reduced tensions in the region.",
+    exampleTrans: "外交缓和了地区紧张局势。",
+    source: "BBC",
+    etymology: {
+      prefix: "",
+      root: "-diplo- (双重的，折叠的，希腊语 diploos)",
+      suffix: "-macy (名词后缀，来自希腊语 -mateia)",
+      memoryTip: "历史：diploma (文凭) 原指折叠的官方文件 → 外交官携带的凭证 → 外交艺术",
+      relatedWords: ["diplomat (外交官)", "diplomatic (外交的)", "diploma (文凭)", "duplicate (复制)"]
+    }
+  },
+  {
+    word: "tariff",
+    phonetic: "/ˈtærɪf/",
+    chinese: "关税",
+    englishDef: "A tax on imported goods.",
+    example: "The new tariff affects steel imports.",
+    exampleTrans: "新关税影响钢铁进口。",
+    source: "CNN",
+    etymology: {
+      prefix: "",
+      root: "来自阿拉伯语 ta'rif (通知，公告)",
+      suffix: "",
+      memoryTip: "历史：原指港口公布的关税表 → 泛指关税",
+      relatedWords: ["customs duty (关税)", "import tax (进口税)", "trade barrier (贸易壁垒)"]
+    }
+  }
+];
+
+// ==================== TTS 核心函数 ====================
+function checkTTSsupport() {
+  const statusEl = document.getElementById('ttsStatus');
+  
+  if (!('speechSynthesis' in window)) {
+    statusEl.innerHTML = '❌ 您的浏览器不支持语音合成功能。<br>建议使用：Chrome、Edge、Safari';
+    statusEl.style.color = '#ef4444';
+    return false;
+  }
+  
+  // 尝试获取可用语音
+  const voices = speechSynthesis.getVoices();
+  if (voices.length === 0) {
+    statusEl.innerHTML = '⚠️ 正在加载语音引擎...（可能需要几秒钟）';
+    statusEl.style.color = '#f59e0b';
+    
+    // 语音加载后更新状态
+    speechSynthesis.onvoiceschanged = () => {
+      const loadedVoices = speechSynthesis.getVoices();
+      if (loadedVoices.length > 0) {
+        statusEl.innerHTML = `✅ TTS已就绪，${loadedVoices.length}个语音可用`;
+        statusEl.style.color = '#10b981';
+      }
+    };
+    
+    // 设置超时检查
+    setTimeout(() => {
+      const finalVoices = speechSynthesis.getVoices();
+      if (finalVoices.length === 0) {
+        statusEl.innerHTML = '⚠️ 语音引擎加载较慢，点击发音按钮可能会延迟响应';
+        statusEl.style.color = '#f59e0b';
+      }
+    }, 3000);
+    
+    return true;
+  }
+  
+  statusEl.innerHTML = `✅ TTS已就绪，${voices.length}个语音可用`;
+  statusEl.style.color = '#10b981';
+  return true;
+}
+
+function speakText(text, rate = 0.8) {
+  stopAllAudio();
+  
+  if (!('speechSynthesis' in window)) {
+    alert('您的浏览器不支持语音合成功能。请使用Chrome、Edge或Safari浏览器。');
+    return;
+  }
+  
+  currentUtterance = new SpeechSynthesisUtterance(text);
+  currentUtterance.lang = currentVoice;
+  currentUtterance.rate = rate;
+  currentUtterance.volume = 1;
+  
+  currentUtterance.onstart = () => {
+    isPlaying = true;
+    updateAudioStatus();
+  };
+  
+  currentUtterance.onend = () => {
+    isPlaying = false;
+    updateAudioStatus();
+  };
+  
+  currentUtterance.onerror = (err) => {
+    console.error('语音合成错误:', err);
+    isPlaying = false;
+    updateAudioStatus();
+    alert('发音失败，请检查浏览器设置或尝试其他浏览器。');
+  };
+  
+  speechSynthesis.speak(currentUtterance);
+}
+
+function stopAllAudio() {
+  if (speechSynthesis.speaking) {
+    speechSynthesis.cancel();
+  }
+  isPlaying = false;
+  updateAudioStatus();
+}
+
+function updateAudioStatus() {
+  const buttons = document.querySelectorAll('button');
+  buttons.forEach(btn => {
+    if (btn.textContent.includes('停止')) {
+      btn.style.display = isPlaying ? 'inline-block' : 'none';
+    }
+  });
+}
+
+function updateVoice() {
+  currentVoice = document.getElementById('voiceSelect').value;
+}
+
+// ==================== 播放函数 ====================
+function playWord(word) { 
+  speakText(word, 0.7); 
+}
+
+function playExample(sentence) { 
+  speakText(sentence, 0.8); 
+}
+
+function playDef(definition) { 
+  speakText(definition, 0.75); 
+}
+
+async function playAllWords() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    speakText(w.word, 0.7);
+    await waitForSpeechEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function playAllExamples() {
+  const words = getTodayWords();
+  stopAllAudio();
+  
+  for (const w of words) {
+    if (!isPlaying) break;
+    speakText(w.example, 0.8);
+    await waitForSpeechEnd();
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+function waitForSpeechEnd() {
+  return new Promise(resolve => {
+    const check = setInterval(() => {
+      if (!isPlaying) {
+        clearInterval(check);
+        resolve();
+      }
+    }, 100);
+  });
+}
+
+// ==================== 日期和存储函数 ====================
+function dateKey(){
+  const d = new Date();
+  const y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),day=String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+
+function seededShuffle(arr, seedStr){
+  At(0),0) || 1;
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){
+    seed = (seed * 9301 + 49297) % 233280;
+    const j = Math.floor((seed/233280)*(i+1));
+    [a[i],a[j]]=[a[j],a[i]];
+  }
+  return a;
+}
+
+function getTodayWords(forceNew=false){
+  const k = dateKey();
+  const store = JSON.parse(localStorage.getItem('vocabHistory')||'{}');
+  if(!forceNew && store[k] && store[k].length===10) return store[k];
+  const picked = seededShuffle(VOCAB_WITH_ETYMOLOGY, k + (forceNew?'-force':'' )).slice(0,10);
+  store[k]=picked;
+  localStorage.setItem('vocabHistory', JSON.stringify(store));
+  return picked;
+}
+
+// ==================== 渲染函数 ====================
+function renderToday(forceNew=false){
+  const box = document.getElementById('today');
+  const words = getTodayWords(forceNew);
+  const today = dateKey();
+  const now = new Date();
+  const timeStr = now.toLocaleTimeString('zh-CN', { hour12: false });
+  
+  let html = `<div class="muted">今日日期：${today}（10个）• 🎧 浏览器TTS • 更新时间: ${timeStr}</div>`;
+  
+  words.forEach((w, i) => {
+    const etymology = w.etymology;
+    html += `
+    <div class="card">
+      <div class="word">${i+1}. ${w.word}</div>
+      <div class="ph">${w.phonetic}</div>
+      <div class="row zh">中文解释：${w.chinese}</div>
+      <div class="row">英文释义：${w.englishDef}</div>
+      
+      <div class="etymology">
+        <div class="etymology-title">🔍 词根词缀分析</div>`;
+    
+    if (etymology.prefix) {
+      html += `<div><span class="tag prefix">前缀</span> <strong>${etymology.prefix}</strong></div>`;
+    }
+    if (etymology.root) {
+      html += `<div><span class="tag root">词根</span> <strong>${etymology.root}</strong></div>`;
+    }
+    if (etymology.suffix) {
+      html += `<div><span class="tag suffix">后缀</span> <strong>${etymology.suffix}</strong></div>`;
+    }
+    
+    html += `
+        <div class="muted" style="margin-top:8px">${etymology.memoryTip}</div>
+        
+        <div class="etymology-title" style="margin-top:12px">🧠 同源词扩展</div>
+        <div>`;
+    
+    etymology.relatedWords.forEach(related => {
+      html += `<span class="tag related">${related}</span> `;
+    });
+    
+    html += `</div>
+      </div>
+      
+      <div class="example">
+        <div><strong>${w.source}例句：</strong>${w.example}</div>
+        <div class="muted">${w.exampleTrans}</div>
+      </div>
+      
+      <div class="bar">
+        <button onclick="playWord('${w.word.replace(/'/g, "\\'")}')">🔊 单词发音</button>
+        <button onclick="playExample('${w.example.replace(/'/g, "\\'")}')">🎧 例句发音</button>
+        <button class="alt" onclick="playDef('${w.englishDef.replace(/'/g, "\\'")}')">📖 释义发音</button>
+        <button class="warn" onclick="stopAllAudio()" style="display:none">⏹ 停止</button>
+      </div>
+    </div>`;
+  });
+  
+  box.innerHTML = html;
+  updateAudioStatus();
+}
+
+function renderHistory(){
+  const el = document.getElementById('history');
+  const store = JSON.parse(localStorage.getItem('vocabHistory') || '{}');
+  const days = Object.keys(store).sort().reverse();
+  
+  if (!days.length) {
+    el.innerHTML = '<div class="muted">暂无历史记录，今日访问后将自动记录。</div>';
+    return;
+  }
+  
+  el.innerHTML = days.map(day => {
+    const arr = store[day] || [];
+    return `<details><summary>${day}（${arr.length}词）</summary><div style="margin-top:8px">${arr.map(x => `<span class='tag'>${x.word}</span>`).join('')}</div></details>`;
+  }).join('');
+}
+
+function refreshToday(force) {
+  renderToday(force);
+  renderHistory();
+}
+
+// ==================== 初始化 ====================
+document.addEventListener('DOMContentLoaded', () => {
+  checkTTSsupport();
+  refreshToday(false);
+  
+  // 键盘快捷键
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      stopAllAudio();
+    }
+    if (e.key === ' ' && e.ctrlKey) {
+      e.preventDefault();
+      playAllWords();
+    }
+    if (e.key === 'e' && e.ctrlKey) {
+      e.preventDefault();
+      playAllExamples();
+    }
+  });
+});
+</script>
+</body>
+</html>

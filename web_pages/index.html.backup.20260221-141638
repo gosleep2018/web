@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welsh Learning 2.0 - Enhanced</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏴󠁧󠁢󠁷󠁬󠁳󠁿</text></svg>">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>🏴󠁧󠁢󠁷󠁬󠁳󠁿 Welsh Learning 2.0</h1>
+      <div class="subtitle">Enhanced Edition • 前缀/后缀 • 记忆方法 • 扩展学习</div>
+      <div style="margin-top: 15px; font-size: 0.9rem; opacity: 0.7;">
+        <i class="fas fa-volume-up"></i> Azure TTS发音 • 可调节学习强度
+      </div>
+    </header>
+    
+    <div class="controls">
+      <div class="toggle-group">
+        <label class="toggle-label">
+          <input type="checkbox" id="togglePrefix" checked>
+          <i class="fas fa-puzzle-piece"></i>
+          <span>词根词缀</span>
+        </label>
+        
+        <label class="toggle-label">
+          <input type="checkbox" id="toggleMemory" checked>
+          <i class="fas fa-lightbulb"></i>
+          <span>记忆技巧</span>
+        </label>
+        
+        <label class="toggle-label">
+          <input type="checkbox" id="toggleExtensions" checked>
+          <i class="fas fa-expand-alt"></i>
+          <span>扩展学习</span>
+        </label>
+        
+        <label class="toggle-label">
+          <input type="checkbox" id="toggleAutoPlay">
+          <i class="fas fa-play-circle"></i>
+          <span>自动发音</span>
+        </label>
+      </div>
+      
+      <div class="intensity-selector">
+        <select id="intensitySelect">
+          <option value="low">低强度</option>
+          <option value="medium" selected>中强度</option>
+          <option value="high">高强度</option>
+        </select>
+      </div>
+    </div>
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+    <div style="text-align: center; margin: 10px 0; font-weight: bold;" id="progressText">
+      单词 1 / 3
+    </div>
+    
+    <div id="wordContainer">
+      <!-- 单词卡片会动态加载到这里 -->
+      <div style="padding: 40px; text-align: center;">
+        <i class="fas fa-spinner fa-spin" style="font-size: 2rem;"></i>
+        <p>加载中...</p>
+      </div>
+    </div>
+    
+    <div style="padding: 20px; display: flex; justify-content: space-between;">
+      <button id="prevBtn" style="padding: 12px 25px; background: #95a5a6; color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 1rem;">
+        <i class="fas fa-arrow-left"></i> 上一个
+      </button>
+      
+      <button id="nextBtn" style="padding: 12px 25px; background: #3498db; color: white; border: none; border-radius: 10px; cursor: pointer; font-size: 1rem;">
+        下一个 <i class="fas fa-arrow-right"></i>
+      </button>
+    </div>
+    
+    <div class="footer">
+      <p>
+        <i class="fas fa-code"></i> Welsh Learning 2.0 Enhanced Edition • 
+        <i class="fas fa-volume-up"></i> Azure TTS发音 • 
+        <i class="fas fa-cogs"></i> 可调节学习强度
+      </p>
+      <p style="margin-top: 10px; font-size: 0.8rem;">
+        版本: 2.0.0 • 数据: 示例单词 • 
+        <a href="#" onclick="alert('切换回1.0版本请联系开发者')" style="color: #e74c3c;">不满意？回退到1.0</a>
+      </p>
+    </div>
+  </div>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
