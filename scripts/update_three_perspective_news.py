@@ -53,6 +53,18 @@ def enrich_bilingual(item: dict):
     title = item.get("title", "")
     item["title_en"] = translate_text(title, "en")
     item["title_zh"] = translate_text(title, "zh-CN")
+    
+    # 如果有描述，清理HTML标签并存储（不翻译，避免API限制）
+    desc = item.get("description", "")
+    if desc:
+        # 清理HTML标签
+        desc_clean = re.sub(r'<[^>]+>', '', desc)
+        # 截断过长的描述
+        if len(desc_clean) > 500:
+            desc_clean = desc_clean[:497] + "..."
+        item["description"] = desc_clean
+        # 不翻译，直接存储
+    
     return item
 
 
@@ -69,8 +81,9 @@ def fetch_rss(url: str):
         title = clean_text(item.findtext("title"))
         link = clean_text(item.findtext("link"))
         pub = clean_text(item.findtext("pubDate"))
+        desc = clean_text(item.findtext("description") or item.findtext("content:encoded") or item.findtext("content"))
         if title and link:
-            items.append({"title": title, "link": link, "published": pub})
+            items.append({"title": title, "link": link, "published": pub, "description": desc})
 
     if not items:
         ns = {"a": "http://www.w3.org/2005/Atom"}
@@ -79,8 +92,9 @@ def fetch_rss(url: str):
             link_el = entry.find("a:link", ns)
             link = clean_text(link_el.attrib.get("href", "") if link_el is not None else "")
             pub = clean_text(entry.findtext("a:updated", default="", namespaces=ns))
+            desc = clean_text(entry.findtext("a:summary", default="", namespaces=ns) or entry.findtext("a:content", default="", namespaces=ns))
             if title and link:
-                items.append({"title": title, "link": link, "published": pub})
+                items.append({"title": title, "link": link, "published": pub, "description": desc})
 
     seen, dedup = set(), []
     for it in items:
@@ -114,15 +128,42 @@ def best_for(base, arr):
     return best, bs
 
 
-def ai_view(event):
-    zh = (event.get("中国", {}) or {}).get("title_zh", "")
-    us = (event.get("美国", {}) or {}).get("title_zh", "")
-    aj = (event.get("伊斯兰", {}) or {}).get("title_zh", "")
-    combined = f"{zh} {us} {aj}"
+def extract_key_sentences(text, max_sentences=2):
+    """从文本中提取关键句子（简单版：取前两个句子）"""
+    if not text:
+        return ""
+    # 按句子分割（简单分割）
+    sentences = re.split(r'[.!?。！？]+', text)
+    sentences = [s.strip() for s in sentences if s.strip()]
+    return " ".join(sentences[:max_sentences]) + ("..." if len(sentences) > max_sentences else "")
 
+
+def ai_view(event):
+    # 获取三个视角的详细数据
+    cn_data = event.get("中国", {}) or {}
+    us_data = event.get("美国", {}) or {}
+    aj_data = event.get("伊斯兰", {}) or {}
+    
+    # 获取描述（优先使用description，没有则用标题）
+    cn_desc = cn_data.get("description_zh") or cn_data.get("description") or cn_data.get("title_zh", "")
+    us_desc = us_data.get("description_zh") or us_data.get("description") or us_data.get("title_zh", "")
+    aj_desc = aj_data.get("description_zh") or aj_data.get("description") or aj_data.get("title_zh", "")
+    
+    # 获取标题用于分类
+    cn_title = cn_data.get("title_zh", "") or cn_data.get("title", "")
+    us_title = us_data.get("title_zh", "") or us_data.get("title", "")
+    aj_title = aj_data.get("title_zh", "") or aj_data.get("title", "")
+    combined_titles = f"{cn_title} {us_title} {aj_title}"
+    
+    # 检查是否有描述内容可用于详细比较（至少一个视角有详细描述）
+    has_detailed_descriptions = (len(cn_desc) > 50 or len(us_desc) > 50 or len(aj_desc) > 50)
+    
+    # 基础分析框架
+    base_analysis = ""
+    
     # 财经经济类
-    if any(k in combined for k in ["关税", "贸易", "经济", "通胀", "市场", "股市", "财政", "利率", "银行", "投资", "货币", "汇率"]):
-        return (
+    if any(k in combined_titles for k in ["关税", "贸易", "经济", "通胀", "市场", "股市", "财政", "利率", "银行", "投资", "货币", "汇率"]):
+        base_analysis = (
             "📊 我的深度分析（财经类）：\n\n"
             "1. **事实层验证**：首先需要区分是政策提案、官方声明还是已立法生效。中国媒体通常报道政策框架与宏观目标，"
             "欧美媒体聚焦市场反应与资本流动，半岛视角可能关注对发展中国家贸易的影响。\n\n"
@@ -132,10 +173,11 @@ def ai_view(event):
             "单一媒体报道往往缺少这些后续验证环节。\n\n"
             "建议操作：对财经新闻保持48小时观察期，等待市场消化与更多数据披露后再做判断。"
         )
+        category = "财经经济"
 
     # 地缘冲突类
-    elif any(k in combined for k in ["冲突", "战争", "袭击", "停火", "导弹", "军事", "边境", "人道", "武器", "防御", "军队", "士兵"]):
-        return (
+    elif any(k in combined_titles for k in ["冲突", "战争", "袭击", "停火", "导弹", "军事", "边境", "人道", "武器", "防御", "军队", "士兵"]):
+        base_analysis = (
             "⚔️ 我的深度分析（地缘冲突类）：\n\n"
             "1. **叙事框架差异**：中国报道强调多边外交与地区稳定框架，常引述官方立场与联合国决议；"
             "欧美报道侧重战略博弈、盟友协调与安全威胁评估；半岛视角聚焦平民伤亡、人道危机与现场纪实。\n\n"
@@ -145,10 +187,11 @@ def ai_view(event):
             "中期看相关国家主权CDS利差、货币汇率波动；长期看区域供应链重构可能。\n\n"
             "警惕点：避免过早接受单一归因叙事，冲突事件往往有复杂的历史脉络与代理战争背景。"
         )
+        category = "地缘冲突"
 
     # 科技太空类
-    elif any(k in combined for k in ["NASA", "太空", "宇航", "卫星", "火箭", "航天", "月球", "火星", "探索", "科技", "创新", "人工智能", "AI"]):
-        return (
+    elif any(k in combined_titles for k in ["NASA", "太空", "宇航", "卫星", "火箭", "航天", "月球", "火星", "探索", "科技", "创新", "人工智能", "AI"]):
+        base_analysis = (
             "🚀 我的深度分析（科技太空类）：\n\n"
             "1. **报道角度对比**：中国媒体突出国家科技成就与工程突破，强调自主创新与团队协作；"
             "欧美媒体注重技术细节、商业应用与国际竞争；半岛视角可能关注科技伦理、全球合作与发展中国家参与。\n\n"
@@ -158,10 +201,11 @@ def ai_view(event):
             "建议跟踪相关上市公司表现、专利发布频率、国际合作协议签署情况。\n\n"
             "观察建议：科技新闻需结合专业期刊论文与工程师社群讨论，避免仅依赖大众媒体报道。"
         )
+        category = "科技太空"
 
     # 政治外交类
-    elif any(k in combined for k in ["外交", "访问", "会谈", "协议", "条约", "峰会", "联合国", "制裁", "抗议", "选举", "总统", "总理"]):
-        return (
+    elif any(k in combined_titles for k in ["外交", "访问", "会谈", "协议", "条约", "峰会", "联合国", "制裁", "抗议", "选举", "总统", "总理"]):
+        base_analysis = (
             "🏛️ 我的深度分析（政治外交类）：\n\n"
             "1. **议程设置分析**：中国报道强调双边关系与务实合作，聚焦具体成果与共识文件；"
             "欧美媒体关注权力动态、战略意图与潜在摩擦点；半岛视角常从全球南方视角分析权力平衡变化。\n\n"
@@ -171,10 +215,11 @@ def ai_view(event):
             "关注此前类似情境下的各方反应模式与最终结果。\n\n"
             "关键提醒：政治外交报道最易受意识形态滤镜影响，建议同时查阅各方智库简报与学术分析。"
         )
+        category = "政治外交"
 
     # 社会民生类
-    elif any(k in combined for k in ["民生", "教育", "医疗", "健康", "住房", "就业", "收入", "消费", "养老", "社保", "福利", "人口"]):
-        return (
+    elif any(k in combined_titles for k in ["民生", "教育", "医疗", "健康", "住房", "就业", "收入", "消费", "养老", "社保", "福利", "人口"]):
+        base_analysis = (
             "🏥 我的深度分析（社会民生类）：\n\n"
             "1. **政策落地差异**：中国报道侧重政策出台与试点效果，强调政府投入与覆盖率提升；"
             "欧美媒体关注个体案例、制度比较与社会公平；半岛视角可能聚焦全球不平等与资源分配。\n\n"
@@ -184,10 +229,11 @@ def ai_view(event):
             "NGO评估报告、以及受影响群体的长期追踪研究。\n\n"
             "分析建议：避免仅凭短期媒体报道判断长期社会趋势，民生议题需要耐心与多维数据。"
         )
+        category = "社会民生"
 
     # 默认综合类
     else:
-        return (
+        base_analysis = (
             "🔍 我的深度分析（综合类）：\n\n"
             "1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），"
             "再标注各方独有的背景补充、因果解释与价值判断。\n\n"
@@ -197,6 +243,67 @@ def ai_view(event):
             "框架效应（同一事实不同表述导致不同判断）。\n\n"
             "最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。"
         )
+        category = "综合"
+    
+    # 如果有详细描述，添加具体内容比较
+    if has_detailed_descriptions:
+        detailed_comparison = f"\n\n📝 **基于三方报道内容的详细比较（{category}类）**\n\n"
+        
+        # 中国视角重点
+        if cn_desc:
+            cn_key = extract_key_sentences(cn_desc)
+            detailed_comparison += f"🇨🇳 **中国报道焦点**：{cn_key}\n\n"
+        
+        # 美国视角重点
+        if us_desc:
+            us_key = extract_key_sentences(us_desc)
+            detailed_comparison += f"🇺🇸 **欧美报道焦点**：{us_key}\n\n"
+        
+        # 伊斯兰视角重点
+        if aj_desc:
+            aj_key = extract_key_sentences(aj_desc)
+            detailed_comparison += f"🌍 **伊斯兰报道焦点**：{aj_key}\n\n"
+        
+        # 比较分析
+        detailed_comparison += "🔍 **我的内容比较分析**：\n"
+        
+        # 检查报道角度差异（同时检查中英文关键词）
+        angles = []
+        cn_lower = cn_desc.lower()
+        us_lower = us_desc.lower()
+        aj_lower = aj_desc.lower()
+        
+        if any(k in cn_lower for k in ["发展", "合作", "稳定", "development", "cooperation", "stability", "progress"]):
+            angles.append("中国报道强调发展与稳定框架")
+        if any(k in us_lower for k in ["市场", "经济", "风险", "market", "economy", "risk", "investment", "financial"]):
+            angles.append("欧美报道关注市场与风险评估")
+        if any(k in aj_lower for k in ["人道", "平民", "现场", "humanitarian", "civilian", "on the ground", "victim", "crisis"]):
+            angles.append("半岛报道聚焦人道与现场细节")
+        
+        if angles:
+            detailed_comparison += "1. **报道角度差异**：" + "；".join(angles) + "。\n"
+        else:
+            detailed_comparison += "1. **报道角度**：三方均从各自常规框架报道此事。\n"
+        
+        # 检查事实侧重差异（同时检查中英文关键词）
+        facts = []
+        if any(word in cn_lower for word in ["政策", "措施", "决定", "宣布", "policy", "measure", "decision", "announce"]):
+            facts.append("中国报道侧重政策层面")
+        if any(word in us_lower for word in ["影响", "反应", "分析", "预测", "impact", "effect", "analysis", "predict", "response"]):
+            facts.append("欧美报道侧重影响分析")
+        if any(word in aj_lower for word in ["现场", "伤亡", "危机", "困难", "on site", "casualty", "crisis", "difficulty", "suffering"]):
+            facts.append("半岛报道侧重现场情况")
+        
+        if facts:
+            detailed_comparison += "2. **事实侧重**：" + "；".join(facts) + "。\n"
+        
+        # 建议
+        detailed_comparison += "3. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n"
+        
+        return base_analysis + detailed_comparison
+    else:
+        # 没有详细描述，返回基础分析
+        return base_analysis
 
 
 def summary_view(event):

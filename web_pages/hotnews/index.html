@@ -209,7 +209,13 @@ function newsItem(it){
 function triCol(title,item){
   if(!item) return `<div class="col"><h4>${title}</h4><div class="en">暂无 / N/A</div></div>`;
   const zh=item.title_zh||item.title||''; const en=item.title_en||item.title||'';
-  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')})">🗣 Read EN</button></div></div>`;
+  let descHtml='';
+  if(item.description && item.description.trim()){
+    const desc=item.description;
+    const shortDesc=desc.length>150?desc.substring(0,147)+'...':desc;
+    descHtml=`<div class="desc" style="margin-top:10px;font-size:12px;color:#94a3b8;line-height:1.4;padding:8px;background:rgba(0,0,0,.1);border-radius:6px;border-left:2px solid #475569">${shortDesc}</div>`;
+  }
+  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div>${descHtml}<div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')})">🗣 Read EN</button></div></div>`;
 }
 
 function switchTab(name){
