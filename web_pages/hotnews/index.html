@@ -189,14 +189,47 @@
 
 <script>
 const AZURE_TTS_BASE='https://web-x0ya.onrender.com';
+let currentAudio=null;
+let currentAudioUrl=null;
+
+function stopAllAudio(){
+  try{ if('speechSynthesis' in window) window.speechSynthesis.cancel(); }catch(_e){}
+  try{
+    if(currentAudio){
+      currentAudio.pause();
+      currentAudio.currentTime=0;
+      currentAudio=null;
+    }
+    if(currentAudioUrl){
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl=null;
+    }
+  }catch(_e){}
+}
 
 async function speakAzure(text){
+  stopAllAudio();
   const q=encodeURIComponent(text); const voice=encodeURIComponent('en-US-JennyNeural');
   const r=await fetch(`${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`); if(!r.ok) throw new Error('tts '+r.status);
   const b=await r.blob(); if(!b||b.size<1024) throw new Error('empty audio');
-  const a=new Audio(URL.createObjectURL(b)); await a.play();
+  currentAudioUrl=URL.createObjectURL(b);
+  currentAudio=new Audio(currentAudioUrl);
+  currentAudio.onended=()=>{
+    if(currentAudioUrl){
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl=null;
+    }
+    currentAudio=null;
+  };
+  await currentAudio.play();
 }
-function speakFallback(text){ if(!('speechSynthesis' in window)) return; const u=new SpeechSynthesisUtterance(text); u.lang='en-US'; window.speechSynthesis.speak(u); }
+function speakFallback(text){
+  stopAllAudio();
+  if(!('speechSynthesis' in window)) return;
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US';
+  window.speechSynthesis.speak(u);
+}
 window.readItem=async (zh,en)=>{const t=`Chinese: ${zh}. English: ${en}.`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
 window.readEnglish=async (en)=>{const t=`${en}`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
 window.readChinese=async (zh)=>{const t=`${zh}`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
