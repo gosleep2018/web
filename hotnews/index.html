@@ -58,7 +58,8 @@
 
     async function speakWithAzure(text){
       const q = encodeURIComponent(text);
-      const url = `${AZURE_TTS_BASE}/tts?text=${q}`;
+      const voice = encodeURIComponent('en-US-JennyNeural');
+      const url = `${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`;
       const resp = await fetch(url, { method: 'GET' });
       if(!resp.ok) throw new Error('TTS request failed: ' + resp.status);
       const blob = await resp.blob();
@@ -118,7 +119,7 @@
         readBtn.className = 'btn';
         readBtn.textContent = '🔊 朗读 / Read';
         readBtn.onclick = async () => {
-          const speechText = `事件：${zh}。中国视角：${(c['中国视角']&&c['中国视角'].title_zh)||''}。美国视角：${(c['美国视角']&&c['美国视角'].title_zh)||''}。半岛视角：${(c['半岛视角']&&c['半岛视角'].title_zh)||''}`;
+          const speechText = `Event: ${en}. China perspective: ${(c['中国视角']&&c['中国视角'].title_en)||''}. US perspective: ${(c['美国视角']&&c['美国视角'].title_en)||''}. Al Jazeera perspective: ${(c['半岛视角']&&c['半岛视角'].title_en)||''}.`;
           try { await speakWithAzure(speechText); }
           catch(e){
             console.warn('Azure TTS failed, fallback to browser voice:', e.message);
@@ -143,11 +144,11 @@
       const comps = (__hotnewsData && __hotnewsData.comparisons) ? __hotnewsData.comparisons : [];
       if (!comps.length) return;
       const lines = comps.map((c, i) => {
-        const zh = c.event_hint_zh || c.event_hint || '';
-        const cn = (c['中国视角'] && c['中国视角'].title_zh) || '';
-        const us = (c['美国视角'] && c['美国视角'].title_zh) || '';
-        const aj = (c['半岛视角'] && c['半岛视角'].title_zh) || '';
-        return `第${i+1}条。事件：${zh}。中国视角：${cn}。美国视角：${us}。半岛视角：${aj}。`;
+        const en = c.event_hint_en || c.event_hint || '';
+        const cn = (c['中国视角'] && c['中国视角'].title_en) || '';
+        const us = (c['美国视角'] && c['美国视角'].title_en) || '';
+        const aj = (c['半岛视角'] && c['半岛视角'].title_en) || '';
+        return `Item ${i+1}. Event: ${en}. China perspective: ${cn}. US perspective: ${us}. Al Jazeera perspective: ${aj}.`;
       });
       const speechText = lines.join(' ');
       try { await speakWithAzure(speechText); }
