@@ -3,174 +3,109 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HotNews｜四栏目新闻看板</title>
+  <title>HotNews｜四栏菜单版</title>
   <style>
-    :root {
-      --bg:#0b1220; --panel:#111827; --line:#1f2937; --muted:#9ca3af; --text:#e5e7eb;
-      --blue:#1d4ed8; --blue2:#1e40af; --chip:#1e293b; --soft:#0f172a;
-    }
-    * { box-sizing:border-box; }
-    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--text); }
-    .wrap { max-width:1200px; margin:0 auto; padding:22px; }
-    h1 { margin:0 0 8px; font-size:30px; }
-    h2 { margin:18px 0 10px; font-size:20px; }
-    .meta { color:var(--muted); margin-bottom:12px; }
-    .toolbar { display:flex; gap:8px; margin:8px 0 14px; flex-wrap:wrap; }
-    .btn { background:var(--blue); color:#fff; border:none; border-radius:10px; padding:8px 12px; font-size:13px; cursor:pointer; }
-    .btn:hover { background:var(--blue2); }
-
-    .grid4 { display:grid; grid-template-columns:repeat(2,minmax(280px,1fr)); gap:12px; }
-    @media (max-width:900px){ .grid4{grid-template-columns:1fr;} }
-
-    .card { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; }
-    .card h3 { margin:0 0 10px; font-size:18px; }
-    .item { padding:10px; border:1px solid #1e293b; background:var(--soft); border-radius:10px; margin-bottom:8px; }
-    .item:last-child { margin-bottom:0; }
-    .zh a, .zh { color:#e2e8f0; text-decoration:none; }
-    .zh a:hover { text-decoration:underline; }
-    .en { color:#93c5fd; font-size:13px; margin-top:4px; line-height:1.35; }
-
-    .tri { margin-top:16px; }
-    .triCard { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px; margin-bottom:12px; }
-    .event { font-weight:700; margin-bottom:8px; }
-    .event .en { display:block; }
-    .triGrid { display:grid; grid-template-columns:repeat(3,minmax(220px,1fr)); gap:10px; }
-    @media (max-width:950px){ .triGrid{grid-template-columns:1fr;} }
-    .col { border:1px solid #1e293b; border-radius:10px; background:var(--soft); padding:10px; }
-    .col h4 { margin:0 0 6px; font-size:14px; color:#c7d2fe; }
-    .empty { color:#64748b; font-size:13px; }
-    .insight { margin-top:10px; background:#0b1a33; border:1px solid #1d3b70; border-radius:8px; padding:10px; font-size:14px; line-height:1.5; }
+    :root{--bg:#0b1220;--panel:#121a2a;--line:#253148;--text:#e8eefc;--muted:#97a3bd;--pri:#3b82f6;--pri2:#1d4ed8;--soft:#0f1727}
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#0a1222,#0a1020);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
+    .wrap{max-width:1200px;margin:0 auto;padding:18px}
+    .top{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap}
+    h1{margin:0;font-size:30px;letter-spacing:.2px}
+    .meta{color:var(--muted);font-size:13px}
+    .menu{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:16px 0}
+    .tab{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 10px;border-radius:12px;cursor:pointer;font-weight:700}
+    .tab.active{background:linear-gradient(180deg,var(--pri),var(--pri2));border-color:#4f8dff}
+    .panel{display:none;background:rgba(16,24,40,.8);border:1px solid var(--line);border-radius:14px;padding:14px}
+    .panel.active{display:block}
+    .list{display:grid;grid-template-columns:1fr;gap:10px}
+    .item{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:10px}
+    .zh a{color:#dbeafe;text-decoration:none} .zh a:hover{text-decoration:underline}
+    .en{color:#9cc3ff;font-size:13px;line-height:1.35;margin-top:5px}
+    .btn{margin-top:8px;background:var(--pri);color:#fff;border:none;padding:6px 9px;border-radius:8px;cursor:pointer;font-size:12px}
+    .btn:hover{background:var(--pri2)}
+    .triCard{background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:10px}
+    .event{font-weight:700} .event .en{display:block}
+    .triGrid{display:grid;grid-template-columns:repeat(3,minmax(220px,1fr));gap:10px;margin-top:8px}
+    .col{border:1px solid var(--line);border-radius:10px;padding:10px;background:#0d1628}
+    .col h4{margin:0 0 6px;font-size:14px;color:#c3d7ff}
+    .insight{margin-top:10px;padding:10px;border-radius:10px;background:#0a1c35;border:1px solid #1e3a63;font-size:14px;line-height:1.5}
+    @media (max-width:900px){.menu{grid-template-columns:repeat(2,1fr)}.triGrid{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <h1>HotNews：四栏目新闻看板</h1>
-    <div class="meta" id="meta">加载中... / Loading...</div>
-
-    <div class="toolbar">
-      <button id="readAllBtn" class="btn">🔊 朗读三角视角总结 / Read Triangle Summary</button>
-    </div>
-
-    <div class="grid4" id="fourCols"></div>
-
-    <div class="tri">
-      <h2>三角视角（2+媒体共同事件）</h2>
-      <div id="triangle"></div>
-    </div>
+<div class="wrap">
+  <div class="top">
+    <h1>HotNews · 四栏菜单</h1>
+    <div class="meta" id="meta">加载中...</div>
   </div>
 
-  <script>
-    const AZURE_TTS_BASE = 'https://web-x0ya.onrender.com';
-    let __data = null;
+  <div class="menu">
+    <button class="tab active" data-tab="cn">1、中国</button>
+    <button class="tab" data-tab="west">2、欧美</button>
+    <button class="tab" data-tab="islam">3、伊斯兰</button>
+    <button class="tab" data-tab="tri">4、三方视角</button>
+  </div>
 
-    async function speakWithAzure(text){
-      const q = encodeURIComponent(text);
-      const voice = encodeURIComponent('en-US-JennyNeural');
-      const url = `${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`;
-      const resp = await fetch(url, { method: 'GET' });
-      if(!resp.ok) throw new Error('TTS request failed: ' + resp.status);
-      const blob = await resp.blob();
-      if (!blob || blob.size < 1024) throw new Error('Azure returned empty audio');
-      const audioUrl = URL.createObjectURL(blob);
-      const audio = new Audio(audioUrl);
-      await audio.play();
-    }
+  <section id="panel-cn" class="panel active"><div class="list" id="list-cn"></div></section>
+  <section id="panel-west" class="panel"><div class="list" id="list-west"></div></section>
+  <section id="panel-islam" class="panel"><div class="list" id="list-islam"></div></section>
+  <section id="panel-tri" class="panel"><div id="list-tri"></div></section>
+</div>
 
-    function speakFallback(text){
-      if (!('speechSynthesis' in window)) return;
-      window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'en-US';
-      window.speechSynthesis.speak(u);
-    }
+<script>
+const AZURE_TTS_BASE='https://web-x0ya.onrender.com';
 
-    function newsBlock(title, items){
-      const card = document.createElement('div');
-      card.className = 'card';
-      card.innerHTML = `<h3>${title}</h3>`;
-      (items || []).slice(0,10).forEach(it => {
-        const d = document.createElement('div');
-        d.className = 'item';
-        const zh = it.title_zh || it.title || '';
-        const en = it.title_en || it.title || '';
-        d.innerHTML = `<div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div>
-                       <div class="en">${en}</div>
-                       <div class="toolbar" style="margin-top:8px;">
-                         <button class="btn" style="padding:6px 9px;font-size:12px;" onclick="window.readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')}, ${JSON.stringify(en).replace(/"/g,'&quot;')})">🔊 读ZH/EN</button>
-                       </div>`;
-        card.appendChild(d);
-      });
-      return card;
-    }
+async function speakAzure(text){
+  const q=encodeURIComponent(text); const voice=encodeURIComponent('en-US-JennyNeural');
+  const r=await fetch(`${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`); if(!r.ok) throw new Error('tts '+r.status);
+  const b=await r.blob(); if(!b||b.size<1024) throw new Error('empty audio');
+  const a=new Audio(URL.createObjectURL(b)); await a.play();
+}
+function speakFallback(text){ if(!('speechSynthesis' in window)) return; const u=new SpeechSynthesisUtterance(text); u.lang='en-US'; window.speechSynthesis.speak(u); }
+window.readItem=async (zh,en)=>{const t=`Chinese: ${zh}. English: ${en}.`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
 
-    window.readItem = async (zh, en) => {
-      const text = `Chinese: ${zh}. English: ${en}.`;
-      try { await speakWithAzure(text); }
-      catch(e){ speakFallback(text); }
-    }
+function newsItem(it){
+  const zh=it.title_zh||it.title||''; const en=it.title_en||it.title||'';
+  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')})">🔊 读ZH/EN</button></div>`;
+}
 
-    function triCol(title, item){
-      const col = document.createElement('div');
-      col.className = 'col';
-      col.innerHTML = `<h4>${title}</h4>`;
-      if(item && item.link){
-        const zh = item.title_zh || item.title || '';
-        const en = item.title_en || item.title || '';
-        col.innerHTML += `<div class="zh"><a href="${item.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div>`;
-      } else {
-        col.innerHTML += `<div class="empty">暂无 / N/A</div>`;
-      }
-      return col;
-    }
+function triCol(title,item){
+  if(!item) return `<div class="col"><h4>${title}</h4><div class="en">暂无 / N/A</div></div>`;
+  const zh=item.title_zh||item.title||''; const en=item.title_en||item.title||'';
+  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div></div>`;
+}
 
-    async function load(){
-      const res = await fetch('./data/news.json?_=' + Date.now());
-      const data = await res.json();
-      __data = data;
-      document.getElementById('meta').textContent = `最后更新 / Last update: ${data.generated_at}（每日 08:00 自动更新）`;
+function switchTab(name){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===name));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+}
 
-      const four = document.getElementById('fourCols');
-      four.innerHTML = '';
-      four.appendChild(newsBlock('中国 / China', data.sources?.['中国'] || []));
-      four.appendChild(newsBlock('美国（欧美媒体） / US-Western Media', data.sources?.['美国（欧美媒体）'] || []));
-      four.appendChild(newsBlock('伊斯兰（半岛等） / Islamic (Al Jazeera etc.)', data.sources?.['伊斯兰（半岛等）'] || []));
-      four.appendChild(newsBlock('三角视角事件列表 / Triangle Event List', (data.triangle || []).map(t => ({
-        title_zh: t.event_hint_zh || t.event_hint,
-        title_en: t.event_hint_en || t.event_hint,
-        link: (t['中国']||t['美国']||t['伊斯兰']||{}).link || '#'
-      }))));
+document.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>switchTab(btn.dataset.tab));
 
-      const tri = document.getElementById('triangle');
-      tri.innerHTML = '';
-      (data.triangle || []).forEach((e, i) => {
-        const c = document.createElement('div');
-        c.className = 'triCard';
-        c.innerHTML = `<div class="event">事件 ${i+1}：${e.event_hint_zh || e.event_hint}<span class="en">${e.event_hint_en || e.event_hint}</span></div>`;
-        const g = document.createElement('div');
-        g.className = 'triGrid';
-        g.appendChild(triCol('中国视角 / China', e['中国']));
-        g.appendChild(triCol('美国视角 / US-Western', e['美国']));
-        g.appendChild(triCol('伊斯兰视角 / Islamic', e['伊斯兰']));
-        c.appendChild(g);
-        const ins = document.createElement('div');
-        ins.className = 'insight';
-        ins.innerHTML = `<div><b>我的看法 / My view：</b>${e.my_view || ''}</div><div style="margin-top:6px;"><b>总结 / Summary：</b>${e.summary || ''}</div>`;
-        c.appendChild(ins);
-        tri.appendChild(c);
-      });
-    }
+async function load(){
+  const r=await fetch('./data/news.json?_='+Date.now());
+  const d=await r.json();
+  document.getElementById('meta').textContent=`最后更新 / Last update: ${d.generated_at}（每日08:00自动更新）`;
 
-    document.getElementById('readAllBtn').onclick = async () => {
-      const events = (__data && __data.triangle) ? __data.triangle : [];
-      if (!events.length) return;
-      const text = events.map((e, i) => `Item ${i+1}. Event ${e.event_hint_en || ''}. My view: ${e.my_view || ''}. Summary: ${e.summary || ''}`).join(' ');
-      try { await speakWithAzure(text); }
-      catch(e){ speakFallback(text); }
-    }
+  document.getElementById('list-cn').innerHTML=(d.sources?.['中国']||[]).slice(0,12).map(newsItem).join('');
+  document.getElementById('list-west').innerHTML=(d.sources?.['美国（欧美媒体）']||[]).slice(0,12).map(newsItem).join('');
+  document.getElementById('list-islam').innerHTML=(d.sources?.['伊斯兰（半岛等）']||[]).slice(0,12).map(newsItem).join('');
 
-    load().catch(e => {
-      document.getElementById('meta').textContent = '加载失败 / Load failed: ' + e.message;
-    });
-  </script>
+  const tri=(d.triangle||[]).map((e,i)=>`
+    <div class="triCard">
+      <div class="event">事件 ${i+1}：${e.event_hint_zh||e.event_hint||''}<span class="en">${e.event_hint_en||e.event_hint||''}</span></div>
+      <div class="triGrid">
+        ${triCol('中国视角 / China',e['中国'])}
+        ${triCol('欧美视角 / Western',e['美国'])}
+        ${triCol('伊斯兰视角 / Islamic',e['伊斯兰'])}
+      </div>
+      <div class="insight"><b>我的看法 / My view：</b>${e.my_view||''}<br/><b>总结 / Summary：</b>${e.summary||''}</div>
+    </div>
+  `).join('');
+  document.getElementById('list-tri').innerHTML=tri||'<div class="item">暂无可对比事件</div>';
+}
+
+load().catch(e=>document.getElementById('meta').textContent='加载失败 / Load failed: '+e.message);
+</script>
 </body>
 </html>
