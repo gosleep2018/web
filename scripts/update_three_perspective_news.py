@@ -13,7 +13,10 @@ TZ = ZoneInfo("Asia/Singapore")
 OUT = Path("/Users/lin/.openclaw/workspace/web_pages/hotnews/data/news.json")
 
 SOURCES = {
-    "中国": ["http://www.people.com.cn/rss/politics.xml"],
+    "中国": [
+        "http://www.people.com.cn/rss/society.xml",
+        "http://www.people.com.cn/rss/finance.xml",
+    ],
     "美国（欧美媒体）": [
         "http://rss.cnn.com/rss/edition.rss",
         "https://feeds.bbci.co.uk/news/world/rss.xml"
@@ -538,9 +541,95 @@ def build_triangle(sources):
     return uniq[:MAX_TRIANGLE]
 
 
+def current_slot(now: datetime):
+    h = now.hour
+    if h < 11:
+        return "早"
+    if h < 18:
+        return "中"
+    return "晚"
+
+
+def slot_rank(slot: str):
+    return {"早": 1, "中": 2, "晚": 3}.get(slot, 0)
+
+
+def dedupe_items(items):
+    seen, uniq = set(), []
+    for it in items:
+        key = (it.get("title", ""), it.get("link", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        uniq.append(it)
+    return uniq
+
+
+def load_existing_for_today(today: str):
+    if not OUT.exists():
+        return None
+    try:
+        old = json.loads(OUT.read_text(encoding="utf-8"))
+        date_str = old.get("generated_date")
+        if date_str == today:
+            return old
+    except Exception:
+        return None
+    return None
+
+
+def merge_payload(existing, fresh_payload, now_slot):
+    if not existing:
+        fresh_payload["slots_done"] = [now_slot]
+        return fresh_payload
+
+    prev_slots = existing.get("slots_done", [])
+    if now_slot not in prev_slots:
+        prev_slots.append(now_slot)
+
+    merged = {
+        "generated_at": fresh_payload["generated_at"],
+        "generated_date": fresh_payload["generated_date"],
+        "current_slot": now_slot,
+        "slots_done": sorted(prev_slots, key=slot_rank),
+        "sources": {},
+        "triangle": [],
+        "errors": {},
+    }
+
+    for name in SOURCES.keys():
+        old_items = existing.get("sources", {}).get(name, [])
+        new_items = fresh_payload.get("sources", {}).get(name, [])
+
+        if now_slot == "中":
+            combined = dedupe_items(new_items + old_items)  # 中午优先显示中，再补早
+        elif now_slot == "晚":
+            combined = dedupe_items(old_items + new_items)  # 晚上在早+中基础上追加晚
+        else:  # 早
+            combined = dedupe_items(new_items)
+
+        merged["sources"][name] = combined[:MAX_CARD_ITEMS]
+
+        err_new = fresh_payload.get("errors", {}).get(name)
+        err_old = existing.get("errors", {}).get(name)
+        if err_new:
+            merged["errors"][name] = err_new
+        elif err_old and not merged["sources"][name]:
+            merged["errors"][name] = err_old
+
+    merged["triangle"] = build_triangle(merged["sources"])
+    return merged
+
+
 def main():
-    payload = {
-        "generated_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S %Z"),
+    now = datetime.now(TZ)
+    today = now.strftime("%Y-%m-%d")
+    now_slot = current_slot(now)
+
+    fresh_payload = {
+        "generated_at": now.strftime("%Y-%m-%d %H:%M:%S %Z"),
+        "generated_date": today,
+        "current_slot": now_slot,
         "sources": {},
         "triangle": [],
         "errors": {},
@@ -554,23 +643,19 @@ def main():
             except Exception as e:
                 errs.append(f"{url}: {e}")
 
-        seen, uniq = set(), []
-        for it in merged:
-            key = (it.get("title", ""), it.get("link", ""))
-            if key in seen:
-                continue
-            seen.add(key)
-            uniq.append(it)
-
-        payload["sources"][name] = uniq[:MAX_CARD_ITEMS]
+        uniq = dedupe_items(merged)
+        fresh_payload["sources"][name] = uniq[:MAX_CARD_ITEMS]
         if errs and not uniq:
-            payload["errors"][name] = " | ".join(errs)
+            fresh_payload["errors"][name] = " | ".join(errs)
 
-    payload["triangle"] = build_triangle(payload["sources"])
+    fresh_payload["triangle"] = build_triangle(fresh_payload["sources"])
+
+    existing = load_existing_for_today(today)
+    payload = merge_payload(existing, fresh_payload, now_slot)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"✅ Updated: {OUT}")
+    print(f"✅ Updated: {OUT} | slot={now_slot} | slots_done={payload.get('slots_done', [])}")
 
 
 if __name__ == "__main__":
