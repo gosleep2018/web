@@ -138,6 +138,40 @@ def extract_key_sentences(text, max_sentences=2):
     return " ".join(sentences[:max_sentences]) + ("..." if len(sentences) > max_sentences else "")
 
 
+def extract_top_keywords(text, n=5):
+    """从文本中提取关键词（简单版：按频率）"""
+    if not text:
+        return []
+    # 简单分词（按空格和标点）
+    words = re.findall(r'\b[a-zA-Z]{4,}\b', text.lower())
+    # 过滤停用词
+    stopwords = set(['that', 'with', 'this', 'from', 'have', 'would', 'could', 'should', 'what', 'when', 'where', 'which', 'who', 'whom', 'why', 'how', 'about'])
+    words = [w for w in words if w not in stopwords]
+    # 统计频率
+    from collections import Counter
+    freq = Counter(words)
+    return [word for word, _ in freq.most_common(n)]
+
+
+def analyze_sentiment_simple(text):
+    """简单情感分析（基于关键词）"""
+    if not text:
+        return "neutral"
+    text_lower = text.lower()
+    positive_words = ['good', 'great', 'excellent', 'positive', 'success', 'win', 'improve', 'progress', 'achievement']
+    negative_words = ['bad', 'poor', 'negative', 'failure', 'loss', 'problem', 'crisis', 'conflict', 'attack']
+    
+    pos_count = sum(1 for w in positive_words if w in text_lower)
+    neg_count = sum(1 for w in negative_words if w in text_lower)
+    
+    if pos_count > neg_count:
+        return "positive"
+    elif neg_count > pos_count:
+        return "negative"
+    else:
+        return "neutral"
+
+
 def ai_view(event):
     # 获取三个视角的详细数据
     cn_data = event.get("中国", {}) or {}
@@ -249,29 +283,54 @@ def ai_view(event):
     if has_detailed_descriptions:
         detailed_comparison = f"\n\n📝 **基于三方报道内容的详细比较（{category}类）**\n\n"
         
-        # 中国视角重点
+        # 收集各视角的数据用于分析
+        perspectives = []
         if cn_desc:
-            cn_key = extract_key_sentences(cn_desc)
-            detailed_comparison += f"🇨🇳 **中国报道焦点**：{cn_key}\n\n"
-        
-        # 美国视角重点
+            perspectives.append(("🇨🇳 中国", cn_desc))
         if us_desc:
-            us_key = extract_key_sentences(us_desc)
-            detailed_comparison += f"🇺🇸 **欧美报道焦点**：{us_key}\n\n"
-        
-        # 伊斯兰视角重点
+            perspectives.append(("🇺🇸 欧美", us_desc))
         if aj_desc:
-            aj_key = extract_key_sentences(aj_desc)
-            detailed_comparison += f"🌍 **伊斯兰报道焦点**：{aj_key}\n\n"
+            perspectives.append(("🌍 伊斯兰", aj_desc))
         
-        # 比较分析
-        detailed_comparison += "🔍 **我的内容比较分析**：\n"
+        # 显示各视角焦点
+        for label, desc in perspectives:
+            key_sentences = extract_key_sentences(desc)
+            detailed_comparison += f"{label} **报道焦点**：{key_sentences}\n\n"
         
-        # 检查报道角度差异（同时检查中英文关键词）
+        # 文本分析部分
+        detailed_comparison += "🔍 **深度文本分析**：\n"
+        
+        # 1. 报道长度对比
+        length_info = []
+        for label, desc in perspectives:
+            word_count = len(desc.split())
+            length_info.append(f"{label}: {word_count}词")
+        if length_info:
+            detailed_comparison += f"1. **报道长度**：{' | '.join(length_info)}\n"
+        
+        # 2. 关键词对比
+        all_keywords = []
+        for label, desc in perspectives:
+            keywords = extract_top_keywords(desc, 3)
+            if keywords:
+                all_keywords.append(f"{label}: {', '.join(keywords)}")
+        if all_keywords:
+            detailed_comparison += f"2. **关键词**：{' | '.join(all_keywords)}\n"
+        
+        # 3. 简单情感分析
+        sentiments = []
+        for label, desc in perspectives:
+            sentiment = analyze_sentiment_simple(desc)
+            sentiment_map = {"positive": "偏正面", "negative": "偏负面", "neutral": "中性"}
+            sentiments.append(f"{label}: {sentiment_map[sentiment]}")
+        if sentiments:
+            detailed_comparison += f"3. **情感倾向**：{' | '.join(sentiments)}\n"
+        
+        # 4. 报道角度差异（同时检查中英文关键词）
         angles = []
-        cn_lower = cn_desc.lower()
-        us_lower = us_desc.lower()
-        aj_lower = aj_desc.lower()
+        cn_lower = cn_desc.lower() if cn_desc else ""
+        us_lower = us_desc.lower() if us_desc else ""
+        aj_lower = aj_desc.lower() if aj_desc else ""
         
         if any(k in cn_lower for k in ["发展", "合作", "稳定", "development", "cooperation", "stability", "progress"]):
             angles.append("中国报道强调发展与稳定框架")
@@ -281,11 +340,11 @@ def ai_view(event):
             angles.append("半岛报道聚焦人道与现场细节")
         
         if angles:
-            detailed_comparison += "1. **报道角度差异**：" + "；".join(angles) + "。\n"
+            detailed_comparison += f"4. **报道角度**：{'；'.join(angles)}。\n"
         else:
-            detailed_comparison += "1. **报道角度**：三方均从各自常规框架报道此事。\n"
+            detailed_comparison += "4. **报道角度**：三方均从各自常规框架报道此事。\n"
         
-        # 检查事实侧重差异（同时检查中英文关键词）
+        # 5. 事实侧重差异
         facts = []
         if any(word in cn_lower for word in ["政策", "措施", "决定", "宣布", "policy", "measure", "decision", "announce"]):
             facts.append("中国报道侧重政策层面")
@@ -295,10 +354,12 @@ def ai_view(event):
             facts.append("半岛报道侧重现场情况")
         
         if facts:
-            detailed_comparison += "2. **事实侧重**：" + "；".join(facts) + "。\n"
+            detailed_comparison += f"5. **事实侧重**：{'；'.join(facts)}。\n"
+        else:
+            detailed_comparison += "5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n"
         
-        # 建议
-        detailed_comparison += "3. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n"
+        # 6. 综合建议
+        detailed_comparison += "6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n"
         
         return base_analysis + detailed_comparison
     else:
@@ -314,15 +375,15 @@ def summary_view(event):
     # 提取关键信息用于个性化总结
     event_title = event.get("event_hint_zh", "") or event.get("event_hint", "")
     categories = []
-    if any(k in event_title for k in ["关税", "贸易", "经济", "股市"]):
+    if any(k in event_title for k in ["关税", "贸易", "经济", "股市", "财政", "银行", "货币"]):
         categories.append("财经经济")
-    if any(k in event_title for k in ["冲突", "战争", "军事"]):
+    if any(k in event_title for k in ["冲突", "战争", "军事", "袭击", "防御", "武器"]):
         categories.append("地缘安全")
-    if any(k in event_title for k in ["NASA", "太空", "科技"]):
+    if any(k in event_title for k in ["NASA", "太空", "宇航", "科技", "人工智能", "AI", "创新"]):
         categories.append("科技创新")
-    if any(k in event_title for k in ["外交", "协议", "峰会"]):
+    if any(k in event_title for k in ["外交", "协议", "条约", "峰会", "联合国", "制裁", "选举"]):
         categories.append("政治外交")
-    if any(k in event_title for k in ["民生", "教育", "医疗"]):
+    if any(k in event_title for k in ["民生", "教育", "医疗", "健康", "住房", "就业", "养老"]):
         categories.append("社会民生")
     
     category_str = "、".join(categories) if categories else "综合"
@@ -330,26 +391,96 @@ def summary_view(event):
     parts = []
     parts.append(f"🔬 三方视角深度总结（{category_str}类事件）\n\n")
     
+    # 统计各视角存在情况
+    perspective_count = sum(1 for x in [c, u, i] if x)
+    
+    parts.append(f"📊 **本事件覆盖情况**：{perspective_count}/3 个视角报道（{['中国','美国','伊斯兰'][:perspective_count]}）\n\n")
+    
     if c:
-        parts.append("🇨🇳 **中国视角特征**：通常聚焦政策框架、长期规划、社会稳定与集体成就；报道风格稳重，"
+        # 分析中国报道特点（基于描述如果存在）
+        cn_desc = c.get("description", "")
+        focus_areas = []
+        if any(k in cn_desc.lower() for k in ["发展", "进步", "合作", "稳定"]):
+            focus_areas.append("发展稳定")
+        if any(k in cn_desc.lower() for k in ["政策", "措施", "决定", "规划"]):
+            focus_areas.append("政策规划")
+        if any(k in cn_desc.lower() for k in ["技术", "创新", "突破", "成就"]):
+            focus_areas.append("技术创新")
+        
+        focus_str = f"（重点关注：{'、'.join(focus_areas)}）" if focus_areas else ""
+        parts.append(f"🇨🇳 **中国视角**{focus_str}：通常聚焦政策框架、长期规划、社会稳定与集体成就；报道风格稳重，"
                     "强调制度优势与治理效能；在技术类新闻中突出自主创新，在外交新闻中强调合作共赢。\n\n")
     
     if u:
-        parts.append("🇺🇸 **欧美视角特征**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，"
+        # 分析欧美报道特点
+        us_desc = u.get("description", "")
+        focus_areas = []
+        if any(k in us_desc.lower() for k in ["market", "economy", "financial", "investment"]):
+            focus_areas.append("市场经济")
+        if any(k in us_desc.lower() for k in ["risk", "challenge", "problem", "threat"]):
+            focus_areas.append("风险挑战")
+        if any(k in us_desc.lower() for k in ["analysis", "impact", "effect", "consequence"]):
+            focus_areas.append("影响分析")
+        
+        focus_str = f"（重点关注：{'、'.join(focus_areas)}）" if focus_areas else ""
+        parts.append(f"🇺🇸 **欧美视角**{focus_str}：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，"
                     "关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n")
     
     if i:
-        parts.append("🌍 **伊斯兰/半岛视角特征**：往往从全球南方与发展中国家立场出发，关注现场细节、"
+        # 分析伊斯兰报道特点
+        aj_desc = i.get("description", "")
+        focus_areas = []
+        if any(k in aj_desc.lower() for k in ["humanitarian", "civilian", "people", "victim"]):
+            focus_areas.append("人道关怀")
+        if any(k in aj_desc.lower() for k in ["on the ground", "site", "location", "scene"]):
+            focus_areas.append("现场细节")
+        if any(k in aj_desc.lower() for k in ["crisis", "suffering", "difficulty", "challenge"]):
+            focus_areas.append("危机困难")
+        
+        focus_str = f"（重点关注：{'、'.join(focus_areas)}）" if focus_areas else ""
+        parts.append(f"🌍 **伊斯兰/半岛视角**{focus_str}：往往从全球南方与发展中国家立场出发，关注现场细节、"
                     "人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；"
                     "常为西方主流叙事提供重要的补充与制衡视角。\n\n")
     
-    parts.append("📈 **整合分析建议**：\n")
-    parts.append("1. 用中国视角理解政策意图与长期框架\n")
-    parts.append("2. 用欧美视角评估市场反应与风险变量\n")
-    parts.append("3. 用半岛视角感受现场现实与人文维度\n\n")
+    # 基于实际内容的建议
+    parts.append("📈 **基于本事件内容的分析建议**：\n")
     
-    parts.append("💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，"
-                "从而在复杂世界中形成更立体、更抗偏差的判断能力。")
+    advice_points = []
+    if c and ("政策" in str(c.get("description", "")).lower() or "policy" in str(c.get("description", "")).lower()):
+        advice_points.append("从中国报道中理解政策意图与实施框架")
+    
+    if u and any(k in str(u.get("description", "")).lower() for k in ["impact", "effect", "risk", "market"]):
+        advice_points.append("从欧美报道中评估潜在影响与风险变量")
+    
+    if i and any(k in str(i.get("description", "")).lower() for k in ["human", "civilian", "ground", "site"]):
+        advice_points.append("从半岛报道中感受现场现实与人文维度")
+    
+    if not advice_points:
+        advice_points = [
+            "用中国视角理解政策意图与长期框架",
+            "用欧美视角评估市场反应与风险变量", 
+            "用半岛视角感受现场现实与人文维度"
+        ]
+    
+    for idx, point in enumerate(advice_points, 1):
+        # 移除可能已经存在的编号
+        point_clean = point[3:] if point[:3] in ["1. ", "2. ", "3. ", "4. ", "5. "] else point
+        parts.append(f"{idx}. {point_clean}\n")
+    
+    parts.append("\n")
+    
+    # 最终洞察（根据事件类型调整）
+    if "财经经济" in categories:
+        parts.append("💡 **财经事件洞察**：政策声明与市场反应常有时间差，建议关注后续48小时的实际数据验证。\n")
+    elif "地缘安全" in categories:
+        parts.append("💡 **地缘事件洞察**：冲突报道最易受叙事框架影响，重点区分事实陈述与归因解释。\n")
+    elif "科技创新" in categories:
+        parts.append("💡 **科技事件洞察**：技术突破需区分概念验证与商业落地，关注专利与产业链数据。\n")
+    else:
+        parts.append("💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，"
+                    "从而在复杂世界中形成更立体、更抗偏差的判断能力。\n")
+    
+    parts.append("\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。")
     
     return "".join(parts)
 
