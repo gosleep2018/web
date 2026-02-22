@@ -3,58 +3,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>HotNews｜同一事件三方视角 / 3-View Comparison</title>
+  <title>HotNews｜重点新闻 + 三方视角</title>
   <style>
     body { font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif; margin:0; padding:22px; background:#0b1220; color:#e5e7eb; }
     h1 { margin:0 0 8px; font-size:28px; }
-    .meta { color:#9ca3af; margin-bottom:16px; }
+    h2 { margin:18px 0 10px; font-size:20px; }
+    .meta { color:#9ca3af; margin-bottom:12px; }
+    .toolbar { display:flex; gap:8px; margin:8px 0 14px; }
+    .btn { background:#1d4ed8; color:#fff; border:none; border-radius:8px; padding:6px 10px; font-size:13px; cursor:pointer; }
+    .btn:hover { background:#1e40af; }
     .card { background:#111827; border:1px solid #1f2937; border-radius:14px; padding:14px; margin-bottom:14px; }
     .event { font-weight:700; margin-bottom:10px; color:#f9fafb; }
     .event .en { display:block; margin-top:4px; color:#93c5fd; font-size:13px; font-weight:500; }
-    .toolbar { display:flex; gap:8px; margin:8px 0 10px; }
-    .btn { background:#1d4ed8; color:#fff; border:none; border-radius:8px; padding:6px 10px; font-size:13px; cursor:pointer; }
-    .btn:hover { background:#1e40af; }
     .grid { display:grid; grid-template-columns: repeat(3,minmax(220px,1fr)); gap:10px; }
     .col { background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px; }
     .col h3 { margin:0 0 6px; font-size:15px; color:#c7d2fe; }
     .empty { color:#64748b; font-size:13px; }
+    .sourceTag { display:inline-block; background:#1e293b; color:#cbd5e1; border-radius:999px; padding:2px 8px; font-size:12px; margin-right:8px; }
+    .insight { margin-top:10px; background:#0b1a33; border:1px solid #1d3b70; border-radius:8px; padding:10px; font-size:14px; line-height:1.5; }
     a { color:#93c5fd; text-decoration:none; }
     a:hover { text-decoration:underline; }
     @media (max-width:900px){ .grid{grid-template-columns:1fr;} }
   </style>
 </head>
 <body>
-  <h1>HotNews：同一新闻事件三方观点对比 / Same Event, 3 Perspectives</h1>
+  <h1>HotNews：重点新闻 + 三方视角对比</h1>
   <div class="meta" id="meta">加载中... / Loading...</div>
   <div class="toolbar" style="margin-bottom:14px;">
-    <button id="readAllBtn" class="btn">🔊 朗读今日全部 / Read All Today</button>
+    <button id="readAllBtn" class="btn">🔊 朗读重点解读 / Read Insights</button>
   </div>
-  <div id="list"></div>
+
+  <h2>1）重点新闻（直接列出）</h2>
+  <div id="headlines"></div>
+
+  <h2>2）被两个以上媒体提到的事件（三方视角 + 我的看法）</h2>
+  <div id="events"></div>
 
   <script>
-    function renderItem(container, title, item){
-      const col = document.createElement('div');
-      col.className = 'col';
-      col.innerHTML = `<h3>${title}</h3>`;
-      if(item && item.link){
-        const p = document.createElement('div');
-        const zh = item.title_zh || item.title || '';
-        const en = item.title_en || item.title || '';
-        p.innerHTML = `
-          <div><a href="${item.link}" target="_blank" rel="noreferrer">${zh}</a></div>
-          <div style="margin-top:6px;color:#93c5fd;font-size:13px;line-height:1.35;">${en}</div>
-        `;
-        col.appendChild(p);
-      }else{
-        const e = document.createElement('div');
-        e.className = 'empty';
-        e.textContent = '暂无匹配观点 / No matched perspective';
-        col.appendChild(e);
-      }
-      container.appendChild(col);
-    }
-
     const AZURE_TTS_BASE = 'https://web-x0ya.onrender.com';
+    let __hotnewsData = null;
 
     async function speakWithAzure(text){
       const q = encodeURIComponent(text);
@@ -63,102 +50,95 @@
       const resp = await fetch(url, { method: 'GET' });
       if(!resp.ok) throw new Error('TTS request failed: ' + resp.status);
       const blob = await resp.blob();
-      if (!blob || blob.size < 1024) {
-        throw new Error('Azure returned empty audio');
-      }
+      if (!blob || blob.size < 1024) throw new Error('Azure returned empty audio');
       const audioUrl = URL.createObjectURL(blob);
       const audio = new Audio(audioUrl);
-      audio.volume = 1;
       await audio.play();
     }
 
     function speakFallback(text){
-      if (!('speechSynthesis' in window)) {
-        alert('当前浏览器不支持内置朗读，请稍后再试。');
-        return;
-      }
+      if (!('speechSynthesis' in window)) return;
       window.speechSynthesis.cancel();
-      const chunks = text.match(/.{1,120}/g) || [text];
-      chunks.forEach((chunk, idx) => {
-        const u = new SpeechSynthesisUtterance(chunk);
-        u.lang = 'zh-CN';
-        u.rate = 1;
-        u.pitch = 1;
-        if (idx === 0) window.speechSynthesis.speak(u);
-        else setTimeout(() => window.speechSynthesis.speak(u), idx * 250);
-      });
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'zh-CN';
+      window.speechSynthesis.speak(u);
     }
 
-    let __hotnewsData = null;
+    function renderPerspective(container, title, item){
+      const col = document.createElement('div');
+      col.className = 'col';
+      col.innerHTML = `<h3>${title}</h3>`;
+      if(item && item.link){
+        const zh = item.title_zh || item.title || '';
+        const en = item.title_en || item.title || '';
+        col.innerHTML += `<div><a href="${item.link}" target="_blank" rel="noreferrer">${zh}</a></div>
+                          <div style="margin-top:6px;color:#93c5fd;font-size:13px;line-height:1.35;">${en}</div>`;
+      } else {
+        col.innerHTML += `<div class="empty">暂无匹配观点 / No matched perspective</div>`;
+      }
+      container.appendChild(col);
+    }
 
     async function load(){
       const res = await fetch('./data/news.json?_=' + Date.now());
       const data = await res.json();
       __hotnewsData = data;
-      document.getElementById('meta').textContent = `最后更新 / Last update: ${data.generated_at}（每日 08:00 自动更新 / Auto update at 08:00 daily）`;
 
-      const list = document.getElementById('list');
-      list.innerHTML = '';
+      document.getElementById('meta').textContent = `最后更新 / Last update: ${data.generated_at}（每日 08:00 自动更新）`;
 
-      const comps = data.comparisons || [];
-      if(!comps.length){
-        list.innerHTML = '<div class="card">暂无可对比事件，稍后自动更新。 / No comparable events yet, please check back later.</div>';
+      // Section 1 headlines
+      const h = document.getElementById('headlines');
+      h.innerHTML = '';
+      (data.headlines || []).forEach(it => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const zh = it.title_zh || it.title;
+        const en = it.title_en || it.title;
+        card.innerHTML = `<div><span class="sourceTag">${it.source}</span><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div>
+                          <div style="margin-top:6px;color:#93c5fd;font-size:13px;line-height:1.35;">${en}</div>`;
+        h.appendChild(card);
+      });
+
+      // Section 2 cross events
+      const ev = document.getElementById('events');
+      ev.innerHTML = '';
+      const events = data.cross_events || [];
+      if(!events.length){
+        ev.innerHTML = '<div class="card">暂无可对比事件。</div>';
         return;
       }
 
-      comps.forEach((c, idx) => {
+      events.forEach((c, idx) => {
         const card = document.createElement('div');
         card.className = 'card';
         const zh = c.event_hint_zh || c.event_hint || '';
         const en = c.event_hint_en || c.event_hint || '';
         card.innerHTML = `<div class="event">事件 / Event ${idx+1}：${zh}<span class="en">${en}</span></div>`;
 
-        const toolbar = document.createElement('div');
-        toolbar.className = 'toolbar';
-        const readBtn = document.createElement('button');
-        readBtn.className = 'btn';
-        readBtn.textContent = '🔊 朗读 / Read';
-        readBtn.onclick = async () => {
-          const speechText = `Event: ${en}. China perspective: ${(c['中国视角']&&c['中国视角'].title_en)||''}. US perspective: ${(c['美国视角']&&c['美国视角'].title_en)||''}. Al Jazeera perspective: ${(c['半岛视角']&&c['半岛视角'].title_en)||''}.`;
-          try { await speakWithAzure(speechText); }
-          catch(e){
-            console.warn('Azure TTS failed, fallback to browser voice:', e.message);
-            speakFallback(speechText);
-          }
-        };
-        toolbar.appendChild(readBtn);
-        card.appendChild(toolbar);
-
         const grid = document.createElement('div');
         grid.className = 'grid';
-        renderItem(grid, '中国视角 / China', c['中国视角']);
-        renderItem(grid, '美国视角 / US', c['美国视角']);
-        renderItem(grid, '伊斯兰视角 / Islamic (Al Jazeera)', c['半岛视角']);
-
+        renderPerspective(grid, '中国视角 / China', c['中国视角']);
+        renderPerspective(grid, '美国视角 / US', c['美国视角']);
+        renderPerspective(grid, '伊斯兰视角 / Islamic (Al Jazeera)', c['半岛视角']);
         card.appendChild(grid);
-        list.appendChild(card);
+
+        const insight = document.createElement('div');
+        insight.className = 'insight';
+        insight.innerHTML = `<div><b>我的看法：</b>${c.my_view || ''}</div><div style="margin-top:6px;"><b>总结：</b>${c.summary || ''}</div>`;
+        card.appendChild(insight);
+        ev.appendChild(card);
       });
     }
 
     document.getElementById('readAllBtn').onclick = async () => {
-      const comps = (__hotnewsData && __hotnewsData.comparisons) ? __hotnewsData.comparisons : [];
-      if (!comps.length) return;
-      const lines = comps.map((c, i) => {
-        const en = c.event_hint_en || c.event_hint || '';
-        const cn = (c['中国视角'] && c['中国视角'].title_en) || '';
-        const us = (c['美国视角'] && c['美国视角'].title_en) || '';
-        const aj = (c['半岛视角'] && c['半岛视角'].title_en) || '';
-        return `Item ${i+1}. Event: ${en}. China perspective: ${cn}. US perspective: ${us}. Al Jazeera perspective: ${aj}.`;
-      });
-      const speechText = lines.join(' ');
-      try { await speakWithAzure(speechText); }
-      catch(e){
-        console.warn('Azure TTS failed, fallback to browser voice:', e.message);
-        speakFallback(speechText);
-      }
+      const events = (__hotnewsData && __hotnewsData.cross_events) ? __hotnewsData.cross_events : [];
+      if (!events.length) return;
+      const text = events.map((e, i) => `第${i+1}条。${e.event_hint_zh || ''}。我的看法：${e.my_view || ''}。总结：${e.summary || ''}`).join(' ');
+      try { await speakWithAzure(text); }
+      catch(e){ speakFallback(text); }
     };
 
-    load().catch(e=>{
+    load().catch(e => {
       document.getElementById('meta').textContent = '加载失败 / Load failed: ' + e.message;
     });
   </script>

@@ -18,13 +18,14 @@ SOURCES = {
     "半岛视角": ["https://www.aljazeera.com/xml/rss/all.xml"],
 }
 
-MAX_ITEMS = 20
-MAX_COMPARE = 10
-
+MAX_ITEMS = 30
+MAX_HEADLINES = 18
+MAX_EVENTS = 8
 STOPWORDS = {
     "the","a","an","to","of","for","in","on","at","and","or","with","from","is","are",
     "china","chinese","us","u.s","america","american","al","jazeera","says","new","after","over",
-    "global","world","news","s"}
+    "global","world","news","update","live"
+}
 
 
 def clean_text(s: str) -> str:
@@ -32,7 +33,6 @@ def clean_text(s: str) -> str:
 
 
 def translate_text(text: str, target: str = "zh-CN"):
-    """Use public Google translate endpoint (unofficial, no key) with graceful fallback."""
     if not text:
         return ""
     try:
@@ -41,7 +41,6 @@ def translate_text(text: str, target: str = "zh-CN"):
         req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=12) as r:
             data = json.loads(r.read().decode("utf-8", errors="ignore"))
-        # data[0] is sentence chunks
         return "".join(part[0] for part in data[0] if part and part[0]).strip() or text
     except Exception:
         return text
@@ -80,15 +79,15 @@ def fetch_rss(url: str):
             if title and link:
                 items.append({"title": title, "link": link, "published": pub})
 
-    dedup, seen = [], set()
+    seen, dedup = set(), []
     for it in items:
         key = (it.get("title", ""), it.get("link", ""))
         if key in seen:
             continue
         seen.add(key)
-        dedup.append(it)
+        dedup.append(enrich_bilingual(it))
 
-    return [enrich_bilingual(x) for x in dedup[:MAX_ITEMS]]
+    return dedup[:MAX_ITEMS]
 
 
 def tokenize(title: str):
@@ -96,78 +95,122 @@ def tokenize(title: str):
     return {w for w in words if w not in STOPWORDS}
 
 
-def best_match(base, candidates):
-    bt = tokenize(base["title"])
-    best, best_score = None, 0
-    for c in candidates:
-        ct = tokenize(c["title"])
-        if not bt or not ct:
+def match_score(a: str, b: str):
+    ta, tb = tokenize(a), tokenize(b)
+    if not ta or not tb:
+        return 0
+    return len(ta & tb)
+
+
+def build_headlines(sources):
+    merged = []
+    for src, items in sources.items():
+        for it in items[:8]:
+            merged.append({"source": src, **it})
+    return merged[:MAX_HEADLINES]
+
+
+def ai_view(event):
+    zh = (event.get("中国视角", {}) or {}).get("title_zh", "")
+    us = (event.get("美国视角", {}) or {}).get("title_zh", "")
+    aj = (event.get("半岛视角", {}) or {}).get("title_zh", "")
+    combined = f"{zh} {us} {aj}"
+    if any(k in combined for k in ["关税", "贸易", "经济", "通胀", "市场", "股市"]):
+        return "我的看法：这类议题短期看政策信号，长期看产业和资本流向；建议重点跟踪后续政策细则，而不是只看标题情绪。"
+    if any(k in combined for k in ["冲突", "战争", "袭击", "停火", "导弹", "军事"]):
+        return "我的看法：地缘冲突新闻容易情绪化，建议优先看‘是否升级’与‘是否外溢到油价/供应链’两个硬指标。"
+    return "我的看法：三方报道框架不同，读者应先提取共同事实，再区分叙事角度与价值判断。"
+
+
+def summary_view(event):
+    return "总结：同一事件在中、美、半岛媒体中关注点不同，联合阅读能减少信息偏差。"
+
+
+def best_for(base, arr):
+    best, bs = None, 0
+    for x in arr:
+        s = match_score(base["title"], x["title"])
+        if s > bs:
+            best, bs = x, s
+    return best, bs
+
+
+def build_cross_events(sources):
+    cn = sources.get("中国视角", [])
+    us = sources.get("美国视角", [])
+    aj = sources.get("半岛视角", [])
+    events = []
+
+    seeds = [("中国视角", x) for x in cn] + [("美国视角", x) for x in us] + [("半岛视角", x) for x in aj]
+
+    for src, seed in seeds:
+        c = seed if src == "中国视角" else None
+        u = seed if src == "美国视角" else None
+        a = seed if src == "半岛视角" else None
+
+        if c is None:
+            c, sc = best_for(seed, cn)
+        else:
+            sc = 1
+        if u is None:
+            u, su = best_for(seed, us)
+        else:
+            su = 1
+        if a is None:
+            a, sa = best_for(seed, aj)
+        else:
+            sa = 1
+
+        media_count = (1 if (c and sc > 0) else 0) + (1 if (u and su > 0) else 0) + (1 if (a and sa > 0) else 0)
+        if media_count < 2:
             continue
-        score = len(bt & ct)
-        if score > best_score:
-            best, best_score = c, score
-    return best, best_score
 
+        event_hint = seed
+        e = {
+            "event_hint": event_hint["title"],
+            "event_hint_zh": event_hint.get("title_zh", event_hint["title"]),
+            "event_hint_en": event_hint.get("title_en", event_hint["title"]),
+            "中国视角": c if (c and sc > 0) else None,
+            "美国视角": u if (u and su > 0) else None,
+            "半岛视角": a if (a and sa > 0) else None,
+            "media_count": media_count,
+            "score": sc + su + sa,
+        }
+        e["my_view"] = ai_view(e)
+        e["summary"] = summary_view(e)
+        events.append(e)
 
-def build_comparisons(china, us, alj):
-    comps = []
-    for c in china:
-        um, us_score = best_match(c, us)
-        am, aj_score = best_match(c, alj)
-        confidence = us_score + aj_score
-        if confidence <= 0:
+    # dedup by event_hint zh
+    uniq = []
+    seen = set()
+    for e in sorted(events, key=lambda x: (x["media_count"], x["score"]), reverse=True):
+        k = e.get("event_hint_zh", "")[:80]
+        if k in seen:
             continue
-        comps.append({
-            "event_hint": c["title"],
-            "event_hint_zh": c.get("title_zh", c["title"]),
-            "event_hint_en": c.get("title_en", c["title"]),
-            "中国视角": c,
-            "美国视角": um,
-            "半岛视角": am,
-            "score": confidence,
-        })
-    comps.sort(key=lambda x: x["score"], reverse=True)
-    if comps:
-        return comps[:MAX_COMPARE]
+        seen.add(k)
+        uniq.append(e)
 
-    # Fallback: no lexical matches, align by index to keep 3-view output available
-    n = min(MAX_COMPARE, len(china), len(us), len(alj))
-    fallback = []
-    for i in range(n):
-        c = china[i]
-        fallback.append({
-            "event_hint": c["title"],
-            "event_hint_zh": c.get("title_zh", c["title"]),
-            "event_hint_en": c.get("title_en", c["title"]),
-            "中国视角": c,
-            "美国视角": us[i] if i < len(us) else None,
-            "半岛视角": alj[i] if i < len(alj) else None,
-            "score": 0,
-            "fallback": True,
-        })
-    return fallback
+    return uniq[:MAX_EVENTS]
 
 
 def main():
     payload = {
         "generated_at": datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S %Z"),
         "sources": {},
-        "comparisons": [],
+        "headlines": [],
+        "cross_events": [],
         "errors": {},
     }
 
     for name, urls in SOURCES.items():
-        merged = []
-        errs = []
+        merged, errs = [], []
         for url in urls:
             try:
                 merged.extend(fetch_rss(url))
             except Exception as e:
                 errs.append(f"{url}: {e}")
 
-        # dedup by title+link, then cap
-        seen = set()
-        uniq = []
+        seen, uniq = set(), []
         for it in merged:
             key = (it.get("title", ""), it.get("link", ""))
             if key in seen:
@@ -179,11 +222,8 @@ def main():
         if errs and not uniq:
             payload["errors"][name] = " | ".join(errs)
 
-    payload["comparisons"] = build_comparisons(
-        payload["sources"].get("中国视角", []),
-        payload["sources"].get("美国视角", []),
-        payload["sources"].get("半岛视角", []),
-    )
+    payload["headlines"] = build_headlines(payload["sources"])
+    payload["cross_events"] = build_cross_events(payload["sources"])
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
