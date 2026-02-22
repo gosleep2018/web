@@ -62,8 +62,12 @@
       const resp = await fetch(url, { method: 'GET' });
       if(!resp.ok) throw new Error('TTS request failed: ' + resp.status);
       const blob = await resp.blob();
+      if (!blob || blob.size < 1024) {
+        throw new Error('Azure returned empty audio');
+      }
       const audioUrl = URL.createObjectURL(blob);
       const audio = new Audio(audioUrl);
+      audio.volume = 1;
       await audio.play();
     }
 
@@ -116,7 +120,10 @@
         readBtn.onclick = async () => {
           const speechText = `事件：${zh}。中国视角：${(c['中国视角']&&c['中国视角'].title_zh)||''}。美国视角：${(c['美国视角']&&c['美国视角'].title_zh)||''}。半岛视角：${(c['半岛视角']&&c['半岛视角'].title_zh)||''}`;
           try { await speakWithAzure(speechText); }
-          catch(e){ speakFallback(speechText); }
+          catch(e){
+            console.warn('Azure TTS failed, fallback to browser voice:', e.message);
+            speakFallback(speechText);
+          }
         };
         toolbar.appendChild(readBtn);
         card.appendChild(toolbar);
@@ -144,7 +151,10 @@
       });
       const speechText = lines.join(' ');
       try { await speakWithAzure(speechText); }
-      catch(e){ speakFallback(speechText); }
+      catch(e){
+        console.warn('Azure TTS failed, fallback to browser voice:', e.message);
+        speakFallback(speechText);
+      }
     };
 
     load().catch(e=>{
