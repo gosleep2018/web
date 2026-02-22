@@ -1,192 +1,666 @@
 {
-  "generated_at": "2026-02-22 13:12:27 +08",
+  "generated_at": "2026-02-22 13:17:53 +08",
   "sources": {
     "中国视角": [
       {
         "title": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
         "link": "https://www.globaltimes.cn/page/202602/1354898.shtml",
-        "published": "Fri, 06 Feb 2026 00:00:00 GMT"
+        "published": "Fri, 06 Feb 2026 00:00:00 GMT",
+        "title_en": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
+        "title_zh": "中国和伊朗外交官在美伊核谈判前会面；中国专家称此举反映了德黑兰寻求国际支持的意愿"
       },
       {
         "title": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
         "link": "https://www.globaltimes.cn/page/202602/1354899.shtml",
-        "published": "Fri, 06 Feb 2026 00:00:00 GMT"
+        "published": "Fri, 06 Feb 2026 00:00:00 GMT",
+        "title_en": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
+        "title_zh": "习近平与特朗普通话后，中国强调台湾是“核心利益的核心”；专家：“依靠美国独立”幻想的空间只会进一步缩小"
       },
       {
         "title": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
         "link": "https://www.globaltimes.cn/page/202602/1354683.shtml",
-        "published": "Tue, 03 Feb 2026 00:00:00 GMT"
+        "published": "Tue, 03 Feb 2026 00:00:00 GMT",
+        "title_en": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
+        "title_zh": "乌拉圭总统访华第二天参观长城、故宫；中国专家称对中共历史的兴趣日益浓厚表明希望向中国学习"
       },
       {
         "title": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
         "link": "https://www.globaltimes.cn/page/202602/1354617.shtml",
-        "published": "Mon, 02 Feb 2026 00:00:00 GMT"
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
+        "title_zh": "特朗普声称印度将购买委内瑞拉石油，欢迎中国投资；中国专家注意到言论是“单方面的”，印度方面没有证实"
       },
       {
         "title": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
         "link": "https://www.globaltimes.cn/page/202602/1354620.shtml",
-        "published": "Mon, 02 Feb 2026 00:00:00 GMT"
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
+        "title_zh": "高一因“手受伤”缺席电视辩论引发日本政界人士和网民的不满，称高一回避了包括统一教丑闻在内的关键问题"
       },
       {
         "title": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
         "link": "https://www.globaltimes.cn/page/202602/1354633.shtml",
-        "published": "Mon, 02 Feb 2026 00:00:00 GMT"
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
+        "title_zh": "中国外长与俄罗斯绍伊古举行战略对话；王警告世界“面临回归丛林法则的风险”"
       },
       {
         "title": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
         "link": "https://www.globaltimes.cn/page/202601/1354289.shtml",
-        "published": "Wed, 28 Jan 2026 00:00:00 GMT"
+        "published": "Wed, 28 Jan 2026 00:00:00 GMT",
+        "title_en": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
+        "title_zh": "中国疾病预防控制部门：中国尚未发现尼帕病毒病病例"
       },
       {
         "title": "China's first Type 054B frigate reaches operational capability, official media reveals amid warship's first commissioning anniversary",
         "link": "https://www.globaltimes.cn/page/202601/1353945.shtml",
-        "published": "Fri, 23 Jan 2026 00:00:00 GMT"
+        "published": "Fri, 23 Jan 2026 00:00:00 GMT",
+        "title_en": "China's first Type 054B frigate reaches operational capability, official media reveals amid warship's first commissioning anniversary",
+        "title_zh": "官方媒体在军舰服役一周年之际透露，中国第一艘054B型护卫舰已达到作战能力"
       },
       {
         "title": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
         "link": "https://www.globaltimes.cn/page/202601/1353715.shtml",
-        "published": "Wed, 21 Jan 2026 00:00:00 GMT"
+        "published": "Wed, 21 Jan 2026 00:00:00 GMT",
+        "title_en": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
+        "title_zh": "中国海军055型大型驱逐舰在南海进行对抗演习增强反潜能力"
       },
       {
         "title": "S. Korea's ex-president Yoon sentenced to 5 years in prison over obstruction of justice",
         "link": "https://www.globaltimes.cn/page/202601/1353435.shtml",
-        "published": "Sat, 17 Jan 2026 00:00:00 GMT"
+        "published": "Sat, 17 Jan 2026 00:00:00 GMT",
+        "title_en": "S. Korea's ex-president Yoon sentenced to 5 years in prison over obstruction of justice",
+        "title_zh": "韩国前总统尹恩惠因妨碍司法公正被判处5年有期徒刑"
       },
       {
         "title": "Shenzhou-20 taikonauts make 1st public appearance after safe return following debris incident, recounts details",
         "link": "https://www.globaltimes.cn/page/202601/1353427.shtml",
-        "published": "Fri, 16 Jan 2026 00:00:00 GMT"
+        "published": "Fri, 16 Jan 2026 00:00:00 GMT",
+        "title_en": "Shenzhou-20 taikonauts make 1st public appearance after safe return following debris incident, recounts details",
+        "title_zh": "神舟二十号航天员在碎片事件安全返回后首次公开露面并讲述细节"
       },
       {
         "title": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
         "link": "https://www.globaltimes.cn/page/202601/1352223.shtml",
-        "published": "Mon, 05 Jan 2026 00:00:00 GMT"
+        "published": "Mon, 05 Jan 2026 00:00:00 GMT",
+        "title_en": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
+        "title_zh": "专家：爱尔兰总理时隔14年访华可成为中欧关系的“试金石”"
+      },
+      {
+        "title": "ROK president arrives in Beijing with 200 business delegates, hails full restoration of bilateral ties 'the greatest achievement'",
+        "link": "https://www.globaltimes.cn/page/202601/1352267.shtml",
+        "published": "Mon, 05 Jan 2026 00:00:00 GMT",
+        "title_en": "ROK president arrives in Beijing with 200 business delegates, hails full restoration of bilateral ties 'the greatest achievement'",
+        "title_zh": "韩国总统率200名工商界代表抵达北京 称赞双边关系全面恢复是“最大成就”"
+      },
+      {
+        "title": "Witnesses of Struggle: GT visits Hump Route crash site in Xizang, retracing enduring memory of wartime sacrifice and friendship",
+        "link": "https://www.globaltimes.cn/page/202512/1351918.shtml",
+        "published": "Tue, 30 Dec 2025 00:00:00 GMT",
+        "title_en": "Witnesses of Struggle: GT visits Hump Route crash site in Xizang, retracing enduring memory of wartime sacrifice and friendship",
+        "title_zh": "奋斗见证：GT探访西藏驼峰公路坠机现场，重温战时牺牲和友谊的永恒记忆"
+      },
+      {
+        "title": "China imposes countermeasures against 20 US companies, 10 senior executives in response to US arms sales to Taiwan",
+        "link": "https://www.globaltimes.cn/page/202512/1351573.shtml",
+        "published": "Sat, 27 Dec 2025 00:00:00 GMT",
+        "title_en": "China imposes countermeasures against 20 US companies, 10 senior executives in response to US arms sales to Taiwan",
+        "title_zh": "因美售台武器中国对20家美国企业10名高管采取反制措施"
+      },
+      {
+        "title": "Russia-China ties crucial for global stability: Putin at annual conference",
+        "link": "https://www.globaltimes.cn/page/202512/1351040.shtml",
+        "published": "Sat, 20 Dec 2025 00:00:00 GMT",
+        "title_en": "Russia-China ties crucial for global stability: Putin at annual conference",
+        "title_zh": "普京在年度会议上：俄中关系对全球稳定至关重要"
+      },
+      {
+        "title": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+        "link": "https://www.globaltimes.cn/page/202512/1350901.shtml",
+        "published": "Fri, 19 Dec 2025 00:00:00 GMT",
+        "title_en": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+        "title_zh": "中国外长强烈谴责美国向台湾出售价值110亿美元的武器；民进党当局“感谢”华盛顿遭岛内网友猛烈抨击"
+      },
+      {
+        "title": "Chinese Embassy in UK urges London to recognize reality, adopt correct mindset following Starmer's China-related remarks",
+        "link": "https://www.globaltimes.cn/page/202512/1349549.shtml",
+        "published": "Wed, 03 Dec 2025 13:13:40 GMT",
+        "title_en": "Chinese Embassy in UK urges London to recognize reality, adopt correct mindset following Starmer's China-related remarks",
+        "title_zh": "针对斯塔默涉华言论，中国驻英国使馆敦促伦敦认清现实、端正心态"
+      },
+      {
+        "title": "No 'slave's peace'",
+        "link": "https://www.globaltimes.cn/page/202512/1349592.shtml",
+        "published": "Wed, 03 Dec 2025 00:00:00 GMT",
+        "title_en": "No 'slave's peace'",
+        "title_zh": "没有“奴隶的和平”"
+      },
+      {
+        "title": "HK to set up judge-led independent commission to investigate deadly fire; Chief Executive vows accountability to be pursued to very end",
+        "link": "https://www.globaltimes.cn/page/202512/1349610.shtml",
+        "published": "Wed, 03 Dec 2025 00:00:00 GMT",
+        "title_en": "HK to set up judge-led independent commission to investigate deadly fire; Chief Executive vows accountability to be pursued to very end",
+        "title_zh": "香港将成立法官领导的独立委员会调查致命火灾；行政长官誓言将追究到底"
       }
     ],
     "美国视角": [
       {
         "title": "Trump Pulls Support From House Republican Who Opposed Tariffs",
         "link": "https://www.nytimes.com/2026/02/21/us/trump-pulls-endorsement-hurd-tariffs.html",
-        "published": "Sun, 22 Feb 2026 00:57:56 +0000"
+        "published": "Sun, 22 Feb 2026 00:57:56 +0000",
+        "title_en": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "title_zh": "特朗普撤回反对关税的众议院共和党人的支持"
       },
       {
         "title": "2 Skiers Are Injured After Being Buried in Utah Avalanche",
         "link": "https://www.nytimes.com/2026/02/21/us/avalanche-death-utah-skiers.html",
-        "published": "Sun, 22 Feb 2026 03:33:18 +0000"
+        "published": "Sun, 22 Feb 2026 03:33:18 +0000",
+        "title_en": "2 Skiers Are Injured After Being Buried in Utah Avalanche",
+        "title_zh": "犹他州雪崩两名滑雪者被埋后受伤"
       },
       {
         "title": "Nine Bodies of Skiers Recovered in Deadly Sierra Nevada Avalanche, Officials Say",
         "link": "https://www.nytimes.com/2026/02/21/us/lake-tahoe-avalanche-victims-bodies-recovery.html",
-        "published": "Sun, 22 Feb 2026 01:44:36 +0000"
+        "published": "Sun, 22 Feb 2026 01:44:36 +0000",
+        "title_en": "Nine Bodies of Skiers Recovered in Deadly Sierra Nevada Avalanche, Officials Say",
+        "title_zh": "官员称在内华达山脉致命雪崩中发现了九具滑雪者尸体"
       },
       {
         "title": "Ohio Woman Who Fatally Drugged 4 Men Is Handed 4 Life Sentences",
         "link": "https://www.nytimes.com/2026/02/21/us/ohio-woman-sentenced-drugging-killing-4-men.html",
-        "published": "Sat, 21 Feb 2026 19:19:29 +0000"
+        "published": "Sat, 21 Feb 2026 19:19:29 +0000",
+        "title_en": "Ohio Woman Who Fatally Drugged 4 Men Is Handed 4 Life Sentences",
+        "title_zh": "俄亥俄州女子对 4 名男子下药致死，被判 4 项终身监禁"
       },
       {
         "title": "Divide Among Supreme Court’s Conservatives Could Test Trump’s Agenda",
         "link": "https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html",
-        "published": "Sat, 21 Feb 2026 15:43:57 +0000"
+        "published": "Sat, 21 Feb 2026 15:43:57 +0000",
+        "title_en": "Divide Among Supreme Court’s Conservatives Could Test Trump’s Agenda",
+        "title_zh": "最高法院保守派之间的分歧可能会考验特朗普的议程"
       },
       {
         "title": "Blizzard Warnings Issued for Swath of East Coast, Including NYC",
         "link": "https://www.nytimes.com/2026/02/21/us/blizzard-warnings-northeast-new-york.html",
-        "published": "Sun, 22 Feb 2026 04:07:25 +0000"
+        "published": "Sun, 22 Feb 2026 04:07:25 +0000",
+        "title_en": "Blizzard Warnings Issued for Swath of East Coast, Including NYC",
+        "title_zh": "包括纽约市在内的东海岸大片地区发布暴风雪警告"
       },
       {
         "title": "In Gorsuch’s Homage to Legislative Power, a Subtle Reproach of a Neutered Congress",
         "link": "https://www.nytimes.com/2026/02/21/us/politics/gorsuch-congress-trump-tariffs.html",
-        "published": "Sat, 21 Feb 2026 10:02:35 +0000"
+        "published": "Sat, 21 Feb 2026 10:02:35 +0000",
+        "title_en": "In Gorsuch’s Homage to Legislative Power, a Subtle Reproach of a Neutered Congress",
+        "title_zh": "戈萨奇向立法权致敬，对中性国会的微妙谴责"
       },
       {
         "title": "Minnesota Political Landscape Upended by Trump’s Immigration Crackdown",
         "link": "https://www.nytimes.com/2026/02/21/us/minnesota-politics-immigration-crackdown.html",
-        "published": "Sat, 21 Feb 2026 10:02:23 +0000"
+        "published": "Sat, 21 Feb 2026 10:02:23 +0000",
+        "title_en": "Minnesota Political Landscape Upended by Trump’s Immigration Crackdown",
+        "title_zh": "特朗普的移民镇压颠覆了明尼苏达州的政治格局"
       },
       {
         "title": "Los Angeles Olympics Have a Cloud of Concerns as Winter Games Close",
         "link": "https://www.nytimes.com/2026/02/21/us/la-olympics-casey-wasserman-epstein.html",
-        "published": "Sat, 21 Feb 2026 15:42:07 +0000"
+        "published": "Sat, 21 Feb 2026 15:42:07 +0000",
+        "title_en": "Los Angeles Olympics Have a Cloud of Concerns as Winter Games Close",
+        "title_zh": "冬奥会结束后洛杉矶奥运会引发担忧"
       },
       {
         "title": "Senate G.O.P. Faces Pressure to Force ‘Talking Filibuster’ for Voter I.D. Bill",
         "link": "https://www.nytimes.com/2026/02/21/us/politics/senate-republicans-talking-filibuster.html",
-        "published": "Sat, 21 Feb 2026 10:00:58 +0000"
+        "published": "Sat, 21 Feb 2026 10:00:58 +0000",
+        "title_en": "Senate G.O.P. Faces Pressure to Force ‘Talking Filibuster’ for Voter I.D. Bill",
+        "title_zh": "参议院共和党面临压力，要求对选民身份进行“口头阻挠”账单"
       },
       {
         "title": "How A.I. Money Is Flooding Into the Midterm Elections",
         "link": "https://www.nytimes.com/2026/02/21/us/politics/ai-money-midterms-openai-anthropic.html",
-        "published": "Sat, 21 Feb 2026 10:00:49 +0000"
+        "published": "Sat, 21 Feb 2026 10:00:49 +0000",
+        "title_en": "How A.I. Money Is Flooding Into the Midterm Elections",
+        "title_zh": "人工智能如何资金涌入中期选举"
       },
       {
         "title": "Bridge Owner Donated $1 Million to MAGA Group Before Trump Blasted Competitor",
         "link": "https://www.nytimes.com/2026/02/20/us/politics/trump-canada-bridge-maga-inc-donation.html",
-        "published": "Sat, 21 Feb 2026 14:50:13 +0000"
+        "published": "Sat, 21 Feb 2026 14:50:13 +0000",
+        "title_en": "Bridge Owner Donated $1 Million to MAGA Group Before Trump Blasted Competitor",
+        "title_zh": "在特朗普炮轰竞争对手之前，大桥所有者向 MAGA 集团捐赠了 100 万美元"
+      },
+      {
+        "title": "U.S. Kills 3 in Latest Boat Strike",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/boat-strike-pacific-ocean.html",
+        "published": "Sat, 21 Feb 2026 15:42:49 +0000",
+        "title_en": "U.S. Kills 3 in Latest Boat Strike",
+        "title_zh": "美国在最近的船只袭击中造成 3 人死亡"
+      },
+      {
+        "title": "Trump Presses on With Tariffs, Posing Challenge for Republicans",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/trump-tariffs-republicans-democrats-midterms.html",
+        "published": "Sat, 21 Feb 2026 18:38:26 +0000",
+        "title_en": "Trump Presses on With Tariffs, Posing Challenge for Republicans",
+        "title_zh": "特朗普继续加征关税，给共和党带来挑战"
+      },
+      {
+        "title": "6 Takeaways From the Supreme Court’s Tariff Decision",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-tariffs-takeaways.html",
+        "published": "Sun, 22 Feb 2026 01:45:19 +0000",
+        "title_en": "6 Takeaways From the Supreme Court’s Tariff Decision",
+        "title_zh": "最高法院关税裁决的 6 个要点"
+      },
+      {
+        "title": "L.G.B.T.Q. Clubs in Some Texas Schools Can’t Be Banned, Judge Says",
+        "link": "https://www.nytimes.com/2026/02/20/us/texas-ban-lgbtq-clubs.html",
+        "published": "Sat, 21 Feb 2026 02:38:55 +0000",
+        "title_en": "L.G.B.T.Q. Clubs in Some Texas Schools Can’t Be Banned, Judge Says",
+        "title_zh": "L.G.B.T.Q.法官称德克萨斯州一些学校的俱乐部不能被禁止"
+      },
+      {
+        "title": "Judge Rebukes U.S. Over Application to Search Washington Post Reporter’s Home",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/washington-post-reporter-home-search.html",
+        "published": "Sat, 21 Feb 2026 00:31:45 +0000",
+        "title_en": "Judge Rebukes U.S. Over Application to Search Washington Post Reporter’s Home",
+        "title_zh": "法官谴责美国申请搜查《华盛顿邮报》记者家"
+      },
+      {
+        "title": "U.S. Planes Land at Jordan Base, a Key Hub for Planning Possible Iran Strikes",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/us-military-jordan-iran.html",
+        "published": "Sat, 21 Feb 2026 16:06:13 +0000",
+        "title_en": "U.S. Planes Land at Jordan Base, a Key Hub for Planning Possible Iran Strikes",
+        "title_zh": "美国飞机降落在约旦基地，该基地是策划可能对伊朗发动袭击的关键枢纽"
+      },
+      {
+        "title": "Court Clears Way for Louisiana Law Requiring Ten Commandments in Classrooms",
+        "link": "https://www.nytimes.com/2026/02/20/us/louisiana-classrooms-ten-commandments.html",
+        "published": "Sat, 21 Feb 2026 01:30:23 +0000",
+        "title_en": "Court Clears Way for Louisiana Law Requiring Ten Commandments in Classrooms",
+        "title_zh": "法院为路易斯安那州法律扫清了道路，要求在课堂上遵守十诫"
+      },
+      {
+        "title": "New York Man Tried to Ram a Nevada Power Station in Act of Terrorism, Police Say",
+        "link": "https://www.nytimes.com/2026/02/20/us/las-vegas-car-ramming-terrorism.html",
+        "published": "Fri, 20 Feb 2026 23:49:12 +0000",
+        "title_en": "New York Man Tried to Ram a Nevada Power Station in Act of Terrorism, Police Say",
+        "title_zh": "警方称，纽约男子试图以恐怖主义行为冲撞内华达州发电站"
       }
     ],
-    "半岛电视台": [
+    "半岛视角": [
+      {
+        "title": "Eight bodies found in Libya, Greece as the toll in the Mediterranean rises",
+        "link": "https://www.aljazeera.com/news/2026/2/22/eight-bodies-found-in-libya-and-greece-as-mediterranean-crossings-continue?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 05:00:52 +0000",
+        "title_en": "Eight bodies found in Libya, Greece as the toll in the Mediterranean rises",
+        "title_zh": "地中海死亡人数上升，利比亚和希腊发现八具尸体"
+      },
       {
         "title": "Russia-Ukraine war: List of key events, day 1,459",
         "link": "https://www.aljazeera.com/news/2026/2/22/russia-ukraine-war-list-of-key-events-day-1459?traffic_source=rss",
-        "published": "Sun, 22 Feb 2026 03:33:05 +0000"
+        "published": "Sun, 22 Feb 2026 03:33:05 +0000",
+        "title_en": "Russia-Ukraine war: List of key events, day 1,459",
+        "title_zh": "俄罗斯-乌克兰战争：关键事件列表，第 1,459 天"
       },
       {
         "title": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
         "link": "https://www.aljazeera.com/news/2026/2/22/trump-to-raise-us-global-tariff-from-ten-to-fifteen-percent-after-supreme-court-ruling?traffic_source=rss",
-        "published": "Sun, 22 Feb 2026 03:00:32 +0000"
+        "published": "Sun, 22 Feb 2026 03:00:32 +0000",
+        "title_en": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
+        "title_zh": "最高法院裁决后特朗普将美国全球关税从 10% 提高至 15%"
       },
       {
         "title": "Pakistan carries out strikes in Afghanistan, ‘killing and wounding dozens’",
         "link": "https://www.aljazeera.com/news/2026/2/22/pakistan-carries-out-strikes-in-afghanistan-after-islamabad-suicide-attack?traffic_source=rss",
-        "published": "Sun, 22 Feb 2026 01:04:28 +0000"
+        "published": "Sun, 22 Feb 2026 01:04:28 +0000",
+        "title_en": "Pakistan carries out strikes in Afghanistan, ‘killing and wounding dozens’",
+        "title_zh": "巴基斯坦在阿富汗发动空袭，“造成数十人伤亡”"
       },
       {
         "title": "Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United",
         "link": "https://www.aljazeera.com/sports/2026/2/21/nico-oreilly-double-seals-key-2-1-win-for-man-city-over-newcastle-united?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 22:36:04 +0000"
+        "published": "Sat, 21 Feb 2026 22:36:04 +0000",
+        "title_en": "Nico O’Reilly double seals key 2-1 win for Man City over Newcastle United",
+        "title_zh": "尼科·奥莱利梅开二度，帮助曼城2-1战胜纽卡斯尔联"
       },
       {
         "title": "Trump’s tariff regime has been ruled unlawful. What are the implications?",
         "link": "https://www.aljazeera.com/video/inside-story/2026/2/21/trumps-tariff-regime-ruled-unlawful-what-are-the-implications?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 22:31:17 +0000"
+        "published": "Sat, 21 Feb 2026 22:31:17 +0000",
+        "title_en": "Trump’s tariff regime has been ruled unlawful. What are the implications?",
+        "title_zh": "特朗普的关税制度被裁定为非法。有什么影响？"
       },
       {
         "title": "Venezuela receives more than 1,500 amnesty requests under new law",
         "link": "https://www.aljazeera.com/news/2026/2/21/venezuela-receives-more-than-1500-amnesty-requests-under-new-law?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 22:12:20 +0000"
+        "published": "Sat, 21 Feb 2026 22:12:20 +0000",
+        "title_en": "Venezuela receives more than 1,500 amnesty requests under new law",
+        "title_zh": "委内瑞拉根据新法律收到超过 1,500 份特赦请求"
       },
       {
         "title": "‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance",
         "link": "https://www.aljazeera.com/news/2026/2/21/absurd-and-provocative-huckabee-faces-firestorm-for-israel-border-stance?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 21:31:19 +0000"
+        "published": "Sat, 21 Feb 2026 21:31:19 +0000",
+        "title_en": "‘Absurd and provocative’: Huckabee faces firestorm for Israel border stance",
+        "title_zh": "“荒谬且具有挑衅性”：哈卡比因以色列边境立场而面临激烈争论"
       },
       {
         "title": "Slovakia threatens to cut electricity to Ukraine over Russian oil spat",
         "link": "https://www.aljazeera.com/news/2026/2/21/slovakia-threatens-to-cut-electricity-to-ukraine-over-russian-oil-spat?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 20:12:45 +0000"
+        "published": "Sat, 21 Feb 2026 20:12:45 +0000",
+        "title_en": "Slovakia threatens to cut electricity to Ukraine over Russian oil spat",
+        "title_zh": "斯洛伐克因俄罗斯石油争端威胁要切断对乌克兰的供电"
       },
       {
         "title": "NASA rules out March launch for manned moon mission over technical issues",
         "link": "https://www.aljazeera.com/news/2026/2/21/nasa-rules-out-march-launch-for-manned-moon-mission-over-technical-issues?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 19:44:04 +0000"
+        "published": "Sat, 21 Feb 2026 19:44:04 +0000",
+        "title_en": "NASA rules out March launch for manned moon mission over technical issues",
+        "title_zh": "美国宇航局因技术问题排除三月份载人登月任务的发射"
       },
       {
         "title": "Far-right anti-Islam march sparks counterprotests in Manchester",
         "link": "https://www.aljazeera.com/news/2026/2/21/far-right-anti-islam-march-sparks-counter-protests-in-manchester?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 19:43:48 +0000"
+        "published": "Sat, 21 Feb 2026 19:43:48 +0000",
+        "title_en": "Far-right anti-Islam march sparks counterprotests in Manchester",
+        "title_zh": "极右翼反伊斯兰游行在曼彻斯特引发反抗议"
       },
       {
         "title": "Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan",
         "link": "https://www.aljazeera.com/news/2026/2/21/israeli-military-kills-two-in-early-ramadan-strikes-in-gaza?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 17:27:11 +0000"
+        "published": "Sat, 21 Feb 2026 17:27:11 +0000",
+        "title_en": "Israeli army kills 2 Palestinians in strikes on Gaza during Ramadan",
+        "title_zh": "以色列军队在斋月期间袭击加沙，造成两名巴勒斯坦人死亡"
       },
       {
         "title": "Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup",
         "link": "https://www.aljazeera.com/sports/2026/2/21/pakistan-new-zealand-super-eights-opener-abandoned-at-t20-world-cup?traffic_source=rss",
-        "published": "Sat, 21 Feb 2026 17:01:02 +0000"
+        "published": "Sat, 21 Feb 2026 17:01:02 +0000",
+        "title_en": "Pakistan-New Zealand Super Eights opener abandoned at T20 World Cup",
+        "title_zh": "T20世界杯巴基斯坦-新西兰超级八强揭幕战被取消"
+      },
+      {
+        "title": "Manchester City vs Newcastle United 2-1: Premier League – as it happened",
+        "link": "https://www.aljazeera.com/sports/liveblog/2026/2/21/live-manchester-city-vs-newcastle-united-premier-league?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 17:00:00 +0000",
+        "title_en": "Manchester City vs Newcastle United 2-1: Premier League – as it happened",
+        "title_zh": "曼城 2-1 对阵纽卡斯尔联：英超联赛——事实如此"
+      },
+      {
+        "title": "Russian attack on Kharkiv kills two, Ukraine hits missile plant",
+        "link": "https://www.aljazeera.com/news/2026/2/21/russian-attack-on-kharkiv-kills-two-ukraine-hits-missile-plant?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 14:37:22 +0000",
+        "title_en": "Russian attack on Kharkiv kills two, Ukraine hits missile plant",
+        "title_zh": "俄罗斯对哈尔科夫的袭击造成两人死亡，乌克兰袭击导弹工厂"
+      },
+      {
+        "title": "India vs South Africa: T20 World Cup Super Eights – teams, start, lineups",
+        "link": "https://www.aljazeera.com/sports/2026/2/21/india-vs-south-africa-t20-world-cup-super-eights-teams-start-lineups?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 12:53:41 +0000",
+        "title_en": "India vs South Africa: T20 World Cup Super Eights – teams, start, lineups",
+        "title_zh": "印度 vs 南非：T20 世界杯超级八强 – 球队、首发、阵容"
+      },
+      {
+        "title": "Two soldiers killed during military operation in Pakistan’s northwest: Army",
+        "link": "https://www.aljazeera.com/news/2026/2/21/2-soldiers-dead-5-militants-killed-in-pakistans-bannu?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 12:40:52 +0000",
+        "title_en": "Two soldiers killed during military operation in Pakistan’s northwest: Army",
+        "title_zh": "巴基斯坦西北部军事行动中两名士兵丧生：陆军"
+      },
+      {
+        "title": "Giant tortoises return to Galapagos island after 150 years",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/21/giant-tortoises-return-to-galapagos-island-after-150-years?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 12:27:23 +0000",
+        "title_en": "Giant tortoises return to Galapagos island after 150 years",
+        "title_zh": "150年后巨龟重返加拉帕戈斯岛"
+      },
+      {
+        "title": "Iran demands ‘evidence’ as Trump, UN experts highlight protest killings",
+        "link": "https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 11:54:58 +0000",
+        "title_en": "Iran demands ‘evidence’ as Trump, UN experts highlight protest killings",
+        "title_zh": "特朗普和联合国专家强调抗议杀戮，伊朗要求提供“证据”"
+      },
+      {
+        "title": "Israel wants to execute Palestinians and the world will allow it",
+        "link": "https://www.aljazeera.com/opinions/2026/2/21/israel-wants-to-execute-palestinians-and-the-world-will-allow-it?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 11:45:22 +0000",
+        "title_en": "Israel wants to execute Palestinians and the world will allow it",
+        "title_zh": "以色列想要处决巴勒斯坦人，世界会允许它"
       }
     ]
   },
+  "comparisons": [
+    {
+      "event_hint": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
+      "中国视角": {
+        "title": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
+        "link": "https://www.globaltimes.cn/page/202602/1354898.shtml",
+        "published": "Fri, 06 Feb 2026 00:00:00 GMT",
+        "title_en": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
+        "title_zh": "中国和伊朗外交官在美伊核谈判前会面；中国专家称此举反映了德黑兰寻求国际支持的意愿"
+      },
+      "美国视角": {
+        "title": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "link": "https://www.nytimes.com/2026/02/21/us/trump-pulls-endorsement-hurd-tariffs.html",
+        "published": "Sun, 22 Feb 2026 00:57:56 +0000",
+        "title_en": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "title_zh": "特朗普撤回反对关税的众议院共和党人的支持"
+      },
+      "半岛视角": {
+        "title": "Iran demands ‘evidence’ as Trump, UN experts highlight protest killings",
+        "link": "https://www.aljazeera.com/news/2026/2/21/iran-demands-evidence-as-trump-un-experts-highlight-protest-killings?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 11:54:58 +0000",
+        "title_en": "Iran demands ‘evidence’ as Trump, UN experts highlight protest killings",
+        "title_zh": "特朗普和联合国专家强调抗议杀戮，伊朗要求提供“证据”"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
+      "中国视角": {
+        "title": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
+        "link": "https://www.globaltimes.cn/page/202602/1354899.shtml",
+        "published": "Fri, 06 Feb 2026 00:00:00 GMT",
+        "title_en": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
+        "title_zh": "习近平与特朗普通话后，中国强调台湾是“核心利益的核心”；专家：“依靠美国独立”幻想的空间只会进一步缩小"
+      },
+      "美国视角": {
+        "title": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "link": "https://www.nytimes.com/2026/02/21/us/trump-pulls-endorsement-hurd-tariffs.html",
+        "published": "Sun, 22 Feb 2026 00:57:56 +0000",
+        "title_en": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "title_zh": "特朗普撤回反对关税的众议院共和党人的支持"
+      },
+      "半岛视角": {
+        "title": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
+        "link": "https://www.aljazeera.com/news/2026/2/22/trump-to-raise-us-global-tariff-from-ten-to-fifteen-percent-after-supreme-court-ruling?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 03:00:32 +0000",
+        "title_en": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
+        "title_zh": "最高法院裁决后特朗普将美国全球关税从 10% 提高至 15%"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
+      "中国视角": {
+        "title": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
+        "link": "https://www.globaltimes.cn/page/202602/1354617.shtml",
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
+        "title_zh": "特朗普声称印度将购买委内瑞拉石油，欢迎中国投资；中国专家注意到言论是“单方面的”，印度方面没有证实"
+      },
+      "美国视角": {
+        "title": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "link": "https://www.nytimes.com/2026/02/21/us/trump-pulls-endorsement-hurd-tariffs.html",
+        "published": "Sun, 22 Feb 2026 00:57:56 +0000",
+        "title_en": "Trump Pulls Support From House Republican Who Opposed Tariffs",
+        "title_zh": "特朗普撤回反对关税的众议院共和党人的支持"
+      },
+      "半岛视角": {
+        "title": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
+        "link": "https://www.aljazeera.com/news/2026/2/22/trump-to-raise-us-global-tariff-from-ten-to-fifteen-percent-after-supreme-court-ruling?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 03:00:32 +0000",
+        "title_en": "Trump to raise US global tariff from 10 to 15% after Supreme Court ruling",
+        "title_zh": "最高法院裁决后特朗普将美国全球关税从 10% 提高至 15%"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
+      "中国视角": {
+        "title": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
+        "link": "https://www.globaltimes.cn/page/202602/1354620.shtml",
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
+        "title_zh": "高一因“手受伤”缺席电视辩论引发日本政界人士和网民的不满，称高一回避了包括统一教丑闻在内的关键问题"
+      },
+      "美国视角": {
+        "title": "Blizzard Warnings Issued for Swath of East Coast, Including NYC",
+        "link": "https://www.nytimes.com/2026/02/21/us/blizzard-warnings-northeast-new-york.html",
+        "published": "Sun, 22 Feb 2026 04:07:25 +0000",
+        "title_en": "Blizzard Warnings Issued for Swath of East Coast, Including NYC",
+        "title_zh": "包括纽约市在内的东海岸大片地区发布暴风雪警告"
+      },
+      "半岛视角": {
+        "title": "Russia-Ukraine war: List of key events, day 1,459",
+        "link": "https://www.aljazeera.com/news/2026/2/22/russia-ukraine-war-list-of-key-events-day-1459?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 03:33:05 +0000",
+        "title_en": "Russia-Ukraine war: List of key events, day 1,459",
+        "title_zh": "俄罗斯-乌克兰战争：关键事件列表，第 1,459 天"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
+      "中国视角": {
+        "title": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
+        "link": "https://www.globaltimes.cn/page/202602/1354633.shtml",
+        "published": "Mon, 02 Feb 2026 00:00:00 GMT",
+        "title_en": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
+        "title_zh": "中国外长与俄罗斯绍伊古举行战略对话；王警告世界“面临回归丛林法则的风险”"
+      },
+      "美国视角": {
+        "title": "Senate G.O.P. Faces Pressure to Force ‘Talking Filibuster’ for Voter I.D. Bill",
+        "link": "https://www.nytimes.com/2026/02/21/us/politics/senate-republicans-talking-filibuster.html",
+        "published": "Sat, 21 Feb 2026 10:00:58 +0000",
+        "title_en": "Senate G.O.P. Faces Pressure to Force ‘Talking Filibuster’ for Voter I.D. Bill",
+        "title_zh": "参议院共和党面临压力，要求对选民身份进行“口头阻挠”账单"
+      },
+      "半岛视角": {
+        "title": "Russia-Ukraine war: List of key events, day 1,459",
+        "link": "https://www.aljazeera.com/news/2026/2/22/russia-ukraine-war-list-of-key-events-day-1459?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 03:33:05 +0000",
+        "title_en": "Russia-Ukraine war: List of key events, day 1,459",
+        "title_zh": "俄罗斯-乌克兰战争：关键事件列表，第 1,459 天"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
+      "中国视角": {
+        "title": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
+        "link": "https://www.globaltimes.cn/page/202601/1352223.shtml",
+        "published": "Mon, 05 Jan 2026 00:00:00 GMT",
+        "title_en": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
+        "title_zh": "专家：爱尔兰总理时隔14年访华可成为中欧关系的“试金石”"
+      },
+      "美国视角": {
+        "title": "Divide Among Supreme Court’s Conservatives Could Test Trump’s Agenda",
+        "link": "https://www.nytimes.com/2026/02/21/us/politics/supreme-court-tariffs-conservatives.html",
+        "published": "Sat, 21 Feb 2026 15:43:57 +0000",
+        "title_en": "Divide Among Supreme Court’s Conservatives Could Test Trump’s Agenda",
+        "title_zh": "最高法院保守派之间的分歧可能会考验特朗普的议程"
+      },
+      "半岛视角": {
+        "title": "Giant tortoises return to Galapagos island after 150 years",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/21/giant-tortoises-return-to-galapagos-island-after-150-years?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 12:27:23 +0000",
+        "title_en": "Giant tortoises return to Galapagos island after 150 years",
+        "title_zh": "150年后巨龟重返加拉帕戈斯岛"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+      "中国视角": {
+        "title": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+        "link": "https://www.globaltimes.cn/page/202512/1350901.shtml",
+        "published": "Fri, 19 Dec 2025 00:00:00 GMT",
+        "title_en": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+        "title_zh": "中国外长强烈谴责美国向台湾出售价值110亿美元的武器；民进党当局“感谢”华盛顿遭岛内网友猛烈抨击"
+      },
+      "美国视角": {
+        "title": "Judge Rebukes U.S. Over Application to Search Washington Post Reporter’s Home",
+        "link": "https://www.nytimes.com/2026/02/20/us/politics/washington-post-reporter-home-search.html",
+        "published": "Sat, 21 Feb 2026 00:31:45 +0000",
+        "title_en": "Judge Rebukes U.S. Over Application to Search Washington Post Reporter’s Home",
+        "title_zh": "法官谴责美国申请搜查《华盛顿邮报》记者家"
+      },
+      "半岛视角": {
+        "title": "Giant tortoises return to Galapagos island after 150 years",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/21/giant-tortoises-return-to-galapagos-island-after-150-years?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 12:27:23 +0000",
+        "title_en": "Giant tortoises return to Galapagos island after 150 years",
+        "title_zh": "150年后巨龟重返加拉帕戈斯岛"
+      },
+      "score": 2
+    },
+    {
+      "event_hint": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
+      "中国视角": {
+        "title": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
+        "link": "https://www.globaltimes.cn/page/202602/1354683.shtml",
+        "published": "Tue, 03 Feb 2026 00:00:00 GMT",
+        "title_en": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
+        "title_zh": "乌拉圭总统访华第二天参观长城、故宫；中国专家称对中共历史的兴趣日益浓厚表明希望向中国学习"
+      },
+      "美国视角": null,
+      "半岛视角": {
+        "title": "Russia-Ukraine war: List of key events, day 1,459",
+        "link": "https://www.aljazeera.com/news/2026/2/22/russia-ukraine-war-list-of-key-events-day-1459?traffic_source=rss",
+        "published": "Sun, 22 Feb 2026 03:33:05 +0000",
+        "title_en": "Russia-Ukraine war: List of key events, day 1,459",
+        "title_zh": "俄罗斯-乌克兰战争：关键事件列表，第 1,459 天"
+      },
+      "score": 1
+    },
+    {
+      "event_hint": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
+      "中国视角": {
+        "title": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
+        "link": "https://www.globaltimes.cn/page/202601/1354289.shtml",
+        "published": "Wed, 28 Jan 2026 00:00:00 GMT",
+        "title_en": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
+        "title_zh": "中国疾病预防控制部门：中国尚未发现尼帕病毒病病例"
+      },
+      "美国视角": null,
+      "半岛视角": {
+        "title": "Far-right anti-Islam march sparks counterprotests in Manchester",
+        "link": "https://www.aljazeera.com/news/2026/2/21/far-right-anti-islam-march-sparks-counter-protests-in-manchester?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 19:43:48 +0000",
+        "title_en": "Far-right anti-Islam march sparks counterprotests in Manchester",
+        "title_zh": "极右翼反伊斯兰游行在曼彻斯特引发反抗议"
+      },
+      "score": 1
+    },
+    {
+      "event_hint": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
+      "中国视角": {
+        "title": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
+        "link": "https://www.globaltimes.cn/page/202601/1353715.shtml",
+        "published": "Wed, 21 Jan 2026 00:00:00 GMT",
+        "title_en": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
+        "title_zh": "中国海军055型大型驱逐舰在南海进行对抗演习增强反潜能力"
+      },
+      "美国视角": null,
+      "半岛视角": {
+        "title": "Far-right anti-Islam march sparks counterprotests in Manchester",
+        "link": "https://www.aljazeera.com/news/2026/2/21/far-right-anti-islam-march-sparks-counter-protests-in-manchester?traffic_source=rss",
+        "published": "Sat, 21 Feb 2026 19:43:48 +0000",
+        "title_en": "Far-right anti-Islam march sparks counterprotests in Manchester",
+        "title_zh": "极右翼反伊斯兰游行在曼彻斯特引发反抗议"
+      },
+      "score": 1
+    }
+  ],
   "errors": {}
 }
