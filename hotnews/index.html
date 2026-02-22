@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HotNews｜四栏菜单版</title>
   <style>
-    :root{--bg:#0b1220;--panel:#121a2a;--line:#253148;--text:#e8eefc;--muted:#97a3bd;--pri:#3b82f6;--pri2:#1d4ed8;--soft:#0f1727}
-    *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#0a1222,#0a1020);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
+    :root{--bg:#070b16;--panel:#121a2a;--line:#253148;--text:#e8eefc;--muted:#97a3bd;--pri:#3b82f6;--pri2:#1d4ed8;--soft:#0f1727;--accent:#22d3ee;--pink:#ec4899}
+    *{box-sizing:border-box} body{margin:0;background:radial-gradient(1200px 600px at 10% -10%,rgba(34,211,238,.15),transparent),radial-gradient(900px 500px at 100% 0,rgba(236,72,153,.12),transparent),linear-gradient(180deg,#0a1222,#0a1020);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif}
     .wrap{max-width:1200px;margin:0 auto;padding:18px}
     .top{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap}
     h1{margin:0;font-size:30px;letter-spacing:.2px}
     .meta{color:var(--muted);font-size:13px}
     .menu{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:16px 0}
-    .tab{border:1px solid var(--line);background:var(--panel);color:var(--text);padding:12px 10px;border-radius:12px;cursor:pointer;font-weight:700}
-    .tab.active{background:linear-gradient(180deg,var(--pri),var(--pri2));border-color:#4f8dff}
+    .tab{border:1px solid var(--line);background:linear-gradient(180deg,#13203a,#101a2d);color:var(--text);padding:12px 10px;border-radius:12px;cursor:pointer;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.22)}
+    .tab.active{background:linear-gradient(135deg,var(--pri),var(--accent));border-color:#7dd3fc;color:#081224}
     .panel{display:none;background:rgba(16,24,40,.8);border:1px solid var(--line);border-radius:14px;padding:14px}
     .panel.active{display:block}
     .list{display:grid;grid-template-columns:1fr;gap:10px}
@@ -62,16 +62,17 @@ async function speakAzure(text){
 }
 function speakFallback(text){ if(!('speechSynthesis' in window)) return; const u=new SpeechSynthesisUtterance(text); u.lang='en-US'; window.speechSynthesis.speak(u); }
 window.readItem=async (zh,en)=>{const t=`Chinese: ${zh}. English: ${en}.`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
+window.readEnglish=async (en)=>{const t=`${en}`; try{await speakAzure(t)}catch(e){speakFallback(t)}}
 
 function newsItem(it){
   const zh=it.title_zh||it.title||''; const en=it.title_en||it.title||'';
-  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')})">🔊 读ZH/EN</button></div>`;
+  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')})">🔊 读ZH/EN</button><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')})">🗣 EN</button></div></div>`;
 }
 
 function triCol(title,item){
   if(!item) return `<div class="col"><h4>${title}</h4><div class="en">暂无 / N/A</div></div>`;
   const zh=item.title_zh||item.title||''; const en=item.title_en||item.title||'';
-  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div></div>`;
+  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')})">🗣 Read EN</button></div></div>`;
 }
 
 function switchTab(name){
@@ -94,6 +95,7 @@ async function load(){
   const tri=(d.triangle||[]).map((e,i)=>`
     <div class="triCard">
       <div class="event">事件 ${i+1}：${e.event_hint_zh||e.event_hint||''}<span class="en">${e.event_hint_en||e.event_hint||''}</span></div>
+      <div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify((e.event_hint_en||e.event_hint||'')).replace(/"/g,'&quot;')})">🗣 Event EN</button></div>
       <div class="triGrid">
         ${triCol('中国视角 / China',e['中国'])}
         ${triCol('欧美视角 / Western',e['美国'])}
