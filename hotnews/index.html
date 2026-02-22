@@ -31,7 +31,12 @@
       col.innerHTML = `<h3>${title}</h3>`;
       if(item && item.link){
         const p = document.createElement('div');
-        p.innerHTML = `<a href="${item.link}" target="_blank" rel="noreferrer">${item.title}</a>`;
+        const zh = item.title_zh || item.title || '';
+        const en = item.title_en || item.title || '';
+        p.innerHTML = `
+          <div><a href="${item.link}" target="_blank" rel="noreferrer">${zh}</a></div>
+          <div style="margin-top:6px;color:#93c5fd;font-size:13px;line-height:1.35;">${en}</div>
+        `;
         col.appendChild(p);
       }else{
         const e = document.createElement('div');
