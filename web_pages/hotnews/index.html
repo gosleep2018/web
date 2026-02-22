@@ -223,23 +223,25 @@ function stopAllAudio(){
     }
   }catch(_e){}
 }
-
-async function speakAzure(text,btn){
+function beginPlayback(btn){
   stopAllAudio();
-  const myToken=playbackToken;
+  const token=playbackToken;
   activeBtn=btn||null;
   setBtnState(activeBtn,'loading');
+  return token;
+}
 
+async function speakAzure(text,token){
   const q=encodeURIComponent(text); const voice=encodeURIComponent('en-US-JennyNeural');
   const r=await fetch(`${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`); if(!r.ok) throw new Error('tts '+r.status);
   const b=await r.blob(); if(!b||b.size<1024) throw new Error('empty audio');
 
-  if(myToken!==playbackToken){ clearActiveBtn(); return; }
+  if(token!==playbackToken){ clearActiveBtn(); return false; }
 
   const url=URL.createObjectURL(b);
   const audio=new Audio(url);
 
-  if(myToken!==playbackToken){ URL.revokeObjectURL(url); clearActiveBtn(); return; }
+  if(token!==playbackToken){ URL.revokeObjectURL(url); clearActiveBtn(); return false; }
 
   currentAudioUrl=url;
   currentAudio=audio;
@@ -252,10 +254,10 @@ async function speakAzure(text,btn){
   };
 
   await audio.play();
+  return true;
 }
-function speakFallback(text,btn){
-  stopAllAudio();
-  activeBtn=btn||null;
+function speakFallback(text,token){
+  if(token!==playbackToken) return;
   setBtnState(activeBtn,'playing');
   if(!('speechSynthesis' in window)) { clearActiveBtn(); return; }
   const u=new SpeechSynthesisUtterance(text);
@@ -263,9 +265,18 @@ function speakFallback(text,btn){
   u.onend=()=>clearActiveBtn();
   window.speechSynthesis.speak(u);
 }
-window.readItem=async (zh,en,btn)=>{const t=`Chinese: ${zh}. English: ${en}.`; try{await speakAzure(t,btn)}catch(e){speakFallback(t,btn)}}
-window.readEnglish=async (en,btn)=>{const t=`${en}`; try{await speakAzure(t,btn)}catch(e){speakFallback(t,btn)}}
-window.readChinese=async (zh,btn)=>{const t=`${zh}`; try{await speakAzure(t,btn)}catch(e){speakFallback(t,btn)}}
+async function playText(text,btn){
+  const token=beginPlayback(btn);
+  try{
+    await speakAzure(text,token);
+  }catch(_e){
+    // 仅当前点击仍是最新播放时才允许fallback，避免旧请求打断新播放
+    speakFallback(text,token);
+  }
+}
+window.readItem=async (zh,en,btn)=>{const t=`Chinese: ${zh}. English: ${en}.`; await playText(t,btn)}
+window.readEnglish=async (en,btn)=>{const t=`${en}`; await playText(t,btn)}
+window.readChinese=async (zh,btn)=>{const t=`${zh}`; await playText(t,btn)}
 
 function newsItem(it){
   const zh=it.title_zh||it.title||''; const en=it.title_en||it.title||'';
