@@ -191,8 +191,10 @@
 const AZURE_TTS_BASE='https://web-x0ya.onrender.com';
 let currentAudio=null;
 let currentAudioUrl=null;
+let playbackToken=0;
 
 function stopAllAudio(){
+  playbackToken++; // 使所有旧请求失效
   try{ if('speechSynthesis' in window) window.speechSynthesis.cancel(); }catch(_e){}
   try{
     if(currentAudio){
@@ -209,19 +211,37 @@ function stopAllAudio(){
 
 async function speakAzure(text){
   stopAllAudio();
+  const myToken=playbackToken;
   const q=encodeURIComponent(text); const voice=encodeURIComponent('en-US-JennyNeural');
   const r=await fetch(`${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`); if(!r.ok) throw new Error('tts '+r.status);
   const b=await r.blob(); if(!b||b.size<1024) throw new Error('empty audio');
-  currentAudioUrl=URL.createObjectURL(b);
-  currentAudio=new Audio(currentAudioUrl);
-  currentAudio.onended=()=>{
-    if(currentAudioUrl){
-      URL.revokeObjectURL(currentAudioUrl);
+
+  // 如果在请求期间用户又点了新的播放，丢弃本次音频
+  if(myToken!==playbackToken) return;
+
+  const url=URL.createObjectURL(b);
+  const audio=new Audio(url);
+
+  // 再次校验，防止创建后被新点击打断
+  if(myToken!==playbackToken){
+    URL.revokeObjectURL(url);
+    return;
+  }
+
+  currentAudioUrl=url;
+  currentAudio=audio;
+
+  audio.onended=()=>{
+    if(currentAudio===audio){
+      currentAudio=null;
+    }
+    if(currentAudioUrl===url){
+      URL.revokeObjectURL(url);
       currentAudioUrl=null;
     }
-    currentAudio=null;
   };
-  await currentAudio.play();
+
+  await audio.play();
 }
 function speakFallback(text){
   stopAllAudio();
