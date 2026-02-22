@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-22 13:17:53 +08",
+  "generated_at": "2026-02-22 13:22:41 +08",
   "sources": {
     "中国视角": [
       {
@@ -431,6 +431,8 @@
   "comparisons": [
     {
       "event_hint": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
+      "event_hint_zh": "中国和伊朗外交官在美伊核谈判前会面；中国专家称此举反映了德黑兰寻求国际支持的意愿",
+      "event_hint_en": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
       "中国视角": {
         "title": "Chinese, Iranian diplomats meet before US-Iran nuclear talk; move reflects Teheran's willingness to seek intl support: Chinese expert",
         "link": "https://www.globaltimes.cn/page/202602/1354898.shtml",
@@ -456,6 +458,8 @@
     },
     {
       "event_hint": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
+      "event_hint_zh": "习近平与特朗普通话后，中国强调台湾是“核心利益的核心”；专家：“依靠美国独立”幻想的空间只会进一步缩小",
+      "event_hint_en": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
       "中国视角": {
         "title": "China stresses Taiwan at 'core of core interests' after Xi-Trump call; Room for 'relying on US for independence' illusion will only shrink further: expert",
         "link": "https://www.globaltimes.cn/page/202602/1354899.shtml",
@@ -481,6 +485,8 @@
     },
     {
       "event_hint": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
+      "event_hint_zh": "特朗普声称印度将购买委内瑞拉石油，欢迎中国投资；中国专家注意到言论是“单方面的”，印度方面没有证实",
+      "event_hint_en": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
       "中国视角": {
         "title": "Trump claims India will buy Venezuelan oil, welcomes China's investment; Chinese expert notices remarks 'unilateral,' no confirmation from Indian side",
         "link": "https://www.globaltimes.cn/page/202602/1354617.shtml",
@@ -506,6 +512,8 @@
     },
     {
       "event_hint": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
+      "event_hint_zh": "高一因“手受伤”缺席电视辩论引发日本政界人士和网民的不满，称高一回避了包括统一教丑闻在内的关键问题",
+      "event_hint_en": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
       "中国视角": {
         "title": "Takaichi skipping of TV debate due to 'hand injury' sparks dissatisfaction from Japanese politicians, netizens, saying Takaichi avoids key questions including Unification Church scandal",
         "link": "https://www.globaltimes.cn/page/202602/1354620.shtml",
@@ -531,6 +539,8 @@
     },
     {
       "event_hint": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
+      "event_hint_zh": "中国外长与俄罗斯绍伊古举行战略对话；王警告世界“面临回归丛林法则的风险”",
+      "event_hint_en": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
       "中国视角": {
         "title": "Chinese FM holds strategic dialogue with Russia's Shoigu; Wang warns the world 'faces risk of regressing to law of jungle'",
         "link": "https://www.globaltimes.cn/page/202602/1354633.shtml",
@@ -556,6 +566,8 @@
     },
     {
       "event_hint": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
+      "event_hint_zh": "专家：爱尔兰总理时隔14年访华可成为中欧关系的“试金石”",
+      "event_hint_en": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
       "中国视角": {
         "title": "The Irish Taoiseach's visit to China in 14 years could be a 'touchstone' for China-EU relations: expert",
         "link": "https://www.globaltimes.cn/page/202601/1352223.shtml",
@@ -581,6 +593,8 @@
     },
     {
       "event_hint": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
+      "event_hint_zh": "中国外长强烈谴责美国向台湾出售价值110亿美元的武器；民进党当局“感谢”华盛顿遭岛内网友猛烈抨击",
+      "event_hint_en": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
       "中国视角": {
         "title": "Chinese FM strongly condemns $11b US arms sales to Taiwan; DPP authorities 'thanking' Washington slammed by island netizens",
         "link": "https://www.globaltimes.cn/page/202512/1350901.shtml",
@@ -606,6 +620,8 @@
     },
     {
       "event_hint": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
+      "event_hint_zh": "乌拉圭总统访华第二天参观长城、故宫；中国专家称对中共历史的兴趣日益浓厚表明希望向中国学习",
+      "event_hint_en": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
       "中国视角": {
         "title": "Uruguayan president visits Great Wall, Palace Museum on 2nd day of China trip; Chinese expert says growing interest in CPC history shows wish to learn from China",
         "link": "https://www.globaltimes.cn/page/202602/1354683.shtml",
@@ -625,6 +641,8 @@
     },
     {
       "event_hint": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
+      "event_hint_zh": "中国疾病预防控制部门：中国尚未发现尼帕病毒病病例",
+      "event_hint_en": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
       "中国视角": {
         "title": "No case of Nipah virus disease detected in China so far: China's disease control authorities",
         "link": "https://www.globaltimes.cn/page/202601/1354289.shtml",
@@ -644,6 +662,8 @@
     },
     {
       "event_hint": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
+      "event_hint_zh": "中国海军055型大型驱逐舰在南海进行对抗演习增强反潜能力",
+      "event_hint_en": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
       "中国视角": {
         "title": "PLA Navy's Type 055 large destroyer boosts anti-submarine capabilities with confrontational exercise in South China Sea",
         "link": "https://www.globaltimes.cn/page/202601/1353715.shtml",

@@ -119,6 +119,8 @@ def build_comparisons(china, us, alj):
             continue
         comps.append({
             "event_hint": c["title"],
+            "event_hint_zh": c.get("title_zh", c["title"]),
+            "event_hint_en": c.get("title_en", c["title"]),
             "中国视角": c,
             "美国视角": um,
             "半岛视角": am,
