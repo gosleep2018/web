@@ -10,6 +10,10 @@
     .meta { color:#9ca3af; margin-bottom:16px; }
     .card { background:#111827; border:1px solid #1f2937; border-radius:14px; padding:14px; margin-bottom:14px; }
     .event { font-weight:700; margin-bottom:10px; color:#f9fafb; }
+    .event .en { display:block; margin-top:4px; color:#93c5fd; font-size:13px; font-weight:500; }
+    .toolbar { display:flex; gap:8px; margin:8px 0 10px; }
+    .btn { background:#1d4ed8; color:#fff; border:none; border-radius:8px; padding:6px 10px; font-size:13px; cursor:pointer; }
+    .btn:hover { background:#1e40af; }
     .grid { display:grid; grid-template-columns: repeat(3,minmax(220px,1fr)); gap:10px; }
     .col { background:#0f172a; border:1px solid #1e293b; border-radius:10px; padding:10px; }
     .col h3 { margin:0 0 6px; font-size:15px; color:#c7d2fe; }
@@ -47,6 +51,27 @@
       container.appendChild(col);
     }
 
+    const AZURE_TTS_ENDPOINT = 'https://web-x0ya.onrender.com/tts';
+
+    async function speakWithAzure(text){
+      const resp = await fetch(AZURE_TTS_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text })
+      });
+      if(!resp.ok) throw new Error('TTS request failed');
+      const blob = await resp.blob();
+      const url = URL.createObjectURL(blob);
+      const audio = new Audio(url);
+      audio.play();
+    }
+
+    function speakFallback(text){
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'zh-CN';
+      window.speechSynthesis.speak(u);
+    }
+
     async function load(){
       const res = await fetch('./data/news.json?_=' + Date.now());
       const data = await res.json();
@@ -64,7 +89,22 @@
       comps.forEach((c, idx) => {
         const card = document.createElement('div');
         card.className = 'card';
-        card.innerHTML = `<div class="event">事件 / Event ${idx+1}：${c.event_hint}</div>`;
+        const zh = c.event_hint_zh || c.event_hint || '';
+        const en = c.event_hint_en || c.event_hint || '';
+        card.innerHTML = `<div class="event">事件 / Event ${idx+1}：${zh}<span class="en">${en}</span></div>`;
+
+        const toolbar = document.createElement('div');
+        toolbar.className = 'toolbar';
+        const readBtn = document.createElement('button');
+        readBtn.className = 'btn';
+        readBtn.textContent = '🔊 朗读 / Read';
+        readBtn.onclick = async () => {
+          const speechText = `事件：${zh}。中国视角：${(c['中国视角']&&c['中国视角'].title_zh)||''}。美国视角：${(c['美国视角']&&c['美国视角'].title_zh)||''}。半岛视角：${(c['半岛视角']&&c['半岛视角'].title_zh)||''}`;
+          try { await speakWithAzure(speechText); }
+          catch(e){ speakFallback(speechText); }
+        };
+        toolbar.appendChild(readBtn);
+        card.appendChild(toolbar);
 
         const grid = document.createElement('div');
         grid.className = 'grid';
