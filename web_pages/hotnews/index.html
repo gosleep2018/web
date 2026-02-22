@@ -26,6 +26,9 @@
 <body>
   <h1>HotNews：同一新闻事件三方观点对比 / Same Event, 3 Perspectives</h1>
   <div class="meta" id="meta">加载中... / Loading...</div>
+  <div class="toolbar" style="margin-bottom:14px;">
+    <button id="readAllBtn" class="btn">🔊 朗读今日全部 / Read All Today</button>
+  </div>
   <div id="list"></div>
 
   <script>
@@ -72,9 +75,12 @@
       window.speechSynthesis.speak(u);
     }
 
+    let __hotnewsData = null;
+
     async function load(){
       const res = await fetch('./data/news.json?_=' + Date.now());
       const data = await res.json();
+      __hotnewsData = data;
       document.getElementById('meta').textContent = `最后更新 / Last update: ${data.generated_at}（每日 08:00 自动更新 / Auto update at 08:00 daily）`;
 
       const list = document.getElementById('list');
@@ -116,6 +122,21 @@
         list.appendChild(card);
       });
     }
+
+    document.getElementById('readAllBtn').onclick = async () => {
+      const comps = (__hotnewsData && __hotnewsData.comparisons) ? __hotnewsData.comparisons : [];
+      if (!comps.length) return;
+      const lines = comps.map((c, i) => {
+        const zh = c.event_hint_zh || c.event_hint || '';
+        const cn = (c['中国视角'] && c['中国视角'].title_zh) || '';
+        const us = (c['美国视角'] && c['美国视角'].title_zh) || '';
+        const aj = (c['半岛视角'] && c['半岛视角'].title_zh) || '';
+        return `第${i+1}条。事件：${zh}。中国视角：${cn}。美国视角：${us}。半岛视角：${aj}。`;
+      });
+      const speechText = lines.join(' ');
+      try { await speakWithAzure(speechText); }
+      catch(e){ speakFallback(speechText); }
+    };
 
     load().catch(e=>{
       document.getElementById('meta').textContent = '加载失败 / Load failed: ' + e.message;
