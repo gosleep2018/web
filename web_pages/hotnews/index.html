@@ -54,25 +54,34 @@
       container.appendChild(col);
     }
 
-    const AZURE_TTS_ENDPOINT = 'https://web-x0ya.onrender.com/tts';
+    const AZURE_TTS_BASE = 'https://web-x0ya.onrender.com';
 
     async function speakWithAzure(text){
-      const resp = await fetch(AZURE_TTS_ENDPOINT, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text })
-      });
-      if(!resp.ok) throw new Error('TTS request failed');
+      const q = encodeURIComponent(text);
+      const url = `${AZURE_TTS_BASE}/tts?text=${q}`;
+      const resp = await fetch(url, { method: 'GET' });
+      if(!resp.ok) throw new Error('TTS request failed: ' + resp.status);
       const blob = await resp.blob();
-      const url = URL.createObjectURL(blob);
-      const audio = new Audio(url);
-      audio.play();
+      const audioUrl = URL.createObjectURL(blob);
+      const audio = new Audio(audioUrl);
+      await audio.play();
     }
 
     function speakFallback(text){
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'zh-CN';
-      window.speechSynthesis.speak(u);
+      if (!('speechSynthesis' in window)) {
+        alert('当前浏览器不支持内置朗读，请稍后再试。');
+        return;
+      }
+      window.speechSynthesis.cancel();
+      const chunks = text.match(/.{1,120}/g) || [text];
+      chunks.forEach((chunk, idx) => {
+        const u = new SpeechSynthesisUtterance(chunk);
+        u.lang = 'zh-CN';
+        u.rate = 1;
+        u.pitch = 1;
+        if (idx === 0) window.speechSynthesis.speak(u);
+        else setTimeout(() => window.speechSynthesis.speak(u), idx * 250);
+      });
     }
 
     let __hotnewsData = null;
