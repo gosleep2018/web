@@ -13,9 +13,9 @@ TZ = ZoneInfo("Asia/Singapore")
 OUT = Path("/Users/lin/.openclaw/workspace/web_pages/hotnews/data/news.json")
 
 SOURCES = {
-    "中国视角": "https://www.globaltimes.cn/rss/outbrain.xml",
-    "美国视角": "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
-    "半岛视角": "https://www.aljazeera.com/xml/rss/all.xml",
+    "中国视角": ["http://www.people.com.cn/rss/politics.xml"],
+    "美国视角": ["http://rss.cnn.com/rss/edition.rss", "https://feeds.bbci.co.uk/news/world/rss.xml"],
+    "半岛视角": ["https://www.aljazeera.com/xml/rss/all.xml"],
 }
 
 MAX_ITEMS = 20
@@ -127,7 +127,25 @@ def build_comparisons(china, us, alj):
             "score": confidence,
         })
     comps.sort(key=lambda x: x["score"], reverse=True)
-    return comps[:MAX_COMPARE]
+    if comps:
+        return comps[:MAX_COMPARE]
+
+    # Fallback: no lexical matches, align by index to keep 3-view output available
+    n = min(MAX_COMPARE, len(china), len(us), len(alj))
+    fallback = []
+    for i in range(n):
+        c = china[i]
+        fallback.append({
+            "event_hint": c["title"],
+            "event_hint_zh": c.get("title_zh", c["title"]),
+            "event_hint_en": c.get("title_en", c["title"]),
+            "中国视角": c,
+            "美国视角": us[i] if i < len(us) else None,
+            "半岛视角": alj[i] if i < len(alj) else None,
+            "score": 0,
+            "fallback": True,
+        })
+    return fallback
 
 
 def main():
@@ -138,12 +156,28 @@ def main():
         "errors": {},
     }
 
-    for name, url in SOURCES.items():
-        try:
-            payload["sources"][name] = fetch_rss(url)
-        except Exception as e:
-            payload["sources"][name] = []
-            payload["errors"][name] = str(e)
+    for name, urls in SOURCES.items():
+        merged = []
+        errs = []
+        for url in urls:
+            try:
+                merged.extend(fetch_rss(url))
+            except Exception as e:
+                errs.append(f"{url}: {e}")
+
+        # dedup by title+link, then cap
+        seen = set()
+        uniq = []
+        for it in merged:
+            key = (it.get("title", ""), it.get("link", ""))
+            if key in seen:
+                continue
+            seen.add(key)
+            uniq.append(it)
+
+        payload["sources"][name] = uniq[:MAX_ITEMS]
+        if errs and not uniq:
+            payload["errors"][name] = " | ".join(errs)
 
     payload["comparisons"] = build_comparisons(
         payload["sources"].get("中国视角", []),
