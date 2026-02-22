@@ -9,7 +9,7 @@ from zoneinfo import ZoneInfo
 from pathlib import Path
 
 TZ = ZoneInfo("Asia/Singapore")
-OUT = Path("/Users/lin/.openclaw/workspace/web_pages/news_three/data/news.json")
+OUT = Path("/Users/lin/.openclaw/workspace/web_pages/hotnews/data/news.json")
 
 SOURCES = {
     "中国视角": "https://www.globaltimes.cn/rss/outbrain.xml",
