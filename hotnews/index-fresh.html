@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HotNews｜四栏菜单版（最新数据）</title>
+  <style>
+    :root{
+      --bg:#070b16;--panel:#121a2a;--line:#253148;--text:#e8eefc;--muted:#97a3bd;
+      --pri:#3b82f6;--pri2:#1d4ed8;--pri3:#60a5fa;--accent:#22d3ee;--accent2:#06b6d4;
+      --pink:#ec4899;--pink2:#db2777;--soft:#0f1727;--soft2:#1a243a;
+      --success:#10b981;--warning:#f59e0b;--info:#8b5cf6;
+    }
+    *{box-sizing:border-box} body{
+      margin:0;
+      background:
+        radial-gradient(1200px 600px at 10% -10%,rgba(34,211,238,.25),transparent 70%),
+        radial-gradient(900px 500px at 100% 0,rgba(236,72,153,.2),transparent 70%),
+        radial-gradient(800px 400px at 20% 100%,rgba(59,130,246,.15),transparent),
+        linear-gradient(180deg,#0a1222 0%,#0a1020 30%,#0b1428 70%,#0a1835 100%);
+      color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Microsoft YaHei",sans-serif;
+      min-height:100vh;
+    }
+    .wrap{max-width:1200px;margin:0 auto;padding:18px}
+    .top{display:flex;justify-content:space-between;align-items:end;gap:10px;flex-wrap:wrap}
+    h1{margin:0;font-size:30px;letter-spacing:.2px}
+    .meta{color:var(--muted);font-size:13px}
+    .menu{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:10px;margin:16px 0}
+    .tab{
+      border:1px solid rgba(59,130,246,.3);
+      background:linear-gradient(180deg,rgba(19,32,58,.9),rgba(16,26,45,.9));
+      color:var(--text);
+      padding:14px 12px;
+      border-radius:14px;
+      cursor:pointer;
+      font-weight:700;
+      font-size:15px;
+      box-shadow:0 8px 20px rgba(0,0,0,.3),0 2px 6px rgba(59,130,246,.1);
+      transition:all 0.3s ease;
+      backdrop-filter:blur(10px);
+    }
+    .tab:hover{
+      transform:translateY(-2px);
+      box-shadow:0 12px 24px rgba(0,0,0,.4),0 4px 12px rgba(59,130,246,.2);
+      border-color:var(--pri3);
+    }
+    .tab.active{
+      background:linear-gradient(135deg,var(--pri),var(--accent),var(--pink));
+      border-color:rgba(255,255,255,.4);
+      color:#f1f5f9;
+      box-shadow:0 12px 28px rgba(0,0,0,.5),0 4px 16px rgba(59,130,246,.4),inset 0 1px 1px rgba(255,255,255,.2);
+      transform:translateY(-2px);
+    }
+    .panel{
+      display:none;
+      background:rgba(16,24,40,.85);
+      border:1px solid rgba(59,130,246,.2);
+      border-radius:18px;
+      padding:20px;
+      box-shadow:0 12px 32px rgba(0,0,0,.4);
+      backdrop-filter:blur(12px);
+    }
+    .panel.active{display:block}
+    .list{display:grid;grid-template-columns:1fr;gap:14px}
+    .item{
+      background:linear-gradient(145deg,rgba(15,23,39,.9),rgba(26,36,58,.9));
+      border:1px solid rgba(59,130,246,.25);
+      border-radius:16px;
+      padding:16px;
+      transition:all 0.3s ease;
+      box-shadow:0 6px 16px rgba(0,0,0,.2);
+    }
+    .item:hover{
+      transform:translateY(-3px);
+      box-shadow:0 12px 24px rgba(0,0,0,.3),0 4px 12px rgba(59,130,246,.15);
+      border-color:var(--pri3);
+    }
+    .zh a{color:#dbeafe;text-decoration:none;font-size:15px;font-weight:500} .zh a:hover{text-decoration:underline;color:#93c5fd}
+    .en{color:#9cc3ff;font-size:14px;line-height:1.5;margin-top:8px;padding:8px 10px;background:rgba(59,130,246,.08);border-radius:8px;border-left:3px solid var(--accent)}
+    .toolbar{display:flex;gap:8px;margin-top:12px}
+    .btn{
+      background:linear-gradient(135deg,var(--pri),var(--pri2));
+      color:#fff;
+      border:none;
+      padding:8px 14px;
+      border-radius:10px;
+      cursor:pointer;
+      font-size:13px;
+      font-weight:600;
+      transition:all 0.2s ease;
+      box-shadow:0 4px 10px rgba(59,130,246,.3);
+    }
+    .btn:hover{
+      background:linear-gradient(135deg,var(--pri2),var(--accent));
+      transform:translateY(-2px);
+      box-shadow:0 6px 14px rgba(59,130,246,.4);
+    }
+    .btn.loading{opacity:.8;pointer-events:none;filter:saturate(.8)}
+    .btn.playing{background:linear-gradient(135deg,var(--success),#059669);box-shadow:0 6px 14px rgba(16,185,129,.45)}
+    .triCard{
+      background:linear-gradient(145deg,rgba(15,23,39,.9),rgba(26,36,58,.9));
+      border:1px solid rgba(59,130,246,.25);
+      border-radius:16px;
+      padding:20px;
+      margin-bottom:16px;
+      box-shadow:0 8px 24px rgba(0,0,0,.3);
+    }
+    .event{font-weight:700;font-size:16px;color:#f1f5f9;margin-bottom:8px} .event .en{display:block;color:#93c5fd;font-size:14px;margin-top:6px}
+    .triGrid{display:grid;grid-template-columns:repeat(3,minmax(240px,1fr));gap:16px;margin-top:16px}
+    .col{
+      background:linear-gradient(145deg,rgba(13,22,40,.9),rgba(19,30,50,.9));
+      border:1px solid rgba(59,130,246,.2);
+      border-radius:14px;
+      padding:16px;
+      transition:all 0.3s ease;
+    }
+    .col:hover{
+      transform:translateY(-3px);
+      box-shadow:0 8px 20px rgba(0,0,0,.3);
+      border-color:var(--pri3);
+    }
+    .col h4{margin:0 0 10px;font-size:15px;color:#c3d7ff;font-weight:600}
+    .insight{
+      margin-top:20px;
+      padding:18px;
+      border-radius:14px;
+      background:linear-gradient(145deg,rgba(10,28,53,.9),rgba(15,35,65,.9));
+      border:1px solid rgba(30,58,99,.5);
+      font-size:15px;
+      line-height:1.6;
+      box-shadow:0 6px 20px rgba(0,0,0,.25);
+      border-left:4px solid var(--success);
+      animation:fadeInUp 0.6s ease-out;
+    }
+    
+    /* 动画效果 */
+    @keyframes fadeInUp {
+      from {
+        opacity:0;
+        transform:translateY(20px);
+      }
+      to {
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+    
+    @keyframes pulse {
+      0% { box-shadow:0 4px 10px rgba(59,130,246,.3); }
+      50% { box-shadow:0 4px 20px rgba(59,130,246,.6); }
+      100% { box-shadow:0 4px 10px rgba(59,130,246,.3); }
+    }
+    
+    @keyframes gradientShift {
+      0% { background-position:0% 50%; }
+      50% { background-position:100% 50%; }
+      100% { background-position:0% 50%; }
+    }
+    
+    .tab.active {
+      animation:pulse 2s infinite;
+    }
+    
+    .panel.active {
+      animation:fadeInUp 0.4s ease-out;
+    }
+    
+    @media (max-width:900px){.menu{grid-template-columns:repeat(2,1fr)}.triGrid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <h1>HotNews · 四栏菜单</h1>
+    <div class="meta" id="meta">加载中...</div>
+  </div>
+
+  <div class="menu">
+    <button class="tab active" data-tab="cn">1、中国</button>
+    <button class="tab" data-tab="west">2、欧美</button>
+    <button class="tab" data-tab="islam">3、伊斯兰</button>
+    <button class="tab" data-tab="tri">4、三方视角</button>
+  </div>
+
+  <section id="panel-cn" class="panel active"><div class="list" id="list-cn"></div></section>
+  <section id="panel-west" class="panel"><div class="list" id="list-west"></div></section>
+  <section id="panel-islam" class="panel"><div class="list" id="list-islam"></div></section>
+  <section id="panel-tri" class="panel"><div id="list-tri"></div></section>
+</div>
+
+<script>
+const AZURE_TTS_BASE='https://web-x0ya.onrender.com';
+let currentAudio=null;
+let currentAudioUrl=null;
+let playbackToken=0;
+let activeBtn=null;
+
+function setBtnState(btn,state){
+  if(!btn) return;
+  btn.classList.remove('loading','playing');
+  if(state) btn.classList.add(state);
+}
+function clearActiveBtn(){
+  if(activeBtn){
+    setBtnState(activeBtn,null);
+    activeBtn=null;
+  }
+}
+function stopAllAudio(){
+  playbackToken++; // 使所有旧请求失效
+  clearActiveBtn();
+  try{ if('speechSynthesis' in window) window.speechSynthesis.cancel(); }catch(_e){}
+  try{
+    if(currentAudio){
+      currentAudio.pause();
+      currentAudio.currentTime=0;
+      currentAudio=null;
+    }
+    if(currentAudioUrl){
+      URL.revokeObjectURL(currentAudioUrl);
+      currentAudioUrl=null;
+    }
+  }catch(_e){}
+}
+function beginPlayback(btn){
+  stopAllAudio();
+  const token=playbackToken;
+  activeBtn=btn||null;
+  setBtnState(activeBtn,'loading');
+  return token;
+}
+
+async function speakAzure(text,token){
+  const q=encodeURIComponent(text); const voice=encodeURIComponent('en-US-JennyNeural');
+  const r=await fetch(`${AZURE_TTS_BASE}/tts?text=${q}&voice=${voice}`); if(!r.ok) throw new Error('tts '+r.status);
+  const b=await r.blob(); if(!b||b.size<1024) throw new Error('empty audio');
+
+  if(token!==playbackToken){ clearActiveBtn(); return false; }
+
+  const url=URL.createObjectURL(b);
+  const audio=new Audio(url);
+
+  if(token!==playbackToken){ URL.revokeObjectURL(url); clearActiveBtn(); return false; }
+
+  currentAudioUrl=url;
+  currentAudio=audio;
+  setBtnState(activeBtn,'playing');
+
+  audio.onended=()=>{
+    if(currentAudio===audio){ currentAudio=null; }
+    if(currentAudioUrl===url){ URL.revokeObjectURL(url); currentAudioUrl=null; }
+    clearActiveBtn();
+  };
+
+  await audio.play();
+  return true;
+}
+function speakFallback(text,token){
+  if(token!==playbackToken) return;
+  setBtnState(activeBtn,'playing');
+  if(!('speechSynthesis' in window)) { clearActiveBtn(); return; }
+  const u=new SpeechSynthesisUtterance(text);
+  u.lang='en-US';
+  u.onend=()=>clearActiveBtn();
+  window.speechSynthesis.speak(u);
+}
+async function playText(text,btn){
+  const token=beginPlayback(btn);
+  try{
+    await speakAzure(text,token);
+  }catch(_e){
+    // 仅当前点击仍是最新播放时才允许fallback，避免旧请求打断新播放
+    speakFallback(text,token);
+  }
+}
+window.readItem=async (zh,en,btn)=>{const t=`Chinese: ${zh}. English: ${en}.`; await playText(t,btn)}
+window.readEnglish=async (en,btn)=>{const t=`${en}`; await playText(t,btn)}
+window.readChinese=async (zh,btn)=>{const t=`${zh}`; await playText(t,btn)}
+
+function newsItem(it){
+  const zh=it.title_zh||it.title||''; const en=it.title_en||it.title||'';
+  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🔊 读ZH/EN</button><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 EN</button></div></div>`;
+}
+
+function triCol(title,item){
+  if(!item) return `<div class="col"><h4>${title}</h4><div class="en">暂无 / N/A</div></div>`;
+  const zh=item.title_zh||item.title||''; const en=item.title_en||item.title||'';
+  let descHtml='';
+  if(item.description && item.description.trim()){
+    const desc=item.description;
+    const shortDesc=desc.length>150?desc.substring(0,147)+'...':desc;
+    descHtml=`<div class="desc" style="margin-top:10px;font-size:12px;color:#94a3b8;line-height:1.4;padding:8px;background:rgba(0,0,0,.1);border-radius:6px;border-left:2px solid #475569">${shortDesc}</div>`;
+  }
+  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div>${descHtml}<div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 Read EN</button></div></div>`;
+}
+
+function switchTab(name){
+  stopAllAudio(); // 切换栏目时停止当前播放
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.tab===name));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('panel-'+name).classList.add('active');
+}
+
+document.querySelectorAll('.tab').forEach(btn=>btn.onclick=()=>switchTab(btn.dataset.tab));
+
+async function load(){
+  const r=await fetch('https://raw.githubusercontent.com/gosleep2018/web/main/hotnews/data/news.json?_='+Date.now());
+  const d=await r.json();
+  document.getElementById('meta').textContent=`最后更新 / Last update: ${d.generated_at}（每日08:00自动更新）`;
+
+  document.getElementById('list-cn').innerHTML=(d.sources?.['中国']||[]).slice(0,12).map(newsItem).join('');
+  document.getElementById('list-west').innerHTML=(d.sources?.['美国（欧美媒体）']||[]).slice(0,12).map(newsItem).join('');
+  document.getElementById('list-islam').innerHTML=(d.sources?.['伊斯兰（半岛等）']||[]).slice(0,12).map(newsItem).join('');
+
+  const tri=(d.triangle||[]).map((e,i)=>`
+    <div class="triCard">
+      <div class="event">事件 ${i+1}：${e.event_hint_zh||e.event_hint||''}<span class="en">${e.event_hint_en||e.event_hint||''}</span></div>
+      <div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify((e.event_hint_en||e.event_hint||'')).replace(/"/g,'&quot;')},this)">🗣 Event EN</button></div>
+      <div class="triGrid">
+        ${triCol('中国视角 / China',e['中国'])}
+        ${triCol('欧美视角 / Western',e['美国'])}
+        ${triCol('伊斯兰视角 / Islamic',e['伊斯兰'])}
+      </div>
+      <div class="insight">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
+          <b style="font-size:16px;color:#f0f9ff">深度分析</b>
+          <button class="btn" style="padding:6px 12px;font-size:12px" onclick="readChinese(${JSON.stringify((e.my_view||'')).replace(/"/g,'&quot;')},this)">🔊 读分析</button>
+          <button class="btn" style="padding:6px 12px;font-size:12px" onclick="readChinese(${JSON.stringify((e.summary||'')).replace(/"/g,'&quot;')},this)">🔊 读总结</button>
+        </div>
+        <div style="margin-bottom:16px">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <b style="color:#67e8f9">我的看法 / My view：</b>
+          </div>
+          <div style="color:#e2e8f0;line-height:1.7">${e.my_view||''}</div>
+        </div>
+        <div>
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <b style="color:#a78bfa">总结 / Summary：</b>
+          </div>
+          <div style="color:#e2e8f0;line-height:1.7">${e.summary||''}</div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('list-tri').innerHTML=tri||'<div class="item">暂无可对比事件</div>';
+}
+
+document.addEventListener('visibilitychange',()=>{ if(document.hidden) stopAllAudio(); });
+window.addEventListener('beforeunload',stopAllAudio);
+
+load().catch(e=>document.getElementById('meta').textContent='加载失败 / Load failed: '+e.message);
+</script>
+</body>
+</html>
