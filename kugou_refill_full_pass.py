@@ -13,9 +13,9 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 from datetime import datetime
 
-BASE = "/Users/lin/.openclaw/workspace/kugou_top500_songlist_2026-02-24_1406_filled.xlsx"
-OUT = "/Users/lin/.openclaw/workspace/kugou_top500_songlist_2026-02-24_1406_filled_final.xlsx"
-MISS = "/Users/lin/.openclaw/workspace/kugou_missing_ranks_final.txt"
+BASE = "/Users/lin/.openclaw/workspace/kugou_top500_songlist_2026-02-24_1406_filled_final.xlsx"
+OUT = "/Users/lin/.openclaw/workspace/kugou_top500_songlist_2026-02-24_1406_filled_final_rerun.xlsx"
+MISS = "/Users/lin/.openclaw/workspace/kugou_missing_ranks_final_rerun.txt"
 
 
 def adb(cmd: str):
@@ -82,11 +82,9 @@ def main():
     print("请先手动回到TOP500靠前位置（越靠前越好），然后按回车开始")
     input()
 
-    # 多策略滑动步长（小步为主）
+    # 匀速固定滑动步长（用户要求）
     swipe_patterns = [
         (650, 2220, 650, 1220, 280),
-        (650, 2220, 650, 1320, 260),
-        (650, 2220, 650, 1120, 300),
     ]
 
     stagnate = 0
