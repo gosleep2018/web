@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>帮我发音 - Pronunciation Helper (威尔士语修复版)</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #f0f0f0;
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(90deg, #00dbde, #fc00ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 10px;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            color: #a0a0c0;
+            margin-bottom: 30px;
+        }
+
+        .card {
+            background: rgba(30, 30, 46, 0.8);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            color: #6ee7b7;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 i {
+            font-size: 1.5rem;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #ffffff;
+            font-size: 1.1rem;
+            resize: vertical;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #00dbde;
+        }
+
+        .button-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+
+        button i {
+            font-size: 1.3rem;
+        }
+
+        .detect-btn {
+            background: linear-gradient(90deg, #00b4db, #0083b0);
+            color: white;
+        }
+
+        .detect-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 180, 219, 0.4);
+        }
+
+        .welsh-btn {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            color: white;
+        }
+
+        .welsh-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+        }
+
+        .clear-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: #a0a0c0;
+        }
+
+        .clear-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .result-card {
+            background: rgba(20, 20, 40, 0.8);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            border-left: 5px solid #00dbde;
+        }
+
+        .result-title {
+            color: #6ee7b7;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .language-badge {
+            display: inline-block;
+            padding: 8px 16px;
+            background: linear-gradient(90deg, #8a2387, #f27121);
+            color: white;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .ipa {
+            font-family: 'Courier New', monospace;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            color: #ffd166;
+            font-size: 1.2rem;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-weight: bold;
+            display: none;
+        }
+
+        .status.success {
+            background: rgba(46, 213, 115, 0.2);
+            color: #6ee7b7;
+            border-left: 5px solid #6ee7b7;
+            display: block;
+        }
+
+        .status.error {
+            background: rgba(255, 71, 87, 0.2);
+            color: #ff7e5f;
+            border-left: 5px solid #ff7e5f;
+            display: block;
+        }
+
+        .status.info {
+            background: rgba(0, 180, 219, 0.2);
+            color: #00b4db;
+            border-left: 5px solid #00b4db;
+            display: block;
+        }
+
+        .voice-controls {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .voice-btn {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            border: none;
+            color: white;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .voice-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            button {
+                min-width: 100%;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+        }
+
+        /* Icon styles (using Unicode emojis as icons) */
+        .icon {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>帮我发音</h1>
+            <p class="subtitle">智能语言检测与发音助手 | Smart Language Detection & Pronunciation Helper</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2><span class="icon">🌍</span> 通用文本发音 (Universal Text Pronunciation)</h2>
+                <p>输入任何语言的文本，系统会自动检测语言并尝试用相应的语音发音：</p>
+                <textarea id="universalText" placeholder="在此输入任何语言的文本... 例如: Hello world! 你好世界! Bonjour le monde! ¡Hola mundo!"></textarea>
+                
+                <div class="button-group">
+                    <button class="detect-btn" id="detectAndSpeakBtn">
+                        <span class="icon">🔍</span> 检测语言并发音
+                    </button>
+                    <button class="clear-btn" id="clearBtn">
+                        <span class="icon">🗑️</span> 清空文本
+                    </button>
+                </div>
+
+                <div id="detectionResult" class="result-card" style="display: none;">
+                    <div class="result-title">
+                        <span class="icon">📊</span> 检测结果
+                    </div>
+                    <div id="languageResult"></div>
+                    <div id="pronunciationResult"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><span class="icon">🏴󠁧󠁢󠁷󠁬󠁳󠁿</span> 威尔士语发音 (Welsh Pronunciation)</h2>
+                <p>输入威尔士语文本，系统会直接使用威尔士语语音发音：</p>
+                <textarea id="welshText" placeholder="在此输入威尔士语文本... 例如: Bore da! Sut wyt ti? Diolch yn fawr!"></textarea>
+                
+                <div class="button-group">
+                    <button class="welsh-btn" id="speakWelshBtn">
+                        <span class="icon">🔊</span> 威尔士语发音
+                    </button>
+                    <button class="clear-btn" id="clearWelshBtn">
+                        <span class="icon">🗑️</span> 清空文本
+                    </button>
+                </div>
+
+                <div id="welshResult" class="result-card" style="display: none;">
+                    <div class="result-title">
+                        <span class="icon">🏴󠁧󠁢󠁷󠁬󠁳󠁿</span> 威尔士语发音结果
+                    </div>
+                    <div id="welshPronunciation"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><span class="icon">⚙️</span> 语音设置 (Voice Settings)</h2>
+                <p>选择发音语音和调整语速：</p>
+                <div class="voice-controls">
+                    <select id="voiceSelect" style="padding: 12px; border-radius: 8px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2);">
+                        <option value="">选择语音 (Loading...)</option>
+                    </select>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <label for="rate" style="color: #a0a0c0;">语速:</label>
+                        <input type="range" id="rate" min="0.5" max="2" step="0.1" value="1" style="width: 150px;">
+                        <span id="rateValue" style="color: #6ee7b7;">1.0</span>
+                    </div>
+                    <div style="display: flex; align-items: center; gap: 10px;">
+                        <label for="pitch" style="color: #a0a0c0;">音调:</label>
+                        <input type="range" id="pitch" min="0.5" max="2" step="0.1" value="1" style="width: 150px;">
+                        <span id="pitchValue" style="color: #6ee7b7;">1.0</span>
+                    </div>
+                </div>
+                <div id="status" class="status"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 帮我发音 | 使用 Web Speech API 构建 | 支持多种语言检测与发音</p>
+            <p>注意: 语音合成功能依赖于浏览器的支持，某些语言可能不可用。</p>
+        </footer>
+    </div>
+
+    <script>
+        // 全局变量
+        let voices = [];
+        let currentUtterance = null;
+        let detectedLanguage = '';
+
+        // 初始化语音列表
+        function loadVoices() {
+            voices = speechSynthesis.getVoices();
+            const voiceSelect = document.getElementById('voiceSelect');
+            voiceSelect.innerHTML = '<option value="">选择语音</option>';
+            
+            // 按语言分组
+            const languageGroups = {};
+            
+            voices.forEach(voice => {
+                const lang = voice.lang;
+                if (!languageGroups[lang]) {
+                    languageGroups[lang] = [];
+                }
+                languageGroups[lang].push(voice);
+            });
+            
+            // 为每种语言创建一个optgroup
+            Object.keys(languageGroups).sort().forEach(lang => {
+                const group = document.createElement('optgroup');
+                group.label = `${lang} - ${getLanguageName(lang)}`;
+                
+                languageGroups[lang].forEach(voice => {
+                    const option = document.createElement('option');
+                    option.value = voice.name;
+                    option.textContent = `${voice.name} (${voice.lang})`;
+                    group.appendChild(option);
+                });
+                
+                voiceSelect.appendChild(group);
+            });
+            
+            showStatus('语音列表加载完成', 'success');
+            
+            // 检查是否有威尔士语语音
+            checkWelshVoiceAvailability();
+        }
+
+        // 检查威尔士语语音可用性
+        function checkWelshVoiceAvailability() {
+            const welshVoices = voices.filter(v => v.lang.startsWith('cy'));
+            if (welshVoices.length === 0) {
+                console.warn('未找到威尔士语语音');
+                // 在威尔士语区域显示提示
+                const welshSection = document.querySelector('.card:nth-child(2)');
+                if (welshSection) {
+                    const warning = document.createElement('div');
+                    warning.className = 'status info';
+                    warning.innerHTML = `
+                        <strong>⚠️ 威尔士语语音支持提示：</strong>
+                        <p>您的系统可能未安装威尔士语语音包。以下是一些解决方案：</p>
+                        <ul style="margin-left: 20px; margin-top: 8px;">
+                            <li><strong>Windows:</strong> 设置 → 时间和语言 → 语言 → 添加语言 → 搜索 "威尔士语"</li>
+                            <li><strong>macOS:</strong> 系统设置 → 辅助功能 → 朗读内容 → 系统语音 → 管理 → 下载威尔士语语音</li>
+                            <li><strong>备用方案:</strong> 可使用英语语音朗读威尔士语文本</li>
+                        </ul>
+                    `;
+                    welshSection.querySelector('p').after(warning);
+                }
+            } else {
+                console.log(`找到 ${welshVoices.length} 个威尔士语语音:`, welshVoices.map(v => v.name));
+            }
+        }
+
+        // 获取语言名称
+        function getLanguageName(langCode) {
+            const languageNames = {
+                'en': '英语',
+                'zh': '中文',
+                'ja': '日语',
+                'ko': '韩语',
+                'fr': '法语',
+                'de': '德语',
+                'es': '西班牙语',
+                'it': '意大利语',
+                'ru': '俄语',
+                'ar': '阿拉伯语',
+                'hi': '印地语',
+                'pt': '葡萄牙语',
+                'cy': '威尔士语',
+                'el': '希腊语',
+                'nl': '荷兰语',
+                'sv': '瑞典语',
+                'tr': '土耳其语',
+                'pl': '波兰语',
+                'th': '泰语',
+                'vi': '越南语'
+            };
+            
+            const baseLang = langCode.split('-')[0].toLowerCase();
+            return languageNames[baseLang] || langCode;
+        }
+
+        // 改进的语言检测函数
+        function detectLanguage(text) {
+            // 常见语言的正则表达式检测
+            const patterns = [
+                { lang: 'zh', regex: /[\u4e00-\u9fff]/ },
+                { lang: 'ja', regex: /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff]/ },
+                { lang: 'ko', regex: /[\uac00-\ud7af]/ },
+                { lang: 'cy', regex: /\b(y|yr|a|i|o|w|wy|yn|ym|fy|dy|ei|eu|fe|fo|gan|ar|am|at|od|wrth|drwy|trwy|heb|hyd|nes|pan|tra|er|os|pe|oni|oni|oni)\b/i },
+                { lang: 'ru', regex: /[\u0400-\u04ff]/ },
+                { lang: 'ar', regex: /[\u0600-\u06ff]/ },
+                { lang: 'el', regex: /[\u0370-\u03ff]/ },
+                { lang: 'th', regex: /[\u0e00-\u0e7f]/ }
+            ];
+            
+            // 检查特定语言模式
+            for (const pattern of patterns) {
+                if (pattern.regex.test(text)) {
+                    return pattern.lang;
+                }
+            }
+            
+            // 基于常见单词的检测
+            const commonWords = {
+                'en': /\b(the|and|you|that|was|for|are|with|his|they)\b/i,
+                'fr': /\b(le|la|les|un|une|des|et|ou|où|qui)\b/i,
+                'es': /\b(el|la|los|las|un|una|y|o|pero|por)\b/i,
+                'de': /\b(der|die|das|und|oder|aber|für|mit|von|zu)\b/i,
+                'it': /\b(il|lo|la|i|gli|le|e|o|ma|per)\b/i,
+                'pt': /\b(o|a|os|as|e|ou|mas|para|com|do)\b/i,
+                'nl': /\b(de|het|een|en|of|maar|voor|met|te|zijn)\b/i,
+                'cy': /\b(bore|da|sut|wyt|ti|diolch|yn|fawr|iechyd|da|nos|da|hwyl|pob|hwb|da|iawn|croeso|cynnes)\b/i
+            };
+            
+            for (const [lang, regex] of Object.entries(commonWords)) {
+                if (regex.test(text)) {
+                    return lang;
+                }
+            }
+            
+            // 默认返回英语
+            return 'en';
+        }
+
+        // 查找最适合的语音 - 改进版
+        function findBestVoice(lang) {
+            console.log(`查找语言 "${lang}" 的最佳语音，可用语音数: ${voices.length}`);
+            
+            // 首先尝试完全匹配
+            let voice = voices.find(v => v.lang.toLowerCase() === lang.toLowerCase());
+            if (voice) {
+                console.log(`完全匹配找到语音: ${voice.name} (${voice.lang})`);
+                return voice;
+            }
+            
+            // 尝试语言代码前缀匹配
+            const langPrefix = lang.split('-')[0].toLowerCase();
+            voice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
+            if (voice) {
+                console.log(`前缀匹配找到语音: ${voice.name} (${voice.lang})`);
+                return voice;
+            }
+            
+            // 对于威尔士语，尝试更多变体
+            if (langPrefix === 'cy') {
+                // 尝试 cy-GB, cy-*, 或任何包含 cy 的语音
+                voice = voices.find(v => v.lang.toLowerCase().includes('cy'));
+                if (voice) {
+                    console.log(`威尔士语变体找到语音: ${voice.name} (${voice.lang})`);
+                    return voice;
+                }
+            }
+            
+            // 返回默认语音（英语优先）
+            const englishVoice = voices.find(v => v.lang.toLowerCase().startsWith('en'));
+            if (englishVoice) {
+                console.log(`使用默认英语语音: ${englishVoice.name} (${englishVoice.lang})`);
+                return englishVoice;
+            }
+            
+            // 如果连英语都没有，返回第一个可用语音
+            if (voices.length > 0) {
+                console.log(`使用第一个可用语音: ${voices[0].name} (${voices[0].lang})`);
+                return voices[0];
+            }
+            
+            console.warn('没有找到任何可用语音');
+            return null;
+        }
+
+        // 发音函数 - 改进版
+        function speakText(text, lang = '') {
+            if (!text.trim()) {
+                showStatus('请输入文本', 'error');
+                return;
+            }
+            
+            // 停止当前发音
+            if (currentUtterance) {
+                speechSynthesis.cancel();
+            }
+            
+            // 创建新的发音
+            currentUtterance = new SpeechSynthesisUtterance(text);
+            
+            // 设置语言 - 改进的威尔士语处理
+            let actualLang = lang;
+            if (lang === 'cy-GB' || lang === 'cy') {
+                // 检查是否有威尔士语语音
+                const welshVoices = voices.filter(v => v.lang.toLowerCase().includes('cy'));
+                if (welshVoices.length === 0) {
+                    showStatus('未找到威尔士语语音，将尝试使用英语语音', 'info');
+                    // 可以自动回退到英语，或者让用户选择
+                    actualLang = 'en';
+                } else {
+                    actualLang = 'cy';
+                }
+            }
+            
+            if (actualLang) {
+                currentUtterance.lang = actualLang;
+                console.log(`设置语言代码: ${actualLang}`);
+            }
+            
+            // 获取选定的语音
+            const voiceSelect = document.getElementById('voiceSelect');
+            const selectedVoice = voices.find(v => v.name === voiceSelect.value);
+            if (selectedVoice) {
+                currentUtterance.voice = selectedVoice;
+                console.log(`使用用户选择语音: ${selectedVoice.name} (${selectedVoice.lang})`);
+            } else if (actualLang) {
+                // 自动选择适合语言的语音
+                const bestVoice = findBestVoice(actualLang);
+                if (bestVoice) {
+                    currentUtterance.voice = bestVoice;
+                    console.log(`自动选择语音: ${bestVoice.name} (${bestVoice.lang})`);
+                }
+            }
+            
+            // 设置语速和音调
+            currentUtterance.rate = parseFloat(document.getElementById('rate').value);
+            currentUtterance.pitch = parseFloat(document.getElementById('pitch').value);
+            
+            // 事件监听器
+            currentUtterance.onstart = () => {
+                showStatus('正在发音...', 'info');
+            };
+            
+            currentUtterance.onend = () => {
+                showStatus('发音完成', 'success');
+                currentUtterance = null;
+            };
+            
+            currentUtterance.onerror = (event) => {
+                console.error('发音出错:', event);
+                showStatus('发音出错: ' + event.error, 'error');
+                currentUtterance = null;
+            };
+            
+            // 开始发音
+            try {
+                speechSynthesis.speak(currentUtterance);
+            } catch (error) {
+                console.error('启动发音失败:', error);
+                showStatus('启动发音失败: ' + error.message, 'error');
+            }
+        }
+
+        // 显示状态消息
+        function showStatus(message, type) {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+            statusEl.style.display = 'block';
+            
+            // 3秒后自动隐藏
+            setTimeout(() => {
+                statusEl.style.display = 'none';
+            }, 3000);
+        }
+
+        // 显示检测结果
+        function showDetectionResult(lang, text) {
+            const resultCard = document.getElementById('detectionResult');
+            const langResult = document.getElementById('languageResult');
+            const pronResult = document.getElementById('pronunciationResult');
+            
+            const langName = getLanguageName(lang);
+            detectedLanguage = lang;
+            
+            langResult.innerHTML = `
+                <div class="language-badge">${langName} (${lang})</div>
+                <p>检测到的语言: <strong>${langName}</strong></p>
+                <p>语言代码: <code>${lang}</code></p>
+            `;
+            
+            pronResult.innerHTML = `
+                <p>文本内容: "${text}"</p>
+                <p>点击下方按钮播放发音:</p>
+                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', '${lang}')">
+                    <span class="icon">🔊</span> 播放发音
+                </button>
+            `;
+            
+            resultCard.style.display = 'block';
+        }
+
+        // 显示威尔士语结果 - 改进版
+        function showWelshResult(text) {
+            const resultCard = document.getElementById('welshResult');
+            const pronResult = document.getElementById('welshPronunciation');
+            
+            // 检查是否有威尔士语语音
+            const welshVoices = voices.filter(v => v.lang.toLowerCase().includes('cy'));
+            const hasWelshVoice = welshVoices.length > 0;
+            
+            let warningHtml = '';
+            if (!hasWelshVoice) {
+                warningHtml = `
+                    <div class="status info" style="margin: 10px 0;">
+                        <strong>⚠️ 提示：</strong>未找到威尔士语语音。将尝试使用英语语音。
+                    </div>
+                `;
+            }
+            
+            pronResult.innerHTML = `
+                <div class="language-badge">威尔士语 (cy)</div>
+                <p>威尔士语文本: "${text}"</p>
+                ${warningHtml}
+                <p>点击下方按钮播放发音:</p>
+                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', 'cy')">
+                    <span class="icon">🔊</span> 播放威尔士语发音
+                </button>
+                ${hasWelshVoice ? '' : `
+                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', 'en')" style="margin-left: 10px;">
+                    <span class="icon">🔤</span> 使用英语语音
+                </button>
+                `}
+            `;
+            
+            resultCard.style.display = 'block';
+        }
+
+        // 事件监听器
+        document.addEventListener('DOMContentLoaded', () => {
+            // 加载语音列表
+            loadVoices();
+            speechSynthesis.onvoiceschanged = loadVoices;
+            
+            // 检测语言并发音按钮
+            document.getElementById('detectAndSpeakBtn').addEventListener('click', () => {
+                const text = document.getElementById('universalText').value.trim();
+                if (!text) {
+                    showStatus('请输入文本', 'error');
+                    return;
+                }
+                
+                const lang = detectLanguage(text);
+                showDetectionResult(lang, text);
+                speakText(text, lang);
+            });
+            
+            // 威尔士语发音按钮
+            document.getElementById('speakWelshBtn').addEventListener('click', () => {
+                const text = document.getElementById('welshText').value.trim();
+                if (!text) {
+                    showStatus('请输入威尔士语文本', 'error');
+                    return;
+                }
+                
+                showWelshResult(text);
+                speakText(text, 'cy');
+            });
+            
+            // 清空按钮
+            document.getElementById('clearBtn').addEventListener('click', () => {
+                document.getElementById('universalText').value = '';
+                document.getElementById('detectionResult').style.display = 'none';
+                showStatus('已清空文本', 'info');
+            });
+            
+            document.getElementById('clearWelshBtn').addEventListener('click', () => {
+                document.getElementById('welshText').value = '';
+                document.getElementById('welshResult').style.display = 'none';
+                showStatus('已清空威尔士语文本', 'info');
+            });
+            
+            // 语速滑块
+            document.getElementById('rate').addEventListener('input', (e) => {
+                document.getElementById('rateValue').textContent = e.target.value;
+            });
+            
+            // 音调滑块
+            document.getElementById('pitch').addEventListener('input', (e) => {
+                document.getElementById('pitchValue').textContent = e.target.value;
+            });
+            
+            // 语音选择
+            document.getElementById('voiceSelect').addEventListener('change', (e) => {
+                if (e.target.value) {
+                    showStatus(`已选择语音: ${e.target.value}`, 'success');
+                }
+            });
+        });
+
+        // 全局停止发音函数（可用于紧急停止）
+        window.stopSpeaking = function() {
+            if (currentUtterance) {
+                speechSynthesis.cancel();
+                showStatus('已停止发音', 'info');
+            }
+        };
+    </script>
+</body>
+</html>
