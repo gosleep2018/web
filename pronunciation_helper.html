@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>帮我发音 - Pronunciation Helper (威尔士语修复版)</title>
+    <title>帮我发音 - Pronunciation Helper</title>
     <style>
         * {
             box-sizing: border-box;
@@ -385,35 +385,6 @@
             });
             
             showStatus('语音列表加载完成', 'success');
-            
-            // 检查是否有威尔士语语音
-            checkWelshVoiceAvailability();
-        }
-
-        // 检查威尔士语语音可用性
-        function checkWelshVoiceAvailability() {
-            const welshVoices = voices.filter(v => v.lang.startsWith('cy'));
-            if (welshVoices.length === 0) {
-                console.warn('未找到威尔士语语音');
-                // 在威尔士语区域显示提示
-                const welshSection = document.querySelector('.card:nth-child(2)');
-                if (welshSection) {
-                    const warning = document.createElement('div');
-                    warning.className = 'status info';
-                    warning.innerHTML = `
-                        <strong>⚠️ 威尔士语语音支持提示：</strong>
-                        <p>您的系统可能未安装威尔士语语音包。以下是一些解决方案：</p>
-                        <ul style="margin-left: 20px; margin-top: 8px;">
-                            <li><strong>Windows:</strong> 设置 → 时间和语言 → 语言 → 添加语言 → 搜索 "威尔士语"</li>
-                            <li><strong>macOS:</strong> 系统设置 → 辅助功能 → 朗读内容 → 系统语音 → 管理 → 下载威尔士语语音</li>
-                            <li><strong>备用方案:</strong> 可使用英语语音朗读威尔士语文本</li>
-                        </ul>
-                    `;
-                    welshSection.querySelector('p').after(warning);
-                }
-            } else {
-                console.log(`找到 ${welshVoices.length} 个威尔士语语音:`, welshVoices.map(v => v.name));
-            }
         }
 
         // 获取语言名称
@@ -445,14 +416,14 @@
             return languageNames[baseLang] || langCode;
         }
 
-        // 改进的语言检测函数
+        // 简单的语言检测函数
         function detectLanguage(text) {
             // 常见语言的正则表达式检测
             const patterns = [
                 { lang: 'zh', regex: /[\u4e00-\u9fff]/ },
                 { lang: 'ja', regex: /[\u3040-\u309f\u30a0-\u30ff\u4e00-\u9fff]/ },
                 { lang: 'ko', regex: /[\uac00-\ud7af]/ },
-                { lang: 'cy', regex: /\b(y|yr|a|i|o|w|wy|yn|ym|fy|dy|ei|eu|fe|fo|gan|ar|am|at|od|wrth|drwy|trwy|heb|hyd|nes|pan|tra|er|os|pe|oni|oni|oni)\b/i },
+                { lang: 'cy', regex: /[âêîôûŵŷäëïöüẅÿ]/i }, // 威尔士语特殊字符
                 { lang: 'ru', regex: /[\u0400-\u04ff]/ },
                 { lang: 'ar', regex: /[\u0600-\u06ff]/ },
                 { lang: 'el', regex: /[\u0370-\u03ff]/ },
@@ -474,8 +445,7 @@
                 'de': /\b(der|die|das|und|oder|aber|für|mit|von|zu)\b/i,
                 'it': /\b(il|lo|la|i|gli|le|e|o|ma|per)\b/i,
                 'pt': /\b(o|a|os|as|e|ou|mas|para|com|do)\b/i,
-                'nl': /\b(de|het|een|en|of|maar|voor|met|te|zijn)\b/i,
-                'cy': /\b(bore|da|sut|wyt|ti|diolch|yn|fawr|iechyd|da|nos|da|hwyl|pob|hwb|da|iawn|croeso|cynnes)\b/i
+                'nl': /\b(de|het|een|en|of|maar|voor|met|te|zijn)\b/i
             };
             
             for (const [lang, regex] of Object.entries(commonWords)) {
@@ -488,53 +458,22 @@
             return 'en';
         }
 
-        // 查找最适合的语音 - 改进版
+        // 查找最适合的语音
         function findBestVoice(lang) {
-            console.log(`查找语言 "${lang}" 的最佳语音，可用语音数: ${voices.length}`);
-            
             // 首先尝试完全匹配
-            let voice = voices.find(v => v.lang.toLowerCase() === lang.toLowerCase());
-            if (voice) {
-                console.log(`完全匹配找到语音: ${voice.name} (${voice.lang})`);
-                return voice;
-            }
+            let voice = voices.find(v => v.lang === lang);
+            if (voice) return voice;
             
-            // 尝试语言代码前缀匹配
-            const langPrefix = lang.split('-')[0].toLowerCase();
-            voice = voices.find(v => v.lang.toLowerCase().startsWith(langPrefix));
-            if (voice) {
-                console.log(`前缀匹配找到语音: ${voice.name} (${voice.lang})`);
-                return voice;
-            }
+            // 尝试语言代码前缀匹配 (如 'en-US' 匹配 'en')
+            const langPrefix = lang.split('-')[0];
+            voice = voices.find(v => v.lang.startsWith(langPrefix));
+            if (voice) return voice;
             
-            // 对于威尔士语，尝试更多变体
-            if (langPrefix === 'cy') {
-                // 尝试 cy-GB, cy-*, 或任何包含 cy 的语音
-                voice = voices.find(v => v.lang.toLowerCase().includes('cy'));
-                if (voice) {
-                    console.log(`威尔士语变体找到语音: ${voice.name} (${voice.lang})`);
-                    return voice;
-                }
-            }
-            
-            // 返回默认语音（英语优先）
-            const englishVoice = voices.find(v => v.lang.toLowerCase().startsWith('en'));
-            if (englishVoice) {
-                console.log(`使用默认英语语音: ${englishVoice.name} (${englishVoice.lang})`);
-                return englishVoice;
-            }
-            
-            // 如果连英语都没有，返回第一个可用语音
-            if (voices.length > 0) {
-                console.log(`使用第一个可用语音: ${voices[0].name} (${voices[0].lang})`);
-                return voices[0];
-            }
-            
-            console.warn('没有找到任何可用语音');
-            return null;
+            // 返回默认语音
+            return voices.find(v => v.lang.startsWith('en')) || voices[0];
         }
 
-        // 发音函数 - 改进版
+        // 发音函数
         function speakText(text, lang = '') {
             if (!text.trim()) {
                 showStatus('请输入文本', 'error');
@@ -549,23 +488,9 @@
             // 创建新的发音
             currentUtterance = new SpeechSynthesisUtterance(text);
             
-            // 设置语言 - 改进的威尔士语处理
-            let actualLang = lang;
-            if (lang === 'cy-GB' || lang === 'cy') {
-                // 检查是否有威尔士语语音
-                const welshVoices = voices.filter(v => v.lang.toLowerCase().includes('cy'));
-                if (welshVoices.length === 0) {
-                    showStatus('未找到威尔士语语音，将尝试使用英语语音', 'info');
-                    // 可以自动回退到英语，或者让用户选择
-                    actualLang = 'en';
-                } else {
-                    actualLang = 'cy';
-                }
-            }
-            
-            if (actualLang) {
-                currentUtterance.lang = actualLang;
-                console.log(`设置语言代码: ${actualLang}`);
+            // 设置语言
+            if (lang) {
+                currentUtterance.lang = lang;
             }
             
             // 获取选定的语音
@@ -573,14 +498,9 @@
             const selectedVoice = voices.find(v => v.name === voiceSelect.value);
             if (selectedVoice) {
                 currentUtterance.voice = selectedVoice;
-                console.log(`使用用户选择语音: ${selectedVoice.name} (${selectedVoice.lang})`);
-            } else if (actualLang) {
+            } else if (lang) {
                 // 自动选择适合语言的语音
-                const bestVoice = findBestVoice(actualLang);
-                if (bestVoice) {
-                    currentUtterance.voice = bestVoice;
-                    console.log(`自动选择语音: ${bestVoice.name} (${bestVoice.lang})`);
-                }
+                currentUtterance.voice = findBestVoice(lang);
             }
             
             // 设置语速和音调
@@ -598,18 +518,12 @@
             };
             
             currentUtterance.onerror = (event) => {
-                console.error('发音出错:', event);
                 showStatus('发音出错: ' + event.error, 'error');
                 currentUtterance = null;
             };
             
             // 开始发音
-            try {
-                speechSynthesis.speak(currentUtterance);
-            } catch (error) {
-                console.error('启动发音失败:', error);
-                showStatus('启动发音失败: ' + error.message, 'error');
-            }
+            speechSynthesis.speak(currentUtterance);
         }
 
         // 显示状态消息
@@ -651,37 +565,18 @@
             resultCard.style.display = 'block';
         }
 
-        // 显示威尔士语结果 - 改进版
+        // 显示威尔士语结果
         function showWelshResult(text) {
             const resultCard = document.getElementById('welshResult');
             const pronResult = document.getElementById('welshPronunciation');
             
-            // 检查是否有威尔士语语音
-            const welshVoices = voices.filter(v => v.lang.toLowerCase().includes('cy'));
-            const hasWelshVoice = welshVoices.length > 0;
-            
-            let warningHtml = '';
-            if (!hasWelshVoice) {
-                warningHtml = `
-                    <div class="status info" style="margin: 10px 0;">
-                        <strong>⚠️ 提示：</strong>未找到威尔士语语音。将尝试使用英语语音。
-                    </div>
-                `;
-            }
-            
             pronResult.innerHTML = `
                 <div class="language-badge">威尔士语 (cy)</div>
                 <p>威尔士语文本: "${text}"</p>
-                ${warningHtml}
-                <p>点击下方按钮播放发音:</p>
-                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', 'cy')">
+                <p>点击下方按钮播放威尔士语发音:</p>
+                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', 'cy-GB')">
                     <span class="icon">🔊</span> 播放威尔士语发音
                 </button>
-                ${hasWelshVoice ? '' : `
-                <button class="voice-btn" onclick="speakText('${text.replace(/'/g, "\\'")}', 'en')" style="margin-left: 10px;">
-                    <span class="icon">🔤</span> 使用英语语音
-                </button>
-                `}
             `;
             
             resultCard.style.display = 'block';
@@ -715,7 +610,7 @@
                 }
                 
                 showWelshResult(text);
-                speakText(text, 'cy');
+                speakText(text, 'cy-GB');
             });
             
             // 清空按钮
