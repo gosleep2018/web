@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>威尔士语发音 - Azure TTS专业版</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00b4d8, #0077b6);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #a0a0c0;
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+        
+        .azure-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #0078d4, #106ebe);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .card {
+            background: rgba(30, 41, 59, 0.8);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        h2 {
+            color: #6ee7b7;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: white;
+            font-size: 1.2rem;
+            resize: vertical;
+            margin-bottom: 20px;
+            font-family: inherit;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #00b4d8;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .welsh-btn {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            color: white;
+        }
+        
+        .welsh-btn:hover:not(:disabled) {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255, 126, 95, 0.4);
+        }
+        
+        .config-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: #a0a0c0;
+        }
+        
+        .config-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .status {
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            font-weight: bold;
+            display: none;
+        }
+        
+        .status.info {
+            background: rgba(0, 180, 219, 0.2);
+            color: #00b4db;
+            border-left: 5px solid #00b4db;
+            display: block;
+        }
+        
+        .status.success {
+            background: rgba(46, 213, 115, 0.2);
+            color: #6ee7b7;
+            border-left: 5px solid #6ee7b7;
+            display: block;
+        }
+        
+        .status.error {
+            background: rgba(255, 71, 87, 0.2);
+            color: #ff7e5f;
+            border-left: 5px solid #ff7e5f;
+            display: block;
+        }
+        
+        .result-card {
+            background: rgba(15, 23, 42, 0.8);
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            border-left: 5px solid #0078d4;
+            display: none;
+        }
+        
+        audio {
+            width: 100%;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        
+        .examples {
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 120, 212, 0.1);
+            border-radius: 10px;
+        }
+        
+        .examples h3 {
+            color: #00b4db;
+            margin-bottom: 15px;
+        }
+        
+        .example-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #a0a0c0;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .example-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 10px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            button {
+                min-width: 100%;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>威尔士语发音</h1>
+            <p class="subtitle">使用微软Azure神经网络TTS - 专业威尔士语发音</p>
+            <div class="azure-badge">⚡ 企业级语音合成</div>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>🏴󠁧󠁢󠁷󠁬󠁳󠁿 威尔士语文本输入</h2>
+                <p>输入威尔士语文本，使用专业的神经网络TTS发音：</p>
+                
+                <textarea id="welshText" placeholder="在此输入威尔士语... 例如: Bore da! Sut wyt ti? Diolch yn fawr!"></textarea>
+                
+                <div class="button-group">
+                    <button class="welsh-btn" id="speakBtn">
+                        🔊 威尔士语发音
+                    </button>
+                    <button class="config-btn" id="configBtn">
+                        ⚙️ 服务配置
+                    </button>
+                </div>
+                
+                <div id="status" class="status"></div>
+                
+                <div id="result" class="result-card">
+                    <h2>🔊 发音结果</h2>
+                    <div id="resultText"></div>
+                    <audio id="audioPlayer" controls></audio>
+                </div>
+            </div>
+            
+            <div class="examples">
+                <h3>💡 威尔士语常用短语</h3>
+                <p>点击短语自动填入：</p>
+                <div class="example-btn" onclick="setExample('Bore da!')">Bore da! (早上好)</div>
+                <div class="example-btn" onclick="setExample('Sut wyt ti?')">Sut wyt ti? (你好吗？)</div>
+                <div class="example-btn" onclick="setExample('Diolch yn fawr!')">Diolch yn fawr! (非常感谢)</div>
+                <div class="example-btn" onclick="setExample('Croeso!')">Croeso! (欢迎)</div>
+                <div class="example-btn" onclick="setExample('Hwyl am y tro!')">Hwyl am y tro! (再见)</div>
+                <div class="example-btn" onclick="setExample('Dw i\'n dysgu Cymraeg.')">Dw i'n dysgu Cymraeg. (我正在学习威尔士语)</div>
+            </div>
+            
+            <div class="card" id="configPanel" style="display: none;">
+                <h2>⚙️ 服务配置</h2>
+                <p>Azure TTS代理服务地址：</p>
+                <input type="text" id="ttsProxyUrl" value="https://azure-tts-proxy.onrender.com/tts" style="width: 100%; padding: 12px; border-radius: 8px; background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); margin: 10px 0;">
+                <p style="color: #94a3b8; font-size: 0.9rem; margin-top: 5px;">部署Azure TTS代理到Render.com后，将此处URL替换为你的服务地址</p>
+                
+                <div class="button-group">
+                    <button class="config-btn" onclick="testConnection()">🔗 测试连接</button>
+                    <button class="config-btn" onclick="saveConfig()">💾 保存配置</button>
+                </div>
+            </div>
+        </main>
+        
+        <footer style="text-align: center; margin-top: 40px; color: #666; font-size: 0.9rem;">
+            <p>© 2026 威尔士语发音助手 | 使用微软Azure神经网络TTS</p>
+            <p>注意：需要部署Azure TTS代理服务以保护API密钥</p>
+        </footer>
+    </div>
+
+    <script>
+        // 配置
+        let ttsProxyUrl = localStorage.getItem('ttsProxyUrl') || 'https://azure-tts-proxy.onrender.com/tts';
+        let currentAudio = null;
+        
+        // 显示状态
+        function showStatus(message, type = 'info') {
+            const statusEl = document.getElementById('status');
+            statusEl.textContent = message;
+            statusEl.className = `status ${type}`;
+            statusEl.style.display = 'block';
+            
+            // 自动隐藏信息类消息
+            if (type === 'info' || type === 'success') {
+                setTimeout(() => {
+                    statusEl.style.display = 'none';
+                }, 3000);
+            }
+        }
+        
+        // 设置示例文本
+        function setExample(text) {
+            document.getElementById('welshText').value = text;
+            showStatus(`已填入示例: "${text}"`, 'info');
+        }
+        
+        // 测试连接
+        async function testConnection() {
+            const proxyUrl = document.getElementById('ttsProxyUrl').value;
+            
+            showStatus('正在测试代理连接...', 'info');
+            
+            try {
+                // 测试健康检查端点
+                const healthUrl = proxyUrl.replace('/tts', '/health');
+                const response = await fetch(healthUrl);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    showStatus(`✅ 连接成功！服务状态: ${data.status}`, 'success');
+                } else {
+                    showStatus('❌ 连接失败，请检查URL', 'error');
+                }
+            } catch (error) {
+                showStatus(`❌ 连接错误: ${error.message}`, 'error');
+            }
+        }
+        
+        // 保存配置
+        function saveConfig() {
+            const proxyUrl = document.getElementById('ttsProxyUrl').value;
+            localStorage.setItem('ttsProxyUrl', proxyUrl);
+            ttsProxyUrl = proxyUrl;
+            showStatus('配置已保存', 'success');
+        }
+        
+        // 发音函数
+        async function speakWelsh() {
+            const text = document.getElementById('welshText').value.trim();
+            
+            if (!text) {
+                showStatus('请输入威尔士语文本', 'error');
+                return;
+            }
+            
+            const speakBtn = document.getElementById('speakBtn');
+            const originalText = speakBtn.textContent;
+            speakBtn.disabled = true;
+            speakBtn.textContent = '⏳ 合成中...';
+            
+            try {
+                showStatus('正在调用Azure TTS服务...', 'info');
+                
+                // 构建请求URL
+                const url = new URL(ttsProxyUrl);
+                url.searchParams.set('text', text);
+                url.searchParams.set('voice', 'cy-GB-NiaNeural');
+                
+                const response = await fetch(url.toString());
+                
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    throw new Error(`TTS服务错误: ${response.status} - ${errorText}`);
+                }
+                
+                // 获取音频
+                const audioBlob = await response.blob();
+                const audioUrl = URL.createObjectURL(audioBlob);
+                
+                // 显示结果
+                const resultCard = document.getElementById('result');
+                const resultText = document.getElementById('resultText');
+                
+                resultText.innerHTML = `
+                    <p><strong>威尔士语文本:</strong> "${text}"</p>
+                    <p><strong>使用语音:</strong> cy-GB-NiaNeural (微软Azure神经网络)</p>
+                    <p><strong>音频大小:</strong> ${(audioBlob.size / 1024).toFixed(1)} KB</p>
+                `;
+                
+                resultCard.style.display = 'block';
+                
+                // 播放音频
+                const audioPlayer = document.getElementById('audioPlayer');
+                if (currentAudio) {
+                    currentAudio.pause();
+                }
+                
+                audioPlayer.src = audioUrl;
+                currentAudio = audioPlayer;
+                
+                audioPlayer.onended = () => {
+                    showStatus('播放完成', 'success');
+                };
+                
+                audioPlayer.onerror = (e) => {
+                    console.error('音频播放错误:', e);
+                    showStatus('音频播放失败', 'error');
+                };
+                
+                // 尝试播放
+                audioPlayer.play().catch(err => {
+                    console.error('播放失败:', err);
+                    showStatus('需要用户交互才能播放音频', 'info');
+                });
+                
+                showStatus('音频合成成功', 'success');
+                
+            } catch (error) {
+                console.error('TTS合成失败:', error);
+                showStatus(`合成失败: ${error.message}`, 'error');
+                
+                // 显示配置面板
+                document.getElementById('configPanel').style.display = 'block';
+                showStatus('请检查代理服务配置', 'error');
+                
+            } finally {
+                speakBtn.disabled = false;
+                speakBtn.textContent = originalText;
+            }
+        }
+        
+        // 事件监听
+        document.addEventListener('DOMContentLoaded', () => {
+            // 初始化配置
+            document.getElementById('ttsProxyUrl').value = ttsProxyUrl;
+            
+            // 发音按钮
+            document.getElementById('speakBtn').addEventListener('click', speakWelsh);
+            
+            // 配置按钮
+            document.getElementById('configBtn').addEventListener('click', () => {
+                const panel = document.getElementById('configPanel');
+                panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+            });
+            
+            // 输入框回车触发发音
+            document.getElementById('welshText').addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+                    e.preventDefault();
+                    speakWelsh();
+                }
+            });
+            
+            // 初始状态
+            showStatus('威尔士语发音助手已就绪。请输入文本并点击"威尔士语发音"按钮。', 'info');
+        });
+        
+        // 全局停止函数
+        window.stopSpeaking = function() {
+            if (currentAudio) {
+                currentAudio.pause();
+                currentAudio.currentTime = 0;
+                showStatus('已停止播放', 'info');
+            }
+        };
+    </script>
+</body>
+</html>
