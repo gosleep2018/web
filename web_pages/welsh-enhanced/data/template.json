@@ -1,0 +1,27 @@
+{
+  "date": "2026-02-21",
+  "words": [
+    {
+      "english": "example",
+      "welsh": "enghraifft",
+      "pronunciation": "eng-HRAIFft",
+      "prefix": "enghr- (intensive)",
+      "suffix": "-aifft (noun suffix)",
+      "memory_hint": "联想：ENGine HRAIse FT → 引擎举起英尺（荒谬联想帮助记忆）",
+      "extensions": {
+        "synonyms": ["model", "sample"],
+        "antonyms": ["counterexample"],
+        "collocations": ["set an example", "follow the example"],
+        "sentence": "Dyma enghraifft dda. (This is a good example.)"
+      },
+      "tts_text": "enghraifft"
+    }
+  ],
+  "settings": {
+    "show_prefix_suffix": true,
+    "show_memory_hint": true,
+    "show_extensions": true,
+    "auto_play": false,
+    "learning_intensity": "medium" // low, medium, high
+  }
+}

@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+TO="+86xxxxxxxxxxx"
+TEXT="Boss，22点30分了，请做拉伸10分钟"
+OUT_ID="stretch-2230"
+
+curl -sS -X POST http://127.0.0.1:3099/call \
+  -H 'Content-Type: application/json' \
+  -d "{\"to\":\"${TO}\",\"text\":\"${TEXT}\",\"playTimes\":2,\"outId\":\"${OUT_ID}\"}"
+
+echo

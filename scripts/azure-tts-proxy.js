@@ -18,7 +18,7 @@ const CONFIG = {
   apiKey: process.env.AZURE_TTS_API_KEY || '',
   region: process.env.AZURE_TTS_REGION || 'eastus',
   endpoint: '',
-  defaultVoice: process.env.AZURE_TTS_DEFAULT_VOICE || 'cy-GB-NiaNeural',
+  defaultVoice: process.env.AZURE_TTS_DEFAULT_VOICE || 'en-US-JennyNeural',
   outputFormat: process.env.AZURE_TTS_OUTPUT_FORMAT || 'audio-24khz-96kbitrate-mono-mp3',
   cacheDir: path.join(__dirname, '..', 'tts-cache'),
   maxCacheAge: 7 * 24 * 60 * 60 * 1000, // 7天

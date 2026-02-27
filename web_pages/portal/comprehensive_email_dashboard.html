@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>综合服务面板</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC",sans-serif;background:#0b1220;color:#e5ecff;margin:0}
+    .wrap{max-width:980px;margin:0 auto;padding:20px}
+    .card{background:#111a2b;border:1px solid #23314d;border-radius:14px;padding:16px;margin:14px 0}
+    h1,h2{margin:6px 0 12px}
+    .muted{color:#94a3bd}
+    .btn{background:#2563eb;color:#fff;border:0;border-radius:10px;padding:8px 12px;cursor:pointer}
+    .btn.warn{background:#dc2626}
+    input{padding:8px 10px;border-radius:8px;border:1px solid #334155;background:#0f172a;color:#fff}
+    .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+    ul{line-height:1.8}
+    a{color:#93c5fd}
+    pre{white-space:pre-wrap;background:#0a1020;border:1px solid #263552;padding:10px;border-radius:10px}
+    table{width:100%;border-collapse:collapse}
+    th,td{border-bottom:1px solid #243148;padding:8px;text-align:left}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1>综合服务面板</h1>
+  <div class="muted">网址导航 + 邮件日报 + 近三个月提醒（分区密码）</div>
+
+  <div class="card">
+    <h2>1) 网页服务导航</h2>
+    <button class="btn" onclick="loadNav()">刷新导航</button>
+    <ul id="navList"></ul>
+  </div>
+
+  <div class="card">
+    <h2>2) 邮件服务（需密码）</h2>
+    <div class="row">
+      <input id="emailPwd" type="password" placeholder="输入邮件服务密码" />
+      <button class="btn" onclick="unlock('email')">解锁邮件服务</button>
+      <button class="btn" onclick="loadEmail()">获取今日邮件汇总</button>
+    </div>
+    <div class="muted">垃圾邮件只显示数量和发件人。</div>
+    <pre id="emailReport">未加载</pre>
+  </div>
+
+  <div class="card">
+    <h2>3) 提醒服务（近三个月，需密码）</h2>
+    <div class="row">
+      <input id="reminderPwd" type="password" placeholder="输入提醒服务密码" />
+      <button class="btn" onclick="unlock('reminder')">解锁提醒服务</button>
+      <button class="btn" onclick="loadReminders()">查看近三个月事项</button>
+    </div>
+    <table>
+      <thead><tr><th>日期（SGT）</th><th>名称</th><th>内容</th></tr></thead>
+      <tbody id="reminderTbody"><tr><td colspan="3" class="muted">未加载</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const API_BASE = 'http://127.0.0.1:8788';
+const TOKENS = { email:null, reminder:null };
+
+async function unlock(section){
+  const pwd = section==='email' ? document.getElementById('emailPwd').value : document.getElementById('reminderPwd').value;
+  const r = await fetch(`${API_BASE}/api/login`, {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({section, password: pwd})});
+  const j = await r.json();
+  if(!r.ok){ alert(j.error||'解锁失败'); return; }
+  TOKENS[section] = j.token;
+  alert(`${section} 已解锁`);
+}
+
+async function loadNav(){
+  const r = await fetch(`${API_BASE}/api/nav`);
+  const data = await r.json();
+  const ul = document.getElementById('navList');
+  ul.innerHTML = '';
+  (data.items||[]).forEach(x=>{
+    const li=document.createElement('li');
+    li.innerHTML = `<a href="${x.url}" target="_blank">${x.name}</a> <span class="muted">${x.note||''}</span>`;
+    ul.appendChild(li);
+  });
+}
+
+async function loadEmail(){
+  if(!TOKENS.email){ alert('请先解锁邮件服务'); return; }
+  const r = await fetch(`${API_BASE}/api/email/report`, {headers:{'Authorization':`Bearer ${TOKENS.email}`}});
+  const t = await r.text();
+  document.getElementById('emailReport').textContent = t;
+}
+
+async function loadReminders(){
+  if(!TOKENS.reminder){ alert('请先解锁提醒服务'); return; }
+  const r = await fetch(`${API_BASE}/api/reminders/upcoming`, {headers:{'Authorization':`Bearer ${TOKENS.reminder}`}});
+  const data = await r.json();
+  const tb = document.getElementById('reminderTbody');
+  tb.innerHTML = '';
+  (data.items||[]).forEach(x=>{
+    const tr=document.createElement('tr');
+    tr.innerHTML = `<td>${x.date_sgt}</td><td>${x.name}</td><td>${x.message}</td>`;
+    tb.appendChild(tr);
+  });
+  if(!data.items || data.items.length===0){ tb.innerHTML='<tr><td colspan="3" class="muted">近三个月无事项</td></tr>'; }
+}
+
+loadNav();
+</script>
+</body>
+</html>

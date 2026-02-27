@@ -1,0 +1,69 @@
+                    card.style.opacity = '0.9';
+                    card.style.borderColor = '#10b981';
+                    
+                    const btn = card.querySelector('.btn-primary');
+                    if (btn) {
+                        btn.textContent = '✅ 已学习';
+                        btn.disabled = true;
+                    }
+                }
+            });
+            
+            updateStats();
+        });
+        
+        // 全局控制
+        function playAll() {
+            const words = [
+                'election', 'parliament', 'inflation', 'GDP',
+                'inequality', 'reform', 'diplomacy', 'summit',
+                'innovation', 'climate'
+            ];
+            
+            let index = 0;
+            function playNext() {
+                if (index < words.length) {
+                    playWord(words[index]);
+                    index++;
+                    setTimeout(playNext, 2000);
+                }
+            }
+            playNext();
+        }
+        
+        function stopAll() {
+            if ('speechSynthesis' in window) {
+                speechSynthesis.cancel();
+            }
+        }
+        
+        // 键盘快捷键
+        document.addEventListener('keydown', function(e) {
+            if (e.code === 'Space') {
+                e.preventDefault();
+                playAll();
+            }
+            if (e.code === 'Escape') {
+                stopAll();
+            }
+        });
+        
+        // 显示学习统计
+        function showStats() {
+            const learned = JSON.parse(localStorage.getItem('learnedWords') || '[]');
+            const review = JSON.parse(localStorage.getItem('reviewWords') || '[]');
+            const total = 10;
+            const progress = Math.round((learned.length / total) * 100);
+            
+            alert(`📊 学习统计：
+            
+🎯 今日进度：${learned.length}/${total} (${progress}%)
+✅ 已学习：${learned.join(', ') || '无'}
+🔄 待复习：${review.length}个单词
+📈 总词汇量：${learned.length + 35}个新闻词汇
+
+继续加油！💪`);
+        }
+    </script>
+</body>
+</html>

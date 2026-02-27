@@ -1,0 +1,293 @@
+{
+  "date": "2026-02-17",
+  "timestamp": "2026-02-17T05:55:57.181Z",
+  "songs": [
+    {
+      "rank": 1,
+      "title": "// ie9及以下 提示升级浏览器",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 2,
+      "title": "var checkIe9 = function",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 3,
+      "title": "function IEVersion",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 4,
+      "title": "if",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 5,
+      "title": "if",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 6,
+      "title": "if",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 7,
+      "title": "} else {",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 8,
+      "title": "checkIe9",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 9,
+      "title": "Sentry.init",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 10,
+      "title": "dsn: \"https://fc8678a0071145128f0c8314c07f8407@sentry.kugou.com/33\",",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 11,
+      "title": "// integrations: [new Sentry.Integrations.BrowserTracing",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 12,
+      "title": "sampleRate: 0.1,",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 13,
+      "title": "美国BillBoard榜",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 14,
+      "title": "日本SPACE SHOWER榜",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 15,
+      "title": "Beatport电子舞曲榜",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 16,
+      "title": "2026-02",
+      "singer": "17 更新",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 17,
+      "title": "- Dizzy Dizzo",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 18,
+      "title": "大风在刮大雪在下",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 19,
+      "title": "咏春",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    },
+    {
+      "rank": 20,
+      "title": "Dear D",
+      "singer": "未知歌手",
+      "duration": "--:--",
+      "url": ""
+    }
+  ],
+  "changes": {
+    "newEntries": [
+      {
+        "rank": 1,
+        "title": "// ie9及以下 提示升级浏览器",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 2,
+        "title": "var checkIe9 = function",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 3,
+        "title": "function IEVersion",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 4,
+        "title": "if",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 5,
+        "title": "if",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 6,
+        "title": "if",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 7,
+        "title": "} else {",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 8,
+        "title": "checkIe9",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 9,
+        "title": "Sentry.init",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 10,
+        "title": "dsn: \"https://fc8678a0071145128f0c8314c07f8407@sentry.kugou.com/33\",",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 11,
+        "title": "// integrations: [new Sentry.Integrations.BrowserTracing",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 12,
+        "title": "sampleRate: 0.1,",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 13,
+        "title": "美国BillBoard榜",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 14,
+        "title": "日本SPACE SHOWER榜",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 15,
+        "title": "Beatport电子舞曲榜",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 16,
+        "title": "2026-02",
+        "singer": "17 更新",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 17,
+        "title": "- Dizzy Dizzo",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 18,
+        "title": "大风在刮大雪在下",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 19,
+        "title": "咏春",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      },
+      {
+        "rank": 20,
+        "title": "Dear D",
+        "singer": "未知歌手",
+        "duration": "--:--",
+        "url": ""
+      }
+    ],
+    "moved": [],
+    "unchanged": []
+  },
+  "note": "真实抓取数据"
+}

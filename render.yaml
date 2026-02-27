@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: azure-tts-proxy
+    env: node
+    plan: free
+    rootDir: .
+    buildCommand: "npm install"
+    startCommand: "node scripts/azure-tts-proxy.js"
+    envVars:
+      - key: AZURE_TTS_API_KEY
+        sync: false
+      - key: AZURE_TTS_REGION
+        value: eastus
+      - key: AZURE_TTS_DEFAULT_VOICE
+        value: en-US-JennyNeural
+      - key: ALLOWED_ORIGINS
+        value: https://gosleep2018.github.io
