@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-02-27 13:03:58 +08",
+  "generated_at": "2026-02-27 21:22:45 +08",
   "generated_date": "2026-02-27",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
