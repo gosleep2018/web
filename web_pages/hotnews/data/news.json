@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-03-01 08:06:07 +08",
-  "generated_date": "2026-03-01",
+  "generated_at": "2026-03-02 08:01:14 +08",
+  "generated_date": "2026-03-02",
   "current_slot": "早",
   "sources": {
     "中国": [
@@ -265,136 +265,162 @@
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Missile debris injures eight in Qatar after Iran launches barrage",
-        "link": "https://www.aljazeera.com/news/2026/2/28/missile-debris-injures-eight-in-qatar-after-iran-launches-barrage?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:20:30 +0000",
-        "description": "Interior Ministry official says 66 missiles were fired at Qatar, and there were 114 reports of falling shrapnel.",
-        "title_en": "Missile debris injures eight in Qatar after Iran launches barrage",
-        "title_zh": "Missile debris injures eight in Qatar after Iran launches barrage"
+        "title": "Gunman kills two in Texas bar shooting, FBI probing ‘terrorism’ link",
+        "link": "https://www.aljazeera.com/news/2026/3/1/gunman-kills-two-in-texas-nightlife-shooting-fbi-probing-terrorism-link?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:29:44 +0000",
+        "description": "Suspect fired from SUV, then got out of the vehicle and opened fire with a rifle before being killed by officers.",
+        "title_en": "Gunman kills two in Texas bar shooting, FBI probing ‘terrorism’ link",
+        "title_zh": "Gunman kills two in Texas bar shooting, FBI probing ‘terrorism’ link"
       },
       {
-        "title": "Who is Ali Shamkhani, Iran official reportedly killed in US-Israel attacks?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/who-is-ali-shamkhani-iran-official-reportedly-killed-in-us-israel-attacks?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:07:08 +0000",
-        "description": "The former defence minister and secretary of Iran&#039;s Defence Council was involved in US-Iran nuclear negotiations.",
-        "title_en": "Who is Ali Shamkhani, Iran official reportedly killed in US-Israel attacks?",
-        "title_zh": "Who is Ali Shamkhani, Iran official reportedly killed in US-Israel attacks?"
+        "title": "How robust is the Iranian state system?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/1/how-robust-is-the-iranian-state-system?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:10:40 +0000",
+        "description": "Israeli-US strikes put Iran under its greatest pressure since 1979.",
+        "title_en": "How robust is the Iranian state system?",
+        "title_zh": "How robust is the Iranian state system?"
       },
       {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Blasts heard in Kabul as Pakistan-Afghanistan conflict continues",
+        "link": "https://www.aljazeera.com/news/2026/3/1/blasts-heard-in-kabul-as-pakistan-afghanistan-conflict-continues?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:09:38 +0000",
+        "description": "Kabul reports a thwarted strike on Bagram air base as international calls for a ceasefire go unheeded.",
+        "title_en": "Blasts heard in Kabul as Pakistan-Afghanistan conflict continues",
+        "title_zh": "Blasts heard in Kabul as Pakistan-Afghanistan conflict continues"
       },
       {
-        "title": "Trump: Khamenei dead after US strikes Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/trump-khamenei-dead-after-us-strikes-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:56:24 +0000",
-        "description": "US President Donald Trump says Iran’s Supreme Leader Ayatollah Ali Khamenei was killed in joint US-Israeli strikes.",
-        "title_en": "Trump: Khamenei dead after US strikes Iran",
-        "title_zh": "Trump: Khamenei dead after US strikes Iran"
+        "title": "Iranian missiles light up skies over Israel, occupied West Bank",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-missiles-light-up-skies-over-israel-occupied-west-bank?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:06:10 +0000",
+        "description": "Iranian missiles were seen over Tel Aviv and the occupied West Bank, reportedly breaking through Israeli defences.",
+        "title_en": "Iranian missiles light up skies over Israel, occupied West Bank",
+        "title_zh": "Iranian missiles light up skies over Israel, occupied West Bank"
       },
       {
-        "title": "What dangers do the US and Israeli attacks on Iran pose?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/2/28/what-dangers-do-the-us-and-israeli-attacks-on-iran-pose?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:37:16 +0000",
-        "description": "Iran has retaliated, firing at Israel, as well as US military assets, in the Middle East.",
-        "title_en": "What dangers do the US and Israeli attacks on Iran pose?",
-        "title_zh": "What dangers do the US and Israeli attacks on Iran pose?"
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
       },
       {
-        "title": "What countries has Trump attacked since returning to office?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/what-countries-has-trump-attacked-since-returning-to-office?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:20:01 +0000",
-        "description": "The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits.",
-        "title_en": "What countries has Trump attacked since returning to office?",
-        "title_zh": "What countries has Trump attacked since returning to office?"
+        "title": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/huge-fire-at-bahrain-port-home-to-us-navys-fifth-fleet?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 21:40:19 +0000",
+        "description": "Footage shows a huge fire reportedly ignited by an Iranian strike on a US naval facility at Bahrain’s Salman Port.",
+        "title_en": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet",
+        "title_zh": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet"
       },
       {
-        "title": "Ayatollah Ali Khamenei: The leader who shaped Iran’s defiance",
-        "link": "https://www.aljazeera.com/news/2026/2/28/ayatollah-ali-khamenei-the-leader-who-shaped-irans-defiance?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:15:00 +0000",
-        "description": "The supreme leader of the Islamic Republic of Iran, has been killed in a joint US-Israeli air strikes on Saturday.",
-        "title_en": "Ayatollah Ali Khamenei: The leader who shaped Iran’s defiance",
-        "title_zh": "Ayatollah Ali Khamenei: The leader who shaped Iran’s defiance"
+        "title": "Iranian drone strikes US military facility in Kuwait",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/iranian-drone-strikes-us-military-facility-in-kuwait?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 19:59:38 +0000",
+        "description": "Footage captured the moment an Iranian drone struck the US military’s Camp Buehring in northwestern Kuwait.",
+        "title_en": "Iranian drone strikes US military facility in Kuwait",
+        "title_zh": "Iranian drone strikes US military facility in Kuwait"
       },
       {
-        "title": "UN’s Guterres condemns US-Israeli strikes, retaliatory attacks by Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/uns-guterres-condemns-us-israeli-strikes-retaliatory-attacks-by-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 21:52:44 +0000",
-        "description": "United Nations Secretary-General Antonio Guterres is calling for “genuine dialogue&quot; after US-Israeli strikes on Iran.",
-        "title_en": "UN’s Guterres condemns US-Israeli strikes, retaliatory attacks by Iran",
-        "title_zh": "UN’s Guterres condemns US-Israeli strikes, retaliatory attacks by Iran"
+        "title": "US confirms three soldiers killed in Iran attacks",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/us-confirms-three-soldiers-killed-in-iran-attacks?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 19:30:38 +0000",
+        "description": "The US military has confirmed at least three of its soldiers have been killed in its war with Iran.",
+        "title_en": "US confirms three soldiers killed in Iran attacks",
+        "title_zh": "US confirms three soldiers killed in Iran attacks"
       },
       {
-        "title": "Iran’s Foreign Ministry defends retaliatory strikes, slams US betrayal",
-        "link": "https://www.aljazeera.com/news/2026/2/28/irans-foreign-ministry-defends-retaliatory-strikes-slams-us-betrayal?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 21:49:24 +0000",
-        "description": "Spokesman Esmaeil Baghaei says Iran&#039;s attacks on US targets across the region are legitimate defensive actions.",
-        "title_en": "Iran’s Foreign Ministry defends retaliatory strikes, slams US betrayal",
-        "title_zh": "Iran’s Foreign Ministry defends retaliatory strikes, slams US betrayal"
+        "title": "Missile strikes continue as Iranian leaders project defiance after Khamenei",
+        "link": "https://www.aljazeera.com/news/2026/3/1/missile-strikes-continue-as-iranian-leaders-project-defiance-after-khamenei?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 19:19:22 +0000",
+        "description": "Strikes keep hitting Tehran, but Iran&#039;s surviving leaders close ranks and vow revenge after Ayatollah Khamenei&#039;s death.",
+        "title_en": "Missile strikes continue as Iranian leaders project defiance after Khamenei",
+        "title_zh": "Missile strikes continue as Iranian leaders project defiance after Khamenei"
       },
       {
-        "title": "Trump says Iran’s Supreme Leader Ali Khamenei dead after US-Israeli attacks",
-        "link": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 20:29:04 +0000",
-        "description": "Iran&#039;s Tasnim and Mehr news agencies report that Khamenei remains &#039;steadfast and firm in commanding the field&#039;.",
-        "title_en": "Trump says Iran’s Supreme Leader Ali Khamenei dead after US-Israeli attacks",
-        "title_zh": "Trump says Iran’s Supreme Leader Ali Khamenei dead after US-Israeli attacks"
+        "title": "Iran after Ayatollah Ali Khamenei",
+        "link": "https://www.aljazeera.com/opinions/2026/3/1/iran-after-ayatollah-ali-khamenei?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 19:04:03 +0000",
+        "description": "Proponents of foreign intervention in Iran are unlikely to get the sudden rupture and regime change they hope for.",
+        "title_en": "Iran after Ayatollah Ali Khamenei",
+        "title_zh": "Iran after Ayatollah Ali Khamenei"
       },
       {
-        "title": "Netanyahu claims ‘many signs’ Iran’s Khamenei ‘no longer alive’",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/netanyahu-claims-many-signs-irans-khamenei-no-longer?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 19:48:51 +0000",
-        "description": "Israeli Prime Minister Benjamin Netanyahu claims Iranian Supreme Leader Ali Khamenei may be &quot;no longer alive.&quot;",
-        "title_en": "Netanyahu claims ‘many signs’ Iran’s Khamenei ‘no longer alive’",
-        "title_zh": "Netanyahu claims ‘many signs’ Iran’s Khamenei ‘no longer alive’"
+        "title": "Arsenal restore five-point lead at top of table with 2-1 win over Chelsea",
+        "link": "https://www.aljazeera.com/sports/2026/3/1/arsenal-restore-five-point-lead-at-top-of-table-with-2-1-win-over-chelsea?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 18:57:21 +0000",
+        "description": "Arsenal see out nervy win over London football rivals Chelsea with goals from William Saliba and Jurrien Timber.",
+        "title_en": "Arsenal restore five-point lead at top of table with 2-1 win over Chelsea",
+        "title_zh": "Arsenal restore five-point lead at top of table with 2-1 win over Chelsea"
       },
       {
-        "title": "Iran, US, Israel officials give civilians clashing directives as bombs drop",
-        "link": "https://www.aljazeera.com/news/2026/2/28/iran-us-israel-officials-give-civilians-clashing-directives-as-bombs-drop?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 19:30:52 +0000",
-        "description": "Iranians receive mixed messages amid ongoing attacks, internet shutdown and limited mobile connectivity.",
-        "title_en": "Iran, US, Israel officials give civilians clashing directives as bombs drop",
-        "title_zh": "Iran, US, Israel officials give civilians clashing directives as bombs drop"
+        "title": "Iran foreign minister suggests new supreme leader may be chosen within days",
+        "link": "https://www.aljazeera.com/news/2026/3/1/iran-foreign-minister-suggests-new-supreme-leader-may-be-chosen-within-days?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 18:51:08 +0000",
+        "description": "Abbas Araghchi says constitutional process is under way as Tehran mourns Ali Khamenei and vows resistance to US, Israel.",
+        "title_en": "Iran foreign minister suggests new supreme leader may be chosen within days",
+        "title_zh": "Iran foreign minister suggests new supreme leader may be chosen within days"
       },
       {
-        "title": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/diplomacy-was-betrayed-by-the-americans-iranian-fm-spokesman?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 19:13:34 +0000",
-        "description": "“This is the second time in less than a year that diplomacy was betrayed by the Americans.”",
-        "title_en": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
-        "title_zh": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman"
+        "title": "India beat West Indies by five wickets to enter T20 World Cup semifinals",
+        "link": "https://www.aljazeera.com/sports/2026/3/1/india-beat-west-indies-by-five-wickets-to-enter-t20-world-cup-semifinals?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 18:02:55 +0000",
+        "description": "Samson hits 97 not out, West Indian bowling falters in Kolkata as India set up World Cup semifinal against England.",
+        "title_en": "India beat West Indies by five wickets to enter T20 World Cup semifinals",
+        "title_zh": "India beat West Indies by five wickets to enter T20 World Cup semifinals"
       },
       {
-        "title": "US and Israel strike Iran: what happened?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-and-israel-strike-iran-what-happened?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 18:50:35 +0000",
-        "description": "Israel and the United States launched strikes on Iran on Saturday, hitting targets across the country.",
-        "title_en": "US and Israel strike Iran: what happened?",
-        "title_zh": "US and Israel strike Iran: what happened?"
+        "title": "Black smoke pours from oil tanker near Strait of Hormuz",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/black-smoke-pours-from-oil-tanker-near-strait-of-hormuz?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 17:39:48 +0000",
+        "description": "Footage from the Strait of Hormuz shows an oil tanker ablaze after a reported hit from an unidentified projectile.",
+        "title_en": "Black smoke pours from oil tanker near Strait of Hormuz",
+        "title_zh": "Black smoke pours from oil tanker near Strait of Hormuz"
       },
       {
-        "title": "Suspected Iranian drone hits Bahrain high-rise building",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/suspected-iranian-drone-hits-bahrain-high-rise-building?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 18:10:28 +0000",
-        "description": "A suspected Iranian drone struck a high-rise building in Bahrain.",
-        "title_en": "Suspected Iranian drone hits Bahrain high-rise building",
-        "title_zh": "Suspected Iranian drone hits Bahrain high-rise building"
+        "title": "“Trump chose an avoidable war over a good deal.”",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/trump-chose-an-avoidable-war-over-a-good-deal?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 16:45:52 +0000",
+        "description": "Trita Parsi says Iran had offered major nuclear concessions and that Trump could have claimed diplomatic victory.",
+        "title_en": "“Trump chose an avoidable war over a good deal.”",
+        "title_zh": "“Trump chose an avoidable war over a good deal.”"
       },
       {
-        "title": "Nine months after 12-day war, US, Israel seek to topple Iran’s leaders",
-        "link": "https://www.aljazeera.com/editorial/2026/2/28/nine-months-after-12-day-war-us-israel-seek-to-topple-irans-leaders?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 17:44:37 +0000",
-        "description": "US, Israel launch attacks on Iran in a move that risks destabilising the Middle East.",
-        "title_en": "Nine months after 12-day war, US, Israel seek to topple Iran’s leaders",
-        "title_zh": "Nine months after 12-day war, US, Israel seek to topple Iran’s leaders"
+        "title": "Moment Iranian drone hits UAE naval base",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/moment-iranian-drone-hits-uae-naval-base?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 16:13:24 +0000",
+        "description": "Video from Abu Dhabi captured the moment a second Iranian drone struck the Al Salam Naval Base.",
+        "title_en": "Moment Iranian drone hits UAE naval base",
+        "title_zh": "Moment Iranian drone hits UAE naval base"
       }
     ]
   },
   "triangle": [
+    {
+      "event_hint": "Trump pleads not guilty to 34 felony counts",
+      "event_hint_zh": "Trump pleads not guilty to 34 felony counts",
+      "event_hint_en": "Trump pleads not guilty to 34 felony counts",
+      "中国": null,
+      "美国": {
+        "title": "Trump pleads not guilty to 34 felony counts",
+        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+        "published": "",
+        "description": "",
+        "title_en": "Trump pleads not guilty to 34 felony counts",
+        "title_zh": "Trump pleads not guilty to 34 felony counts"
+      },
+      "伊斯兰": {
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 16词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: president, says, attacks\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
     {
       "event_hint": "Haberman reveals why Trump attacked judge and his family in speech",
       "event_hint_zh": "Haberman reveals why Trump attacked judge and his family in speech",
@@ -409,16 +435,16 @@
         "title_zh": "Haberman reveals why Trump attacked judge and his family in speech"
       },
       "伊斯兰": {
-        "title": "What countries has Trump attacked since returning to office?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/what-countries-has-trump-attacked-since-returning-to-office?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:20:01 +0000",
-        "description": "The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits.",
-        "title_en": "What countries has Trump attacked since returning to office?",
-        "title_zh": "What countries has Trump attacked since returning to office?"
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
       },
       "media_count": 2,
-      "score": 3,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges\n\n🌍 伊斯兰 **报道焦点**：The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 32词 | 🌍 伊斯兰: 19词\n2. **关键词**：🇺🇸 欧美: political, contributor, maggie | 🌍 伊斯兰: president, said, avoid\n3. **情感倾向**：🇺🇸 欧美: 偏负面 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges\n\n🌍 伊斯兰 **报道焦点**：US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 32词 | 🌍 伊斯兰: 16词\n2. **关键词**：🇺🇸 欧美: political, contributor, maggie | 🌍 伊斯兰: president, says, attacks\n3. **情感倾向**：🇺🇸 欧美: 偏负面 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
@@ -435,68 +461,16 @@
         "title_zh": "What to know about the Trump indictment on the eve of his court appearance"
       },
       "伊斯兰": {
-        "title": "What countries has Trump attacked since returning to office?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/what-countries-has-trump-attacked-since-returning-to-office?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:20:01 +0000",
-        "description": "The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits.",
-        "title_en": "What countries has Trump attacked since returning to office?",
-        "title_zh": "What countries has Trump attacked since returning to office?"
-      },
-      "media_count": 2,
-      "score": 3,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：What to know about the Trump indictment on the eve of his court appearance\n\n🌍 伊斯兰 **报道焦点**：The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 14词 | 🌍 伊斯兰: 19词\n2. **关键词**：🇺🇸 欧美: know, trump, indictment | 🌍 伊斯兰: president, said, avoid\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
-      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
-    },
-    {
-      "event_hint": "What countries has Trump attacked since returning to office?",
-      "event_hint_zh": "What countries has Trump attacked since returning to office?",
-      "event_hint_en": "What countries has Trump attacked since returning to office?",
-      "中国": null,
-      "美国": {
-        "title": "Haberman reveals why Trump attacked judge and his family in speech",
-        "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-        "published": "Wed, 05 Apr 2023 13:30:09 GMT",
-        "description": "CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges.",
-        "title_en": "Haberman reveals why Trump attacked judge and his family in speech",
-        "title_zh": "Haberman reveals why Trump attacked judge and his family in speech"
-      },
-      "伊斯兰": {
-        "title": "What countries has Trump attacked since returning to office?",
-        "link": "https://www.aljazeera.com/news/2026/2/28/what-countries-has-trump-attacked-since-returning-to-office?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:20:01 +0000",
-        "description": "The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits.",
-        "title_en": "What countries has Trump attacked since returning to office?",
-        "title_zh": "What countries has Trump attacked since returning to office?"
-      },
-      "media_count": 2,
-      "score": 3,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges\n\n🌍 伊斯兰 **报道焦点**：The US president, who had said he would avoid needless foreign wars, has embraced military power with few limits\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 32词 | 🌍 伊斯兰: 19词\n2. **关键词**：🇺🇸 欧美: political, contributor, maggie | 🌍 伊斯兰: president, said, avoid\n3. **情感倾向**：🇺🇸 欧美: 偏负面 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
-      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
-    },
-    {
-      "event_hint": "Trump pleads not guilty to 34 felony counts",
-      "event_hint_zh": "Trump pleads not guilty to 34 felony counts",
-      "event_hint_en": "Trump pleads not guilty to 34 felony counts",
-      "中国": null,
-      "美国": {
-        "title": "Trump pleads not guilty to 34 felony counts",
-        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-        "published": "",
-        "description": "",
-        "title_en": "Trump pleads not guilty to 34 felony counts",
-        "title_zh": "Trump pleads not guilty to 34 felony counts"
-      },
-      "伊斯兰": {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: ambassador, united, nations\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：What to know about the Trump indictment on the eve of his court appearance\n\n🌍 伊斯兰 **报道焦点**：US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 14词 | 🌍 伊斯兰: 16词\n2. **关键词**：🇺🇸 欧美: know, trump, indictment | 🌍 伊斯兰: president, says, attacks\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
@@ -513,16 +487,16 @@
         "title_zh": "READ: Trump indictment related to hush money payment"
       },
       "伊斯兰": {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：READ: Trump indictment related to hush money payment\n\n🌍 伊斯兰 **报道焦点**：The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: read, trump, indictment | 🌍 伊斯兰: ambassador, united, nations\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：READ: Trump indictment related to hush money payment\n\n🌍 伊斯兰 **报道焦点**：US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 16词\n2. **关键词**：🇺🇸 欧美: read, trump, indictment | 🌍 伊斯兰: president, says, attacks\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
@@ -539,42 +513,42 @@
         "title_zh": "Video shows moment of deadly explosion at cafe in Russia"
       },
       "伊斯兰": {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Moment Iranian drone hits UAE naval base",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/moment-iranian-drone-hits-uae-naval-base?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 16:13:24 +0000",
+        "description": "Video from Abu Dhabi captured the moment a second Iranian drone struck the Al Salam Naval Base.",
+        "title_en": "Moment Iranian drone hits UAE naval base",
+        "title_zh": "Moment Iranian drone hits UAE naval base"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：A well-known Russian military blogger, Vladlen Tatarsky, was killed in an explosion at a cafe in St Petersburg, authorities said...\n\n🌍 伊斯兰 **报道焦点**：The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 24词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: well, known, russian | 🌍 伊斯兰: ambassador, united, nations\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：A well-known Russian military blogger, Vladlen Tatarsky, was killed in an explosion at a cafe in St Petersburg, authorities said...\n\n🌍 伊斯兰 **报道焦点**：Video from Abu Dhabi captured the moment a second Iranian drone struck the Al Salam Naval Base\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 24词 | 🌍 伊斯兰: 17词\n2. **关键词**：🇺🇸 欧美: well, known, russian | 🌍 伊斯兰: video, dhabi, captured\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
-      "event_hint": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
-      "event_hint_zh": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
-      "event_hint_en": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
+      "event_hint": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+      "event_hint_zh": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+      "event_hint_en": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
       "中国": null,
       "美国": {
-        "title": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
-        "link": "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-        "published": "Mon, 03 Apr 2023 13:38:22 GMT",
-        "description": "The suspected Chinese spy balloon that transited the US earlier this year was able to capture imagery and collect some signals intelligence from US military sites, a source familiar with the matter tells CNN.",
-        "title_en": "Suspected Chinese spy balloon was able to transmit information back to Beijing",
-        "title_zh": "Suspected Chinese spy balloon was able to transmit information back to Beijing"
+        "title": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "link": "https://www.cnn.com/collections/intl-ukraine-030423/",
+        "published": "Mon, 03 Apr 2023 13:58:58 GMT",
+        "description": "",
+        "title_en": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "title_zh": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says"
       },
       "伊斯兰": {
-        "title": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/diplomacy-was-betrayed-by-the-americans-iranian-fm-spokesman?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 19:13:34 +0000",
-        "description": "“This is the second time in less than a year that diplomacy was betrayed by the Americans.”",
-        "title_en": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman",
-        "title_zh": "‘Diplomacy was betrayed by the Americans’: Iranian FM spokesman"
+        "title": "How robust is the Iranian state system?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/1/how-robust-is-the-iranian-state-system?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:10:40 +0000",
+        "description": "Israeli-US strikes put Iran under its greatest pressure since 1979.",
+        "title_en": "How robust is the Iranian state system?",
+        "title_zh": "How robust is the Iranian state system?"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：The suspected Chinese spy balloon that transited the US earlier this year was able to capture imagery and collect some signals intelligence from US military sites, a source familiar with the matter tells CNN\n\n🌍 伊斯兰 **报道焦点**：“This is the second time in less than a year that diplomacy was betrayed by the Americans ”\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 34词 | 🌍 伊斯兰: 17词\n2. **关键词**：🇺🇸 欧美: suspected, chinese, balloon | 🌍 伊斯兰: second, time, less\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says\n\n🌍 伊斯兰 **报道焦点**：Israeli-US strikes put Iran under its greatest pressure since 1979\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 13词 | 🌍 伊斯兰: 10词\n2. **关键词**：🇺🇸 欧美: wall, street, journal | 🌍 伊斯兰: israeli, strikes, iran\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏正面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
@@ -591,68 +565,94 @@
         "title_zh": "Beijing promised to 'fight back' over Taiwan leader's US visit. But this time it has more to lose"
       },
       "伊斯兰": {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "link": "https://www.aljazeera.com/news/2026/3/1/trump-vows-to-continue-attacks-on-iran-says-more-us-troops-likely-to-die?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 22:51:32 +0000",
+        "description": "US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps.",
+        "title_en": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die",
+        "title_zh": "Trump vows to continue attacks on Iran, says more US troops ‘likely’ to die"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：An anticipated meeting between Taiwan's President Tsai Ing-wen and US House Speaker Kevin McCarthy in California this week has sparked concerns of a repeat of the pressure campaign China launched last year when then-Speaker Nancy Pelosi visited Taipei\n\n🌍 伊斯兰 **报道焦点**：The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 38词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: speaker, anticipated, meeting | 🌍 伊斯兰: ambassador, united, nations\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：An anticipated meeting between Taiwan's President Tsai Ing-wen and US House Speaker Kevin McCarthy in California this week has sparked concerns of a repeat of the pressure campaign China launched last year when then-Speaker Nancy Pelosi visited Taipei\n\n🌍 伊斯兰 **报道焦点**：US president says attacks will continue until &#039;all objectives&#039; are met, despite earlier floating diplomatic off-ramps\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 38词 | 🌍 伊斯兰: 16词\n2. **关键词**：🇺🇸 欧美: speaker, anticipated, meeting | 🌍 伊斯兰: president, says, attacks\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
-      "event_hint": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-      "event_hint_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-      "event_hint_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
+      "event_hint": "French minister under fire for Playboy magazine cover",
+      "event_hint_zh": "French minister under fire for Playboy magazine cover",
+      "event_hint_en": "French minister under fire for Playboy magazine cover",
       "中国": null,
       "美国": {
-        "title": "Trump pleads not guilty to 34 felony counts",
-        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-        "published": "",
-        "description": "",
-        "title_en": "Trump pleads not guilty to 34 felony counts",
-        "title_zh": "Trump pleads not guilty to 34 felony counts"
+        "title": "French minister under fire for Playboy magazine cover",
+        "link": "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+        "published": "Mon, 03 Apr 2023 11:54:59 GMT",
+        "description": "French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine.",
+        "title_en": "French minister under fire for Playboy magazine cover",
+        "title_zh": "French minister under fire for Playboy magazine cover"
       },
       "伊斯兰": {
-        "title": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/us-ambassador-to-un-trump-has-met-the-moment-by-striking-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 23:03:08 +0000",
-        "description": "The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies.",
-        "title_en": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran",
-        "title_zh": "US Ambassador to UN: Trump has ‘met the moment’ by striking Iran"
+        "title": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/1/huge-fire-at-bahrain-port-home-to-us-navys-fifth-fleet?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 21:40:19 +0000",
+        "description": "Footage shows a huge fire reportedly ignited by an Iranian strike on a US naval facility at Bahrain’s Salman Port.",
+        "title_en": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet",
+        "title_zh": "Huge fire at Bahrain port home to US Navy’s Fifth Fleet"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：The US Ambassador to the United Nations Mike Waltz says striking Iran was necessary to protect American allies\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: ambassador, united, nations\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine\n\n🌍 伊斯兰 **报道焦点**：Footage shows a huge fire reportedly ignited by an Iranian strike on a US naval facility at Bahrain’s Salman Port\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 24词 | 🌍 伊斯兰: 20词\n2. **关键词**：🇺🇸 欧美: french, government, minister | 🌍 伊斯兰: footage, shows, huge\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     },
     {
-      "event_hint": "Trump: Khamenei dead after US strikes Iran",
-      "event_hint_zh": "Trump: Khamenei dead after US strikes Iran",
-      "event_hint_en": "Trump: Khamenei dead after US strikes Iran",
+      "event_hint": "Finland's Prime Minister Sanna Marin concedes election",
+      "event_hint_zh": "Finland's Prime Minister Sanna Marin concedes election",
+      "event_hint_en": "Finland's Prime Minister Sanna Marin concedes election",
       "中国": null,
       "美国": {
-        "title": "Trump pleads not guilty to 34 felony counts",
-        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-        "published": "",
-        "description": "",
-        "title_en": "Trump pleads not guilty to 34 felony counts",
-        "title_zh": "Trump pleads not guilty to 34 felony counts"
+        "title": "Finland's Prime Minister Sanna Marin concedes election",
+        "link": "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+        "published": "Mon, 03 Apr 2023 10:24:55 GMT",
+        "description": "Finland's left-wing Prime Minister Sanna Marin conceded defeat on Sunday in the Nordic country's parliamentary election as the opposition right-wing National Coalition Party (NCP) claimed victory in a tightly fought contest.",
+        "title_en": "Finland's Prime Minister Sanna Marin concedes election",
+        "title_zh": "Finland's Prime Minister Sanna Marin concedes election"
       },
       "伊斯兰": {
-        "title": "Trump: Khamenei dead after US strikes Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/2/28/trump-khamenei-dead-after-us-strikes-iran?traffic_source=rss",
-        "published": "Sat, 28 Feb 2026 22:56:24 +0000",
-        "description": "US President Donald Trump says Iran’s Supreme Leader Ayatollah Ali Khamenei was killed in joint US-Israeli strikes.",
-        "title_en": "Trump: Khamenei dead after US strikes Iran",
-        "title_zh": "Trump: Khamenei dead after US strikes Iran"
+        "title": "Iran foreign minister suggests new supreme leader may be chosen within days",
+        "link": "https://www.aljazeera.com/news/2026/3/1/iran-foreign-minister-suggests-new-supreme-leader-may-be-chosen-within-days?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 18:51:08 +0000",
+        "description": "Abbas Araghchi says constitutional process is under way as Tehran mourns Ali Khamenei and vows resistance to US, Israel.",
+        "title_en": "Iran foreign minister suggests new supreme leader may be chosen within days",
+        "title_zh": "Iran foreign minister suggests new supreme leader may be chosen within days"
       },
       "media_count": 2,
       "score": 2,
-      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：US President Donald Trump says Iran’s Supreme Leader Ayatollah Ali Khamenei was killed in joint US-Israeli strikes\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 17词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: president, donald, trump\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Finland's left-wing Prime Minister Sanna Marin conceded defeat on Sunday in the Nordic country's parliamentary election as the opposition right-wing National Coalition Party (NCP) claimed victory in a tightly fought contest\n\n🌍 伊斯兰 **报道焦点**：Abbas Araghchi says constitutional process is under way as Tehran mourns Ali Khamenei and vows resistance to US, Israel\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 31词 | 🌍 伊斯兰: 19词\n2. **关键词**：🇺🇸 欧美: wing, finland, left | 🌍 伊斯兰: abbas, araghchi, says\n3. **情感倾向**：🇺🇸 欧美: 偏正面 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "How robust is the Iranian state system?",
+      "event_hint_zh": "How robust is the Iranian state system?",
+      "event_hint_en": "How robust is the Iranian state system?",
+      "中国": null,
+      "美国": {
+        "title": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "link": "https://www.cnn.com/collections/intl-ukraine-030423/",
+        "published": "Mon, 03 Apr 2023 13:58:58 GMT",
+        "description": "",
+        "title_en": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says",
+        "title_zh": "Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says"
+      },
+      "伊斯兰": {
+        "title": "How robust is the Iranian state system?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/1/how-robust-is-the-iranian-state-system?traffic_source=rss",
+        "published": "Sun, 01 Mar 2026 23:10:40 +0000",
+        "description": "Israeli-US strikes put Iran under its greatest pressure since 1979.",
+        "title_en": "How robust is the Iranian state system?",
+        "title_zh": "How robust is the Iranian state system?"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Wall Street Journal reporter Evan Gershkovich appeals against arrest, Russian state media says\n\n🌍 伊斯兰 **报道焦点**：Israeli-US strikes put Iran under its greatest pressure since 1979\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 13词 | 🌍 伊斯兰: 10词\n2. **关键词**：🇺🇸 欧美: wall, street, journal | 🌍 伊斯兰: israeli, strikes, iran\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏正面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
       "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
     }
   ],
