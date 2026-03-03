@@ -1,7 +1,11 @@
 {
-  "generated_at": "2026-03-03 08:00:11 +08",
+  "generated_at": "2026-03-03 12:00:15 +08",
   "generated_date": "2026-03-03",
-  "current_slot": "早",
+  "current_slot": "中",
+  "slots_done": [
+    "早",
+    "中"
+  ],
   "sources": {
     "中国": [
       {
@@ -263,13 +267,372 @@
         "title_zh": "Hundreds of millions at risk from Chinese shopping app malware"
       }
     ],
-    "伊斯兰（半岛等）": []
+    "伊斯兰（半岛等）": [
+      {
+        "title": "Shutdown of Hormuz Strait raises fears of soaring oil prices",
+        "link": "https://www.aljazeera.com/economy/2026/3/3/shutdown-of-hormuz-strait-raises-fears-of-soaring-oil-prices?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 03:18:08 +0000",
+        "description": "Consumers are set to pay higher prices, but US producers could benefit, analysts say.",
+        "title_en": "Shutdown of Hormuz Strait raises fears of soaring oil prices",
+        "title_zh": "Shutdown of Hormuz Strait raises fears of soaring oil prices"
+      },
+      {
+        "title": "Israeli attacks kill dozens of people across Lebanon",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/israeli-attacks-kill-dozens-of-people-across-lebanon?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 02:38:27 +0000",
+        "description": "Israeli attacks on Lebanon have killed more than 50 people. It says the strikes are a response to Hezbollah rockets.",
+        "title_en": "Israeli attacks kill dozens of people across Lebanon",
+        "title_zh": "Israeli attacks kill dozens of people across Lebanon"
+      },
+      {
+        "title": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "link": "https://www.aljazeera.com/news/2026/3/3/us-embassy-in-saudi-capital-riyadh-hit-by-drones-fire-reported-ministry?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 02:35:36 +0000",
+        "description": "Saudi Defence Ministry says fire broke out at the embassy, but the compound sustained only &#039;minor&#039; damage.",
+        "title_en": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "title_zh": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry"
+      },
+      {
+        "title": "US kamikaze drone found on farmland in Iraq",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/us-kamikaze-drone-found-on-farmland-in-iraq?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 02:12:59 +0000",
+        "description": "An unexploded US kamikaze drone was found on farmland in Western Iraq on Monday.",
+        "title_en": "US kamikaze drone found on farmland in Iraq",
+        "title_zh": "US kamikaze drone found on farmland in Iraq"
+      },
+      {
+        "title": "How much could the Iran war cost the US? Here’s what we know",
+        "link": "https://www.aljazeera.com/news/2026/3/3/how-much-could-the-iran-war-cost-the-us-heres-what-we-know?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 01:44:08 +0000",
+        "description": "Predicting the total cost of the campaign is difficult, and experts warn the greater challenge may be inventory.",
+        "title_en": "How much could the Iran war cost the US? Here’s what we know",
+        "title_zh": "How much could the Iran war cost the US? Here’s what we know"
+      },
+      {
+        "title": "Golestan Palace majorly damaged in US-Israeli strikes on Tehran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/golestan-palace-majorly-damaged-in-us-israeli-strikes-on-tehran?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 01:34:02 +0000",
+        "description": "Tehran&#039;s historic Golestan Palace, a UNESCO World Heritage site, has sustained major damage after US-Israeli strikes.",
+        "title_en": "Golestan Palace majorly damaged in US-Israeli strikes on Tehran",
+        "title_zh": "Golestan Palace majorly damaged in US-Israeli strikes on Tehran"
+      },
+      {
+        "title": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/melania-trump-chairs-un-meeting-on-children-days-after-iran-school-strike?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:45:37 +0000",
+        "description": "US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict.",
+        "title_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "title_zh": "Melania Trump chairs UN meeting on children days after Iran school strike"
+      },
+      {
+        "title": "UN chief calls for ‘way out’ of Iran war",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/un-chief-calls-for-way-out-of-iran-war?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:34:41 +0000",
+        "description": "‘What is needed now in the region more than anything, is a way out.’",
+        "title_en": "UN chief calls for ‘way out’ of Iran war",
+        "title_zh": "UN chief calls for ‘way out’ of Iran war"
+      },
+      {
+        "title": "US’s Rubio tries to justify attacks on Iran as driven by self-defence",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/uss-rubio-tries-to-justify-attacks-on-iran-as-driven-by-self-defence?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:13:57 +0000",
+        "description": "Marco Rubio has tried to justify the coordinated attacks with Israel on Iran since Saturday as driven by self-defence.",
+        "title_en": "US’s Rubio tries to justify attacks on Iran as driven by self-defence",
+        "title_zh": "US’s Rubio tries to justify attacks on Iran as driven by self-defence"
+      },
+      {
+        "title": "US urges citizens to immediately leave over a dozen Middle East countries",
+        "link": "https://www.aljazeera.com/news/2026/3/3/us-urges-citizens-to-immediately-leave-over-a-dozen-middle-east-countries?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:07:30 +0000",
+        "description": "The latest advisory includes Egypt, Israel, Saudi Arabia and Qatar, according to a State Department official.",
+        "title_en": "US urges citizens to immediately leave over a dozen Middle East countries",
+        "title_zh": "US urges citizens to immediately leave over a dozen Middle East countries"
+      },
+      {
+        "title": "Iran live news: Israel bombs Tehran, Beirut; Strait of Hormuz ‘closed’",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/3/iran-live-news-israel-bombs-tehran-beirut-trump-says-war-to-last-4-weeks?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:00:00 +0000",
+        "description": "Iran strikes energy infrastructure across the Gulf as IRGC announces closure of Strait of Hormuz.",
+        "title_en": "Iran live news: Israel bombs Tehran, Beirut; Strait of Hormuz ‘closed’",
+        "title_zh": "Iran live news: Israel bombs Tehran, Beirut; Strait of Hormuz ‘closed’"
+      },
+      {
+        "title": "Iranian missiles, interceptions seen over Israel",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/2/iranian-missiles-interceptions-seen-over-israel?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 23:56:44 +0000",
+        "description": "Missiles were seen over Israel after the Israeli military said it had identified a new wave launched from Iran.",
+        "title_en": "Iranian missiles, interceptions seen over Israel",
+        "title_zh": "Iranian missiles, interceptions seen over Israel"
+      },
+      {
+        "title": "Witness describes Israeli-US ‘double-tap’ strike on downtown Tehran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/2/witness-describes-israeli-us-double-tap-strike-on-downtown-tehran?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 23:55:50 +0000",
+        "description": "A witness says the US and Israel bombed civilians in Tehran, as they rushed to help survivors from another bombing.",
+        "title_en": "Witness describes Israeli-US ‘double-tap’ strike on downtown Tehran",
+        "title_zh": "Witness describes Israeli-US ‘double-tap’ strike on downtown Tehran"
+      },
+      {
+        "title": "Iran says will attack any ship trying to pass through Strait of Hormuz",
+        "link": "https://www.aljazeera.com/news/2026/3/2/iran-says-will-attack-any-ship-trying-to-pass-through-strait-of-hormuz?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 23:09:22 +0000",
+        "description": "Ebrahim Jabari, a senior adviser to the IRGC&#039;s commander-in-chief, reiterates that the Strait of Hormuz is &#039;closed&#039;.",
+        "title_en": "Iran says will attack any ship trying to pass through Strait of Hormuz",
+        "title_zh": "Iran says will attack any ship trying to pass through Strait of Hormuz"
+      },
+      {
+        "title": "New wave of heavy Israeli strikes hit Tehran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/2/new-wave-of-heavy-israeli-strikes-hit-tehran?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 23:03:19 +0000",
+        "description": "A new wave of heavy Israeli air strikes have hit multiple parts of Tehran.",
+        "title_en": "New wave of heavy Israeli strikes hit Tehran",
+        "title_zh": "New wave of heavy Israeli strikes hit Tehran"
+      },
+      {
+        "title": "What dangers does the Iran war pose for Israel?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/2/what-dangers-does-the-iran-war-pose-for-israel?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 21:38:51 +0000",
+        "description": "Both the collapse and survival of Iran&#039;s Islamic Republic pose risks.",
+        "title_en": "What dangers does the Iran war pose for Israel?",
+        "title_zh": "What dangers does the Iran war pose for Israel?"
+      }
+    ]
   },
-  "triangle": [],
-  "errors": {
-    "伊斯兰（半岛等）": "https://www.aljazeera.com/xml/rss/all.xml: <urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
-  },
-  "slots_done": [
-    "早"
-  ]
+  "triangle": [
+    {
+      "event_hint": "What to know about the Trump indictment on the eve of his court appearance",
+      "event_hint_zh": "What to know about the Trump indictment on the eve of his court appearance",
+      "event_hint_en": "What to know about the Trump indictment on the eve of his court appearance",
+      "中国": null,
+      "美国": {
+        "title": "What to know about the Trump indictment on the eve of his court appearance",
+        "link": "https://www.cnn.com/collections/intl-trump-040223/",
+        "published": "Wed, 05 Apr 2023 22:50:06 GMT",
+        "description": "",
+        "title_en": "What to know about the Trump indictment on the eve of his court appearance",
+        "title_zh": "What to know about the Trump indictment on the eve of his court appearance"
+      },
+      "伊斯兰": {
+        "title": "How much could the Iran war cost the US? Here’s what we know",
+        "link": "https://www.aljazeera.com/news/2026/3/3/how-much-could-the-iran-war-cost-the-us-heres-what-we-know?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 01:44:08 +0000",
+        "description": "Predicting the total cost of the campaign is difficult, and experts warn the greater challenge may be inventory.",
+        "title_en": "How much could the Iran war cost the US? Here’s what we know",
+        "title_zh": "How much could the Iran war cost the US? Here’s what we know"
+      },
+      "media_count": 2,
+      "score": 3,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：What to know about the Trump indictment on the eve of his court appearance\n\n🌍 伊斯兰 **报道焦点**：Predicting the total cost of the campaign is difficult, and experts warn the greater challenge may be inventory\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 14词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: know, trump, indictment | 🌍 伊斯兰: predicting, total, cost\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏正面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**（重点关注：危机困难）：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "How much could the Iran war cost the US? Here’s what we know",
+      "event_hint_zh": "How much could the Iran war cost the US? Here’s what we know",
+      "event_hint_en": "How much could the Iran war cost the US? Here’s what we know",
+      "中国": null,
+      "美国": {
+        "title": "What to know about the Trump indictment on the eve of his court appearance",
+        "link": "https://www.cnn.com/collections/intl-trump-040223/",
+        "published": "Wed, 05 Apr 2023 22:50:06 GMT",
+        "description": "",
+        "title_en": "What to know about the Trump indictment on the eve of his court appearance",
+        "title_zh": "What to know about the Trump indictment on the eve of his court appearance"
+      },
+      "伊斯兰": {
+        "title": "How much could the Iran war cost the US? Here’s what we know",
+        "link": "https://www.aljazeera.com/news/2026/3/3/how-much-could-the-iran-war-cost-the-us-heres-what-we-know?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 01:44:08 +0000",
+        "description": "Predicting the total cost of the campaign is difficult, and experts warn the greater challenge may be inventory.",
+        "title_en": "How much could the Iran war cost the US? Here’s what we know",
+        "title_zh": "How much could the Iran war cost the US? Here’s what we know"
+      },
+      "media_count": 2,
+      "score": 3,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：What to know about the Trump indictment on the eve of his court appearance\n\n🌍 伊斯兰 **报道焦点**：Predicting the total cost of the campaign is difficult, and experts warn the greater challenge may be inventory\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 14词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: know, trump, indictment | 🌍 伊斯兰: predicting, total, cost\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏正面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**（重点关注：危机困难）：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "Trump pleads not guilty to 34 felony counts",
+      "event_hint_zh": "Trump pleads not guilty to 34 felony counts",
+      "event_hint_en": "Trump pleads not guilty to 34 felony counts",
+      "中国": null,
+      "美国": {
+        "title": "Trump pleads not guilty to 34 felony counts",
+        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+        "published": "",
+        "description": "",
+        "title_en": "Trump pleads not guilty to 34 felony counts",
+        "title_zh": "Trump pleads not guilty to 34 felony counts"
+      },
+      "伊斯兰": {
+        "title": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/melania-trump-chairs-un-meeting-on-children-days-after-iran-school-strike?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:45:37 +0000",
+        "description": "US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict.",
+        "title_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "title_zh": "Melania Trump chairs UN meeting on children days after Iran school strike"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: first, lady, melania\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "Haberman reveals why Trump attacked judge and his family in speech",
+      "event_hint_zh": "Haberman reveals why Trump attacked judge and his family in speech",
+      "event_hint_en": "Haberman reveals why Trump attacked judge and his family in speech",
+      "中国": null,
+      "美国": {
+        "title": "Haberman reveals why Trump attacked judge and his family in speech",
+        "link": "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+        "published": "Wed, 05 Apr 2023 13:30:09 GMT",
+        "description": "CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges.",
+        "title_en": "Haberman reveals why Trump attacked judge and his family in speech",
+        "title_zh": "Haberman reveals why Trump attacked judge and his family in speech"
+      },
+      "伊斯兰": {
+        "title": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/melania-trump-chairs-un-meeting-on-children-days-after-iran-school-strike?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:45:37 +0000",
+        "description": "US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict.",
+        "title_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "title_zh": "Melania Trump chairs UN meeting on children days after Iran school strike"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：CNN political contributor Maggie Haberman explains the reasoning behind Donald Trump's attacks on the judge and his family during a speech at his Mar-a-Lago resort after he was arraigned on felony charges\n\n🌍 伊斯兰 **报道焦点**：US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 32词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: political, contributor, maggie | 🌍 伊斯兰: first, lady, melania\n3. **情感倾向**：🇺🇸 欧美: 偏负面 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "READ: Trump indictment related to hush money payment",
+      "event_hint_zh": "READ: Trump indictment related to hush money payment",
+      "event_hint_en": "READ: Trump indictment related to hush money payment",
+      "中国": null,
+      "美国": {
+        "title": "READ: Trump indictment related to hush money payment",
+        "link": "https://cnn.it/411KYN7",
+        "published": "",
+        "description": "",
+        "title_en": "READ: Trump indictment related to hush money payment",
+        "title_zh": "READ: Trump indictment related to hush money payment"
+      },
+      "伊斯兰": {
+        "title": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/melania-trump-chairs-un-meeting-on-children-days-after-iran-school-strike?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:45:37 +0000",
+        "description": "US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict.",
+        "title_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "title_zh": "Melania Trump chairs UN meeting on children days after Iran school strike"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：READ: Trump indictment related to hush money payment\n\n🌍 伊斯兰 **报道焦点**：US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: read, trump, indictment | 🌍 伊斯兰: first, lady, melania\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "French minister under fire for Playboy magazine cover",
+      "event_hint_zh": "French minister under fire for Playboy magazine cover",
+      "event_hint_en": "French minister under fire for Playboy magazine cover",
+      "中国": null,
+      "美国": {
+        "title": "French minister under fire for Playboy magazine cover",
+        "link": "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+        "published": "Mon, 03 Apr 2023 11:54:59 GMT",
+        "description": "French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine.",
+        "title_en": "French minister under fire for Playboy magazine cover",
+        "title_zh": "French minister under fire for Playboy magazine cover"
+      },
+      "伊斯兰": {
+        "title": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "link": "https://www.aljazeera.com/news/2026/3/3/us-embassy-in-saudi-capital-riyadh-hit-by-drones-fire-reported-ministry?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 02:35:36 +0000",
+        "description": "Saudi Defence Ministry says fire broke out at the embassy, but the compound sustained only &#039;minor&#039; damage.",
+        "title_en": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "title_zh": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine\n\n🌍 伊斯兰 **报道焦点**：Saudi Defence Ministry says fire broke out at the embassy, but the compound sustained only &#039;minor&#039; damage\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 24词 | 🌍 伊斯兰: 17词\n2. **关键词**：🇺🇸 欧美: french, government, minister | 🌍 伊斯兰: saudi, defence, ministry\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+      "event_hint_zh": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+      "event_hint_en": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+      "中国": null,
+      "美国": {
+        "title": "French minister under fire for Playboy magazine cover",
+        "link": "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+        "published": "Mon, 03 Apr 2023 11:54:59 GMT",
+        "description": "French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine.",
+        "title_en": "French minister under fire for Playboy magazine cover",
+        "title_zh": "French minister under fire for Playboy magazine cover"
+      },
+      "伊斯兰": {
+        "title": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "link": "https://www.aljazeera.com/news/2026/3/3/us-embassy-in-saudi-capital-riyadh-hit-by-drones-fire-reported-ministry?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 02:35:36 +0000",
+        "description": "Saudi Defence Ministry says fire broke out at the embassy, but the compound sustained only &#039;minor&#039; damage.",
+        "title_en": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry",
+        "title_zh": "US Embassy in Saudi capital Riyadh hit by drones, fire reported: Ministry"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：French government minister Marlene Schiappa has come under fire from members of her own party after appearing on the front cover of Playboy magazine\n\n🌍 伊斯兰 **报道焦点**：Saudi Defence Ministry says fire broke out at the embassy, but the compound sustained only &#039;minor&#039; damage\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 24词 | 🌍 伊斯兰: 17词\n2. **关键词**：🇺🇸 欧美: french, government, minister | 🌍 伊斯兰: saudi, defence, ministry\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "Melania Trump chairs UN meeting on children days after Iran school strike",
+      "event_hint_zh": "Melania Trump chairs UN meeting on children days after Iran school strike",
+      "event_hint_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+      "中国": null,
+      "美国": {
+        "title": "Trump pleads not guilty to 34 felony counts",
+        "link": "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+        "published": "",
+        "description": "",
+        "title_en": "Trump pleads not guilty to 34 felony counts",
+        "title_zh": "Trump pleads not guilty to 34 felony counts"
+      },
+      "伊斯兰": {
+        "title": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/3/melania-trump-chairs-un-meeting-on-children-days-after-iran-school-strike?traffic_source=rss",
+        "published": "Tue, 03 Mar 2026 00:45:37 +0000",
+        "description": "US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict.",
+        "title_en": "Melania Trump chairs UN meeting on children days after Iran school strike",
+        "title_zh": "Melania Trump chairs UN meeting on children days after Iran school strike"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：Trump pleads not guilty to 34 felony counts\n\n🌍 伊斯兰 **报道焦点**：US First Lady Melania Trump has presided over a UN Security Council meeting focusing on children in conflict\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 8词 | 🌍 伊斯兰: 18词\n2. **关键词**：🇺🇸 欧美: trump, pleads, guilty | 🌍 伊斯兰: first, lady, melania\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 偏负面\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    },
+    {
+      "event_hint": "What dangers does the Iran war pose for Israel?",
+      "event_hint_zh": "What dangers does the Iran war pose for Israel?",
+      "event_hint_en": "What dangers does the Iran war pose for Israel?",
+      "中国": null,
+      "美国": {
+        "title": "What to know about the Trump indictment on the eve of his court appearance",
+        "link": "https://www.cnn.com/collections/intl-trump-040223/",
+        "published": "Wed, 05 Apr 2023 22:50:06 GMT",
+        "description": "",
+        "title_en": "What to know about the Trump indictment on the eve of his court appearance",
+        "title_zh": "What to know about the Trump indictment on the eve of his court appearance"
+      },
+      "伊斯兰": {
+        "title": "What dangers does the Iran war pose for Israel?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/2/what-dangers-does-the-iran-war-pose-for-israel?traffic_source=rss",
+        "published": "Mon, 02 Mar 2026 21:38:51 +0000",
+        "description": "Both the collapse and survival of Iran&#039;s Islamic Republic pose risks.",
+        "title_en": "What dangers does the Iran war pose for Israel?",
+        "title_zh": "What dangers does the Iran war pose for Israel?"
+      },
+      "media_count": 2,
+      "score": 2,
+      "my_view": "🔍 我的深度分析（综合类）：\n\n1. **信息矩阵构建**：建议创建三方报道对比表格，列出事件核心要素（时间、地点、主体、行动、结果），再标注各方独有的背景补充、因果解释与价值判断。\n\n2. **信源可靠性评估**：查验各方引用的原始信源（官方文件、现场影像、专家访谈、数据报告），注意匿名信源与明确署名的差异，以及信源的时间戳与地理位置。\n\n3. **认知偏差识别**：警惕确认偏误（只关注支持自己观点的报道）、可得性偏误（过度依赖最易获取的信息）、框架效应（同一事实不同表述导致不同判断）。\n\n最终建议：重要事件应等待24-48小时，待更多信息浮现与事实核查完成后再形成稳定判断。\n\n📝 **基于三方报道内容的详细比较（综合类）**\n\n🇺🇸 欧美 **报道焦点**：What to know about the Trump indictment on the eve of his court appearance\n\n🌍 伊斯兰 **报道焦点**：Both the collapse and survival of Iran&#039;s Islamic Republic pose risks\n\n🔍 **深度文本分析**：\n1. **报道长度**：🇺🇸 欧美: 14词 | 🌍 伊斯兰: 11词\n2. **关键词**：🇺🇸 欧美: know, trump, indictment | 🌍 伊斯兰: both, collapse, survival\n3. **情感倾向**：🇺🇸 欧美: 中性 | 🌍 伊斯兰: 中性\n4. **报道角度**：三方均从各自常规框架报道此事。\n5. **事实侧重**：基于现有描述，三方报道的事实侧重差异不明显。\n6. **阅读建议**：综合三方内容可获得更完整图景——中国视角提供政策框架，欧美视角提供风险分析，半岛视角提供地面现实。\n",
+      "summary": "🔬 三方视角深度总结（综合类事件）\n\n📊 **本事件覆盖情况**：2/3 个视角报道（['中国', '美国']）\n\n🇺🇸 **欧美视角**：侧重个体权利、制度制衡、市场竞争与战略博弈；报道常采用批判性质疑角度，关注权力动态与潜在风险；在财经新闻中强调市场反应，在地缘新闻中分析安全影响。\n\n🌍 **伊斯兰/半岛视角**：往往从全球南方与发展中国家立场出发，关注现场细节、人道后果与权力不平等；报道风格更具叙事性，强调普通人的经历与情感；常为西方主流叙事提供重要的补充与制衡视角。\n\n📈 **基于本事件内容的分析建议**：\n1. 用中国视角理解政策意图与长期框架\n2. 用欧美视角评估市场反应与风险变量\n3. 用半岛视角感受现场现实与人文维度\n\n💡 **最终洞察**：真正的信息优势不在于获取更多同类报道，而在于同时掌握不同认知框架，从而在复杂世界中形成更立体、更抗偏差的判断能力。\n\n📋 **操作提示**：点击上方的'🔊 读分析'和'🔊 读总结'按钮可听取语音版分析。"
+    }
+  ],
+  "errors": {}
 }
