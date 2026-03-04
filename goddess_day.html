@@ -247,6 +247,10 @@
       <label>🎂 你的生日（选填）</label>
       <input type="date" id="inp-birthday" max="2030-12-31" min="1950-01-01">
     </div>
+    <div class="input-group">
+      <label>✍️ 贺卡落款（来自谁）</label>
+      <input type="text" id="inp-sign" placeholder="例如：小明、你最好的朋友…" maxlength="30" autocomplete="off">
+    </div>
     <button class="btn-unlock" onclick="unlockCard()">
       <span class="shine"></span>🌸 解锁专属贺卡
     </button>
@@ -444,7 +448,7 @@ const DEFAULT_B2 = `亲爱的{name}，
 今天，女神节与你的生日在此相遇，
 这份双重的幸运，只属于你。
 
-从2000年那个七月的盛夏起，
+从那个温柔的{birthday}起，
 这个世界因为你的到来
 变得更加明亮和温柔。
 
@@ -564,8 +568,11 @@ function unlockCard(){
     text=template.split('\n').filter(l=>!l.includes('{birthday}')).join('\n').replace(/\{name\}/g,name).trim();
   }
 
+  const signInput = document.getElementById('inp-sign').value.trim();
+  const signName = signInput || cfg.signName;
+
   document.getElementById('display-name').textContent=name;
-  document.getElementById('sign-name-display').textContent=cfg.signName;
+  document.getElementById('sign-name-display').textContent=signName;
   document.getElementById('card-date-display').textContent=new Date().toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'});
   document.getElementById('card-flowers').textContent=cfg.flowers;
   document.documentElement.style.setProperty('--primary',cfg.primaryColor);
@@ -584,6 +591,7 @@ function resetCard(){
   document.getElementById('card-reveal').style.display='none';
   document.getElementById('inp-name').value='';
   document.getElementById('inp-birthday').value='';
+  document.getElementById('inp-sign').value='';
 }
 
 document.addEventListener('keydown',e=>{
