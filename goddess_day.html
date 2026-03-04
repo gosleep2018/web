@@ -132,6 +132,55 @@
     font-family:'Dancing Script',cursive;font-size:15px;color:#b08090;margin-top:4px;
   }
   .card-flowers{text-align:center;font-size:28px;margin-top:20px;letter-spacing:8px;animation:float 3s ease-in-out infinite;}
+
+  /* ── B2 照片区 ── */
+  .card-photos{display:none;margin:24px 0 0;text-align:center;}
+  .card-photos.has-photos{display:block;}
+  .photos-wrap{display:flex;gap:16px;justify-content:center;align-items:flex-end;flex-wrap:wrap;}
+  .photo-frame{
+    position:relative;background:white;
+    padding:8px 8px 28px;
+    box-shadow:0 6px 20px rgba(0,0,0,.18),0 2px 6px rgba(0,0,0,.1);
+    border-radius:3px;flex-shrink:0;
+    transition:transform .3s;
+  }
+  .photo-frame:hover{transform:scale(1.04) rotate(0deg)!important;}
+  .photo-frame:nth-child(1){transform:rotate(-2.5deg);}
+  .photo-frame:nth-child(2){transform:rotate(2deg);}
+  .photo-frame img{
+    display:block;width:100%;height:100%;
+    object-fit:cover;border-radius:1px;
+  }
+  .photo-frame.single{width:180px;height:180px;}
+  .photo-frame.double{width:140px;height:140px;}
+  .photo-label{
+    position:absolute;bottom:6px;left:0;right:0;
+    text-align:center;font-family:'Dancing Script',cursive;
+    font-size:12px;color:#8a6060;
+  }
+  /* 后台上传区 */
+  .photo-upload-area{
+    display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;
+  }
+  .photo-slot{
+    flex:1;min-width:140px;
+    background:rgba(255,255,255,.05);border:1px dashed rgba(255,182,193,.35);
+    border-radius:12px;padding:14px;text-align:center;cursor:pointer;
+    transition:all .3s;position:relative;overflow:hidden;
+  }
+  .photo-slot:hover{border-color:var(--primary);background:rgba(232,120,154,.08);}
+  .photo-slot input[type="file"]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%;}
+  .photo-slot-thumb{width:100%;height:100px;object-fit:cover;border-radius:8px;display:none;margin-bottom:8px;}
+  .photo-slot-thumb.show{display:block;}
+  .photo-slot-icon{font-size:28px;margin-bottom:6px;}
+  .photo-slot-label{font-size:12px;color:rgba(255,182,193,.6);}
+  .photo-remove{
+    display:none;position:absolute;top:8px;right:8px;
+    background:rgba(255,50,80,.7);border:none;border-radius:50%;
+    width:22px;height:22px;color:white;font-size:14px;cursor:pointer;
+    line-height:22px;text-align:center;
+  }
+  .photo-remove.show{display:block;}
   @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
 
   /* 返回按钮 */
@@ -269,6 +318,9 @@
         <div class="sign-name" id="sign-name-display">—</div>
         <div class="card-date" id="card-date-display"></div>
       </div>
+      <div class="card-photos" id="card-photos">
+        <div class="photos-wrap" id="photos-wrap"></div>
+      </div>
       <div class="card-flowers" id="card-flowers">🌸 🌺 💐 🌼 🌷</div>
     </div>
     <div style="text-align:center;margin-top:20px;">
@@ -333,6 +385,24 @@
       <div class="adm-group">
         <label>💌 专属祝福语正文</label>
         <textarea id="adm-b2-content" oninput="updateB2Preview()" style="min-height:130px;"></textarea>
+      </div>
+      <div class="adm-group" style="margin-top:4px;">
+        <label>📷 贺卡照片（最多 2 张，存储于本地浏览器）</label>
+        <div class="photo-upload-area">
+          <div class="photo-slot" id="slot0" onclick="triggerUpload(0)">
+            <input type="file" id="file0" accept="image/*" onchange="handlePhoto(0,this)" onclick="event.stopPropagation()">
+            <img class="photo-slot-thumb" id="thumb0">
+            <div id="slot0-icon"><div class="photo-slot-icon">🖼️</div><div class="photo-slot-label">点击上传第 1 张</div></div>
+            <button class="photo-remove" id="remove0" onclick="event.stopPropagation();removePhoto(0)">×</button>
+          </div>
+          <div class="photo-slot" id="slot1" onclick="triggerUpload(1)">
+            <input type="file" id="file1" accept="image/*" onchange="handlePhoto(1,this)" onclick="event.stopPropagation()">
+            <img class="photo-slot-thumb" id="thumb1">
+            <div id="slot1-icon"><div class="photo-slot-icon">🖼️</div><div class="photo-slot-label">点击上传第 2 张（选填）</div></div>
+            <button class="photo-remove" id="remove1" onclick="event.stopPropagation();removePhoto(1)">×</button>
+          </div>
+        </div>
+        <div class="adm-tip">照片以 base64 存储在浏览器本地，不上传服务器。建议使用正方形图片效果最佳。</div>
       </div>
       <div>
         <div class="preview-label">PREVIEW · 预览</div>
@@ -466,7 +536,8 @@ const DEFAULTS = {
   signName: '深深爱你的人',
   flowers: '🌸 🌺 💐 🌼 🌷',
   primaryColor: '#e8789a',
-  adminPwd: 'goddess2024'
+  adminPwd: 'goddess2024',
+  b2Photos: []
 };
 
 function getCfg() {
@@ -577,6 +648,25 @@ function unlockCard(){
   document.getElementById('card-flowers').textContent=cfg.flowers;
   document.documentElement.style.setProperty('--primary',cfg.primaryColor);
 
+  // 照片：仅 B2 触发时展示
+  const photosEl=document.getElementById('card-photos');
+  const wrap=document.getElementById('photos-wrap');
+  wrap.innerHTML='';
+  const photos=(useB2 && cfg.b2Photos)||[];
+  const validPhotos=photos.filter(Boolean);
+  if(useB2 && validPhotos.length>0){
+    const cls=validPhotos.length===1?'single':'double';
+    validPhotos.forEach((src,i)=>{
+      const frame=document.createElement('div');
+      frame.className=`photo-frame ${cls}`;
+      frame.innerHTML=`<img src="${src}" alt="photo"><div class="photo-label">❤️</div>`;
+      wrap.appendChild(frame);
+    });
+    photosEl.classList.add('has-photos');
+  }else{
+    photosEl.classList.remove('has-photos');
+  }
+
   document.getElementById('input-box').style.display='none';
   const cr=document.getElementById('card-reveal');
   cr.style.display='block';cr.style.animation='none';
@@ -652,6 +742,53 @@ function getPoolFromUI(){
     .map(t=>t.value);
 }
 
+// ── 照片处理 ─────────────────────────────────────────────
+function triggerUpload(idx){ document.getElementById('file'+idx).click(); }
+
+function handlePhoto(idx, input){
+  const file=input.files[0]; if(!file) return;
+  const reader=new FileReader();
+  reader.onload=e=>{
+    const data=e.target.result;
+    // 存到临时 state（saveAdmin 时一起保存）
+    window._b2PhotosTemp=window._b2PhotosTemp||[null,null];
+    window._b2PhotosTemp[idx]=data;
+    // 更新预览
+    const thumb=document.getElementById('thumb'+idx);
+    thumb.src=data; thumb.classList.add('show');
+    document.getElementById('slot'+idx+'-icon').style.display='none';
+    document.getElementById('remove'+idx).classList.add('show');
+  };
+  reader.readAsDataURL(file);
+}
+
+function removePhoto(idx){
+  window._b2PhotosTemp=window._b2PhotosTemp||[null,null];
+  window._b2PhotosTemp[idx]=null;
+  document.getElementById('file'+idx).value='';
+  const thumb=document.getElementById('thumb'+idx);
+  thumb.src=''; thumb.classList.remove('show');
+  document.getElementById('slot'+idx+'-icon').style.display='';
+  document.getElementById('remove'+idx).classList.remove('show');
+}
+
+function loadPhotoSlotsFromCfg(photos){
+  window._b2PhotosTemp=[photos[0]||null, photos[1]||null];
+  [0,1].forEach(idx=>{
+    const src=window._b2PhotosTemp[idx];
+    const thumb=document.getElementById('thumb'+idx);
+    if(src){
+      thumb.src=src; thumb.classList.add('show');
+      document.getElementById('slot'+idx+'-icon').style.display='none';
+      document.getElementById('remove'+idx).classList.add('show');
+    }else{
+      thumb.src=''; thumb.classList.remove('show');
+      document.getElementById('slot'+idx+'-icon').style.display='';
+      document.getElementById('remove'+idx).classList.remove('show');
+    }
+  });
+}
+
 function updateB2Preview(){
   const text=document.getElementById('adm-b2-content').value.replace(/\{name\}/g,'小明').replace(/\{birthday\}/g,'2000年7月26日');
   document.getElementById('preview-b2').textContent=text||'—';
@@ -669,6 +806,7 @@ function openAdmin(){
   document.getElementById('adm-color').value=cfg.primaryColor;
   document.getElementById('adm-new-pwd').value='';
   document.getElementById('adm-new-pwd2').value='';
+  loadPhotoSlotsFromCfg(cfg.b2Photos||[]);
   updateB2Preview();
   document.getElementById('admin-panel').style.display='block';
 }
@@ -688,6 +826,7 @@ function saveAdmin(){
   if(newPwd&&newPwd!==newPwd2){alert('两次密码不一致！');return;}
   cfg.pool=getPoolFromUI();
   cfg.b2=document.getElementById('adm-b2-content').value;
+  cfg.b2Photos=(window._b2PhotosTemp||[null,null]).filter(Boolean);
   cfg.triggerName=document.getElementById('adm-trigger-name').value;
   cfg.triggerDate=document.getElementById('adm-trigger-date').value;
   cfg.signName=document.getElementById('adm-signname').value||DEFAULTS.signName;
