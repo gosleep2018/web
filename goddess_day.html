@@ -7,205 +7,221 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Ma+Shan+Zheng&family=Noto+Serif+SC:wght@300;400&display=swap" rel="stylesheet">
 <style>
   :root {
-    --primary: #e8789a; --secondary: #f5b8cb;
-    --gold: #d4a853; --light: #fff5f8; --dark: #5a2d3f;
-    --petal1: #ffb7c5; --petal2: #ffc8d5; --petal3: #ff9eb5;
+    --primary:#e8789a; --secondary:#f5b8cb;
+    --gold:#d4a853; --dark:#5a2d3f;
+    --petal1:#ffb7c5; --petal2:#ffc8d5; --petal3:#ff9eb5;
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body {
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
     min-height:100vh;
     background:linear-gradient(135deg,#1a0a10 0%,#3d1a2a 40%,#1a0a10 100%);
-    font-family:'Noto Serif SC',serif; overflow-x:hidden; position:relative;
+    font-family:'Noto Serif SC',serif; overflow-x:hidden;
   }
-  .stars { position:fixed; inset:0; pointer-events:none; z-index:0; }
-  .star {
-    position:absolute; border-radius:50%; background:white;
-    animation:twinkle var(--d,3s) ease-in-out infinite;
-  }
-  @keyframes twinkle {
-    0%,100%{opacity:0.2;transform:scale(1)} 50%{opacity:1;transform:scale(1.4)}
-  }
-  .petals { position:fixed; inset:0; pointer-events:none; z-index:1; overflow:hidden; }
-  .petal {
-    position:absolute; top:-40px;
-    width:var(--s,12px); height:var(--s,12px);
-    background:var(--c,var(--petal1)); border-radius:150% 0 150% 0;
+  .stars{position:fixed;inset:0;pointer-events:none;z-index:0;}
+  .star{position:absolute;border-radius:50%;background:white;animation:twinkle var(--d,3s) ease-in-out infinite;}
+  @keyframes twinkle{0%,100%{opacity:.2;transform:scale(1)}50%{opacity:1;transform:scale(1.4)}}
+  .petals{position:fixed;inset:0;pointer-events:none;z-index:1;overflow:hidden;}
+  .petal{
+    position:absolute;top:-40px;
+    width:var(--s,12px);height:var(--s,12px);
+    background:var(--c,var(--petal1));border-radius:150% 0 150% 0;
     animation:fall var(--d,8s) linear infinite;
-    opacity:0.75; left:var(--l,50%); animation-delay:var(--delay,0s);
+    opacity:.75;left:var(--l,50%);animation-delay:var(--delay,0s);
   }
-  @keyframes fall {
-    0%{transform:translateY(-40px) rotate(0deg);opacity:0.9}
+  @keyframes fall{
+    0%{transform:translateY(-40px) rotate(0deg);opacity:.9}
     100%{transform:translateY(110vh) rotate(720deg) translateX(40px);opacity:0}
   }
-  .container {
-    position:relative; z-index:10; min-height:100vh;
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
+  .container{
+    position:relative;z-index:10;min-height:100vh;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
     padding:40px 20px;
   }
-  .header { text-align:center; margin-bottom:36px; animation:fadeDown 1s ease both; }
-  .date-badge {
+  /* 标题 */
+  .header{text-align:center;margin-bottom:36px;animation:fadeDown 1s ease both;}
+  .date-badge{
     display:inline-block;
     background:linear-gradient(135deg,var(--gold),#f0d080);
-    color:#3d1a2a; padding:6px 20px; border-radius:20px;
-    font-size:13px; font-weight:bold; letter-spacing:3px; margin-bottom:16px;
+    color:#3d1a2a;padding:6px 20px;border-radius:20px;
+    font-size:13px;font-weight:bold;letter-spacing:3px;margin-bottom:16px;
   }
-  .header h1 {
+  .header h1{
     font-family:'Ma Shan Zheng',cursive;
     font-size:clamp(32px,7vw,64px);
     background:linear-gradient(135deg,#ffccd8,#fff5b0,#ffd6e0);
-    -webkit-background-clip:text; -webkit-text-fill-color:transparent;
-    line-height:1.2; filter:drop-shadow(0 2px 8px rgba(232,120,154,0.5));
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+    line-height:1.2;filter:drop-shadow(0 2px 8px rgba(232,120,154,.5));
   }
-  .header p { color:rgba(255,255,255,0.65); font-size:15px; margin-top:10px; letter-spacing:1px; }
+  .header p{color:rgba(255,255,255,.65);font-size:15px;margin-top:10px;letter-spacing:1px;}
+  /* 输入框 */
+  .card-box{
+    background:rgba(255,255,255,.07);backdrop-filter:blur(20px);
+    border:1px solid rgba(255,182,193,.25);border-radius:24px;
+    padding:40px 36px;width:100%;max-width:420px;
+    box-shadow:0 20px 60px rgba(0,0,0,.4),0 0 40px rgba(232,120,154,.15);
+    animation:fadeUp 1s ease .3s both;
+  }
+  .input-group{margin-bottom:22px;}
+  .input-group label{display:block;color:rgba(255,220,230,.85);font-size:13px;margin-bottom:8px;letter-spacing:1px;}
+  .input-group input{
+    width:100%;padding:14px 18px;
+    background:rgba(255,255,255,.08);border:1px solid rgba(255,182,193,.3);
+    border-radius:12px;color:white;font-size:16px;font-family:inherit;
+    outline:none;transition:all .3s;
+  }
+  .input-group input[type="date"]{color-scheme:dark;color:rgba(255,182,193,.9);}
+  .input-group input::placeholder{color:rgba(255,182,193,.4);}
+  .input-group input:focus{border-color:var(--primary);background:rgba(255,255,255,.12);box-shadow:0 0 0 3px rgba(232,120,154,.2);}
+  .btn-unlock{
+    width:100%;padding:16px;
+    background:linear-gradient(135deg,#e8789a,#c45580,#e8789a);background-size:200% 100%;
+    border:none;border-radius:14px;color:white;font-size:18px;
+    font-family:'Ma Shan Zheng',cursive;letter-spacing:4px;cursor:pointer;
+    transition:all .3s;position:relative;overflow:hidden;
+    box-shadow:0 8px 25px rgba(232,120,154,.5);
+  }
+  .btn-unlock:hover{transform:translateY(-2px);box-shadow:0 12px 35px rgba(232,120,154,.7);background-position:right;}
+  .btn-unlock .shine{
+    position:absolute;top:-50%;left:-60%;width:40%;height:200%;
+    background:linear-gradient(120deg,transparent,rgba(255,255,255,.35),transparent);
+    transform:skewX(-15deg);transition:0s;
+  }
+  .btn-unlock:hover .shine{left:120%;transition:left .5s;}
 
-  /* 输入卡片 */
-  .card-box {
-    background:rgba(255,255,255,0.07); backdrop-filter:blur(20px);
-    border:1px solid rgba(255,182,193,0.25); border-radius:24px;
-    padding:40px 36px; width:100%; max-width:420px;
-    box-shadow:0 20px 60px rgba(0,0,0,0.4),0 0 40px rgba(232,120,154,0.15);
-    animation:fadeUp 1s ease 0.3s both;
-  }
-  .input-group { margin-bottom:22px; }
-  .input-group label { display:block; color:rgba(255,220,230,0.85); font-size:13px; margin-bottom:8px; letter-spacing:1px; }
-  .input-group input {
-    width:100%; padding:14px 18px;
-    background:rgba(255,255,255,0.08); border:1px solid rgba(255,182,193,0.3);
-    border-radius:12px; color:white; font-size:16px; font-family:inherit;
-    outline:none; transition:all 0.3s;
-  }
-  .input-group input[type="date"] {
-    color-scheme: dark;
-    color:rgba(255,182,193,0.9);
-  }
-  .input-group input::placeholder { color:rgba(255,182,193,0.4); }
-  .input-group input:focus {
-    border-color:var(--primary); background:rgba(255,255,255,0.12);
-    box-shadow:0 0 0 3px rgba(232,120,154,0.2);
-  }
-  .btn-unlock {
-    width:100%; padding:16px;
-    background:linear-gradient(135deg,#e8789a,#c45580,#e8789a);
-    background-size:200% 100%; border:none; border-radius:14px;
-    color:white; font-size:18px; font-family:'Ma Shan Zheng',cursive;
-    letter-spacing:4px; cursor:pointer; transition:all 0.3s;
-    position:relative; overflow:hidden;
-    box-shadow:0 8px 25px rgba(232,120,154,0.5);
-  }
-  .btn-unlock:hover { transform:translateY(-2px); box-shadow:0 12px 35px rgba(232,120,154,0.7); background-position:right; }
-  .btn-unlock .btn-shine {
-    position:absolute; top:-50%; left:-60%; width:40%; height:200%;
-    background:linear-gradient(120deg,transparent,rgba(255,255,255,0.35),transparent);
-    transform:skewX(-15deg); transition:0s;
-  }
-  .btn-unlock:hover .btn-shine { left:120%; transition:left 0.5s; }
-
-  /* 贺卡 */
-  #card-reveal { display:none; width:100%; max-width:480px; animation:cardAppear 0.8s ease both; margin-top:30px; }
-  @keyframes cardAppear {
-    0%{opacity:0;transform:scale(0.8) translateY(30px)}
+  /* ── 贺卡 ── */
+  #card-reveal{display:none;width:100%;max-width:480px;margin-top:30px;animation:cardAppear .8s ease both;}
+  @keyframes cardAppear{
+    0%{opacity:0;transform:scale(.8) translateY(30px)}
     60%{transform:scale(1.03) translateY(-5px)}
     100%{opacity:1;transform:scale(1) translateY(0)}
   }
-  .greeting-card {
+  .greeting-card{
     background:linear-gradient(145deg,#fff8fa,#fff0f4,#fffde8);
-    border-radius:24px; padding:48px 36px; position:relative; overflow:hidden;
-    box-shadow:0 25px 70px rgba(0,0,0,0.5),0 0 0 1px rgba(212,168,83,0.4);
+    border-radius:24px;padding:48px 36px;position:relative;overflow:hidden;
+    box-shadow:0 25px 70px rgba(0,0,0,.5),0 0 0 1px rgba(212,168,83,.4);
   }
-  .greeting-card::before {
-    content:''; position:absolute; inset:0;
+  .greeting-card::before{
+    content:'';position:absolute;inset:0;
     background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23e8789a' fill-opacity='0.04'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/svg%3E");
     pointer-events:none;
   }
-  .card-deco-tl,.card-deco-br { position:absolute; font-size:80px; opacity:0.12; line-height:1; }
-  .card-deco-tl { top:-10px; left:-5px; transform:rotate(-20deg); }
-  .card-deco-br { bottom:-10px; right:-5px; transform:rotate(20deg); }
-  .card-to { font-family:'Ma Shan Zheng',cursive; font-size:22px; color:var(--dark); margin-bottom:24px; text-align:center; }
-  .card-to span { color:var(--primary); font-size:26px; }
-  .card-content { font-family:'Dancing Script',cursive; font-size:clamp(18px,4vw,24px); color:#4a2030; line-height:1.9; text-align:center; white-space:pre-wrap; min-height:80px; }
-  .card-divider { height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:24px 0; }
-  .card-sign { text-align:right; font-family:'Dancing Script',cursive; font-size:18px; color:#8a4060; }
-  .card-sign .sign-name { font-size:22px; font-weight:700; color:var(--dark); }
-  .card-date { font-size:13px; color:#b08090; margin-top:4px; }
-  .card-flowers { text-align:center; font-size:28px; margin-top:20px; letter-spacing:8px; animation:float 3s ease-in-out infinite; }
-  @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
-  @keyframes fadeDown { from{opacity:0;transform:translateY(-30px)} to{opacity:1;transform:translateY(0)} }
-  @keyframes fadeUp { from{opacity:0;transform:translateY(30px)} to{opacity:1;transform:translateY(0)} }
+  .card-deco-tl,.card-deco-br{position:absolute;font-size:80px;opacity:.12;line-height:1;}
+  .card-deco-tl{top:-10px;left:-5px;transform:rotate(-20deg);}
+  .card-deco-br{bottom:-10px;right:-5px;transform:rotate(20deg);}
+
+  /* 贺卡内所有文字 → 手写体 */
+  .card-to{
+    font-family:'Ma Shan Zheng',cursive;
+    font-size:24px;color:var(--dark);margin-bottom:24px;text-align:center;
+  }
+  .card-to span{color:var(--primary);font-size:28px;}
+  .card-content{
+    font-family:'Dancing Script',cursive;
+    font-size:clamp(19px,4vw,25px);color:#4a2030;
+    line-height:2;text-align:center;white-space:pre-wrap;min-height:80px;
+  }
+  .card-divider{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:24px 0;}
+  .card-sign{text-align:right;}
+  .card-sign .sign-label{
+    font-family:'Dancing Script',cursive;font-size:18px;color:#8a4060;
+  }
+  .card-sign .sign-name{
+    font-family:'Ma Shan Zheng',cursive;font-size:24px;font-weight:700;color:var(--dark);
+  }
+  .card-date{
+    font-family:'Dancing Script',cursive;font-size:15px;color:#b08090;margin-top:4px;
+  }
+  .card-flowers{text-align:center;font-size:28px;margin-top:20px;letter-spacing:8px;animation:float 3s ease-in-out infinite;}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+
+  /* 返回按钮 */
+  .btn-home{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);
+    color:white;padding:12px 32px;border-radius:24px;
+    font-size:15px;cursor:pointer;letter-spacing:2px;
+    transition:all .3s;font-family:'Ma Shan Zheng',cursive;
+  }
+  .btn-home:hover{background:rgba(255,255,255,.18);}
 
   /* 烟花 */
-  #fireworks { position:fixed; inset:0; pointer-events:none; z-index:100; }
+  #fireworks{position:fixed;inset:0;pointer-events:none;z-index:100;}
 
-  /* ── 管理员登录 ── */
-  .modal-overlay {
-    display:none; position:fixed; inset:0; z-index:998;
-    background:rgba(0,0,0,0.85); backdrop-filter:blur(10px);
-    padding:20px; overflow-y:auto; align-items:center; justify-content:center;
+  /* 登录弹窗 */
+  .modal-overlay{
+    display:none;position:fixed;inset:0;z-index:998;
+    background:rgba(0,0,0,.85);backdrop-filter:blur(10px);
+    padding:20px;overflow-y:auto;align-items:center;justify-content:center;
   }
-  .modal-overlay.show { display:flex; }
-  .modal-box {
-    background:#1a0a10; border:1px solid rgba(232,120,154,0.5);
-    border-radius:20px; padding:36px; width:100%; max-width:420px; color:white;
-    animation:fadeUp 0.4s ease;
+  .modal-overlay.show{display:flex;}
+  .modal-box{
+    background:#1a0a10;border:1px solid rgba(232,120,154,.5);
+    border-radius:20px;padding:36px;width:100%;max-width:420px;color:white;
+    animation:fadeUp .4s ease;
   }
-  .modal-box h2 { font-family:'Ma Shan Zheng',cursive; font-size:26px; color:var(--primary); text-align:center; margin-bottom:24px; }
-  .modal-group { margin-bottom:18px; }
-  .modal-group label { display:block; color:rgba(255,200,210,0.8); font-size:13px; margin-bottom:8px; }
-  .modal-group input {
-    width:100%; padding:12px 16px;
-    background:rgba(255,255,255,0.07); border:1px solid rgba(255,182,193,0.3);
-    border-radius:10px; color:white; font-size:15px; font-family:inherit; outline:none;
+  .modal-box h2{font-family:'Ma Shan Zheng',cursive;font-size:26px;color:var(--primary);text-align:center;margin-bottom:24px;}
+  .modal-group{margin-bottom:18px;}
+  .modal-group label{display:block;color:rgba(255,200,210,.8);font-size:13px;margin-bottom:8px;}
+  .modal-group input{
+    width:100%;padding:12px 16px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,182,193,.3);
+    border-radius:10px;color:white;font-size:15px;font-family:inherit;outline:none;
   }
-  .modal-group input:focus { border-color:var(--primary); box-shadow:0 0 0 3px rgba(232,120,154,0.2); }
-  .modal-err { color:#ff6b8a; font-size:13px; margin-top:8px; display:none; }
-  .btn-row { display:flex; gap:12px; margin-top:24px; }
-  .btn-primary {
-    flex:1; padding:14px; background:linear-gradient(135deg,#e8789a,#c45580);
-    border:none; border-radius:12px; color:white; font-size:16px;
-    font-family:'Ma Shan Zheng',cursive; letter-spacing:3px; cursor:pointer; transition:all 0.3s;
+  .modal-group input:focus{border-color:var(--primary);box-shadow:0 0 0 3px rgba(232,120,154,.2);}
+  .modal-err{color:#ff6b8a;font-size:13px;margin-top:8px;display:none;}
+  .btn-row{display:flex;gap:12px;margin-top:24px;}
+  .btn-primary{
+    flex:1;padding:14px;background:linear-gradient(135deg,#e8789a,#c45580);
+    border:none;border-radius:12px;color:white;font-size:16px;
+    font-family:'Ma Shan Zheng',cursive;letter-spacing:3px;cursor:pointer;transition:all .3s;
   }
-  .btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 20px rgba(232,120,154,0.5); }
-  .btn-ghost {
-    padding:14px 24px; background:rgba(255,255,255,0.1);
-    border:1px solid rgba(255,255,255,0.2); border-radius:12px;
-    color:white; font-size:15px; cursor:pointer; transition:all 0.3s;
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(232,120,154,.5);}
+  .btn-ghost{
+    padding:14px 24px;background:rgba(255,255,255,.1);
+    border:1px solid rgba(255,255,255,.2);border-radius:12px;
+    color:white;font-size:15px;cursor:pointer;transition:all .3s;
   }
-  .btn-ghost:hover { background:rgba(255,255,255,0.15); }
+  .btn-ghost:hover{background:rgba(255,255,255,.15);}
 
-  /* ── 管理后台 ── */
-  #admin-panel { display:none; position:fixed; inset:0; z-index:999; background:rgba(0,0,0,0.9); backdrop-filter:blur(10px); padding:20px; overflow-y:auto; }
-  .admin-box { background:#1a0a10; border:1px solid rgba(232,120,154,0.5); border-radius:20px; padding:36px; max-width:640px; margin:0 auto; color:white; }
-  .admin-box h2 { font-family:'Ma Shan Zheng',cursive; font-size:28px; color:var(--primary); margin-bottom:8px; text-align:center; }
-  .admin-subtitle { text-align:center; color:rgba(255,182,193,0.5); font-size:13px; margin-bottom:28px; }
-  .tab-bar { display:flex; gap:8px; margin-bottom:24px; background:rgba(255,255,255,0.05); border-radius:12px; padding:6px; }
-  .tab-btn {
-    flex:1; padding:10px; border:none; border-radius:8px; cursor:pointer;
-    font-size:14px; transition:all 0.3s; color:rgba(255,182,193,0.6); background:transparent;
-    font-family:inherit;
+  /* 管理后台 */
+  #admin-panel{display:none;position:fixed;inset:0;z-index:999;background:rgba(0,0,0,.9);backdrop-filter:blur(10px);padding:20px;overflow-y:auto;}
+  .admin-box{background:#1a0a10;border:1px solid rgba(232,120,154,.5);border-radius:20px;padding:36px;max-width:680px;margin:0 auto;color:white;}
+  .admin-box h2{font-family:'Ma Shan Zheng',cursive;font-size:28px;color:var(--primary);margin-bottom:8px;text-align:center;}
+  .admin-sub{text-align:center;color:rgba(255,182,193,.5);font-size:13px;margin-bottom:24px;}
+  .tab-bar{display:flex;gap:8px;margin-bottom:24px;background:rgba(255,255,255,.05);border-radius:12px;padding:6px;flex-wrap:wrap;}
+  .tab-btn{
+    flex:1;min-width:120px;padding:10px;border:none;border-radius:8px;cursor:pointer;
+    font-size:13px;transition:all .3s;color:rgba(255,182,193,.6);background:transparent;font-family:inherit;
   }
-  .tab-btn.active { background:var(--primary); color:white; font-weight:bold; }
-  .tab-pane { display:none; }
-  .tab-pane.active { display:block; }
-  .adm-group { margin-bottom:20px; }
-  .adm-group label { display:block; color:rgba(255,200,210,0.8); font-size:13px; margin-bottom:8px; letter-spacing:1px; }
-  .adm-group input,.adm-group textarea {
-    width:100%; padding:12px 16px;
-    background:rgba(255,255,255,0.07); border:1px solid rgba(255,182,193,0.3);
-    border-radius:10px; color:white; font-size:15px; outline:none; resize:vertical;
+  .tab-btn.active{background:var(--primary);color:white;font-weight:bold;}
+  .tab-pane{display:none;} .tab-pane.active{display:block;}
+  .adm-group{margin-bottom:18px;}
+  .adm-group label{display:block;color:rgba(255,200,210,.8);font-size:13px;margin-bottom:8px;letter-spacing:1px;}
+  .adm-group input,.adm-group textarea{
+    width:100%;padding:12px 16px;
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,182,193,.3);
+    border-radius:10px;color:white;font-size:15px;outline:none;resize:vertical;
   }
-  .adm-group textarea { min-height:110px; line-height:1.7; font-family:'Dancing Script',cursive; font-size:16px; }
-  .adm-group input[type="color"] { height:44px; padding:4px 8px; cursor:pointer; }
-  .adm-tip { font-size:12px; color:rgba(255,182,193,0.4); margin-top:6px; }
-  .preview-box { background:rgba(255,255,255,0.05); border-radius:10px; padding:16px; margin-top:12px; font-family:'Dancing Script',cursive; font-size:16px; color:rgba(255,200,210,0.8); line-height:1.8; white-space:pre-wrap; min-height:60px; }
-  .preview-label { font-size:11px; color:rgba(255,182,193,0.4); margin-bottom:8px; letter-spacing:2px; font-family:inherit; }
-  .toast { text-align:center; color:#7dffb3; font-size:14px; margin-top:12px; opacity:0; transition:opacity 0.3s; }
-  .section-title { font-size:13px; color:rgba(255,182,193,0.5); letter-spacing:2px; border-top:1px solid rgba(255,182,193,0.1); padding-top:16px; margin-bottom:16px; margin-top:8px; }
-  .rule-box { background:rgba(232,120,154,0.08); border:1px solid rgba(232,120,154,0.2); border-radius:10px; padding:16px; margin-bottom:20px; color:rgba(255,200,210,0.7); font-size:13px; line-height:1.8; }
-  .rule-box strong { color:rgba(255,150,180,0.9); }
+  .adm-group textarea{min-height:100px;line-height:1.7;font-family:'Dancing Script',cursive;font-size:16px;}
+  .adm-group input[type="color"]{height:44px;padding:4px 8px;cursor:pointer;}
+  .adm-tip{font-size:12px;color:rgba(255,182,193,.4);margin-top:6px;}
+  .pool-item{background:rgba(255,255,255,.04);border:1px solid rgba(255,182,193,.15);border-radius:10px;padding:14px;margin-bottom:12px;}
+  .pool-item-label{font-size:12px;color:rgba(255,182,193,.5);margin-bottom:8px;letter-spacing:1px;}
+  .pool-item textarea{min-height:90px;width:100%;padding:10px 14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,182,193,.2);border-radius:8px;color:white;font-family:'Dancing Script',cursive;font-size:15px;outline:none;resize:vertical;line-height:1.7;}
+  .preview-box{background:rgba(255,255,255,.05);border-radius:10px;padding:14px;margin-top:10px;font-family:'Dancing Script',cursive;font-size:16px;color:rgba(255,200,210,.8);line-height:1.8;white-space:pre-wrap;min-height:50px;}
+  .preview-label{font-size:11px;color:rgba(255,182,193,.4);margin-bottom:6px;letter-spacing:2px;font-family:inherit;}
+  .rule-box{background:rgba(232,120,154,.08);border:1px solid rgba(232,120,154,.2);border-radius:10px;padding:14px;margin-bottom:16px;color:rgba(255,200,210,.7);font-size:13px;line-height:1.8;}
+  .rule-box strong{color:rgba(255,150,180,.9);}
+  .section-title{font-size:13px;color:rgba(255,182,193,.5);letter-spacing:2px;border-top:1px solid rgba(255,182,193,.1);padding-top:16px;margin-bottom:16px;margin-top:8px;}
+  .toast{text-align:center;color:#7dffb3;font-size:14px;margin-top:12px;opacity:0;transition:opacity .3s;}
 
-  @media(max-width:480px) {
-    .card-box,#card-reveal { max-width:100%; }
-    .greeting-card { padding:36px 24px; }
-    .admin-box { padding:24px 18px; }
+  @keyframes fadeDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+  @keyframes fadeUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+
+  @media(max-width:480px){
+    .card-box,#card-reveal{max-width:100%;}
+    .greeting-card{padding:36px 20px;}
+    .admin-box{padding:20px 16px;}
   }
 </style>
 </head>
@@ -232,8 +248,7 @@
       <input type="date" id="inp-birthday" max="2030-12-31" min="1950-01-01">
     </div>
     <button class="btn-unlock" onclick="unlockCard()">
-      <span class="btn-shine"></span>
-      🌸 解锁专属贺卡
+      <span class="shine"></span>🌸 解锁专属贺卡
     </button>
   </div>
 
@@ -246,16 +261,14 @@
       <div class="card-content" id="card-text"></div>
       <div class="card-divider"></div>
       <div class="card-sign">
-        <div>爱你的</div>
+        <div class="sign-label">爱你的</div>
         <div class="sign-name" id="sign-name-display">—</div>
         <div class="card-date" id="card-date-display"></div>
       </div>
       <div class="card-flowers" id="card-flowers">🌸 🌺 💐 🌼 🌷</div>
     </div>
     <div style="text-align:center;margin-top:20px;">
-      <button onclick="resetCard()" style="background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.2);color:white;padding:12px 28px;border-radius:24px;font-size:14px;cursor:pointer;letter-spacing:2px;transition:all 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.18)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">
-        ← 换一位女神
-      </button>
+      <button class="btn-home" onclick="resetCard()">🏠 首页</button>
     </div>
   </div>
 </div>
@@ -280,51 +293,45 @@
 <div id="admin-panel">
   <div class="admin-box">
     <h2>🛠 贺卡管理后台</h2>
-    <div class="admin-subtitle">当前登录：管理员 · <a href="#" onclick="doLogout()" style="color:#ff9eb5;text-decoration:none;">退出登录</a></div>
+    <div class="admin-sub">当前登录：管理员 · <a href="#" onclick="doLogout()" style="color:#ff9eb5;text-decoration:none;">退出登录</a></div>
 
     <div class="tab-bar">
-      <button class="tab-btn active" onclick="switchTab('blessing1')">🌸 祝福语 1（默认）</button>
-      <button class="tab-btn" onclick="switchTab('blessing2')">💝 祝福语 2（专属）</button>
-      <button class="tab-btn" onclick="switchTab('settings')">⚙️ 全局设置</button>
+      <button class="tab-btn active" onclick="switchTab('pool',this)">🌸 祝福语池</button>
+      <button class="tab-btn" onclick="switchTab('special',this)">💝 专属祝福</button>
+      <button class="tab-btn" onclick="switchTab('settings',this)">⚙️ 全局设置</button>
     </div>
 
-    <!-- 祝福语1 -->
-    <div class="tab-pane active" id="tab-blessing1">
+    <!-- 祝福语池 -->
+    <div class="tab-pane active" id="tab-pool">
       <div class="rule-box">
-        📌 <strong>触发规则：</strong>默认祝福，适用于所有未匹配专属条件的访客。<br>
+        🎲 <strong>自动分配：</strong>系统根据访客姓名自动分配其中一套祝福，同一个人每次看到的内容一致，不同人看到的不同。<br>
+        支持变量：<strong>{name}</strong>（姓名）
+      </div>
+      <div id="pool-list"></div>
+      <button onclick="addPoolItem()" style="width:100%;padding:12px;background:rgba(232,120,154,.15);border:1px dashed rgba(232,120,154,.4);border-radius:10px;color:rgba(255,182,193,.7);cursor:pointer;font-size:14px;transition:all .3s;" onmouseover="this.style.background='rgba(232,120,154,.25)'" onmouseout="this.style.background='rgba(232,120,154,.15)'">+ 添加一套祝福语</button>
+    </div>
+
+    <!-- 专属祝福 -->
+    <div class="tab-pane" id="tab-special">
+      <div class="rule-box">
+        💝 <strong>触发规则：</strong>姓名包含指定字符 <strong>且</strong> 生日匹配指定日期时，显示专属祝福（优先级高于祝福语池）。<br>
         支持变量：<strong>{name}</strong>（姓名）、<strong>{birthday}</strong>（生日）
       </div>
       <div class="adm-group">
-        <label>💌 祝福语正文</label>
-        <textarea id="adm-b1-content" oninput="updatePreview('b1')"></textarea>
-      </div>
-      <div>
-        <div class="preview-label">PREVIEW · 预览效果</div>
-        <div class="preview-box" id="preview-b1"></div>
-      </div>
-    </div>
-
-    <!-- 祝福语2 -->
-    <div class="tab-pane" id="tab-blessing2">
-      <div class="rule-box">
-        💝 <strong>触发规则：</strong>当姓名包含指定字符 <strong>且</strong> 生日匹配指定日期时，显示此专属祝福。<br>
-        支持变量：<strong>{name}</strong>（姓名）、<strong>{birthday}</strong>（生日）
+        <label>🔑 触发条件 — 姓名包含</label>
+        <input type="text" id="adm-trigger-name" placeholder="例如：许（留空则不限）">
       </div>
       <div class="adm-group">
-        <label>🔑 触发条件 — 姓名包含（留空则不限）</label>
-        <input type="text" id="adm-trigger-name" placeholder="例如：许">
-      </div>
-      <div class="adm-group">
-        <label>📅 触发条件 — 生日匹配（留空则不限）</label>
+        <label>📅 触发条件 — 生日匹配</label>
         <input type="date" id="adm-trigger-date">
-        <div class="adm-tip">两个条件同时满足时才触发祝福语2</div>
+        <div class="adm-tip">两个条件同时满足才触发</div>
       </div>
       <div class="adm-group">
         <label>💌 专属祝福语正文</label>
-        <textarea id="adm-b2-content" oninput="updatePreview('b2')"></textarea>
+        <textarea id="adm-b2-content" oninput="updateB2Preview()" style="min-height:130px;"></textarea>
       </div>
       <div>
-        <div class="preview-label">PREVIEW · 预览效果</div>
+        <div class="preview-label">PREVIEW · 预览</div>
         <div class="preview-box" id="preview-b2"></div>
       </div>
     </div>
@@ -332,7 +339,7 @@
     <!-- 全局设置 -->
     <div class="tab-pane" id="tab-settings">
       <div class="adm-group">
-        <label>✍️ 署名（贺卡落款）</label>
+        <label>✍️ 贺卡落款署名</label>
         <input type="text" id="adm-signname" placeholder="例如：小明">
       </div>
       <div class="adm-group">
@@ -363,11 +370,11 @@
 </div>
 
 <script>
-// ── 默认配置 ─────────────────────────────────────────────
-const DEFAULTS = {
-  b1: `今天，整个世界都该为你绽放。
+// ── 默认祝福语池（6套，按姓名哈希分配）──────────────────
+const DEFAULT_POOL = [
+  `今天，整个世界都该为你绽放。
 
-你是春风，温柔而有力量；
+你是春风，温柔而有力量，
 你是星光，在最深的夜里指引方向。
 
 愿你永远被爱包围，
@@ -375,7 +382,64 @@ const DEFAULTS = {
 愿你今日如花，岁岁年年皆是女神。
 
 Happy Women's Day! 🌸`,
-  b2: `亲爱的{name}，
+
+  `{name}，
+
+你知道吗，
+有一种美丽，叫做你本来的样子。
+
+不需要任何修饰，
+你已经是这个世界上独一无二的存在。
+
+愿你永远自信，永远闪耀，
+今天是你的节日，也是你的宇宙。 🌺`,
+
+  `有人说，
+女神是天生的。
+
+但我知道，
+{name}，
+你的每一份温柔，
+都是岁月里用心积累的光芒。
+
+愿这光永远不灭，
+愿你岁岁年年，皆是盛开的模样。 💐`,
+
+  `{name}，
+
+世界上有多少朵花，
+就有多少种美丽。
+
+而你，
+是那朵让春风也忍不住驻足的花。
+
+女神节快乐，
+愿被爱，愿自由，愿所有好事如期而至。 🌼`,
+
+  `致{name}：
+
+你的笑容，
+是这个三月最美好的事物之一。
+
+你的存在，
+让身边的人感到幸运。
+
+愿这一天，
+所有的幸福都聚拢向你。 🌷`,
+
+  `{name}，
+
+今天不必做任何人的期待，
+只需要做最真实的自己。
+
+因为你本来的样子，
+已经足够令人心动。
+
+女神节快乐，
+永远被世界温柔以待。 ✨`
+];
+
+const DEFAULT_B2 = `亲爱的{name}，
 
 今天，女神节与你的生日在此相遇，
 这份双重的幸运，只属于你。
@@ -388,7 +452,11 @@ Happy Women's Day! 🌸`,
 你比任何花都要美丽动人。
 
 生日快乐，女神节快乐！
-💐 愿你年年如初，岁岁欢喜 💐`,
+💐 愿你年年如初，岁岁欢喜 💐`;
+
+const DEFAULTS = {
+  pool: DEFAULT_POOL,
+  b2: DEFAULT_B2,
   triggerName: '许',
   triggerDate: '2000-07-26',
   signName: '深深爱你的人',
@@ -399,221 +467,238 @@ Happy Women's Day! 🌸`,
 
 function getCfg() {
   try {
-    const s = localStorage.getItem('goddess_cfg_v2');
+    const s = localStorage.getItem('goddess_cfg_v3');
     return s ? {...DEFAULTS, ...JSON.parse(s)} : {...DEFAULTS};
   } catch { return {...DEFAULTS}; }
 }
-function saveCfg(cfg) {
-  localStorage.setItem('goddess_cfg_v2', JSON.stringify(cfg));
+function saveCfg(c) { localStorage.setItem('goddess_cfg_v3', JSON.stringify(c)); }
+
+// 姓名哈希 → 选祝福语
+function nameHash(str) {
+  let h = 0;
+  for (let i = 0; i < str.length; i++) h = (Math.imul(31, h) + str.charCodeAt(i)) | 0;
+  return Math.abs(h);
 }
 
-// ── 星星 & 花瓣 ───────────────────────────────────────────
-(function() {
+// ── 星星 & 花瓣 ──────────────────────────────────────────
+(function(){
   const c = document.getElementById('stars');
-  for (let i = 0; i < 80; i++) {
-    const s = document.createElement('div'); s.className = 'star';
-    const sz = Math.random()*2.5+0.5;
-    s.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;animation-delay:${Math.random()*4}s`;
+  for(let i=0;i<80;i++){
+    const s=document.createElement('div');s.className='star';
+    const sz=Math.random()*2.5+0.5;
+    s.style.cssText=`width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${2+Math.random()*4}s;animation-delay:${Math.random()*4}s`;
     c.appendChild(s);
   }
-  const p = document.getElementById('petals');
-  const colors = ['#ffb7c5','#ffc8d5','#ff9eb5','#ffd6e0','#ffe4ec','#d4a0b0'];
-  for (let i = 0; i < 18; i++) {
-    const el = document.createElement('div'); el.className = 'petal';
-    const sz = 8+Math.random()*14;
-    el.style.cssText = `--s:${sz}px;--c:${colors[~~(Math.random()*colors.length)]};--l:${Math.random()*100}%;--d:${7+Math.random()*8}s;animation-delay:${Math.random()*8}s`;
+  const p=document.getElementById('petals');
+  const colors=['#ffb7c5','#ffc8d5','#ff9eb5','#ffd6e0','#ffe4ec','#d4a0b0'];
+  for(let i=0;i<18;i++){
+    const el=document.createElement('div');el.className='petal';
+    const sz=8+Math.random()*14;
+    el.style.cssText=`--s:${sz}px;--c:${colors[~~(Math.random()*colors.length)]};--l:${Math.random()*100}%;--d:${7+Math.random()*8}s;animation-delay:${Math.random()*8}s`;
     p.appendChild(el);
   }
 })();
 
 // ── 烟花 ─────────────────────────────────────────────────
-const canvas = document.getElementById('fireworks');
-const ctx = canvas.getContext('2d');
-let particles = [];
-function resize() { canvas.width = innerWidth; canvas.height = innerHeight; }
-resize(); window.addEventListener('resize', resize);
-function boom(x, y) {
-  const colors = ['#ff9eb5','#ffd700','#ff6b9e','#fff','#ffb347','#c0f0ff'];
-  for (let i = 0; i < 60; i++) {
-    const a = Math.PI*2/60*i+Math.random()*.3, sp = 2+Math.random()*5;
-    particles.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,alpha:1,color:colors[~~(Math.random()*colors.length)],size:1+Math.random()*3,decay:.015+Math.random()*.01});
+const canvas=document.getElementById('fireworks'),ctx=canvas.getContext('2d');
+let pts=[];
+function resize(){canvas.width=innerWidth;canvas.height=innerHeight;}
+resize();window.addEventListener('resize',resize);
+function boom(x,y){
+  const colors=['#ff9eb5','#ffd700','#ff6b9e','#fff','#ffb347','#c0f0ff'];
+  for(let i=0;i<60;i++){
+    const a=Math.PI*2/60*i+Math.random()*.3,sp=2+Math.random()*5;
+    pts.push({x,y,vx:Math.cos(a)*sp,vy:Math.sin(a)*sp,alpha:1,color:colors[~~(Math.random()*colors.length)],size:1+Math.random()*3,decay:.015+Math.random()*.01});
   }
 }
-function animate() {
+function animate(){
   ctx.clearRect(0,0,canvas.width,canvas.height);
-  particles = particles.filter(p=>p.alpha>0);
-  particles.forEach(p=>{
-    p.x+=p.vx; p.y+=p.vy; p.vy+=.08; p.alpha-=p.decay;
-    ctx.globalAlpha=p.alpha; ctx.fillStyle=p.color;
-    ctx.beginPath(); ctx.arc(p.x,p.y,p.size,0,Math.PI*2); ctx.fill();
+  pts=pts.filter(p=>p.alpha>0);
+  pts.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;p.vy+=.08;p.alpha-=p.decay;
+    ctx.globalAlpha=p.alpha;ctx.fillStyle=p.color;
+    ctx.beginPath();ctx.arc(p.x,p.y,p.size,0,Math.PI*2);ctx.fill();
   });
-  ctx.globalAlpha=1; requestAnimationFrame(animate);
+  ctx.globalAlpha=1;requestAnimationFrame(animate);
 }
 animate();
-function launchFireworks() {
-  let n=0; const t=setInterval(()=>{
-    boom(Math.random()*innerWidth*.8+innerWidth*.1, Math.random()*innerHeight*.5+50);
-    if(++n>=6) clearInterval(t);
+function launchFireworks(){
+  let n=0;const t=setInterval(()=>{
+    boom(Math.random()*innerWidth*.8+innerWidth*.1,Math.random()*innerHeight*.5+50);
+    if(++n>=6)clearInterval(t);
   },300);
 }
 
 // ── 打字机 ───────────────────────────────────────────────
-function typeWriter(el, text, speed=35) {
-  el.textContent=''; let i=0;
-  const t=setInterval(()=>{ if(i<text.length){el.textContent+=text[i++];}else clearInterval(t); },speed);
+function typeWriter(el,text,speed=35){
+  el.textContent='';let i=0;
+  const t=setInterval(()=>{if(i<text.length){el.textContent+=text[i++];}else clearInterval(t);},speed);
 }
 
 // ── 解锁贺卡 ─────────────────────────────────────────────
-function unlockCard() {
-  const name = document.getElementById('inp-name').value.trim() || '亲爱的女神';
-  const dateVal = document.getElementById('inp-birthday').value; // yyyy-mm-dd
-  const cfg = getCfg();
+function unlockCard(){
+  const name=document.getElementById('inp-name').value.trim()||'亲爱的女神';
+  const dateVal=document.getElementById('inp-birthday').value;
+  const cfg=getCfg();
 
-  // 匹配逻辑
-  const nameMatch = cfg.triggerName ? name.includes(cfg.triggerName) : true;
-  const dateMatch = cfg.triggerDate ? (dateVal === cfg.triggerDate) : true;
-  const useB2 = nameMatch && dateMatch && dateVal;
+  // 是否触发专属祝福2
+  const nameMatch=cfg.triggerName?name.includes(cfg.triggerName):true;
+  const dateMatch=cfg.triggerDate?(dateVal===cfg.triggerDate):true;
+  const useB2=nameMatch&&dateMatch&&dateVal;
 
-  let template = useB2 ? cfg.b2 : cfg.b1;
-  let birthdayStr = dateVal ? new Date(dateVal+'T00:00:00').toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'}) : '';
-
-  let text;
-  if (birthdayStr) {
-    // 有生日：正常替换
-    text = template.replace(/\{name\}/g, name).replace(/\{birthday\}/g, birthdayStr);
-  } else {
-    // 无生日：删除含 {birthday} 的整行，再替换 {name}
-    text = template
-      .split('\n')
-      .filter(line => !line.includes('{birthday}'))
-      .join('\n')
-      .replace(/\{name\}/g, name)
-      .trim();
+  let template;
+  if(useB2){
+    template=cfg.b2;
+  }else{
+    // 按姓名哈希从祝福池中选
+    const pool=cfg.pool||DEFAULT_POOL;
+    template=pool[nameHash(name)%pool.length];
   }
 
-  // 设置卡片
-  document.getElementById('display-name').textContent = name;
-  document.getElementById('sign-name-display').textContent = cfg.signName;
-  document.getElementById('card-date-display').textContent = new Date().toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'});
-  document.getElementById('card-flowers').textContent = cfg.flowers;
-  document.documentElement.style.setProperty('--primary', cfg.primaryColor);
+  // 生日处理
+  let birthdayStr=dateVal?new Date(dateVal+'T00:00:00').toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'}):'';
+  let text;
+  if(birthdayStr){
+    text=template.replace(/\{name\}/g,name).replace(/\{birthday\}/g,birthdayStr);
+  }else{
+    text=template.split('\n').filter(l=>!l.includes('{birthday}')).join('\n').replace(/\{name\}/g,name).trim();
+  }
+
+  document.getElementById('display-name').textContent=name;
+  document.getElementById('sign-name-display').textContent=cfg.signName;
+  document.getElementById('card-date-display').textContent=new Date().toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'});
+  document.getElementById('card-flowers').textContent=cfg.flowers;
+  document.documentElement.style.setProperty('--primary',cfg.primaryColor);
 
   document.getElementById('input-box').style.display='none';
-  const cr = document.getElementById('card-reveal');
-  cr.style.display='block'; cr.style.animation='none';
+  const cr=document.getElementById('card-reveal');
+  cr.style.display='block';cr.style.animation='none';
   setTimeout(()=>cr.style.animation='',10);
-
-  typeWriter(document.getElementById('card-text'), text, 35);
-  setTimeout(launchFireworks, 400);
+  typeWriter(document.getElementById('card-text'),text,35);
+  setTimeout(launchFireworks,400);
   setTimeout(()=>cr.scrollIntoView({behavior:'smooth',block:'center'}),100);
 }
 
-function resetCard() {
+function resetCard(){
   document.getElementById('input-box').style.display='block';
   document.getElementById('card-reveal').style.display='none';
   document.getElementById('inp-name').value='';
   document.getElementById('inp-birthday').value='';
 }
 
-document.addEventListener('keydown', e=>{
-  if(e.key==='Enter' && document.getElementById('input-box').style.display!=='none') unlockCard();
+document.addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&document.getElementById('input-box').style.display!=='none')unlockCard();
 });
 
 // ── 登录 ─────────────────────────────────────────────────
-let isLoggedIn = false;
-
-function openLogin() {
+let isLoggedIn=false;
+function openLogin(){
   document.getElementById('login-modal').classList.add('show');
   document.getElementById('login-pwd').value='';
   document.getElementById('login-err').style.display='none';
   setTimeout(()=>document.getElementById('login-pwd').focus(),300);
 }
-function closeLogin() {
-  document.getElementById('login-modal').classList.remove('show');
+function closeLogin(){document.getElementById('login-modal').classList.remove('show');}
+function doLogin(){
+  const pwd=document.getElementById('login-pwd').value;
+  const cfg=getCfg();
+  if(pwd===cfg.adminPwd){isLoggedIn=true;closeLogin();openAdmin();}
+  else{document.getElementById('login-err').style.display='block';document.getElementById('login-pwd').value='';document.getElementById('login-pwd').focus();}
 }
-function doLogin() {
-  const pwd = document.getElementById('login-pwd').value;
-  const cfg = getCfg();
-  if(pwd === cfg.adminPwd) {
-    isLoggedIn = true;
-    closeLogin();
-    openAdmin();
-  } else {
-    document.getElementById('login-err').style.display='block';
-    document.getElementById('login-pwd').value='';
-    document.getElementById('login-pwd').focus();
-  }
-}
-function doLogout() {
-  isLoggedIn = false;
-  closeAdmin();
-}
+function doLogout(){isLoggedIn=false;closeAdmin();}
 
 // ── 后台 ─────────────────────────────────────────────────
-function openAdmin() {
-  if(!isLoggedIn) { openLogin(); return; }
-  const cfg = getCfg();
-  document.getElementById('adm-b1-content').value = cfg.b1;
-  document.getElementById('adm-b2-content').value = cfg.b2;
-  document.getElementById('adm-trigger-name').value = cfg.triggerName;
-  document.getElementById('adm-trigger-date').value = cfg.triggerDate;
-  document.getElementById('adm-signname').value = cfg.signName;
-  document.getElementById('adm-flowers').value = cfg.flowers;
-  document.getElementById('adm-color').value = cfg.primaryColor;
+function renderPoolList(pool){
+  const c=document.getElementById('pool-list');c.innerHTML='';
+  pool.forEach((t,i)=>{
+    const div=document.createElement('div');div.className='pool-item';
+    div.innerHTML=`<div class="pool-item-label">第 ${i+1} 套 · <span style="color:rgba(255,150,180,.6);font-size:11px;">姓名哈希末尾为 ${i} 时触发</span>
+      <button onclick="removePoolItem(${i})" style="float:right;background:rgba(255,80,80,.2);border:none;color:#ff9eb5;padding:2px 10px;border-radius:6px;cursor:pointer;font-size:12px;">删除</button></div>
+    <textarea data-idx="${i}" oninput="updatePoolPreview(${i})">${t}</textarea>
+    <div class="preview-label" style="margin-top:8px;">预览</div>
+    <div class="preview-box" id="pool-preview-${i}">${t.replace(/\{name\}/g,'小明').replace(/\{birthday\}/g,'生日')}</div>`;
+    c.appendChild(div);
+  });
+}
+
+function addPoolItem(){
+  const cfg=getCfg();
+  cfg.pool=getPoolFromUI();
+  cfg.pool.push('亲爱的{name}，\n\n在这个特别的日子，\n愿你被温柔对待。\n\nHappy Women\'s Day! 🌸');
+  renderPoolList(cfg.pool);
+}
+function removePoolItem(idx){
+  const pool=getPoolFromUI();
+  if(pool.length<=1){alert('至少保留一套祝福语');return;}
+  pool.splice(idx,1);
+  renderPoolList(pool);
+}
+function updatePoolPreview(idx){
+  const ta=document.querySelector(`textarea[data-idx="${idx}"]`);
+  const pre=document.getElementById(`pool-preview-${idx}`);
+  if(ta&&pre)pre.textContent=ta.value.replace(/\{name\}/g,'小明').replace(/\{birthday\}/g,'生日');
+}
+function getPoolFromUI(){
+  return Array.from(document.querySelectorAll('#pool-list textarea[data-idx]'))
+    .sort((a,b)=>+a.dataset.idx-+b.dataset.idx)
+    .map(t=>t.value);
+}
+
+function updateB2Preview(){
+  const text=document.getElementById('adm-b2-content').value.replace(/\{name\}/g,'小明').replace(/\{birthday\}/g,'2000年7月26日');
+  document.getElementById('preview-b2').textContent=text||'—';
+}
+
+function openAdmin(){
+  if(!isLoggedIn){openLogin();return;}
+  const cfg=getCfg();
+  renderPoolList(cfg.pool||DEFAULT_POOL);
+  document.getElementById('adm-b2-content').value=cfg.b2;
+  document.getElementById('adm-trigger-name').value=cfg.triggerName;
+  document.getElementById('adm-trigger-date').value=cfg.triggerDate;
+  document.getElementById('adm-signname').value=cfg.signName;
+  document.getElementById('adm-flowers').value=cfg.flowers;
+  document.getElementById('adm-color').value=cfg.primaryColor;
   document.getElementById('adm-new-pwd').value='';
   document.getElementById('adm-new-pwd2').value='';
-  updatePreview('b1'); updatePreview('b2');
+  updateB2Preview();
   document.getElementById('admin-panel').style.display='block';
 }
-function closeAdmin() { document.getElementById('admin-panel').style.display='none'; }
+function closeAdmin(){document.getElementById('admin-panel').style.display='none';}
 
-function switchTab(name) {
+function switchTab(name,btn){
   document.querySelectorAll('.tab-pane').forEach(p=>p.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
   document.getElementById('tab-'+name).classList.add('active');
-  event.target.classList.add('active');
+  btn.classList.add('active');
 }
 
-function updatePreview(which) {
-  const el = document.getElementById('adm-'+which+'-content');
-  const preview = document.getElementById('preview-'+which);
-  if(!el||!preview) return;
-  const text = el.value.replace(/\{name\}/g,'小明').replace(/\{birthday\}/g,'2000年7月26日');
-  preview.textContent = text||'—';
-}
-
-function saveAdmin() {
-  const cfg = getCfg();
-  const newPwd = document.getElementById('adm-new-pwd').value;
-  const newPwd2 = document.getElementById('adm-new-pwd2').value;
-
-  if(newPwd && newPwd !== newPwd2) {
-    alert('两次密码不一致！'); return;
-  }
-
-  cfg.b1 = document.getElementById('adm-b1-content').value;
-  cfg.b2 = document.getElementById('adm-b2-content').value;
-  cfg.triggerName = document.getElementById('adm-trigger-name').value;
-  cfg.triggerDate = document.getElementById('adm-trigger-date').value;
-  cfg.signName = document.getElementById('adm-signname').value || DEFAULTS.signName;
-  cfg.flowers = document.getElementById('adm-flowers').value || DEFAULTS.flowers;
-  cfg.primaryColor = document.getElementById('adm-color').value;
-  if(newPwd) cfg.adminPwd = newPwd;
-
+function saveAdmin(){
+  const cfg=getCfg();
+  const newPwd=document.getElementById('adm-new-pwd').value;
+  const newPwd2=document.getElementById('adm-new-pwd2').value;
+  if(newPwd&&newPwd!==newPwd2){alert('两次密码不一致！');return;}
+  cfg.pool=getPoolFromUI();
+  cfg.b2=document.getElementById('adm-b2-content').value;
+  cfg.triggerName=document.getElementById('adm-trigger-name').value;
+  cfg.triggerDate=document.getElementById('adm-trigger-date').value;
+  cfg.signName=document.getElementById('adm-signname').value||DEFAULTS.signName;
+  cfg.flowers=document.getElementById('adm-flowers').value||DEFAULTS.flowers;
+  cfg.primaryColor=document.getElementById('adm-color').value;
+  if(newPwd)cfg.adminPwd=newPwd;
   saveCfg(cfg);
-  const t = document.getElementById('save-toast');
-  t.style.opacity='1'; setTimeout(()=>t.style.opacity='0',2000);
+  const t=document.getElementById('save-toast');
+  t.style.opacity='1';setTimeout(()=>t.style.opacity='0',2000);
 }
 
 // ── URL & 彩蛋 ───────────────────────────────────────────
-if(new URLSearchParams(location.search).get('admin')==='1') {
-  window.addEventListener('load', openLogin);
-}
+if(new URLSearchParams(location.search).get('admin')==='1')
+  window.addEventListener('load',openLogin);
+
 let clicks=0,timer;
 document.querySelector('.header h1').addEventListener('click',()=>{
-  clicks++; clearTimeout(timer);
-  timer=setTimeout(()=>clicks=0,600);
-  if(clicks>=3){ openLogin(); clicks=0; }
+  clicks++;clearTimeout(timer);timer=setTimeout(()=>clicks=0,600);
+  if(clicks>=3){openLogin();clicks=0;}
 });
 </script>
 </body>
