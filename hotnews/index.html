@@ -77,6 +77,7 @@
       border-color:var(--pri3);
     }
     .zh a{color:#dbeafe;text-decoration:none;font-size:15px;font-weight:500} .zh a:hover{text-decoration:underline;color:#93c5fd}
+    .pub-time{font-size:12px;color:#64748b;margin-left:8px;letter-spacing:.3px}
     .en{color:#9cc3ff;font-size:14px;line-height:1.5;margin-top:8px;padding:8px 10px;background:rgba(59,130,246,.08);border-radius:8px;border-left:3px solid var(--accent)}
     .toolbar{display:flex;gap:8px;margin-top:12px}
     .btn{
@@ -280,19 +281,15 @@ window.readChinese=async (zh,btn)=>{const t=`${zh}`; await playText(t,btn)}
 
 function newsItem(it){
   const zh=it.title_zh||it.title||''; const en=it.title_en||it.title||'';
-  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a></div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🔊 读ZH/EN</button><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 EN</button></div></div>`;
+  const t=it.published?`<span class="pub-time">🕐 ${it.published}</span>`:'';
+  return `<div class="item"><div class="zh"><a href="${it.link}" target="_blank" rel="noreferrer">${zh}</a>${t}</div><div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readItem(${JSON.stringify(zh).replace(/"/g,'&quot;')},${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🔊 读ZH/EN</button><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 EN</button></div></div>`;
 }
 
 function triCol(title,item){
-  if(!item) return `<div class="col"><h4>${title}</h4><div class="en">暂无 / N/A</div></div>`;
+  if(!item) return `<div class="col"><h4>${title}</h4><div class="en" style="color:#4b5563">暂无相关报道</div></div>`;
   const zh=item.title_zh||item.title||''; const en=item.title_en||item.title||'';
-  let descHtml='';
-  if(item.description && item.description.trim()){
-    const desc=item.description;
-    const shortDesc=desc.length>150?desc.substring(0,147)+'...':desc;
-    descHtml=`<div class="desc" style="margin-top:10px;font-size:12px;color:#94a3b8;line-height:1.4;padding:8px;background:rgba(0,0,0,.1);border-radius:6px;border-left:2px solid #475569">${shortDesc}</div>`;
-  }
-  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div><div class="en">${en}</div>${descHtml}<div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 Read EN</button></div></div>`;
+  const t=item.published?`<div style="font-size:11px;color:#4b5563;margin-top:4px">🕐 ${item.published}</div>`:'';
+  return `<div class="col"><h4>${title}</h4><div class="zh"><a href="${item.link}" target="_blank">${zh}</a></div>${t}<div class="en">${en}</div><div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify(en).replace(/"/g,'&quot;')},this)">🗣 Read EN</button></div></div>`;
 }
 
 function switchTab(name){
@@ -318,9 +315,9 @@ async function load(){
       <div class="event">事件 ${i+1}：${e.event_hint_zh||e.event_hint||''}<span class="en">${e.event_hint_en||e.event_hint||''}</span></div>
       <div class="toolbar"><button class="btn" onclick="readEnglish(${JSON.stringify((e.event_hint_en||e.event_hint||'')).replace(/"/g,'&quot;')},this)">🗣 Event EN</button></div>
       <div class="triGrid">
-        ${triCol('中国视角 / China',e['中国'])}
-        ${triCol('欧美视角 / Western',e['美国'])}
-        ${triCol('伊斯兰视角 / Islamic',e['伊斯兰'])}
+        ${triCol('🇨🇳 中国视角',e['中国'])}
+        ${triCol('🌍 欧美视角',e['美国（欧美媒体）'])}
+        ${triCol('🕌 伊斯兰视角',e['伊斯兰（半岛等）'])}
       </div>
       <div class="insight">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
