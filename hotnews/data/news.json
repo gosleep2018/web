@@ -1,16 +1,65 @@
 {
-  "generated_at": "2026-03-05 09:53:40 +08",
+  "generated_at": "2026-03-05 12:39:35 +08",
   "generated_date": "2026-03-05",
-  "current_slot": "早",
+  "current_slot": "中",
   "slots_done": [
-    "早"
+    "早",
+    "中"
   ],
   "sources": {
     "中国": [
       {
+        "title": "科技部部长阴和俊：芯片攻关取得新突破",
+        "link": "https://www.163.com/news/article/KN8LS2VA000189PS.html",
+        "published": "2026-03-05 11:43",
+        "description": "",
+        "title_zh": "科技部部长阴和俊：芯片攻关取得新突破",
+        "title_en": "科技部部长阴和俊：芯片攻关取得新突破"
+      },
+      {
+        "title": "演员夫妇谈迪拜避难细节：住平房 告知家人银行卡密码",
+        "link": "https://www.163.com/dy/article/KN8IJ5NU055040N3.html",
+        "published": "2026-03-05 11:38",
+        "description": "",
+        "title_zh": "演员夫妇谈迪拜避难细节：住平房 告知家人银行卡密码",
+        "title_en": "演员夫妇谈迪拜避难细节：住平房 告知家人银行卡密码"
+      },
+      {
+        "title": "阿里CEO吴泳铭回应林俊旸离职：已决定批准 感谢付出",
+        "link": "https://www.163.com/dy/article/KN8J2EM40534A4SC.html",
+        "published": "2026-03-05 11:38",
+        "description": "",
+        "title_zh": "阿里CEO吴泳铭回应林俊旸离职：已决定批准 感谢付出",
+        "title_en": "阿里CEO吴泳铭回应林俊旸离职：已决定批准 感谢付出"
+      },
+      {
+        "title": "养老金月最低标准再提20元",
+        "link": "https://www.163.com/news/article/KN8FVC1P0001899O.html",
+        "published": "2026-03-05 10:38",
+        "description": "",
+        "title_zh": "养老金月最低标准再提20元",
+        "title_en": "养老金月最低标准再提20元"
+      },
+      {
+        "title": "居民医保人均补助标准提高24元",
+        "link": "https://www.163.com/news/article/KN8FT1QJ0001899O.html",
+        "published": "2026-03-05 10:38",
+        "description": "",
+        "title_zh": "居民医保人均补助标准提高24元",
+        "title_en": "居民医保人均补助标准提高24元"
+      },
+      {
+        "title": "一家3口滞留迪拜5天：曾听到美领馆附近有遇袭爆炸声",
+        "link": "https://www.163.com/dy/article/KN7GAEGO0514D3UH.html",
+        "published": "2026-03-05 09:38",
+        "description": "",
+        "title_zh": "一家3口滞留迪拜5天：曾听到美领馆附近有遇袭爆炸声",
+        "title_en": "一家3口滞留迪拜5天：曾听到美领馆附近有遇袭爆炸声"
+      },
+      {
         "title": "2025新能源汽车产量超1600万辆",
         "link": "https://www.163.com/news/article/KN8D37V20001899O.html",
-        "published": "2026-03-05 09:10",
+        "published": "2026-03-05 09:38",
         "description": "",
         "title_zh": "2025新能源汽车产量超1600万辆",
         "title_en": "2025新能源汽车产量超1600万辆"
@@ -18,7 +67,7 @@
       {
         "title": "政府工作报告：2025年GDP增长5%",
         "link": "https://www.163.com/news/article/KN8D004R0001899O.html",
-        "published": "2026-03-05 09:08",
+        "published": "2026-03-05 09:38",
         "description": "",
         "title_zh": "政府工作报告：2025年GDP增长5%",
         "title_en": "政府工作报告：2025年GDP增长5%"
@@ -26,7 +75,7 @@
       {
         "title": "只要4599块 苹果推出史上最低价的MacBook",
         "link": "https://www.163.com/dy/article/KN7KP6EI05198CJN.html",
-        "published": "2026-03-05 08:52",
+        "published": "2026-03-05 09:38",
         "description": "",
         "title_zh": "只要4599块 苹果推出史上最低价的MacBook",
         "title_en": "只要4599块 苹果推出史上最低价的MacBook"
@@ -34,15 +83,31 @@
       {
         "title": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效",
         "link": "https://www.163.com/dy/article/KN7I19P20514D3UH.html",
-        "published": "2026-03-05 07:52",
+        "published": "2026-03-05 07:38",
         "description": "",
         "title_zh": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效",
         "title_en": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效"
       },
       {
+        "title": "林俊旸离任被传与前Gemini团队成员＂空降＂千问有关",
+        "link": "https://www.163.com/dy/article/KN7GSJDS0512B07B.html",
+        "published": "2026-03-05 07:38",
+        "description": "",
+        "title_zh": "林俊旸离任被传与前Gemini团队成员＂空降＂千问有关",
+        "title_en": "林俊旸离任被传与前Gemini团队成员＂空降＂千问有关"
+      },
+      {
+        "title": "湖南中药学女大学生进山寻找草药视频走红 本人回应",
+        "link": "https://www.163.com/dy/article/KN75QNRK053469LG.html",
+        "published": "2026-03-04 22:38",
+        "description": "",
+        "title_zh": "湖南中药学女大学生进山寻找草药视频走红 本人回应",
+        "title_en": "湖南中药学女大学生进山寻找草药视频走红 本人回应"
+      },
+      {
         "title": "12岁世界功夫冠军街头表演被围观 曾创吉尼斯世界记录",
         "link": "https://www.163.com/dy/article/KN6CT9K9053469LG.html",
-        "published": "2026-03-04 14:52",
+        "published": "2026-03-04 14:38",
         "description": "",
         "title_zh": "12岁世界功夫冠军街头表演被围观 曾创吉尼斯世界记录",
         "title_en": "12岁世界功夫冠军街头表演被围观 曾创吉尼斯世界记录"
@@ -50,7 +115,7 @@
       {
         "title": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗",
         "link": "https://www.163.com/dy/article/KN6A91E5051492T3.html",
-        "published": "2026-03-04 13:52",
+        "published": "2026-03-04 14:38",
         "description": "",
         "title_zh": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗",
         "title_en": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗"
@@ -58,7 +123,7 @@
       {
         "title": "太子集团名下33辆豪车拍卖 当天拍出24辆约合9300万元",
         "link": "https://www.163.com/dy/article/KN648TEJ051492T3.html",
-        "published": "2026-03-04 12:52",
+        "published": "2026-03-04",
         "description": "",
         "title_zh": "太子集团名下33辆豪车拍卖 当天拍出24辆约合9300万元",
         "title_en": "太子集团名下33辆豪车拍卖 当天拍出24辆约合9300万元"
@@ -66,74 +131,10 @@
       {
         "title": "滞留迪拜港口中国船员：距爆炸点仅几百米",
         "link": "https://www.163.com/dy/article/KN60LKS3053469LG.html",
-        "published": "2026-03-04 11:52",
+        "published": "2026-03-04",
         "description": "",
         "title_zh": "滞留迪拜港口中国船员：距爆炸点仅几百米",
         "title_en": "滞留迪拜港口中国船员：距爆炸点仅几百米"
-      },
-      {
-        "title": "2621元买的利郎皮衣穿8天就开裂 商家：要修复需自费",
-        "link": "https://www.163.com/dy/article/KN604FP905561G0D.html",
-        "published": "2026-03-04 10:52",
-        "description": "",
-        "title_zh": "2621元买的利郎皮衣穿8天就开裂 商家：要修复需自费",
-        "title_en": "2621元买的利郎皮衣穿8天就开裂 商家：要修复需自费"
-      },
-      {
-        "title": "山东修高铁站挖出约5亿年前远古奇观 当地回应",
-        "link": "https://www.163.com/dy/article/KN5SU9FD053469LG.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "山东修高铁站挖出约5亿年前远古奇观 当地回应",
-        "title_en": "山东修高铁站挖出约5亿年前远古奇观 当地回应"
-      },
-      {
-        "title": "＂后天回家＂成最后留言 重庆男子独自赴迪拜旅游后失联",
-        "link": "https://www.163.com/dy/article/KN4TBE7O0514D3UH.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "＂后天回家＂成最后留言 重庆男子独自赴迪拜旅游后失联",
-        "title_en": "＂后天回家＂成最后留言 重庆男子独自赴迪拜旅游后失联"
-      },
-      {
-        "title": "阿里千问负责人林俊旸官宣离职 曾是阿里最年轻的P10",
-        "link": "https://www.163.com/dy/article/KN5HDVER0512B07B.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "阿里千问负责人林俊旸官宣离职 曾是阿里最年轻的P10",
-        "title_en": "阿里千问负责人林俊旸官宣离职 曾是阿里最年轻的P10"
-      },
-      {
-        "title": "全国政协委员彭静建议：禁止12岁以下坐副驾",
-        "link": "https://www.163.com/dy/article/KN4JNJQ00514BE2Q.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "全国政协委员彭静建议：禁止12岁以下坐副驾",
-        "title_en": "全国政协委员彭静建议：禁止12岁以下坐副驾"
-      },
-      {
-        "title": "王毅同以外长通电话：呼吁立即停止军事行动",
-        "link": "https://www.163.com/news/article/KN4IF7RJ000189PS.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "王毅同以外长通电话：呼吁立即停止军事行动",
-        "title_en": "王毅同以外长通电话：呼吁立即停止军事行动"
-      },
-      {
-        "title": "＂三桶油＂晚间齐发公告提示油价波动风险",
-        "link": "https://www.163.com/dy/article/KN4HECHK0534A4SC.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "＂三桶油＂晚间齐发公告提示油价波动风险",
-        "title_en": "＂三桶油＂晚间齐发公告提示油价波动风险"
-      },
-      {
-        "title": "全国人大代表方燕建议：家暴情形不适用离婚冷静期",
-        "link": "https://www.163.com/dy/article/KN463PPC05561G0D.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "全国人大代表方燕建议：家暴情形不适用离婚冷静期",
-        "title_en": "全国人大代表方燕建议：家暴情形不适用离婚冷静期"
       }
     ],
     "美国（欧美媒体）": [
@@ -152,6 +153,14 @@
         "description": "Sri Lanka's navy says around 140 people are feared missing after a military vessel went down off its southern coast.",
         "title_en": "US sub sinks Iranian warship in Indian Ocean, Hegseth says",
         "title_zh": "赫格塞斯称，美国潜艇在印度洋击沉了伊朗军舰"
+      },
+      {
+        "title": "China sets lowest economic growth target since 1991",
+        "link": "https://www.bbc.com/news/articles/cqxddwl93qjo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-05 11:10",
+        "description": "It is also the first time the target has been lowered since it was cut to \"around 5%\" in 2023.",
+        "title_en": "China sets lowest economic growth target since 1991",
+        "title_zh": "中国设定1991年以来最低经济增长目标"
       },
       {
         "title": "Spain's Pedro Sánchez hits back at Trump threat to sever trade saying 'no to war'",
@@ -256,14 +265,6 @@
         "description": "It is the fourth Australian death at a Japanese ski resort this year.",
         "title_en": "Australian girl, 8, killed in snowmobile accident in Japan",
         "title_zh": "澳大利亚8岁女孩在日本雪地摩托事故中丧生"
-      },
-      {
-        "title": "Gas and oil prices soar and shares tumble on fears conflict could escalate",
-        "link": "https://www.bbc.com/news/articles/cr5lz0vgy52o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-04 05:44",
-        "description": "Markets react as the conflict in the Middle East intensifies and concerns grow over how long it will last.",
-        "title_en": "Gas and oil prices soar and shares tumble on fears conflict could escalate",
-        "title_zh": "由于担心冲突可能升级，天然气和石油价格飙升，股价下跌"
       }
     ],
     "伊斯兰（半岛等）": [
@@ -405,7 +406,7 @@
       "中国": {
         "title": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗",
         "link": "https://www.163.com/dy/article/KN6A91E5051492T3.html",
-        "published": "2026-03-04 13:52",
+        "published": "2026-03-04 14:38",
         "description": "",
         "title_zh": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗",
         "title_en": "伊朗撤离同胞乘机抵京：进邻国第一眼就看到中国国旗"
@@ -426,8 +427,8 @@
         "title_en": "US Senate fails to advance war powers measure to rein in Trump’s Iran war",
         "title_zh": "美国参议院未能推进战争权力措施以遏制特朗普的伊朗战争"
       },
-      "my_view": "中国视角强调人道关怀与国家形象，欧美视角聚焦权力制衡的程序性结果，伊斯兰视角突出地区安全关切。三方分别从民族叙事、制度批判与地缘政治切入同一事件。",
-      "summary": "美国参议院未能通过限制总统对伊朗动武权力的法案，暴露其内部政治分歧与战争权争议。"
+      "my_view": "中国视角强调人道关怀与国家形象，欧美视角聚焦权力制衡的程序性结果，伊斯兰视角突出地区安全关切与对美强硬立场的警惕，三方分别体现外交叙事、制度监督与地缘政治立场差异。",
+      "summary": "美国参议院未能通过限制总统对伊朗动武权力的决议，暴露其国内政治制衡机制在战争权问题上的失效。"
     },
     {
       "event_hint": "Russia blames Ukrainian naval drones as tanker sinks in Mediterranean",
@@ -436,7 +437,7 @@
       "中国": {
         "title": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效",
         "link": "https://www.163.com/dy/article/KN7I19P20514D3UH.html",
-        "published": "2026-03-05 07:52",
+        "published": "2026-03-05 07:38",
         "description": "",
         "title_zh": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效",
         "title_en": "数百艘油轮船只被困霍尔木兹海峡 中国海员：GPS失效"
@@ -457,39 +458,8 @@
         "title_en": "Russia accuses Ukraine of drone attack as gas tanker sinks in Mediterranean",
         "title_zh": "俄罗斯指责乌克兰无人机袭击地中海油轮沉没"
       },
-      "my_view": "中国视角关联全球航运安全，弱化冲突强调经济影响；欧美视角直接呈现俄乌对抗叙事；伊斯兰视角聚焦能源设施遇袭，隐含地区安全关切。三方分别侧重经济、地缘政治与能源安全维度。",
-      "summary": "俄乌冲突外溢至海上能源运输通道，各方基于自身利益框架解读同一安全事件。"
-    },
-    {
-      "event_hint": "US and Ecuador forces launch operation to fight drug trafficking",
-      "event_hint_zh": "美国和厄瓜多尔联军发起打击贩毒行动",
-      "event_hint_en": "US and Ecuador forces launch operation to fight drug trafficking",
-      "中国": {
-        "title": "王毅同以外长通电话：呼吁立即停止军事行动",
-        "link": "https://www.163.com/news/article/KN4IF7RJ000189PS.html",
-        "published": "2026-03-04",
-        "description": "",
-        "title_zh": "王毅同以外长通电话：呼吁立即停止军事行动",
-        "title_en": "王毅同以外长通电话：呼吁立即停止军事行动"
-      },
-      "美国（欧美媒体）": {
-        "title": "US and Ecuador forces launch operation to fight drug trafficking",
-        "link": "https://www.bbc.com/news/articles/cgjzz4gn64zo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-05 00:45",
-        "description": "Washington says the two countries are combatting 'designated terrorist organisations' in Ecuador.",
-        "title_en": "US and Ecuador forces launch operation to fight drug trafficking",
-        "title_zh": "美国和厄瓜多尔联军发起打击贩毒行动"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump administration launches US military operation in Ecuador",
-        "link": "https://www.aljazeera.com/news/2026/3/4/trump-administration-launches-us-military-operation-in-ecuador?traffic_source=rss",
-        "published": "2026-03-05 06:42",
-        "description": "Critics have questioned the increasing scope and deadly consequences of US anti-narcotics operations in Latin America.",
-        "title_en": "Trump administration launches US military operation in Ecuador",
-        "title_zh": "特朗普政府在厄瓜多尔启动美国军事行动"
-      },
-      "my_view": "中国强调外交解决，呼吁停火体现和平立场；欧美聚焦行动本身，突出反毒正当性；伊斯兰视角将行动定义为美国单边军事介入，隐含主权关切。三方分别侧重道义、实效与主权维度。",
-      "summary": "美厄联合反毒行动在国际舆论中被分别解读为军事干预、执法合作与主权问题。"
+      "my_view": "中国视角将事件置于全球航运安全框架，弱化俄乌冲突；欧美视角直接呈现俄方指控，突出冲突主体；伊斯兰视角强调能源载体（gas tanker），反映地区对能源安全的敏感。三方分别体现战略模糊、冲突叙事与能源关切。",
+      "summary": "俄乌冲突外溢至海上能源运输领域，各方通过报道框架的选择传递自身地缘政治立场。"
     },
     {
       "event_hint": "Israel tells people in large parts of southern Lebanon to leave ahead of attacks",
@@ -512,39 +482,70 @@
         "title_en": "Israeli attacks, threats fuel mass displacement crisis in southern Lebanon",
         "title_zh": "以色列的袭击和威胁加剧了黎巴嫩南部的大规模流离失所危机"
       },
-      "my_view": "欧美标题侧重以色列的预警行为，呈现为军事行动前的程序性通知；伊斯兰标题强调袭击与威胁导致的人道危机，暗指以色列制造流离失所；中国未报道或反映其中立观望态度。",
-      "summary": "以色列以安全预警为由要求黎巴嫩南部居民撤离，引发地区人道危机与舆论立场分化。"
+      "my_view": "欧美标题客观陈述以色列指令，伊斯兰标题强调人道危机并归责以色列，中国未报道体现中立立场。三方差异在于对同一事实的因果归因与情感侧重。",
+      "summary": "以色列军事行动导致黎巴嫩南部平民被迫撤离，引发人道主义关切的地区冲突事件。"
     },
     {
-      "event_hint": "Trade court orders tariff refunds in setback for Trump administration",
-      "event_hint_zh": "贸易法庭下令退还关税，特朗普政府遭遇挫折",
-      "event_hint_en": "Trade court orders tariff refunds in setback for Trump administration",
+      "event_hint": "US and Ecuador forces launch operation to fight drug trafficking",
+      "event_hint_zh": "美国和厄瓜多尔联军发起打击贩毒行动",
+      "event_hint_en": "US and Ecuador forces launch operation to fight drug trafficking",
       "中国": {
         "title": "政府工作报告：2025年GDP增长5%",
         "link": "https://www.163.com/news/article/KN8D004R0001899O.html",
-        "published": "2026-03-05 09:08",
+        "published": "2026-03-05 09:38",
         "description": "",
         "title_zh": "政府工作报告：2025年GDP增长5%",
         "title_en": "政府工作报告：2025年GDP增长5%"
       },
       "美国（欧美媒体）": {
-        "title": "Trade court orders tariff refunds in setback for Trump administration",
-        "link": "https://www.bbc.com/news/articles/c1d66k5r1x4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-05 08:13",
-        "description": "A trade court has cleared the way for businesses to receive refunds for tariffs that the Supreme Court struck down last month.",
-        "title_en": "Trade court orders tariff refunds in setback for Trump administration",
-        "title_zh": "贸易法庭下令退还关税，特朗普政府遭遇挫折"
+        "title": "US and Ecuador forces launch operation to fight drug trafficking",
+        "link": "https://www.bbc.com/news/articles/cgjzz4gn64zo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-05 00:45",
+        "description": "Washington says the two countries are combatting 'designated terrorist organisations' in Ecuador.",
+        "title_en": "US and Ecuador forces launch operation to fight drug trafficking",
+        "title_zh": "美国和厄瓜多尔联军发起打击贩毒行动"
       },
       "伊斯兰（半岛等）": {
-        "title": "Why Washington can’t stop Trump on Iran",
-        "link": "https://www.aljazeera.com/video/the-take-2/2026/3/4/aje-onl-tt_usa_usairanwed_av_v2-040326?traffic_source=rss",
-        "published": "2026-03-05 05:05",
-        "description": "Trump has launched strikes on Iran while Congress debates war powers.",
-        "title_en": "Why Washington can’t stop Trump on Iran",
-        "title_zh": "为什么华盛顿无法在伊朗问题上阻止特朗普"
+        "title": "Trump administration launches US military operation in Ecuador",
+        "link": "https://www.aljazeera.com/news/2026/3/4/trump-administration-launches-us-military-operation-in-ecuador?traffic_source=rss",
+        "published": "2026-03-05 06:42",
+        "description": "Critics have questioned the increasing scope and deadly consequences of US anti-narcotics operations in Latin America.",
+        "title_en": "Trump administration launches US military operation in Ecuador",
+        "title_zh": "特朗普政府在厄瓜多尔启动美国军事行动"
       },
-      "my_view": "中国报道回避贸易争端，聚焦国内经济目标；欧美媒体强调司法对特朗普政府的制衡；伊斯兰视角则关联伊朗议题，暗示美国内部分歧。三方分别体现回避立场、制度监督和地缘政治解读。",
-      "summary": "贸易法庭裁决折射美国国内政治博弈与国际贸易规则冲突。"
+      "my_view": "网易淡化国际冲突聚焦国内发展，BBC客观陈述军事合作，半岛强调美国单边行动并隐含主权干涉倾向，反映各自地缘政治立场与叙事框架差异。",
+      "summary": "美厄联合缉毒行动被不同媒体基于自身立场分别呈现为国内发展、国际合作或霸权干预。"
+    },
+    {
+      "event_hint": "Nigerian doctors suspended over death of author Chimamanda Ngozi Adichie's son",
+      "event_hint_zh": "尼日利亚医生因作家 Chimamanda Ngozi Adichie 儿子死亡而被停职",
+      "event_hint_en": "Nigerian doctors suspended over death of author Chimamanda Ngozi Adichie's son",
+      "中国": {
+        "title": "科技部部长阴和俊：芯片攻关取得新突破",
+        "link": "https://www.163.com/news/article/KN8LS2VA000189PS.html",
+        "published": "2026-03-05 11:43",
+        "description": "",
+        "title_zh": "科技部部长阴和俊：芯片攻关取得新突破",
+        "title_en": "科技部部长阴和俊：芯片攻关取得新突破"
+      },
+      "美国（欧美媒体）": {
+        "title": "Nigerian doctors suspended over death of author Chimamanda Ngozi Adichie's son",
+        "link": "https://www.bbc.com/news/articles/cp8rrk5ngngo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-04 22:17",
+        "description": "The author's 21-month-old son died in January after complications during medical procedures at a private hospital in Lagos.",
+        "title_en": "Nigerian doctors suspended over death of author Chimamanda Ngozi Adichie's son",
+        "title_zh": "尼日利亚医生因作家 Chimamanda Ngozi Adichie 儿子死亡而被停职"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Death toll in Iran surpasses 1,000 as Israel-US strikes continue",
+        "link": "https://www.aljazeera.com/news/2026/3/4/death-toll-in-iran-surpasses-1000-as-israel-us-strikes-continue?traffic_source=rss",
+        "published": "2026-03-05 07:23",
+        "description": "A funeral for the country&#039;s Supreme leader Ayatollah Ali Khamenei has been postponed amid explosions.",
+        "title_en": "Death toll in Iran surpasses 1,000 as Israel-US strikes continue",
+        "title_zh": "以美空袭持续，伊朗死亡人数突破1000人"
+      },
+      "my_view": "网易聚焦国内科技成就，体现发展优先的叙事；BBC关注个体医疗事件，强调问责与人权；半岛电视台突出地区冲突伤亡，反映反西方立场。三方分别呈现内宣优先、个体关怀与地缘政治批判。",
+      "summary": "尼日利亚医生因知名作家之子死亡被停职，事件本质是医疗责任与公众人物社会影响力交织的问责案例。"
     },
     {
       "event_hint": "Australian girl, 8, killed in snowmobile accident in Japan",
@@ -567,8 +568,8 @@
         "title_en": "More than 200 killed in landslide at DRC coltan mine",
         "title_zh": "刚果钶钽矿山体滑坡已造成200多人死亡"
       },
-      "my_view": "欧美报道聚焦具体个案，体现对公民海外安全的关注；伊斯兰媒体选择报道其他地区重大伤亡事件，反映其关注资源冲突与全球南方议题的立场差异；中国媒体未报道此事，可能基于新闻选择性考量。",
-      "summary": "澳大利亚女童在日本遭遇雪地摩托事故身亡，是一起涉及跨国旅游安全的意外悲剧。"
+      "my_view": "欧美报道聚焦个体悲剧，体现人文关怀；伊斯兰媒体借同类灾难转移视线，隐含资源掠夺批判；中国媒体未报道此事，可能基于外交考量或新闻价值判断。",
+      "summary": "一名澳大利亚儿童在日本遭遇意外身亡，不同媒体基于自身立场选择了报道、淡化或转移话题的处理方式。"
     }
   ]
 }
