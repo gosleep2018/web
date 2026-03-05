@@ -1,256 +1,364 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<!-- 每日词汇更新 2026-03-02 08:00:44 -->
-<!-- 每日词汇更新 2026-03-01 08:00:50 -->
-<!-- 每日词汇更新 2026-02-28 08:00:42 -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🏴󠁧󠁢󠁷󠁬󠁳󠁿 威尔士语学习 | 面向英语使用者的快速入门平台</title>
-  <meta name="description" content="专为英语使用者设计的威尔士语快速入门平台，包含词根词缀分析、记忆技巧、扩展学习和Azure TTS发音">
-  <meta name="keywords" content="威尔士语, Welsh, Cymraeg, 语言学习, 词根词缀, 记忆技巧, TTS发音">
-  
-  <!-- 样式 -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <!-- 图标 -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏴󠁧󠁢󠁷󠁬󠁳󠁿</text></svg>">
-  
-  <!-- 预加载关键资源 -->
-  <link rel="preconnect" href="https://web-x0ya.onrender.com">
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>雅思每日10词 - Azure TTS专业发音</title>
   <style>
-    /* 初始加载样式 */
-    #loadingScreen {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(135deg, #008751 0%, #1a1a2e 100%);
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      z-index: 9999;
-      transition: opacity 0.5s;
-    }
-    
-    .loading-logo {
-      font-size: 4rem;
-      margin-bottom: 20px;
-      animation: pulse 2s infinite;
-    }
-    
-    .loading-text {
-      color: white;
-      font-size: 1.5rem;
-      margin-top: 20px;
-    }
-    
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
-    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:#0f172a;color:#e2e8f0}
+    .wrap{max-width:960px;margin:0 auto;padding:20px}
+    h1{font-size:32px;margin:20px 0 10px;text-align:center}
+    .sub{text-align:center;color:#94a3b8;margin-bottom:30px}
+    .tts-badge{background:#10b981;color:#fff;padding:4px 12px;border-radius:12px;font-size:14px;margin-left:8px}
+    .card{background:#1e293b;border-radius:12px;padding:24px;margin-bottom:20px;box-shadow:0 4px 6px rgba(0,0,0,0.2)}
+    .card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+    .word{font-size:28px;font-weight:bold;color:#60a5fa}
+    .phonetic{color:#94a3b8;font-size:16px;margin-left:12px}
+    .level{background:#8b5cf6;color:#fff;padding:4px 8px;border-radius:6px;font-size:12px}
+    .meaning{font-size:18px;margin:12px 0;color:#fbbf24}
+    .definition{color:#94a3b8;margin:8px 0;line-height:1.6}
+    .example{background:#334155;padding:12px;border-radius:8px;margin:12px 0;border-left:3px solid #10b981}
+    .example-text{margin-bottom:6px}
+    .example-trans{color:#94a3b8;font-size:14px}
+    .btn-group{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+    button{background:#3b82f6;color:#fff;border:none;padding:10px 20px;border-radius:8px;cursor:pointer;font-size:14px;transition:all 0.2s}
+    button:hover{background:#2563eb;transform:translateY(-1px)}
+    button:active{transform:translateY(0)}
+    .btn-success{background:#10b981}
+    .btn-success:hover{background:#059669}
+    .btn-danger{background:#ef4444}
+    .btn-danger:hover{background:#dc2626}
+    .muted{color:#64748b;font-size:14px}
+    .history-section{margin-top:40px}
+    .history-item{background:#1e293b;border-radius:12px;padding:16px;margin-bottom:12px}
+    .history-header{display:flex;justify-content:space-between;align-items:center;cursor:pointer;padding:8px;border-radius:8px;transition:background 0.2s}
+    .history-header:hover{background:#334155}
+    .history-date{font-size:18px;font-weight:bold;color:#60a5fa}
+    .history-badge{background:#334155;color:#94a3b8;padding:4px 12px;border-radius:6px;font-size:14px}
+    .history-words{margin-top:16px;display:none}
+    .history-words.active{display:block}
+    .history-word-item{background:#334155;padding:12px;border-radius:8px;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+    .history-word-main{flex:1}
+    .history-word-text{font-size:16px;color:#e2e8f0}
+    .history-word-phonetic{color:#94a3b8;font-size:14px;margin-left:8px}
+    .history-word-meaning{color:#fbbf24;font-size:14px;margin-top:4px}
+    .stats{background:#1e293b;border-radius:12px;padding:20px;margin-top:20px;text-align:center}
+    .stats-number{font-size:36px;font-weight:bold;color:#10b981}
+    .stats-label{color:#94a3b8;margin-top:8px}
+    #loading{display:none;color:#10b981;font-size:14px;margin-left:8px}
+    .progress-bar{background:#334155;height:8px;border-radius:4px;margin:20px 0;overflow:hidden}
+    .progress-fill{background:linear-gradient(90deg,#10b981,#60a5fa);height:100%;transition:width 0.3s}
   </style>
 </head>
 <body>
-  <!-- 加载屏幕 -->
-  <div id="loadingScreen">
-    <div class="loading-logo">🏴󠁧󠁢󠁷󠁬󠁳󠁿</div>
-    <div class="spinner"></div>
-    <div class="loading-text">正在加载威尔士学习平台...</div>
-  </div>
-
-  <!-- 主容器 -->
-  <div class="container" style="display: none;" id="mainContainer">
-    <!-- 头部 -->
-    <header class="header">
-      <h1>
-        <span>🏴󠁧󠁢󠁷󠁬󠁳󠁿</span>
-        威尔士语学习平台
-      </h1>
-      <div class="subtitle">面向英语使用者的快速入门 • 词根词缀分析 • 记忆技巧 • Azure TTS发音</div>
-      <div class="tagline">4周掌握100高频表达 • 能进行3分钟基础对话</div>
-      <div style="margin-top: 15px; font-size: 0.9rem; color: #666;">
-        <i class="fas fa-calendar-alt"></i> 当前日期: <span id="currentDate"></span>
-      </div>
-    </header>
-
-    <div class="main-content">
-      <!-- 侧边栏 - 学习导航 -->
-      <aside class="sidebar">
-        <div class="sidebar-section">
-          <h3 class="sidebar-title">
-            <i class="fas fa-compass"></i> 学习导航
-          </h3>
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#" class="nav-link active" data-module="dailyWords">
-                <i class="fas fa-book-open"></i>
-                <span>每日词汇</span>
-                <span class="badge">5</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" data-module="commonPhrases">
-                <i class="fas fa-comments"></i>
-                <span>常用短语</span>
-                <span class="badge">即将推出</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" data-module="pronunciation">
-                <i class="fas fa-volume-up"></i>
-                <span>发音练习</span>
-                <span class="badge">即将推出</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" data-module="culture">
-                <i class="fas fa-landmark"></i>
-                <span>威尔士文化</span>
-                <span class="badge">即将推出</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="sidebar-section">
-          <h3 class="sidebar-title">
-            <i class="fas fa-sliders-h"></i> 学习设置
-          </h3>
-          <div class="settings">
-            <div class="setting-item">
-              <label class="toggle-label">
-                <input type="checkbox" id="togglePrefix" checked>
-                <span>显示词根词缀</span>
-              </label>
-            </div>
-            <div class="setting-item">
-              <label class="toggle-label">
-                <input type="checkbox" id="toggleMemory" checked>
-                <span>显示记忆技巧</span>
-              </label>
-            </div>
-            <div class="setting-item">
-              <label class="toggle-label">
-                <input type="checkbox" id="toggleExtensions" checked>
-                <span>显示扩展学习</span>
-              </label>
-            </div>
-            <div class="setting-item">
-              <label class="toggle-label">
-                <input type="checkbox" id="toggleAutoPlay">
-                <span>自动播放发音</span>
-              </label>
-            </div>
-            <div class="setting-item">
-              <label for="learningMode">学习模式:</label>
-              <select id="learningMode" class="form-select">
-                <option value="quick">快速模式</option>
-                <option value="balanced" selected>平衡模式</option>
-                <option value="deep">深度模式</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-        <div class="progress-section">
-          <h3 class="sidebar-title">
-            <i class="fas fa-chart-line"></i> 学习进度
-          </h3>
-          <div class="progress-bar">
-            <div class="progress-fill" id="progressFill"></div>
-          </div>
-          <div class="progress-text" id="progressText">
-            进度: 0/5 单词 (0%)
-          </div>
-          <div id="progressStats"></div>
-          <div style="margin-top: 15px; font-size: 0.9rem; color: #666;">
-            <i class="fas fa-bullseye"></i> 目标: 4周掌握100高频表达
-          </div>
-        </div>
-
-        <div style="margin-top: 20px; padding: 15px; background: #f8f9fa; border-radius: 10px;">
-          <h4 style="margin-bottom: 10px; color: var(--welsh-red);">
-            <i class="fas fa-info-circle"></i> 学习提示
-          </h4>
-          <p style="font-size: 0.9rem; line-height: 1.5;">
-            作为英语使用者，你可以利用同源词和相似发音加速学习威尔士语。重点关注发音规则和常用表达。
-          </p>
-        </div>
-      </aside>
-
-      <!-- 主学习区 -->
-      <main class="learning-area">
-        <div class="section-header">
-          <h2 class="section-title" id="moduleTitle">每日威尔士语词汇</h2>
-          <div class="controls">
-            <div style="display: flex; gap: 10px; align-items: center;">
-              <span style="color: #666; font-size: 0.9rem;">
-                <i class="fas fa-volume-up"></i> Azure TTS发音
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div id="moduleContent">
-          <!-- 内容会动态加载到这里 -->
-          <div class="loading">
-            <div class="spinner"></div>
-            <p>加载学习内容中...</p>
-          </div>
-        </div>
-      </main>
-    </div>
-
-    <!-- 页脚 -->
-    <footer class="footer">
-      <p>
-        <strong>🏴󠁧󠁢󠁷󠁬󠁳󠁿 威尔士语学习平台 v1.0</strong> • 
-        专为英语使用者设计的快速入门工具
-      </p>
-      <p style="margin-top: 10px; opacity: 0.8;">
-        <i class="fas fa-code"></i> 独立项目 • 
-        <i class="fas fa-volume-up"></i> Azure TTS发音 • 
-        <i class="fas fa-graduation-cap"></i> 词根词缀分析
-      </p>
-      <div class="footer-links">
-        <a href="#" class="footer-link" onclick="app.showModule('dailyWords')">每日词汇</a>
-        <a href="#" class="footer-link" onclick="alert('功能开发中')">学习计划</a>
-        <a href="#" class="footer-link" onclick="alert('功能开发中')">发音指南</a>
-        <a href="#" class="footer-link" onclick="alert('功能开发中')">文化介绍</a>
-      </div>
-      <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.6;">
-        &copy; 2026 威尔士学习项目 • 数据: 示例词汇 • 版本: 1.0.0
-      </p>
-    </footer>
-  </div>
-
-  <!-- JavaScript -->
-  <script src="js/api-client.js"></script>
-  <script src="js/app.js"></script>
+<div class="wrap">
+  <h1>🎯 雅思每日10词 <span class="tts-badge">Azure TTS</span></h1>
+  <div class="sub">🤖 微软Azure神经网络TTS • 🎓 雅思核心词汇 • 📚 每日精进</div>
   
-  <script>
-    // 隐藏加载屏幕，显示主内容
-    window.addEventListener('load', function() {
-      setTimeout(function() {
-        document.getElementById('loadingScreen').style.opacity = '0';
-        document.getElementById('mainContainer').style.display = 'block';
-        
-        setTimeout(function() {
-          document.getElementById('loadingScreen').style.display = 'none';
-        }, 500);
-      }, 1000);
-    });
-    
-    // 全局应用实例
-    window.app = null;
-    document.addEventListener('DOMContentLoaded', function() {
-      window.app = new WelshLearningApp();
-    });
-  </script>
+  <div class="btn-group" style="justify-content:center">
+    <button class="btn-success" onclick="playAllWords()">🔊 播放今日10词</button>
+    <button onclick="playAllExamples()">🎧 播放今日例句</button>
+    <button class="btn-danger" onclick="stopAllAudio()">⏹ 停止</button>
+    <button onclick="refreshToday(true)">🔄 重新抽取</button>
+    <span id="loading">⏳ 加载中...</span>
+  </div>
+
+  <div style="margin:20px 0">
+    <div id="today-date" style="text-align:center;color:#94a3b8;font-size:16px"></div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progress" style="width:0%"></div>
+    </div>
+  </div>
+
+  <div id="today"></div>
+
+  <div class="history-section">
+    <h2>📚 学习历史</h2>
+    <div class="muted">点击日期查看详细单词列表</div>
+    <div id="history"></div>
+    <div class="stats">
+      <div class="stats-number" id="total-words">0</div>
+      <div class="stats-label">累计学习单词数</div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ==================== 配置 ====================
+const DEFAULT_TTS_PROXY_URL = 'https://web-x0ya.onrender.com/tts';
+const TODAY_VOICE = 'en-US-JennyNeural';
+const EXAMPLE_VOICE = 'en-US-JennyNeural';
+
+function getTtsProxyUrl() {
+  const q = new URLSearchParams(window.location.search).get('tts');
+  if (q) {
+    localStorage.setItem('ttsProxyUrl', q);
+    return q;
+  }
+  const saved = localStorage.getItem('ttsProxyUrl');
+  return saved || DEFAULT_TTS_PROXY_URL;
+}
+
+const TTS_PROXY_URL = getTtsProxyUrl();
+
+// ==================== 雅思词汇库 ====================
+const IELTS_VOCAB = [
+  {word:"abandon",phonetic:"/əˈbændən/",chinese:"放弃",englishDef:"To give up completely",example:"Don't abandon hope in difficult times.",exampleTrans:"不要在困难时期放弃希望。",level:"6.5+"},
+  {word:"accomplish",phonetic:"/əˈkʌmplɪʃ/",chinese:"完成",englishDef:"To succeed in doing something",example:"She accomplished her goal of graduating with honors.",exampleTrans:"她完成了以优异成绩毕业的目标。",level:"6.0+"},
+  {word:"acknowledge",phonetic:"/əkˈnɒlɪdʒ/",chinese:"承认",englishDef:"To accept or admit the existence of something",example:"He acknowledged his mistake and apologized.",exampleTrans:"他承认了自己的错误并道歉。",level:"6.5+"},
+  {word:"adequate",phonetic:"/ˈædɪkwət/",chinese:"足够的",englishDef:"Enough or satisfactory for a particular purpose",example:"The salary is adequate for living expenses.",exampleTrans:"这份工资足够支付生活费用。",level:"6.0+"},
+  {word:"advocate",phonetic:"/ˈædvəkeɪt/",chinese:"提倡",englishDef:"To publicly support or recommend",example:"Many scientists advocate for renewable energy.",exampleTrans:"许多科学家提倡使用可再生能源。",level:"7.0+"},
+  {word:"ambiguous",phonetic:"/æmˈbɪɡjuəs/",chinese:"模糊的",englishDef:"Having more than one possible meaning",example:"His answer was ambiguous and confusing.",exampleTrans:"他的回答模棱两可，令人困惑。",level:"7.0+"},
+  {word:"anticipate",phonetic:"/ænˈtɪsɪpeɪt/",chinese:"预期",englishDef:"To expect or predict something",example:"We anticipate a rise in sales next quarter.",exampleTrans:"我们预期下个季度销售额会上升。",level:"6.5+"},
+  {word:"arbitrary",phonetic:"/ˈɑːbɪtrəri/",chinese:"任意的",englishDef:"Based on random choice rather than reason",example:"The decision seemed arbitrary and unfair.",exampleTrans:"这个决定似乎很武断且不公平。",level:"7.5+"},
+  {word:"assess",phonetic:"/əˈses/",chinese:"评估",englishDef:"To evaluate or estimate the nature, value or quality of something",example:"Teachers assess students' progress regularly.",exampleTrans:"老师定期评估学生的进步。",level:"6.0+"},
+  {word:"assure",phonetic:"/əˈʃʊə(r)/",chinese:"保证",englishDef:"To tell someone confidently that something is true",example:"I can assure you that the information is accurate.",exampleTrans:"我可以向你保证这个信息是准确的。",level:"6.0+"},
+  {word:"beneficial",phonetic:"/ˌbenɪˈfɪʃl/",chinese:"有益的",englishDef:"Favorable or advantageous",example:"Exercise is beneficial for your health.",exampleTrans:"运动对你的健康有益。",level:"6.0+"},
+  {word:"capacity",phonetic:"/kəˈpæsəti/",chinese:"能力",englishDef:"The maximum amount that something can contain or produce",example:"The stadium has a capacity of 50,000 people.",exampleTrans:"这个体育场可以容纳5万人。",level:"6.0+"},
+  {word:"coherent",phonetic:"/kəʊˈhɪərənt/",chinese:"连贯的",englishDef:"Logical and well-organized",example:"She presented a coherent argument.",exampleTrans:"她提出了一个连贯的论证。",level:"7.0+"},
+  {word:"compelling",phonetic:"/kəmˈpelɪŋ/",chinese:"令人信服的",englishDef:"Evoking interest or attention",example:"The evidence was compelling enough to convince the jury.",exampleTrans:"证据足够令人信服，说服了陪审团。",level:"6.5+"},
+  {word:"comprehensive",phonetic:"/ˌkɒmprɪˈhensɪv/",chinese:"全面的",englishDef:"Including all or nearly all elements",example:"The report provides a comprehensive analysis.",exampleTrans:"这份报告提供了全面的分析。",level:"6.5+"},
+  {word:"contradict",phonetic:"/ˌkɒntrəˈdɪkt/",chinese:"矛盾",englishDef:"To say the opposite of what someone else has said",example:"Her actions contradict her words.",exampleTrans:"她的行为与她的话相矛盾。",level:"6.5+"},
+  {word:"crucial",phonetic:"/ˈkruːʃl/",chinese:"关键的",englishDef:"Extremely important",example:"Teamwork is crucial for success.",exampleTrans:"团队合作对成功至关重要。",level:"6.0+"},
+  {word:"demonstrate",phonetic:"/ˈdemənstreɪt/",chinese:"证明",englishDef:"To show clearly and deliberately",example:"The experiment demonstrates the theory.",exampleTrans:"这个实验证明了这个理论。",level:"6.0+"},
+  {word:"derive",phonetic:"/dɪˈraɪv/",chinese:"获得",englishDef:"To obtain something from a source",example:"Many English words derive from Latin.",exampleTrans:"许多英语单词源自拉丁语。",level:"6.5+"},
+  {word:"diminish",phonetic:"/dɪˈmɪnɪʃ/",chinese:"减少",englishDef:"To make or become less",example:"The importance of this issue should not be diminished.",exampleTrans:"这个问题的重要性不应被削弱。",level:"6.5+"},
+  {word:"distinct",phonetic:"/dɪˈstɪŋkt/",chinese:"明显的",englishDef:"Recognizably different",example:"There are two distinct groups in the population.",exampleTrans:"人群中有两个明显不同的群体。",level:"6.0+"},
+  {word:"diverse",phonetic:"/daɪˈvɜːs/",chinese:"多样的",englishDef:"Showing a great deal of variety",example:"The city has a diverse population.",exampleTrans:"这个城市有多元化的人口。",level:"6.0+"},
+  {word:"elaborate",phonetic:"/ɪˈlæbərət/",chinese:"详尽的",englishDef:"Involving many carefully arranged parts",example:"She made elaborate plans for the wedding.",exampleTrans:"她为婚礼制定了详尽的计划。",level:"7.0+"},
+  {word:"eliminate",phonetic:"/ɪˈlɪmɪneɪt/",chinese:"消除",englishDef:"To completely remove or get rid of",example:"We need to eliminate errors in the system.",exampleTrans:"我们需要消除系统中的错误。",level:"6.0+"},
+  {word:"emerge",phonetic:"/ɪˈmɜːdʒ/",chinese:"出现",englishDef:"To become known or apparent",example:"New evidence has emerged in the case.",exampleTrans:"案件中出现了新证据。",level:"6.0+"},
+  {word:"emphasize",phonetic:"/ˈemfəsaɪz/",chinese:"强调",englishDef:"To give special importance to something",example:"The teacher emphasized the importance of practice.",exampleTrans:"老师强调了练习的重要性。",level:"6.0+"},
+  {word:"enhance",phonetic:"/ɪnˈhɑːns/",chinese:"提高",englishDef:"To improve the quality or value of something",example:"Technology can enhance learning experiences.",exampleTrans:"技术可以提升学习体验。",level:"6.5+"},
+  {word:"establish",phonetic:"/ɪˈstæblɪʃ/",chinese:"建立",englishDef:"To set up on a firm or permanent basis",example:"The company was established in 1990.",exampleTrans:"该公司成立于1990年。",level:"6.0+"},
+  {word:"evident",phonetic:"/ˈevɪdənt/",chinese:"明显的",englishDef:"Clearly seen or understood",example:"It was evident that she was tired.",exampleTrans:"很明显她累了。",level:"6.0+"},
+  {word:"exceed",phonetic:"/ɪkˈsiːd/",chinese:"超过",englishDef:"To be greater than a number or amount",example:"Sales exceeded expectations this year.",exampleTrans:"今年的销售额超出了预期。",level:"6.0+"},
+  {word:"facilitate",phonetic:"/fəˈsɪlɪteɪt/",chinese:"促进",englishDef:"To make an action or process easier",example:"Technology facilitates communication.",exampleTrans:"技术促进了沟通。",level:"7.0+"},
+  {word:"feasible",phonetic:"/ˈfiːzəbl/",chinese:"可行的",englishDef:"Possible and practical to do easily",example:"The plan seems feasible within our budget.",exampleTrans:"这个计划在我们的预算内似乎是可行的。",level:"7.0+"},
+  {word:"fluctuate",phonetic:"/ˈflʌktʃueɪt/",chinese:"波动",englishDef:"To rise and fall irregularly",example:"Prices fluctuate according to demand.",exampleTrans:"价格根据需求波动。",level:"7.0+"},
+  {word:"fundamental",phonetic:"/ˌfʌndəˈmentl/",chinese:"基本的",englishDef:"Forming a necessary base or core",example:"Reading is a fundamental skill.",exampleTrans:"阅读是一项基本技能。",level:"6.5+"},
+  {word:"generate",phonetic:"/ˈdʒenəreɪt/",chinese:"产生",englishDef:"To cause something to exist",example:"The program generates reports automatically.",exampleTrans:"该程序自动生成报告。",level:"6.0+"},
+  {word:"implement",phonetic:"/ˈɪmplɪment/",chinese:"实施",englishDef:"To put a plan or system into operation",example:"The government will implement new policies.",exampleTrans:"政府将实施新政策。",level:"6.5+"},
+  {word:"inherent",phonetic:"/ɪnˈhɪərənt/",chinese:"固有的",englishDef:"Existing as a natural part of something",example:"Risk is inherent in any business.",exampleTrans:"风险是任何业务固有的。",level:"7.5+"},
+  {word:"initiate",phonetic:"/ɪˈnɪʃieɪt/",chinese:"发起",englishDef:"To cause a process to begin",example:"Who initiated this project?",exampleTrans:"谁发起了这个项目？",level:"6.5+"},
+  {word:"integrate",phonetic:"/ˈɪntɪɡreɪt/",chinese:"整合",englishDef:"To combine parts into a whole",example:"We need to integrate new technology into our workflow.",exampleTrans:"我们需要将新技术整合到我们的工作流程中。",level:"6.5+"},
+  {word:"interpret",phonetic:"/ɪnˈtɜːprɪt/",chinese:"解释",englishDef:"To explain the meaning of something",example:"How do you interpret these results?",exampleTrans:"你如何解释这些结果？",level:"6.5+"},
+  {word:"legitimate",phonetic:"/lɪˈdʒɪtɪmət/",chinese:"合法的",englishDef:"Conforming to the law or rules",example:"She has a legitimate claim to the property.",exampleTrans:"她对这处房产有合法要求权。",level:"7.0+"},
+  {word:"maintain",phonetic:"/meɪnˈteɪn/",chinese:"维持",englishDef:"To keep in an existing state",example:"It's important to maintain a healthy diet.",exampleTrans:"保持健康的饮食很重要。",level:"6.0+"},
+  {word:"manifest",phonetic:"/ˈmænɪfest/",chinese:"表明",englishDef:"To show or demonstrate clearly",example:"Her kindness manifested in many ways.",exampleTrans:"她的善良以多种方式表现出来。",level:"7.5+"},
+  {word:"mutual",phonetic:"/ˈmjuːtʃuəl/",chinese:"相互的",englishDef:"Felt or done by each toward the other",example:"They have mutual respect for each other.",exampleTrans:"他们彼此尊重。",level:"6.5+"},
+  {word:"nevertheless",phonetic:"/ˌnevəðəˈles/",chinese:"然而",englishDef:"In spite of that; however",example:"It was expensive; nevertheless, we bought it.",exampleTrans:"它很贵；然而，我们还是买了。",level:"6.5+"},
+  {word:"obtain",phonetic:"/əbˈteɪn/",chinese:"获得",englishDef:"To get or acquire",example:"How did you obtain this information?",exampleTrans:"你是如何获得这些信息的？",level:"6.0+"},
+  {word:"obvious",phonetic:"/ˈɒbviəs/",chinese:"明显的",englishDef:"Easily perceived or understood",example:"It was obvious that he was lying.",exampleTrans:"很明显他在撒谎。",level:"5.5+"},
+  {word:"persist",phonetic:"/pəˈsɪst/",chinese:"坚持",englishDef:"To continue firmly despite difficulty",example:"If symptoms persist, see a doctor.",exampleTrans:"如果症状持续，请看医生。",level:"6.5+"},
+  {word:"phenomenon",phonetic:"/fəˈnɒmɪnən/",chinese:"现象",englishDef:"A fact or situation that is observed",example:"Climate change is a global phenomenon.",exampleTrans:"气候变化是一个全球性现象。",level:"7.0+"},
+  {word:"presume",phonetic:"/prɪˈzjuːm/",chinese:"假定",englishDef:"To suppose something is true without proof",example:"I presume you've heard the news.",exampleTrans:"我想你已经听到这个消息了。",level:"6.5+"}
+];
+
+let currentAudio = null;
+let isPlaying = false;
+
+// ==================== TTS Functions ====================
+async function speakWithAzureTTS(text, voice = TODAY_VOICE) {
+  stopAllAudio();
+  showLoading(true);
+
+  try {
+    if (!TTS_PROXY_URL || TTS_PROXY_URL.includes('YOUR-TTS-DOMAIN')) {
+      throw new Error('未配置TTS代理');
+    }
+
+    const url = `${TTS_PROXY_URL}?text=${encodeURIComponent(text)}&voice=${voice}`;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      throw new Error(`TTS请求失败: ${response.status}`);
+    }
+
+    const audioBlob = await response.blob();
+    const audioUrl = URL.createObjectURL(audioBlob);
+
+    showLoading(false);
+    return playAudioFromUrl(audioUrl);
+
+  } catch (error) {
+    console.error('Azure TTS失败，使用浏览器语音:', error);
+    showLoading(false);
+    speakWithFallback(text);
+  }
+}
+
+function playAudioFromUrl(audioUrl) {
+  currentAudio = new Audio(audioUrl);
+  currentAudio.onended = () => {
+    isPlaying = false;
+  };
+  isPlaying = true;
+  return currentAudio.play();
+}
+
+function speakWithFallback(text) {
+  if ('speechSynthesis' in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.8;
+    utterance.onend = () => { isPlaying = false; };
+    currentAudio = utterance;
+    isPlaying = true;
+    speechSynthesis.speak(utterance);
+  }
+}
+
+function stopAllAudio() {
+  if (currentAudio instanceof Audio) {
+    currentAudio.pause();
+    currentAudio.currentTime = 0;
+  } else if (currentAudio) {
+    speechSynthesis.cancel();
+  }
+  isPlaying = false;
+}
+
+function showLoading(show) {
+  document.getElementById('loading').style.display = show ? 'inline' : 'none';
+}
+
+function playWord(word) { speakWithAzureTTS(word, TODAY_VOICE); }
+function playExample(sentence) { speakWithAzureTTS(sentence, EXAMPLE_VOICE); }
+
+async function playAllWords() {
+  const words = getTodayWords();
+  for (let w of words) {
+    await speakWithAzureTTS(w.word, TODAY_VOICE);
+    await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function playAllExamples() {
+  const words = getTodayWords();
+  for (let w of words) {
+    await speakWithAzureTTS(w.example, EXAMPLE_VOICE);
+    await new Promise(r => setTimeout(r, 800));
+  }
+}
+
+// ==================== Data Functions ====================
+function dateKey() { return new Date().toISOString().split('T')[0]; }
+
+function seededShuffle(array, seed) {
+  let hash = 0;
+  for (let i = 0; i < seed.length; i++) {
+    hash = ((hash << 5) - hash) + seed.charCodeAt(i);
+    hash |= 0;
+  }
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    hash = (hash * 1103515245 + 12345) & 0x7fffffff;
+    const j = hash % (i + 1);
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+function getTodayWords(forceNew=false) {
+  const k = dateKey();
+  const store = JSON.parse(localStorage.getItem('vocabHistory')||'{}');
+  if(!forceNew && store[k] && store[k].length===10) return store[k];
+  const picked = seededShuffle(IELTS_VOCAB, k + (forceNew?'-force':'')).slice(0,10);
+  store[k]=picked;
+  localStorage.setItem('vocabHistory', JSON.stringify(store));
+  return picked;
+}
+
+// ==================== Render Functions ====================
+function renderToday(forceNew=false) {
+  const words = getTodayWords(forceNew);
+  const el = document.getElementById('today');
+  const today = dateKey();
+  
+  document.getElementById('today-date').textContent = `今日日期：${today}（${words.length}个雅思词汇）`;
+  
+  el.innerHTML = words.map((w, i) => `
+    <div class="card">
+      <div class="card-header">
+        <div>
+          <span class="word">${i+1}. ${w.word}</span>
+          <span class="phonetic">${w.phonetic}</span>
+        </div>
+        <span class="level">${w.level}</span>
+      </div>
+      <div class="meaning">📖 ${w.chinese}</div>
+      <div class="definition">${w.englishDef}</div>
+      <div class="example">
+        <div class="example-text">💬 ${w.example}</div>
+        <div class="example-trans">${w.exampleTrans}</div>
+      </div>
+      <div class="btn-group">
+        <button onclick="playWord('${w.word}')">🔊 单词发音</button>
+        <button onclick="playExample('${w.example.replace(/'/g, "\\'")}')">🎧 例句发音</button>
+      </div>
+    </div>
+  `).join('');
+  
+  updateProgress(words.length, 10);
+}
+
+function renderHistory() {
+  const store = JSON.parse(localStorage.getItem('vocabHistory')||'{}');
+  const days = Object.keys(store).sort().reverse();
+  const el = document.getElementById('history');
+  
+  let totalWords = 0;
+  days.forEach(day => { totalWords += (store[day] || []).length; });
+  document.getElementById('total-words').textContent = totalWords;
+  
+  el.innerHTML = days.map(day => {
+    const words = store[day] || [];
+    return `
+      <div class="history-item">
+        <div class="history-header" onclick="toggleHistory('${day}')">
+          <span class="history-date">📅 ${day}</span>
+          <span class="history-badge">${words.length}词 已学</span>
+        </div>
+        <div class="history-words" id="history-${day}">
+          ${words.map((w, i) => `
+            <div class="history-word-item">
+              <div class="history-word-main">
+                <div class="history-word-text">
+                  ${i+1}. <strong>${w.word}</strong>
+                  <span class="history-word-phonetic">${w.phonetic}</span>
+                </div>
+                <div class="history-word-meaning">${w.chinese} - ${w.englishDef}</div>
+              </div>
+              <button onclick="playWord('${w.word}')">🔊</button>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function toggleHistory(day) {
+  const el = document.getElementById(`history-${day}`);
+  el.classList.toggle('active');
+}
+
+function updateProgress(current, total) {
+  const percent = (current / total) * 100;
+  document.getElementById('progress').style.width = percent + '%';
+}
+
+function refreshToday(force) {
+  renderToday(force);
+  renderHistory();
+}
+
+// ==================== 初始化 ====================
+document.addEventListener('DOMContentLoaded', () => {
+  refreshToday(false);
+});
+</script>
 </body>
 </html>
