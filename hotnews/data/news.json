@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-03-06 08:02:00 +08",
+  "generated_at": "2026-03-06 20:31:05 +08",
   "generated_date": "2026-03-06",
-  "current_slot": "早",
+  "current_slot": "晚",
   "slots_done": [
-    "早"
+    "早",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -426,8 +427,8 @@
         "title_en": "Trump fires Homeland Security head Kristi Noem, names Mullin as replacement",
         "title_zh": "特朗普解雇国土安全部部长克里斯蒂·诺姆，任命穆林为继任者"
       },
-      "my_view": "中国报道回避政治聚焦商业竞争，欧美报道强调特朗普止损与争议，伊斯兰报道突出人事更迭的即时性。三方分别体现经济议题优先、政治博弈焦点、权力变动关注的不同立场。",
-      "summary": "特朗普因国土安全部争议解除诺姆职务并任命新人，本质是政治人事调整与风险控制。"
+      "my_view": "中国报道回避政治聚焦商业，体现务实立场；欧美报道强调特朗普止损与争议，突出权力博弈；伊斯兰报道直述人事变动，呈现事实性关注。三方分别体现经济视角、政治批判与信息传递的差异。",
+      "summary": "特朗普因国土安全部争议人事变动，调整政治布局以止损，本质是权力重组。"
     },
     {
       "event_hint": "'We have been preparing': Why the boots on the ground in Iran could be Kurdish",
@@ -457,8 +458,8 @@
         "title_en": "Trump voices support for possible Kurdish offensive in Iran",
         "title_zh": "特朗普表示支持库尔德武装可能对伊朗发动攻势"
       },
-      "my_view": "中国报道回避敏感议题，聚焦国内发展；欧美报道强调库尔德武装自主性，隐含对伊朗的制衡；伊斯兰媒体突出外部势力干预，体现地区政治敏感性。三方立场分别体现内政优先、地缘博弈与反干涉诉求。",
-      "summary": "国际媒体对库尔德武装在伊朗行动的不同报道，反映各方在地缘政治中的立场差异与叙事导向。"
+      "my_view": "中国报道回避敏感地缘冲突，聚焦国内经济议题；欧美媒体突出库尔德武装自主性，暗示伊朗内部矛盾；伊斯兰媒体强调外部干预，将矛头指向特朗普对分裂势力的支持。三方立场分别体现内政优先、内部矛盾外显、反对外部干涉的视角差异。",
+      "summary": "事件本质是库尔德武装在伊朗境内的潜在军事行动，引发不同立场媒体对地缘冲突、外部干预与民族问题的差异化叙事。"
     },
     {
       "event_hint": "US asked Ukraine for help fighting Iranian drones, Zelensky says",
@@ -481,8 +482,8 @@
         "title_en": "Iran fires more missiles, drones across Gulf region amid US-Israeli attacks",
         "title_zh": "在美国和以色列的袭击中，伊朗在海湾地区发射了更多导弹和无人机"
       },
-      "my_view": "欧美视角聚焦美乌合作对抗伊朗，伊斯兰视角强调伊朗反击美以的防御性质，中国媒体暂未报道可能体现中立或避免卷入敏感议题的立场差异。",
-      "summary": "事件本质是大国代理人冲突背景下，无人机技术对抗成为地缘政治博弈的新战场。"
+      "my_view": "欧美视角聚焦美乌军事合作细节，伊斯兰视角强调伊朗反击的地区冲突背景，中国媒体暂未报道显示其谨慎态度。三方分别体现同盟叙事、对抗叙事与战略观望。",
+      "summary": "乌克兰在美国请求下协助对抗伊朗无人机，事件本质是大国代理人冲突的技术性延伸。"
     },
     {
       "event_hint": "'What is the game plan?': The Iran war is unsettling China and its ambitions",
@@ -512,8 +513,8 @@
         "title_en": "US House of Representatives to vote on latest effort to halt Iran war",
         "title_zh": "美国众议院将对制止伊朗战争的最新努力进行投票"
       },
-      "my_view": "中国视角聚焦国内经济影响（芯片价格），回避地缘政治表态；欧美视角强调中国战略被动与野心受挫；伊斯兰视角突出美国国内政治动作，将战争责任指向美国。三方分别呈现经济内视、战略博弈与责任归因的立场差异。",
-      "summary": "伊朗冲突引发中美战略博弈，各方报道通过选择性框架塑造符合自身利益的叙事导向。"
+      "my_view": "中国视角回避地缘冲突，聚焦国内经济议题；欧美视角强调中国战略被动，突出其野心受挫；伊斯兰视角直指美国政治行动，将矛盾源头指向西方。三方分别呈现了内政优先、战略博弈与外部归因的立场差异。",
+      "summary": "三方媒体对伊朗战争影响的报道分别体现了本国利益优先、战略竞争叙事和外部责任指向的立场分化。"
     },
     {
       "event_hint": "Israeli evacuation order for Beirut's southern suburbs sparks panic",
@@ -536,8 +537,8 @@
         "title_en": "Suspected Iranian missile debris ignites fires in central Israel",
         "title_zh": "疑似伊朗导弹碎片在以色列中部引发火灾"
       },
-      "my_view": "BBC聚焦以色列行动引发的人道恐慌，半岛电视台则强调伊朗导弹对以色列的反击，双方报道焦点形成对抗叙事。中国媒体暂未报道，可能持观察立场。",
-      "summary": "以黎边境冲突升级引发双向袭击，不同媒体通过选择报道焦点构建对立叙事框架。"
+      "my_view": "欧美标题聚焦以色列行动引发的人道恐慌，伊斯兰视角强调伊朗导弹反击的军事对抗，中国媒体暂未报道显示谨慎态度。三方分别侧重人道危机、军事对抗与外交审慎。",
+      "summary": "以色列与伊朗代理人冲突升级引发地区恐慌，不同媒体通过选择报道焦点体现立场差异。"
     },
     {
       "event_hint": "Azerbaijan says Iran struck its territory, as war spills over border",
@@ -560,8 +561,8 @@
         "title_en": "Trump says he must be ‘involved’ in choosing Iran’s next supreme leader",
         "title_zh": "特朗普表示他必须“参与”选择伊朗下一任最高领导人"
       },
-      "my_view": "欧美报道聚焦冲突升级的地缘政治事实；伊斯兰媒体借特朗普言论转移焦点，弱化伊朗军事行动；中国媒体暂未报道，可能避免卷入地区敏感议题。三方立场分别体现事实陈述、舆论对冲与战略谨慎。",
-      "summary": "伊朗与阿塞拜疆边境冲突引发多方差异化叙事，本质是地区代理人战争外溢与大国博弈的信息战延伸。"
+      "my_view": "欧美媒体聚焦军事冲突本身，突出地缘风险外溢；伊斯兰媒体借特朗普言论转移焦点，弱化伊朗攻击行为；中国媒体暂未报道，体现对敏感地区冲突的谨慎态度。三方分别呈现了事实导向、立场导向与回避策略。",
+      "summary": "伊朗与阿塞拜疆边境冲突事件中，不同媒体的报道角度反映了各自的地缘政治立场和议程设置差异。"
     },
     {
       "event_hint": "DR Congo government says 200 killed after landslide at rebel-held mine",
@@ -591,8 +592,8 @@
         "title_en": "Trump says regime change in Cuba is ‘question of time’ after Iran",
         "title_zh": "特朗普称继伊朗之后古巴政权更迭只是“时间问题”"
       },
-      "my_view": "中国媒体聚焦国内民生议题，回避报道他国负面事件；欧美媒体客观报道灾难事实，突出伤亡数字；伊斯兰媒体借他国言论转移焦点，弱化灾难本身。三方均按自身议程设置报道框架。",
-      "summary": "刚果（金）叛军控制矿区发生重大山体滑坡，造成200人死亡的人道主义灾难。"
+      "my_view": "中国媒体聚焦国内民生议题转移视线，欧美媒体客观报道灾难事实，伊斯兰媒体借他国事件影射地缘政治立场，三方均按自身议程选择性呈现信息。",
+      "summary": "刚果矿区山体滑坡致200人死亡的事件，在不同媒体议程设置下被转化为符合各自受众关切的报道主题。"
     },
     {
       "event_hint": "Global order is 'breaking down', Carney tells Australian parliament",
@@ -615,8 +616,8 @@
         "title_en": "US states sue to stop Trump’s latest global tariffs",
         "title_zh": "美国各州提起诉讼，要求停止特朗普最新的全球关税"
       },
-      "my_view": "欧美媒体聚焦全球秩序解体的宏观论断，伊斯兰媒体则关注美国具体政策对全球经济的冲击，中国媒体未报道显示其选择性关注。三方分别体现体系性批判、反美政策反应及回避敏感议题的立场差异。",
-      "summary": "不同媒体对同一事件的报道焦点差异，本质反映了地缘政治立场对新闻叙事框架的塑造作用。"
+      "my_view": "欧美媒体聚焦全球秩序解体的宏观论断，伊斯兰媒体则关注美国具体贸易政策的地方性影响，中国媒体未报道显示其选择性关注或不同议程设置。三方呈现从抽象体系危机到具体政策争议的报道光谱。",
+      "summary": "不同媒体对同一政治人物发言的报道角度，折射出各自的地缘政治关注焦点和议程设置差异。"
     },
     {
       "event_hint": "Ethiopia experiments with 'smart' police stations that have no officers",
@@ -639,8 +640,8 @@
         "title_en": "Trump offers immunity to IRGC, Iranian police who ‘lay down their arms’",
         "title_zh": "特朗普向“放下武器”的伊斯兰革命卫队和伊朗警察提供豁免权"
       },
-      "my_view": "欧美报道聚焦技术实验本身，体现对新兴治理模式的关注；伊斯兰媒体借题转向地区政治议题，反映地缘立场；中国媒体未报道，可能因事件与本国关联度低或尚在观察。",
-      "summary": "埃塞俄比亚尝试用自动化技术替代传统警力执勤，是一次警务模式的创新实验。"
+      "my_view": "欧美报道聚焦技术试验本身，体现对非洲社会治理创新的客观关注；伊斯兰媒体将话题转向伊朗政治议题，反映地区性议程设置差异；中国媒体暂未报道，可能因事件与本国关联度较低或信息筛选机制不同。",
+      "summary": "埃塞俄比亚尝试用无人化智能警务站探索社会治理新模式，不同媒体的报道角度体现其地域关注点和议程设置的差异。"
     }
   ]
 }
