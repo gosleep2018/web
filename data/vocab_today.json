@@ -1,0 +1,97 @@
+{
+  "date": "2026-03-06",
+  "updatedAt": "2026-03-06T08:33:19.339Z",
+  "totalVocab": 130,
+  "words": [
+    {
+      "word": "efficient",
+      "phonetic": "/ɪˈfɪʃnt/",
+      "chinese": "高效的",
+      "englishDef": "Achieving maximum productivity with minimum waste",
+      "example": "The new system is more efficient.",
+      "exampleTrans": "新系统更高效。",
+      "level": "6.0+"
+    },
+    {
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "chinese": "足够的",
+      "englishDef": "Enough or satisfactory for a particular purpose",
+      "example": "The salary is adequate for living expenses.",
+      "exampleTrans": "这份工资足够支付生活费用。",
+      "level": "6.0+"
+    },
+    {
+      "word": "neutral",
+      "phonetic": "/ˈnjuːtrəl/",
+      "chinese": "中立的",
+      "englishDef": "Not supporting either side in an argument",
+      "example": "The referee must remain neutral.",
+      "exampleTrans": "裁判必须保持中立。",
+      "level": "6.0+"
+    },
+    {
+      "word": "compelling",
+      "phonetic": "/kəmˈpelɪŋ/",
+      "chinese": "令人信服的",
+      "englishDef": "Evoking interest or attention",
+      "example": "The evidence was compelling enough to convince the jury.",
+      "exampleTrans": "证据足够令人信服，说服了陪审团。",
+      "level": "6.5+"
+    },
+    {
+      "word": "diminish",
+      "phonetic": "/dɪˈmɪnɪʃ/",
+      "chinese": "减少",
+      "englishDef": "To make or become less",
+      "example": "The importance of this issue should not be diminished.",
+      "exampleTrans": "这个问题的重要性不应被削弱。",
+      "level": "6.5+"
+    },
+    {
+      "word": "evident",
+      "phonetic": "/ˈevɪdənt/",
+      "chinese": "明显的",
+      "englishDef": "Clearly seen or understood",
+      "example": "It was evident that she was tired.",
+      "exampleTrans": "很明显她累了。",
+      "level": "6.0+"
+    },
+    {
+      "word": "constraint",
+      "phonetic": "/kənˈstreɪnt/",
+      "chinese": "限制",
+      "englishDef": "A limitation or restriction",
+      "example": "Budget constraints limited our options.",
+      "exampleTrans": "预算限制了我们的选择。",
+      "level": "7.0+"
+    },
+    {
+      "word": "supplement",
+      "phonetic": "/ˈsʌplɪment/",
+      "chinese": "补充",
+      "englishDef": "Something added to complete a deficiency",
+      "example": "Vitamins supplement a balanced diet.",
+      "exampleTrans": "维生素补充均衡饮食。",
+      "level": "6.5+"
+    },
+    {
+      "word": "reluctant",
+      "phonetic": "/rɪˈlʌktənt/",
+      "chinese": "不情愿的",
+      "englishDef": "Unwilling and hesitant",
+      "example": "He was reluctant to admit his mistake.",
+      "exampleTrans": "他不情愿承认自己的错误。",
+      "level": "6.5+"
+    },
+    {
+      "word": "distinct",
+      "phonetic": "/dɪˈstɪŋkt/",
+      "chinese": "明显的",
+      "englishDef": "Recognizably different",
+      "example": "There are two distinct groups in the population.",
+      "exampleTrans": "人群中有两个明显不同的群体。",
+      "level": "6.0+"
+    }
+  ]
+}
