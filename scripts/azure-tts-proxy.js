@@ -111,13 +111,16 @@ function callAzureTTS(text, voice = CONFIG.defaultVoice) {
 const server = http.createServer(async (req, res) => {
   const parsedUrl = url.parse(req.url, true);
   
-  // CORS
+  // CORS - 允许 github.io 和 op2020.com 所有子域
   const origin = req.headers.origin || '';
   const allowAll = CONFIG.allowedOrigins.includes('*');
-  if (allowAll) {
-    res.setHeader('Access-Control-Allow-Origin', '*');
-  } else if (origin && CONFIG.allowedOrigins.includes(origin)) {
-    res.setHeader('Access-Control-Allow-Origin', origin);
+  const isAllowed = allowAll ||
+    CONFIG.allowedOrigins.includes(origin) ||
+    /https?:\/\/[\w-]+\.github\.io$/.test(origin) ||
+    /https?:\/\/[\w-]+\.op2020\.com$/.test(origin) ||
+    origin === 'https://gosleep2018.github.io';
+  if (isAllowed) {
+    res.setHeader('Access-Control-Allow-Origin', origin || '*');
     res.setHeader('Vary', 'Origin');
   }
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
