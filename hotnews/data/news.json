@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-07 12:01:46 +08",
+  "generated_at": "2026-03-07 20:01:37 +08",
   "generated_date": "2026-03-07",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Iran war live: Trump says no deal with Iran until ‘unconditional surrender’",
         "title_zh": "伊朗战争直播：特朗普称在“无条件投降”之前不会与伊朗达成协议"
       },
-      "my_view": "中国报道回避国际冲突，聚焦个体叙事体现外交中立；欧美报道突出特朗普强硬立场，强调对抗性；伊斯兰视角将事件定性为战争状态，凸显危机感。三方分别体现回避、对抗、危机三种叙事策略。",
-      "summary": "美伊对抗背景下，不同媒体通过选择性报道框架展现各自政治立场与受众导向。"
+      "my_view": "欧美视角聚焦大国对抗，强调特朗普的强硬表态；伊斯兰视角突出战争语境与伊朗立场；中国视角则完全回避国际冲突，转向民生叙事，体现其不干涉他国内政、专注本国利益的报道导向。",
+      "summary": "同一国际事件在不同意识形态下被重构为外交对抗、战争危机或民生故事，体现媒体如何通过框架选择服务其政治立场。"
     },
     {
       "event_hint": "Israel strikes Beirut after evacuation warning sparks panic",
@@ -451,8 +452,8 @@
         "title_en": "Massive explosions, fires from US-Israeli strikes on Tehran",
         "title_zh": "美国和以色列对德黑兰的袭击造成大规模爆炸和火灾"
       },
-      "my_view": "欧美标题侧重事件因果（警告-恐慌-袭击），伊斯兰标题强调打击方（美以）与惨烈后果（爆炸火灾），中国未报道体现谨慎态度。三方分别呈现客观叙事、受害者视角与外交回避。",
-      "summary": "以色列对贝鲁特的军事行动因疏散警告引发恐慌，不同媒体在归因和伤亡描述上存在立场差异。"
+      "my_view": "欧美标题客观陈述事件因果；伊斯兰标题强调爆炸规模并点明美以共同责任，隐含抵抗叙事；中国媒体未报道可能基于外交考量。三方差异体现地缘政治立场与报道框架选择。",
+      "summary": "以色列对贝鲁特的军事行动引发地区紧张，不同媒体通过报道框架展现各自政治立场。"
     },
     {
       "event_hint": "'Massive' numbers killed by gunmen in latest Nigeria attack, senator tells BBC",
@@ -482,8 +483,8 @@
         "title_en": "Iran’s strikes on the Gulf: Burning the bridges of good neighbourliness",
         "title_zh": "伊朗对海湾的袭击：烧毁了睦邻友好的桥梁"
       },
-      "my_view": "网易转移焦点至国内商业问题，淡化国际暴力事件；BBC直接报道尼日利亚袭击，强调伤亡规模；半岛转向中东地缘冲突，批判伊朗行为。三方均通过选题折射自身议程：中国回避负面国际新闻，欧美关注人道危机，伊斯兰世界聚焦区域对抗。",
-      "summary": "尼日利亚发生大规模枪击事件，但三方媒体通过选择不同报道主题，反映了各自的政治立场和舆论导向。"
+      "my_view": "网易以国内食品安全转移视线，BBC聚焦尼日利亚暴力事件凸显人道危机，半岛则借伊朗地区冲突强调地缘政治矛盾，三方分别体现内宣导向、国际人权关注与伊斯兰世界视角。",
+      "summary": "尼日利亚发生大规模暴力袭击事件，但不同媒体通过选题差异反映了各自的报道立场与议程设置。"
     },
     {
       "event_hint": "China spent years building ties in Latin America. Can Trump make room for the US?",
@@ -513,8 +514,8 @@
         "title_en": "Athletic Bilbao vs Barcelona: La Liga – teams, start, lineups, kickoff time",
         "title_zh": "毕尔巴鄂竞技 vs 巴塞罗那：西甲 – 球队、首发、阵容、开球时间"
       },
-      "my_view": "中国视角强调经济合作的互利性，欧美视角关注地缘政治竞争，伊斯兰视角则完全忽略该事件，体现媒体议程设置的差异。",
-      "summary": "同一事件在不同意识形态下被重构为经济政策、地缘博弈或无关信息。"
+      "my_view": "中国视角强调经济合作原则，欧美视角关注地缘政治竞争，伊斯兰视角的半岛电视台则完全忽略该事件，转而报道体育新闻，显示不同媒体对同一国际事件的选择性关注与立场差异。",
+      "summary": "同一国际事件在不同文化背景的媒体中呈现为经济政策、地缘博弈或无关内容，体现报道的立场过滤效应。"
     },
     {
       "event_hint": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
@@ -537,8 +538,8 @@
         "title_en": "Cuba closes Quito embassy after Ecuador’s Daniel Noboa expels its diplomats",
         "title_zh": "厄瓜多尔丹尼尔·诺博亚驱逐古巴外交官后，古巴关闭基多大使馆"
       },
-      "my_view": "欧美报道聚焦美委外交突破，强调马杜罗被捕的关键作用；伊斯兰媒体则关注事件连锁反应，突出拉美左翼阵营的连带对抗；中国媒体暂未报道，可能持观望态度。",
-      "summary": "马杜罗被捕引发美委外交关系变化，同时激化拉美地区政治阵营对抗。"
+      "my_view": "欧美报道聚焦美委关系正常化，强调马杜罗被捕的政治转折；伊斯兰媒体从拉美左翼联盟视角，报道古巴与厄瓜多尔的外交冲突作为关联反应；中国媒体暂未报道，体现对拉美事务的谨慎态度。",
+      "summary": "美委关系缓和引发拉美外交连锁反应，不同媒体报道焦点反映其地缘政治立场差异。"
     }
   ]
 }
