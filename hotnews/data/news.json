@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-08 12:02:44 +08",
+  "generated_at": "2026-03-08 20:01:55 +08",
   "generated_date": "2026-03-08",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "US embassy in Baghdad attacked as US-Israel war on Iran escalates",
         "title_zh": "随着美以对伊朗的战争升级，美国驻巴格达大使馆遭到袭击"
       },
-      "my_view": "中国强调战争的非必要性与外交解决；欧美聚焦个体叙事与民众声音；伊斯兰视角直指美国责任与冲突升级，三方分别体现中立调解、人文关怀与反美立场。",
-      "summary": "多方围绕伊朗局势展开不同叙事，反映地缘政治中立场决定话语导向的本质。"
+      "my_view": "中国强调战争的非必要性与政治解决；欧美聚焦个体叙事与民众声音；伊斯兰媒体突出美国军事行动后果与抵抗反应，三方分别体现中立调停、人文关怀与反帝立场。",
+      "summary": "三方媒体从地缘调解、民众视角和冲突对抗不同维度，呈现同一战争事件的多重叙事本质。"
     },
     {
       "event_hint": "Russian strike on Kharkiv apartment block kills ten",
@@ -451,8 +452,8 @@
         "title_en": "Russia kills 10 in Ukraine strike including children with new missile",
         "title_zh": "俄罗斯用新型导弹在乌克兰空袭中造成10人死亡，其中包括儿童"
       },
-      "my_view": "BBC使用中性陈述，突出事件基本事实；半岛电视台强调儿童伤亡和新武器，带有情感倾向与道德谴责；中国媒体暂未报道，可能基于外交考量避免选边站队。",
-      "summary": "俄罗斯军队在乌克兰哈尔科夫的袭击导致平民伤亡，是俄乌冲突中针对民用设施的又一次升级。"
+      "my_view": "BBC客观陈述事实，半岛突出儿童伤亡并强调武器升级，中国媒体未报道体现中立立场。欧美重事件描述，伊斯兰重人道视角与武器指控，立场差异反映地缘政治与叙事焦点不同。",
+      "summary": "俄罗斯导弹袭击乌克兰哈尔科夫居民楼致十人死亡，是一起造成平民伤亡的军事行动。"
     },
     {
       "event_hint": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
@@ -475,8 +476,8 @@
         "title_en": "Doctors try to save girl as father was killed in Gaza Israeli attack",
         "title_zh": "父亲在加沙以色列袭击中丧生，医生试图拯救女孩"
       },
-      "my_view": "欧美标题侧重行动过程与伤亡数字，体现客观报道框架；伊斯兰标题聚焦个体悲剧与情感冲击，隐含对平民受害的控诉；中国媒体未报道则反映对中东冲突的差异化议程设置。三方分别呈现了事实框架、人道视角与政治回避。",
-      "summary": "以色列跨境军事行动造成黎巴嫩平民伤亡，不同媒体通过选择性叙事展现地缘政治立场差异。"
+      "my_view": "BBC侧重行动过程与伤亡数字，体现西方媒体对事件客观性的追求；半岛电视台聚焦个体悲剧与情感冲击，反映伊斯兰世界对平民遭遇的关切；中国媒体暂未报道，可能基于外交考量保持谨慎。",
+      "summary": "以色列跨境军事行动引发严重平民伤亡，不同媒体的报道焦点折射出地缘政治立场差异。"
     },
     {
       "event_hint": "Canadian teen died from drowning after dingo attack in Australia",
@@ -499,8 +500,8 @@
         "title_en": "Smoke rises from a Dubai tower after attack",
         "title_zh": "袭击后迪拜塔冒出浓烟"
       },
-      "my_view": "欧美报道聚焦事件本身，客观陈述死因与动物袭击；伊斯兰媒体标题偏离核心事件，可能暗示地缘政治关联；中国媒体未报道反映事件与本国关联度低或议程设置差异。",
-      "summary": "这是一起澳大利亚野生动物袭击导致的加拿大青少年意外溺水死亡事件。"
+      "my_view": "欧美报道聚焦事件本身，强调客观事实；伊斯兰媒体标题偏离核心事件，可能隐含地缘政治关联；中国媒体未报道反映事件与本国关联度低或议程设置差异。",
+      "summary": "加拿大青少年在澳大利亚遭遇野狗袭击后溺水身亡，是一起跨国意外伤亡事件。"
     },
     {
       "event_hint": "US economy unexpectedly sheds 92,000 jobs in February",
@@ -530,8 +531,8 @@
         "title_en": "Trump administration denies reports that Iran captured US soldiers",
         "title_zh": "特朗普政府否认伊朗俘虏美国士兵的报道"
       },
-      "my_view": "网易以人道故事淡化美国经济负面，BBC直击数据凸显意外衰退，半岛则借军事传闻转移焦点——三方均通过选择性报道服务自身叙事立场。",
-      "summary": "美国经济数据意外恶化，但三方媒体通过报道不同事件来引导符合自身利益的舆论方向。"
+      "my_view": "网易以人道故事淡化美国经济负面；BBC直击数据凸显意外衰退；半岛转移焦点至地缘冲突。三方分别体现中国的人文关怀、欧美的数据导向、伊斯兰世界的政治视角。",
+      "summary": "美国经济数据意外恶化，但三方媒体通过不同报道角度折射出各自的地缘政治立场与叙事策略。"
     },
     {
       "event_hint": "China spent years building ties in Latin America. Can Trump make room for the US?",
@@ -561,8 +562,8 @@
         "title_en": "Florida Bar denies investigation into Trump lawyer Lindsey Halligan",
         "title_zh": "佛罗里达州律师协会否认对特朗普律师林赛·哈利根进行调查"
       },
-      "my_view": "中国视角强调主权内政，欧美关注地缘竞争与特朗普影响，伊斯兰视角则聚焦美国国内司法事件。三方报道分别体现政治立场、战略博弈与国内事务的差异化关注点。",
-      "summary": "同一国际事件在不同意识形态媒体中被重构为符合各自议程的叙事，反映全球信息传播的立场分化。"
+      "my_view": "中国视角强调主权与内政不容干涉；欧美视角关注地缘政治竞争，将事件置于中美拉美影响力博弈框架；伊斯兰视角则完全脱离事件核心，转向美国国内政治细节，显示其报道焦点差异。",
+      "summary": "事件本质是中国在拉美长期外交布局引发不同阵营基于自身立场的选择性解读与关注偏移。"
     }
   ]
 }
