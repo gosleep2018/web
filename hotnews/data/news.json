@@ -1,139 +1,140 @@
 {
-  "generated_at": "2026-03-08 08:02:22 +08",
+  "generated_at": "2026-03-08 12:02:44 +08",
   "generated_date": "2026-03-08",
-  "current_slot": "早",
+  "current_slot": "中",
   "slots_done": [
-    "早"
+    "早",
+    "中"
   ],
   "sources": {
     "中国": [
       {
-        "title": "上海高工母亲和53岁硕士女儿双双失智 保姆撑不下去了",
-        "link": "https://www.163.com/news/article/KNE2J6HP0001899O.html",
-        "published": "2026-03-07 15:01",
+        "title": "奶奶生前曾称宅基地下埋大量银元 男子花9千买探测器",
+        "link": "https://www.163.com/news/article/KNGB6N8V0001899O.html",
+        "published": "2026-03-08 11:11",
         "description": "",
-        "title_zh": "上海高工母亲和53岁硕士女儿双双失智 保姆撑不下去了",
-        "title_en": "上海高工母亲和53岁硕士女儿双双失智 保姆撑不下去了"
+        "title_zh": "奶奶生前曾称宅基地下埋大量银元 男子花9千买探测器",
+        "title_en": "奶奶生前曾称宅基地下埋大量银元 男子花9千买探测器"
       },
       {
-        "title": "卫健委主任回应＂孩子一出生就自带口粮、自带工资＂",
-        "link": "https://www.163.com/dy/article/KNDTV9OS051492T3.html",
-        "published": "2026-03-07 13:01",
+        "title": "王毅：解决台湾问题 实现祖国完全统一不可阻挡",
+        "link": "https://www.163.com/news/article/KNGBSM1D0001899O.html",
+        "published": "2026-03-08 11:23",
         "description": "",
-        "title_zh": "卫健委主任回应＂孩子一出生就自带口粮、自带工资＂",
-        "title_en": "卫健委主任回应＂孩子一出生就自带口粮、自带工资＂"
+        "title_zh": "王毅：解决台湾问题 实现祖国完全统一不可阻挡",
+        "title_en": "王毅：解决台湾问题 实现祖国完全统一不可阻挡"
       },
       {
-        "title": "教育部：让”班超＂、＂校超＂燃动校园",
-        "link": "https://www.163.com/news/article/KNDP3386000189PS.html",
-        "published": "2026-03-07 12:01",
+        "title": "王毅：台湾事务是中国内政 日本没有资格插手",
+        "link": "https://www.163.com/news/article/KNGB846L0001899O.html",
+        "published": "2026-03-08 11:12",
         "description": "",
-        "title_zh": "教育部：让”班超＂、＂校超＂燃动校园",
-        "title_en": "教育部：让”班超＂、＂校超＂燃动校园"
+        "title_zh": "王毅：台湾事务是中国内政 日本没有资格插手",
+        "title_en": "王毅：台湾事务是中国内政 日本没有资格插手"
       },
       {
-        "title": "文旅部：欺客宰客强迫购物零容忍",
-        "link": "https://www.163.com/news/article/KNDORUP30001899O.html",
-        "published": "2026-03-07 12:01",
+        "title": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着",
+        "link": "https://www.163.com/dy/article/KNG3UFP40512DU6N.html",
+        "published": "2026-03-08 11:12",
         "description": "",
-        "title_zh": "文旅部：欺客宰客强迫购物零容忍",
-        "title_en": "文旅部：欺客宰客强迫购物零容忍"
+        "title_zh": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着",
+        "title_en": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着"
       },
       {
-        "title": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子",
-        "link": "https://www.163.com/dy/article/KNCBG8GK0530WJIN.html",
-        "published": "2026-03-07 11:01",
+        "title": "王毅：继续优化人员往来政策 进一步释放免签红利",
+        "link": "https://www.163.com/news/article/KNGAJND00001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子",
-        "title_en": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子"
+        "title_zh": "王毅：继续优化人员往来政策 进一步释放免签红利",
+        "title_en": "王毅：继续优化人员往来政策 进一步释放免签红利"
       },
       {
-        "title": "人社部：今年高校毕业生预计1270万人",
-        "link": "https://www.163.com/news/article/KNDMKE440001899O.html",
-        "published": "2026-03-07 11:01",
+        "title": "王毅：中国绝不走国强必霸的路",
+        "link": "https://www.163.com/news/article/KNGA823R000189PS.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "人社部：今年高校毕业生预计1270万人",
-        "title_en": "人社部：今年高校毕业生预计1270万人"
+        "title_zh": "王毅：中国绝不走国强必霸的路",
+        "title_en": "王毅：中国绝不走国强必霸的路"
       },
       {
-        "title": "人社部：正研究措施发挥人工智能创造新岗位",
-        "link": "https://www.163.com/news/article/KNDMEA540001899O.html",
-        "published": "2026-03-07 11:01",
+        "title": "女子闪婚怀孕后称遭家暴 丈夫喊冤：我是盲人怎么打她",
+        "link": "https://www.163.com/dy/article/KNG6ODCD05561G0D.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "人社部：正研究措施发挥人工智能创造新岗位",
-        "title_en": "人社部：正研究措施发挥人工智能创造新岗位"
+        "title_zh": "女子闪婚怀孕后称遭家暴 丈夫喊冤：我是盲人怎么打她",
+        "title_en": "女子闪婚怀孕后称遭家暴 丈夫喊冤：我是盲人怎么打她"
       },
       {
-        "title": "民政部：养老服务消费补贴累计核销17.2亿元",
-        "link": "https://www.163.com/news/article/KNDLT0MV000189PS.html",
-        "published": "2026-03-07 11:01",
+        "title": "王毅：动荡与战争不是巴勒斯坦民众的宿命",
+        "link": "https://www.163.com/news/article/KNGA05IJ0001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "民政部：养老服务消费补贴累计核销17.2亿元",
-        "title_en": "民政部：养老服务消费补贴累计核销17.2亿元"
+        "title_zh": "王毅：动荡与战争不是巴勒斯坦民众的宿命",
+        "title_en": "王毅：动荡与战争不是巴勒斯坦民众的宿命"
       },
       {
-        "title": "教育部部长：去年高中阶段教育毛入学率92%",
-        "link": "https://www.163.com/news/article/KNDL6TQL0001899O.html",
-        "published": "2026-03-07 11:01",
+        "title": "王毅：乐见欧洲来中国市场强筋壮骨",
+        "link": "https://www.163.com/news/article/KNG9R336000189PS.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "教育部部长：去年高中阶段教育毛入学率92%",
-        "title_en": "教育部部长：去年高中阶段教育毛入学率92%"
+        "title_zh": "王毅：乐见欧洲来中国市场强筋壮骨",
+        "title_en": "王毅：乐见欧洲来中国市场强筋壮骨"
       },
       {
-        "title": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机",
-        "link": "https://www.163.com/dy/article/KNC0KFDC0512B07B.html",
-        "published": "2026-03-07 10:01",
+        "title": "王毅谈中美关系:两国元首为中美关系提供重要战略保障",
+        "link": "https://www.163.com/news/article/KNG91LIE0001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机",
-        "title_en": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机"
+        "title_zh": "王毅谈中美关系:两国元首为中美关系提供重要战略保障",
+        "title_en": "王毅谈中美关系:两国元首为中美关系提供重要战略保障"
       },
       {
-        "title": "＂红色黄金＂供应链中断 中国进口商：伊朗客户失联了",
-        "link": "https://www.163.com/dy/article/KNC45NLP053469LG.html",
-        "published": "2026-03-07 10:01",
+        "title": "王毅谈中美关系：中美改变不了彼此 但可改变相处方式",
+        "link": "https://www.163.com/news/article/KNG8PEDM0001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "＂红色黄金＂供应链中断 中国进口商：伊朗客户失联了",
-        "title_en": "＂红色黄金＂供应链中断 中国进口商：伊朗客户失联了"
+        "title_zh": "王毅谈中美关系：中美改变不了彼此 但可改变相处方式",
+        "title_en": "王毅谈中美关系：中美改变不了彼此 但可改变相处方式"
       },
       {
-        "title": "春节后广州＂制衣村＂老板疯狂抢人 一天500元难招技工",
-        "link": "https://www.163.com/dy/article/KNCDTTKA053469LG.html",
-        "published": "2026-03-07",
+        "title": "王毅：脱离联合国拼凑各种小集团小圈子 都不得人心",
+        "link": "https://www.163.com/news/article/KNG8L5O4000189PS.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "春节后广州＂制衣村＂老板疯狂抢人 一天500元难招技工",
-        "title_en": "春节后广州＂制衣村＂老板疯狂抢人 一天500元难招技工"
+        "title_zh": "王毅：脱离联合国拼凑各种小集团小圈子 都不得人心",
+        "title_en": "王毅：脱离联合国拼凑各种小集团小圈子 都不得人心"
       },
       {
-        "title": "新疆伊犁州州长谈贺娇龙：她的身上有三种力量",
-        "link": "https://www.163.com/dy/article/KNCAPQJ7053469LG.html",
-        "published": "2026-03-07",
+        "title": "王毅谈伊朗局势：拳头硬不等于道理硬",
+        "link": "https://www.163.com/news/article/KNG8DI790001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "新疆伊犁州州长谈贺娇龙：她的身上有三种力量",
-        "title_en": "新疆伊犁州州长谈贺娇龙：她的身上有三种力量"
+        "title_zh": "王毅谈伊朗局势：拳头硬不等于道理硬",
+        "title_en": "王毅谈伊朗局势：拳头硬不等于道理硬"
       },
       {
-        "title": "香港特区政府向殉职消防员何伟豪家属发放615万港元",
-        "link": "https://www.163.com/dy/article/KNC9D0D40514R9P4.html",
-        "published": "2026-03-07",
+        "title": "王毅谈伊朗局势：这是一场本不应发生的战争",
+        "link": "https://www.163.com/news/article/KNG8A4NR0001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "香港特区政府向殉职消防员何伟豪家属发放615万港元",
-        "title_en": "香港特区政府向殉职消防员何伟豪家属发放615万港元"
+        "title_zh": "王毅谈伊朗局势：这是一场本不应发生的战争",
+        "title_en": "王毅谈伊朗局势：这是一场本不应发生的战争"
       },
       {
-        "title": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒",
-        "link": "https://www.163.com/dy/article/KNB9M3E1051492T3.html",
-        "published": "2026-03-07",
+        "title": "王毅：中俄关系“风雨不动安如山”",
+        "link": "https://www.163.com/news/article/KNG7P9P60001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒",
-        "title_en": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒"
+        "title_zh": "王毅：中俄关系“风雨不动安如山”",
+        "title_en": "王毅：中俄关系“风雨不动安如山”"
       },
       {
-        "title": "米兰前台小哥求代购酥心糖走红网络：真的很感谢大家",
-        "link": "https://www.163.com/dy/article/KNBNVNUJ05129QAF.html",
-        "published": "2026-03-07",
+        "title": "王毅：元首外交是中国外交定盘星",
+        "link": "https://www.163.com/news/article/KNG7JDH10001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "米兰前台小哥求代购酥心糖走红网络：真的很感谢大家",
-        "title_en": "米兰前台小哥求代购酥心糖走红网络：真的很感谢大家"
+        "title_zh": "王毅：元首外交是中国外交定盘星",
+        "title_en": "王毅：元首外交是中国外交定盘星"
       }
     ],
     "美国（欧美媒体）": [
@@ -167,15 +168,15 @@
         "published": "2026-03-07 14:00",
         "description": "Ordinary Iranians reflect on seven days of conflict and where they see their country going next.",
         "title_en": "We've been speaking to Iranians during one week of war. Here's what they said",
-        "title_zh": "We've been speaking to Iranians during one week of war. Here's what they said"
+        "title_zh": "在一周的战争期间，我们一直在与伊朗人交谈。"
       },
       {
-        "title": "At least six dead after tornadoes sweep across Michigan and Oklahoma, officials say",
+        "title": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
         "link": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 04:16",
-        "description": "Four people were killed in Michigan and two died in Oklahoma, officials say, as severe storms swept across parts of the US.",
-        "title_en": "At least six dead after tornadoes sweep across Michigan and Oklahoma, officials say",
-        "title_zh": "官员称，龙卷风席卷密歇根州和俄克拉荷马州后，至少六人死亡"
+        "published": "2026-03-08 09:08",
+        "description": "The storms uprooted trees, downed power lines, damaged buildings and ripped the roofs off some houses.",
+        "title_en": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+        "title_zh": "龙卷风袭击密歇根州和俄克拉荷马州，造成 6 人死亡，其中 12 岁男孩"
       },
       {
         "title": "Rapper-politician Balendra Shah on course to be Nepal's next prime minister",
@@ -231,7 +232,7 @@
         "published": "2026-03-07 02:37",
         "description": "Kyiv has reacted furiously after officials in Budapest accused staff transporting cash to Ukraine of money laundering.",
         "title_en": "Ukrainian bank workers released after detention in Hungary",
-        "title_zh": "乌克兰银行工作人员在匈牙利被拘留后获释"
+        "title_zh": "Ukrainian bank workers released after detention in Hungary"
       },
       {
         "title": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
@@ -258,15 +259,31 @@
         "title_zh": "加拿大青少年在澳大利亚野狗袭击后溺水身亡"
       },
       {
-        "title": "The final voyage of the Iranian warship sunk by the US",
-        "link": "https://www.bbc.com/news/articles/c4geelnw7w3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 08:59",
-        "description": "The sinking of an Iranian ship by the US near Sri Lanka brings the conflict uncomfortably close to India.",
-        "title_en": "The final voyage of the Iranian warship sunk by the US",
-        "title_zh": "被美国击沉的伊朗军舰的最后航程"
+        "title": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
+        "link": "https://www.bbc.com/news/articles/c7430kn9ze4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 08:02",
+        "description": "Band Baaja Bitiya is the moving tale of a father who goes to rescue his daughter from her matrimonial home.",
+        "title_en": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
+        "title_zh": "一个父亲、一个女儿和一支令印度惊叹的结婚戒指的感人故事"
       }
     ],
     "伊斯兰（半岛等）": [
+      {
+        "title": "Trump says US does not need UK’s aircraft carriers for Iran war",
+        "link": "https://www.aljazeera.com/news/2026/3/8/trump-says-us-does-not-need-united-kingdom-aircraft-carriers-for-iran-war?traffic_source=rss",
+        "published": "2026-03-08 08:33",
+        "description": "The president called the Iran war &#039;already won&#039; as he dismissed reports that the UK was preparing HMS Prince of Wales.",
+        "title_en": "Trump says US does not need UK’s aircraft carriers for Iran war",
+        "title_zh": "Trump says US does not need UK’s aircraft carriers for Iran war"
+      },
+      {
+        "title": "Iran war live: Trump again demands surrender; Israel bombs oil depots",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/8/iran-live-israel-bombs-tehran-oil-depots-attacks-on-gulf-states-continue?traffic_source=rss",
+        "published": "2026-03-08 08:00",
+        "description": "Qatar, Saudi Arabia and UAE report more attacks despite assurance from Iran&#039;s president that the strikes will stop.",
+        "title_en": "Iran war live: Trump again demands surrender; Israel bombs oil depots",
+        "title_zh": "伊朗战争直播：特朗普再次要求投降；"
+      },
       {
         "title": "Huge fire rages at Tehran oil depot after Israeli attack",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/huge-fire-rages-at-tehran-oil-depot-after-israeli-attack?traffic_source=rss",
@@ -281,7 +298,7 @@
         "published": "2026-03-08 07:11",
         "description": "Ukraine&#039;s president seeks leverage with low-cost interceptors, as US and Gulf nations burn through Patriot missiles.",
         "title_en": "Zelenskyy offers Saudi Arabia’s MBS help countering Iranian drones",
-        "title_zh": "Zelenskyy offers Saudi Arabia’s MBS help countering Iranian drones"
+        "title_zh": "泽连斯基向沙特阿拉伯王储提供帮助对抗伊朗无人机"
       },
       {
         "title": "Trump administration denies reports that Iran captured US soldiers",
@@ -369,7 +386,7 @@
         "published": "2026-03-08 04:13",
         "description": "President Zelenskyy calls for international response as Russian assault targets civilian and energy infrastructure.",
         "title_en": "Russia kills 10 in Ukraine strike including children with new missile",
-        "title_zh": "Russia kills 10 in Ukraine strike including children with new missile"
+        "title_zh": "俄罗斯用新型导弹在乌克兰空袭中造成10人死亡，其中包括儿童"
       },
       {
         "title": "Smoke rises from a Dubai tower after attack",
@@ -378,118 +395,40 @@
         "description": "Video shows smoke rising from a Dubai tower after shrapnel damaged the residential building and set a car on fire.",
         "title_en": "Smoke rises from a Dubai tower after attack",
         "title_zh": "袭击后迪拜塔冒出浓烟"
-      },
-      {
-        "title": "More than 30 injured in nightclub bombing in northern Peru",
-        "link": "https://www.aljazeera.com/news/2026/3/7/more-than-30-injured-in-nightclub-bombing-in-northern-peru?traffic_source=rss",
-        "published": "2026-03-08 03:26",
-        "description": "Peru has experienced an uptick in organised crime, including extortion, a trend analysts link to government corruption.",
-        "title_en": "More than 30 injured in nightclub bombing in northern Peru",
-        "title_zh": "秘鲁北部夜总会爆炸事件造成30多人受伤"
-      },
-      {
-        "title": "‘They’re cancer’: Trump threatens cartels, Cuba at Latin American summit",
-        "link": "https://www.aljazeera.com/news/2026/3/7/theyre-a-cancer-trump-threatens-cartels-cuba-at-latin-american-summit?traffic_source=rss",
-        "published": "2026-03-08 02:56",
-        "description": "The president offered to launch missiles in Latin America to combat criminal violence in a call to &#039;eradicate&#039; cartels.",
-        "title_en": "‘They’re cancer’: Trump threatens cartels, Cuba at Latin American summit",
-        "title_zh": "“他们是癌症”：特朗普在拉丁美洲峰会上威胁卡特尔和古巴"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "China spent years building ties in Latin America. Can Trump make room for the US?",
-      "event_hint_zh": "中国花了数年时间与拉丁美洲建立联系。",
-      "event_hint_en": "China spent years building ties in Latin America. Can Trump make room for the US?",
+      "event_hint": "We've been speaking to Iranians during one week of war. Here's what they said",
+      "event_hint_zh": "在一周的战争期间，我们一直在与伊朗人交谈。",
+      "event_hint_en": "We've been speaking to Iranians during one week of war. Here's what they said",
       "中国": {
-        "title": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子",
-        "link": "https://www.163.com/dy/article/KNCBG8GK0530WJIN.html",
-        "published": "2026-03-07 11:01",
+        "title": "王毅谈伊朗局势：这是一场本不应发生的战争",
+        "link": "https://www.163.com/news/article/KNG8A4NR0001899O.html",
+        "published": "2026-03-08 11:01",
         "description": "",
-        "title_zh": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子",
-        "title_en": "中国外贸人：伊朗客户失联 他们很守信用不会放鸽子"
+        "title_zh": "王毅谈伊朗局势：这是一场本不应发生的战争",
+        "title_en": "王毅谈伊朗局势：这是一场本不应发生的战争"
       },
       "美国（欧美媒体）": {
-        "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
-        "link": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 09:56",
-        "description": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
-        "title_en": "China spent years building ties in Latin America. Can Trump make room for the US?",
-        "title_zh": "中国花了数年时间与拉丁美洲建立联系。"
+        "title": "We've been speaking to Iranians during one week of war. Here's what they said",
+        "link": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-07 14:00",
+        "description": "Ordinary Iranians reflect on seven days of conflict and where they see their country going next.",
+        "title_en": "We've been speaking to Iranians during one week of war. Here's what they said",
+        "title_zh": "在一周的战争期间，我们一直在与伊朗人交谈。"
       },
       "伊斯兰（半岛等）": {
-        "title": "‘They’re cancer’: Trump threatens cartels, Cuba at Latin American summit",
-        "link": "https://www.aljazeera.com/news/2026/3/7/theyre-a-cancer-trump-threatens-cartels-cuba-at-latin-american-summit?traffic_source=rss",
-        "published": "2026-03-08 02:56",
-        "description": "The president offered to launch missiles in Latin America to combat criminal violence in a call to &#039;eradicate&#039; cartels.",
-        "title_en": "‘They’re cancer’: Trump threatens cartels, Cuba at Latin American summit",
-        "title_zh": "“他们是癌症”：特朗普在拉丁美洲峰会上威胁卡特尔和古巴"
+        "title": "US embassy in Baghdad attacked as US-Israel war on Iran escalates",
+        "link": "https://www.aljazeera.com/news/2026/3/7/us-embassy-in-baghdad-attacked-as-us-israel-war-on-iran-escalates?traffic_source=rss",
+        "published": "2026-03-08 06:06",
+        "description": "Iraq did not want to be dragged into war, but Iran and its aligned paramilitary forces are attacking US hubs there.",
+        "title_en": "US embassy in Baghdad attacked as US-Israel war on Iran escalates",
+        "title_zh": "随着美以对伊朗的战争升级，美国驻巴格达大使馆遭到袭击"
       },
-      "my_view": "中国视角强调民间经贸信用与人文纽带；欧美视角聚焦地缘政治博弈，将中国行为置于中美竞争框架下；伊斯兰视角则突出特朗普言论的对抗性，关注拉美地区内部矛盾。三方分别从经济合作、战略竞争、区域冲突角度切入。",
-      "summary": "同一拉美外交事件被不同媒体基于自身立场重构，分别侧重经济联系、大国博弈和地区矛盾。"
-    },
-    {
-      "event_hint": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-      "event_hint_zh": "以色列特种部队突袭黎巴嫩村庄寻找 40 岁遗骸，造成数十人死亡",
-      "event_hint_en": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-      "中国": {
-        "title": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒",
-        "link": "https://www.163.com/dy/article/KNB9M3E1051492T3.html",
-        "published": "2026-03-07",
-        "description": "",
-        "title_zh": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒",
-        "title_en": "隋朝9岁夭折女孩陵墓出土数百件豪华陪葬 石棺刻诅咒"
-      },
-      "美国（欧美媒体）": {
-        "title": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-        "link": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 03:16",
-        "description": "Overnight, one Israeli operation saw at least 41 people killed and 40 injured, according to the Lebanese health ministry.",
-        "title_en": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
-        "title_zh": "以色列特种部队突袭黎巴嫩村庄寻找 40 岁遗骸，造成数十人死亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Doctors try to save girl as father was killed in Gaza Israeli attack",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/doctors-try-to-save-girl-as-father-was-killed-in-gaza-israeli-attack?traffic_source=rss",
-        "published": "2026-03-08 04:56",
-        "description": "Doctors in Gaza try to save a girl who sustained injuries in an Israeli attack that hit her and killed her father.",
-        "title_en": "Doctors try to save girl as father was killed in Gaza Israeli attack",
-        "title_zh": "父亲在加沙以色列袭击中丧生，医生试图拯救女孩"
-      },
-      "my_view": "中国报道转移焦点至考古，回避中东冲突；欧美报道客观陈述事件伤亡与目的；伊斯兰报道聚焦平民受害细节，突出人道危机。三方分别体现外交回避、事实优先、情感动员的立场差异。",
-      "summary": "以色列军事行动造成黎巴嫩与加沙地区平民伤亡，不同媒体通过选题框架体现地缘政治立场差异。"
-    },
-    {
-      "event_hint": "Canadian teen died from drowning after dingo attack in Australia",
-      "event_hint_zh": "加拿大青少年在澳大利亚野狗袭击后溺水身亡",
-      "event_hint_en": "Canadian teen died from drowning after dingo attack in Australia",
-      "中国": {
-        "title": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机",
-        "link": "https://www.163.com/dy/article/KNC0KFDC0512B07B.html",
-        "published": "2026-03-07 10:01",
-        "description": "",
-        "title_zh": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机",
-        "title_en": "中国游客在迪拜炮弹声中疯狂刷票：母亲死活不愿转机"
-      },
-      "美国（欧美媒体）": {
-        "title": "Canadian teen died from drowning after dingo attack in Australia",
-        "link": "https://www.bbc.com/news/articles/cde4599n8zpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-06 09:47",
-        "description": "The body of Piper James was found in January surrounded by dingoes on the island of K'Gari.",
-        "title_en": "Canadian teen died from drowning after dingo attack in Australia",
-        "title_zh": "加拿大青少年在澳大利亚野狗袭击后溺水身亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Smoke rises from a Dubai tower after attack",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/smoke-rises-from-a-dubai-tower-after?traffic_source=rss",
-        "published": "2026-03-08 03:49",
-        "description": "Video shows smoke rising from a Dubai tower after shrapnel damaged the residential building and set a car on fire.",
-        "title_en": "Smoke rises from a Dubai tower after attack",
-        "title_zh": "袭击后迪拜塔冒出浓烟"
-      },
-      "my_view": "中国媒体强调游客避险反应，突出个体安全意识；欧美媒体客观陈述事件因果，聚焦事实本身；伊斯兰媒体选取迪拜袭击画面，暗示地区安全风险。三方分别从公民教育、事实报道、地缘政治角度构建新闻框架。",
-      "summary": "澳大利亚野狗袭击导致加拿大青少年落水身亡是一起意外安全事故，不同媒体通过选择性报道体现各自议程设置。"
+      "my_view": "中国强调战争的非必要性与外交解决；欧美聚焦个体叙事与民众声音；伊斯兰视角直指美国责任与冲突升级，三方分别体现中立调解、人文关怀与反美立场。",
+      "summary": "多方围绕伊朗局势展开不同叙事，反映地缘政治中立场决定话语导向的本质。"
     },
     {
       "event_hint": "Russian strike on Kharkiv apartment block kills ten",
@@ -510,23 +449,109 @@
         "published": "2026-03-08 04:13",
         "description": "President Zelenskyy calls for international response as Russian assault targets civilian and energy infrastructure.",
         "title_en": "Russia kills 10 in Ukraine strike including children with new missile",
-        "title_zh": "Russia kills 10 in Ukraine strike including children with new missile"
+        "title_zh": "俄罗斯用新型导弹在乌克兰空袭中造成10人死亡，其中包括儿童"
       },
-      "my_view": "BBC使用中性陈述，突出事件本身；半岛电视台强调儿童伤亡与新武器，带有情感倾向与问责意图；中国媒体暂未报道，体现对俄乌冲突的谨慎态度。",
-      "summary": "俄罗斯在乌克兰哈尔科夫的军事行动导致平民伤亡，不同媒体通过报道框架体现政治立场差异。"
+      "my_view": "BBC使用中性陈述，突出事件基本事实；半岛电视台强调儿童伤亡和新武器，带有情感倾向与道德谴责；中国媒体暂未报道，可能基于外交考量避免选边站队。",
+      "summary": "俄罗斯军队在乌克兰哈尔科夫的袭击导致平民伤亡，是俄乌冲突中针对民用设施的又一次升级。"
     },
     {
-      "event_hint": "Swiss to vote on right-wing push to slash licence fee for public broadcaster",
-      "event_hint_zh": "瑞士将对右翼推动削减公共广播公司牌照费进行投票",
-      "event_hint_en": "Swiss to vote on right-wing push to slash licence fee for public broadcaster",
+      "event_hint": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
+      "event_hint_zh": "以色列特种部队突袭黎巴嫩村庄寻找 40 岁遗骸，造成数十人死亡",
+      "event_hint_en": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Swiss to vote on right-wing push to slash licence fee for public broadcaster",
-        "link": "https://www.bbc.com/news/articles/c4g55v24wrno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 10:04",
-        "description": "The move is backed by the right-wing Swiss People's Party, which says the current fee is unjustified because of the high cost of living.",
-        "title_en": "Swiss to vote on right-wing push to slash licence fee for public broadcaster",
-        "title_zh": "瑞士将对右翼推动削减公共广播公司牌照费进行投票"
+        "title": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
+        "link": "https://www.bbc.com/news/articles/cy8l2p2l3v0o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 03:16",
+        "description": "Overnight, one Israeli operation saw at least 41 people killed and 40 injured, according to the Lebanese health ministry.",
+        "title_en": "Dozens killed as Israeli special forces raid Lebanese village in search of 40-year-old remains",
+        "title_zh": "以色列特种部队突袭黎巴嫩村庄寻找 40 岁遗骸，造成数十人死亡"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Doctors try to save girl as father was killed in Gaza Israeli attack",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/doctors-try-to-save-girl-as-father-was-killed-in-gaza-israeli-attack?traffic_source=rss",
+        "published": "2026-03-08 04:56",
+        "description": "Doctors in Gaza try to save a girl who sustained injuries in an Israeli attack that hit her and killed her father.",
+        "title_en": "Doctors try to save girl as father was killed in Gaza Israeli attack",
+        "title_zh": "父亲在加沙以色列袭击中丧生，医生试图拯救女孩"
+      },
+      "my_view": "欧美标题侧重行动过程与伤亡数字，体现客观报道框架；伊斯兰标题聚焦个体悲剧与情感冲击，隐含对平民受害的控诉；中国媒体未报道则反映对中东冲突的差异化议程设置。三方分别呈现了事实框架、人道视角与政治回避。",
+      "summary": "以色列跨境军事行动造成黎巴嫩平民伤亡，不同媒体通过选择性叙事展现地缘政治立场差异。"
+    },
+    {
+      "event_hint": "Canadian teen died from drowning after dingo attack in Australia",
+      "event_hint_zh": "加拿大青少年在澳大利亚野狗袭击后溺水身亡",
+      "event_hint_en": "Canadian teen died from drowning after dingo attack in Australia",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Canadian teen died from drowning after dingo attack in Australia",
+        "link": "https://www.bbc.com/news/articles/cde4599n8zpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-06 09:47",
+        "description": "The body of Piper James was found in January surrounded by dingoes on the island of K'Gari.",
+        "title_en": "Canadian teen died from drowning after dingo attack in Australia",
+        "title_zh": "加拿大青少年在澳大利亚野狗袭击后溺水身亡"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Smoke rises from a Dubai tower after attack",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/7/smoke-rises-from-a-dubai-tower-after?traffic_source=rss",
+        "published": "2026-03-08 03:49",
+        "description": "Video shows smoke rising from a Dubai tower after shrapnel damaged the residential building and set a car on fire.",
+        "title_en": "Smoke rises from a Dubai tower after attack",
+        "title_zh": "袭击后迪拜塔冒出浓烟"
+      },
+      "my_view": "欧美报道聚焦事件本身，客观陈述死因与动物袭击；伊斯兰媒体标题偏离核心事件，可能暗示地缘政治关联；中国媒体未报道反映事件与本国关联度低或议程设置差异。",
+      "summary": "这是一起澳大利亚野生动物袭击导致的加拿大青少年意外溺水死亡事件。"
+    },
+    {
+      "event_hint": "US economy unexpectedly sheds 92,000 jobs in February",
+      "event_hint_zh": "美国经济 2 月份意外裁员 92,000 人",
+      "event_hint_en": "US economy unexpectedly sheds 92,000 jobs in February",
+      "中国": {
+        "title": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着",
+        "link": "https://www.163.com/dy/article/KNG3UFP40512DU6N.html",
+        "published": "2026-03-08 11:12",
+        "description": "",
+        "title_zh": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着",
+        "title_en": "伊朗客户在战火中转账 义乌老板拒收：钱别转你留着"
+      },
+      "美国（欧美媒体）": {
+        "title": "US economy unexpectedly sheds 92,000 jobs in February",
+        "link": "https://www.bbc.com/news/articles/cjd98091g28o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-06 22:50",
+        "description": "The contraction came as a surprise with payrolls down in nearly every sector.",
+        "title_en": "US economy unexpectedly sheds 92,000 jobs in February",
+        "title_zh": "美国经济 2 月份意外裁员 92,000 人"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Trump administration denies reports that Iran captured US soldiers",
+        "link": "https://www.aljazeera.com/news/2026/3/7/trump-administration-denies-reports-that-iran-captured-us-soldiers?traffic_source=rss",
+        "published": "2026-03-08 06:37",
+        "description": "The head of Iran&#039;s National Security Council had claimed the US was misrepresenting the captures as combat deaths.",
+        "title_en": "Trump administration denies reports that Iran captured US soldiers",
+        "title_zh": "特朗普政府否认伊朗俘虏美国士兵的报道"
+      },
+      "my_view": "网易以人道故事淡化美国经济负面，BBC直击数据凸显意外衰退，半岛则借军事传闻转移焦点——三方均通过选择性报道服务自身叙事立场。",
+      "summary": "美国经济数据意外恶化，但三方媒体通过报道不同事件来引导符合自身利益的舆论方向。"
+    },
+    {
+      "event_hint": "China spent years building ties in Latin America. Can Trump make room for the US?",
+      "event_hint_zh": "中国花了数年时间与拉丁美洲建立联系。",
+      "event_hint_en": "China spent years building ties in Latin America. Can Trump make room for the US?",
+      "中国": {
+        "title": "王毅：台湾事务是中国内政 日本没有资格插手",
+        "link": "https://www.163.com/news/article/KNGB846L0001899O.html",
+        "published": "2026-03-08 11:12",
+        "description": "",
+        "title_zh": "王毅：台湾事务是中国内政 日本没有资格插手",
+        "title_en": "王毅：台湾事务是中国内政 日本没有资格插手"
+      },
+      "美国（欧美媒体）": {
+        "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
+        "link": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-07 09:56",
+        "description": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
+        "title_en": "China spent years building ties in Latin America. Can Trump make room for the US?",
+        "title_zh": "中国花了数年时间与拉丁美洲建立联系。"
       },
       "伊斯兰（半岛等）": {
         "title": "Florida Bar denies investigation into Trump lawyer Lindsey Halligan",
@@ -536,32 +561,8 @@
         "title_en": "Florida Bar denies investigation into Trump lawyer Lindsey Halligan",
         "title_zh": "佛罗里达州律师协会否认对特朗普律师林赛·哈利根进行调查"
       },
-      "my_view": "欧美视角聚焦国内政治博弈，伊斯兰视角标题明显偏离事件主体，中国媒体未报道可能因事件地缘相关性较弱，三方呈现事实选择与议程设置的显著差异。",
-      "summary": "瑞士将就右翼政党提出的削减公共广播牌照费提案举行全民公投。"
-    },
-    {
-      "event_hint": "Heavy rains and flooding kills at least 23 in Nairobi",
-      "event_hint_zh": "内罗毕暴雨和洪水造成至少23人死亡",
-      "event_hint_en": "Heavy rains and flooding kills at least 23 in Nairobi",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Heavy rains and flooding kills at least 23 in Nairobi",
-        "link": "https://www.bbc.com/news/articles/cn87pl8e2l5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 20:21",
-        "description": "Flights in and out of Nairobi Airport have been disrupted while some roads in the capital are submerged.",
-        "title_en": "Heavy rains and flooding kills at least 23 in Nairobi",
-        "title_zh": "内罗毕暴雨和洪水造成至少23人死亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "More than 30 injured in nightclub bombing in northern Peru",
-        "link": "https://www.aljazeera.com/news/2026/3/7/more-than-30-injured-in-nightclub-bombing-in-northern-peru?traffic_source=rss",
-        "published": "2026-03-08 03:26",
-        "description": "Peru has experienced an uptick in organised crime, including extortion, a trend analysts link to government corruption.",
-        "title_en": "More than 30 injured in nightclub bombing in northern Peru",
-        "title_zh": "秘鲁北部夜总会爆炸事件造成30多人受伤"
-      },
-      "my_view": "欧美媒体客观报道灾害事实，伊斯兰媒体关注其他地区事件，中国媒体未报道此事，体现不同媒体对新闻价值的选择性关注与议程设置差异。",
-      "summary": "内罗毕暴雨洪水是造成人员伤亡的自然灾害事件，不同媒体的报道焦点反映其地域关注与新闻取向。"
+      "my_view": "中国视角强调主权内政，欧美关注地缘竞争与特朗普影响，伊斯兰视角则聚焦美国国内司法事件。三方报道分别体现政治立场、战略博弈与国内事务的差异化关注点。",
+      "summary": "同一国际事件在不同意识形态媒体中被重构为符合各自议程的叙事，反映全球信息传播的立场分化。"
     }
   ]
 }
