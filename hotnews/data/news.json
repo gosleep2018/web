@@ -1,12 +1,142 @@
 {
-  "generated_at": "2026-03-09 08:03:04 +08",
+  "generated_at": "2026-03-09 12:03:11 +08",
   "generated_date": "2026-03-09",
-  "current_slot": "早",
+  "current_slot": "中",
   "slots_done": [
-    "早"
+    "早",
+    "中"
   ],
   "sources": {
-    "中国": [],
+    "中国": [
+      {
+        "title": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告",
+        "link": "https://www.163.com/dy/article/KNIUPSK70534A4SC.html",
+        "published": "2026-03-09 11:47",
+        "description": "",
+        "title_zh": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告",
+        "title_en": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告"
+      },
+      {
+        "title": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象",
+        "link": "https://www.163.com/news/article/KNIVBHED0001899O.html",
+        "published": "2026-03-09 11:42",
+        "description": "",
+        "title_zh": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象",
+        "title_en": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象"
+      },
+      {
+        "title": "滕继国任中央政法委副秘书长 此前任职最高检",
+        "link": "https://www.163.com/dy/article/KNIUQ98R055040N3.html",
+        "published": "2026-03-09 11:33",
+        "description": "",
+        "title_zh": "滕继国任中央政法委副秘书长 此前任职最高检",
+        "title_en": "滕继国任中央政法委副秘书长 此前任职最高检"
+      },
+      {
+        "title": "最高法：失信名单人数继2024年首次下降后再降5.2%",
+        "link": "https://www.163.com/dy/article/KNITH71S053469LG.html",
+        "published": "2026-03-09 11:10",
+        "description": "",
+        "title_zh": "最高法：失信名单人数继2024年首次下降后再降5.2%",
+        "title_en": "最高法：失信名单人数继2024年首次下降后再降5.2%"
+      },
+      {
+        "title": "廖祥忠委员：去年中传砍掉翻译、摄影等16个本科专业",
+        "link": "https://www.163.com/dy/article/KNIR73VO0534P59R.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "廖祥忠委员：去年中传砍掉翻译、摄影等16个本科专业",
+        "title_en": "廖祥忠委员：去年中传砍掉翻译、摄影等16个本科专业"
+      },
+      {
+        "title": "明天油价大幅上调 加满一箱油预计多花近40元",
+        "link": "https://www.163.com/news/article/KNISB98J0001899O.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "明天油价大幅上调 加满一箱油预计多花近40元",
+        "title_en": "明天油价大幅上调 加满一箱油预计多花近40元"
+      },
+      {
+        "title": "最高检工作报告点名吴英杰、唐仁健等原省部级干部",
+        "link": "https://www.163.com/dy/article/KNIRE6EP0514CDBK.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "最高检工作报告点名吴英杰、唐仁健等原省部级干部",
+        "title_en": "最高检工作报告点名吴英杰、唐仁健等原省部级干部"
+      },
+      {
+        "title": "最高检工作报告：对339人正当防卫不捕不诉",
+        "link": "https://www.163.com/news/article/KNIQE2VI0001899O.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "最高检工作报告：对339人正当防卫不捕不诉",
+        "title_en": "最高检工作报告：对339人正当防卫不捕不诉"
+      },
+      {
+        "title": "最高法工作报告极简版来了！700字",
+        "link": "https://www.163.com/news/article/KNIPUMME0001899O.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "最高法工作报告极简版来了！700字",
+        "title_en": "最高法工作报告极简版来了！700字"
+      },
+      {
+        "title": "最高法工作报告：审理两大电商＂二选一＂案",
+        "link": "https://www.163.com/news/article/KNIPHCDC000189PS.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "最高法工作报告：审理两大电商＂二选一＂案",
+        "title_en": "最高法工作报告：审理两大电商＂二选一＂案"
+      },
+      {
+        "title": "最高法工作报告：未成年人犯罪高发势头有效遏制",
+        "link": "https://www.163.com/news/article/KNIPB9VV0001899O.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "最高法工作报告：未成年人犯罪高发势头有效遏制",
+        "title_en": "最高法工作报告：未成年人犯罪高发势头有效遏制"
+      },
+      {
+        "title": "最高法工作报告：严惩以婚嫁为名实施诈骗",
+        "link": "https://www.163.com/news/article/KNIP61490001899O.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "最高法工作报告：严惩以婚嫁为名实施诈骗",
+        "title_en": "最高法工作报告：严惩以婚嫁为名实施诈骗"
+      },
+      {
+        "title": "最高法工作报告：醉酒智驾仍应承担刑责",
+        "link": "https://www.163.com/news/article/KNIONOHO0001899O.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "最高法工作报告：醉酒智驾仍应承担刑责",
+        "title_en": "最高法工作报告：醉酒智驾仍应承担刑责"
+      },
+      {
+        "title": "全国人大常委会工作报告：今年将制定反跨境腐败法等",
+        "link": "https://www.163.com/dy/article/KNIOESQ10534A4SC.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "全国人大常委会工作报告：今年将制定反跨境腐败法等",
+        "title_en": "全国人大常委会工作报告：今年将制定反跨境腐败法等"
+      },
+      {
+        "title": "国家统计局：2月份居民消费价格同比上涨1.3%",
+        "link": "https://www.163.com/news/article/KNINUS8D0001899O.html",
+        "published": "2026-03-09 10:01",
+        "description": "",
+        "title_zh": "国家统计局：2月份居民消费价格同比上涨1.3%",
+        "title_en": "国家统计局：2月份居民消费价格同比上涨1.3%"
+      },
+      {
+        "title": "多地宣布停车费下调：降低起步价、延长免费时段",
+        "link": "https://www.163.com/dy/article/KNHM6PD20514R9P4.html",
+        "published": "2026-03-09 08:01",
+        "description": "",
+        "title_zh": "多地宣布停车费下调：降低起步价、延长免费时段",
+        "title_en": "多地宣布停车费下调：降低起步价、延长免费时段"
+      }
+    ],
     "美国（欧美媒体）": [
       {
         "title": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
@@ -17,12 +147,36 @@
         "title_zh": "伊朗新任最高领袖莫杰塔巴·哈梅内伊是谁？"
       },
       {
-        "title": "War fuels debate in Cyprus over UK military bases",
-        "link": "https://www.bbc.com/news/articles/cx2r1xldl1ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 16:03",
-        "description": "“British Bases Out” is the slogan of Cypriot protesters after a drone strike targeted the RAF Akrotiri airbase.",
-        "title_en": "War fuels debate in Cyprus over UK military bases",
-        "title_zh": "战争引发塞浦路斯关于英国军事基地的争论"
+        "title": "Oil prices surge above $110 and shares slide over Iran war",
+        "link": "https://www.bbc.com/news/articles/c79542n0grwo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 10:19",
+        "description": "Major disruption to energy supplies threatens to push up prices for consumers and businesses around the world.",
+        "title_en": "Oil prices surge above $110 and shares slide over Iran war",
+        "title_zh": "伊朗战争导致油价飙升至 110 美元上方，股价下滑"
+      },
+      {
+        "title": "Rihanna's Beverly Hills home hit by gunfire, police say",
+        "link": "https://www.bbc.com/news/articles/ckg2pm2kvkeo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 11:01",
+        "description": "A suspect was arrested after the shooting on Sunday afternoon, Los Angeles officers say.",
+        "title_en": "Rihanna's Beverly Hills home hit by gunfire, police say",
+        "title_zh": "警方称蕾哈娜位于比佛利山庄的家遭到枪击"
+      },
+      {
+        "title": "Masked fan unplugs VAR monitor in German match",
+        "link": "https://www.bbc.com/sport/football/articles/c0rj2kq978qo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 08:13",
+        "description": "A masked fan unplugged a VAR monitor in a German second division match as the referee was went to the pitchside screen to check a penalty award.",
+        "title_en": "Masked fan unplugs VAR monitor in German match",
+        "title_zh": "德国比赛蒙面球迷拔掉VAR显示器"
+      },
+      {
+        "title": "Spain's migrants welcome amnesty: 'It will help us in every way'",
+        "link": "https://www.bbc.com/news/articles/crk8rdz5131o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 08:17",
+        "description": "Madrid cites humanitarian and economic reasons to give undocumented workers legal status.",
+        "title_en": "Spain's migrants welcome amnesty: 'It will help us in every way'",
+        "title_zh": "西班牙移民欢迎特赦：“这将在各个方面帮助我们”"
       },
       {
         "title": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
@@ -33,12 +187,28 @@
         "title_zh": "挪威警方称美国驻奥斯陆大使馆爆炸可能是恐怖主义"
       },
       {
+        "title": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
+        "link": "https://www.bbc.com/news/articles/c93w6y0lnd9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 12:36",
+        "description": "Thursday's general election was the first since violent youth-led protests toppled the government in September.",
+        "title_en": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
+        "title_zh": "说唱歌手政客巴伦德拉·沙阿 (Balendra Shah) 击败尼泊尔前总理，迈向胜利"
+      },
+      {
+        "title": "War fuels debate in Cyprus over UK military bases",
+        "link": "https://www.bbc.com/news/articles/cx2r1xldl1ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 16:03",
+        "description": "“British Bases Out” is the slogan of Cypriot protesters after a drone strike targeted the RAF Akrotiri airbase.",
+        "title_en": "War fuels debate in Cyprus over UK military bases",
+        "title_zh": "战争引发塞浦路斯关于英国军事基地的争论"
+      },
+      {
         "title": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
         "link": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss",
         "published": "2026-03-08 09:08",
         "description": "The storms uprooted trees, downed power lines, damaged buildings and ripped the roofs off some houses.",
         "title_en": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
-        "title_zh": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma"
+        "title_zh": "龙卷风袭击密歇根州和俄克拉荷马州，造成 6 人死亡，其中 12 岁男孩"
       },
       {
         "title": "Swiss reject right-wing plan to cut licence fee for public broadcaster",
@@ -47,14 +217,6 @@
         "description": "More than 60% voters said they wanted to keep the current licence fee levels, initial projections show.",
         "title_en": "Swiss reject right-wing plan to cut licence fee for public broadcaster",
         "title_zh": "瑞士拒绝右翼削减公共广播公司牌照费的计划"
-      },
-      {
-        "title": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
-        "link": "https://www.bbc.com/news/articles/c93w6y0lnd9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 12:36",
-        "description": "Thursday's general election was the first since violent youth-led protests toppled the government in September.",
-        "title_en": "Rapper-politician Balendra Shah unseats Nepal's ex-PM as he heads for victory",
-        "title_zh": "说唱歌手政客巴伦德拉·沙阿 (Balendra Shah) 击败尼泊尔前总理，迈向胜利"
       },
       {
         "title": "Heavy rains and flooding kills at least 23 in Nairobi",
@@ -78,7 +240,7 @@
         "published": "2026-03-07 15:54",
         "description": "Ukraine President Volodymyr Zelensky says other people - including children - are injured as rescuers continue to search through rubble.",
         "title_en": "Russian strike on Kharkiv apartment block kills ten",
-        "title_zh": "俄罗斯对哈尔科夫公寓楼的袭击造成十人死亡"
+        "title_zh": "Russian strike on Kharkiv apartment block kills ten"
       },
       {
         "title": "Armed robots take to the battlefield in Ukraine war",
@@ -89,28 +251,12 @@
         "title_zh": "武装机器人走上乌克兰战争战场"
       },
       {
-        "title": "China spent years building ties in Latin America. Can Trump make room for the US?",
-        "link": "https://www.bbc.com/news/articles/c5yvw0zwpd5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 09:56",
-        "description": "US President Donald Trump will meet with ideologically-aligned Latin American leaders to try and counter China's influence in the region.",
-        "title_en": "China spent years building ties in Latin America. Can Trump make room for the US?",
-        "title_zh": "中国花了数年时间与拉丁美洲建立联系。"
-      },
-      {
-        "title": "Indonesia to ban social media and other online platforms for under 16s",
-        "link": "https://www.bbc.com/news/articles/cvg50168ddgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-06 21:25",
-        "description": "It is the latest country to curb young people's access to digital spaces to try and protect them from abuse.",
-        "title_en": "Indonesia to ban social media and other online platforms for under 16s",
-        "title_zh": "印度尼西亚将禁止 16 岁以下青少年使用社交媒体和其他在线平台"
-      },
-      {
-        "title": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-        "link": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-06 12:23",
-        "description": "The US said the two sides would make joint efforts to promote stability after the US seized Maduro and his wife.",
-        "title_en": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-        "title_zh": "马杜罗被捕后美国和委内瑞拉同意恢复外交关系"
+        "title": "Bitter times for cocoa farmers as chocolate market slumps",
+        "link": "https://www.bbc.com/news/articles/c93jdk1yy3zo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 08:40",
+        "description": "Chocolate bars may have shot up in price but West Africa's cocoa farmers are facing economic ruin.",
+        "title_en": "Bitter times for cocoa farmers as chocolate market slumps",
+        "title_zh": "巧克力市场低迷，可可种植者的苦日子"
       },
       {
         "title": "Unanswered questions as search for Nancy Guthrie enters a new month",
@@ -119,25 +265,25 @@
         "description": "The disappearance of the mother of TV presenter Savannah Guthrie captivated the US, but police have not made any arrests.",
         "title_en": "Unanswered questions as search for Nancy Guthrie enters a new month",
         "title_zh": "随着 Nancy Guthrie 的搜索进入新的一个月，仍有一些未解答的问题"
-      },
-      {
-        "title": "We've been speaking to Iranians during one week of war. Here's what they said",
-        "link": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 14:00",
-        "description": "Ordinary Iranians reflect on seven days of conflict and where they see their country going next.",
-        "title_en": "We've been speaking to Iranians during one week of war. Here's what they said",
-        "title_zh": "在一周的战争期间，我们一直在与伊朗人交谈。"
-      },
-      {
-        "title": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-        "link": "https://www.bbc.com/news/articles/c7430kn9ze4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 08:02",
-        "description": "Band Baaja Bitiya is the moving tale of a father who goes to rescue his daughter from her matrimonial home.",
-        "title_en": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-        "title_zh": "一个父亲、一个女儿和一支令印度惊叹的结婚戒指的感人故事"
       }
     ],
     "伊斯兰（半岛等）": [
+      {
+        "title": "Oil soars past $100 a barrel as US-Israel war on Iran rages",
+        "link": "https://www.aljazeera.com/economy/2026/3/9/oil-soars-past-100-a-barrel-amid-iran-war?traffic_source=rss",
+        "published": "2026-03-09 08:52",
+        "description": "Crude oil prices surge more than 20 percent as sprawling regional conflict threatens global energy supplies.",
+        "title_en": "Oil soars past $100 a barrel as US-Israel war on Iran rages",
+        "title_zh": "美以对伊朗战争愈演愈烈，油价飙升至每桶100美元以上"
+      },
+      {
+        "title": "Iran war live: Mojtaba Khamenei named supreme leader; Israel bombs Tehran",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/9/iran-war-live-mojtaba-khamenei-named-supreme-leader-israel-bombs-tehran?traffic_source=rss",
+        "published": "2026-03-09 08:00",
+        "description": "Iran&#039;s military and political leaders pledge allegiance to Mojtaba Khamenei as US-Israeli attacks continue.",
+        "title_en": "Iran war live: Mojtaba Khamenei named supreme leader; Israel bombs Tehran",
+        "title_zh": "伊朗战争实况：莫吉塔巴·哈梅内伊被任命为最高领袖；"
+      },
       {
         "title": "Iran names Ayatollah Khamenei’s son as new leader after father’s killing",
         "link": "https://www.aljazeera.com/video/newsfeed/2026/3/8/iran-names-ayatollah-khameneis-son-as-new-leader-after-fathers-killing?traffic_source=rss",
@@ -184,7 +330,7 @@
         "published": "2026-03-09 05:18",
         "description": "Two people have been arrested after the device was thrown, as far-right demonstrators clashed with counterprotesters.",
         "title_en": "‘Explosive device’ thrown at protest outside NYC Mayor Mamdani home: NYPD",
-        "title_zh": "纽约市市长马姆达尼家外抗议时投掷“爆炸装置”：纽约警察局"
+        "title_zh": "‘Explosive device’ thrown at protest outside NYC Mayor Mamdani home: NYPD"
       },
       {
         "title": "Marches for International Women’s Day denounce war, abuse and oppression",
@@ -224,7 +370,7 @@
         "published": "2026-03-09 03:56",
         "description": "The US and Israel continue to strike Iran, hitting oil storage depots and refining facilities in Tehran.",
         "title_en": "Aftermath in Iran of US and Israeli air strikes",
-        "title_zh": "Aftermath in Iran of US and Israeli air strikes"
+        "title_zh": "美国和以色列空袭伊朗的后果"
       },
       {
         "title": "How do you track a war in real time?",
@@ -249,22 +395,6 @@
         "description": "Mojtaba Khamenei has succeeded his father, Ayatollah Ali Khamenei, who was assassinated in joint US-Israel attacks.",
         "title_en": "Who is Mojtaba Khamenei, Iran’s new supreme leader amid war?",
         "title_zh": "谁是战争中伊朗新任最高领袖莫吉塔巴·哈梅内伊？"
-      },
-      {
-        "title": "Trump vows control over Iran leader as US soldiers’ deaths rise to seven",
-        "link": "https://www.aljazeera.com/news/2026/3/8/trump-vows-control-over-iran-leaders-as-officials-seek-to-calm-oil-concerns?traffic_source=rss",
-        "published": "2026-03-09 02:56",
-        "description": "Trump says new supreme leader will &#039;not last long&#039; without US approval, hours before Mojtaba Khamenei is selected.",
-        "title_en": "Trump vows control over Iran leader as US soldiers’ deaths rise to seven",
-        "title_zh": "随着美国士兵死亡人数上升至七人，特朗普誓言控制伊朗领导人"
-      },
-      {
-        "title": "Two killed in Saudi Arabia after ‘projectile’ falls on residential building",
-        "link": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
-        "published": "2026-03-09 02:02",
-        "description": "Iran&#039;s IRGC had earlier said it targeted radar systems in locations including Al-Kharj, home to Prince Sultan base.",
-        "title_en": "Two killed in Saudi Arabia after ‘projectile’ falls on residential building",
-        "title_zh": "沙特阿拉伯“弹丸”落入住宅楼导致两人死亡"
       }
     ]
   },
@@ -273,7 +403,14 @@
       "event_hint": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
       "event_hint_zh": "伊朗新任最高领袖莫杰塔巴·哈梅内伊是谁？",
       "event_hint_en": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
-      "中国": null,
+      "中国": {
+        "title": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告",
+        "link": "https://www.163.com/dy/article/KNIUPSK70534A4SC.html",
+        "published": "2026-03-09 11:47",
+        "description": "",
+        "title_zh": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告",
+        "title_en": "贪腐11亿被执行死刑 白天辉案写进最高法工作报告"
+      },
       "美国（欧美媒体）": {
         "title": "Who is Mojtaba Khamenei, Iran's new supreme leader?",
         "link": "https://www.bbc.com/news/articles/c78xxg05w0zo?at_medium=RSS&at_campaign=rss",
@@ -290,86 +427,52 @@
         "title_en": "Who is Mojtaba Khamenei, Iran’s new supreme leader amid war?",
         "title_zh": "谁是战争中伊朗新任最高领袖莫吉塔巴·哈梅内伊？"
       },
-      "my_view": "欧美标题中性聚焦人物身份；伊斯兰标题强调战争背景，隐含局势紧张；中国媒体暂未报道，体现对伊朗内政的谨慎态度。三方差异在于是否关联地缘政治语境。",
-      "summary": "国际媒体对伊朗新任最高领袖的身份进行报道，不同标题折射出各自的地缘政治关注焦点。"
+      "my_view": "中国视角聚焦国内反腐，回避伊朗话题；欧美与伊斯兰媒体均关注伊朗新领袖，但半岛标题强调‘战争背景下’体现地区立场差异，BBC则保持中性提问。",
+      "summary": "三方媒体对同一国际事件的报道角度，反映了各自的政治立场与议程设置差异。"
     },
     {
-      "event_hint": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-      "event_hint_zh": "一个父亲、一个女儿和一支令印度惊叹的结婚戒指的感人故事",
-      "event_hint_en": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-      "中国": null,
+      "event_hint": "Oil prices surge above $110 and shares slide over Iran war",
+      "event_hint_zh": "伊朗战争导致油价飙升至 110 美元上方，股价下滑",
+      "event_hint_en": "Oil prices surge above $110 and shares slide over Iran war",
+      "中国": {
+        "title": "明天油价大幅上调 加满一箱油预计多花近40元",
+        "link": "https://www.163.com/news/article/KNISB98J0001899O.html",
+        "published": "2026-03-09 11:01",
+        "description": "",
+        "title_zh": "明天油价大幅上调 加满一箱油预计多花近40元",
+        "title_en": "明天油价大幅上调 加满一箱油预计多花近40元"
+      },
       "美国（欧美媒体）": {
-        "title": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-        "link": "https://www.bbc.com/news/articles/c7430kn9ze4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-08 08:02",
-        "description": "Band Baaja Bitiya is the moving tale of a father who goes to rescue his daughter from her matrimonial home.",
-        "title_en": "The heartwarming tale of a father, a daughter, and a wedding band wowing India",
-        "title_zh": "一个父亲、一个女儿和一支令印度惊叹的结婚戒指的感人故事"
+        "title": "Oil prices surge above $110 and shares slide over Iran war",
+        "link": "https://www.bbc.com/news/articles/c79542n0grwo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 10:19",
+        "description": "Major disruption to energy supplies threatens to push up prices for consumers and businesses around the world.",
+        "title_en": "Oil prices surge above $110 and shares slide over Iran war",
+        "title_zh": "伊朗战争导致油价飙升至 110 美元上方，股价下滑"
       },
       "伊斯兰（半岛等）": {
-        "title": "Iran names Khamenei’s son as new supreme leader after father’s killing",
-        "link": "https://www.aljazeera.com/news/2026/3/8/iran-names-khameneis-son-as-new-supreme-leader-after-fathers-killing-2?traffic_source=rss",
-        "published": "2026-03-09 05:21",
-        "description": "Mojtaba Khamenei will now be charged with leading Islamic Republic through the biggest crisis in its 47-year history.",
-        "title_en": "Iran names Khamenei’s son as new supreme leader after father’s killing",
-        "title_zh": "父亲被杀后，伊朗任命哈梅内伊儿子为新任最高领袖"
+        "title": "Oil soars past $100 a barrel as US-Israel war on Iran rages",
+        "link": "https://www.aljazeera.com/economy/2026/3/9/oil-soars-past-100-a-barrel-amid-iran-war?traffic_source=rss",
+        "published": "2026-03-09 08:52",
+        "description": "Crude oil prices surge more than 20 percent as sprawling regional conflict threatens global energy supplies.",
+        "title_en": "Oil soars past $100 a barrel as US-Israel war on Iran rages",
+        "title_zh": "美以对伊朗战争愈演愈烈，油价飙升至每桶100美元以上"
       },
-      "my_view": "BBC以温情叙事聚焦个体故事，体现人文关怀；半岛电视台则关联政治权力更迭，反映地缘关注；中国媒体未报道此事，可能因事件不符合国内报道议程或缺乏关联性。",
-      "summary": "同一事件在不同文化政治语境下被分别建构为家庭温情故事或政治权力转移议题。"
-    },
-    {
-      "event_hint": "Russian strike on Kharkiv apartment block kills ten",
-      "event_hint_zh": "俄罗斯对哈尔科夫公寓楼的袭击造成十人死亡",
-      "event_hint_en": "Russian strike on Kharkiv apartment block kills ten",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Russian strike on Kharkiv apartment block kills ten",
-        "link": "https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 15:54",
-        "description": "Ukraine President Volodymyr Zelensky says other people - including children - are injured as rescuers continue to search through rubble.",
-        "title_en": "Russian strike on Kharkiv apartment block kills ten",
-        "title_zh": "俄罗斯对哈尔科夫公寓楼的袭击造成十人死亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Two killed in Saudi Arabia after ‘projectile’ falls on residential building",
-        "link": "https://www.aljazeera.com/news/2026/3/8/two-killed-in-saudi-arabia-after-projectile-falls-on-residential-building?traffic_source=rss",
-        "published": "2026-03-09 02:02",
-        "description": "Iran&#039;s IRGC had earlier said it targeted radar systems in locations including Al-Kharj, home to Prince Sultan base.",
-        "title_en": "Two killed in Saudi Arabia after ‘projectile’ falls on residential building",
-        "title_zh": "沙特阿拉伯“弹丸”落入住宅楼导致两人死亡"
-      },
-      "my_view": "欧美报道直指俄罗斯袭击并强调伤亡；伊斯兰媒体通过沙特事件间接关联，暗示地区冲突扩散风险；中国媒体暂未报道，体现对俄乌冲突的谨慎态度。三方分别呈现直接指控、间接关联与战略沉默的立场差异。",
-      "summary": "俄军袭击乌克兰居民区致平民死亡，不同媒体基于地缘政治立场呈现选择性报道。"
-    },
-    {
-      "event_hint": "We've been speaking to Iranians during one week of war. Here's what they said",
-      "event_hint_zh": "在一周的战争期间，我们一直在与伊朗人交谈。",
-      "event_hint_en": "We've been speaking to Iranians during one week of war. Here's what they said",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "We've been speaking to Iranians during one week of war. Here's what they said",
-        "link": "https://www.bbc.com/news/articles/c5y5lqygrn7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-07 14:00",
-        "description": "Ordinary Iranians reflect on seven days of conflict and where they see their country going next.",
-        "title_en": "We've been speaking to Iranians during one week of war. Here's what they said",
-        "title_zh": "在一周的战争期间，我们一直在与伊朗人交谈。"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump vows control over Iran leader as US soldiers’ deaths rise to seven",
-        "link": "https://www.aljazeera.com/news/2026/3/8/trump-vows-control-over-iran-leaders-as-officials-seek-to-calm-oil-concerns?traffic_source=rss",
-        "published": "2026-03-09 02:56",
-        "description": "Trump says new supreme leader will &#039;not last long&#039; without US approval, hours before Mojtaba Khamenei is selected.",
-        "title_en": "Trump vows control over Iran leader as US soldiers’ deaths rise to seven",
-        "title_zh": "随着美国士兵死亡人数上升至七人，特朗普誓言控制伊朗领导人"
-      },
-      "my_view": "欧美视角侧重民间声音呈现，伊斯兰视角强调美国强硬表态与伤亡代价，中国媒体暂未报道显示其谨慎中立立场。三方分别体现观察者、对抗方与回避者的角色差异。",
-      "summary": "战争背景下各方通过选择性叙事展现不同立场，本质是信息战中的视角博弈。"
+      "my_view": "网易侧重民生影响，弱化战争背景；BBC客观陈述市场波动与战争关联；半岛强调美以军事行动责任，隐含政治立场。三方分别体现国内关切、国际视角与地缘批判。",
+      "summary": "地缘军事冲突引发全球能源市场震荡，波及民生与经济，各方报道侧重反映其立场与受众关切。"
     },
     {
       "event_hint": "Unanswered questions as search for Nancy Guthrie enters a new month",
       "event_hint_zh": "随着 Nancy Guthrie 的搜索进入新的一个月，仍有一些未解答的问题",
       "event_hint_en": "Unanswered questions as search for Nancy Guthrie enters a new month",
-      "中国": null,
+      "中国": {
+        "title": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象",
+        "link": "https://www.163.com/news/article/KNIVBHED0001899O.html",
+        "published": "2026-03-09 11:42",
+        "description": "",
+        "title_zh": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象",
+        "title_en": "国家体育总局局长高志丹：将大力整治体育＂饭圈＂乱象"
+      },
       "美国（欧美媒体）": {
         "title": "Unanswered questions as search for Nancy Guthrie enters a new month",
         "link": "https://www.bbc.com/news/articles/cp32lwy4077o?at_medium=RSS&at_campaign=rss",
@@ -386,32 +489,32 @@
         "title_en": "One ‘party state’: Guinea dissolves main opposition parties",
         "title_zh": "一个“政党国家”：几内亚解散主要反对党"
       },
-      "my_view": "欧美媒体聚焦个案细节，体现对个体命运的关注；伊斯兰媒体借题发挥，转向政治体制批判；中国媒体未报道，可能因事件地缘关联度低或不符合主流叙事框架。",
-      "summary": "同一失踪事件在不同意识形态下被报道为个体关注、政治批判或直接忽略，反映媒体选择性叙事本质。"
+      "my_view": "网易聚焦国内体育治理，体现官方引导舆论的立场；BBC关注个体事件细节，反映西方媒体对个人权利的强调；半岛电视台报道他国政治变动，展现伊斯兰世界对权力结构的审视。三方选题差异凸显各自议程设置导向。",
+      "summary": "同一时间维度下，不同媒体基于自身立场选取迥异报道焦点，体现新闻选择的政治性与地域性特征。"
     },
     {
-      "event_hint": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-      "event_hint_zh": "马杜罗被捕后美国和委内瑞拉同意恢复外交关系",
-      "event_hint_en": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
+      "event_hint": "Masked fan unplugs VAR monitor in German match",
+      "event_hint_zh": "德国比赛蒙面球迷拔掉VAR显示器",
+      "event_hint_en": "Masked fan unplugs VAR monitor in German match",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-        "link": "https://www.bbc.com/news/articles/cy9g1l5jx90o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-06 12:23",
-        "description": "The US said the two sides would make joint efforts to promote stability after the US seized Maduro and his wife.",
-        "title_en": "US and Venezuela agree to resume diplomatic ties after Maduro capture",
-        "title_zh": "马杜罗被捕后美国和委内瑞拉同意恢复外交关系"
+        "title": "Masked fan unplugs VAR monitor in German match",
+        "link": "https://www.bbc.com/sport/football/articles/c0rj2kq978qo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-09 08:13",
+        "description": "A masked fan unplugged a VAR monitor in a German second division match as the referee was went to the pitchside screen to check a penalty award.",
+        "title_en": "Masked fan unplugs VAR monitor in German match",
+        "title_zh": "德国比赛蒙面球迷拔掉VAR显示器"
       },
       "伊斯兰（半岛等）": {
-        "title": "Trump pledges to block legislation until US voter ID law passes",
-        "link": "https://www.aljazeera.com/news/2026/3/8/trump-pledges-to-block-legislation-until-us-voter-id-law-passes?traffic_source=rss",
-        "published": "2026-03-09 03:59",
-        "description": "US president continues to focus on election administration ahead of November midterms, sparking concern from critics.",
-        "title_en": "Trump pledges to block legislation until US voter ID law passes",
-        "title_zh": "特朗普承诺在美国选民身份法通过之前阻止立法"
+        "title": "Rangers vs Celtic turns ugly as fans clash on pitch after Scottish Cup tie",
+        "link": "https://www.aljazeera.com/sports/2026/3/8/rangers-vs-celtic-turns-ugly-as-fans-clash-on-pitch-after-scottish-cup-tie?traffic_source=rss",
+        "published": "2026-03-09 03:25",
+        "description": "Scottish FA launches investigation after fans fought on the pitch following the Scottish Cup quarterfinal in Glasgow.",
+        "title_en": "Rangers vs Celtic turns ugly as fans clash on pitch after Scottish Cup tie",
+        "title_zh": "苏格兰杯比赛结束后，流浪者队与凯尔特人队球迷在球场上发生冲突，场面变得丑陋"
       },
-      "my_view": "欧美报道聚焦外交关系正常化进程，伊斯兰媒体将事件与美国内政关联，中国媒体暂未报道可能体现谨慎态度。三方分别强调国际关系、国内政治影响与外交审慎。",
-      "summary": "委内瑞拉政局变动促使美委重启外交关系，但各方报道焦点受其地缘政治立场影响而呈现显著差异。"
+      "my_view": "欧美报道聚焦个体行为（球迷拔线），伊斯兰媒体强调群体冲突（球迷斗殴），中国媒体未报道可能因事件不涉重大利益。三方差异体现：西方重个体事件，中东重群体矛盾，中方按新闻价值筛选。",
+      "summary": "足球比赛中球迷闯入赛场破坏VAR设备并引发冲突，本质是体育赛事中的公共秩序失控事件。"
     },
     {
       "event_hint": "Armed robots take to the battlefield in Ukraine war",
@@ -434,8 +537,32 @@
         "title_en": "How do you track a war in real time?",
         "title_zh": "如何实时追踪战争？"
       },
-      "my_view": "欧美报道直接聚焦武装机器人的战场应用，伊斯兰视角关注战争实时追踪技术，中国媒体暂未报道显示其谨慎态度，三方分别体现技术关注、人文视角与外交审慎。",
-      "summary": "乌克兰战争中武装机器人投入实战，反映现代战争向智能化发展的趋势。"
+      "my_view": "欧美报道聚焦技术变革，伊斯兰媒体关注战争实时追踪方式，中国媒体暂未报道反映其谨慎态度，三方差异体现各自的地缘政治关切与报道倾向。",
+      "summary": "乌克兰战争中武装机器人的实战应用，标志着人工智能武器正式进入现代战场。"
+    },
+    {
+      "event_hint": "Russian strike on Kharkiv apartment block kills ten",
+      "event_hint_zh": "Russian strike on Kharkiv apartment block kills ten",
+      "event_hint_en": "Russian strike on Kharkiv apartment block kills ten",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Russian strike on Kharkiv apartment block kills ten",
+        "link": "https://www.bbc.com/news/articles/cn8zd049l08o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-07 15:54",
+        "description": "Ukraine President Volodymyr Zelensky says other people - including children - are injured as rescuers continue to search through rubble.",
+        "title_en": "Russian strike on Kharkiv apartment block kills ten",
+        "title_zh": "Russian strike on Kharkiv apartment block kills ten"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Trump pledges to block legislation until US voter ID law passes",
+        "link": "https://www.aljazeera.com/news/2026/3/8/trump-pledges-to-block-legislation-until-us-voter-id-law-passes?traffic_source=rss",
+        "published": "2026-03-09 03:59",
+        "description": "US president continues to focus on election administration ahead of November midterms, sparking concern from critics.",
+        "title_en": "Trump pledges to block legislation until US voter ID law passes",
+        "title_zh": "特朗普承诺在美国选民身份法通过之前阻止立法"
+      },
+      "my_view": "欧美报道聚焦事件本身，伊斯兰媒体借机关联美国内政，中国媒体暂未报道可能基于外交考量或信息核实需求，体现不同媒体议程设置与立场差异。",
+      "summary": "俄军袭击乌克兰哈尔科夫居民楼致10人死亡，本质是俄乌冲突中针对平民设施的暴力升级。"
     },
     {
       "event_hint": "Iranian ambassador warns UK to be 'very careful' about further involvement in war",
@@ -451,6 +578,54 @@
         "title_zh": "伊朗大使警告英国要“非常小心”进一步卷入战争"
       },
       "伊斯兰（半岛等）": {
+        "title": "Aftermath in Iran of US and Israeli air strikes",
+        "link": "https://www.aljazeera.com/gallery/2026/3/8/aftermath-in-iran-of-us-and-israeli-air-strikes?traffic_source=rss",
+        "published": "2026-03-09 03:56",
+        "description": "The US and Israel continue to strike Iran, hitting oil storage depots and refining facilities in Tehran.",
+        "title_en": "Aftermath in Iran of US and Israeli air strikes",
+        "title_zh": "美国和以色列空袭伊朗的后果"
+      },
+      "my_view": "BBC直接引用警告体现欧美对抗性叙事，半岛聚焦美以空袭后果突出伊斯兰世界受害视角，中国媒体暂未报道反映中立观望立场。三方分别呈现施压者、受害者与观察者角色。",
+      "summary": "伊朗通过外交警告威慑英国减少军事介入，本质是大国代理人战争中的威慑外交行为。"
+    },
+    {
+      "event_hint": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+      "event_hint_zh": "龙卷风袭击密歇根州和俄克拉荷马州，造成 6 人死亡，其中 12 岁男孩",
+      "event_hint_en": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+        "link": "https://www.bbc.com/news/articles/crrxpwzvd5vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 09:08",
+        "description": "The storms uprooted trees, downed power lines, damaged buildings and ripped the roofs off some houses.",
+        "title_en": "Boy, 12, among six dead as tornadoes hit Michigan and Oklahoma",
+        "title_zh": "龙卷风袭击密歇根州和俄克拉荷马州，造成 6 人死亡，其中 12 岁男孩"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Palestinians killed during Israeli settler attack in the occupied West Bank",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/8/palestinians-killed-during-israeli-settler-attack-in-the-occupied-west-bank?traffic_source=rss",
+        "published": "2026-03-09 05:25",
+        "description": "Palestinians were killed after armed Israeli settlers attacked the village of Abu Falah in the occupied West Bank.",
+        "title_en": "Palestinians killed during Israeli settler attack in the occupied West Bank",
+        "title_zh": "巴勒斯坦人在被占领的约旦河西岸的以色列定居者袭击中丧生"
+      },
+      "my_view": "BBC聚焦自然灾害本身，突出具体伤亡细节；半岛电视台将视线转向巴以冲突，隐含政治立场；中国媒体未报道显示对非直接相关国际事件的低关注度。三方分别体现人道主义、政治化与选择性报道倾向。",
+      "summary": "龙卷风在美国造成伤亡的客观事件，在不同媒体视角下被呈现为自然灾害或政治议题。"
+    },
+    {
+      "event_hint": "War fuels debate in Cyprus over UK military bases",
+      "event_hint_zh": "战争引发塞浦路斯关于英国军事基地的争论",
+      "event_hint_en": "War fuels debate in Cyprus over UK military bases",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "War fuels debate in Cyprus over UK military bases",
+        "link": "https://www.bbc.com/news/articles/cx2r1xldl1ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-08 16:03",
+        "description": "“British Bases Out” is the slogan of Cypriot protesters after a drone strike targeted the RAF Akrotiri airbase.",
+        "title_en": "War fuels debate in Cyprus over UK military bases",
+        "title_zh": "战争引发塞浦路斯关于英国军事基地的争论"
+      },
+      "伊斯兰（半岛等）": {
         "title": "Marches for International Women’s Day denounce war, abuse and oppression",
         "link": "https://www.aljazeera.com/news/2026/3/8/marches-for-international-womens-day-denounce-war-abuse-and-oppression?traffic_source=rss",
         "published": "2026-03-09 04:58",
@@ -458,8 +633,8 @@
         "title_en": "Marches for International Women’s Day denounce war, abuse and oppression",
         "title_zh": "国际妇女节游行谴责战争、虐待和压迫"
       },
-      "my_view": "BBC聚焦伊朗对英警告，凸显地缘对抗；半岛台将事件置于妇女节反战游行框架，弱化直接冲突；中国媒体未报道，反映对敏感议题的审慎态度。三方分别强调威慑、民生与回避。",
-      "summary": "伊朗通过外交警告试图遏制英国介入地区冲突，本质是中东地缘博弈中的威慑行为。"
+      "my_view": "BBC聚焦战争直接引发的军事基地争议，体现西方地缘政治关切；半岛电视台将事件置于妇女节游行框架，强调反战与社会正义，反映伊斯兰世界对战争社会影响的关注；中国媒体未报道，显示其对该议题持谨慎或不同议程。",
+      "summary": "塞浦路斯关于英国军事基地的争论本质是战争背景下主权、殖民遗产与地缘政治利益的冲突。"
     },
     {
       "event_hint": "Explosion at US embassy in Oslo may have been terrorism, Norway police say",
@@ -482,8 +657,8 @@
         "title_en": "Colombia elects Congress, chooses presidential candidates amid US tensions",
         "title_zh": "哥伦比亚在美国紧张局势中选举国会并选出总统候选人"
       },
-      "my_view": "欧美媒体聚焦事件本身，突出恐怖主义定性；伊斯兰媒体通过关联他国选举弱化事件显著性；中国媒体暂未报道可能基于外交考量或事件相关性不足。",
-      "summary": "挪威警方初步判定美国驻奥斯陆使馆爆炸可能涉恐，各方报道倾向反映不同地缘政治立场。"
+      "my_view": "欧美媒体直接报道事件本身，强调恐怖主义定性；伊斯兰媒体回避该事件，转而报道与美国相关的其他地区新闻；中国媒体未予报道。三方呈现了直接关注、转移焦点与沉默回避的不同立场。",
+      "summary": "挪威警方初步判定美国驻奥斯陆大使馆爆炸可能涉恐，但国际媒体报道存在显著立场差异。"
     }
   ]
 }
