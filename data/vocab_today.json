@@ -1,97 +1,97 @@
 {
-  "date": "2026-03-07",
-  "updatedAt": "2026-03-07T00:00:46.082Z",
+  "date": "2026-03-09",
+  "updatedAt": "2026-03-09T00:00:56.633Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "persist",
-      "phonetic": "/pəˈsɪst/",
-      "chinese": "坚持",
-      "englishDef": "To continue firmly despite difficulty",
-      "example": "If symptoms persist, see a doctor.",
-      "exampleTrans": "如果症状持续，请看医生。",
-      "level": "6.5+"
+      "word": "obvious",
+      "phonetic": "/ˈɒbviəs/",
+      "chinese": "明显的",
+      "englishDef": "Easily perceived or understood",
+      "example": "It was obvious that he was lying.",
+      "exampleTrans": "很明显他在撒谎。",
+      "level": "5.5+"
     },
     {
-      "word": "controversial",
-      "phonetic": "/ˌkɒntrəˈvɜːʃl/",
-      "chinese": "有争议的",
-      "englishDef": "Giving rise to disagreement",
-      "example": "The policy was highly controversial.",
-      "exampleTrans": "该政策极具争议性。",
-      "level": "6.5+"
-    },
-    {
-      "word": "assess",
-      "phonetic": "/əˈses/",
-      "chinese": "评估",
-      "englishDef": "To evaluate or estimate the nature, value or quality of something",
-      "example": "Teachers assess students' progress regularly.",
-      "exampleTrans": "老师定期评估学生的进步。",
+      "word": "indicate",
+      "phonetic": "/ˈɪndɪkeɪt/",
+      "chinese": "表明",
+      "englishDef": "To point out or show",
+      "example": "The data indicates a positive trend.",
+      "exampleTrans": "数据表明了积极的趋势。",
       "level": "6.0+"
     },
     {
-      "word": "deviate",
-      "phonetic": "/ˈdiːvieɪt/",
-      "chinese": "偏离",
-      "englishDef": "To depart from an established course",
-      "example": "Don't deviate from the plan.",
-      "exampleTrans": "不要偏离计划。",
-      "level": "7.0+"
-    },
-    {
-      "word": "advocate",
-      "phonetic": "/ˈædvəkeɪt/",
-      "chinese": "提倡",
-      "englishDef": "To publicly support or recommend",
-      "example": "Many scientists advocate for renewable energy.",
-      "exampleTrans": "许多科学家提倡使用可再生能源。",
-      "level": "7.0+"
-    },
-    {
-      "word": "capacity",
-      "phonetic": "/kəˈpæsəti/",
-      "chinese": "能力",
-      "englishDef": "The maximum amount that something can contain or produce",
-      "example": "The stadium has a capacity of 50,000 people.",
-      "exampleTrans": "这个体育场可以容纳5万人。",
-      "level": "6.0+"
-    },
-    {
-      "word": "accomplish",
-      "phonetic": "/əˈkʌmplɪʃ/",
-      "chinese": "完成",
-      "englishDef": "To succeed in doing something",
-      "example": "She accomplished her goal of graduating with honors.",
-      "exampleTrans": "她完成了以优异成绩毕业的目标。",
-      "level": "6.0+"
-    },
-    {
-      "word": "hierarchy",
-      "phonetic": "/ˈhaɪərɑːki/",
-      "chinese": "层级",
-      "englishDef": "A system in which people are ranked according to status",
-      "example": "The corporate hierarchy was clearly defined.",
-      "exampleTrans": "公司层级结构被明确定义。",
-      "level": "7.0+"
-    },
-    {
-      "word": "cumulative",
-      "phonetic": "/ˈkjuːmjələtɪv/",
-      "chinese": "累积的",
-      "englishDef": "Increasing by successive additions",
-      "example": "The cumulative effect of pollution is severe.",
-      "exampleTrans": "污染的累积效应是严重的。",
+      "word": "synthesize",
+      "phonetic": "/ˈsɪnθəsaɪz/",
+      "chinese": "综合",
+      "englishDef": "To combine elements to form a connected whole",
+      "example": "The researcher synthesized the findings.",
+      "exampleTrans": "研究人员综合了这些发现。",
       "level": "7.5+"
     },
     {
-      "word": "context",
-      "phonetic": "/ˈkɒntekst/",
-      "chinese": "背景",
-      "englishDef": "The circumstances surrounding an event",
-      "example": "Understanding the historical context is important.",
-      "exampleTrans": "了解历史背景很重要。",
+      "word": "identical",
+      "phonetic": "/aɪˈdentɪkl/",
+      "chinese": "相同的",
+      "englishDef": "Exactly alike",
+      "example": "The two results were identical.",
+      "exampleTrans": "两个结果是相同的。",
       "level": "6.0+"
+    },
+    {
+      "word": "emphasize",
+      "phonetic": "/ˈemfəsaɪz/",
+      "chinese": "强调",
+      "englishDef": "To give special importance to something",
+      "example": "The teacher emphasized the importance of practice.",
+      "exampleTrans": "老师强调了练习的重要性。",
+      "level": "6.0+"
+    },
+    {
+      "word": "perspective",
+      "phonetic": "/pəˈspektɪv/",
+      "chinese": "观点",
+      "englishDef": "A particular attitude or way of thinking",
+      "example": "Try to see it from a different perspective.",
+      "exampleTrans": "试着从不同的角度来看它。",
+      "level": "6.5+"
+    },
+    {
+      "word": "contradict",
+      "phonetic": "/ˌkɒntrəˈdɪkt/",
+      "chinese": "矛盾",
+      "englishDef": "To say the opposite of what someone else has said",
+      "example": "Her actions contradict her words.",
+      "exampleTrans": "她的行为与她的话相矛盾。",
+      "level": "6.5+"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fəˈnɒmɪnən/",
+      "chinese": "现象",
+      "englishDef": "A fact or situation that is observed",
+      "example": "Climate change is a global phenomenon.",
+      "exampleTrans": "气候变化是一个全球性现象。",
+      "level": "7.0+"
+    },
+    {
+      "word": "compensate",
+      "phonetic": "/ˈkɒmpenseɪt/",
+      "chinese": "补偿",
+      "englishDef": "To give something to make up for loss",
+      "example": "The company compensated workers for overtime.",
+      "exampleTrans": "公司补偿了工人的加班时间。",
+      "level": "6.5+"
+    },
+    {
+      "word": "arbitrary",
+      "phonetic": "/ˈɑːbɪtrəri/",
+      "chinese": "任意的",
+      "englishDef": "Based on random choice rather than reason",
+      "example": "The decision seemed arbitrary and unfair.",
+      "exampleTrans": "这个决定似乎很武断且不公平。",
+      "level": "7.5+"
     }
   ]
 }
