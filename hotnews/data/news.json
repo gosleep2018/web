@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-10 12:05:40 +08",
+  "generated_at": "2026-03-10 20:01:58 +08",
   "generated_date": "2026-03-10",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Who is Iran’s new supreme leader, Mojtaba Khamenei?",
         "title_zh": "伊朗新任最高领袖莫吉塔巴·哈梅内伊是谁？"
       },
-      "my_view": "欧美与伊斯兰媒体均直接报道人事变动，但半岛标题将姓名置后更显身份本位；中国媒体暂未报道，体现对伊朗内政的谨慎态度。三方差异反映地缘政治立场与报道优先级选择。",
-      "summary": "国际媒体关注伊朗权力交接，报道侧重反映各自对中东地缘政治的关注视角。"
+      "my_view": "欧美媒体以直接提问式标题体现旁观立场，伊斯兰媒体采用相似表述但将人物身份前置，中国媒体暂未报道显示谨慎态度。三方差异体现在报道时效性、身份表述顺序及立场距离感上。",
+      "summary": "国际媒体对伊朗权力更迭核心人物的身份进行报道，反映不同文化视角对同一政治事件的信息呈现差异。"
     },
     {
       "event_hint": "G7 to take 'necessary measures' to support energy supplies",
@@ -451,8 +452,8 @@
         "title_en": "Trump threatens to hit Iran harder if it blocks energy supplies",
         "title_zh": "特朗普威胁称，如果伊朗封锁能源供应，将对其进行更严厉的打击"
       },
-      "my_view": "中国聚焦航运企业合规管理，体现务实监管立场；欧美强调G7集体能源安全保障，展现联盟协作；伊斯兰视角突出美伊对抗叙事，反映地缘政治紧张。三方分别从国内治理、国际协调、区域冲突切入同一事件。",
-      "summary": "G7以能源安全为名强化对伊朗施压，中国则通过商业监管间接参与全球能源秩序调整。"
+      "my_view": "中国聚焦具体商业行为监管，体现务实治理；欧美强调多边协调机制，突出集体行动；伊斯兰视角关注地缘威胁叙事，反映区域安全焦虑。三方分别从国内治理、国际协作、冲突对抗维度切入同一经济议题。",
+      "summary": "七国集团以能源安全为名协调对伊施压，各国媒体通过差异化叙事框架展现其政治立场。"
     },
     {
       "event_hint": "Guinea opposition leader urges 'direct resistance' after 40 parties dissolved",
@@ -482,8 +483,8 @@
         "title_en": "World reacts to appointment of Mojtaba Khamenei as Iran’s supreme leader",
         "title_zh": "世界对任命莫杰塔巴·哈梅内伊为伊朗最高领导人作出反应"
       },
-      "my_view": "网易以文化成就转移焦点，回避政治议题；BBC直击反对派抗争，体现西方对民主运动的关注；半岛聚焦伊朗权力交接，反映伊斯兰世界内部议程。三方报道取向体现各自地缘政治立场与价值导向。",
-      "summary": "几内亚政府解散反对党派引发政治危机，不同媒体通过选择性报道展现其意识形态立场与议程设置差异。"
+      "my_view": "中国媒体聚焦文化软实力输出，回避敏感政治议题；欧美媒体突出非洲民主危机，强调对抗叙事；伊斯兰媒体关注宗教领袖更迭，体现区域核心关切。三方报道取向反映各自地缘政治立场与议程设置差异。",
+      "summary": "同一国际时政事件在不同意识形态主导的媒体中呈现完全不同的报道焦点与叙事框架。"
     },
     {
       "event_hint": "India offered sanctuary to Iranian ship three days before US sank it",
@@ -506,8 +507,8 @@
         "title_en": "Trump claims Iran planned to ‘take over Middle East’ before US attacked",
         "title_zh": "特朗普声称伊朗计划在美国袭击之前“接管中东”"
       },
-      "my_view": "欧美报道聚焦事件时间线，强调印度行为与美方行动的关联性；伊斯兰媒体将事件置于地区权力博弈框架，突出特朗普言论的政治定性；中国媒体未直接报道，或反映其谨慎中立的外交立场。",
-      "summary": "美国击沉伊朗船只前印度提供庇护的事件，在不同媒体叙事中被分别呈现为事实链条、地缘博弈话语或沉默议题。"
+      "my_view": "BBC侧重事件时序与印度角色，体现西方关注国际规则与盟友行为；半岛电视台突出特朗普指控，反映伊斯兰世界对美伊对抗的叙事敏感；中国媒体暂未报道，可能避免卷入地缘博弈。三方分别呈现事实框架、对抗语境与战略沉默。",
+      "summary": "美国击沉伊朗船只前印度提供庇护的事件，被不同媒体按自身立场框架解读为规则问题、地区对抗或选择性沉默。"
     },
     {
       "event_hint": "Australia urged to protect Iran women's football team as they prepare to fly home",
@@ -537,8 +538,8 @@
         "title_en": "Trump slams Mojtaba Khamenei’s appointment as Iran projects defiance",
         "title_zh": "特朗普猛烈抨击莫杰塔巴·哈梅内伊的任命，因为伊朗表现出蔑视"
       },
-      "my_view": "中国报道聚焦体育赛事本身，体现去政治化立场；欧美报道关注伊朗女足人权议题，体现价值观外交；伊斯兰报道转向伊朗内部权力动态，体现地区政治视角。三方均回避直接报道澳大利亚敦促保护事件本身。",
-      "summary": "同一国际事件被不同媒体通过选择性报道框架，服务于各自的政治议程与受众认知塑造。"
+      "my_view": "中国聚焦体育成就转移视线，欧美关注人权保护议题，伊斯兰媒体借机突出伊朗对抗西方姿态。三方均未直接报道澳大利亚敦促保护伊朗女足的核心事件，各自选择符合自身政治立场的报道角度。",
+      "summary": "同一国际事件被不同意识形态媒体选择性报道，呈现截然不同的新闻焦点与叙事导向。"
     },
     {
       "event_hint": "Police release images of Oslo US embassy explosion suspect",
@@ -561,8 +562,8 @@
         "title_en": "Qatar releases video of interception of Iranian missiles",
         "title_zh": "卡塔尔公布拦截伊朗导弹的视频"
       },
-      "my_view": "欧美报道聚焦嫌犯追查，伊斯兰视角强调地区安全事件中的拦截行动，中国媒体未报道显示其对该国际事件关注度有限或立场谨慎。",
-      "summary": "事件本质是奥斯陆美国使馆爆炸案调查进展与中东地区安全动态的交织呈现。"
+      "my_view": "欧美报道聚焦嫌犯信息，体现对安全威胁的关切；伊斯兰媒体突出地区军事动态，隐含地缘政治立场；中国媒体未报道，或反映对该事件关注度较低或立场中立。",
+      "summary": "事件本质是警方公布使馆爆炸案嫌疑人影像，不同媒体的报道侧重反映其地缘政治视角。"
     },
     {
       "event_hint": "Carney calls three by-elections in Canada that could grant him a majority",
@@ -585,8 +586,8 @@
         "title_en": "Iran war may end ‘pretty quickly’: What Trump told Republicans",
         "title_zh": "伊朗战争可能“很快”结束：特朗普告诉共和党人"
       },
-      "my_view": "欧美媒体聚焦选举政治博弈，伊斯兰媒体转向关联中东地缘议题，中国媒体未报道显示此事未进入其核心关注范围。三方差异体现各自议程设置与地缘政治关注点的不同。",
-      "summary": "加拿大国内选举事件被不同媒体选择性报道或关联至自身关切的国际议题。"
+      "my_view": "欧美媒体聚焦选举本身，关注权力格局变化；伊斯兰媒体关联伊朗战争与特朗普言论，体现地缘政治关切；中国媒体未报道，反映此事未进入其核心议程。三方差异体现各自关注焦点与议程设置逻辑。",
+      "summary": "加拿大反对党领袖试图通过补选争取议会多数席位，本质是国内政治权力博弈。"
     },
     {
       "event_hint": "US teacher killed after toilet paper prank goes wrong",
@@ -609,8 +610,8 @@
         "title_en": "Iran says no future negotiations with US after ‘bitter experience’",
         "title_zh": "伊朗表示在“痛苦经历”后不会与美国进行谈判"
       },
-      "my_view": "欧美报道聚焦事件本身，强调恶作剧导致的意外悲剧；伊斯兰媒体借机关联政治，表达对美外交立场；中国媒体未报道，体现对非本土社会新闻的筛选机制。三方分别呈现事实描述、政治化解读与选择性关注。",
-      "summary": "美国校园意外凶案被不同媒体转化为社会新闻、政治表态或沉默处理，体现报道背后的意识形态框架。"
+      "my_view": "欧美媒体聚焦具体事件细节，强调个体悲剧；伊斯兰媒体借机关联地缘政治，表达对美立场；中国媒体未报道，可能因事件敏感度不足或不符合主流叙事框架。",
+      "summary": "美国校园意外凶案被不同媒体选择性报道，折射出各自关注议题与意识形态差异。"
     }
   ]
 }
