@@ -1,97 +1,97 @@
 {
-  "date": "2026-03-09",
-  "updatedAt": "2026-03-09T00:00:56.633Z",
+  "date": "2026-03-10",
+  "updatedAt": "2026-03-10T00:00:58.162Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "obvious",
-      "phonetic": "/ˈɒbviəs/",
-      "chinese": "明显的",
-      "englishDef": "Easily perceived or understood",
-      "example": "It was obvious that he was lying.",
-      "exampleTrans": "很明显他在撒谎。",
-      "level": "5.5+"
-    },
-    {
-      "word": "indicate",
-      "phonetic": "/ˈɪndɪkeɪt/",
-      "chinese": "表明",
-      "englishDef": "To point out or show",
-      "example": "The data indicates a positive trend.",
-      "exampleTrans": "数据表明了积极的趋势。",
-      "level": "6.0+"
-    },
-    {
-      "word": "synthesize",
-      "phonetic": "/ˈsɪnθəsaɪz/",
-      "chinese": "综合",
-      "englishDef": "To combine elements to form a connected whole",
-      "example": "The researcher synthesized the findings.",
-      "exampleTrans": "研究人员综合了这些发现。",
-      "level": "7.5+"
-    },
-    {
-      "word": "identical",
-      "phonetic": "/aɪˈdentɪkl/",
-      "chinese": "相同的",
-      "englishDef": "Exactly alike",
-      "example": "The two results were identical.",
-      "exampleTrans": "两个结果是相同的。",
-      "level": "6.0+"
-    },
-    {
-      "word": "emphasize",
-      "phonetic": "/ˈemfəsaɪz/",
-      "chinese": "强调",
-      "englishDef": "To give special importance to something",
-      "example": "The teacher emphasized the importance of practice.",
-      "exampleTrans": "老师强调了练习的重要性。",
-      "level": "6.0+"
-    },
-    {
-      "word": "perspective",
-      "phonetic": "/pəˈspektɪv/",
-      "chinese": "观点",
-      "englishDef": "A particular attitude or way of thinking",
-      "example": "Try to see it from a different perspective.",
-      "exampleTrans": "试着从不同的角度来看它。",
+      "word": "sustain",
+      "phonetic": "/səˈsteɪn/",
+      "chinese": "维持",
+      "englishDef": "To strengthen or support physically",
+      "example": "Can we sustain this growth rate?",
+      "exampleTrans": "我们能维持这个增长率吗？",
       "level": "6.5+"
     },
     {
-      "word": "contradict",
-      "phonetic": "/ˌkɒntrəˈdɪkt/",
-      "chinese": "矛盾",
-      "englishDef": "To say the opposite of what someone else has said",
-      "example": "Her actions contradict her words.",
-      "exampleTrans": "她的行为与她的话相矛盾。",
-      "level": "6.5+"
+      "word": "obtain",
+      "phonetic": "/əbˈteɪn/",
+      "chinese": "获得",
+      "englishDef": "To get or acquire",
+      "example": "How did you obtain this information?",
+      "exampleTrans": "你是如何获得这些信息的？",
+      "level": "6.0+"
     },
     {
-      "word": "phenomenon",
-      "phonetic": "/fəˈnɒmɪnən/",
-      "chinese": "现象",
-      "englishDef": "A fact or situation that is observed",
-      "example": "Climate change is a global phenomenon.",
-      "exampleTrans": "气候变化是一个全球性现象。",
+      "word": "maintain",
+      "phonetic": "/meɪnˈteɪn/",
+      "chinese": "维持",
+      "englishDef": "To keep in an existing state",
+      "example": "It's important to maintain a healthy diet.",
+      "exampleTrans": "保持健康的饮食很重要。",
+      "level": "6.0+"
+    },
+    {
+      "word": "outcome",
+      "phonetic": "/ˈaʊtkʌm/",
+      "chinese": "结果",
+      "englishDef": "The way a thing turns out",
+      "example": "The outcome of the experiment was surprising.",
+      "exampleTrans": "实验的结果令人惊讶。",
+      "level": "6.0+"
+    },
+    {
+      "word": "contemporary",
+      "phonetic": "/kənˈtempərəri/",
+      "chinese": "当代的",
+      "englishDef": "Living or occurring at the same time",
+      "example": "Contemporary art often challenges traditional views.",
+      "exampleTrans": "当代艺术经常挑战传统观点。",
       "level": "7.0+"
     },
     {
-      "word": "compensate",
-      "phonetic": "/ˈkɒmpenseɪt/",
-      "chinese": "补偿",
-      "englishDef": "To give something to make up for loss",
-      "example": "The company compensated workers for overtime.",
-      "exampleTrans": "公司补偿了工人的加班时间。",
+      "word": "diverse",
+      "phonetic": "/daɪˈvɜːs/",
+      "chinese": "多样的",
+      "englishDef": "Showing a great deal of variety",
+      "example": "The city has a diverse population.",
+      "exampleTrans": "这个城市有多元化的人口。",
+      "level": "6.0+"
+    },
+    {
+      "word": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "chinese": "证明",
+      "englishDef": "To show clearly and deliberately",
+      "example": "The experiment demonstrates the theory.",
+      "exampleTrans": "这个实验证明了这个理论。",
+      "level": "6.0+"
+    },
+    {
+      "word": "fundamental",
+      "phonetic": "/ˌfʌndəˈmentl/",
+      "chinese": "基本的",
+      "englishDef": "Forming a necessary base or core",
+      "example": "Reading is a fundamental skill.",
+      "exampleTrans": "阅读是一项基本技能。",
       "level": "6.5+"
     },
     {
-      "word": "arbitrary",
-      "phonetic": "/ˈɑːbɪtrəri/",
-      "chinese": "任意的",
-      "englishDef": "Based on random choice rather than reason",
-      "example": "The decision seemed arbitrary and unfair.",
-      "exampleTrans": "这个决定似乎很武断且不公平。",
-      "level": "7.5+"
+      "word": "comprehensive",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "chinese": "全面的",
+      "englishDef": "Including all or nearly all elements",
+      "example": "The report provides a comprehensive analysis.",
+      "exampleTrans": "这份报告提供了全面的分析。",
+      "level": "6.5+"
+    },
+    {
+      "word": "discourage",
+      "phonetic": "/dɪsˈkʌrɪdʒ/",
+      "chinese": "阻止",
+      "englishDef": "To cause someone to feel less confident",
+      "example": "Don't let setbacks discourage you.",
+      "exampleTrans": "不要让挫折阻止你。",
+      "level": "6.0+"
     }
   ]
 }
