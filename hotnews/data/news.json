@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-12 12:13:08 +08",
+  "generated_at": "2026-03-12 20:02:40 +08",
   "generated_date": "2026-03-12",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
         "title_zh": "南非因“非外交言论”召见美国新大使"
       },
-      "my_view": "中国视角将事件置于贸易对抗框架，强调美国霸权行径；欧美视角聚焦外交礼仪，突出事件程序性；伊斯兰视角与欧美表述接近但将南非置主语位置，隐含对美外交压力的关注。",
-      "summary": "美国新任驻南非大使因不当言论被南非政府外交传唤，反映美非外交摩擦。"
+      "my_view": "中国视角将事件置于中美贸易摩擦框架下，突出美国301调查的对抗性；欧美视角聚焦外交礼仪层面，采用中性表述；伊斯兰视角与欧美基本一致，但通过引号强调‘不外交言论’的争议性。",
+      "summary": "美国新任驻南非大使因争议言论被南非政府正式传唤，引发多国对其外交行为的关注。"
     },
     {
       "event_hint": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
@@ -458,8 +459,8 @@
         "title_en": "Iran war live: Oil tankers hit in Iraq, Tehran sets 3 conditions for peace",
         "title_zh": "伊朗战事直播：油轮在伊拉克遭袭，德黑兰为和平设定3个条件"
       },
-      "my_view": "中国视角淡化政治冲突，突出人文交流与多民族和谐；欧美视角聚焦领导人言论与历史教训，体现政治批判传统；伊斯兰视角强调军事冲突与和平条件，反映地区安全关切。三方立场分别体现内宣导向、外审视角与地缘关注。",
-      "summary": "同一国际事件在不同意识形态与地缘利益驱动下，被媒体重构为文化、政治与军事三种截然不同的叙事框架。"
+      "my_view": "中国视角淡化政治冲突，突出人文交流与包容；欧美视角聚焦领导人言论与历史教训，强调政治影响；伊斯兰视角关注军事冲突与和平条件，反映地区安全关切。三方分别从人文、政治、军事维度切入同一事件。",
+      "summary": "三方媒体基于自身立场，对特朗普涉伊朗言论及伊拉克历史关联事件进行了选择性报道，体现国际舆论的多元叙事。"
     },
     {
       "event_hint": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
@@ -489,8 +490,8 @@
         "title_en": "Iran’s authorities warn against protests as Israel threatens Basij forces",
         "title_zh": "以色列威胁巴斯基部队，伊朗当局警告不要举行抗议活动"
       },
-      "my_view": "中国视角聚焦经济影响，回避政治表态；欧美视角直接批评以色列纵容定居者暴力；伊斯兰视角将冲突归咎于以色列威胁，同时暗示伊朗国内压力。三方分别体现务实中立、人权干预和反以立场。",
-      "summary": "伊朗战争外溢导致西岸暴力升级，各方基于自身利益选择不同叙事焦点。"
+      "my_view": "中国报道聚焦经济影响，回避政治表态；欧美报道直接批评以色列纵容定居者暴力；伊斯兰报道强调伊朗内部维稳与外部威胁，三方分别体现务实中立、人权干预和抵抗叙事立场。",
+      "summary": "伊朗冲突外溢引发西岸定居者暴力升级，国际社会对以色列施压，各方报道侧重反映自身地缘政治关切。"
     },
     {
       "event_hint": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
@@ -520,8 +521,8 @@
         "title_en": "Five vessels attacked amid reports of Iranian drone boats, sea mines",
         "title_zh": "伊朗无人机船和水雷报道称五艘船只遭到袭击"
       },
-      "my_view": "中国媒体回避国际冲突聚焦国内网络谣言，欧美媒体客观报道事件基本事实，伊斯兰媒体转移视线至其他地区冲突。三方分别体现内宣导向、事实优先与议程设置差异。",
-      "summary": "法国援助人员在刚果（金）冲突地区遭无人机袭击身亡，国际媒体报道呈现地缘政治立场差异。"
+      "my_view": "中国媒体转移焦点至无关社会传闻，弱化国际冲突；欧美媒体客观陈述事件主体与伤亡事实；伊斯兰媒体借机关联伊朗相关海上冲突，暗示地区紧张局势的多点爆发。",
+      "summary": "法国援助人员在刚果叛军控制区遭无人机袭击身亡，三方媒体通过选择性报道体现各自地缘政治立场。"
     },
     {
       "event_hint": "Mugabe's son drops bail request - what has happened to the family after losing power",
@@ -551,8 +552,8 @@
         "title_en": "Who bombed the Iranian girls’ school, killing more than 170? What we know",
         "title_zh": "是谁轰炸了伊朗女子学校，造成170多人死亡？"
       },
-      "my_view": "中国视角回避政治，聚焦社会新闻转移焦点；欧美视角直指权力更迭后的家族命运，体现政治审视；伊斯兰视角关注地区冲突与伤亡，反映地缘关切。三方立场分别体现回避、批判与抗争的叙事逻辑。",
-      "summary": "穆加贝家族在权力丧失后选择放弃法律抗争，折射政治家族衰落的现实。"
+      "my_view": "中国媒体回避国际政治，转向社会新闻淡化事件；欧美媒体聚焦权力更迭后的家族命运，体现政治观察；伊斯兰媒体将视线转向地区冲突，反映地缘关注差异。三方立场分别体现国内导向、国际政治与区域议题的报道倾向。",
+      "summary": "三方报道差异本质是媒体基于不同受众立场与议程设置，对同一新闻事件的选择性聚焦与视角重构。"
     },
     {
       "event_hint": "Countries agree to record release of emergency oil reserves as prices surge",
@@ -582,8 +583,8 @@
         "title_en": "Eight Arab, Islamic countries condemn Israeli closure of Al-Aqsa Mosque",
         "title_zh": "八个阿拉伯和伊斯兰国家谴责以色列关闭阿克萨清真寺"
       },
-      "my_view": "中国聚焦民生影响（航司调价），欧美强调应对措施（释放储备），伊斯兰世界则关联地区政治冲突（谴责以色列）。三方分别体现经济传导、政策应对、地缘政治三种叙事逻辑。",
-      "summary": "国际能源危机引发多维度反应：欧美联合释放石油储备，中国关注行业传导效应，伊斯兰国家借机表达政治立场。"
+      "my_view": "中国聚焦油价对民生行业的具体影响，欧美强调国际协同应对措施，伊斯兰世界则借机关联巴以宗教冲突。三方分别体现务实关切、国际协作与地缘政治立场。",
+      "summary": "国际社会通过释放战略石油储备应对能源危机，但不同地区媒体基于自身议程呈现差异化报道焦点。"
     },
     {
       "event_hint": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
@@ -613,8 +614,8 @@
         "title_en": "How is feminism being used to justify war in Iran?",
         "title_zh": "女权主义如何被用来为伊朗战争辩护？"
       },
-      "my_view": "网易转移焦点至社会奇闻，淡化国际敏感案件；BBC直击核心，揭露权贵性犯罪网络；半岛借题发挥，将女性议题转向反战政治批判。三方分别体现回避、揭露、工具化三种报道策略。",
-      "summary": "巴西女性指控爱泼斯坦通过模特经纪人招募女孩，核心是跨国性犯罪网络的运作证言。"
+      "my_view": "网易回避国际敏感议题，转向本土无害社会新闻；BBC聚焦西方权贵丑闻，体现调查报道传统；半岛电视台将女性议题与中东政治关联，展现伊斯兰世界视角。三方分别体现内宣导向、人权监督与地缘政治解读。",
+      "summary": "同一事件在不同意识形态下被重构为符合各自议程的叙事，本质是媒体通过框架选择实现立场表达。"
     },
     {
       "event_hint": "No evidence Swiss bus fire was terrorism, officials say",
@@ -637,8 +638,8 @@
         "title_en": "Fuel tank fire rages in Bahrain after Iranian attack",
         "title_zh": "Fuel tank fire rages in Bahrain after Iranian attack"
       },
-      "my_view": "欧美报道聚焦事件本身，强调无恐袭证据；伊斯兰媒体关联地区冲突，突出地缘政治背景；中国媒体未报道，可能因事件与本国关联度低。",
-      "summary": "瑞士公交车起火事件被官方初步排除恐怖主义嫌疑，但不同媒体在报道时呈现了差异化的关注焦点。"
+      "my_view": "欧美报道聚焦事件本身，强调无恐袭证据；伊斯兰媒体关联地区冲突，突出伊朗袭击背景；中国媒体未报道，可能因事件与本国关联度低或谨慎对待国际敏感议题。",
+      "summary": "瑞士公交车起火事件被官方初步排除恐袭可能，但不同媒体在报道时选取了差异化的背景和焦点。"
     },
     {
       "event_hint": "Ukraine says it has hit Russian 'missile component' plant",
@@ -661,8 +662,8 @@
         "title_en": "Israeli strike hits Beirut waterfront near tents of displaced",
         "title_zh": "以色列袭击贝鲁特海滨流离失所者的帐篷附近"
       },
-      "my_view": "欧美媒体客观转述乌克兰单方面声明；伊斯兰媒体将事件置于中东冲突框架下，暗示以色列行动关联；中国媒体未报道反映其在该事件中的中立或回避立场。三方差异体现各自地缘政治关注点。",
-      "summary": "乌克兰宣称袭击俄罗斯军事目标的事件，在不同媒体语境中被差异化呈现或选择性忽略。"
+      "my_view": "BBC直接报道乌克兰宣称的袭击事件，体现对俄乌冲突的持续关注；半岛电视台将事件置于中东语境，强调以色列行动对难民的影响；中国媒体暂未报道，反映对俄乌议题的谨慎态度。三方立场体现地缘政治关注点的差异。",
+      "summary": "乌克兰对俄罗斯军事设施实施跨境打击，事件本质是俄乌冲突的战场延伸与多方地缘博弈的体现。"
     }
   ]
 }
