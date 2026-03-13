@@ -1,159 +1,197 @@
 {
-  "generated_at": "2026-03-12 20:02:40 +08",
-  "generated_date": "2026-03-12",
-  "current_slot": "晚",
+  "generated_at": "2026-03-13 08:04:26 +08",
+  "generated_date": "2026-03-13",
+  "current_slot": "早",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
-        "title": "美国将对中欧等16个贸易伙伴发起301调查",
-        "link": "https://www.163.com/dy/article/KNQJE84R0534A4SC.html",
-        "published": "2026-03-12 11:11",
+        "title": "男子为了报复邻居 每天循环播放十几小时鬼故事录音",
+        "link": "https://www.163.com/dy/article/KNRI8TUF0514R9OJ.html",
+        "published": "2026-03-12 21:03",
         "description": "",
-        "title_zh": "美国将对中欧等16个贸易伙伴发起301调查",
-        "title_en": "美国将对中欧等16个贸易伙伴发起301调查"
+        "title_zh": "男子为了报复邻居 每天循环播放十几小时鬼故事录音",
+        "title_en": "男子为了报复邻居 每天循环播放十几小时鬼故事录音"
       },
       {
-        "title": "39岁网红直播突然大喊＂难受＂ 脑干出血送医抢救后离世",
-        "link": "https://www.163.com/dy/article/KNQILIIU053469LG.html",
-        "published": "2026-03-12 11:11",
+        "title": "拆解“宁王”最强年报：每秒盈利约2290元",
+        "link": "https://www.163.com/dy/article/KNRG3K990512B07B.html",
+        "published": "2026-03-12 20:03",
         "description": "",
-        "title_zh": "39岁网红直播突然大喊＂难受＂ 脑干出血送医抢救后离世",
-        "title_en": "39岁网红直播突然大喊＂难受＂ 脑干出血送医抢救后离世"
+        "title_zh": "拆解“宁王”最强年报：每秒盈利约2290元",
+        "title_en": "拆解“宁王”最强年报：每秒盈利约2290元"
       },
       {
-        "title": "小米前高管王腾公布新公司品牌名 正筹备app内测",
-        "link": "https://www.163.com/dy/article/KNQH3F980534A4SC.html",
-        "published": "2026-03-12 10:11",
+        "title": "两男子从上海打车去珠峰 13天跑6千多公里司机净赚1万",
+        "link": "https://www.163.com/dy/article/KNR198AK053469LG.html",
+        "published": "2026-03-12 17:03",
         "description": "",
-        "title_zh": "小米前高管王腾公布新公司品牌名 正筹备app内测",
-        "title_en": "小米前高管王腾公布新公司品牌名 正筹备app内测"
+        "title_zh": "两男子从上海打车去珠峰 13天跑6千多公里司机净赚1万",
+        "title_en": "两男子从上海打车去珠峰 13天跑6千多公里司机净赚1万"
       },
       {
-        "title": "龚卫娟委员：建议3岁以下婴幼儿父母实行弹性工作制",
-        "link": "https://www.163.com/dy/article/KNP67RQG051492T3.html",
-        "published": "2026-03-12 10:11",
+        "title": "腾讯回应OpenClaw之父Peter的“抄袭”指责",
+        "link": "https://www.163.com/dy/article/KNR503OI05198CJN.html",
+        "published": "2026-03-12 16:03",
         "description": "",
-        "title_zh": "龚卫娟委员：建议3岁以下婴幼儿父母实行弹性工作制",
-        "title_en": "龚卫娟委员：建议3岁以下婴幼儿父母实行弹性工作制"
+        "title_zh": "腾讯回应OpenClaw之父Peter的“抄袭”指责",
+        "title_en": "腾讯回应OpenClaw之父Peter的“抄袭”指责"
       },
       {
-        "title": "油价上涨传导至航空业 多家航司宣布调价",
-        "link": "https://www.163.com/dy/article/KNQDMPPS0514CQIE.html",
-        "published": "2026-03-12 09:11",
+        "title": "十四届全国人大四次会议闭幕 表决通过多项决议和法律",
+        "link": "https://www.163.com/dy/article/KNR4VA6C051497H3.html",
+        "published": "2026-03-12 16:03",
         "description": "",
-        "title_zh": "油价上涨传导至航空业 多家航司宣布调价",
-        "title_en": "油价上涨传导至航空业 多家航司宣布调价"
+        "title_zh": "十四届全国人大四次会议闭幕 表决通过多项决议和法律",
+        "title_en": "十四届全国人大四次会议闭幕 表决通过多项决议和法律"
       },
       {
-        "title": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工",
-        "link": "https://www.163.com/dy/article/KNP384NA0514D3UH.html",
-        "published": "2026-03-12 08:11",
+        "title": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名",
+        "link": "https://www.163.com/dy/article/KNQTLODS055040N3.html",
+        "published": "2026-03-12 16:03",
         "description": "",
-        "title_zh": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工",
-        "title_en": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工"
+        "title_zh": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名",
+        "title_en": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名"
       },
       {
-        "title": "印度放宽对中国投资限制 中国商会：实际情况有待观察",
-        "link": "https://www.163.com/dy/article/KNQ6UP6H0514R9OJ.html",
-        "published": "2026-03-12 07:11",
+        "title": "95后女子铁塔高空作业惹人心疼 当事人:凭能力挣钱",
+        "link": "https://www.163.com/dy/article/KNR3D4TG0534P59R.html",
+        "published": "2026-03-12 16:03",
         "description": "",
-        "title_zh": "印度放宽对中国投资限制 中国商会：实际情况有待观察",
-        "title_en": "印度放宽对中国投资限制 中国商会：实际情况有待观察"
+        "title_zh": "95后女子铁塔高空作业惹人心疼 当事人:凭能力挣钱",
+        "title_en": "95后女子铁塔高空作业惹人心疼 当事人:凭能力挣钱"
       },
       {
-        "title": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂",
-        "link": "https://www.163.com/dy/article/KNOU79H50514D3UH.html",
-        "published": "2026-03-11 21:11",
+        "title": "因交通违法过多车辆保费被提高 女子质疑隐私被泄露",
+        "link": "https://www.163.com/dy/article/KNP67RRO051492T3.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂",
-        "title_en": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂"
+        "title_zh": "因交通违法过多车辆保费被提高 女子质疑隐私被泄露",
+        "title_en": "因交通违法过多车辆保费被提高 女子质疑隐私被泄露"
       },
       {
-        "title": "扫地机器人变身刮地器地砖上大量划痕擦不掉 石头回应",
-        "link": "https://www.163.com/dy/article/KNOQN9O305561G0D.html",
-        "published": "2026-03-11 19:11",
+        "title": "9个集装箱滞留阿曼湾 浙江老板:再过一周工厂只能停产",
+        "link": "https://www.163.com/dy/article/KNQKH69K05561G0D.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "扫地机器人变身刮地器地砖上大量划痕擦不掉 石头回应",
-        "title_en": "扫地机器人变身刮地器地砖上大量划痕擦不掉 石头回应"
+        "title_zh": "9个集装箱滞留阿曼湾 浙江老板:再过一周工厂只能停产",
+        "title_en": "9个集装箱滞留阿曼湾 浙江老板:再过一周工厂只能停产"
       },
       {
-        "title": "TVB演员江华化身景区＂打工皇帝＂回应暴瘦：只是偏瘦",
-        "link": "https://www.163.com/dy/article/KNOSBQRS053469LG.html",
-        "published": "2026-03-11 19:11",
+        "title": "业主举报违建次日接到＂邻居＂电话 物业经理被行政处罚",
+        "link": "https://www.163.com/dy/article/KNQV90L80512DU6N.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "TVB演员江华化身景区＂打工皇帝＂回应暴瘦：只是偏瘦",
-        "title_en": "TVB演员江华化身景区＂打工皇帝＂回应暴瘦：只是偏瘦"
+        "title_zh": "业主举报违建次日接到＂邻居＂电话 物业经理被行政处罚",
+        "title_en": "业主举报违建次日接到＂邻居＂电话 物业经理被行政处罚"
       },
       {
-        "title": "＂龙虾＂被传控制微信发红包 当事人回应",
-        "link": "https://www.163.com/dy/article/KNMN40BJ05345ARG.html",
-        "published": "2026-03-11 17:11",
+        "title": "＂万吨大驱＂上新 军事专家：在四个方面都有大幅度提升",
+        "link": "https://www.163.com/dy/article/KNQBRP070514R9OJ.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "＂龙虾＂被传控制微信发红包 当事人回应",
-        "title_en": "＂龙虾＂被传控制微信发红包 当事人回应"
+        "title_zh": "＂万吨大驱＂上新 军事专家：在四个方面都有大幅度提升",
+        "title_en": "＂万吨大驱＂上新 军事专家：在四个方面都有大幅度提升"
       },
       {
-        "title": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相",
-        "link": "https://www.163.com/dy/article/KNODV5210514R9OJ.html",
-        "published": "2026-03-11 16:11",
+        "title": "为皇帝造的老君骑马像遭＂浓妆艳抹＂ 村民觉得是做好事",
+        "link": "https://www.163.com/dy/article/KNQUDQ2H0514R9P4.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相",
-        "title_en": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相"
+        "title_zh": "为皇帝造的老君骑马像遭＂浓妆艳抹＂ 村民觉得是做好事",
+        "title_en": "为皇帝造的老君骑马像遭＂浓妆艳抹＂ 村民觉得是做好事"
       },
       {
-        "title": "又一家 平安银行宣布将关闭个人＂炒金＂通道",
-        "link": "https://www.163.com/dy/article/KNOEUINU05198CJN.html",
-        "published": "2026-03-11 15:11",
+        "title": "全国人大代表雷茂端：农民交的公粮就等于交了社保",
+        "link": "https://www.163.com/news/article/KNQV28E50001899O.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "又一家 平安银行宣布将关闭个人＂炒金＂通道",
-        "title_en": "又一家 平安银行宣布将关闭个人＂炒金＂通道"
+        "title_zh": "全国人大代表雷茂端：农民交的公粮就等于交了社保",
+        "title_en": "全国人大代表雷茂端：农民交的公粮就等于交了社保"
       },
       {
-        "title": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露",
-        "link": "https://www.163.com/dy/article/KNOB72TL0550B6IS.html",
-        "published": "2026-03-11 15:11",
+        "title": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高",
+        "link": "https://www.163.com/dy/article/KNQUR1OA0514R9OJ.html",
+        "published": "2026-03-12 15:03",
         "description": "",
-        "title_zh": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露",
-        "title_en": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露"
+        "title_zh": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高",
+        "title_en": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高"
       },
       {
-        "title": "全国人大代表张海鸥：把婚检重新带回婚姻起点",
-        "link": "https://www.163.com/dy/article/KNOCMR6B0514DG98.html",
-        "published": "2026-03-11 14:11",
+        "title": "奥运冠军王濛拟被破格晋升国家级教练",
+        "link": "https://www.163.com/dy/article/KNQI9E4G055040N3.html",
+        "published": "2026-03-12 14:03",
         "description": "",
-        "title_zh": "全国人大代表张海鸥：把婚检重新带回婚姻起点",
-        "title_en": "全国人大代表张海鸥：把婚检重新带回婚姻起点"
+        "title_zh": "奥运冠军王濛拟被破格晋升国家级教练",
+        "title_en": "奥运冠军王濛拟被破格晋升国家级教练"
       },
       {
-        "title": "承诺全屋智能装修老板失联 女子：花3万就摆几张桌椅",
-        "link": "https://www.163.com/dy/article/KNO1UIK105561G0D.html",
-        "published": "2026-03-11 14:11",
+        "title": "18辆越野车擅闯罗布泊无人区 警方搜索4小时成功拦截",
+        "link": "https://www.163.com/dy/article/KNQSMGN00514D3UH.html",
+        "published": "2026-03-12 14:03",
         "description": "",
-        "title_zh": "承诺全屋智能装修老板失联 女子：花3万就摆几张桌椅",
-        "title_en": "承诺全屋智能装修老板失联 女子：花3万就摆几张桌椅"
+        "title_zh": "18辆越野车擅闯罗布泊无人区 警方搜索4小时成功拦截",
+        "title_en": "18辆越野车擅闯罗布泊无人区 警方搜索4小时成功拦截"
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Oil hits $100 a barrel despite deal to release record amount of reserves",
-        "link": "https://www.bbc.com/news/articles/c1w5141vx53o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 11:04",
-        "description": "It comes as Iranian attacks on ships intensify in the crucial Strait of Hormuz waterway.",
-        "title_en": "Oil hits $100 a barrel despite deal to release record amount of reserves",
-        "title_zh": "尽管达成了释放创纪录数额储备的协议，但油价仍触及每桶 100 美元"
+        "title": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
+        "link": "https://www.bbc.com/news/articles/cdxg599655vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:32",
+        "description": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
+        "title_en": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
+        "title_zh": "伊朗新任最高领导人在首次声明中誓言封锁霍尔木兹海峡"
       },
       {
-        "title": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-        "link": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 00:45",
-        "description": "The US president might learn that starting wars is much easier than ending them, writes the BBC's international editor.",
-        "title_en": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-        "title_zh": "鲍文：特朗普号召伊朗起义，但 1991 年伊拉克的教训依然突出"
+        "title": "Emirati minister tells BBC Iran must end strikes on Gulf",
+        "link": "https://www.bbc.com/news/articles/cy8lzn2ejpjo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:20",
+        "description": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
+        "title_en": "Emirati minister tells BBC Iran must end strikes on Gulf",
+        "title_zh": "阿联酋部长告诉 BBC 伊朗必须停止对海湾地区的袭击"
+      },
+      {
+        "title": "Rapper-politician Balendra Shah's party wins Nepal election",
+        "link": "https://www.bbc.com/news/articles/c8jxnjvjkg7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 23:25",
+        "description": "The Rastriya Swatatantra Party has won a large majority in an election dominated by issues including corruption.",
+        "title_en": "Rapper-politician Balendra Shah's party wins Nepal election",
+        "title_zh": "说唱歌手政治家巴伦德拉·沙阿的政党赢得尼泊尔大选"
+      },
+      {
+        "title": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+        "link": "https://www.bbc.com/news/articles/cm2xrz71zm3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:36",
+        "description": "The Israeli military's top lawyer cites \"exceptional circumstances\" for dropping the case involving a Palestinian man held at Sde Teiman military prison.",
+        "title_en": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+        "title_zh": "以色列军方撤销对被指控虐待巴勒斯坦被拘留者的士兵的指控"
+      },
+      {
+        "title": "France's ghost car scandal that allowed one million illegal vehicles onto the roads",
+        "link": "https://www.bbc.com/news/articles/cpqw0jgn5xgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 01:44",
+        "description": "Fake dealerships were manipulating the state vehicle licensing agency's official records, France's auditor has found.",
+        "title_en": "France's ghost car scandal that allowed one million illegal vehicles onto the roads",
+        "title_zh": "法国幽灵汽车丑闻导致100万辆非法车辆上路"
+      },
+      {
+        "title": "Parents accused of hiding daughter's HIV infection and neglect",
+        "link": "https://www.bbc.com/news/articles/c5y4e3pzvl0o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 00:58",
+        "description": "The child did not see a doctor until she was six - and had not had any vaccinations, Italian media say.",
+        "title_en": "Parents accused of hiding daughter's HIV infection and neglect",
+        "title_zh": "父母被指控隐瞒女儿的艾滋病毒感染情况和忽视"
+      },
+      {
+        "title": "China approves 'ethnic unity' law requiring minorities to learn Mandarin",
+        "link": "https://www.bbc.com/news/articles/cp9meeek051o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 16:41",
+        "description": "The law states that children should be taught Mandarin before kindergarten, until the end of high school.",
+        "title_en": "China approves 'ethnic unity' law requiring minorities to learn Mandarin",
+        "title_zh": "China approves 'ethnic unity' law requiring minorities to learn Mandarin"
       },
       {
         "title": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
@@ -164,506 +202,407 @@
         "title_zh": "巴西女性告诉 BBC，爱泼斯坦利用模特经纪人招募女孩"
       },
       {
-        "title": "China's biggest political meeting is ending - what have we learned?",
-        "link": "https://www.bbc.com/news/articles/cvg80pedxeyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 07:03",
-        "description": "BBC correspondents give us their biggest takeaways from China's National People's Congress.",
-        "title_en": "China's biggest political meeting is ending - what have we learned?",
-        "title_zh": "中国最大的政治会议即将结束——我们学到了什么？"
+        "title": "Nineteen jailed over deadly Moscow concert attack",
+        "link": "https://www.bbc.com/news/articles/c0j5lx75vg3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 21:29",
+        "description": "Gunmen opened fire at Crocus City Concert hall near Moscow in 2024, killing 149 and injuring more than 500.",
+        "title_en": "Nineteen jailed over deadly Moscow concert attack",
+        "title_zh": "十九人因莫斯科音乐会袭击事件被判入狱"
       },
       {
-        "title": "Countries agree to record release of emergency oil reserves as prices surge",
-        "link": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:51",
-        "description": "The G7 group of nations welcomes the idea of releasing oil in response to the surge in prices since the US-Israel war with Iran began",
-        "title_en": "Countries agree to record release of emergency oil reserves as prices surge",
-        "title_zh": "随着油价飙升，各国同意创纪录地释放紧急石油储备"
+        "title": "Noma head chef resigns from restaurant amid abuse allegations",
+        "link": "https://www.bbc.com/news/articles/c07jr2pe5j9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 12:09",
+        "description": "René Redzepi had previously apologised after ex-employees of the Danish restaurant accused him of creating a toxic work environment.",
+        "title_en": "Noma head chef resigns from restaurant amid abuse allegations",
+        "title_zh": "诺玛餐厅主厨因虐待指控而辞职"
       },
       {
-        "title": "'Even under missiles we carry on living' - how young Iranians are coping with war",
-        "link": "https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 00:00",
-        "description": "Iranians say they are sheltering at home and rarely venturing out on near-empty streets as the US-Israeli bombing campaign continues.",
-        "title_en": "'Even under missiles we carry on living' - how young Iranians are coping with war",
-        "title_zh": "“即使在导弹之下，我们也能继续生活”——年轻的伊朗人如何应对战争"
+        "title": "Hozier, Jessie Buckley and Bruce Springsteen record Shane MacGowan tribute album",
+        "link": "https://www.bbc.com/news/articles/cn87ndvklr2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 18:32",
+        "description": "The album will also feature Primal Scream, David Gray, Jessie Buckley, Johnny Depp and Kate Moss.",
+        "title_en": "Hozier, Jessie Buckley and Bruce Springsteen record Shane MacGowan tribute album",
+        "title_zh": "霍齐尔、杰西·巴克利和布鲁斯·斯普林斯汀录制了向肖恩·麦高恩致敬的专辑"
       },
       {
-        "title": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-        "link": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 22:13",
-        "description": "Six Palestinians have been killed during attacks by settlers in the West Bank since the start of Israel's war, the UN says.",
-        "title_en": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-        "title_zh": "欧盟和英国要求以色列停止伊朗战争以来约旦河西岸定居者暴力事件激增"
+        "title": "Cartoonist freed after 15 years in prison without charge in Eritrea",
+        "link": "https://www.bbc.com/news/articles/c70kg0x4xk5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 21:57",
+        "description": "Biniam Solomon was known for his witty and critical cartoons before the free press was closed.",
+        "title_en": "Cartoonist freed after 15 years in prison without charge in Eritrea",
+        "title_zh": "漫画家在厄立特里亚被监禁 15 年后获释"
       },
       {
-        "title": "Kanye West ordered to pay $140K in Malibu mansion renovation lawsuit",
-        "link": "https://www.bbc.com/news/articles/c62g90w8dkko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 08:27",
-        "description": "A handyman had sought $1.7m (£1.267m) from the rapper over claims of unpaid work, medical expenses and being unfairly fired.",
-        "title_en": "Kanye West ordered to pay $140K in Malibu mansion renovation lawsuit",
-        "title_zh": "Kanye West 在马里布豪宅翻修诉讼中被判支付 14 万美元"
+        "title": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+        "link": "https://www.bbc.com/news/articles/cz7gd57z33zo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 16:43",
+        "description": "The suspect had packed some ants in test tubes while others were concealed in tissue paper rolls, prosecutor says.",
+        "title_en": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+        "title_zh": "中国公民因试图从肯尼亚走私2000只蚁后被捕"
       },
       {
-        "title": "Three brothers arrested after explosion at US embassy in Oslo",
-        "link": "https://www.bbc.com/news/articles/cx2grl7lrrmo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 02:28",
-        "description": "Norway's police attorney says the authorities are investigating whether a foreign state actor was involved.",
-        "title_en": "Three brothers arrested after explosion at US embassy in Oslo",
-        "title_zh": "美国驻奥斯陆大使馆爆炸后三兄弟被捕"
+        "title": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+        "link": "https://www.bbc.com/news/articles/cd9gwdgg38vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 19:23",
+        "description": "Much of the Van Allen Probe was expected to burn up in the atmosphere, though Nasa said there was a \"low\" risk of people being struck by surviving components.",
+        "title_en": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+        "title_zh": "美国宇航局重达 1,300 磅的航天器重新进入地球大气层"
       },
       {
-        "title": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
-        "link": "https://www.bbc.com/news/articles/c14m1vzmxz3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 05:30",
-        "description": "Leo Brent Bozell apologises after weighing in on a dispute rooted in the country's apartheid past.",
-        "title_en": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
-        "title_zh": "美国新任驻南非大使因“不外交言论”被传唤"
+        "title": "Death toll from Ethiopia floods and landslides rises to more than 100",
+        "link": "https://www.bbc.com/news/articles/ce947x4m0e1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 22:46",
+        "description": "Forecasters say storms are becoming more intense in the region, partly due to global warming.",
+        "title_en": "Death toll from Ethiopia floods and landslides rises to more than 100",
+        "title_zh": "埃塞俄比亚洪水和山体滑坡造成的死亡人数上升至100多人"
       },
       {
-        "title": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-        "link": "https://www.bbc.com/news/articles/cvgj8veg0gno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:24",
-        "description": "Witnesses say drone strikes hit a residential building frequently occupied by expatriates and aid workers in Goma.",
-        "title_en": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-        "title_zh": "法国援助人员在刚果民主共和国叛军控制城市的无人机袭击中丧生，其中三人死亡"
-      },
-      {
-        "title": "Ukraine says it has hit Russian 'missile component' plant",
-        "link": "https://www.bbc.com/news/articles/ckg1eqw30l9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 19:16",
-        "description": "Russia says the attack hit civilians and could not have been carried out without British help.",
-        "title_en": "Ukraine says it has hit Russian 'missile component' plant",
-        "title_zh": "乌克兰称袭击了俄罗斯“导弹组件”工厂"
-      },
-      {
-        "title": "Member of Iranian football delegation granted Australian asylum changes her mind",
-        "link": "https://www.bbc.com/news/articles/c93j2492d0do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 12:14",
-        "description": "One of the seven women who received visas has reversed her decision after speaking to teammates, minister says",
-        "title_en": "Member of Iranian football delegation granted Australian asylum changes her mind",
-        "title_zh": "获得澳大利亚庇护的伊朗足球代表团成员改变主意"
-      },
-      {
-        "title": "No evidence Swiss bus fire was terrorism, officials say",
-        "link": "https://www.bbc.com/news/articles/c5y4wdlyy9xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:04",
-        "description": "Initial reports suggest a man with \"psychological problems\" set himself on fire on the bus, according to police.",
-        "title_en": "No evidence Swiss bus fire was terrorism, officials say",
-        "title_zh": "官员称没有证据表明瑞士公交车起火是恐怖主义"
-      },
-      {
-        "title": "Mugabe's son drops bail request - what has happened to the family after losing power",
-        "link": "https://www.bbc.com/news/articles/cp32xx35lwwo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 18:31",
-        "description": "Bellarmine Mugabe will negotiate a plea deal after being accused of attempted murder and other charges in South Africa.",
-        "title_en": "Mugabe's son drops bail request - what has happened to the family after losing power",
-        "title_zh": "穆加贝的儿子放弃保释请求 - 失去权力后家庭发生了什么"
-      },
-      {
-        "title": "Large WW2 bomb defused after Dresden evacuated",
-        "link": "https://www.bbc.com/news/articles/c1781gr5n9go?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:55",
-        "description": "The city's biggest ever evacuation comes after the British flying bomb was discovered near a collapsed bridge.",
-        "title_en": "Large WW2 bomb defused after Dresden evacuated",
-        "title_zh": "德累斯顿疏散后拆除大型二战炸弹"
+        "title": "Jo Malone sued for using her own name in collaboration with Zara",
+        "link": "https://www.bbc.com/news/articles/cly09j2542no?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 01:08",
+        "description": "The perfumier sold the rights to her name in 1999 but has previously said she regretted the move.",
+        "title_en": "Jo Malone sued for using her own name in collaboration with Zara",
+        "title_zh": "Jo Malone 因与 Zara 合作使用自己的名字而被起诉"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Five vessels attacked amid reports of Iranian drone boats, sea mines",
-        "link": "https://www.aljazeera.com/news/2026/3/12/five-vessels-attacked-amid-reports-of-iranian-drone-boats-sea-mines?traffic_source=rss",
-        "published": "2026-03-12 11:45",
-        "description": "Two oil tankers hit by explosive-laden boats in Iraqi waters amid reports Iran may be using unmanned surface vessels.",
-        "title_en": "Five vessels attacked amid reports of Iranian drone boats, sea mines",
-        "title_zh": "伊朗无人机船和水雷报道称五艘船只遭到袭击"
+        "title": "UN fact-finding mission warns of continued human rights abuses in Venezuela",
+        "link": "https://www.aljazeera.com/news/2026/3/12/un-fact-finding-mission-warns-of-continued-human-rights-abuses-in-venezuela?traffic_source=rss",
+        "published": "2026-03-13 07:51",
+        "description": "In an address to the UN Human Rights Council, experts warned that the &#039;machinery&#039; of repression was &#039;mutating&#039;.",
+        "title_en": "UN fact-finding mission warns of continued human rights abuses in Venezuela",
+        "title_zh": "联合国实况调查团警告委内瑞拉继续发生侵犯人权行为"
       },
       {
-        "title": "How is feminism being used to justify war in Iran?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/how-is-feminism-being-used-to-justify-war-in-iran?traffic_source=rss",
-        "published": "2026-03-12 11:43",
-        "description": "Some supporters of the US-Israeli war on Iran are using the treatment of women in the country as a justification.",
-        "title_en": "How is feminism being used to justify war in Iran?",
-        "title_zh": "女权主义如何被用来为伊朗战争辩护？"
+        "title": "Iran envoy says Tehran will keep Strait of Hormuz open",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/iran-envoy-says-tehran-will-keep-strait-of-hormuz-open?traffic_source=rss",
+        "published": "2026-03-13 07:18",
+        "description": "Iran’s UN envoy Amir Saeid Iravani said Tehran will not close the Strait of Hormuz and remains committed to freedom.",
+        "title_en": "Iran envoy says Tehran will keep Strait of Hormuz open",
+        "title_zh": "伊朗特使表示德黑兰将保持霍尔木兹海峡开放"
       },
       {
-        "title": "Fire erupts at Gaza camp after Israeli attack hits tents",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/fire-erupts-at-gaza-camp-after-israeli-attack-hits-tents?traffic_source=rss",
-        "published": "2026-03-12 11:25",
-        "description": "Fire broke out at tents sheltering displaced Palestinians in Gaza’s Al-Ansar refugee camp after an Israeli strike.",
-        "title_en": "Fire erupts at Gaza camp after Israeli attack hits tents",
-        "title_zh": "以色列袭击帐篷后加沙营地爆发火灾"
+        "title": "Qatar rejects attempts to ‘drive wedge’ with US over gas pause",
+        "link": "https://www.aljazeera.com/news/2026/3/12/qatar-rejects-attempts-to-drive-wedge-with-us-over-gas-pause?traffic_source=rss",
+        "published": "2026-03-13 07:17",
+        "description": "Qatari official denies political motives for decision to halt LNG production following Iranian strikes.",
+        "title_en": "Qatar rejects attempts to ‘drive wedge’ with US over gas pause",
+        "title_zh": "卡塔尔拒绝因暂停天然气供应而与美国“离间”"
       },
       {
-        "title": "Fuel tank fire rages in Bahrain after Iranian attack",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/fuel-tank-fire-rages-in-bahrain-after-iranian-attack?traffic_source=rss",
-        "published": "2026-03-12 11:15",
-        "description": "Bahrain&#039;s interior ministry released footage of a massive blaze at a fuel storage facility following an Iranian attack.",
-        "title_en": "Fuel tank fire rages in Bahrain after Iranian attack",
-        "title_zh": "Fuel tank fire rages in Bahrain after Iranian attack"
+        "title": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory",
+        "link": "https://www.aljazeera.com/news/2026/3/12/ex-rapper-balendra-shah-sweeps-to-power-in-nepal-landslide-election-victory?traffic_source=rss",
+        "published": "2026-03-13 06:12",
+        "description": "Rastriya Swatantra Party, founded just four years ago, set to dominate new parliament with near two-thirds majority.",
+        "title_en": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory",
+        "title_zh": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory"
       },
       {
-        "title": "UN Security Council adopts resolution condemning Iran’s attacks in the Gulf",
-        "link": "https://www.aljazeera.com/news/2026/3/12/un-security-council-adopts-resolution-condemning-irans-attacks-in-the-gulf?traffic_source=rss",
-        "published": "2026-03-12 10:44",
-        "description": "UN Security Council draft resolution demanding Iran end its attacks on Gulf nations was cosponsored by 135 countries.",
-        "title_en": "UN Security Council adopts resolution condemning Iran’s attacks in the Gulf",
-        "title_zh": "联合国安理会通过决议谴责伊朗在海湾地区的袭击"
+        "title": "US military announces rescue effort after fuelling aircraft crashes in Iraq",
+        "link": "https://www.aljazeera.com/news/2026/3/12/us-military-announces-loss-of-refueling-aircraft-over-western-iraq?traffic_source=rss",
+        "published": "2026-03-13 06:10",
+        "description": "No deaths have been reported so far, but the military said the crash involved two aircraft, one of which landed safely.",
+        "title_en": "US military announces rescue effort after fuelling aircraft crashes in Iraq",
+        "title_zh": "美军在伊拉克为飞机失事事件宣布救援行动"
       },
       {
-        "title": "Who bombed the Iranian girls’ school, killing more than 170? What we know",
-        "link": "https://www.aljazeera.com/news/2026/3/12/who-bombed-the-iranian-girls-school-killing-more-than-170-what-we-know?traffic_source=rss",
-        "published": "2026-03-12 10:21",
-        "description": "The attack on Shajareh Tayyebeh Elementary School quickly became a focal point of concern over civilian casualties.",
-        "title_en": "Who bombed the Iranian girls’ school, killing more than 170? What we know",
-        "title_zh": "是谁轰炸了伊朗女子学校，造成170多人死亡？"
+        "title": "Air attacks target bases of Iran-backed forces in Iraq",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/air-attacks-target-bases-of-iran-backed-forces-in-iraq?traffic_source=rss",
+        "published": "2026-03-13 06:01",
+        "description": "Air attacks have targeted military bases across Iraq belonging to Iran-backed forces.",
+        "title_en": "Air attacks target bases of Iran-backed forces in Iraq",
+        "title_zh": "空袭目标是伊朗支持的伊拉克部队基地"
       },
       {
-        "title": "Israeli strike hits Beirut waterfront near tents of displaced",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/israeli-strike-hits-beirut-waterfront-near-tents-of-displaced?traffic_source=rss",
-        "published": "2026-03-12 09:53",
-        "description": "At least six people are dead from an Israeli strike on Beirut’s Ramlet al-Baida seafront.",
-        "title_en": "Israeli strike hits Beirut waterfront near tents of displaced",
-        "title_zh": "以色列袭击贝鲁特海滨流离失所者的帐篷附近"
+        "title": "Netanyahu says Israel ‘stronger than ever’ in first speech since Iran war",
+        "link": "https://www.aljazeera.com/news/2026/3/12/netanyahu-says-israel-stronger-than-ever-in-first-speech-since-iran-war?traffic_source=rss",
+        "published": "2026-03-13 05:32",
+        "description": "Prime minister says US-Israeli war prevented Iran from moving its nuclear and ballistic projects underground.",
+        "title_en": "Netanyahu says Israel ‘stronger than ever’ in first speech since Iran war",
+        "title_zh": "内塔尼亚胡自伊朗战争以来首次发表讲话称以色列“比以往任何时候都更强大”"
       },
       {
-        "title": "Iran’s authorities warn against protests as Israel threatens Basij forces",
-        "link": "https://www.aljazeera.com/news/2026/3/12/irans-authorities-warn-against-protests-as-israel-threatens-basij-forces?traffic_source=rss",
-        "published": "2026-03-12 09:35",
-        "description": "Police chief says protesters seen as acting at the behest of the US and Israel will be treated as enemies.",
-        "title_en": "Iran’s authorities warn against protests as Israel threatens Basij forces",
-        "title_zh": "以色列威胁巴斯基部队，伊朗当局警告不要举行抗议活动"
+        "title": "Fuel shortages bring queues, protests around the world",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/fuel-shortages-bring-queues-protests-around-the-world?traffic_source=rss",
+        "published": "2026-03-13 05:30",
+        "description": "Rising fuel prices have caused long queues and protests around the world as the US-Israeli war on Iran rages.",
+        "title_en": "Fuel shortages bring queues, protests around the world",
+        "title_zh": "燃料短缺在世界各地引发排队和抗议"
       },
       {
-        "title": "Qatar PM urges resilience and unity amid Iran strikes",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/qatar-pm-urges-resilience-and-unity-amid-iran-strikes?traffic_source=rss",
-        "published": "2026-03-12 08:35",
-        "description": "Qatar’s Prime Minister calls for strengthening the country’s ability to withstand “hardship” amid regional war.",
-        "title_en": "Qatar PM urges resilience and unity amid Iran strikes",
-        "title_zh": "卡塔尔总理敦促在伊朗袭击中保持韧性和团结"
+        "title": "Advocates push for major probe as US boat strikes in Latin America kill 157",
+        "link": "https://www.aljazeera.com/news/2026/3/12/advocates-push-for-major-probe-as-us-boat-strikes-in-latin-america-kill-157?traffic_source=rss",
+        "published": "2026-03-13 05:02",
+        "description": "The Inter-American Commission on Human Rights is set to hold first hearing on US&#039;s alleged extrajudicial killings.",
+        "title_en": "Advocates push for major probe as US boat strikes in Latin America kill 157",
+        "title_zh": "美国在拉丁美洲袭击船只造成157人死亡，倡导者推动重大调查"
       },
       {
-        "title": "Eight Arab, Islamic countries condemn Israeli closure of Al-Aqsa Mosque",
-        "link": "https://www.aljazeera.com/news/2026/3/12/eight-arab-islamic-countries-condemn-israeli-closure-of-al-aqsa-mosque?traffic_source=rss",
-        "published": "2026-03-12 08:04",
-        "description": "For the past 12 days, Israel has closed Al-Aqsa Mosque and restricted movement in the Old City of Jerusalem.",
-        "title_en": "Eight Arab, Islamic countries condemn Israeli closure of Al-Aqsa Mosque",
-        "title_zh": "八个阿拉伯和伊斯兰国家谴责以色列关闭阿克萨清真寺"
+        "title": "Can AI in military operations really be ethical?",
+        "link": "https://www.aljazeera.com/video/the-stream/2026/3/12/can-ai-in-military-operations-really-be-ethical?traffic_source=rss",
+        "published": "2026-03-13 04:30",
+        "description": "We examine concerns about AI’s role in military operations and the broader ethical challenges facing tech companies.",
+        "title_en": "Can AI in military operations really be ethical?",
+        "title_zh": "军事行动中的人工智能真的符合道德吗？"
       },
       {
-        "title": "Iran war live: Oil tankers hit in Iraq, Tehran sets 3 conditions for peace",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?traffic_source=rss",
-        "published": "2026-03-12 08:00",
-        "description": "Iran demands recognition of its rights, war reparations and guarantees against future aggression to end the war.",
-        "title_en": "Iran war live: Oil tankers hit in Iraq, Tehran sets 3 conditions for peace",
-        "title_zh": "伊朗战事直播：油轮在伊拉克遭袭，德黑兰为和平设定3个条件"
+        "title": "Taiwan cheering row overshadows China quarterfinal at Asian Cup",
+        "link": "https://www.aljazeera.com/sports/2026/3/12/taiwan-cheering-row-overshadows-china-quarter-final-at-asian-cup?traffic_source=rss",
+        "published": "2026-03-13 03:57",
+        "description": "Taiwan face China in a tense Women&#039;s Asian Cup football quarterfinal, where political tensions will be at the fore.",
+        "title_en": "Taiwan cheering row overshadows China quarterfinal at Asian Cup",
+        "title_zh": "亚洲杯四分之一决赛台湾助威赛盖过中国队"
       },
       {
-        "title": "‘Proud as a Qatari’: Country’s PM salutes resilience amid Iranian attacks",
-        "link": "https://www.aljazeera.com/news/2026/3/11/proud-as-a-qatari-countrys-pm-salutes-resilience-amid-iranian-attacks?traffic_source=rss",
-        "published": "2026-03-12 07:56",
-        "description": "The country&#039;s prime minister urges resilience, says government committed to ensuring people&#039;s lives are not disrupted.",
-        "title_en": "‘Proud as a Qatari’: Country’s PM salutes resilience amid Iranian attacks",
-        "title_zh": "“作为卡塔尔人感到自豪”：该国总理赞扬伊朗袭击中的韧性"
+        "title": "How will the war on Iran impact the US economy?",
+        "link": "https://www.aljazeera.com/economy/2026/3/12/how-will-the-war-on-iran-impact-the-us-economy?traffic_source=rss",
+        "published": "2026-03-13 03:50",
+        "description": "Outcomes depend on how quickly oil tankers can return to the Strait of Hormuz, experts said.",
+        "title_en": "How will the war on Iran impact the US economy?",
+        "title_zh": "伊朗战争将如何影响美国经济？"
       },
       {
-        "title": "Massive fires on two oil tankers after attack in Iraqi waters",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/11/massive-fires-on-two-oil-tankers-after-attack-in-iraqi-waters?traffic_source=rss",
-        "published": "2026-03-12 07:19",
-        "description": "Two foreign tankers were seen ablaze in Iraqi territorial waters after a strike near the al-Faw port.",
-        "title_en": "Massive fires on two oil tankers after attack in Iraqi waters",
-        "title_zh": "伊拉克水域遇袭后两艘油轮起火"
+        "title": "Does President Trump have an exit strategy for the war with Iran?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/12/does-president-trump-have-an-exit-strategy-for-the-war-with-iran?traffic_source=rss",
+        "published": "2026-03-13 03:50",
+        "description": "United States officials are issuing contradictory statements on the war&#039;s timeline and objectives.",
+        "title_en": "Does President Trump have an exit strategy for the war with Iran?",
+        "title_zh": "特朗普总统对于与伊朗的战争有退出战略吗？"
       },
       {
-        "title": "New files show British PM warned of ‘reputational risks’ with Mandelson",
-        "link": "https://www.aljazeera.com/news/2026/3/11/new-files-show-british-pm-warned-of-reputational-risks-with-mandelson?traffic_source=rss",
-        "published": "2026-03-12 07:14",
-        "description": "More than 100 pages of documents were published which covered the process of Peter Mandelson’s appointment as US envoy.",
-        "title_en": "New files show British PM warned of ‘reputational risks’ with Mandelson",
-        "title_zh": "新文件显示英国首相警告曼德尔森存在“声誉风险”"
+        "title": "Iran vows to make Trump pay for ‘grave miscalculation’ if US escalates war",
+        "link": "https://www.aljazeera.com/news/2026/3/12/iran-vows-to-make-trump-pay-for-grave-miscalculation-if-us-escalates-war?traffic_source=rss",
+        "published": "2026-03-13 03:31",
+        "description": "Ali Larijani responds to US threat to hit Iran&#039;s power infrastructure, saying the &#039;whole region will go dark&#039;.",
+        "title_en": "Iran vows to make Trump pay for ‘grave miscalculation’ if US escalates war",
+        "title_zh": "如果美国升级战争，伊朗发誓要让特朗普为“严重误判”付出代价"
       },
       {
-        "title": "Trump: ‘I don’t know’ about report US at fault in school strike",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/11/trump-i-dont-know-about-report-us-at-fault-in-school-strike?traffic_source=rss",
-        "published": "2026-03-12 06:38",
-        "description": "Donald Trump denied knowledge of a military investigation finding the US responsible for the Minab girls&#039; school strike.",
-        "title_en": "Trump: ‘I don’t know’ about report US at fault in school strike",
-        "title_zh": "特朗普：“我不知道”美国在学校罢课中是否有过错"
+        "title": "ICC prosecutor opens probe into Belarus over deportations to Lithuania",
+        "link": "https://www.aljazeera.com/news/2026/3/12/icc-prosecutor-opens-probe-into-belarus-over-deportations-to-lithuania?traffic_source=rss",
+        "published": "2026-03-13 02:56",
+        "description": "The prosecutor&#039;s office said the crimes being investigated include deportation and persecution through deportation.",
+        "title_en": "ICC prosecutor opens probe into Belarus over deportations to Lithuania",
+        "title_zh": "国际刑事法院检察官就白俄罗斯驱逐立陶宛事件展开调查"
       },
       {
-        "title": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
-        "link": "https://www.aljazeera.com/news/2026/3/11/south-africa-summons-new-us-ambassador-over-undiplomatic-remarks?traffic_source=rss",
-        "published": "2026-03-12 06:33",
-        "description": "US President Trump has claimed South Africa is engaged in a campaign of white persecution, which Pretoria denies.",
-        "title_en": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
-        "title_zh": "南非因“非外交言论”召见美国新大使"
+        "title": "Somalia warns against any Israeli base plans on Somaliland",
+        "link": "https://www.aljazeera.com/news/2026/3/12/somalia-warns-against-any-israeli-base-plans-on-somaliland?traffic_source=rss",
+        "published": "2026-03-13 02:51",
+        "description": "Somali minister tells Al Jazeera Israeli base plans in Somaliland risk dragging Somalia into &#039;external confrontations&#039;.",
+        "title_en": "Somalia warns against any Israeli base plans on Somaliland",
+        "title_zh": "索马里警告以色列不要在索马里兰建立任何基地计划"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
-      "event_hint_zh": "美国新任驻南非大使因“不外交言论”被传唤",
-      "event_hint_en": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
+      "event_hint": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
+      "event_hint_zh": "伊朗新任最高领导人在首次声明中誓言封锁霍尔木兹海峡",
+      "event_hint_en": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
       "中国": {
-        "title": "美国将对中欧等16个贸易伙伴发起301调查",
-        "link": "https://www.163.com/dy/article/KNQJE84R0534A4SC.html",
-        "published": "2026-03-12 11:11",
+        "title": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名",
+        "link": "https://www.163.com/dy/article/KNQTLODS055040N3.html",
+        "published": "2026-03-12 16:03",
         "description": "",
-        "title_zh": "美国将对中欧等16个贸易伙伴发起301调查",
-        "title_en": "美国将对中欧等16个贸易伙伴发起301调查"
+        "title_zh": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名",
+        "title_en": "员工连续工作8小时闭眼小憩3分钟被辞退 最高法点名"
       },
       "美国（欧美媒体）": {
-        "title": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
-        "link": "https://www.bbc.com/news/articles/c14m1vzmxz3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 05:30",
-        "description": "Leo Brent Bozell apologises after weighing in on a dispute rooted in the country's apartheid past.",
-        "title_en": "New US ambassador to South Africa summoned over 'undiplomatic remarks'",
-        "title_zh": "美国新任驻南非大使因“不外交言论”被传唤"
+        "title": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
+        "link": "https://www.bbc.com/news/articles/cdxg599655vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:32",
+        "description": "A message attributed to Mojtaba Khamenei also says Iran will continue targeting US bases in the region.",
+        "title_en": "Iran's new supreme leader vows to block Strait of Hormuz in first statement",
+        "title_zh": "伊朗新任最高领导人在首次声明中誓言封锁霍尔木兹海峡"
       },
       "伊斯兰（半岛等）": {
-        "title": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
-        "link": "https://www.aljazeera.com/news/2026/3/11/south-africa-summons-new-us-ambassador-over-undiplomatic-remarks?traffic_source=rss",
-        "published": "2026-03-12 06:33",
-        "description": "US President Trump has claimed South Africa is engaged in a campaign of white persecution, which Pretoria denies.",
-        "title_en": "South Africa summons new US ambassador over ‘undiplomatic remarks’",
-        "title_zh": "南非因“非外交言论”召见美国新大使"
+        "title": "Iran envoy says Tehran will keep Strait of Hormuz open",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/iran-envoy-says-tehran-will-keep-strait-of-hormuz-open?traffic_source=rss",
+        "published": "2026-03-13 07:18",
+        "description": "Iran’s UN envoy Amir Saeid Iravani said Tehran will not close the Strait of Hormuz and remains committed to freedom.",
+        "title_en": "Iran envoy says Tehran will keep Strait of Hormuz open",
+        "title_zh": "伊朗特使表示德黑兰将保持霍尔木兹海峡开放"
       },
-      "my_view": "中国视角将事件置于中美贸易摩擦框架下，突出美国301调查的对抗性；欧美视角聚焦外交礼仪层面，采用中性表述；伊斯兰视角与欧美基本一致，但通过引号强调‘不外交言论’的争议性。",
-      "summary": "美国新任驻南非大使因争议言论被南非政府正式传唤，引发多国对其外交行为的关注。"
+      "my_view": "欧美报道聚焦冲突性表态，伊斯兰视角强调开放承诺以稳定地区情绪，中国媒体则通过国内劳动案例转移对国际敏感议题的关注，体现各自议程设置差异。",
+      "summary": "伊朗新任领导人关于霍尔木兹海峡的表态在不同媒体中被选择性呈现，反映地缘政治报道中的立场过滤现象。"
     },
     {
-      "event_hint": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-      "event_hint_zh": "鲍文：特朗普号召伊朗起义，但 1991 年伊拉克的教训依然突出",
-      "event_hint_en": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-      "中国": {
-        "title": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂",
-        "link": "https://www.163.com/dy/article/KNOU79H50514D3UH.html",
-        "published": "2026-03-11 21:11",
-        "description": "",
-        "title_zh": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂",
-        "title_en": "伊拉克籍记者与新疆女友订婚 王毅曾说＂中国也是你家＂"
-      },
-      "美国（欧美媒体）": {
-        "title": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-        "link": "https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 00:45",
-        "description": "The US president might learn that starting wars is much easier than ending them, writes the BBC's international editor.",
-        "title_en": "Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large",
-        "title_zh": "鲍文：特朗普号召伊朗起义，但 1991 年伊拉克的教训依然突出"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Iran war live: Oil tankers hit in Iraq, Tehran sets 3 conditions for peace",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/3/12/iran-war-live-oil-tankers-hit-in-iraq-tehran-sets-3-conditions-for-peace?traffic_source=rss",
-        "published": "2026-03-12 08:00",
-        "description": "Iran demands recognition of its rights, war reparations and guarantees against future aggression to end the war.",
-        "title_en": "Iran war live: Oil tankers hit in Iraq, Tehran sets 3 conditions for peace",
-        "title_zh": "伊朗战事直播：油轮在伊拉克遭袭，德黑兰为和平设定3个条件"
-      },
-      "my_view": "中国视角淡化政治冲突，突出人文交流与包容；欧美视角聚焦领导人言论与历史教训，强调政治影响；伊斯兰视角关注军事冲突与和平条件，反映地区安全关切。三方分别从人文、政治、军事维度切入同一事件。",
-      "summary": "三方媒体基于自身立场，对特朗普涉伊朗言论及伊拉克历史关联事件进行了选择性报道，体现国际舆论的多元叙事。"
-    },
-    {
-      "event_hint": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-      "event_hint_zh": "欧盟和英国要求以色列停止伊朗战争以来约旦河西岸定居者暴力事件激增",
-      "event_hint_en": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-      "中国": {
-        "title": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露",
-        "link": "https://www.163.com/dy/article/KNOB72TL0550B6IS.html",
-        "published": "2026-03-11 15:11",
-        "description": "",
-        "title_zh": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露",
-        "title_en": "伊朗客户已失联多日 留给中国外贸员的最后一句话披露"
-      },
-      "美国（欧美媒体）": {
-        "title": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-        "link": "https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 22:13",
-        "description": "Six Palestinians have been killed during attacks by settlers in the West Bank since the start of Israel's war, the UN says.",
-        "title_en": "EU and UK demand Israel stop surge in West Bank settler violence since Iran war",
-        "title_zh": "欧盟和英国要求以色列停止伊朗战争以来约旦河西岸定居者暴力事件激增"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Iran’s authorities warn against protests as Israel threatens Basij forces",
-        "link": "https://www.aljazeera.com/news/2026/3/12/irans-authorities-warn-against-protests-as-israel-threatens-basij-forces?traffic_source=rss",
-        "published": "2026-03-12 09:35",
-        "description": "Police chief says protesters seen as acting at the behest of the US and Israel will be treated as enemies.",
-        "title_en": "Iran’s authorities warn against protests as Israel threatens Basij forces",
-        "title_zh": "以色列威胁巴斯基部队，伊朗当局警告不要举行抗议活动"
-      },
-      "my_view": "中国报道聚焦经济影响，回避政治表态；欧美报道直接批评以色列纵容定居者暴力；伊斯兰报道强调伊朗内部维稳与外部威胁，三方分别体现务实中立、人权干预和抵抗叙事立场。",
-      "summary": "伊朗冲突外溢引发西岸定居者暴力升级，国际社会对以色列施压，各方报道侧重反映自身地缘政治关切。"
-    },
-    {
-      "event_hint": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-      "event_hint_zh": "法国援助人员在刚果民主共和国叛军控制城市的无人机袭击中丧生，其中三人死亡",
-      "event_hint_en": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-      "中国": {
-        "title": "＂龙虾＂被传控制微信发红包 当事人回应",
-        "link": "https://www.163.com/dy/article/KNMN40BJ05345ARG.html",
-        "published": "2026-03-11 17:11",
-        "description": "",
-        "title_zh": "＂龙虾＂被传控制微信发红包 当事人回应",
-        "title_en": "＂龙虾＂被传控制微信发红包 当事人回应"
-      },
-      "美国（欧美媒体）": {
-        "title": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-        "link": "https://www.bbc.com/news/articles/cvgj8veg0gno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:24",
-        "description": "Witnesses say drone strikes hit a residential building frequently occupied by expatriates and aid workers in Goma.",
-        "title_en": "French aid worker among three killed in drone strikes in rebel-held DR Congo city",
-        "title_zh": "法国援助人员在刚果民主共和国叛军控制城市的无人机袭击中丧生，其中三人死亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Five vessels attacked amid reports of Iranian drone boats, sea mines",
-        "link": "https://www.aljazeera.com/news/2026/3/12/five-vessels-attacked-amid-reports-of-iranian-drone-boats-sea-mines?traffic_source=rss",
-        "published": "2026-03-12 11:45",
-        "description": "Two oil tankers hit by explosive-laden boats in Iraqi waters amid reports Iran may be using unmanned surface vessels.",
-        "title_en": "Five vessels attacked amid reports of Iranian drone boats, sea mines",
-        "title_zh": "伊朗无人机船和水雷报道称五艘船只遭到袭击"
-      },
-      "my_view": "中国媒体转移焦点至无关社会传闻，弱化国际冲突；欧美媒体客观陈述事件主体与伤亡事实；伊斯兰媒体借机关联伊朗相关海上冲突，暗示地区紧张局势的多点爆发。",
-      "summary": "法国援助人员在刚果叛军控制区遭无人机袭击身亡，三方媒体通过选择性报道体现各自地缘政治立场。"
-    },
-    {
-      "event_hint": "Mugabe's son drops bail request - what has happened to the family after losing power",
-      "event_hint_zh": "穆加贝的儿子放弃保释请求 - 失去权力后家庭发生了什么",
-      "event_hint_en": "Mugabe's son drops bail request - what has happened to the family after losing power",
-      "中国": {
-        "title": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相",
-        "link": "https://www.163.com/dy/article/KNODV5210514R9OJ.html",
-        "published": "2026-03-11 16:11",
-        "description": "",
-        "title_zh": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相",
-        "title_en": "上海女子的保险箱被偷痛哭报警 怕现男友误会隐瞒真相"
-      },
-      "美国（欧美媒体）": {
-        "title": "Mugabe's son drops bail request - what has happened to the family after losing power",
-        "link": "https://www.bbc.com/news/articles/cp32xx35lwwo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 18:31",
-        "description": "Bellarmine Mugabe will negotiate a plea deal after being accused of attempted murder and other charges in South Africa.",
-        "title_en": "Mugabe's son drops bail request - what has happened to the family after losing power",
-        "title_zh": "穆加贝的儿子放弃保释请求 - 失去权力后家庭发生了什么"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Who bombed the Iranian girls’ school, killing more than 170? What we know",
-        "link": "https://www.aljazeera.com/news/2026/3/12/who-bombed-the-iranian-girls-school-killing-more-than-170-what-we-know?traffic_source=rss",
-        "published": "2026-03-12 10:21",
-        "description": "The attack on Shajareh Tayyebeh Elementary School quickly became a focal point of concern over civilian casualties.",
-        "title_en": "Who bombed the Iranian girls’ school, killing more than 170? What we know",
-        "title_zh": "是谁轰炸了伊朗女子学校，造成170多人死亡？"
-      },
-      "my_view": "中国媒体回避国际政治，转向社会新闻淡化事件；欧美媒体聚焦权力更迭后的家族命运，体现政治观察；伊斯兰媒体将视线转向地区冲突，反映地缘关注差异。三方立场分别体现国内导向、国际政治与区域议题的报道倾向。",
-      "summary": "三方报道差异本质是媒体基于不同受众立场与议程设置，对同一新闻事件的选择性聚焦与视角重构。"
-    },
-    {
-      "event_hint": "Countries agree to record release of emergency oil reserves as prices surge",
-      "event_hint_zh": "随着油价飙升，各国同意创纪录地释放紧急石油储备",
-      "event_hint_en": "Countries agree to record release of emergency oil reserves as prices surge",
-      "中国": {
-        "title": "油价上涨传导至航空业 多家航司宣布调价",
-        "link": "https://www.163.com/dy/article/KNQDMPPS0514CQIE.html",
-        "published": "2026-03-12 09:11",
-        "description": "",
-        "title_zh": "油价上涨传导至航空业 多家航司宣布调价",
-        "title_en": "油价上涨传导至航空业 多家航司宣布调价"
-      },
-      "美国（欧美媒体）": {
-        "title": "Countries agree to record release of emergency oil reserves as prices surge",
-        "link": "https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:51",
-        "description": "The G7 group of nations welcomes the idea of releasing oil in response to the surge in prices since the US-Israel war with Iran began",
-        "title_en": "Countries agree to record release of emergency oil reserves as prices surge",
-        "title_zh": "随着油价飙升，各国同意创纪录地释放紧急石油储备"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Eight Arab, Islamic countries condemn Israeli closure of Al-Aqsa Mosque",
-        "link": "https://www.aljazeera.com/news/2026/3/12/eight-arab-islamic-countries-condemn-israeli-closure-of-al-aqsa-mosque?traffic_source=rss",
-        "published": "2026-03-12 08:04",
-        "description": "For the past 12 days, Israel has closed Al-Aqsa Mosque and restricted movement in the Old City of Jerusalem.",
-        "title_en": "Eight Arab, Islamic countries condemn Israeli closure of Al-Aqsa Mosque",
-        "title_zh": "八个阿拉伯和伊斯兰国家谴责以色列关闭阿克萨清真寺"
-      },
-      "my_view": "中国聚焦油价对民生行业的具体影响，欧美强调国际协同应对措施，伊斯兰世界则借机关联巴以宗教冲突。三方分别体现务实关切、国际协作与地缘政治立场。",
-      "summary": "国际社会通过释放战略石油储备应对能源危机，但不同地区媒体基于自身议程呈现差异化报道焦点。"
-    },
-    {
-      "event_hint": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
-      "event_hint_zh": "巴西女性告诉 BBC，爱泼斯坦利用模特经纪人招募女孩",
-      "event_hint_en": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
-      "中国": {
-        "title": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工",
-        "link": "https://www.163.com/dy/article/KNP384NA0514D3UH.html",
-        "published": "2026-03-12 08:11",
-        "description": "",
-        "title_zh": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工",
-        "title_en": "12岁女孩花4万压岁钱盘下文具店：日薪百元雇妈妈打工"
-      },
-      "美国（欧美媒体）": {
-        "title": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
-        "link": "https://www.bbc.com/news/articles/cr4576v66kno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-12 08:05",
-        "description": "Modelling agent used businesses to recruit girls and arrange US visas to visit Jeffrey Epstein, Brazilian women tell BBC.",
-        "title_en": "Epstein used modelling agent to recruit girls, Brazilian women tell BBC",
-        "title_zh": "巴西女性告诉 BBC，爱泼斯坦利用模特经纪人招募女孩"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "How is feminism being used to justify war in Iran?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/how-is-feminism-being-used-to-justify-war-in-iran?traffic_source=rss",
-        "published": "2026-03-12 11:43",
-        "description": "Some supporters of the US-Israeli war on Iran are using the treatment of women in the country as a justification.",
-        "title_en": "How is feminism being used to justify war in Iran?",
-        "title_zh": "女权主义如何被用来为伊朗战争辩护？"
-      },
-      "my_view": "网易回避国际敏感议题，转向本土无害社会新闻；BBC聚焦西方权贵丑闻，体现调查报道传统；半岛电视台将女性议题与中东政治关联，展现伊斯兰世界视角。三方分别体现内宣导向、人权监督与地缘政治解读。",
-      "summary": "同一事件在不同意识形态下被重构为符合各自议程的叙事，本质是媒体通过框架选择实现立场表达。"
-    },
-    {
-      "event_hint": "No evidence Swiss bus fire was terrorism, officials say",
-      "event_hint_zh": "官员称没有证据表明瑞士公交车起火是恐怖主义",
-      "event_hint_en": "No evidence Swiss bus fire was terrorism, officials say",
+      "event_hint": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+      "event_hint_zh": "以色列军方撤销对被指控虐待巴勒斯坦被拘留者的士兵的指控",
+      "event_hint_en": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "No evidence Swiss bus fire was terrorism, officials say",
-        "link": "https://www.bbc.com/news/articles/c5y4wdlyy9xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 23:04",
-        "description": "Initial reports suggest a man with \"psychological problems\" set himself on fire on the bus, according to police.",
-        "title_en": "No evidence Swiss bus fire was terrorism, officials say",
-        "title_zh": "官员称没有证据表明瑞士公交车起火是恐怖主义"
+        "title": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+        "link": "https://www.bbc.com/news/articles/cm2xrz71zm3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:36",
+        "description": "The Israeli military's top lawyer cites \"exceptional circumstances\" for dropping the case involving a Palestinian man held at Sde Teiman military prison.",
+        "title_en": "Israeli military drops charges against soldiers accused of abusing Palestinian detainee",
+        "title_zh": "以色列军方撤销对被指控虐待巴勒斯坦被拘留者的士兵的指控"
       },
       "伊斯兰（半岛等）": {
-        "title": "Fuel tank fire rages in Bahrain after Iranian attack",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/fuel-tank-fire-rages-in-bahrain-after-iranian-attack?traffic_source=rss",
-        "published": "2026-03-12 11:15",
-        "description": "Bahrain&#039;s interior ministry released footage of a massive blaze at a fuel storage facility following an Iranian attack.",
-        "title_en": "Fuel tank fire rages in Bahrain after Iranian attack",
-        "title_zh": "Fuel tank fire rages in Bahrain after Iranian attack"
+        "title": "Somalia warns against any Israeli base plans on Somaliland",
+        "link": "https://www.aljazeera.com/news/2026/3/12/somalia-warns-against-any-israeli-base-plans-on-somaliland?traffic_source=rss",
+        "published": "2026-03-13 02:51",
+        "description": "Somali minister tells Al Jazeera Israeli base plans in Somaliland risk dragging Somalia into &#039;external confrontations&#039;.",
+        "title_en": "Somalia warns against any Israeli base plans on Somaliland",
+        "title_zh": "索马里警告以色列不要在索马里兰建立任何基地计划"
       },
-      "my_view": "欧美报道聚焦事件本身，强调无恐袭证据；伊斯兰媒体关联地区冲突，突出伊朗袭击背景；中国媒体未报道，可能因事件与本国关联度低或谨慎对待国际敏感议题。",
-      "summary": "瑞士公交车起火事件被官方初步排除恐袭可能，但不同媒体在报道时选取了差异化的背景和焦点。"
+      "my_view": "欧美媒体聚焦事件本身，体现程序正义关注；伊斯兰媒体通过关联议题转移焦点，表达政治立场；中国媒体暂未报道，可能基于外交考量保持沉默。三方分别体现监督、对抗与审慎态度。",
+      "summary": "以色列军方撤销对涉嫌虐待巴勒斯坦被拘留者士兵的指控，引发不同立场媒体的选择性报道与立场表达。"
     },
     {
-      "event_hint": "Ukraine says it has hit Russian 'missile component' plant",
-      "event_hint_zh": "乌克兰称袭击了俄罗斯“导弹组件”工厂",
-      "event_hint_en": "Ukraine says it has hit Russian 'missile component' plant",
+      "event_hint": "Rapper-politician Balendra Shah's party wins Nepal election",
+      "event_hint_zh": "说唱歌手政治家巴伦德拉·沙阿的政党赢得尼泊尔大选",
+      "event_hint_en": "Rapper-politician Balendra Shah's party wins Nepal election",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Ukraine says it has hit Russian 'missile component' plant",
-        "link": "https://www.bbc.com/news/articles/ckg1eqw30l9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-11 19:16",
-        "description": "Russia says the attack hit civilians and could not have been carried out without British help.",
-        "title_en": "Ukraine says it has hit Russian 'missile component' plant",
-        "title_zh": "乌克兰称袭击了俄罗斯“导弹组件”工厂"
+        "title": "Rapper-politician Balendra Shah's party wins Nepal election",
+        "link": "https://www.bbc.com/news/articles/c8jxnjvjkg7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 23:25",
+        "description": "The Rastriya Swatatantra Party has won a large majority in an election dominated by issues including corruption.",
+        "title_en": "Rapper-politician Balendra Shah's party wins Nepal election",
+        "title_zh": "说唱歌手政治家巴伦德拉·沙阿的政党赢得尼泊尔大选"
       },
       "伊斯兰（半岛等）": {
-        "title": "Israeli strike hits Beirut waterfront near tents of displaced",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/12/israeli-strike-hits-beirut-waterfront-near-tents-of-displaced?traffic_source=rss",
-        "published": "2026-03-12 09:53",
-        "description": "At least six people are dead from an Israeli strike on Beirut’s Ramlet al-Baida seafront.",
-        "title_en": "Israeli strike hits Beirut waterfront near tents of displaced",
-        "title_zh": "以色列袭击贝鲁特海滨流离失所者的帐篷附近"
+        "title": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory",
+        "link": "https://www.aljazeera.com/news/2026/3/12/ex-rapper-balendra-shah-sweeps-to-power-in-nepal-landslide-election-victory?traffic_source=rss",
+        "published": "2026-03-13 06:12",
+        "description": "Rastriya Swatantra Party, founded just four years ago, set to dominate new parliament with near two-thirds majority.",
+        "title_en": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory",
+        "title_zh": "Ex-rapper Balendra Shah sweeps to power in Nepal landslide election victory"
       },
-      "my_view": "BBC直接报道乌克兰宣称的袭击事件，体现对俄乌冲突的持续关注；半岛电视台将事件置于中东语境，强调以色列行动对难民的影响；中国媒体暂未报道，反映对俄乌议题的谨慎态度。三方立场体现地缘政治关注点的差异。",
-      "summary": "乌克兰对俄罗斯军事设施实施跨境打击，事件本质是俄乌冲突的战场延伸与多方地缘博弈的体现。"
+      "my_view": "欧美标题中性突出“说唱歌手政党获胜”的标签化事实；伊斯兰标题用“前说唱歌手”“压倒性胜利”强调个人转型与选举强度，隐含对非传统政治力量崛起的关注；中国媒体暂未报道反映对尼泊尔地方选举的差异化议程设置。",
+      "summary": "尼泊尔地方选举中非传统政治人物凭借新兴政党赢得重大胜利，反映该国政治格局的演变。"
+    },
+    {
+      "event_hint": "Emirati minister tells BBC Iran must end strikes on Gulf",
+      "event_hint_zh": "阿联酋部长告诉 BBC 伊朗必须停止对海湾地区的袭击",
+      "event_hint_en": "Emirati minister tells BBC Iran must end strikes on Gulf",
+      "中国": {
+        "title": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高",
+        "link": "https://www.163.com/dy/article/KNQUR1OA0514R9OJ.html",
+        "published": "2026-03-12 15:03",
+        "description": "",
+        "title_zh": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高",
+        "title_en": "杨瀚森带伤出战狂轰31分 创G联赛个人得分新高"
+      },
+      "美国（欧美媒体）": {
+        "title": "Emirati minister tells BBC Iran must end strikes on Gulf",
+        "link": "https://www.bbc.com/news/articles/cy8lzn2ejpjo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-13 04:20",
+        "description": "The UAE says more than 1,800 drones and missiles have been projected at the country since the war began.",
+        "title_en": "Emirati minister tells BBC Iran must end strikes on Gulf",
+        "title_zh": "阿联酋部长告诉 BBC 伊朗必须停止对海湾地区的袭击"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Does President Trump have an exit strategy for the war with Iran?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/12/does-president-trump-have-an-exit-strategy-for-the-war-with-iran?traffic_source=rss",
+        "published": "2026-03-13 03:50",
+        "description": "United States officials are issuing contradictory statements on the war&#039;s timeline and objectives.",
+        "title_en": "Does President Trump have an exit strategy for the war with Iran?",
+        "title_zh": "特朗普总统对于与伊朗的战争有退出战略吗？"
+      },
+      "my_view": "欧美报道直接陈述事件，强调地区安全诉求；伊斯兰媒体将焦点转向美国战略意图，隐含对西方干预的质疑；中国媒体则完全回避该国际事件，转向体育报道，体现不介入地区冲突的立场。",
+      "summary": "阿联酋通过BBC向伊朗传递停止袭击的海湾地区安全诉求，不同媒体的报道角度反映其地缘政治立场差异。"
+    },
+    {
+      "event_hint": "Death toll from Ethiopia floods and landslides rises to more than 100",
+      "event_hint_zh": "埃塞俄比亚洪水和山体滑坡造成的死亡人数上升至100多人",
+      "event_hint_en": "Death toll from Ethiopia floods and landslides rises to more than 100",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Death toll from Ethiopia floods and landslides rises to more than 100",
+        "link": "https://www.bbc.com/news/articles/ce947x4m0e1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 22:46",
+        "description": "Forecasters say storms are becoming more intense in the region, partly due to global warming.",
+        "title_en": "Death toll from Ethiopia floods and landslides rises to more than 100",
+        "title_zh": "埃塞俄比亚洪水和山体滑坡造成的死亡人数上升至100多人"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Advocates push for major probe as US boat strikes in Latin America kill 157",
+        "link": "https://www.aljazeera.com/news/2026/3/12/advocates-push-for-major-probe-as-us-boat-strikes-in-latin-america-kill-157?traffic_source=rss",
+        "published": "2026-03-13 05:02",
+        "description": "The Inter-American Commission on Human Rights is set to hold first hearing on US&#039;s alleged extrajudicial killings.",
+        "title_en": "Advocates push for major probe as US boat strikes in Latin America kill 157",
+        "title_zh": "美国在拉丁美洲袭击船只造成157人死亡，倡导者推动重大调查"
+      },
+      "my_view": "欧美媒体客观报道灾情数据；伊斯兰媒体标题未提埃塞俄比亚，转而聚焦美国在拉美的负面事件，体现转移视线或议题对冲倾向；中国媒体暂未报道，可能因事件与本国关联度低。",
+      "summary": "埃塞俄比亚自然灾害导致超百人死亡，但不同媒体基于自身立场在报道焦点上存在显著差异。"
+    },
+    {
+      "event_hint": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+      "event_hint_zh": "美国宇航局重达 1,300 磅的航天器重新进入地球大气层",
+      "event_hint_en": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+        "link": "https://www.bbc.com/news/articles/cd9gwdgg38vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 19:23",
+        "description": "Much of the Van Allen Probe was expected to burn up in the atmosphere, though Nasa said there was a \"low\" risk of people being struck by surviving components.",
+        "title_en": "Nasa spacecraft weighing 1,300lb re-enters Earth's atmosphere",
+        "title_zh": "美国宇航局重达 1,300 磅的航天器重新进入地球大气层"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Iran vows to make Trump pay for ‘grave miscalculation’ if US escalates war",
+        "link": "https://www.aljazeera.com/news/2026/3/12/iran-vows-to-make-trump-pay-for-grave-miscalculation-if-us-escalates-war?traffic_source=rss",
+        "published": "2026-03-13 03:31",
+        "description": "Ali Larijani responds to US threat to hit Iran&#039;s power infrastructure, saying the &#039;whole region will go dark&#039;.",
+        "title_en": "Iran vows to make Trump pay for ‘grave miscalculation’ if US escalates war",
+        "title_zh": "如果美国升级战争，伊朗发誓要让特朗普为“严重误判”付出代价"
+      },
+      "my_view": "欧美报道聚焦航天器再入的技术事实；伊斯兰媒体将事件关联至地缘政治冲突，展现对抗立场；中国媒体未报道反映其选择性关注或暂无相关表态。",
+      "summary": "美国航天器按计划再入大气层，但不同媒体基于自身立场对同一事件呈现了技术性、政治性或沉默的差异化报道。"
+    },
+    {
+      "event_hint": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+      "event_hint_zh": "中国公民因试图从肯尼亚走私2000只蚁后被捕",
+      "event_hint_en": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+        "link": "https://www.bbc.com/news/articles/cz7gd57z33zo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 16:43",
+        "description": "The suspect had packed some ants in test tubes while others were concealed in tissue paper rolls, prosecutor says.",
+        "title_en": "Chinese national arrested over attempt to smuggle 2,000 queen ants from Kenya",
+        "title_zh": "中国公民因试图从肯尼亚走私2000只蚁后被捕"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Taiwan cheering row overshadows China quarterfinal at Asian Cup",
+        "link": "https://www.aljazeera.com/sports/2026/3/12/taiwan-cheering-row-overshadows-china-quarter-final-at-asian-cup?traffic_source=rss",
+        "published": "2026-03-13 03:57",
+        "description": "Taiwan face China in a tense Women&#039;s Asian Cup football quarterfinal, where political tensions will be at the fore.",
+        "title_en": "Taiwan cheering row overshadows China quarterfinal at Asian Cup",
+        "title_zh": "亚洲杯四分之一决赛台湾助威赛盖过中国队"
+      },
+      "my_view": "欧美媒体聚焦法律案件本身，突出中国公民违法行为；伊斯兰媒体借体育赛事转移焦点，隐含政治立场；中国媒体暂未报道，可能基于案件敏感性与外交考量选择冷处理。",
+      "summary": "中国公民涉嫌违反肯尼亚生物走私法律被逮捕，不同媒体依据自身立场选择报道角度或保持沉默。"
+    },
+    {
+      "event_hint": "Nineteen jailed over deadly Moscow concert attack",
+      "event_hint_zh": "十九人因莫斯科音乐会袭击事件被判入狱",
+      "event_hint_en": "Nineteen jailed over deadly Moscow concert attack",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Nineteen jailed over deadly Moscow concert attack",
+        "link": "https://www.bbc.com/news/articles/c0j5lx75vg3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-12 21:29",
+        "description": "Gunmen opened fire at Crocus City Concert hall near Moscow in 2024, killing 149 and injuring more than 500.",
+        "title_en": "Nineteen jailed over deadly Moscow concert attack",
+        "title_zh": "十九人因莫斯科音乐会袭击事件被判入狱"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "ICC prosecutor opens probe into Belarus over deportations to Lithuania",
+        "link": "https://www.aljazeera.com/news/2026/3/12/icc-prosecutor-opens-probe-into-belarus-over-deportations-to-lithuania?traffic_source=rss",
+        "published": "2026-03-13 02:56",
+        "description": "The prosecutor&#039;s office said the crimes being investigated include deportation and persecution through deportation.",
+        "title_en": "ICC prosecutor opens probe into Belarus over deportations to Lithuania",
+        "title_zh": "国际刑事法院检察官就白俄罗斯驱逐立陶宛事件展开调查"
+      },
+      "my_view": "欧美报道聚焦袭击事件本身，强调司法结果；伊斯兰媒体关联国际刑事法院对白俄罗斯的调查，体现对移民权利的关注；中国媒体暂未报道，可能基于外交考量避免直接评论他国内政。",
+      "summary": "莫斯科音乐会恐袭案19名涉案者被俄方法院判刑，展现反恐司法行动。"
     }
   ]
 }
