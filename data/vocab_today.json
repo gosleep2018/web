@@ -1,96 +1,96 @@
 {
-  "date": "2026-03-12",
-  "updatedAt": "2026-03-12T00:01:20.477Z",
+  "date": "2026-03-13",
+  "updatedAt": "2026-03-13T00:01:25.466Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "trigger",
-      "phonetic": "/ˈtrɪɡər/",
-      "chinese": "触发",
-      "englishDef": "To cause to happen",
-      "example": "Stress can trigger health problems.",
-      "exampleTrans": "压力可能触发健康问题。",
+      "word": "optimize",
+      "phonetic": "/ˈɒptɪmaɪz/",
+      "chinese": "优化",
+      "englishDef": "To make the best use of a resource",
+      "example": "We need to optimize our workflow.",
+      "exampleTrans": "我们需要优化我们的工作流程。",
+      "level": "7.0+"
+    },
+    {
+      "word": "scrutinize",
+      "phonetic": "/ˈskruːtɪnaɪz/",
+      "chinese": "仔细审查",
+      "englishDef": "To examine or inspect closely and thoroughly",
+      "example": "The committee scrutinized every detail.",
+      "exampleTrans": "委员会仔细审查了每一个细节。",
+      "level": "7.5+"
+    },
+    {
+      "word": "utilize",
+      "phonetic": "/ˈjuːtɪlaɪz/",
+      "chinese": "利用",
+      "englishDef": "To make practical use of",
+      "example": "We should utilize all available resources.",
+      "exampleTrans": "我们应该利用所有可用资源。",
       "level": "6.5+"
     },
     {
-      "word": "validate",
-      "phonetic": "/ˈvælɪdeɪt/",
-      "chinese": "验证",
-      "englishDef": "To check the validity of something",
-      "example": "The experiment validates the theory.",
-      "exampleTrans": "实验验证了理论。",
+      "word": "hypothesis",
+      "phonetic": "/haɪˈpɒθəsɪs/",
+      "chinese": "假设",
+      "englishDef": "A proposed explanation for a phenomenon",
+      "example": "The scientist tested her hypothesis.",
+      "exampleTrans": "科学家测试了她的假设。",
       "level": "7.0+"
     },
     {
-      "word": "transparent",
-      "phonetic": "/trænsˈpærənt/",
-      "chinese": "透明的",
-      "englishDef": "Easy to perceive or detect",
-      "example": "Government processes should be transparent.",
-      "exampleTrans": "政府程序应该是透明的。",
+      "word": "analogous",
+      "phonetic": "/əˈnæləɡəs/",
+      "chinese": "类似的",
+      "englishDef": "Comparable in certain respects",
+      "example": "The heart is analogous to a pump.",
+      "exampleTrans": "心脏类似于一个泵。",
+      "level": "7.5+"
+    },
+    {
+      "word": "undermine",
+      "phonetic": "/ˌʌndəˈmaɪn/",
+      "chinese": "破坏",
+      "englishDef": "To lessen the effectiveness of",
+      "example": "Lack of sleep undermines productivity.",
+      "exampleTrans": "睡眠不足会破坏工作效率。",
+      "level": "7.0+"
+    },
+    {
+      "word": "elaborate",
+      "phonetic": "/ɪˈlæbərət/",
+      "chinese": "详尽的",
+      "englishDef": "Involving many carefully arranged parts",
+      "example": "She made elaborate plans for the wedding.",
+      "exampleTrans": "她为婚礼制定了详尽的计划。",
+      "level": "7.0+"
+    },
+    {
+      "word": "initiate",
+      "phonetic": "/ɪˈnɪʃieɪt/",
+      "chinese": "发起",
+      "englishDef": "To cause a process to begin",
+      "example": "Who initiated this project?",
+      "exampleTrans": "谁发起了这个项目？",
       "level": "6.5+"
     },
     {
-      "word": "generate",
-      "phonetic": "/ˈdʒenəreɪt/",
-      "chinese": "产生",
-      "englishDef": "To cause something to exist",
-      "example": "The program generates reports automatically.",
-      "exampleTrans": "该程序自动生成报告。",
-      "level": "6.0+"
-    },
-    {
-      "word": "explicit",
-      "phonetic": "/ɪkˈsplɪsɪt/",
-      "chinese": "明确的",
-      "englishDef": "Stated clearly and in detail",
-      "example": "Please be explicit about your expectations.",
-      "exampleTrans": "请明确说明你的期望。",
-      "level": "7.0+"
-    },
-    {
-      "word": "profound",
-      "phonetic": "/prəˈfaʊnd/",
-      "chinese": "深刻的",
-      "englishDef": "Very great or intense",
-      "example": "The experience had a profound impact on her.",
-      "exampleTrans": "这次经历对她产生了深刻的影响。",
-      "level": "7.0+"
-    },
-    {
-      "word": "facilitate",
-      "phonetic": "/fəˈsɪlɪteɪt/",
-      "chinese": "促进",
-      "englishDef": "To make an action or process easier",
-      "example": "Technology facilitates communication.",
-      "exampleTrans": "技术促进了沟通。",
-      "level": "7.0+"
-    },
-    {
-      "word": "alter",
-      "phonetic": "/ˈɔːltər/",
-      "chinese": "改变",
-      "englishDef": "To change in character or composition",
-      "example": "The plan was altered at the last minute.",
-      "exampleTrans": "计划在最后一刻被更改了。",
-      "level": "6.0+"
-    },
-    {
-      "word": "substantial",
-      "phonetic": "/səbˈstænʃl/",
-      "chinese": "大量的",
-      "englishDef": "Of considerable importance or size",
-      "example": "There was a substantial increase in profits.",
-      "exampleTrans": "利润有了大幅增长。",
+      "word": "interpret",
+      "phonetic": "/ɪnˈtɜːprɪt/",
+      "chinese": "解释",
+      "englishDef": "To explain the meaning of something",
+      "example": "How do you interpret these results?",
+      "exampleTrans": "你如何解释这些结果？",
       "level": "6.5+"
     },
     {
-      "word": "presume",
-      "phonetic": "/prɪˈzjuːm/",
-      "chinese": "假定",
-      "englishDef": "To suppose something is true without proof",
-      "example": "I presume you've heard the news.",
-      "exampleTrans": "我想你已经听到这个消息了。",
+      "word": "insufficient",
+      "phonetic": "/ˌɪnsəˈfɪʃnt/",
+      "chinese": "不足的",
+      "englishDef": "Not enough",
+      "example": "The evidence was insufficient to convict.",
+      "exampleTrans": "证据不足以定罪。",
       "level": "6.5+"
     }
   ]
