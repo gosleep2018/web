@@ -1,97 +1,97 @@
 {
-  "date": "2026-03-13",
-  "updatedAt": "2026-03-13T00:01:25.466Z",
+  "date": "2026-03-14",
+  "updatedAt": "2026-03-14T00:01:32.174Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "optimize",
-      "phonetic": "/ˈɒptɪmaɪz/",
-      "chinese": "优化",
-      "englishDef": "To make the best use of a resource",
-      "example": "We need to optimize our workflow.",
-      "exampleTrans": "我们需要优化我们的工作流程。",
+      "word": "dynamic",
+      "phonetic": "/daɪˈnæmɪk/",
+      "chinese": "动态的",
+      "englishDef": "Characterized by constant change and progress",
+      "example": "The business environment is highly dynamic.",
+      "exampleTrans": "商业环境是高度动态的。",
+      "level": "6.5+"
+    },
+    {
+      "word": "incentive",
+      "phonetic": "/ɪnˈsentɪv/",
+      "chinese": "激励",
+      "englishDef": "A thing that motivates action",
+      "example": "Bonuses provide an incentive to work harder.",
+      "exampleTrans": "奖金提供了更努力工作的激励。",
+      "level": "6.5+"
+    },
+    {
+      "word": "coherent",
+      "phonetic": "/kəʊˈhɪərənt/",
+      "chinese": "连贯的",
+      "englishDef": "Logical and well-organized",
+      "example": "She presented a coherent argument.",
+      "exampleTrans": "她提出了一个连贯的论证。",
       "level": "7.0+"
     },
     {
-      "word": "scrutinize",
-      "phonetic": "/ˈskruːtɪnaɪz/",
-      "chinese": "仔细审查",
-      "englishDef": "To examine or inspect closely and thoroughly",
-      "example": "The committee scrutinized every detail.",
-      "exampleTrans": "委员会仔细审查了每一个细节。",
+      "word": "ambivalent",
+      "phonetic": "/æmˈbɪvələnt/",
+      "chinese": "矛盾的",
+      "englishDef": "Having mixed feelings about someone or something",
+      "example": "She was ambivalent about the job offer.",
+      "exampleTrans": "她对这份工作邀请感到矛盾。",
       "level": "7.5+"
     },
     {
-      "word": "utilize",
-      "phonetic": "/ˈjuːtɪlaɪz/",
-      "chinese": "利用",
-      "englishDef": "To make practical use of",
-      "example": "We should utilize all available resources.",
-      "exampleTrans": "我们应该利用所有可用资源。",
-      "level": "6.5+"
-    },
-    {
-      "word": "hypothesis",
-      "phonetic": "/haɪˈpɒθəsɪs/",
-      "chinese": "假设",
-      "englishDef": "A proposed explanation for a phenomenon",
-      "example": "The scientist tested her hypothesis.",
-      "exampleTrans": "科学家测试了她的假设。",
+      "word": "bias",
+      "phonetic": "/ˈbaɪəs/",
+      "chinese": "偏见",
+      "englishDef": "Prejudice in favor of or against something",
+      "example": "The report showed evidence of gender bias.",
+      "exampleTrans": "报告显示出性别偏见的证据。",
       "level": "7.0+"
     },
     {
-      "word": "analogous",
-      "phonetic": "/əˈnæləɡəs/",
-      "chinese": "类似的",
-      "englishDef": "Comparable in certain respects",
-      "example": "The heart is analogous to a pump.",
-      "exampleTrans": "心脏类似于一个泵。",
+      "word": "significant",
+      "phonetic": "/sɪɡˈnɪfɪkənt/",
+      "chinese": "重要的",
+      "englishDef": "Sufficiently great to be noteworthy",
+      "example": "There has been a significant improvement.",
+      "exampleTrans": "已经有了显著的改善。",
+      "level": "6.0+"
+    },
+    {
+      "word": "visible",
+      "phonetic": "/ˈvɪzəbl/",
+      "chinese": "可见的",
+      "englishDef": "Able to be seen",
+      "example": "The results are visible to all.",
+      "exampleTrans": "结果对所有人都可见。",
+      "level": "5.5+"
+    },
+    {
+      "word": "inherent",
+      "phonetic": "/ɪnˈhɪərənt/",
+      "chinese": "固有的",
+      "englishDef": "Existing as a natural part of something",
+      "example": "Risk is inherent in any business.",
+      "exampleTrans": "风险是任何业务固有的。",
       "level": "7.5+"
     },
     {
-      "word": "undermine",
-      "phonetic": "/ˌʌndəˈmaɪn/",
-      "chinese": "破坏",
-      "englishDef": "To lessen the effectiveness of",
-      "example": "Lack of sleep undermines productivity.",
-      "exampleTrans": "睡眠不足会破坏工作效率。",
+      "word": "mutual",
+      "phonetic": "/ˈmjuːtʃuəl/",
+      "chinese": "相互的",
+      "englishDef": "Felt or done by each toward the other",
+      "example": "They have mutual respect for each other.",
+      "exampleTrans": "他们彼此尊重。",
+      "level": "6.5+"
+    },
+    {
+      "word": "differentiate",
+      "phonetic": "/ˌdɪfəˈrenʃieɪt/",
+      "chinese": "区分",
+      "englishDef": "To recognize or show a difference",
+      "example": "Can you differentiate between the two methods?",
+      "exampleTrans": "你能区分这两种方法吗？",
       "level": "7.0+"
-    },
-    {
-      "word": "elaborate",
-      "phonetic": "/ɪˈlæbərət/",
-      "chinese": "详尽的",
-      "englishDef": "Involving many carefully arranged parts",
-      "example": "She made elaborate plans for the wedding.",
-      "exampleTrans": "她为婚礼制定了详尽的计划。",
-      "level": "7.0+"
-    },
-    {
-      "word": "initiate",
-      "phonetic": "/ɪˈnɪʃieɪt/",
-      "chinese": "发起",
-      "englishDef": "To cause a process to begin",
-      "example": "Who initiated this project?",
-      "exampleTrans": "谁发起了这个项目？",
-      "level": "6.5+"
-    },
-    {
-      "word": "interpret",
-      "phonetic": "/ɪnˈtɜːprɪt/",
-      "chinese": "解释",
-      "englishDef": "To explain the meaning of something",
-      "example": "How do you interpret these results?",
-      "exampleTrans": "你如何解释这些结果？",
-      "level": "6.5+"
-    },
-    {
-      "word": "insufficient",
-      "phonetic": "/ˌɪnsəˈfɪʃnt/",
-      "chinese": "不足的",
-      "englishDef": "Not enough",
-      "example": "The evidence was insufficient to convict.",
-      "exampleTrans": "证据不足以定罪。",
-      "level": "6.5+"
     }
   ]
 }
