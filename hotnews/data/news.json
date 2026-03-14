@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-14 12:03:14 +08",
+  "generated_at": "2026-03-14 20:02:46 +08",
   "generated_date": "2026-03-14",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [],
@@ -291,8 +292,8 @@
         "title_en": "Bahrain and Saudi F1 races set to be cancelled due to Middle East conflict",
         "title_zh": "因中东冲突巴林和沙特F1比赛将被取消"
       },
-      "my_view": "欧美报道直接陈述事实，伊斯兰媒体点明冲突背景，中国媒体暂未报道可能基于外交考量或事件相关性较低。三方差异体现在信息透明度与报道侧重点上。",
-      "summary": "中东地区冲突导致巴林和沙特阿拉伯的两场F1赛事面临取消，反映地缘政治对国际体育赛事的影响。"
+      "my_view": "欧美媒体客观陈述事实，伊斯兰媒体强调冲突背景，中国媒体暂未报道可能基于外交考量或事件相关性不足，体现不同立场下的报道侧重差异。",
+      "summary": "中东冲突导致巴林和沙特F1赛事面临取消，反映地缘政治对国际体育赛事的影响。"
     },
     {
       "event_hint": "Bodies of 84 Iranian sailors killed in US torpedo strike to be repatriated",
@@ -315,8 +316,8 @@
         "title_en": "Iranian missile strike in central Israel sets building ablaze",
         "title_zh": "伊朗导弹袭击以色列中部导致建筑物起火"
       },
-      "my_view": "BBC客观陈述事件本身；半岛转移焦点至伊朗对以色列的报复行动，弱化伊朗伤亡；中国媒体未报道，体现对敏感国际冲突的谨慎态度。三方分别体现中立报道、立场导向与回避策略。",
-      "summary": "美伊军事冲突导致伊朗水手死亡，遗体遣返事件在不同媒体叙事中被选择性呈现或关联化解读。"
+      "my_view": "BBC客观陈述事件事实；半岛转移焦点至伊朗报复行动，隐含反美立场；中国媒体回避报道，体现中立谨慎态度。三方分别呈现事实报道、立场叙事与沉默回避。",
+      "summary": "美伊军事冲突导致人员伤亡后，遗体遣返与地区对抗升级同时成为国际关注焦点。"
     },
     {
       "event_hint": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
@@ -339,8 +340,8 @@
         "title_en": "What is Israel’s endgame in Lebanon?",
         "title_zh": "以色列在黎巴嫩的最终结局是什么？"
       },
-      "my_view": "欧美媒体侧重事件本身，强调官员说法；伊斯兰媒体将事件置于地缘政治框架，追问以色列战略意图；中国媒体未报道，体现对非直接相关国际事件的谨慎态度。",
-      "summary": "黎巴嫩空袭导致美国犹太教堂嫌犯家人死亡，不同媒体通过报道焦点差异反映各自立场。"
+      "my_view": "欧美报道聚焦事件本身，强调官员说法；伊斯兰媒体将事件置于地缘政治框架，追问以色列战略意图；中国媒体未报道，体现对非直接相关国际事件的谨慎态度。",
+      "summary": "黎巴嫩空袭导致美国犹太教堂袭击者家人死亡，事件折射出巴以冲突的外溢效应与不同媒体的叙事焦点差异。"
     },
     {
       "event_hint": "Under drone fire, exiled Kurds wait to confront Iranian regime",
@@ -364,7 +365,7 @@
         "title_zh": "苏丹市场无人机袭击造成 11 人死亡，空战造成平民伤亡"
       },
       "my_view": "欧美聚焦库尔德人对抗伊朗的政治叙事，伊斯兰媒体转向苏丹平民伤亡以转移对中东内部矛盾的关注，中国媒体则回避报道。三方分别体现干预立场、宗教共同体立场与不干涉立场。",
-      "summary": "同一无人机袭击事件被不同媒体框架重构，分别强调政治对抗、平民伤亡或直接沉默，反映国际话语权博弈。"
+      "summary": "同一无人机袭击事件在不同意识形态下被重构为民族冲突、平民悲剧或无报道状态，本质是媒体通过议程设置服务各自政治立场。"
     },
     {
       "event_hint": "King expressed 'concern' over Alberta separatists, say First Nations chiefs",
@@ -387,8 +388,8 @@
         "title_en": "Qatar’s interior minister says security situation ‘stable’ amid Iran war",
         "title_zh": "卡塔尔内政部长表示伊朗战争期间安全局势“稳定”"
       },
-      "my_view": "欧美媒体聚焦原住民与分离主义的地方政治冲突；伊斯兰媒体完全转向中东安全议题，显示地域关注差异；中国媒体未报道，可能认为此事不涉核心利益或需谨慎对待主权议题。",
-      "summary": "事件本质是加拿大原住民领袖借英王表态介入国内分离主义议题，但不同媒体基于自身议程选择性呈现或忽略。"
+      "my_view": "欧美媒体聚焦原住民与分离主义的地方政治矛盾；伊斯兰媒体完全转移话题至中东安全局势；中国媒体未报道显示此事不涉其核心利益，三方立场体现地缘关注点的根本差异。",
+      "summary": "事件本质是加拿大国内政治议题被不同媒体基于自身地缘立场选择性报道或忽略。"
     },
     {
       "event_hint": "Cuba confirms negotiations with US as country faces effects of oil blockade",
@@ -411,8 +412,8 @@
         "title_en": "Iran war live: US bombs Iran’s Kharg Island, warns oil facilities next",
         "title_zh": "伊朗战争直播：美国轰炸伊朗哈尔格岛，接下来警告石油设施"
       },
-      "my_view": "欧美报道聚焦美古双边谈判，伊斯兰媒体将事件关联中东冲突以凸显美国军事行动，中国媒体暂未报道显示其谨慎态度。三方分别体现事务性关注、地缘冲突延伸与战略观望立场。",
-      "summary": "美国对古巴的石油封锁引发外交谈判，但不同媒体通过选择性关联事件折射出各自的地缘政治立场。"
+      "my_view": "欧美报道聚焦美古双边谈判，突出石油封锁影响；伊斯兰媒体将事件置于美伊冲突框架下，强调军事行动；中国媒体暂未报道，体现对拉美事务的审慎态度。三方分别呈现谈判、冲突与沉默三种立场。",
+      "summary": "古巴因石油封锁与美国谈判，但不同媒体通过选择性关联事件构建了差异化的地缘政治叙事。"
     },
     {
       "event_hint": "All six crew members killed after US refuelling plane crashes in Iraq",
@@ -435,8 +436,8 @@
         "title_en": "Trump claims US ‘way ahead of schedule’ in Iran war",
         "title_zh": "特朗普称美国在伊朗战争中“远远提前”"
       },
-      "my_view": "欧美媒体聚焦事件本身，突出人员伤亡；伊斯兰媒体关联特朗普对伊言论，暗示政治背景；中国媒体未报道可能因事件敏感度不足或外交考量。",
-      "summary": "美军加油机在伊拉克坠毁致六人死亡，但不同媒体的报道焦点折射出地缘政治立场的差异。"
+      "my_view": "欧美媒体聚焦事件本身与人员伤亡，体现人道主义关切；伊斯兰媒体关联伊朗局势，暗示美国挑衅意图；中国媒体未报道，反映对美军海外行动持保留态度。三方立场体现地缘政治差异。",
+      "summary": "美军加油机在伊拉克坠毁致六人死亡，但不同媒体的报道角度折射出国际政治立场分歧。"
     },
     {
       "event_hint": "'No-one will hire women' - India's top court rejects menstrual leave petition",
@@ -459,8 +460,8 @@
         "title_en": "US judge nixes two subpoenas against Federal Reserve chair Jerome Powell",
         "title_zh": "美国法官驳回针对美联储主席杰罗姆·鲍威尔的两张传票"
       },
-      "my_view": "欧美媒体聚焦性别平等议题，强调职场性别歧视风险；伊斯兰媒体标题与事件无关，疑似误植；中国媒体未报道此事，可能认为属他国内政或议题敏感度不足。三方呈现西方关注人权、伊斯兰媒体失误、中方保持距离的差异。",
-      "summary": "印度最高法院以可能加剧性别歧视为由，驳回全国性月经假立法请愿，引发国际社会对职场性别平等的讨论。"
+      "my_view": "欧美报道聚焦性别平等与职场歧视，体现西方人权视角；伊斯兰媒体标题明显误植，显示对非伊斯兰世界性别议题关注度有限；中国媒体未报道，反映对印度内部事务的谨慎态度。三方立场体现地缘政治与价值观差异。",
+      "summary": "印度最高法院以可能加剧性别歧视为由，驳回全国性月经假立法请愿，引发职场性别平等争议。"
     },
     {
       "event_hint": "Ukraine and allies fear easing Russian sanctions will prolong war",
@@ -483,8 +484,8 @@
         "title_en": "Experts doubt Hegseth claim no need to ‘worry about’ Hormuz",
         "title_zh": "专家对赫格斯声称无需“担心”霍尔木兹的说法表示怀疑"
       },
-      "my_view": "欧美视角聚焦制裁与战争关联，伊斯兰视角关注地区安全议题，中国媒体未直接报道显示其在此事上的立场选择或报道重点差异。",
-      "summary": "乌克兰及其盟国担忧放松对俄制裁将延长战争，不同媒体报道焦点反映地缘政治关切的差异。"
+      "my_view": "欧美视角聚焦制裁与战争直接关联，伊斯兰视角将事件置于地区安全框架下讨论，中国媒体未直接报道显示其在该议题上的谨慎立场或差异化关注焦点。",
+      "summary": "国际社会对俄罗斯制裁松绑的后果存在分歧，反映出地缘政治博弈中不同阵营的战略关切差异。"
     },
     {
       "event_hint": "Los Angeles asks for investigation into LA28 Olympics chief over Epstein ties",
@@ -507,8 +508,8 @@
         "title_en": "Brazil pulls visa of Trump adviser who asked to visit Bolsonaro in prison",
         "title_zh": "巴西取消了要求探望狱中博尔索纳罗的特朗普顾问的签证"
       },
-      "my_view": "欧美媒体聚焦事件本身，突出本地官员与丑闻人物的关联；伊斯兰媒体借关联人物转向他国政治事件，体现地缘政治关注；中国媒体未报道，或基于外交考量回避敏感国际人物议题。",
-      "summary": "洛杉矶奥组委主席因与爱泼斯坦的关系被要求调查，反映出西方社会对权力阶层道德审查的舆论压力。"
+      "my_view": "欧美媒体聚焦事件本身，突出地方政府的调查要求与爱泼斯坦关联；伊斯兰媒体从国际政治角度切入，关联巴西司法事件；中国媒体未报道显示对该西方内部事务的回避态度。三方分别体现直接监督、地缘政治延伸与选择性关注。",
+      "summary": "洛杉矶奥组委主席因与爱泼斯坦的关系被要求调查，不同媒体的报道角度反映其地域立场与议程差异。"
     }
   ]
 }
