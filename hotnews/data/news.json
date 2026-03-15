@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-03-15 08:02:54 +08",
+  "generated_at": "2026-03-15 12:03:58 +08",
   "generated_date": "2026-03-15",
-  "current_slot": "早",
+  "current_slot": "中",
   "slots_done": [
-    "早"
+    "早",
+    "中"
   ],
   "sources": {
     "中国": [
@@ -138,6 +139,14 @@
     ],
     "美国（欧美媒体）": [
       {
+        "title": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+        "link": "https://www.bbc.com/news/articles/c20lvn0ex6yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 06:55",
+        "description": "A relative tells BBC those killed were civilians and not Hezbollah operatives, but the Israel Defence Forces says it was targeting \"terrorist infrastructure\".",
+        "title_en": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+        "title_zh": "BBC 探访以色列袭击黎巴嫩造成家人死亡的后果，以色列国防军瞄准真主党"
+      },
+      {
         "title": "Three more Iran football team members change minds over asylum",
         "link": "https://www.bbc.com/news/articles/c98gz372683o?at_medium=RSS&at_campaign=rss",
         "published": "2026-03-15 04:48",
@@ -146,12 +155,36 @@
         "title_zh": "又有三名伊朗足球队成员因庇护而改变主意"
       },
       {
+        "title": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+        "link": "https://www.bbc.com/news/articles/cjwz8051y0lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 08:01",
+        "description": "Predictions markets have hosted millions of dollars of bets related to the war in Iran.",
+        "title_en": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+        "title_zh": "“可怕的”战争赌注引发了打击预测市场的呼声"
+      },
+      {
         "title": "Hamas urges key ally Iran to halt attacks on Gulf states",
         "link": "https://www.bbc.com/news/articles/cvg3xk6xgyzo?at_medium=RSS&at_campaign=rss",
         "published": "2026-03-14 21:34",
         "description": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
         "title_en": "Hamas urges key ally Iran to halt attacks on Gulf states",
         "title_zh": "哈马斯敦促主要盟友伊朗停止对海湾国家的袭击"
+      },
+      {
+        "title": "Cuban protesters ransack Communist office as energy crisis deepens",
+        "link": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 06:07",
+        "description": "Discontent is mounting over rolling blackouts and shortages of food, fuel and medicine, exacerbated by a US blockade.",
+        "title_en": "Cuban protesters ransack Communist office as energy crisis deepens",
+        "title_zh": "随着能源危机加深，古巴抗议者洗劫共产党办公室"
+      },
+      {
+        "title": "Iraq taking private plane to Mexico for World Cup play-off",
+        "link": "https://www.bbc.com/sport/football/articles/c0k10zzjk6yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 07:56",
+        "description": "Iraq will travel to Mexico by private plane for their World Cup play-off despite calls from coach Graham Arnold to postpone the match amid the escalating US-Israeli war with Iran, the country's FA pre",
+        "title_en": "Iraq taking private plane to Mexico for World Cup play-off",
+        "title_zh": "Iraq taking private plane to Mexico for World Cup play-off"
       },
       {
         "title": "Treasure hunter freed from prison after refusing to turn over shipwreck gold",
@@ -176,14 +209,6 @@
         "description": "The BBC joins a French Alps rescue team as the number of skiers killed this season passes 100.",
         "title_en": "Rescuers blame weather and 'underprepared skiers' for rise in Alps avalanche deaths",
         "title_zh": "救援人员将阿尔卑斯山雪崩死亡人数上升归咎于天气和“准备不足的滑雪者”"
-      },
-      {
-        "title": "Cuban protesters ransack Communist office as energy crisis deepens",
-        "link": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-15 06:07",
-        "description": "Discontent is mounting over rolling blackouts and shortages of food, fuel and medicine, exacerbated by a US blockade.",
-        "title_en": "Cuban protesters ransack Communist office as energy crisis deepens",
-        "title_zh": "随着能源危机加深，古巴抗议者洗劫共产党办公室"
       },
       {
         "title": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
@@ -240,33 +265,25 @@
         "description": "The teacher's family had asked for charges to be dropped to prevent the students' lives being ruined.",
         "title_en": "Charges dropped against teens whose teacher died during toilet paper prank",
         "title_zh": "老师在卫生纸恶作剧中死亡的青少年的指控被撤销"
-      },
-      {
-        "title": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-        "link": "https://www.bbc.com/news/articles/cdxz0jpzk4do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 07:36",
-        "description": "The FBI said the suspect had large quantities of fireworks and petrol in his vehicle when it caught fire after ramming a synagogue on Thursday.",
-        "title_en": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-        "title_zh": "官员称，密歇根犹太教堂嫌疑人家人在黎巴嫩空袭中丧生"
-      },
-      {
-        "title": "Ukraine and allies fear easing Russian sanctions will prolong war",
-        "link": "https://www.bbc.com/news/articles/c1d6l67122wo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 00:12",
-        "description": "Ukraine's president says the US decision \"certainly does not help achieve peace\".",
-        "title_en": "Ukraine and allies fear easing Russian sanctions will prolong war",
-        "title_zh": "乌克兰及其盟国担心放松对俄罗斯的制裁将延长战争"
-      },
-      {
-        "title": "Pink Floyd guitar sold for record-breaking $14.6m",
-        "link": "https://www.bbc.com/news/articles/cr45v7ey91eo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 05:50",
-        "description": "The guitar was used by David Gilmour on some of Pink Floyd's best-known albums, including Dark Side of the Moon.",
-        "title_en": "Pink Floyd guitar sold for record-breaking $14.6m",
-        "title_zh": "平克·弗洛伊德 (Pink Floyd) 吉他以创纪录的 1,460 万美元成交"
       }
     ],
     "伊斯兰（半岛等）": [
+      {
+        "title": "Iran’s Space Research Centre severely damaged in strikes",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/15/irans-space-research-centre-severely-damaged-in-strikes?traffic_source=rss",
+        "published": "2026-03-15 11:29",
+        "description": "Video has revealed the Iranian Space Research Centre in Tehran has suffered significant damage from Israeli-US strikes.",
+        "title_en": "Iran’s Space Research Centre severely damaged in strikes",
+        "title_zh": "伊朗太空研究中心在袭击中严重受损"
+      },
+      {
+        "title": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open?traffic_source=rss",
+        "published": "2026-03-15 08:00",
+        "description": "US President Donald Trump says allies who rely on Gulf oil must help keep the Strait of Hormuz open.",
+        "title_en": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks",
+        "title_zh": "伊朗战争直播：特朗普敦促盟友在海湾袭击中保持霍尔木兹海峡开放"
+      },
       {
         "title": "Pakistan strikes Afghan base after its president warns ‘red line’ crossed",
         "link": "https://www.aljazeera.com/news/2026/3/14/pakistan-strikes-afghan-base-after-its-president-warns-red-line-crossed?traffic_source=rss",
@@ -361,7 +378,7 @@
         "published": "2026-03-15 04:22",
         "description": "Veteran Jay Carey burned a US flag in protest of an executive order from Trump calling for prison terms for such acts.",
         "title_en": "Trump administration to drop charges against US veteran who burned flag",
-        "title_zh": "Trump administration to drop charges against US veteran who burned flag"
+        "title_zh": "特朗普政府撤销对焚烧国旗的美国退伍军人的指控"
       },
       {
         "title": "Turkey on alert as Iran conflict escalates, warns against provocations",
@@ -377,50 +394,41 @@
         "published": "2026-03-15 03:58",
         "description": "Secretary of Iran’s National Commission for UNESCO, condemned a missile strike on a girls’ primary school in Minab.",
         "title_en": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
-        "title_zh": "联合国教科文组织谴责对米纳布女子学校的袭击：“他们袭击了两次......如何"
-      },
-      {
-        "title": "Six killed in attacks on Ukraine as EU extends sanctions against Russians",
-        "link": "https://www.aljazeera.com/news/2026/3/14/eu-sanctions-against-russia-renewed-amid-deadly-attacks-on-ukraine?traffic_source=rss",
-        "published": "2026-03-15 03:28",
-        "description": "EU maintains pressure after slamming US for lifting sanctions on Russian oil exports as Middle East war bites.",
-        "title_en": "Six killed in attacks on Ukraine as EU extends sanctions against Russians",
-        "title_zh": "欧盟延长对俄罗斯制裁，乌克兰袭击造成六人死亡"
-      },
-      {
-        "title": "Trump administration threatens news outlets over critical coverage of Iran",
-        "link": "https://www.aljazeera.com/news/2026/3/14/trump-administration-threatens-news-outlets-over-critical-coverage-of-iran?traffic_source=rss",
-        "published": "2026-03-15 03:25",
-        "description": "FCC chair says news outlets that share &#039;distortions&#039; about US war with Iran could lose their licences.",
-        "title_en": "Trump administration threatens news outlets over critical coverage of Iran",
-        "title_zh": "特朗普政府威胁新闻媒体对伊朗的批评报道"
+        "title_zh": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Ukraine and allies fear easing Russian sanctions will prolong war",
-      "event_hint_zh": "乌克兰及其盟国担心放松对俄罗斯的制裁将延长战争",
-      "event_hint_en": "Ukraine and allies fear easing Russian sanctions will prolong war",
-      "中国": null,
+      "event_hint": "Hamas urges key ally Iran to halt attacks on Gulf states",
+      "event_hint_zh": "哈马斯敦促主要盟友伊朗停止对海湾国家的袭击",
+      "event_hint_en": "Hamas urges key ally Iran to halt attacks on Gulf states",
+      "中国": {
+        "title": "3月1日至今仅77艘船只通过霍尔木兹海峡",
+        "link": "https://www.163.com/dy/article/KO014B0D0534A4SC.html",
+        "published": "2026-03-14 14:01",
+        "description": "",
+        "title_zh": "3月1日至今仅77艘船只通过霍尔木兹海峡",
+        "title_en": "3月1日至今仅77艘船只通过霍尔木兹海峡"
+      },
       "美国（欧美媒体）": {
-        "title": "Ukraine and allies fear easing Russian sanctions will prolong war",
-        "link": "https://www.bbc.com/news/articles/c1d6l67122wo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 00:12",
-        "description": "Ukraine's president says the US decision \"certainly does not help achieve peace\".",
-        "title_en": "Ukraine and allies fear easing Russian sanctions will prolong war",
-        "title_zh": "乌克兰及其盟国担心放松对俄罗斯的制裁将延长战争"
+        "title": "Hamas urges key ally Iran to halt attacks on Gulf states",
+        "link": "https://www.bbc.com/news/articles/cvg3xk6xgyzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-14 21:34",
+        "description": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
+        "title_en": "Hamas urges key ally Iran to halt attacks on Gulf states",
+        "title_zh": "哈马斯敦促主要盟友伊朗停止对海湾国家的袭击"
       },
       "伊斯兰（半岛等）": {
-        "title": "Six killed in attacks on Ukraine as EU extends sanctions against Russians",
-        "link": "https://www.aljazeera.com/news/2026/3/14/eu-sanctions-against-russia-renewed-amid-deadly-attacks-on-ukraine?traffic_source=rss",
-        "published": "2026-03-15 03:28",
-        "description": "EU maintains pressure after slamming US for lifting sanctions on Russian oil exports as Middle East war bites.",
-        "title_en": "Six killed in attacks on Ukraine as EU extends sanctions against Russians",
-        "title_zh": "欧盟延长对俄罗斯制裁，乌克兰袭击造成六人死亡"
+        "title": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/15/iran-war-live-trump-urges-world-to-keep-hormuz-strait-open?traffic_source=rss",
+        "published": "2026-03-15 08:00",
+        "description": "US President Donald Trump says allies who rely on Gulf oil must help keep the Strait of Hormuz open.",
+        "title_en": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks",
+        "title_zh": "伊朗战争直播：特朗普敦促盟友在海湾袭击中保持霍尔木兹海峡开放"
       },
-      "my_view": "欧美标题聚焦制裁与战争逻辑关联，伊斯兰标题突出暴力伤亡与制裁行动，中国未报道体现中立立场。三方分别呈现战略关切、人道视角与外交审慎。",
-      "summary": "乌克兰危机中各方对制裁与战争延长的关联存在不同叙事焦点，反映地缘政治立场差异。"
+      "my_view": "中国视角聚焦经济影响（航运数据），欧美视角强调政治关系（盟友施压），伊斯兰视角突出地缘冲突（战争实况与大国表态），三方分别从经济利益、政治博弈和军事对抗维度呈现事件。",
+      "summary": "伊朗袭击海湾地区引发国际关切的连锁反应，各方基于自身立场选择不同报道焦点。"
     },
     {
       "event_hint": "Three more Iran football team members change minds over asylum",
@@ -443,39 +451,63 @@
         "title_en": "Three members of Iranian women’s football team pull Australia asylum bids",
         "title_zh": "伊朗女足三名队员撤回澳大利亚庇护申请"
       },
-      "my_view": "欧美报道强调‘改变庇护主意’的个体选择；伊斯兰视角突出‘撤回申请’的主动决定，并点明女性身份；中国未报道，体现对敏感议题的回避态度。",
-      "summary": "三名伊朗女足球员在澳大利亚撤回庇护申请，事件反映个人选择与地缘政治背景的交织。"
+      "my_view": "欧美报道客观陈述事实，强调‘改变庇护主意’；伊斯兰视角突出‘伊朗女足’身份及‘撤回申请’的主动选择，隐含对西方庇护叙事的淡化；中国媒体未报道，体现对敏感议题的回避策略。",
+      "summary": "三名伊朗女足队员撤回在澳大利亚的庇护申请，事件折射国际政治与个体选择的交织。"
     },
     {
-      "event_hint": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
-      "event_hint_zh": "市长称阿姆斯特丹犹太学校爆炸是“蓄意袭击”",
-      "event_hint_en": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
+      "event_hint": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+      "event_hint_zh": "BBC 探访以色列袭击黎巴嫩造成家人死亡的后果，以色列国防军瞄准真主党",
+      "event_hint_en": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
       "中国": {
-        "title": "女子花13.8万买博世家电三年货还没送齐 商家只换不退",
-        "link": "https://www.163.com/dy/article/KNVKN0A90550B6IS.html",
-        "published": "2026-03-14 15:01",
+        "title": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联",
+        "link": "https://www.163.com/dy/article/KNU9MVJG05199NPP.html",
+        "published": "2026-03-14 14:01",
         "description": "",
-        "title_zh": "女子花13.8万买博世家电三年货还没送齐 商家只换不退",
-        "title_en": "女子花13.8万买博世家电三年货还没送齐 商家只换不退"
+        "title_zh": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联",
+        "title_en": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联"
       },
       "美国（欧美媒体）": {
-        "title": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
-        "link": "https://www.bbc.com/news/articles/cwyg4j58gdyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 20:45",
-        "description": "Security had been increased at Jewish public institutions following an earlier incident in Rotterdam.",
-        "title_en": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
-        "title_zh": "市长称阿姆斯特丹犹太学校爆炸是“蓄意袭击”"
+        "title": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+        "link": "https://www.bbc.com/news/articles/c20lvn0ex6yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 06:55",
+        "description": "A relative tells BBC those killed were civilians and not Hezbollah operatives, but the Israel Defence Forces says it was targeting \"terrorist infrastructure\".",
+        "title_en": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
+        "title_zh": "BBC 探访以色列袭击黎巴嫩造成家人死亡的后果，以色列国防军瞄准真主党"
       },
       "伊斯兰（半岛等）": {
-        "title": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/unesco-condemns-strike-on-minab-girls-school-they-attacked-twice-how?traffic_source=rss",
-        "published": "2026-03-15 03:58",
-        "description": "Secretary of Iran’s National Commission for UNESCO, condemned a missile strike on a girls’ primary school in Minab.",
-        "title_en": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
-        "title_zh": "联合国教科文组织谴责对米纳布女子学校的袭击：“他们袭击了两次......如何"
+        "title": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
+        "link": "https://www.aljazeera.com/news/2026/3/14/us-israeli-strike-kills-15-at-isfahan-factory-iranian-media-says?traffic_source=rss",
+        "published": "2026-03-15 05:25",
+        "description": "Iranian media report the deaths in central Iran as Tehran launches new missile salvoes at Israeli targets.",
+        "title_en": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
+        "title_zh": "伊朗媒体称美以空袭伊斯法罕工厂造成15人死亡"
       },
-      "my_view": "欧美聚焦恐怖袭击定性，伊斯兰关注教育设施遇袭的人道谴责，中国则完全回避国际事件，用国内消费纠纷转移视线，体现各自议程设置和报道框架的显著差异。",
-      "summary": "同一爆炸事件在不同媒体中被分别框架为恐怖袭击、教育人权议题或完全被国内新闻替代，凸显媒体选择性报道背后的意识形态立场。"
+      "my_view": "欧美媒体聚焦军事行动现场与平民伤亡；伊斯兰媒体强调美以联合行动并突出伤亡数字；中国媒体完全回避该国际事件，转而报道国内反腐新闻，体现其不介入中东议题的立场选择。",
+      "summary": "同一中东冲突事件在不同意识形态下被呈现为军事报道、反美叙事或直接消音，体现媒体如何通过议程设置构建相异的世界图景。"
+    },
+    {
+      "event_hint": "Charges dropped against teens whose teacher died during toilet paper prank",
+      "event_hint_zh": "老师在卫生纸恶作剧中死亡的青少年的指控被撤销",
+      "event_hint_en": "Charges dropped against teens whose teacher died during toilet paper prank",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Charges dropped against teens whose teacher died during toilet paper prank",
+        "link": "https://www.bbc.com/news/articles/c1l76346dvlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-14 10:47",
+        "description": "The teacher's family had asked for charges to be dropped to prevent the students' lives being ruined.",
+        "title_en": "Charges dropped against teens whose teacher died during toilet paper prank",
+        "title_zh": "老师在卫生纸恶作剧中死亡的青少年的指控被撤销"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Trump administration to drop charges against US veteran who burned flag",
+        "link": "https://www.aljazeera.com/news/2026/3/14/trump-administration-to-drop-charges-against-us-veteran-who-burned-flag?traffic_source=rss",
+        "published": "2026-03-15 04:22",
+        "description": "Veteran Jay Carey burned a US flag in protest of an executive order from Trump calling for prison terms for such acts.",
+        "title_en": "Trump administration to drop charges against US veteran who burned flag",
+        "title_zh": "特朗普政府撤销对焚烧国旗的美国退伍军人的指控"
+      },
+      "my_view": "欧美报道聚焦青少年与教师的悲剧冲突，伊斯兰媒体借题发挥批判美国政治符号，中国媒体未报道显示对境外社会新闻的选择性忽略。三方分别体现司法个案关注、意识形态对抗及新闻过滤机制。",
+      "summary": "美国司法系统对涉及教师死亡的恶作剧青少年撤销指控，不同媒体基于自身立场选取不同报道角度。"
     },
     {
       "event_hint": "Russia exploiting Iran war, Zelensky says after fresh bombardment",
@@ -498,87 +530,8 @@
         "title_en": "Thousands in Madrid protest ‘forgotten’ Gaza, warn Iran war may spiral into",
         "title_zh": "马德里数千人抗议“被遗忘”的加沙，警告伊朗战争可能升级"
       },
-      "my_view": "欧美视角聚焦俄乌冲突，将俄罗斯与伊朗关联；伊斯兰视角关注加沙并警示伊朗战争扩大风险，体现中东立场；中国媒体未报道，反映中立或避免卷入相关议题的立场差异。",
-      "summary": "国际冲突中各方报道存在立场差异：欧美强调俄罗斯威胁，伊斯兰世界关注地区危机，中国暂未置评。"
-    },
-    {
-      "event_hint": "Hamas urges key ally Iran to halt attacks on Gulf states",
-      "event_hint_zh": "哈马斯敦促主要盟友伊朗停止对海湾国家的袭击",
-      "event_hint_en": "Hamas urges key ally Iran to halt attacks on Gulf states",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Hamas urges key ally Iran to halt attacks on Gulf states",
-        "link": "https://www.bbc.com/news/articles/cvg3xk6xgyzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 21:34",
-        "description": "The Palestinian group also affirms Tehran's right to defend itself from \"aggression\" by the US and Israel.",
-        "title_en": "Hamas urges key ally Iran to halt attacks on Gulf states",
-        "title_zh": "哈马斯敦促主要盟友伊朗停止对海湾国家的袭击"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Hundreds protest against US-Israeli strikes on Iran in Seoul",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/hundreds-protest-against-us-israeli-strikes-on-iran-in-seoul?traffic_source=rss",
-        "published": "2026-03-15 04:38",
-        "description": "Hundreds of peace activists and demonstrators marched in central Seoul on Saturday in protest of the US-Israeli strikes.",
-        "title_en": "Hundreds protest against US-Israeli strikes on Iran in Seoul",
-        "title_zh": "数百人在首尔抗议美国和以色列对伊朗的袭击"
-      },
-      "my_view": "欧美标题客观陈述事件主体行为；伊斯兰标题将抗议活动与美以关联，强化反西方叙事；中国媒体未报道，体现对中东复杂议题的谨慎态度。",
-      "summary": "哈马斯试图调解地区冲突，但各方报道焦点折射出地缘政治中的立场分歧与叙事竞争。"
-    },
-    {
-      "event_hint": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-      "event_hint_zh": "官员称，密歇根犹太教堂嫌疑人家人在黎巴嫩空袭中丧生",
-      "event_hint_en": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-      "中国": {
-        "title": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联",
-        "link": "https://www.163.com/dy/article/KNU9MVJG05199NPP.html",
-        "published": "2026-03-14 14:01",
-        "description": "",
-        "title_zh": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联",
-        "title_en": "贵州茅台董秘蒋焰被留置 媒体：或与其前任领导有关联"
-      },
-      "美国（欧美媒体）": {
-        "title": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-        "link": "https://www.bbc.com/news/articles/cdxz0jpzk4do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 07:36",
-        "description": "The FBI said the suspect had large quantities of fireworks and petrol in his vehicle when it caught fire after ramming a synagogue on Thursday.",
-        "title_en": "Family of Michigan synagogue suspect killed in Lebanon airstrike, officials say",
-        "title_zh": "官员称，密歇根犹太教堂嫌疑人家人在黎巴嫩空袭中丧生"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
-        "link": "https://www.aljazeera.com/news/2026/3/14/us-israeli-strike-kills-15-at-isfahan-factory-iranian-media-says?traffic_source=rss",
-        "published": "2026-03-15 05:25",
-        "description": "Iranian media report the deaths in central Iran as Tehran launches new missile salvoes at Israeli targets.",
-        "title_en": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
-        "title_zh": "伊朗媒体称美以空袭伊斯法罕工厂造成15人死亡"
-      },
-      "my_view": "中国视角回避国际冲突，聚焦国内反腐转移视线；欧美视角强调嫌疑人家庭受害，突出个体叙事；伊斯兰视角直指美以军事行动造成平民伤亡，强化反西方叙事。三方分别体现内政优先、人权话语与反殖民立场。",
-      "summary": "同一国际事件被不同意识形态媒体重构为反腐案、人权悲剧与殖民暴行，反映新闻生产中的立场过滤。"
-    },
-    {
-      "event_hint": "Charges dropped against teens whose teacher died during toilet paper prank",
-      "event_hint_zh": "老师在卫生纸恶作剧中死亡的青少年的指控被撤销",
-      "event_hint_en": "Charges dropped against teens whose teacher died during toilet paper prank",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Charges dropped against teens whose teacher died during toilet paper prank",
-        "link": "https://www.bbc.com/news/articles/c1l76346dvlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-14 10:47",
-        "description": "The teacher's family had asked for charges to be dropped to prevent the students' lives being ruined.",
-        "title_en": "Charges dropped against teens whose teacher died during toilet paper prank",
-        "title_zh": "老师在卫生纸恶作剧中死亡的青少年的指控被撤销"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump administration to drop charges against US veteran who burned flag",
-        "link": "https://www.aljazeera.com/news/2026/3/14/trump-administration-to-drop-charges-against-us-veteran-who-burned-flag?traffic_source=rss",
-        "published": "2026-03-15 04:22",
-        "description": "Veteran Jay Carey burned a US flag in protest of an executive order from Trump calling for prison terms for such acts.",
-        "title_en": "Trump administration to drop charges against US veteran who burned flag",
-        "title_zh": "Trump administration to drop charges against US veteran who burned flag"
-      },
-      "my_view": "BBC聚焦青少年与教师个体悲剧，半岛转向政治符号争议，中国媒体未报道显示事件未进入主流视野。三方差异体现媒体对本土议题的筛选逻辑与价值判断。",
-      "summary": "美国司法系统对一起校园恶作剧致死案中的青少年撤销指控，不同媒体依据受众关切选取报道角度。"
+      "my_view": "欧美视角聚焦俄乌冲突，突出泽伦斯基对俄伊关联的指控；伊斯兰视角将事件置于中东语境，强调加沙问题与伊朗战争扩大的风险；中国媒体暂未报道，体现对俄乌及中东议题的谨慎态度。三方立场分别体现地缘政治关切差异。",
+      "summary": "泽伦斯基在俄军新一轮袭击后指控俄罗斯利用伊朗战争局势，事件反映乌克兰危机与中东局势的复杂联动。"
     },
     {
       "event_hint": "LA asks for investigation into 2028 Olympics chief over Epstein ties",
@@ -608,8 +561,111 @@
         "title_en": "Pakistan strikes Afghan base after its president warns ‘red line’ crossed",
         "title_zh": "巴基斯坦总统警告越过“红线”后袭击阿富汗基地"
       },
-      "my_view": "中国报道转移焦点至国内食品安全，回避国际敏感议题；欧美直击权力与丑闻关联，强调问责；伊斯兰媒体则完全转向地缘冲突，体现议程设置差异与立场隔离。",
-      "summary": "国际媒体对同一事件的报道呈现显著的选择性关注，反映各自政治立场与议程设置差异。"
+      "my_view": "中国报道聚焦国内食品安全议题，体现以民生为导向的新闻选择；欧美报道直接关注国际权贵丑闻，强调问责与透明度；伊斯兰报道侧重地缘冲突与主权宣示，反映区域安全关切。三方立场体现各自核心议程。",
+      "summary": "国际媒体报道选择受地缘政治、文化价值观和国内议程影响，同一事件在不同语境下呈现完全不同的报道优先级。"
+    },
+    {
+      "event_hint": "Cuban protesters ransack Communist office as energy crisis deepens",
+      "event_hint_zh": "随着能源危机加深，古巴抗议者洗劫共产党办公室",
+      "event_hint_en": "Cuban protesters ransack Communist office as energy crisis deepens",
+      "中国": {
+        "title": "新能源车高速行驶连跳3次空挡 售后:触发超速过载保护",
+        "link": "https://www.163.com/dy/article/KNVI27P70512DU6N.html",
+        "published": "2026-03-14 10:01",
+        "description": "",
+        "title_zh": "新能源车高速行驶连跳3次空挡 售后:触发超速过载保护",
+        "title_en": "新能源车高速行驶连跳3次空挡 售后:触发超速过载保护"
+      },
+      "美国（欧美媒体）": {
+        "title": "Cuban protesters ransack Communist office as energy crisis deepens",
+        "link": "https://www.bbc.com/news/articles/c875zd7de5xo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 06:07",
+        "description": "Discontent is mounting over rolling blackouts and shortages of food, fuel and medicine, exacerbated by a US blockade.",
+        "title_en": "Cuban protesters ransack Communist office as energy crisis deepens",
+        "title_zh": "随着能源危机加深，古巴抗议者洗劫共产党办公室"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Hundreds protest against US-Israeli strikes on Iran in Seoul",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/hundreds-protest-against-us-israeli-strikes-on-iran-in-seoul?traffic_source=rss",
+        "published": "2026-03-15 04:38",
+        "description": "Hundreds of peace activists and demonstrators marched in central Seoul on Saturday in protest of the US-Israeli strikes.",
+        "title_en": "Hundreds protest against US-Israeli strikes on Iran in Seoul",
+        "title_zh": "数百人在首尔抗议美国和以色列对伊朗的袭击"
+      },
+      "my_view": "中国报道转移焦点至技术问题，回避政治冲突；欧美报道直指抗议与政党关系，强调危机后果；伊斯兰报道将事件置于反美以框架下，关联地区冲突。三方分别呈现技术化、政治化、意识形态化的叙事策略。",
+      "summary": "能源危机引发古巴民众抗议，不同媒体通过选择性报道框架折射各自政治立场。"
+    },
+    {
+      "event_hint": "Kennedy Center head steps down after tumultuous year",
+      "event_hint_zh": "肯尼迪中心负责人在经历了动荡的一年后辞职",
+      "event_hint_en": "Kennedy Center head steps down after tumultuous year",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Kennedy Center head steps down after tumultuous year",
+        "link": "https://www.bbc.com/news/articles/cy7jlgez0ljo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-14 23:31",
+        "description": "The Trump ally's departure comes as the centre  prepares to shut down for a two-year renovation.",
+        "title_en": "Kennedy Center head steps down after tumultuous year",
+        "title_zh": "肯尼迪中心负责人在经历了动荡的一年后辞职"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Iran’s Space Research Centre severely damaged in strikes",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/15/irans-space-research-centre-severely-damaged-in-strikes?traffic_source=rss",
+        "published": "2026-03-15 11:29",
+        "description": "Video has revealed the Iranian Space Research Centre in Tehran has suffered significant damage from Israeli-US strikes.",
+        "title_en": "Iran’s Space Research Centre severely damaged in strikes",
+        "title_zh": "伊朗太空研究中心在袭击中严重受损"
+      },
+      "my_view": "欧美报道聚焦人事变动本身，伊斯兰媒体则通过关联伊朗航天中心遇袭事件，暗示地缘政治冲突背景，中国媒体未报道反映此事不在其核心关注范围内。",
+      "summary": "肯尼迪中心负责人辞职事件在不同媒体中被呈现为文化管理新闻或地缘政治关联事件，体现报道视角的差异性。"
+    },
+    {
+      "event_hint": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
+      "event_hint_zh": "市长称阿姆斯特丹犹太学校爆炸是“蓄意袭击”",
+      "event_hint_en": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
+        "link": "https://www.bbc.com/news/articles/cwyg4j58gdyo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-14 20:45",
+        "description": "Security had been increased at Jewish public institutions following an earlier incident in Rotterdam.",
+        "title_en": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
+        "title_zh": "市长称阿姆斯特丹犹太学校爆炸是“蓄意袭击”"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/14/unesco-condemns-strike-on-minab-girls-school-they-attacked-twice-how?traffic_source=rss",
+        "published": "2026-03-15 03:58",
+        "description": "Secretary of Iran’s National Commission for UNESCO, condemned a missile strike on a girls’ primary school in Minab.",
+        "title_en": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
+        "title_zh": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How"
+      },
+      "my_view": "欧美报道聚焦具体事件定性为蓄意袭击，伊斯兰媒体借类似事件转向教育设施保护议题，中国媒体暂未报道显示对欧洲本土安全事件关注度有限。三方呈现地域关切差异与议程设置偏好。",
+      "summary": "不同媒体对爆炸事件的报道框架反映其地缘政治关注点与叙事导向的差异。"
+    },
+    {
+      "event_hint": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+      "event_hint_zh": "“可怕的”战争赌注引发了打击预测市场的呼声",
+      "event_hint_en": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+        "link": "https://www.bbc.com/news/articles/cjwz8051y0lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-15 08:01",
+        "description": "Predictions markets have hosted millions of dollars of bets related to the war in Iran.",
+        "title_en": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
+        "title_zh": "“可怕的”战争赌注引发了打击预测市场的呼声"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Bahrain and Saudi Arabia F1 race cancellations confirmed due to Iran war",
+        "link": "https://www.aljazeera.com/sports/2026/3/14/bahrain-and-saudi-f1-races-cancelations-confirmed-due-to-iran-war?traffic_source=rss",
+        "published": "2026-03-15 07:16",
+        "description": "Bahrain and Saudi Arabia&#039;s Formula One Grands Prix races will not be held in April on safety grounds due to the war.",
+        "title_en": "Bahrain and Saudi Arabia F1 race cancellations confirmed due to Iran war",
+        "title_zh": "巴林和沙特阿拉伯F1比赛确认因伊朗战争取消"
+      },
+      "my_view": "欧美聚焦预测市场的伦理争议，伊斯兰媒体突出事件对区域赛事的具体影响，中国媒体暂未报道可能因议题敏感或相关性较弱。三方分别体现监管关切、地缘视角与选择性报道特征。",
+      "summary": "战争相关预测市场引发伦理争议，不同媒体依自身立场选择性呈现事件的经济、地缘或文化维度。"
     }
   ]
 }
