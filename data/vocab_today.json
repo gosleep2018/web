@@ -1,97 +1,97 @@
 {
-  "date": "2026-03-14",
-  "updatedAt": "2026-03-14T00:01:32.174Z",
+  "date": "2026-03-15",
+  "updatedAt": "2026-03-15T00:00:31.159Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "dynamic",
-      "phonetic": "/daɪˈnæmɪk/",
-      "chinese": "动态的",
-      "englishDef": "Characterized by constant change and progress",
-      "example": "The business environment is highly dynamic.",
-      "exampleTrans": "商业环境是高度动态的。",
+      "word": "prohibit",
+      "phonetic": "/prəˈhɪbɪt/",
+      "chinese": "禁止",
+      "englishDef": "To formally forbid something",
+      "example": "Smoking is prohibited in public places.",
+      "exampleTrans": "在公共场所禁止吸烟。",
       "level": "6.5+"
     },
     {
-      "word": "incentive",
-      "phonetic": "/ɪnˈsentɪv/",
-      "chinese": "激励",
-      "englishDef": "A thing that motivates action",
-      "example": "Bonuses provide an incentive to work harder.",
-      "exampleTrans": "奖金提供了更努力工作的激励。",
+      "word": "integrate",
+      "phonetic": "/ˈɪntɪɡreɪt/",
+      "chinese": "整合",
+      "englishDef": "To combine parts into a whole",
+      "example": "We need to integrate new technology into our workflow.",
+      "exampleTrans": "我们需要将新技术整合到我们的工作流程中。",
       "level": "6.5+"
     },
     {
-      "word": "coherent",
-      "phonetic": "/kəʊˈhɪərənt/",
-      "chinese": "连贯的",
-      "englishDef": "Logical and well-organized",
-      "example": "She presented a coherent argument.",
-      "exampleTrans": "她提出了一个连贯的论证。",
-      "level": "7.0+"
-    },
-    {
-      "word": "ambivalent",
-      "phonetic": "/æmˈbɪvələnt/",
-      "chinese": "矛盾的",
-      "englishDef": "Having mixed feelings about someone or something",
-      "example": "She was ambivalent about the job offer.",
-      "exampleTrans": "她对这份工作邀请感到矛盾。",
-      "level": "7.5+"
-    },
-    {
-      "word": "bias",
-      "phonetic": "/ˈbaɪəs/",
-      "chinese": "偏见",
-      "englishDef": "Prejudice in favor of or against something",
-      "example": "The report showed evidence of gender bias.",
-      "exampleTrans": "报告显示出性别偏见的证据。",
-      "level": "7.0+"
-    },
-    {
-      "word": "significant",
-      "phonetic": "/sɪɡˈnɪfɪkənt/",
-      "chinese": "重要的",
-      "englishDef": "Sufficiently great to be noteworthy",
-      "example": "There has been a significant improvement.",
-      "exampleTrans": "已经有了显著的改善。",
+      "word": "assure",
+      "phonetic": "/əˈʃʊə(r)/",
+      "chinese": "保证",
+      "englishDef": "To tell someone confidently that something is true",
+      "example": "I can assure you that the information is accurate.",
+      "exampleTrans": "我可以向你保证这个信息是准确的。",
       "level": "6.0+"
     },
     {
-      "word": "visible",
-      "phonetic": "/ˈvɪzəbl/",
-      "chinese": "可见的",
-      "englishDef": "Able to be seen",
-      "example": "The results are visible to all.",
-      "exampleTrans": "结果对所有人都可见。",
-      "level": "5.5+"
-    },
-    {
-      "word": "inherent",
-      "phonetic": "/ɪnˈhɪərənt/",
-      "chinese": "固有的",
-      "englishDef": "Existing as a natural part of something",
-      "example": "Risk is inherent in any business.",
-      "exampleTrans": "风险是任何业务固有的。",
-      "level": "7.5+"
-    },
-    {
-      "word": "mutual",
-      "phonetic": "/ˈmjuːtʃuəl/",
-      "chinese": "相互的",
-      "englishDef": "Felt or done by each toward the other",
-      "example": "They have mutual respect for each other.",
-      "exampleTrans": "他们彼此尊重。",
+      "word": "deficiency",
+      "phonetic": "/dɪˈfɪʃənsi/",
+      "chinese": "缺乏",
+      "englishDef": "A lack or shortage of something",
+      "example": "Vitamin D deficiency is common in winter.",
+      "exampleTrans": "冬季维生素D缺乏很常见。",
       "level": "6.5+"
     },
     {
-      "word": "differentiate",
-      "phonetic": "/ˌdɪfəˈrenʃieɪt/",
-      "chinese": "区分",
-      "englishDef": "To recognize or show a difference",
-      "example": "Can you differentiate between the two methods?",
-      "exampleTrans": "你能区分这两种方法吗？",
-      "level": "7.0+"
+      "word": "acknowledge",
+      "phonetic": "/əkˈnɒlɪdʒ/",
+      "chinese": "承认",
+      "englishDef": "To accept or admit the existence of something",
+      "example": "He acknowledged his mistake and apologized.",
+      "exampleTrans": "他承认了自己的错误并道歉。",
+      "level": "6.5+"
+    },
+    {
+      "word": "yield",
+      "phonetic": "/jiːld/",
+      "chinese": "产出",
+      "englishDef": "To produce or provide",
+      "example": "The investment yielded good returns.",
+      "exampleTrans": "这项投资产生了良好的回报。",
+      "level": "6.5+"
+    },
+    {
+      "word": "enhance",
+      "phonetic": "/ɪnˈhɑːns/",
+      "chinese": "提高",
+      "englishDef": "To improve the quality or value of something",
+      "example": "Technology can enhance learning experiences.",
+      "exampleTrans": "技术可以提升学习体验。",
+      "level": "6.5+"
+    },
+    {
+      "word": "allocate",
+      "phonetic": "/ˈæləkeɪt/",
+      "chinese": "分配",
+      "englishDef": "To give a particular share of resources to each person",
+      "example": "The budget was allocated to different departments.",
+      "exampleTrans": "预算被分配到不同部门。",
+      "level": "6.5+"
+    },
+    {
+      "word": "reinforce",
+      "phonetic": "/ˌriːɪnˈfɔːs/",
+      "chinese": "强化",
+      "englishDef": "To strengthen or support further",
+      "example": "Positive feedback reinforces good behavior.",
+      "exampleTrans": "积极的反馈强化了良好行为。",
+      "level": "6.5+"
+    },
+    {
+      "word": "notion",
+      "phonetic": "/ˈnəʊʃn/",
+      "chinese": "概念",
+      "englishDef": "A concept or belief",
+      "example": "The notion of equality is fundamental.",
+      "exampleTrans": "平等的概念是基本的。",
+      "level": "6.5+"
     }
   ]
 }
