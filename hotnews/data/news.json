@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-03-15 12:03:58 +08",
+  "generated_at": "2026-03-15 20:04:42 +08",
   "generated_date": "2026-03-15",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks",
         "title_zh": "伊朗战争直播：特朗普敦促盟友在海湾袭击中保持霍尔木兹海峡开放"
       },
-      "my_view": "中国视角聚焦经济影响（航运数据），欧美视角强调政治关系（盟友施压），伊斯兰视角突出地缘冲突（战争实况与大国表态），三方分别从经济利益、政治博弈和军事对抗维度呈现事件。",
-      "summary": "伊朗袭击海湾地区引发国际关切的连锁反应，各方基于自身立场选择不同报道焦点。"
+      "my_view": "中国视角侧重经济影响，用航运数据体现地区冲突对全球贸易的冲击；欧美视角强调政治联盟关系，突出哈马斯对伊朗的施压；伊斯兰视角聚焦地缘对抗，将美国立场与地区安全直接关联。",
+      "summary": "地区代理人冲突正通过关键水道威胁全球能源通道安全，各方基于自身利益呈现不同叙事焦点。"
     },
     {
       "event_hint": "Three more Iran football team members change minds over asylum",
@@ -451,8 +452,8 @@
         "title_en": "Three members of Iranian women’s football team pull Australia asylum bids",
         "title_zh": "伊朗女足三名队员撤回澳大利亚庇护申请"
       },
-      "my_view": "欧美报道客观陈述事实，强调‘改变庇护主意’；伊斯兰视角突出‘伊朗女足’身份及‘撤回申请’的主动选择，隐含对西方庇护叙事的淡化；中国媒体未报道，体现对敏感议题的回避策略。",
-      "summary": "三名伊朗女足队员撤回在澳大利亚的庇护申请，事件折射国际政治与个体选择的交织。"
+      "my_view": "欧美报道中立陈述事实，半岛强调性别与撤回庇护申请，暗示团队压力或外部因素。中国未报道可能因不涉及本国利益或避免介入他国内政。",
+      "summary": "三名伊朗女足队员申请庇护后改变决定，反映个人选择与复杂国际背景的交织。"
     },
     {
       "event_hint": "BBC visits aftermath of Israeli strike on Lebanon that killed family as IDF targets Hezbollah",
@@ -482,8 +483,8 @@
         "title_en": "US-Israeli strike kills 15 at Isfahan factory, Iranian media says",
         "title_zh": "伊朗媒体称美以空袭伊斯法罕工厂造成15人死亡"
       },
-      "my_view": "欧美媒体聚焦军事行动现场与平民伤亡；伊斯兰媒体强调美以联合行动并突出伤亡数字；中国媒体完全回避该国际事件，转而报道国内反腐新闻，体现其不介入中东议题的立场选择。",
-      "summary": "同一中东冲突事件在不同意识形态下被呈现为军事报道、反美叙事或直接消音，体现媒体如何通过议程设置构建相异的世界图景。"
+      "my_view": "BBC聚焦以军行动细节与平民伤亡；半岛台强调美以联合行动并引用伊朗信源，突出对抗性；中国媒体完全回避该国际事件，转而报道国内反腐新闻，体现外交中立与内政优先导向。",
+      "summary": "同一国际军事事件在不同意识形态媒体中被呈现为局部冲突、大国对抗或直接忽略，反映报道框架受地缘政治立场主导。"
     },
     {
       "event_hint": "Charges dropped against teens whose teacher died during toilet paper prank",
@@ -507,7 +508,7 @@
         "title_zh": "特朗普政府撤销对焚烧国旗的美国退伍军人的指控"
       },
       "my_view": "欧美报道聚焦青少年与教师的悲剧冲突，伊斯兰媒体借题发挥批判美国政治符号，中国媒体未报道显示对境外社会新闻的选择性忽略。三方分别体现司法个案关注、意识形态对抗及新闻过滤机制。",
-      "summary": "美国司法系统对涉及教师死亡的恶作剧青少年撤销指控，不同媒体基于自身立场选取不同报道角度。"
+      "summary": "美国司法系统对涉及教师死亡的恶作剧青少年撤销指控，不同媒体通过报道角度反映各自立场。"
     },
     {
       "event_hint": "Russia exploiting Iran war, Zelensky says after fresh bombardment",
@@ -530,8 +531,8 @@
         "title_en": "Thousands in Madrid protest ‘forgotten’ Gaza, warn Iran war may spiral into",
         "title_zh": "马德里数千人抗议“被遗忘”的加沙，警告伊朗战争可能升级"
       },
-      "my_view": "欧美视角聚焦俄乌冲突，突出泽伦斯基对俄伊关联的指控；伊斯兰视角将事件置于中东语境，强调加沙问题与伊朗战争扩大的风险；中国媒体暂未报道，体现对俄乌及中东议题的谨慎态度。三方立场分别体现地缘政治关切差异。",
-      "summary": "泽伦斯基在俄军新一轮袭击后指控俄罗斯利用伊朗战争局势，事件反映乌克兰危机与中东局势的复杂联动。"
+      "my_view": "欧美视角聚焦俄乌冲突，突出泽伦斯基对俄伊关联的指控；伊斯兰视角关注加沙与伊朗战争外溢风险，体现中东关切；中国媒体暂未报道，反映其在该事件中的中立或观望立场。",
+      "summary": "泽伦斯基指控俄罗斯利用伊朗战争之际，不同媒体基于地缘政治立场选择性聚焦事件侧面。"
     },
     {
       "event_hint": "LA asks for investigation into 2028 Olympics chief over Epstein ties",
@@ -561,8 +562,8 @@
         "title_en": "Pakistan strikes Afghan base after its president warns ‘red line’ crossed",
         "title_zh": "巴基斯坦总统警告越过“红线”后袭击阿富汗基地"
       },
-      "my_view": "中国报道聚焦国内食品安全议题，体现以民生为导向的新闻选择；欧美报道直接关注国际权贵丑闻，强调问责与透明度；伊斯兰报道侧重地缘冲突与主权宣示，反映区域安全关切。三方立场体现各自核心议程。",
-      "summary": "国际媒体报道选择受地缘政治、文化价值观和国内议程影响，同一事件在不同语境下呈现完全不同的报道优先级。"
+      "my_view": "中国报道回避敏感国际议题，转向国内民生；欧美聚焦权力监督与丑闻关联；伊斯兰媒体突出地缘冲突与主权行动。三方分别体现内宣导向、问责文化与区域安全关切。",
+      "summary": "洛杉矶要求调查奥组委主席与爱泼斯坦的关系，本质是国际权力阶层与性犯罪丑闻的持续发酵。"
     },
     {
       "event_hint": "Cuban protesters ransack Communist office as energy crisis deepens",
@@ -592,8 +593,8 @@
         "title_en": "Hundreds protest against US-Israeli strikes on Iran in Seoul",
         "title_zh": "数百人在首尔抗议美国和以色列对伊朗的袭击"
       },
-      "my_view": "中国报道转移焦点至技术问题，回避政治冲突；欧美报道直指抗议与政党关系，强调危机后果；伊斯兰报道将事件置于反美以框架下，关联地区冲突。三方分别呈现技术化、政治化、意识形态化的叙事策略。",
-      "summary": "能源危机引发古巴民众抗议，不同媒体通过选择性报道框架折射各自政治立场。"
+      "my_view": "中国媒体以技术新闻转移焦点，回避政治敏感；欧美媒体直指政权危机与民众反抗；伊斯兰媒体则关联美以行动，将地区矛盾全球化。三方分别体现回避立场、对抗叙事和意识形态转移策略。",
+      "summary": "能源危机引发古巴民众对执政党的抗议行动，不同媒体通过选择性报道展现意识形态立场差异。"
     },
     {
       "event_hint": "Kennedy Center head steps down after tumultuous year",
@@ -616,8 +617,8 @@
         "title_en": "Iran’s Space Research Centre severely damaged in strikes",
         "title_zh": "伊朗太空研究中心在袭击中严重受损"
       },
-      "my_view": "欧美报道聚焦人事变动本身，伊斯兰媒体则通过关联伊朗航天中心遇袭事件，暗示地缘政治冲突背景，中国媒体未报道反映此事不在其核心关注范围内。",
-      "summary": "肯尼迪中心负责人辞职事件在不同媒体中被呈现为文化管理新闻或地缘政治关联事件，体现报道视角的差异性。"
+      "my_view": "欧美视角聚焦人事变动本身，伊斯兰视角借题发挥关联地区冲突，中国媒体未报道则体现对非直接相关国际事务的选择性关注。三方立场分别体现直接叙事、地缘政治借喻与议题筛选策略。",
+      "summary": "肯尼迪中心负责人辞职事件在不同媒体中被呈现为文化管理新闻、地区冲突隐喻或直接忽略，本质是国际事件的报道框架受地缘立场支配。"
     },
     {
       "event_hint": "Explosion at Amsterdam Jewish school 'a deliberate attack' says mayor",
@@ -640,8 +641,8 @@
         "title_en": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How",
         "title_zh": "UNESCO condemns strike on Minab girls’ school: ‘They attacked twice… How"
       },
-      "my_view": "欧美报道聚焦具体事件定性为蓄意袭击，伊斯兰媒体借类似事件转向教育设施保护议题，中国媒体暂未报道显示对欧洲本土安全事件关注度有限。三方呈现地域关切差异与议程设置偏好。",
-      "summary": "不同媒体对爆炸事件的报道框架反映其地缘政治关注点与叙事导向的差异。"
+      "my_view": "欧美报道聚焦市长定性为蓄意袭击，强调事件的反犹性质；伊斯兰报道借联合国谴责转移焦点，突出教育设施遇袭的普遍性；中国媒体暂未报道，体现对敏感国际事件的审慎态度。",
+      "summary": "不同媒体对爆炸事件的报道框架，反映了各自的地缘政治立场和叙事倾向。"
     },
     {
       "event_hint": "'Gruesome' war bets fuel calls for crackdown on prediction markets",
@@ -664,8 +665,8 @@
         "title_en": "Bahrain and Saudi Arabia F1 race cancellations confirmed due to Iran war",
         "title_zh": "巴林和沙特阿拉伯F1比赛确认因伊朗战争取消"
       },
-      "my_view": "欧美聚焦预测市场的伦理争议，伊斯兰媒体突出事件对区域赛事的具体影响，中国媒体暂未报道可能因议题敏感或相关性较弱。三方分别体现监管关切、地缘视角与选择性报道特征。",
-      "summary": "战争相关预测市场引发伦理争议，不同媒体依自身立场选择性呈现事件的经济、地缘或文化维度。"
+      "my_view": "欧美视角聚焦预测市场的伦理争议，伊斯兰视角关注地缘政治对体育赛事的具体影响，中国媒体暂未报道显示其对该议题持谨慎态度或认为与本土关联度较低。",
+      "summary": "战争相关预测市场引发伦理争议，同时实际冲突已影响国际体育赛事安排。"
     }
   ]
 }
