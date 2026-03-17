@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-03-17 08:05:38 +08",
+  "generated_at": "2026-03-17 20:02:22 +08",
   "generated_date": "2026-03-17",
-  "current_slot": "早",
+  "current_slot": "晚",
   "slots_done": [
-    "早"
+    "早",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -419,8 +420,8 @@
         "title_en": "Ten ICU patients killed in hospital fire in eastern India",
         "title_zh": "印度东部医院火灾 10 名 ICU 患者丧生"
       },
-      "my_view": "欧美标题客观陈述事实；伊斯兰标题强调患者身份与地域细节，隐含对医疗安全的关切；中国媒体未报道可能基于事件与本国关联度低的选择性报道策略。",
-      "summary": "印度一家医院重症监护室发生火灾，导致10名患者死亡，是一起医疗安全事故。"
+      "my_view": "欧美标题客观陈述事实；伊斯兰标题强调‘ICU患者’身份，隐含医疗系统脆弱性；中国媒体未报道，可能基于外交考量或新闻选择性。",
+      "summary": "印度医院ICU火灾致10名患者死亡，是一起医疗安全事故。"
     },
     {
       "event_hint": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
@@ -450,8 +451,8 @@
         "title_en": "Israeli forces in southern Lebanon as ground operation announced",
         "title_zh": "以色列军队宣布在黎巴嫩南部开展地面行动"
       },
-      "my_view": "中国报道转移焦点至国内社会事件，回避国际冲突；欧美报道突出个体叙事与以军行为；伊斯兰媒体将事件置于地区军事行动框架，强调以方扩张。三方分别体现内宣导向、人道视角与地缘政治视角。",
-      "summary": "巴勒斯坦儿童目睹以军杀害家人的事件，在不同媒体叙事中被重构为国内治安、人权危机或地区冲突的组成部分。"
+      "my_view": "中国报道转移焦点至国内社会事件，回避国际冲突；欧美报道突出巴勒斯坦平民视角，强调人道危机；伊斯兰报道转向地区军事动态，弱化具体悲剧。三方分别体现内宣导向、人权叙事与地缘政治框架。",
+      "summary": "以色列军队在冲突中杀害巴勒斯坦平民的家庭，不同媒体通过选题框架差异体现各自政治立场。"
     },
     {
       "event_hint": "Wary allies show there's no quick fix to Trump's Iran crisis",
@@ -481,8 +482,8 @@
         "title_en": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
         "title_zh": "由于伊朗战争，特朗普寻求将与中国习近平的会面推迟“一个月左右”"
       },
-      "my_view": "网易以个人故事淡化国际冲突，BBC聚焦盟友对伊朗危机的谨慎态度，半岛则强调特朗普对华策略调整，三方分别体现中国的人文视角、欧美的同盟关系分析和伊斯兰世界的战略关注。",
-      "summary": "三方报道折射出同一国际事件在不同地缘政治立场下的选择性叙事焦点。"
+      "my_view": "欧美聚焦伊朗危机的外交困境，伊斯兰世界关注中美博弈对地区局势的影响，中国媒体则通过个人叙事转移焦点，淡化国际冲突，突出友好形象。三方分别呈现了问题导向、地缘视角和人文转移的报道策略。",
+      "summary": "同一国际事件在不同意识形态下被重构为外交危机、地缘博弈或人文故事，体现媒体报道的选择性叙事本质。"
     },
     {
       "event_hint": "'We will go wherever they hide': Rooting out IS in Somalia",
@@ -505,8 +506,8 @@
         "title_en": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
         "title_zh": "“第四世界国家”：特朗普猛烈抨击索马里伊尔汗·奥马尔"
       },
-      "my_view": "欧美聚焦反恐行动本身，伊斯兰媒体将事件与美国国内政治关联，中国媒体未报道显示地缘关注度差异。三方分别体现行动叙事、身份政治叙事与选择性关注。",
-      "summary": "国际反恐行动在不同意识形态下被重构为军事行动、身份政治或选择性沉默的叙事对象。"
+      "my_view": "欧美报道聚焦军事行动本身，伊斯兰媒体突出特朗普对索马里的侮辱性言论，中国媒体未报道显示其不介入立场。三方分别体现干预主义、反殖民叙事与外交回避。",
+      "summary": "国际反恐行动在不同媒体叙事中被分别呈现为军事行动、殖民话语批判或外交沉默。"
     },
     {
       "event_hint": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
@@ -529,8 +530,8 @@
         "title_en": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
         "title_zh": "美以袭击德黑兰后，平民从废墟中被救出"
       },
-      "my_view": "BBC聚焦伊朗内部治理，强调民众对压制的指控；半岛台将事件定义为外部军事袭击，转移矛盾至美以；中国媒体未报道，体现不干涉内政原则。三方分别突出内政、外因与沉默外交。",
-      "summary": "同一事件被不同媒体框架重构，分别强调国内抗议管控、外部军事袭击或回避报道，反映意识形态主导叙事选择。"
+      "my_view": "BBC聚焦内部社会动态，半岛电视台将事件定义为外部军事袭击以转移矛盾，中国媒体未报道则体现不干涉他国内政原则。三方分别强调内政、外因与回避立场。",
+      "summary": "同一事件被不同媒体框架重构，分别突出国内抗议风险、外部袭击叙事或沉默，体现意识形态对新闻选择的主导性。"
     },
     {
       "event_hint": "Far-left and far-right gains throw French mainstream parties into a quandary",
@@ -560,8 +561,8 @@
         "title_en": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
         "title_zh": "BBC提交动议要求美国法院驳回特朗普100亿美元的诉讼"
       },
-      "my_view": "网易回避政治聚焦经济，体现中国媒体淡化西方政治议题的倾向；BBC直击欧洲政治生态，反映西方对极端势力冲击主流政治的焦虑；半岛台转移话题至英美司法冲突，展现伊斯兰世界对西方内部矛盾的关注。",
-      "summary": "三方媒体通过选择性报道折射出各自的地缘政治立场：中国重经济叙事，西方重政治危机，伊斯兰世界重西方内部矛盾。"
+      "my_view": "网易回避政治聚焦经济，体现中国媒体淡化他国内政的立场；BBC直击法国政治危机，反映西方对极端势力冲击主流政治的警觉；半岛台用特朗普诉讼转移焦点，展现伊斯兰媒体对欧美内部矛盾的关注。",
+      "summary": "法国主流政党因极端势力崛起陷入困境，但三方媒体通过选择性报道折射出各自的地缘政治关切。"
     },
     {
       "event_hint": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
@@ -591,8 +592,8 @@
         "title_en": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
         "title_zh": "特朗普称霍尔木兹海峡在盟友拒绝军事行动的情况下提供了帮助"
       },
-      "my_view": "",
-      "summary": ""
+      "my_view": "中国媒体回避国际冲突聚焦民生议题，欧美媒体直接报道事件并突出俄罗斯的让步，伊斯兰媒体则关联其他地缘冲突以扩大关注维度，体现各自议程设置和受众导向的差异。",
+      "summary": "肯尼亚宣布俄罗斯已承诺停止在乌克兰战场使用其招募的肯尼亚士兵。"
     },
     {
       "event_hint": "How US groups are driving a new generation of anti-abortion activism in the UK",
@@ -622,8 +623,8 @@
         "title_en": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
         "title_zh": "伊拉克首都巴格达酒店遭袭，美国大使馆袭击事件被拦截"
       },
-      "my_view": "",
-      "summary": ""
+      "my_view": "中国报道聚焦个体事件转移视线，欧美报道直指美国意识形态输出，伊斯兰报道关联地区冲突。三方分别采用回避核心、直接揭露、转移矛盾的不同叙事策略，反映各自政治立场与议程设置差异。",
+      "summary": "事件本质是美国保守团体向英国输出反堕胎运动，但三方媒体通过选择性报道构建截然不同的叙事框架。"
     },
     {
       "event_hint": "Iran hits key UAE oil port and Dubai airport",
@@ -646,8 +647,8 @@
         "title_en": "Trump claims strikes on Iran prevented nuclear war",
         "title_zh": "特朗普声称对伊朗的打击阻止了核战争"
       },
-      "my_view": "",
-      "summary": ""
+      "my_view": "欧美报道聚焦事件本身，突出经济设施遭袭的客观事实；伊斯兰媒体通过特朗普言论转移焦点，将事件定性为核战争危机预防；中国媒体未报道则体现不介入中东冲突的谨慎立场。",
+      "summary": "伊朗袭击阿联酋关键基础设施的事件，被不同媒体框架重构为经济冲突、核危机预防或战略沉默的对象。"
     },
     {
       "event_hint": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
@@ -670,8 +671,8 @@
         "title_en": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
         "title_zh": "与美国并肩作战的阿富汗寻求庇护者在 ICE 拘留期间死亡，引发愤怒"
       },
-      "my_view": "",
-      "summary": ""
+      "my_view": "BBC聚焦算法伦理，强调科技公司以愤怒情绪牟利的商业责任；半岛电视台将事件置于移民人权框架，突出个体遭遇与政治批判；中国媒体未报道，反映地缘关注度差异或议题选择性。",
+      "summary": "举报人指控Meta和TikTok为提升参与度纵容有害内容，不同媒体通过算法伦理、人权政治等棱镜折射事件。"
     }
   ]
 }
