@@ -1,97 +1,97 @@
 {
-  "date": "2026-03-16",
-  "updatedAt": "2026-03-16T00:00:57.296Z",
+  "date": "2026-03-17",
+  "updatedAt": "2026-03-17T00:02:38.343Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "navigate",
-      "phonetic": "/ˈnævɪɡeɪt/",
-      "chinese": "应对",
-      "englishDef": "To plan and direct a route",
-      "example": "She navigated the complex bureaucracy skillfully.",
-      "exampleTrans": "她熟练地应对了复杂的官僚体制。",
-      "level": "6.5+"
-    },
-    {
-      "word": "exploit",
-      "phonetic": "/ɪkˈsplɔɪt/",
-      "chinese": "利用",
-      "englishDef": "To make full use of and derive benefit from",
-      "example": "We should exploit this opportunity.",
-      "exampleTrans": "我们应该利用这个机会。",
-      "level": "6.5+"
-    },
-    {
-      "word": "acquire",
-      "phonetic": "/əˈkwaɪər/",
-      "chinese": "获得",
-      "englishDef": "To buy or obtain something",
-      "example": "She acquired a taste for spicy food.",
-      "exampleTrans": "她慢慢喜欢上了辛辣食物。",
-      "level": "6.0+"
-    },
-    {
-      "word": "exceed",
-      "phonetic": "/ɪkˈsiːd/",
-      "chinese": "超过",
-      "englishDef": "To be greater than a number or amount",
-      "example": "Sales exceeded expectations this year.",
-      "exampleTrans": "今年的销售额超出了预期。",
-      "level": "6.0+"
-    },
-    {
-      "word": "monitor",
-      "phonetic": "/ˈmɒnɪtər/",
-      "chinese": "监控",
-      "englishDef": "To observe and check over a period of time",
-      "example": "We constantly monitor air quality.",
-      "exampleTrans": "我们持续监控空气质量。",
-      "level": "6.0+"
-    },
-    {
-      "word": "modify",
-      "phonetic": "/ˈmɒdɪfaɪ/",
-      "chinese": "修改",
-      "englishDef": "To make partial changes to something",
-      "example": "We need to modify the original plan.",
-      "exampleTrans": "我们需要修改原计划。",
-      "level": "6.0+"
-    },
-    {
-      "word": "feasible",
-      "phonetic": "/ˈfiːzəbl/",
-      "chinese": "可行的",
-      "englishDef": "Possible and practical to do easily",
-      "example": "The plan seems feasible within our budget.",
-      "exampleTrans": "这个计划在我们的预算内似乎是可行的。",
+      "word": "perceive",
+      "phonetic": "/pəˈsiːv/",
+      "chinese": "感知",
+      "englishDef": "To become aware through senses",
+      "example": "How do you perceive this situation?",
+      "exampleTrans": "你如何看待这种情况？",
       "level": "7.0+"
     },
     {
-      "word": "criteria",
-      "phonetic": "/kraɪˈtɪəriə/",
-      "chinese": "标准",
-      "englishDef": "Principles or standards by which things are judged",
-      "example": "What criteria will you use to evaluate candidates?",
-      "exampleTrans": "你将使用什么标准来评估候选人？",
+      "word": "negate",
+      "phonetic": "/nɪˈɡeɪt/",
+      "chinese": "否定",
+      "englishDef": "To nullify or make ineffective",
+      "example": "Poor planning can negate all efforts.",
+      "exampleTrans": "糟糕的计划会否定所有努力。",
+      "level": "7.5+"
+    },
+    {
+      "word": "innovative",
+      "phonetic": "/ˈɪnəveɪtɪv/",
+      "chinese": "创新的",
+      "englishDef": "Featuring new methods or ideas",
+      "example": "The company is known for its innovative products.",
+      "exampleTrans": "该公司以其创新产品而闻名。",
       "level": "6.5+"
     },
     {
-      "word": "speculate",
-      "phonetic": "/ˈspekjuleɪt/",
-      "chinese": "推测",
-      "englishDef": "To form a theory without firm evidence",
-      "example": "Experts speculate about the cause.",
-      "exampleTrans": "专家们推测原因。",
+      "word": "aggregate",
+      "phonetic": "/ˈæɡrɪɡət/",
+      "chinese": "总计",
+      "englishDef": "Formed or calculated by combining many items",
+      "example": "The aggregate score was 250.",
+      "exampleTrans": "总分为250分。",
       "level": "7.0+"
     },
     {
-      "word": "attribute",
-      "phonetic": "/əˈtrɪbjuːt/",
-      "chinese": "归因于",
-      "englishDef": "To regard something as resulting from",
-      "example": "She attributes her success to hard work.",
-      "exampleTrans": "她把她的成功归因于努力工作。",
+      "word": "ambiguous",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "chinese": "模糊的",
+      "englishDef": "Having more than one possible meaning",
+      "example": "His answer was ambiguous and confusing.",
+      "exampleTrans": "他的回答模棱两可，令人困惑。",
+      "level": "7.0+"
+    },
+    {
+      "word": "ethical",
+      "phonetic": "/ˈeθɪkl/",
+      "chinese": "道德的",
+      "englishDef": "Relating to moral principles",
+      "example": "Is it ethical to conduct this experiment?",
+      "exampleTrans": "进行这个实验是否符合道德？",
       "level": "6.5+"
+    },
+    {
+      "word": "relevant",
+      "phonetic": "/ˈreləvənt/",
+      "chinese": "相关的",
+      "englishDef": "Closely connected or appropriate",
+      "example": "Please provide relevant examples.",
+      "exampleTrans": "请提供相关例子。",
+      "level": "6.0+"
+    },
+    {
+      "word": "sufficient",
+      "phonetic": "/səˈfɪʃnt/",
+      "chinese": "充足的",
+      "englishDef": "Enough for a particular purpose",
+      "example": "Is this amount sufficient?",
+      "exampleTrans": "这个数量足够吗？",
+      "level": "6.0+"
+    },
+    {
+      "word": "magnitude",
+      "phonetic": "/ˈmæɡnɪtjuːd/",
+      "chinese": "规模",
+      "englishDef": "The great size or extent of something",
+      "example": "The magnitude of the problem became clear.",
+      "exampleTrans": "问题的规模变得清晰了。",
+      "level": "7.5+"
+    },
+    {
+      "word": "predominant",
+      "phonetic": "/prɪˈdɒmɪnənt/",
+      "chinese": "主要的",
+      "englishDef": "Present as the strongest or main element",
+      "example": "English is the predominant language in business.",
+      "exampleTrans": "英语是商业中的主要语言。",
+      "level": "7.5+"
     }
   ]
 }
