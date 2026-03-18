@@ -1,8 +1,26 @@
 {
-  "date": "2026-03-17",
-  "updatedAt": "2026-03-17T00:02:38.343Z",
+  "date": "2026-03-18",
+  "updatedAt": "2026-03-18T00:04:36.893Z",
   "totalVocab": 130,
   "words": [
+    {
+      "word": "vulnerable",
+      "phonetic": "/ˈvʌlnərəbl/",
+      "chinese": "脆弱的",
+      "englishDef": "Exposed to the possibility of harm",
+      "example": "Children are particularly vulnerable to disease.",
+      "exampleTrans": "儿童特别容易受到疾病的侵害。",
+      "level": "6.5+"
+    },
+    {
+      "word": "implement",
+      "phonetic": "/ˈɪmplɪment/",
+      "chinese": "实施",
+      "englishDef": "To put a plan or system into operation",
+      "example": "The government will implement new policies.",
+      "exampleTrans": "政府将实施新政策。",
+      "level": "6.5+"
+    },
     {
       "word": "perceive",
       "phonetic": "/pəˈsiːv/",
@@ -13,85 +31,67 @@
       "level": "7.0+"
     },
     {
-      "word": "negate",
-      "phonetic": "/nɪˈɡeɪt/",
-      "chinese": "否定",
-      "englishDef": "To nullify or make ineffective",
-      "example": "Poor planning can negate all efforts.",
-      "exampleTrans": "糟糕的计划会否定所有努力。",
-      "level": "7.5+"
-    },
-    {
-      "word": "innovative",
-      "phonetic": "/ˈɪnəveɪtɪv/",
-      "chinese": "创新的",
-      "englishDef": "Featuring new methods or ideas",
-      "example": "The company is known for its innovative products.",
-      "exampleTrans": "该公司以其创新产品而闻名。",
+      "word": "fundamental",
+      "phonetic": "/ˌfʌndəˈmentl/",
+      "chinese": "基本的",
+      "englishDef": "Forming a necessary base or core",
+      "example": "Reading is a fundamental skill.",
+      "exampleTrans": "阅读是一项基本技能。",
       "level": "6.5+"
     },
     {
-      "word": "aggregate",
-      "phonetic": "/ˈæɡrɪɡət/",
-      "chinese": "总计",
-      "englishDef": "Formed or calculated by combining many items",
-      "example": "The aggregate score was 250.",
-      "exampleTrans": "总分为250分。",
-      "level": "7.0+"
-    },
-    {
-      "word": "ambiguous",
-      "phonetic": "/æmˈbɪɡjuəs/",
-      "chinese": "模糊的",
-      "englishDef": "Having more than one possible meaning",
-      "example": "His answer was ambiguous and confusing.",
-      "exampleTrans": "他的回答模棱两可，令人困惑。",
-      "level": "7.0+"
-    },
-    {
-      "word": "ethical",
-      "phonetic": "/ˈeθɪkl/",
-      "chinese": "道德的",
-      "englishDef": "Relating to moral principles",
-      "example": "Is it ethical to conduct this experiment?",
-      "exampleTrans": "进行这个实验是否符合道德？",
+      "word": "initiate",
+      "phonetic": "/ɪˈnɪʃieɪt/",
+      "chinese": "发起",
+      "englishDef": "To cause a process to begin",
+      "example": "Who initiated this project?",
+      "exampleTrans": "谁发起了这个项目？",
       "level": "6.5+"
     },
     {
-      "word": "relevant",
-      "phonetic": "/ˈreləvənt/",
-      "chinese": "相关的",
-      "englishDef": "Closely connected or appropriate",
-      "example": "Please provide relevant examples.",
-      "exampleTrans": "请提供相关例子。",
+      "word": "capacity",
+      "phonetic": "/kəˈpæsəti/",
+      "chinese": "能力",
+      "englishDef": "The maximum amount that something can contain or produce",
+      "example": "The stadium has a capacity of 50,000 people.",
+      "exampleTrans": "这个体育场可以容纳5万人。",
       "level": "6.0+"
     },
     {
-      "word": "sufficient",
-      "phonetic": "/səˈfɪʃnt/",
-      "chinese": "充足的",
-      "englishDef": "Enough for a particular purpose",
-      "example": "Is this amount sufficient?",
-      "exampleTrans": "这个数量足够吗？",
-      "level": "6.0+"
+      "word": "comprehensive",
+      "phonetic": "/ˌkɒmprɪˈhensɪv/",
+      "chinese": "全面的",
+      "englishDef": "Including all or nearly all elements",
+      "example": "The report provides a comprehensive analysis.",
+      "exampleTrans": "这份报告提供了全面的分析。",
+      "level": "6.5+"
     },
     {
-      "word": "magnitude",
-      "phonetic": "/ˈmæɡnɪtjuːd/",
-      "chinese": "规模",
-      "englishDef": "The great size or extent of something",
-      "example": "The magnitude of the problem became clear.",
-      "exampleTrans": "问题的规模变得清晰了。",
-      "level": "7.5+"
+      "word": "compelling",
+      "phonetic": "/kəmˈpelɪŋ/",
+      "chinese": "令人信服的",
+      "englishDef": "Evoking interest or attention",
+      "example": "The evidence was compelling enough to convince the jury.",
+      "exampleTrans": "证据足够令人信服，说服了陪审团。",
+      "level": "6.5+"
     },
     {
-      "word": "predominant",
-      "phonetic": "/prɪˈdɒmɪnənt/",
-      "chinese": "主要的",
-      "englishDef": "Present as the strongest or main element",
-      "example": "English is the predominant language in business.",
-      "exampleTrans": "英语是商业中的主要语言。",
-      "level": "7.5+"
+      "word": "yield",
+      "phonetic": "/jiːld/",
+      "chinese": "产出",
+      "englishDef": "To produce or provide",
+      "example": "The investment yielded good returns.",
+      "exampleTrans": "这项投资产生了良好的回报。",
+      "level": "6.5+"
+    },
+    {
+      "word": "deficiency",
+      "phonetic": "/dɪˈfɪʃənsi/",
+      "chinese": "缺乏",
+      "englishDef": "A lack or shortage of something",
+      "example": "Vitamin D deficiency is common in winter.",
+      "exampleTrans": "冬季维生素D缺乏很常见。",
+      "level": "6.5+"
     }
   ]
 }
