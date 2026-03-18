@@ -1,678 +1,513 @@
 {
-  "generated_at": "2026-03-17 20:02:22 +08",
-  "generated_date": "2026-03-17",
-  "current_slot": "晚",
+  "generated_at": "2026-03-18 12:03:25 +08",
+  "generated_date": "2026-03-18",
+  "current_slot": "中",
   "slots_done": [
-    "早",
-    "晚"
+    "中"
   ],
   "sources": {
-    "中国": [
-      {
-        "title": "“打假人”质问黄天鹅：你怎么能把鸡蛋做得那么橙黄",
-        "link": "https://www.163.com/dy/article/KO64IHJ50512B07B.html",
-        "published": "2026-03-16 23:03",
-        "description": "",
-        "title_zh": "“打假人”质问黄天鹅：你怎么能把鸡蛋做得那么橙黄",
-        "title_en": "“打假人”质问黄天鹅：你怎么能把鸡蛋做得那么橙黄"
-      },
-      {
-        "title": "浙江一咖啡店推出＂童子尿蛋咖啡＂ 店家:周末日售百杯",
-        "link": "https://www.163.com/dy/article/KO64IGE6051492T3.html",
-        "published": "2026-03-16 23:03",
-        "description": "",
-        "title_zh": "浙江一咖啡店推出＂童子尿蛋咖啡＂ 店家:周末日售百杯",
-        "title_en": "浙江一咖啡店推出＂童子尿蛋咖啡＂ 店家:周末日售百杯"
-      },
-      {
-        "title": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文",
-        "link": "https://www.163.com/dy/article/KO62I1CC05561G0D.html",
-        "published": "2026-03-16 22:03",
-        "description": "",
-        "title_zh": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文",
-        "title_en": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文"
-      },
-      {
-        "title": "51岁货车司机升降车厢时触电身亡 上方有10千伏高压线",
-        "link": "https://www.163.com/dy/article/KO6023NP053469LG.html",
-        "published": "2026-03-16 21:03",
-        "description": "",
-        "title_zh": "51岁货车司机升降车厢时触电身亡 上方有10千伏高压线",
-        "title_en": "51岁货车司机升降车厢时触电身亡 上方有10千伏高压线"
-      },
-      {
-        "title": "李亚鹏揭秘微博名＂一号立井＂由来：父亲曾是矿上电工",
-        "link": "https://www.163.com/dy/article/KO5SIM0O053469LG.html",
-        "published": "2026-03-16 20:03",
-        "description": "",
-        "title_zh": "李亚鹏揭秘微博名＂一号立井＂由来：父亲曾是矿上电工",
-        "title_en": "李亚鹏揭秘微博名＂一号立井＂由来：父亲曾是矿上电工"
-      },
-      {
-        "title": "郑丽文称岛内民意＂风向在变＂:民进党洗脑假象已被拆穿",
-        "link": "https://www.163.com/dy/article/KO5FJSB60514BQ68.html",
-        "published": "2026-03-16 20:03",
-        "description": "",
-        "title_zh": "郑丽文称岛内民意＂风向在变＂:民进党洗脑假象已被拆穿",
-        "title_en": "郑丽文称岛内民意＂风向在变＂:民进党洗脑假象已被拆穿"
-      },
-      {
-        "title": "女子拍写真选＂188套餐＂却花3万 商家拒退款:明码标价",
-        "link": "https://www.163.com/dy/article/KO5QRCC2051492T3.html",
-        "published": "2026-03-16 20:03",
-        "description": "",
-        "title_zh": "女子拍写真选＂188套餐＂却花3万 商家拒退款:明码标价",
-        "title_en": "女子拍写真选＂188套餐＂却花3万 商家拒退款:明码标价"
-      },
-      {
-        "title": "贝壳2025年经调整净利润50.17亿元 同比下降30.4%",
-        "link": "https://www.163.com/dy/article/KO5MBVLL05198CJN.html",
-        "published": "2026-03-16 19:03",
-        "description": "",
-        "title_zh": "贝壳2025年经调整净利润50.17亿元 同比下降30.4%",
-        "title_en": "贝壳2025年经调整净利润50.17亿元 同比下降30.4%"
-      },
-      {
-        "title": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国",
-        "link": "https://www.163.com/dy/article/KO5HNJVB0550B6IS.html",
-        "published": "2026-03-16 18:03",
-        "description": "",
-        "title_zh": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国",
-        "title_en": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国"
-      },
-      {
-        "title": "30天27万元 卖猪蹄老板拿下太昊陵庙会网红C位摊位",
-        "link": "https://www.163.com/dy/article/KO5J858A053469LG.html",
-        "published": "2026-03-16 18:03",
-        "description": "",
-        "title_zh": "30天27万元 卖猪蹄老板拿下太昊陵庙会网红C位摊位",
-        "title_en": "30天27万元 卖猪蹄老板拿下太昊陵庙会网红C位摊位"
-      },
-      {
-        "title": "姚晨官宣离婚 去年6月曾发声恭喜曹郁",
-        "link": "https://www.163.com/dy/article/KO5HCQLG055040N3.html",
-        "published": "2026-03-16 17:03",
-        "description": "",
-        "title_zh": "姚晨官宣离婚 去年6月曾发声恭喜曹郁",
-        "title_en": "姚晨官宣离婚 去年6月曾发声恭喜曹郁"
-      },
-      {
-        "title": "上海：商业用房购房贷款最低首付款比例不低于30%",
-        "link": "https://www.163.com/dy/article/KO5GVR4Q05198CJN.html",
-        "published": "2026-03-16 17:03",
-        "description": "",
-        "title_zh": "上海：商业用房购房贷款最低首付款比例不低于30%",
-        "title_en": "上海：商业用房购房贷款最低首付款比例不低于30%"
-      },
-      {
-        "title": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新",
-        "link": "https://www.163.com/dy/article/KO5GKQSC05561G0D.html",
-        "published": "2026-03-16 17:03",
-        "description": "",
-        "title_zh": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新",
-        "title_en": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新"
-      },
-      {
-        "title": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破",
-        "link": "https://www.163.com/dy/article/KO56Q71H051492T3.html",
-        "published": "2026-03-16 15:03",
-        "description": "",
-        "title_zh": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破",
-        "title_en": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破"
-      },
-      {
-        "title": "妻子频繁回娘家称丈夫隐瞒重大疾病 丈夫：婚后才知道",
-        "link": "https://www.163.com/news/article/KO577QQI0001899O.html",
-        "published": "2026-03-16 14:03",
-        "description": "",
-        "title_zh": "妻子频繁回娘家称丈夫隐瞒重大疾病 丈夫：婚后才知道",
-        "title_en": "妻子频繁回娘家称丈夫隐瞒重大疾病 丈夫：婚后才知道"
-      },
-      {
-        "title": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂",
-        "link": "https://www.163.com/dy/article/KO56Q73M051492T3.html",
-        "published": "2026-03-16 15:03",
-        "description": "",
-        "title_zh": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂",
-        "title_en": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂"
-      }
-    ],
+    "中国": [],
     "美国（欧美媒体）": [
       {
-        "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-        "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-17 01:34",
-        "description": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
-        "title_en": "Wary allies show there's no quick fix to Trump's Iran crisis",
-        "title_zh": "警惕的盟友表明特朗普的伊朗危机没有快速解决办法"
+        "title": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
+        "link": "https://www.bbc.com/news/articles/cg4g66r3z40o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 10:12",
+        "description": "National Counterterrorism Center Director Joe Kent says Trump \"started this war due to pressure from Israel and its powerful American lobby\".",
+        "title_en": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
+        "title_zh": "美国高级反恐官员因伊朗战争辞职，敦促特朗普“扭转路线”"
       },
       {
-        "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-        "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 14:10",
-        "description": "Companies allowed more harmful content on user’s feeds, knowing their algorithms ran on outrage, BBC hears.",
-        "title_en": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-        "title_zh": "举报人称，在有证据表明愤怒推动了参与度之后，Meta 和 TikTok 任由有害内容增加"
+        "title": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+        "link": "https://www.bbc.com/news/articles/cgqgxqekp89o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 05:43",
+        "description": "Larijani has long been seen as one of the Islamic Republic's most experienced and influential policy makers.",
+        "title_en": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+        "title_zh": "阿里·拉里贾尼之死加深了伊朗领导层的核心危机"
       },
       {
-        "title": "Iran hits key UAE oil port and Dubai airport",
-        "link": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 20:43",
-        "description": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
-        "title_en": "Iran hits key UAE oil port and Dubai airport",
-        "title_zh": "伊朗袭击阿联酋主要石油港口和迪拜机场"
+        "title": "Total repression and air strikes bring unrelenting dread for Iranians",
+        "link": "https://www.bbc.com/news/articles/cn9e0wrglgdo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 08:07",
+        "description": "Tehran residents tell the BBC they're caught between US-Israeli bombing and an Iranian regime trying to reassert its power.",
+        "title_en": "Total repression and air strikes bring unrelenting dread for Iranians",
+        "title_zh": "全面镇压和空袭给伊朗人带来无休无止的恐惧"
       },
       {
-        "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-        "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-17 01:57",
-        "description": "Khaled Bani Odeh's parents and two brothers were shot dead as they drove home from a shopping trip in the occupied West Bank.",
-        "title_en": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-        "title_zh": "“我母亲最后一次哭了”：12 岁的巴勒斯坦男孩描述以色列军队如何在车里杀害他的家人"
+        "title": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
+        "link": "https://www.bbc.com/news/articles/c33j3ne2mjlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 02:55",
+        "description": "King Felipe appears to have helped thaw frosty relations with Mexico while reviving a fierce debate over events 500 years ago.",
+        "title_en": "Spanish king reopens debate on conquest of Mexico by acknowledging 'abuse'",
+        "title_zh": "西班牙国王承认“虐待”，重新开启关于征服墨西哥的辩论"
       },
       {
-        "title": "How US groups are driving a new generation of anti-abortion activism in the UK",
-        "link": "https://www.bbc.com/news/articles/cx2dl5j0w23o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 08:31",
-        "description": "The killing of Charlie Kirk galvanised a transatlantic campaign against abortion. But will it succeed in shifting Britain's pro-choice consensus?",
-        "title_en": "How US groups are driving a new generation of anti-abortion activism in the UK",
-        "title_zh": "美国团体如何在英国推动新一代反堕胎活动"
+        "title": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+        "link": "https://www.bbc.com/news/articles/ckg1kgz6wkgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 02:45",
+        "description": "The exact number killed in Monday night's strike by Pakistan is still not known, but is feared to be in the hundreds.",
+        "title_en": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+        "title_zh": "幸存者告诉英国广播公司，空袭袭击了喀布尔康复中心，患者正在吃晚饭"
       },
       {
-        "title": "UN receives reports alleging torture of detainees in Venezuela continues",
-        "link": "https://www.bbc.com/news/articles/c0e5v9n1qqwo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-17 03:08",
-        "description": "The UN is deeply concerned by allegations there have been incidents of torture after Nicolás Maduro's ouster.",
-        "title_en": "UN receives reports alleging torture of detainees in Venezuela continues",
-        "title_zh": "联合国收到报告称委内瑞拉继续对被拘留者施以酷刑"
+        "title": "Chile's president begins building border barrier less than week into term",
+        "link": "https://www.bbc.com/news/articles/cvg1227k00eo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 23:49",
+        "description": "José Antonio Kast visited the ditch - a few feet wide and deep - on Monday, calling it a \"milestone\".",
+        "title_en": "Chile's president begins building border barrier less than week into term",
+        "title_zh": "智利总统上任不到一周就开始修建边境屏障"
       },
       {
-        "title": "Whistleblower murder suspect is former elite officer, South African police say",
-        "link": "https://www.bbc.com/news/articles/czr05nz3dp8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 20:36",
-        "description": "Marius van der Merwe was shot dead three weeks after accusing police officers of killing a robbery suspect.",
-        "title_en": "Whistleblower murder suspect is former elite officer, South African police say",
-        "title_zh": "南非警方称，举报人谋杀嫌疑人是前精英军官"
+        "title": "India's cheap weight-loss drugs could reshape global obesity fight",
+        "link": "https://www.bbc.com/news/articles/cx2g4411en3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 08:30",
+        "description": "With India’s semaglutide patent expiring on 20 March, about 50 branded generics are expected to enter the market.",
+        "title_en": "India's cheap weight-loss drugs could reshape global obesity fight",
+        "title_zh": "印度廉价减肥药可能重塑全球肥胖斗争"
       },
       {
-        "title": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-        "link": "https://www.bbc.com/news/articles/cev7rdwmky9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 22:09",
-        "description": "Some 1,000 Kenyans are believed to have recruited to fight in Ukraine - many say they were lured under false pretences.",
-        "title_en": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-        "title_zh": "肯尼亚表示，俄罗斯同意停止在乌克兰冲突中使用肯尼亚新兵"
+        "title": "Italy warns Russian tanker could explode in Mediterranean at any time",
+        "link": "https://www.bbc.com/news/articles/cn9e9dxw3e1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 03:21",
+        "description": "Italy is one of nine EU countries urging the European Commission to act over the Arctic Metagaz, drifting out of control in the Mediterranean Sea.",
+        "title_en": "Italy warns Russian tanker could explode in Mediterranean at any time",
+        "title_zh": "意大利警告俄罗斯油轮随时可能在地中海爆炸"
       },
       {
-        "title": "Ecuador deploys 75,000 soldiers and police to combat drug gangs",
-        "link": "https://www.bbc.com/news/articles/cp32vy321r7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 19:58",
-        "description": "Citizens of the most violent-wracked provinces have been warned the government is \"at war\" with the gangs.",
-        "title_en": "Ecuador deploys 75,000 soldiers and police to combat drug gangs",
-        "title_zh": "厄瓜多尔部署75,000名士兵和警察打击贩毒团伙"
+        "title": "US Attorney General Bondi formally summoned to Congress in Epstein case",
+        "link": "https://www.bbc.com/news/articles/cwyky51jwl0o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 02:59",
+        "description": "It comes weeks after a Republican lawmaker accused the justice department of a \"cover-up\" in releasing the Epstein files.",
+        "title_en": "US Attorney General Bondi formally summoned to Congress in Epstein case",
+        "title_zh": "美国司法部长邦迪因爱泼斯坦案被正式传唤至国会"
       },
       {
-        "title": "French national jailed for 10 years in Azerbaijan for spying",
-        "link": "https://www.bbc.com/news/articles/c2lr5j84gd1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 19:47",
-        "description": "Martin Ryan was accused of collecting secret information about Baku's military co-operation with Turkey and Pakistan.",
-        "title_en": "French national jailed for 10 years in Azerbaijan for spying",
-        "title_zh": "法国国民因间谍罪在阿塞拜疆被判入狱 10 年"
+        "title": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+        "link": "https://www.bbc.com/news/articles/cwy98qnpg1jo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 00:10",
+        "description": "Moldova has imposed a 15-day state of alert in the Dniester river basin as a precaution.",
+        "title_en": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+        "title_zh": "俄罗斯袭击乌克兰石油泄漏导致摩尔多瓦供水中断"
       },
       {
-        "title": "Ten killed in fire at India hospital intensive care unit",
-        "link": "https://www.bbc.com/news/articles/c363gpe3exjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 13:41",
-        "description": "All the victims of the fire in Odisha state are patients, and 11 hospital staff are being treated for burns.",
-        "title_en": "Ten killed in fire at India hospital intensive care unit",
-        "title_zh": "印度医院重症监护室发生火灾 10人死亡"
+        "title": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
+        "link": "https://www.bbc.com/news/articles/c4g8n7e0l40o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 20:38",
+        "description": "Some of the bodies were injured beyond recognition, forensic laboratory sources told the BBC.",
+        "title_en": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
+        "title_zh": "巴基斯坦空袭喀布尔戒毒中心造成至少100人死亡"
       },
       {
-        "title": "Ukraine's urgent fight on the financial frontline",
-        "link": "https://www.bbc.com/news/articles/c20jyngz7ygo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 08:06",
-        "description": "The war-torn country is battling to secure crucial funding from the IMF and EU, as well as putting up taxes.",
-        "title_en": "Ukraine's urgent fight on the financial frontline",
-        "title_zh": "Ukraine's urgent fight on the financial frontline"
+        "title": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+        "link": "https://www.bbc.com/news/articles/cpd8w5y0dpdo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 12:41",
+        "description": "Hours after winning best actor, Jordan joins an exclusive list of famous faces to celebrate an Oscar victory with a burger.",
+        "title_en": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+        "title_zh": "汉堡送给...迈克尔·B·乔丹 (Michael B Jordan) 在 In-N-Out 上赢得奥斯卡奖"
       },
       {
-        "title": "Sweden detains captain of Russian shadow fleet ship",
-        "link": "https://www.bbc.com/news/articles/cpqwg0yej04o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 02:40",
-        "description": "The skipper of the Sea Owl One is suspected of producing forged documents when it was boarded by coast guard.",
-        "title_en": "Sweden detains captain of Russian shadow fleet ship",
-        "title_zh": "瑞典拘留俄罗斯影子舰队船长"
+        "title": "Utah mother who wrote book about grief found guilty of poisoning husband",
+        "link": "https://www.bbc.com/news/articles/cdxg1nx2r61o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 09:14",
+        "description": "A jury found that Kouri Richins killed her husband in March 2022 by poisoning him with a fentanyl-laced drink.",
+        "title_en": "Utah mother who wrote book about grief found guilty of poisoning husband",
+        "title_zh": "犹他州母亲写了一本关于悲伤的书，被判毒害丈夫"
       },
       {
-        "title": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-        "link": "https://www.bbc.com/news/articles/clygdwqw5dvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 12:43",
-        "description": "Residents describe new security checkpoints around the capital, where they say people are stopped and searched.",
-        "title_en": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-        "title_zh": "德黑兰居民告诉 BBC，伊朗正在采取措施防止反建制抗议活动"
+        "title": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+        "link": "https://www.bbc.com/news/articles/cm28ldvj3jvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 21:31",
+        "description": "These reports harm attempts to close the wide gender representation gap in Zambia, activists say.",
+        "title_en": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+        "title_zh": "官员称，有抱负的赞比亚女政客被要求提供性好处"
       },
       {
-        "title": "Far-left and far-right gains throw French mainstream parties into a quandary",
-        "link": "https://www.bbc.com/news/articles/c8r17knnz5vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 18:46",
-        "description": "Awkward choices emerge for mainstream parties after the first round of mayoral elections.",
-        "title_en": "Far-left and far-right gains throw French mainstream parties into a quandary",
-        "title_zh": "极左和极右势力的崛起让法国主流政党陷入困境"
+        "title": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+        "link": "https://www.bbc.com/news/articles/c4g5n58rlnzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 12:17",
+        "description": "This is the latest in a series of measures undertaken by Asian countries which rely on oil from the Gulf.",
+        "title_en": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+        "title_zh": "亚洲国家努力节省燃料 斯里兰卡宣布周三休息"
       },
       {
-        "title": "'We will go wherever they hide': Rooting out IS in Somalia",
-        "link": "https://www.bbc.com/news/articles/cj32d8e2m5eo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 08:05",
-        "description": "Somalia became a key part of IS's global network after fighters were driven out of strongholds in Syria and Iraq.",
-        "title_en": "'We will go wherever they hide': Rooting out IS in Somalia",
-        "title_zh": "“他们躲在哪里我们就去哪里”：在索马里铲除伊斯兰国"
+        "title": "Iranian security chief Ali Larijani killed in air strike",
+        "link": "https://www.bbc.com/news/articles/c24deezq6meo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 06:49",
+        "description": "His death is confirmed on state TV, alongside that of another senior figure, Gholamreza Soleimani",
+        "title_en": "Iranian security chief Ali Larijani killed in air strike",
+        "title_zh": "伊朗安全局长阿里·拉里贾尼在空袭中丧生"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Pro-Palestine protester Leqaa Kordia freed from US immigration detention",
-        "link": "https://www.aljazeera.com/news/2026/3/16/pro-palestine-protester-leqaa-kordia-freed-from-us-immigration-detention?traffic_source=rss",
-        "published": "2026-03-17 07:39",
-        "description": "The 33-year-old Columbia University protester had been held in immigration detention centre for a year.",
-        "title_en": "Pro-Palestine protester Leqaa Kordia freed from US immigration detention",
-        "title_zh": "亲巴勒斯坦抗议者 Leqaa Kordia 从美国移民拘留所获释"
+        "title": "Drone attacks hit near US embassy in Baghdad",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/drone-attacks-hit-near-us-embassy-in-baghdad?traffic_source=rss",
+        "published": "2026-03-18 11:26",
+        "description": "Fires have broken out in Baghdad’s Green Zone after a drone swarm, purportedly launched by Iran-aligned groups.",
+        "title_en": "Drone attacks hit near US embassy in Baghdad",
+        "title_zh": "美国驻巴格达大使馆附近遭遇无人机袭击"
       },
       {
-        "title": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
-        "link": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted?traffic_source=rss",
-        "published": "2026-03-17 07:00",
-        "description": "No group has claimed responsibility for the attacks, which took place amid the escalating Israel-US war on Iran.",
-        "title_en": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
-        "title_zh": "伊拉克首都巴格达酒店遭袭，美国大使馆袭击事件被拦截"
+        "title": "Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/experts-discuss-israeli-strategy-in-killing-of-senior-iran-official-ali-l?traffic_source=rss",
+        "published": "2026-03-18 10:57",
+        "description": "Ross Harrison joins a panel on what the US and Israel are seeking with their killing of senior Iranian leaders.",
+        "title_en": "Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L",
+        "title_zh": "专家讨论杀害伊朗高级官员阿里·L的“以色列战略”"
       },
       {
-        "title": "Trump claims strikes on Iran prevented nuclear war",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/trump-claims-strikes-on-iran-prevented-nuclear-war?traffic_source=rss",
-        "published": "2026-03-17 06:34",
-        "description": "Donald Trump claimed he ordered strikes on Iran to prevent a nuclear conflict that would have turned into World War III.",
-        "title_en": "Trump claims strikes on Iran prevented nuclear war",
-        "title_zh": "特朗普声称对伊朗的打击阻止了核战争"
+        "title": "‘We’ll be doing something with Cuba very soon’, Trump says",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/well-be-doing-something-with-cuba-very-soon-trump-says?traffic_source=rss",
+        "published": "2026-03-18 10:46",
+        "description": "While waging war on Iran, the US president and his secretary of state are demanding a leadership change in Cuba.",
+        "title_en": "‘We’ll be doing something with Cuba very soon’, Trump says",
+        "title_zh": "特朗普表示，“我们很快就会与古巴合作”"
       },
       {
-        "title": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
-        "link": "https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war?traffic_source=rss",
-        "published": "2026-03-17 06:25",
-        "description": "The US president delays March 31-April 2 trip to China to focus on the escalating war against Iran.",
-        "title_en": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
-        "title_zh": "由于伊朗战争，特朗普寻求将与中国习近平的会面推迟“一个月左右”"
+        "title": "Iran allowing more ships through Strait of Hormuz, data suggest",
+        "link": "https://www.aljazeera.com/economy/2026/3/18/iran-allowing-more-ships-through-strait-of-hormuz-data-shows?traffic_source=rss",
+        "published": "2026-03-18 10:22",
+        "description": "Number of ships transiting Strait of Hormuz has nearly doubled in recent days, maritime intelligence company says.",
+        "title_en": "Iran allowing more ships through Strait of Hormuz, data suggest",
+        "title_zh": "数据显示伊朗允许更多船只通过霍尔木兹海峡"
       },
       {
-        "title": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fourth-world-nation-trump-slams-somalia-ilhan-omar?traffic_source=rss",
-        "published": "2026-03-17 05:16",
-        "description": "Speaking at the Oval office, US President Donald Trump stated that Somalia is a “fourth world nation.”",
-        "title_en": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
-        "title_zh": "“第四世界国家”：特朗普猛烈抨击索马里伊尔汗·奥马尔"
+        "title": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+        "link": "https://www.aljazeera.com/news/2026/3/18/over-200-ukrainian-military-experts-in-gulf-region-to-counter-irans-drones?traffic_source=rss",
+        "published": "2026-03-18 09:58",
+        "description": "Ukraine President Zelenskyy says Moscow, Tehran &#039;brothers in hatred&#039;; claims Iran&#039;s drones &#039;contain Russian components&#039;.",
+        "title_en": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+        "title_zh": "200多名乌克兰军事专家前往海湾地区对抗伊朗无人机"
       },
       {
-        "title": "Ten ICU patients killed in hospital fire in eastern India",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/ten-icu-patients-killed-in-hospital-fire-in-eastern-india?traffic_source=rss",
-        "published": "2026-03-17 05:01",
-        "description": "Emergency responders carried patients out of a government hospital in Odisha, India.",
-        "title_en": "Ten ICU patients killed in hospital fire in eastern India",
-        "title_zh": "印度东部医院火灾 10 名 ICU 患者丧生"
+        "title": "Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs",
+        "link": "https://www.aljazeera.com/news/2026/3/18/xi-jinpings-anticorruption-drive-sweeps-up-senior-chinese-military-chiefs?traffic_source=rss",
+        "published": "2026-03-18 09:41",
+        "description": "Experts say rooting out corruption in the military remains a priority for China&#039;s President Xi.",
+        "title_en": "Xi Jinping’s anticorruption drive sweeps up senior Chinese military chiefs",
+        "title_zh": "习近平的反腐败运动席卷了中国高级军事领导人"
       },
       {
-        "title": "Who is answering Trump’s call for help with Strait of Hormuz?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/who-is-answering-trumps-call-for-help-with-strait-of-hormuz?traffic_source=rss",
-        "published": "2026-03-17 05:00",
-        "description": "Trump has criticised the response to his call to help protect shipping in the Strait of Hormuz during the war on Iran.",
-        "title_en": "Who is answering Trump’s call for help with Strait of Hormuz?",
-        "title_zh": "谁在回应特朗普在霍尔木兹海峡问题上的求助？"
+        "title": "Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
+        "link": "https://www.aljazeera.com/news/2026/3/18/who-is-joe-kent-and-why-did-he-resign-as-trumps-counterterrorism-chief?traffic_source=rss",
+        "published": "2026-03-18 09:04",
+        "description": "Kent is the highest-level official to leave Trump administration over the US president&#039;s decision to wage war on Iran.",
+        "title_en": "Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
+        "title_zh": "乔·肯特是谁？他为何辞去特朗普反恐主管职务？"
       },
       {
-        "title": "Cuba electric grid collapses amid US oil blockade causing national blackout",
-        "link": "https://www.aljazeera.com/news/2026/3/16/cuba-electric-grid-collapses-amid-us-oil-blockade-causing-national-blackout?traffic_source=rss",
-        "published": "2026-03-17 04:45",
-        "description": "Cuba has not received oil shipments since early January amid US pressure, worsening humanitarian crisis on the island.",
-        "title_en": "Cuba electric grid collapses amid US oil blockade causing national blackout",
-        "title_zh": "美国石油封锁古巴电网崩溃导致全国停电"
+        "title": "Larijani’s warning to US, Israel before his killing",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/larijanis-warning-to-us-israel-before-his-killing?traffic_source=rss",
+        "published": "2026-03-18 08:52",
+        "description": "Ali Larijani, the late secretary of Iran’s SNSC, warned the US and Israeli that killing leaders would strengthen Iran.",
+        "title_en": "Larijani’s warning to US, Israel before his killing",
+        "title_zh": "拉里贾尼在被杀前向美国和以色列发出警告"
       },
       {
-        "title": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
-        "link": "https://www.aljazeera.com/news/2026/3/16/bbc-files-motion-asking-us-court-to-throw-out-trumps-10bn-lawsuit?traffic_source=rss",
-        "published": "2026-03-17 04:42",
-        "description": "US president sued BBC over &#039;Trump: A Second Chance?&#039;, seeking $5bn for defamation, $5bn for unfair trade practices.",
-        "title_en": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
-        "title_zh": "BBC提交动议要求美国法院驳回特朗普100亿美元的诉讼"
+        "title": "Burning debris from missile interceptions showers Dubai",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/burning-debris-from-missile-interceptions-showers-dubai?traffic_source=rss",
+        "published": "2026-03-18 08:50",
+        "description": "Witness videos captured missile interceptors launching and burning debris raining from the sky in Dubai.",
+        "title_en": "Burning debris from missile interceptions showers Dubai",
+        "title_zh": "导弹拦截燃烧的残骸洒落在迪拜"
       },
       {
-        "title": "How big of a problem is the Strait of Hormuz for Donald Trump?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/3/16/how-big-of-a-problem-is-the-strait-of-hormuz-for-donald-trump?traffic_source=rss",
-        "published": "2026-03-17 04:41",
-        "description": "US president frustrated with unenthusiastic response after appealing for help wresting control of key strait from Iran.",
-        "title_en": "How big of a problem is the Strait of Hormuz for Donald Trump?",
-        "title_zh": "霍尔木兹海峡对唐纳德·特朗普来说有多大问题？"
+        "title": "Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/18/iran-war-live-tehran-mourns-larijani-soleimani-two-killed-in-israel?traffic_source=rss",
+        "published": "2026-03-18 08:00",
+        "description": "Iran launches attacks on Israel, killing two, as Bahrain, Qatar, UAE, and Saudi Arabia intercept more missiles, drones.",
+        "title_en": "Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
+        "title_zh": "伊朗战争直播：德黑兰哀悼拉里贾尼、苏莱马尼；"
       },
       {
-        "title": "Hezbollah rocket hits a residential building in Israel’s Nahariya",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/hezbollah-rocket-hits-a-residential-building-in-israels-nahariya?traffic_source=rss",
-        "published": "2026-03-17 04:27",
-        "description": "Firefighters battled a blaze at a residential building in Nahariya, Israel after a Hezbollah rocket hit it.",
-        "title_en": "Hezbollah rocket hits a residential building in Israel’s Nahariya",
-        "title_zh": "真主党火箭弹击中以色列纳哈里亚的一栋住宅楼"
+        "title": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
+        "link": "https://www.aljazeera.com/video/quotable/2026/3/17/israel-killed-larijani-hoping-to-torpedo-chance-of-us-iran-talks?traffic_source=rss",
+        "published": "2026-03-18 07:57",
+        "description": "Marwan Bishara says Israel’s assassination of Larijani is calculated to prolong the war and bring about regime change.",
+        "title_en": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
+        "title_zh": "以色列杀害拉里贾尼希望“破坏”美伊会谈的机会"
       },
       {
-        "title": "Israeli forces in southern Lebanon as ground operation announced",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/israeli-forces-in-southern-lebanon-as-ground-operation-announced?traffic_source=rss",
-        "published": "2026-03-17 03:14",
-        "description": "Israeli forces attacked multiple towns in southern Lebanon after announcing “limited and targeted ground operations.&quot;",
-        "title_en": "Israeli forces in southern Lebanon as ground operation announced",
-        "title_zh": "以色列军队宣布在黎巴嫩南部开展地面行动"
+        "title": "Pakistan ‘strongly’ rejects claim it struck Kabul hospital",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/pakistan-strongly-rejects-claim-it-struck-kabul-hospital?traffic_source=rss",
+        "published": "2026-03-18 07:57",
+        "description": "Pakistan’s Minister for Information “strongly” rejects the claim Pakistan was behind an air strike on a Kabul hospital.",
+        "title_en": "Pakistan ‘strongly’ rejects claim it struck Kabul hospital",
+        "title_zh": "巴基斯坦“强烈”否认袭击喀布尔医院的说法"
       },
       {
-        "title": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
-        "link": "https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action?traffic_source=rss",
-        "published": "2026-03-17 02:53",
-        "description": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
-        "title_en": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
-        "title_zh": "特朗普称霍尔木兹海峡在盟友拒绝军事行动的情况下提供了帮助"
+        "title": "Families search for loved ones after deadly attack on Kabul hospital",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/families-search-for-loved-ones-after-deadly-attack-on-kabul-hospital?traffic_source=rss",
+        "published": "2026-03-18 07:56",
+        "description": "Family members have gathered by the rubble of a hospital in Kabul searching for their loved ones after an air attack.",
+        "title_en": "Families search for loved ones after deadly attack on Kabul hospital",
+        "title_zh": "喀布尔医院发生致命袭击后，家人正在寻找亲人"
       },
       {
-        "title": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
-        "link": "https://www.aljazeera.com/news/2026/3/16/outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody?traffic_source=rss",
-        "published": "2026-03-17 02:33",
-        "description": "Family, advocates call for full probe after Mohommad Nazeer Paktyawal dies less than 24 hours after being detained.",
-        "title_en": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
-        "title_zh": "与美国并肩作战的阿富汗寻求庇护者在 ICE 拘留期间死亡，引发愤怒"
+        "title": "Chile’s President Kast tosses out dozens of environmental protections",
+        "link": "https://www.aljazeera.com/news/2026/3/17/chiles-president-kast-tosses-out-dozens-of-environmental-protections?traffic_source=rss",
+        "published": "2026-03-18 07:28",
+        "description": "Chilean Environment Ministry suspends 43 measures touching on issues such as pollution, emissions and national parks.",
+        "title_en": "Chile’s President Kast tosses out dozens of environmental protections",
+        "title_zh": "智利总统卡斯特废除了数十项环境保护措施"
       },
       {
-        "title": "Indian farmers dress up as bears to protect crops from monkeys",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/indian-farmers-dress-up-as-bears-to-protect-crops-from-monkeys?traffic_source=rss",
-        "published": "2026-03-17 01:37",
-        "description": "Farmers in northern India are dressing up in bear costumes to protect their crops from monkeys.",
-        "title_en": "Indian farmers dress up as bears to protect crops from monkeys",
-        "title_zh": "印度农民装扮成熊保护农作物免受猴子侵害"
+        "title": "CAF strips Senegal of AFCON title, Morocco declared African champions",
+        "link": "https://www.aljazeera.com/sports/2026/3/17/caf-strips-senegal-of-afcon-title-morocco-declared-african-champions?traffic_source=rss",
+        "published": "2026-03-18 06:57",
+        "description": "Governing body&#039;s appeal board rules Senegal forfeited final after players walked off pitch over referring decision.",
+        "title_en": "CAF strips Senegal of AFCON title, Morocco declared African champions",
+        "title_zh": "非洲足联剥夺塞内加尔非洲杯冠军，摩洛哥宣布非洲冠军"
       },
       {
-        "title": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/civilians-pulled-from-rubble-after-us-israeli-strikes-on-tehran?traffic_source=rss",
-        "published": "2026-03-17 01:27",
-        "description": "Rescuers have pulled civilians from the rubble after a new wave of US-Israeli strikes targeted Tehran.",
-        "title_en": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-        "title_zh": "美以袭击德黑兰后，平民从废墟中被救出"
+        "title": "Ireland’s Micheal Martin and Trump in awkward St Patrick’s Day exchange",
+        "link": "https://www.aljazeera.com/news/2026/3/17/irelands-micheal-martin-and-trump-in-awkward-st-patricks-day-exchange?traffic_source=rss",
+        "published": "2026-03-18 06:53",
+        "description": "Ireland, which took strong stance on Gaza genocide, is similarly robust on Iran, but Martin is criticised for passivity.",
+        "title_en": "Ireland’s Micheal Martin and Trump in awkward St Patrick’s Day exchange",
+        "title_zh": "爱尔兰的迈克尔·马丁和特朗普在圣帕特里克节尴尬的交流"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Ten killed in fire at India hospital intensive care unit",
-      "event_hint_zh": "印度医院重症监护室发生火灾 10人死亡",
-      "event_hint_en": "Ten killed in fire at India hospital intensive care unit",
+      "event_hint": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
+      "event_hint_zh": "巴基斯坦空袭喀布尔戒毒中心造成至少100人死亡",
+      "event_hint_en": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Ten killed in fire at India hospital intensive care unit",
-        "link": "https://www.bbc.com/news/articles/c363gpe3exjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 13:41",
-        "description": "All the victims of the fire in Odisha state are patients, and 11 hospital staff are being treated for burns.",
-        "title_en": "Ten killed in fire at India hospital intensive care unit",
-        "title_zh": "印度医院重症监护室发生火灾 10人死亡"
+        "title": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
+        "link": "https://www.bbc.com/news/articles/c4g8n7e0l40o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 20:38",
+        "description": "Some of the bodies were injured beyond recognition, forensic laboratory sources told the BBC.",
+        "title_en": "Pakistan air strike kills at least 100 at Kabul drug rehab centre",
+        "title_zh": "巴基斯坦空袭喀布尔戒毒中心造成至少100人死亡"
       },
       "伊斯兰（半岛等）": {
-        "title": "Ten ICU patients killed in hospital fire in eastern India",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/ten-icu-patients-killed-in-hospital-fire-in-eastern-india?traffic_source=rss",
-        "published": "2026-03-17 05:01",
-        "description": "Emergency responders carried patients out of a government hospital in Odisha, India.",
-        "title_en": "Ten ICU patients killed in hospital fire in eastern India",
-        "title_zh": "印度东部医院火灾 10 名 ICU 患者丧生"
+        "title": "Pakistan ‘strongly’ rejects claim it struck Kabul hospital",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/pakistan-strongly-rejects-claim-it-struck-kabul-hospital?traffic_source=rss",
+        "published": "2026-03-18 07:57",
+        "description": "Pakistan’s Minister for Information “strongly” rejects the claim Pakistan was behind an air strike on a Kabul hospital.",
+        "title_en": "Pakistan ‘strongly’ rejects claim it struck Kabul hospital",
+        "title_zh": "巴基斯坦“强烈”否认袭击喀布尔医院的说法"
       },
-      "my_view": "欧美标题客观陈述事实；伊斯兰标题强调‘ICU患者’身份，隐含医疗系统脆弱性；中国媒体未报道，可能基于外交考量或新闻选择性。",
-      "summary": "印度医院ICU火灾致10名患者死亡，是一起医疗安全事故。"
+      "my_view": "欧美媒体直接陈述空袭事实，伊斯兰媒体强调巴基斯坦否认并突出医院属性，中国媒体暂未报道体现谨慎态度。三方差异体现在事实呈现、立场倾向与报道选择上。",
+      "summary": "巴基斯坦被指控空袭喀布尔戒毒中心致百人死亡，但巴方强烈否认，事件本质是跨境军事行动引发的争议性人道灾难。"
     },
     {
-      "event_hint": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-      "event_hint_zh": "“我母亲最后一次哭了”：12 岁的巴勒斯坦男孩描述以色列军队如何在车里杀害他的家人",
-      "event_hint_en": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-      "中国": {
-        "title": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂",
-        "link": "https://www.163.com/dy/article/KO56Q73M051492T3.html",
-        "published": "2026-03-16 15:03",
-        "description": "",
-        "title_zh": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂",
-        "title_en": "保卫科干事抓盗窃犯后被报复杀害 32年未能认定＂烈士＂"
-      },
-      "美国（欧美媒体）": {
-        "title": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-        "link": "https://www.bbc.com/news/articles/c70n2x7p22do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-17 01:57",
-        "description": "Khaled Bani Odeh's parents and two brothers were shot dead as they drove home from a shopping trip in the occupied West Bank.",
-        "title_en": "'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car",
-        "title_zh": "“我母亲最后一次哭了”：12 岁的巴勒斯坦男孩描述以色列军队如何在车里杀害他的家人"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Israeli forces in southern Lebanon as ground operation announced",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/israeli-forces-in-southern-lebanon-as-ground-operation-announced?traffic_source=rss",
-        "published": "2026-03-17 03:14",
-        "description": "Israeli forces attacked multiple towns in southern Lebanon after announcing “limited and targeted ground operations.&quot;",
-        "title_en": "Israeli forces in southern Lebanon as ground operation announced",
-        "title_zh": "以色列军队宣布在黎巴嫩南部开展地面行动"
-      },
-      "my_view": "中国报道转移焦点至国内社会事件，回避国际冲突；欧美报道突出巴勒斯坦平民视角，强调人道危机；伊斯兰报道转向地区军事动态，弱化具体悲剧。三方分别体现内宣导向、人权叙事与地缘政治框架。",
-      "summary": "以色列军队在冲突中杀害巴勒斯坦平民的家庭，不同媒体通过选题框架差异体现各自政治立场。"
-    },
-    {
-      "event_hint": "Wary allies show there's no quick fix to Trump's Iran crisis",
-      "event_hint_zh": "警惕的盟友表明特朗普的伊朗危机没有快速解决办法",
-      "event_hint_en": "Wary allies show there's no quick fix to Trump's Iran crisis",
-      "中国": {
-        "title": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国",
-        "link": "https://www.163.com/dy/article/KO5HNJVB0550B6IS.html",
-        "published": "2026-03-16 18:03",
-        "description": "",
-        "title_zh": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国",
-        "title_en": "因捐赠日军侵华相册与中国结缘 埃文凯尔官宣定居中国"
-      },
-      "美国（欧美媒体）": {
-        "title": "Wary allies show there's no quick fix to Trump's Iran crisis",
-        "link": "https://www.bbc.com/news/articles/c8r17plnvy3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-17 01:34",
-        "description": "European leaders are hesitant to help Trump secure the Strait of Hormuz, but they know inaction on the Iran war is not really an option.",
-        "title_en": "Wary allies show there's no quick fix to Trump's Iran crisis",
-        "title_zh": "警惕的盟友表明特朗普的伊朗危机没有快速解决办法"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
-        "link": "https://www.aljazeera.com/news/2026/3/16/trump-seeks-to-delay-meeting-with-chinas-xi-by-month-or-so-amid-iran-war?traffic_source=rss",
-        "published": "2026-03-17 06:25",
-        "description": "The US president delays March 31-April 2 trip to China to focus on the escalating war against Iran.",
-        "title_en": "Trump seeks to delay meeting with China’s Xi by ‘month or so’ amid Iran war",
-        "title_zh": "由于伊朗战争，特朗普寻求将与中国习近平的会面推迟“一个月左右”"
-      },
-      "my_view": "欧美聚焦伊朗危机的外交困境，伊斯兰世界关注中美博弈对地区局势的影响，中国媒体则通过个人叙事转移焦点，淡化国际冲突，突出友好形象。三方分别呈现了问题导向、地缘视角和人文转移的报道策略。",
-      "summary": "同一国际事件在不同意识形态下被重构为外交危机、地缘博弈或人文故事，体现媒体报道的选择性叙事本质。"
-    },
-    {
-      "event_hint": "'We will go wherever they hide': Rooting out IS in Somalia",
-      "event_hint_zh": "“他们躲在哪里我们就去哪里”：在索马里铲除伊斯兰国",
-      "event_hint_en": "'We will go wherever they hide': Rooting out IS in Somalia",
+      "event_hint": "Iranian security chief Ali Larijani killed in air strike",
+      "event_hint_zh": "伊朗安全局长阿里·拉里贾尼在空袭中丧生",
+      "event_hint_en": "Iranian security chief Ali Larijani killed in air strike",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "'We will go wherever they hide': Rooting out IS in Somalia",
-        "link": "https://www.bbc.com/news/articles/cj32d8e2m5eo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 08:05",
-        "description": "Somalia became a key part of IS's global network after fighters were driven out of strongholds in Syria and Iraq.",
-        "title_en": "'We will go wherever they hide': Rooting out IS in Somalia",
-        "title_zh": "“他们躲在哪里我们就去哪里”：在索马里铲除伊斯兰国"
+        "title": "Iranian security chief Ali Larijani killed in air strike",
+        "link": "https://www.bbc.com/news/articles/c24deezq6meo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 06:49",
+        "description": "His death is confirmed on state TV, alongside that of another senior figure, Gholamreza Soleimani",
+        "title_en": "Iranian security chief Ali Larijani killed in air strike",
+        "title_zh": "伊朗安全局长阿里·拉里贾尼在空袭中丧生"
       },
       "伊斯兰（半岛等）": {
-        "title": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/fourth-world-nation-trump-slams-somalia-ilhan-omar?traffic_source=rss",
-        "published": "2026-03-17 05:16",
-        "description": "Speaking at the Oval office, US President Donald Trump stated that Somalia is a “fourth world nation.”",
-        "title_en": "‘Fourth world nation’: Trump slams Somalia, Ilhan Omar",
-        "title_zh": "“第四世界国家”：特朗普猛烈抨击索马里伊尔汗·奥马尔"
+        "title": "Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
+        "link": "https://www.aljazeera.com/news/liveblog/2026/3/18/iran-war-live-tehran-mourns-larijani-soleimani-two-killed-in-israel?traffic_source=rss",
+        "published": "2026-03-18 08:00",
+        "description": "Iran launches attacks on Israel, killing two, as Bahrain, Qatar, UAE, and Saudi Arabia intercept more missiles, drones.",
+        "title_en": "Iran war live: Tehran mourns Larijani, Soleimani; 2 killed in Israel",
+        "title_zh": "伊朗战争直播：德黑兰哀悼拉里贾尼、苏莱马尼；"
       },
-      "my_view": "欧美报道聚焦军事行动本身，伊斯兰媒体突出特朗普对索马里的侮辱性言论，中国媒体未报道显示其不介入立场。三方分别体现干预主义、反殖民叙事与外交回避。",
-      "summary": "国际反恐行动在不同媒体叙事中被分别呈现为军事行动、殖民话语批判或外交沉默。"
+      "my_view": "欧美报道侧重事件本身，突出“空袭致死”的冲突性；伊斯兰视角强调哀悼与伤亡，将事件置于地区冲突脉络中；中国媒体暂未报道，体现对敏感国际事件的审慎态度。",
+      "summary": "伊朗高官在空袭中身亡，不同媒体的报道焦点折射出地缘政治立场的差异。"
     },
     {
-      "event_hint": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-      "event_hint_zh": "德黑兰居民告诉 BBC，伊朗正在采取措施防止反建制抗议活动",
-      "event_hint_en": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
+      "event_hint": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+      "event_hint_zh": "幸存者告诉英国广播公司，空袭袭击了喀布尔康复中心，患者正在吃晚饭",
+      "event_hint_en": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-        "link": "https://www.bbc.com/news/articles/clygdwqw5dvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 12:43",
-        "description": "Residents describe new security checkpoints around the capital, where they say people are stopped and searched.",
-        "title_en": "Iran taking steps to prevent anti-establishment protests, Tehran residents tell BBC",
-        "title_zh": "德黑兰居民告诉 BBC，伊朗正在采取措施防止反建制抗议活动"
+        "title": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+        "link": "https://www.bbc.com/news/articles/ckg1kgz6wkgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 02:45",
+        "description": "The exact number killed in Monday night's strike by Pakistan is still not known, but is feared to be in the hundreds.",
+        "title_en": "Air strike hit Kabul rehab centre as patients ate dinner, survivor tells BBC",
+        "title_zh": "幸存者告诉英国广播公司，空袭袭击了喀布尔康复中心，患者正在吃晚饭"
       },
       "伊斯兰（半岛等）": {
-        "title": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/civilians-pulled-from-rubble-after-us-israeli-strikes-on-tehran?traffic_source=rss",
-        "published": "2026-03-17 01:27",
-        "description": "Rescuers have pulled civilians from the rubble after a new wave of US-Israeli strikes targeted Tehran.",
-        "title_en": "Civilians pulled from rubble after US-Israeli strikes on Tehran",
-        "title_zh": "美以袭击德黑兰后，平民从废墟中被救出"
+        "title": "Families search for loved ones after deadly attack on Kabul hospital",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/17/families-search-for-loved-ones-after-deadly-attack-on-kabul-hospital?traffic_source=rss",
+        "published": "2026-03-18 07:56",
+        "description": "Family members have gathered by the rubble of a hospital in Kabul searching for their loved ones after an air attack.",
+        "title_en": "Families search for loved ones after deadly attack on Kabul hospital",
+        "title_zh": "喀布尔医院发生致命袭击后，家人正在寻找亲人"
       },
-      "my_view": "BBC聚焦内部社会动态，半岛电视台将事件定义为外部军事袭击以转移矛盾，中国媒体未报道则体现不干涉他国内政原则。三方分别强调内政、外因与回避立场。",
-      "summary": "同一事件被不同媒体框架重构，分别突出国内抗议风险、外部袭击叙事或沉默，体现意识形态对新闻选择的主导性。"
+      "my_view": "BBC聚焦个体遭遇，强调袭击发生时态；半岛突出家庭创伤与医院属性，隐含人道谴责；中国媒体暂未报道，体现对阿富汗议题的谨慎态度。",
+      "summary": "喀布尔医疗设施遭空袭造成平民伤亡，不同媒体通过选取幸存者叙事、家庭搜救或沉默来传递立场差异。"
     },
     {
-      "event_hint": "Far-left and far-right gains throw French mainstream parties into a quandary",
-      "event_hint_zh": "极左和极右势力的崛起让法国主流政党陷入困境",
-      "event_hint_en": "Far-left and far-right gains throw French mainstream parties into a quandary",
-      "中国": {
-        "title": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破",
-        "link": "https://www.163.com/dy/article/KO56Q71H051492T3.html",
-        "published": "2026-03-16 15:03",
-        "description": "",
-        "title_zh": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破",
-        "title_en": "国际金价一度跌破5000美元 专家：中长期牛市逻辑未破"
-      },
-      "美国（欧美媒体）": {
-        "title": "Far-left and far-right gains throw French mainstream parties into a quandary",
-        "link": "https://www.bbc.com/news/articles/c8r17knnz5vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 18:46",
-        "description": "Awkward choices emerge for mainstream parties after the first round of mayoral elections.",
-        "title_en": "Far-left and far-right gains throw French mainstream parties into a quandary",
-        "title_zh": "极左和极右势力的崛起让法国主流政党陷入困境"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
-        "link": "https://www.aljazeera.com/news/2026/3/16/bbc-files-motion-asking-us-court-to-throw-out-trumps-10bn-lawsuit?traffic_source=rss",
-        "published": "2026-03-17 04:42",
-        "description": "US president sued BBC over &#039;Trump: A Second Chance?&#039;, seeking $5bn for defamation, $5bn for unfair trade practices.",
-        "title_en": "BBC files motion asking US court to throw out Trump’s $10bn lawsuit",
-        "title_zh": "BBC提交动议要求美国法院驳回特朗普100亿美元的诉讼"
-      },
-      "my_view": "网易回避政治聚焦经济，体现中国媒体淡化他国内政的立场；BBC直击法国政治危机，反映西方对极端势力冲击主流政治的警觉；半岛台用特朗普诉讼转移焦点，展现伊斯兰媒体对欧美内部矛盾的关注。",
-      "summary": "法国主流政党因极端势力崛起陷入困境，但三方媒体通过选择性报道折射出各自的地缘政治关切。"
-    },
-    {
-      "event_hint": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-      "event_hint_zh": "肯尼亚表示，俄罗斯同意停止在乌克兰冲突中使用肯尼亚新兵",
-      "event_hint_en": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-      "中国": {
-        "title": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新",
-        "link": "https://www.163.com/dy/article/KO5GKQSC05561G0D.html",
-        "published": "2026-03-16 17:03",
-        "description": "",
-        "title_zh": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新",
-        "title_en": "男子买的净水器修6次仍故障 商家拒绝在保修期内换新"
-      },
-      "美国（欧美媒体）": {
-        "title": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-        "link": "https://www.bbc.com/news/articles/cev7rdwmky9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 22:09",
-        "description": "Some 1,000 Kenyans are believed to have recruited to fight in Ukraine - many say they were lured under false pretences.",
-        "title_en": "Russia agrees to stop using Kenyan recruits in Ukraine conflict, Kenya says",
-        "title_zh": "肯尼亚表示，俄罗斯同意停止在乌克兰冲突中使用肯尼亚新兵"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
-        "link": "https://www.aljazeera.com/news/2026/3/16/trump-says-hormuz-strait-help-on-the-way-as-allies-reject-military-action?traffic_source=rss",
-        "published": "2026-03-17 02:53",
-        "description": "US president refuses to identify which countries he says are responding to call for naval coalition to open trade route.",
-        "title_en": "Trump says Hormuz Strait help ‘on the way’ as allies reject military action",
-        "title_zh": "特朗普称霍尔木兹海峡在盟友拒绝军事行动的情况下提供了帮助"
-      },
-      "my_view": "中国媒体回避国际冲突聚焦民生议题，欧美媒体直接报道事件并突出俄罗斯的让步，伊斯兰媒体则关联其他地缘冲突以扩大关注维度，体现各自议程设置和受众导向的差异。",
-      "summary": "肯尼亚宣布俄罗斯已承诺停止在乌克兰战场使用其招募的肯尼亚士兵。"
-    },
-    {
-      "event_hint": "How US groups are driving a new generation of anti-abortion activism in the UK",
-      "event_hint_zh": "美国团体如何在英国推动新一代反堕胎活动",
-      "event_hint_en": "How US groups are driving a new generation of anti-abortion activism in the UK",
-      "中国": {
-        "title": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文",
-        "link": "https://www.163.com/dy/article/KO62I1CC05561G0D.html",
-        "published": "2026-03-16 22:03",
-        "description": "",
-        "title_zh": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文",
-        "title_en": "马拉松冠军选手冲线时被拦停并强行带离赛道 本人发文"
-      },
-      "美国（欧美媒体）": {
-        "title": "How US groups are driving a new generation of anti-abortion activism in the UK",
-        "link": "https://www.bbc.com/news/articles/cx2dl5j0w23o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 08:31",
-        "description": "The killing of Charlie Kirk galvanised a transatlantic campaign against abortion. But will it succeed in shifting Britain's pro-choice consensus?",
-        "title_en": "How US groups are driving a new generation of anti-abortion activism in the UK",
-        "title_zh": "美国团体如何在英国推动新一代反堕胎活动"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
-        "link": "https://www.aljazeera.com/news/2026/3/16/hotel-in-iraqi-capital-baghdad-struck-as-attacks-on-us-embassy-intercepted?traffic_source=rss",
-        "published": "2026-03-17 07:00",
-        "description": "No group has claimed responsibility for the attacks, which took place amid the escalating Israel-US war on Iran.",
-        "title_en": "Hotel in Iraqi capital Baghdad struck as attacks on US embassy intercepted",
-        "title_zh": "伊拉克首都巴格达酒店遭袭，美国大使馆袭击事件被拦截"
-      },
-      "my_view": "中国报道聚焦个体事件转移视线，欧美报道直指美国意识形态输出，伊斯兰报道关联地区冲突。三方分别采用回避核心、直接揭露、转移矛盾的不同叙事策略，反映各自政治立场与议程设置差异。",
-      "summary": "事件本质是美国保守团体向英国输出反堕胎运动，但三方媒体通过选择性报道构建截然不同的叙事框架。"
-    },
-    {
-      "event_hint": "Iran hits key UAE oil port and Dubai airport",
-      "event_hint_zh": "伊朗袭击阿联酋主要石油港口和迪拜机场",
-      "event_hint_en": "Iran hits key UAE oil port and Dubai airport",
+      "event_hint": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
+      "event_hint_zh": "美国高级反恐官员因伊朗战争辞职，敦促特朗普“扭转路线”",
+      "event_hint_en": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Iran hits key UAE oil port and Dubai airport",
-        "link": "https://www.bbc.com/news/articles/crl4gxgkkylo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 20:43",
-        "description": "The port of Fujairah plays a crucial role in helping keep global supplies moving when the Strait of Hormuz is blocked.",
-        "title_en": "Iran hits key UAE oil port and Dubai airport",
-        "title_zh": "伊朗袭击阿联酋主要石油港口和迪拜机场"
+        "title": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
+        "link": "https://www.bbc.com/news/articles/cg4g66r3z40o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 10:12",
+        "description": "National Counterterrorism Center Director Joe Kent says Trump \"started this war due to pressure from Israel and its powerful American lobby\".",
+        "title_en": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course'",
+        "title_zh": "美国高级反恐官员因伊朗战争辞职，敦促特朗普“扭转路线”"
       },
       "伊斯兰（半岛等）": {
-        "title": "Trump claims strikes on Iran prevented nuclear war",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/16/trump-claims-strikes-on-iran-prevented-nuclear-war?traffic_source=rss",
-        "published": "2026-03-17 06:34",
-        "description": "Donald Trump claimed he ordered strikes on Iran to prevent a nuclear conflict that would have turned into World War III.",
-        "title_en": "Trump claims strikes on Iran prevented nuclear war",
-        "title_zh": "特朗普声称对伊朗的打击阻止了核战争"
+        "title": "Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
+        "link": "https://www.aljazeera.com/news/2026/3/18/who-is-joe-kent-and-why-did-he-resign-as-trumps-counterterrorism-chief?traffic_source=rss",
+        "published": "2026-03-18 09:04",
+        "description": "Kent is the highest-level official to leave Trump administration over the US president&#039;s decision to wage war on Iran.",
+        "title_en": "Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?",
+        "title_zh": "乔·肯特是谁？他为何辞去特朗普反恐主管职务？"
       },
-      "my_view": "欧美报道聚焦事件本身，突出经济设施遭袭的客观事实；伊斯兰媒体通过特朗普言论转移焦点，将事件定性为核战争危机预防；中国媒体未报道则体现不介入中东冲突的谨慎立场。",
-      "summary": "伊朗袭击阿联酋关键基础设施的事件，被不同媒体框架重构为经济冲突、核危机预防或战略沉默的对象。"
+      "my_view": "BBC聚焦事件本身与政治呼吁，体现监督立场；半岛电视台侧重人物背景与深层动机，反映对美政策审视；中国媒体未报道，显示对美伊冲突的谨慎态度。三方差异体现各自地缘政治关切。",
+      "summary": "美国反恐高官因反对特朗普对伊政策辞职，暴露美政府内部对伊朗战略的分歧。"
     },
     {
-      "event_hint": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-      "event_hint_zh": "举报人称，在有证据表明愤怒推动了参与度之后，Meta 和 TikTok 任由有害内容增加",
-      "event_hint_en": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
+      "event_hint": "Chile's president begins building border barrier less than week into term",
+      "event_hint_zh": "智利总统上任不到一周就开始修建边境屏障",
+      "event_hint_en": "Chile's president begins building border barrier less than week into term",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-        "link": "https://www.bbc.com/news/articles/cqj9kgxqjwjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-16 14:10",
-        "description": "Companies allowed more harmful content on user’s feeds, knowing their algorithms ran on outrage, BBC hears.",
-        "title_en": "Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers",
-        "title_zh": "举报人称，在有证据表明愤怒推动了参与度之后，Meta 和 TikTok 任由有害内容增加"
+        "title": "Chile's president begins building border barrier less than week into term",
+        "link": "https://www.bbc.com/news/articles/cvg1227k00eo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 23:49",
+        "description": "José Antonio Kast visited the ditch - a few feet wide and deep - on Monday, calling it a \"milestone\".",
+        "title_en": "Chile's president begins building border barrier less than week into term",
+        "title_zh": "智利总统上任不到一周就开始修建边境屏障"
       },
       "伊斯兰（半岛等）": {
-        "title": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
-        "link": "https://www.aljazeera.com/news/2026/3/16/outrage-as-afghan-asylum-seeker-who-fought-alongside-us-dies-in-ice-custody?traffic_source=rss",
-        "published": "2026-03-17 02:33",
-        "description": "Family, advocates call for full probe after Mohommad Nazeer Paktyawal dies less than 24 hours after being detained.",
-        "title_en": "Outrage as Afghan asylum seeker who fought alongside US dies in ICE custody",
-        "title_zh": "与美国并肩作战的阿富汗寻求庇护者在 ICE 拘留期间死亡，引发愤怒"
+        "title": "Chile’s President Kast tosses out dozens of environmental protections",
+        "link": "https://www.aljazeera.com/news/2026/3/17/chiles-president-kast-tosses-out-dozens-of-environmental-protections?traffic_source=rss",
+        "published": "2026-03-18 07:28",
+        "description": "Chilean Environment Ministry suspends 43 measures touching on issues such as pollution, emissions and national parks.",
+        "title_en": "Chile’s President Kast tosses out dozens of environmental protections",
+        "title_zh": "智利总统卡斯特废除了数十项环境保护措施"
       },
-      "my_view": "BBC聚焦算法伦理，强调科技公司以愤怒情绪牟利的商业责任；半岛电视台将事件置于移民人权框架，突出个体遭遇与政治批判；中国媒体未报道，反映地缘关注度差异或议题选择性。",
-      "summary": "举报人指控Meta和TikTok为提升参与度纵容有害内容，不同媒体通过算法伦理、人权政治等棱镜折射事件。"
+      "my_view": "欧美媒体聚焦边境屏障的时效性，突出政策执行力；伊斯兰媒体从环保角度切入，暗示政策代价；中国媒体暂未报道，可能因事件与本国关联度低或持观望态度。",
+      "summary": "智利新总统快速推行边境管控政策，但不同媒体通过选择报道焦点（时效、环保）折射出其立场倾向。"
+    },
+    {
+      "event_hint": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+      "event_hint_zh": "阿里·拉里贾尼之死加深了伊朗领导层的核心危机",
+      "event_hint_en": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+        "link": "https://www.bbc.com/news/articles/cgqgxqekp89o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 05:43",
+        "description": "Larijani has long been seen as one of the Islamic Republic's most experienced and influential policy makers.",
+        "title_en": "Death of Ali Larijani deepens crisis at heart of Iran's leadership",
+        "title_zh": "阿里·拉里贾尼之死加深了伊朗领导层的核心危机"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
+        "link": "https://www.aljazeera.com/video/quotable/2026/3/17/israel-killed-larijani-hoping-to-torpedo-chance-of-us-iran-talks?traffic_source=rss",
+        "published": "2026-03-18 07:57",
+        "description": "Marwan Bishara says Israel’s assassination of Larijani is calculated to prolong the war and bring about regime change.",
+        "title_en": "Israel killed Larijani hoping to ‘torpedo’ chance of US-Iran talks",
+        "title_zh": "以色列杀害拉里贾尼希望“破坏”美伊会谈的机会"
+      },
+      "my_view": "欧美标题客观陈述事件影响，伊斯兰标题直指以色列并关联美伊谈判，中国未报道体现谨慎态度。三方差异反映地缘政治立场：西方重结构分析，中东突出外部干预，中国避免直接介入。",
+      "summary": "伊朗高层人物遇刺事件加剧内部危机，同时被不同阵营解读为权力斗争或外部势力干预的地缘政治博弈。"
+    },
+    {
+      "event_hint": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+      "event_hint_zh": "官员称，有抱负的赞比亚女政客被要求提供性好处",
+      "event_hint_en": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+        "link": "https://www.bbc.com/news/articles/cm28ldvj3jvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 21:31",
+        "description": "These reports harm attempts to close the wide gender representation gap in Zambia, activists say.",
+        "title_en": "Aspiring female Zambian politicians were asked for sexual favours, official says",
+        "title_zh": "官员称，有抱负的赞比亚女政客被要求提供性好处"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/18/experts-discuss-israeli-strategy-in-killing-of-senior-iran-official-ali-l?traffic_source=rss",
+        "published": "2026-03-18 10:57",
+        "description": "Ross Harrison joins a panel on what the US and Israel are seeking with their killing of senior Iranian leaders.",
+        "title_en": "Experts discuss ‘Israeli strategy’ in killing of senior Iran official Ali L",
+        "title_zh": "专家讨论杀害伊朗高级官员阿里·L的“以色列战略”"
+      },
+      "my_view": "欧美媒体聚焦性别权力剥削，突出具体指控；伊斯兰媒体关联地缘政治，将个案置于国际冲突框架；中国媒体未报道，可能因事件不涉本国利益或不符合主流议程。",
+      "summary": "事件本质是赞比亚女性从政者遭遇性勒索，反映性别不平等与权力滥用问题。"
+    },
+    {
+      "event_hint": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+      "event_hint_zh": "汉堡送给...迈克尔·B·乔丹 (Michael B Jordan) 在 In-N-Out 上赢得奥斯卡奖",
+      "event_hint_en": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+        "link": "https://www.bbc.com/news/articles/cpd8w5y0dpdo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 12:41",
+        "description": "Hours after winning best actor, Jordan joins an exclusive list of famous faces to celebrate an Oscar victory with a burger.",
+        "title_en": "And the burger goes to... Michael B Jordan marks Oscars win at In-N-Out",
+        "title_zh": "汉堡送给...迈克尔·B·乔丹 (Michael B Jordan) 在 In-N-Out 上赢得奥斯卡奖"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Ireland’s Micheal Martin and Trump in awkward St Patrick’s Day exchange",
+        "link": "https://www.aljazeera.com/news/2026/3/17/irelands-micheal-martin-and-trump-in-awkward-st-patricks-day-exchange?traffic_source=rss",
+        "published": "2026-03-18 06:53",
+        "description": "Ireland, which took strong stance on Gaza genocide, is similarly robust on Iran, but Martin is criticised for passivity.",
+        "title_en": "Ireland’s Micheal Martin and Trump in awkward St Patrick’s Day exchange",
+        "title_zh": "爱尔兰的迈克尔·马丁和特朗普在圣帕特里克节尴尬的交流"
+      },
+      "my_view": "欧美媒体聚焦明星娱乐消费，体现个人主义文化；伊斯兰媒体选择政治外交事件，反映对国际关系的关注；中国媒体未报道此事，可能因事件娱乐性较强且无直接关联性。三方立场差异体现了各自社会的报道优先级和价值取向。",
+      "summary": "美国演员迈克尔·B·乔丹在奥斯卡获奖后于快餐店庆祝，此事仅被欧美娱乐媒体报道。"
+    },
+    {
+      "event_hint": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+      "event_hint_zh": "俄罗斯袭击乌克兰石油泄漏导致摩尔多瓦供水中断",
+      "event_hint_en": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+        "link": "https://www.bbc.com/news/articles/cwy98qnpg1jo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-18 00:10",
+        "description": "Moldova has imposed a 15-day state of alert in the Dniester river basin as a precaution.",
+        "title_en": "Water supply cut in Moldova after oil spill blamed on Russian strike in Ukraine",
+        "title_zh": "俄罗斯袭击乌克兰石油泄漏导致摩尔多瓦供水中断"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+        "link": "https://www.aljazeera.com/news/2026/3/18/over-200-ukrainian-military-experts-in-gulf-region-to-counter-irans-drones?traffic_source=rss",
+        "published": "2026-03-18 09:58",
+        "description": "Ukraine President Zelenskyy says Moscow, Tehran &#039;brothers in hatred&#039;; claims Iran&#039;s drones &#039;contain Russian components&#039;.",
+        "title_en": "Over 200 Ukrainian military experts in Gulf region to counter Iran’s drones",
+        "title_zh": "200多名乌克兰军事专家前往海湾地区对抗伊朗无人机"
+      },
+      "my_view": "欧美报道直接关联俄罗斯袭击与民生后果；伊斯兰媒体转移焦点至乌克兰与伊朗的地缘对抗；中国媒体暂未报道，体现对俄乌冲突的谨慎态度。三方分别呈现问责、转移、沉默的立场差异。",
+      "summary": "俄乌冲突引发的跨国环境灾难导致摩尔多瓦供水中断，不同媒体通过报道选择体现地缘政治立场。"
+    },
+    {
+      "event_hint": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+      "event_hint_zh": "亚洲国家努力节省燃料 斯里兰卡宣布周三休息",
+      "event_hint_en": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+        "link": "https://www.bbc.com/news/articles/c4g5n58rlnzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-17 12:17",
+        "description": "This is the latest in a series of measures undertaken by Asian countries which rely on oil from the Gulf.",
+        "title_en": "Sri Lanka declares Wednesdays off as Asian countries try to conserve fuel",
+        "title_zh": "亚洲国家努力节省燃料 斯里兰卡宣布周三休息"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "CAF strips Senegal of AFCON title, Morocco declared African champions",
+        "link": "https://www.aljazeera.com/sports/2026/3/17/caf-strips-senegal-of-afcon-title-morocco-declared-african-champions?traffic_source=rss",
+        "published": "2026-03-18 06:57",
+        "description": "Governing body&#039;s appeal board rules Senegal forfeited final after players walked off pitch over referring decision.",
+        "title_en": "CAF strips Senegal of AFCON title, Morocco declared African champions",
+        "title_zh": "非洲足联剥夺塞内加尔非洲杯冠军，摩洛哥宣布非洲冠军"
+      },
+      "my_view": "欧美报道聚焦燃料危机下的政策应对，呈现客观事实；伊斯兰媒体完全转移话题至体育事件，体现区域关注差异；中国媒体未报道此事，可能因事件敏感度不足或外交考量。三方立场反映各自议程设置与地缘关注焦点。",
+      "summary": "斯里兰卡为应对能源危机实施每周单日休假政策，反映出亚洲多国正面临燃料短缺压力。"
     }
   ]
 }
