@@ -1,52 +1,16 @@
 {
-  "date": "2026-03-18",
-  "updatedAt": "2026-03-18T00:04:36.893Z",
+  "date": "2026-03-19",
+  "updatedAt": "2026-03-19T00:02:50.423Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "vulnerable",
-      "phonetic": "/ˈvʌlnərəbl/",
-      "chinese": "脆弱的",
-      "englishDef": "Exposed to the possibility of harm",
-      "example": "Children are particularly vulnerable to disease.",
-      "exampleTrans": "儿童特别容易受到疾病的侵害。",
-      "level": "6.5+"
-    },
-    {
-      "word": "implement",
-      "phonetic": "/ˈɪmplɪment/",
-      "chinese": "实施",
-      "englishDef": "To put a plan or system into operation",
-      "example": "The government will implement new policies.",
-      "exampleTrans": "政府将实施新政策。",
-      "level": "6.5+"
-    },
-    {
-      "word": "perceive",
-      "phonetic": "/pəˈsiːv/",
-      "chinese": "感知",
-      "englishDef": "To become aware through senses",
-      "example": "How do you perceive this situation?",
-      "exampleTrans": "你如何看待这种情况？",
+      "word": "contemporary",
+      "phonetic": "/kənˈtempərəri/",
+      "chinese": "当代的",
+      "englishDef": "Living or occurring at the same time",
+      "example": "Contemporary art often challenges traditional views.",
+      "exampleTrans": "当代艺术经常挑战传统观点。",
       "level": "7.0+"
-    },
-    {
-      "word": "fundamental",
-      "phonetic": "/ˌfʌndəˈmentl/",
-      "chinese": "基本的",
-      "englishDef": "Forming a necessary base or core",
-      "example": "Reading is a fundamental skill.",
-      "exampleTrans": "阅读是一项基本技能。",
-      "level": "6.5+"
-    },
-    {
-      "word": "initiate",
-      "phonetic": "/ɪˈnɪʃieɪt/",
-      "chinese": "发起",
-      "englishDef": "To cause a process to begin",
-      "example": "Who initiated this project?",
-      "exampleTrans": "谁发起了这个项目？",
-      "level": "6.5+"
     },
     {
       "word": "capacity",
@@ -58,39 +22,75 @@
       "level": "6.0+"
     },
     {
-      "word": "comprehensive",
-      "phonetic": "/ˌkɒmprɪˈhensɪv/",
-      "chinese": "全面的",
-      "englishDef": "Including all or nearly all elements",
-      "example": "The report provides a comprehensive analysis.",
-      "exampleTrans": "这份报告提供了全面的分析。",
+      "word": "navigate",
+      "phonetic": "/ˈnævɪɡeɪt/",
+      "chinese": "应对",
+      "englishDef": "To plan and direct a route",
+      "example": "She navigated the complex bureaucracy skillfully.",
+      "exampleTrans": "她熟练地应对了复杂的官僚体制。",
       "level": "6.5+"
     },
     {
-      "word": "compelling",
-      "phonetic": "/kəmˈpelɪŋ/",
-      "chinese": "令人信服的",
-      "englishDef": "Evoking interest or attention",
-      "example": "The evidence was compelling enough to convince the jury.",
-      "exampleTrans": "证据足够令人信服，说服了陪审团。",
+      "word": "innovative",
+      "phonetic": "/ˈɪnəveɪtɪv/",
+      "chinese": "创新的",
+      "englishDef": "Featuring new methods or ideas",
+      "example": "The company is known for its innovative products.",
+      "exampleTrans": "该公司以其创新产品而闻名。",
       "level": "6.5+"
     },
     {
-      "word": "yield",
-      "phonetic": "/jiːld/",
-      "chinese": "产出",
-      "englishDef": "To produce or provide",
-      "example": "The investment yielded good returns.",
-      "exampleTrans": "这项投资产生了良好的回报。",
-      "level": "6.5+"
+      "word": "adequate",
+      "phonetic": "/ˈædɪkwət/",
+      "chinese": "足够的",
+      "englishDef": "Enough or satisfactory for a particular purpose",
+      "example": "The salary is adequate for living expenses.",
+      "exampleTrans": "这份工资足够支付生活费用。",
+      "level": "6.0+"
     },
     {
-      "word": "deficiency",
-      "phonetic": "/dɪˈfɪʃənsi/",
-      "chinese": "缺乏",
-      "englishDef": "A lack or shortage of something",
-      "example": "Vitamin D deficiency is common in winter.",
-      "exampleTrans": "冬季维生素D缺乏很常见。",
+      "word": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "chinese": "证明",
+      "englishDef": "To show clearly and deliberately",
+      "example": "The experiment demonstrates the theory.",
+      "exampleTrans": "这个实验证明了这个理论。",
+      "level": "6.0+"
+    },
+    {
+      "word": "assure",
+      "phonetic": "/əˈʃʊə(r)/",
+      "chinese": "保证",
+      "englishDef": "To tell someone confidently that something is true",
+      "example": "I can assure you that the information is accurate.",
+      "exampleTrans": "我可以向你保证这个信息是准确的。",
+      "level": "6.0+"
+    },
+    {
+      "word": "monitor",
+      "phonetic": "/ˈmɒnɪtər/",
+      "chinese": "监控",
+      "englishDef": "To observe and check over a period of time",
+      "example": "We constantly monitor air quality.",
+      "exampleTrans": "我们持续监控空气质量。",
+      "level": "6.0+"
+    },
+    {
+      "word": "optimize",
+      "phonetic": "/ˈɒptɪmaɪz/",
+      "chinese": "优化",
+      "englishDef": "To make the best use of a resource",
+      "example": "We need to optimize our workflow.",
+      "exampleTrans": "我们需要优化我们的工作流程。",
+      "level": "7.0+"
+    },
+    {
+      "word": "derive",
+      "phonetic": "/dɪˈraɪv/",
+      "chinese": "获得",
+      "englishDef": "To obtain something from a source",
+      "example": "Many English words derive from Latin.",
+      "exampleTrans": "许多英语单词源自拉丁语。",
       "level": "6.5+"
     }
   ]
