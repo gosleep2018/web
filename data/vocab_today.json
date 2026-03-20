@@ -1,42 +1,15 @@
 {
-  "date": "2026-03-19",
-  "updatedAt": "2026-03-19T00:02:50.423Z",
+  "date": "2026-03-20",
+  "updatedAt": "2026-03-20T00:01:18.231Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "contemporary",
-      "phonetic": "/kənˈtempərəri/",
-      "chinese": "当代的",
-      "englishDef": "Living or occurring at the same time",
-      "example": "Contemporary art often challenges traditional views.",
-      "exampleTrans": "当代艺术经常挑战传统观点。",
-      "level": "7.0+"
-    },
-    {
-      "word": "capacity",
-      "phonetic": "/kəˈpæsəti/",
-      "chinese": "能力",
-      "englishDef": "The maximum amount that something can contain or produce",
-      "example": "The stadium has a capacity of 50,000 people.",
-      "exampleTrans": "这个体育场可以容纳5万人。",
-      "level": "6.0+"
-    },
-    {
-      "word": "navigate",
-      "phonetic": "/ˈnævɪɡeɪt/",
-      "chinese": "应对",
-      "englishDef": "To plan and direct a route",
-      "example": "She navigated the complex bureaucracy skillfully.",
-      "exampleTrans": "她熟练地应对了复杂的官僚体制。",
-      "level": "6.5+"
-    },
-    {
-      "word": "innovative",
-      "phonetic": "/ˈɪnəveɪtɪv/",
-      "chinese": "创新的",
-      "englishDef": "Featuring new methods or ideas",
-      "example": "The company is known for its innovative products.",
-      "exampleTrans": "该公司以其创新产品而闻名。",
+      "word": "presume",
+      "phonetic": "/prɪˈzjuːm/",
+      "chinese": "假定",
+      "englishDef": "To suppose something is true without proof",
+      "example": "I presume you've heard the news.",
+      "exampleTrans": "我想你已经听到这个消息了。",
       "level": "6.5+"
     },
     {
@@ -49,48 +22,75 @@
       "level": "6.0+"
     },
     {
-      "word": "demonstrate",
-      "phonetic": "/ˈdemənstreɪt/",
-      "chinese": "证明",
-      "englishDef": "To show clearly and deliberately",
-      "example": "The experiment demonstrates the theory.",
-      "exampleTrans": "这个实验证明了这个理论。",
+      "word": "accomplish",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "chinese": "完成",
+      "englishDef": "To succeed in doing something",
+      "example": "She accomplished her goal of graduating with honors.",
+      "exampleTrans": "她完成了以优异成绩毕业的目标。",
       "level": "6.0+"
     },
     {
-      "word": "assure",
-      "phonetic": "/əˈʃʊə(r)/",
-      "chinese": "保证",
-      "englishDef": "To tell someone confidently that something is true",
-      "example": "I can assure you that the information is accurate.",
-      "exampleTrans": "我可以向你保证这个信息是准确的。",
-      "level": "6.0+"
+      "word": "reinforce",
+      "phonetic": "/ˌriːɪnˈfɔːs/",
+      "chinese": "强化",
+      "englishDef": "To strengthen or support further",
+      "example": "Positive feedback reinforces good behavior.",
+      "exampleTrans": "积极的反馈强化了良好行为。",
+      "level": "6.5+"
     },
     {
-      "word": "monitor",
-      "phonetic": "/ˈmɒnɪtər/",
-      "chinese": "监控",
-      "englishDef": "To observe and check over a period of time",
-      "example": "We constantly monitor air quality.",
-      "exampleTrans": "我们持续监控空气质量。",
-      "level": "6.0+"
-    },
-    {
-      "word": "optimize",
-      "phonetic": "/ˈɒptɪmaɪz/",
-      "chinese": "优化",
-      "englishDef": "To make the best use of a resource",
-      "example": "We need to optimize our workflow.",
-      "exampleTrans": "我们需要优化我们的工作流程。",
+      "word": "ambiguous",
+      "phonetic": "/æmˈbɪɡjuəs/",
+      "chinese": "模糊的",
+      "englishDef": "Having more than one possible meaning",
+      "example": "His answer was ambiguous and confusing.",
+      "exampleTrans": "他的回答模棱两可，令人困惑。",
       "level": "7.0+"
     },
     {
-      "word": "derive",
-      "phonetic": "/dɪˈraɪv/",
-      "chinese": "获得",
-      "englishDef": "To obtain something from a source",
-      "example": "Many English words derive from Latin.",
-      "exampleTrans": "许多英语单词源自拉丁语。",
+      "word": "compelling",
+      "phonetic": "/kəmˈpelɪŋ/",
+      "chinese": "令人信服的",
+      "englishDef": "Evoking interest or attention",
+      "example": "The evidence was compelling enough to convince the jury.",
+      "exampleTrans": "证据足够令人信服，说服了陪审团。",
+      "level": "6.5+"
+    },
+    {
+      "word": "criteria",
+      "phonetic": "/kraɪˈtɪəriə/",
+      "chinese": "标准",
+      "englishDef": "Principles or standards by which things are judged",
+      "example": "What criteria will you use to evaluate candidates?",
+      "exampleTrans": "你将使用什么标准来评估候选人？",
+      "level": "6.5+"
+    },
+    {
+      "word": "deviate",
+      "phonetic": "/ˈdiːvieɪt/",
+      "chinese": "偏离",
+      "englishDef": "To depart from an established course",
+      "example": "Don't deviate from the plan.",
+      "exampleTrans": "不要偏离计划。",
+      "level": "7.0+"
+    },
+    {
+      "word": "initiate",
+      "phonetic": "/ɪˈnɪʃieɪt/",
+      "chinese": "发起",
+      "englishDef": "To cause a process to begin",
+      "example": "Who initiated this project?",
+      "exampleTrans": "谁发起了这个项目？",
+      "level": "6.5+"
+    },
+    {
+      "word": "justify",
+      "phonetic": "/ˈdʒʌstɪfaɪ/",
+      "chinese": "证明合理",
+      "englishDef": "To show or prove to be right",
+      "example": "Can you justify this expense?",
+      "exampleTrans": "你能证明这笔费用是合理的吗？",
       "level": "6.5+"
     }
   ]
