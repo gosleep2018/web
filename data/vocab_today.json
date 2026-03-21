@@ -1,42 +1,24 @@
 {
-  "date": "2026-03-20",
-  "updatedAt": "2026-03-20T00:01:18.231Z",
+  "date": "2026-03-21",
+  "updatedAt": "2026-03-21T00:02:04.826Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "presume",
-      "phonetic": "/prɪˈzjuːm/",
-      "chinese": "假定",
-      "englishDef": "To suppose something is true without proof",
-      "example": "I presume you've heard the news.",
-      "exampleTrans": "我想你已经听到这个消息了。",
-      "level": "6.5+"
-    },
-    {
-      "word": "adequate",
-      "phonetic": "/ˈædɪkwət/",
-      "chinese": "足够的",
-      "englishDef": "Enough or satisfactory for a particular purpose",
-      "example": "The salary is adequate for living expenses.",
-      "exampleTrans": "这份工资足够支付生活费用。",
+      "word": "capacity",
+      "phonetic": "/kəˈpæsəti/",
+      "chinese": "能力",
+      "englishDef": "The maximum amount that something can contain or produce",
+      "example": "The stadium has a capacity of 50,000 people.",
+      "exampleTrans": "这个体育场可以容纳5万人。",
       "level": "6.0+"
     },
     {
-      "word": "accomplish",
-      "phonetic": "/əˈkʌmplɪʃ/",
-      "chinese": "完成",
-      "englishDef": "To succeed in doing something",
-      "example": "She accomplished her goal of graduating with honors.",
-      "exampleTrans": "她完成了以优异成绩毕业的目标。",
-      "level": "6.0+"
-    },
-    {
-      "word": "reinforce",
-      "phonetic": "/ˌriːɪnˈfɔːs/",
-      "chinese": "强化",
-      "englishDef": "To strengthen or support further",
-      "example": "Positive feedback reinforces good behavior.",
-      "exampleTrans": "积极的反馈强化了良好行为。",
+      "word": "exploit",
+      "phonetic": "/ɪkˈsplɔɪt/",
+      "chinese": "利用",
+      "englishDef": "To make full use of and derive benefit from",
+      "example": "We should exploit this opportunity.",
+      "exampleTrans": "我们应该利用这个机会。",
       "level": "6.5+"
     },
     {
@@ -49,49 +31,67 @@
       "level": "7.0+"
     },
     {
-      "word": "compelling",
-      "phonetic": "/kəmˈpelɪŋ/",
-      "chinese": "令人信服的",
-      "englishDef": "Evoking interest or attention",
-      "example": "The evidence was compelling enough to convince the jury.",
-      "exampleTrans": "证据足够令人信服，说服了陪审团。",
-      "level": "6.5+"
-    },
-    {
-      "word": "criteria",
-      "phonetic": "/kraɪˈtɪəriə/",
-      "chinese": "标准",
-      "englishDef": "Principles or standards by which things are judged",
-      "example": "What criteria will you use to evaluate candidates?",
-      "exampleTrans": "你将使用什么标准来评估候选人？",
-      "level": "6.5+"
-    },
-    {
-      "word": "deviate",
-      "phonetic": "/ˈdiːvieɪt/",
-      "chinese": "偏离",
-      "englishDef": "To depart from an established course",
-      "example": "Don't deviate from the plan.",
-      "exampleTrans": "不要偏离计划。",
+      "word": "correlate",
+      "phonetic": "/ˈkɒrəleɪt/",
+      "chinese": "关联",
+      "englishDef": "To have a mutual relationship",
+      "example": "Exercise correlates with better health outcomes.",
+      "exampleTrans": "运动与更好的健康结果相关。",
       "level": "7.0+"
     },
     {
-      "word": "initiate",
-      "phonetic": "/ɪˈnɪʃieɪt/",
-      "chinese": "发起",
-      "englishDef": "To cause a process to begin",
-      "example": "Who initiated this project?",
-      "exampleTrans": "谁发起了这个项目？",
+      "word": "constraint",
+      "phonetic": "/kənˈstreɪnt/",
+      "chinese": "限制",
+      "englishDef": "A limitation or restriction",
+      "example": "Budget constraints limited our options.",
+      "exampleTrans": "预算限制了我们的选择。",
+      "level": "7.0+"
+    },
+    {
+      "word": "emphasize",
+      "phonetic": "/ˈemfəsaɪz/",
+      "chinese": "强调",
+      "englishDef": "To give special importance to something",
+      "example": "The teacher emphasized the importance of practice.",
+      "exampleTrans": "老师强调了练习的重要性。",
+      "level": "6.0+"
+    },
+    {
+      "word": "reluctant",
+      "phonetic": "/rɪˈlʌktənt/",
+      "chinese": "不情愿的",
+      "englishDef": "Unwilling and hesitant",
+      "example": "He was reluctant to admit his mistake.",
+      "exampleTrans": "他不情愿承认自己的错误。",
       "level": "6.5+"
     },
     {
-      "word": "justify",
-      "phonetic": "/ˈdʒʌstɪfaɪ/",
-      "chinese": "证明合理",
-      "englishDef": "To show or prove to be right",
-      "example": "Can you justify this expense?",
-      "exampleTrans": "你能证明这笔费用是合理的吗？",
-      "level": "6.5+"
+      "word": "beneficial",
+      "phonetic": "/ˌbenɪˈfɪʃl/",
+      "chinese": "有益的",
+      "englishDef": "Favorable or advantageous",
+      "example": "Exercise is beneficial for your health.",
+      "exampleTrans": "运动对你的健康有益。",
+      "level": "6.0+"
+    },
+    {
+      "word": "assure",
+      "phonetic": "/əˈʃʊə(r)/",
+      "chinese": "保证",
+      "englishDef": "To tell someone confidently that something is true",
+      "example": "I can assure you that the information is accurate.",
+      "exampleTrans": "我可以向你保证这个信息是准确的。",
+      "level": "6.0+"
+    },
+    {
+      "word": "simulate",
+      "phonetic": "/ˈsɪmjuleɪt/",
+      "chinese": "模拟",
+      "englishDef": "To imitate the appearance of something",
+      "example": "The computer can simulate real-world conditions.",
+      "exampleTrans": "计算机可以模拟现实世界的条件。",
+      "level": "7.0+"
     }
   ]
 }
