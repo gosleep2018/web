@@ -1,79 +1,70 @@
 {
-  "date": "2026-03-23",
-  "updatedAt": "2026-03-23T00:01:21.690Z",
+  "date": "2026-03-24",
+  "updatedAt": "2026-03-24T00:01:12.991Z",
   "totalVocab": 130,
   "words": [
     {
-      "word": "contemporary",
-      "phonetic": "/kənˈtempərəri/",
-      "chinese": "当代的",
-      "englishDef": "Living or occurring at the same time",
-      "example": "Contemporary art often challenges traditional views.",
-      "exampleTrans": "当代艺术经常挑战传统观点。",
+      "word": "perceive",
+      "phonetic": "/pəˈsiːv/",
+      "chinese": "感知",
+      "englishDef": "To become aware through senses",
+      "example": "How do you perceive this situation?",
+      "exampleTrans": "你如何看待这种情况？",
       "level": "7.0+"
     },
     {
-      "word": "diminish",
-      "phonetic": "/dɪˈmɪnɪʃ/",
-      "chinese": "减少",
-      "englishDef": "To make or become less",
-      "example": "The importance of this issue should not be diminished.",
-      "exampleTrans": "这个问题的重要性不应被削弱。",
-      "level": "6.5+"
-    },
-    {
-      "word": "prohibit",
-      "phonetic": "/prəˈhɪbɪt/",
-      "chinese": "禁止",
-      "englishDef": "To formally forbid something",
-      "example": "Smoking is prohibited in public places.",
-      "exampleTrans": "在公共场所禁止吸烟。",
-      "level": "6.5+"
-    },
-    {
-      "word": "justify",
-      "phonetic": "/ˈdʒʌstɪfaɪ/",
-      "chinese": "证明合理",
-      "englishDef": "To show or prove to be right",
-      "example": "Can you justify this expense?",
-      "exampleTrans": "你能证明这笔费用是合理的吗？",
-      "level": "6.5+"
-    },
-    {
-      "word": "integrate",
-      "phonetic": "/ˈɪntɪɡreɪt/",
-      "chinese": "整合",
-      "englishDef": "To combine parts into a whole",
-      "example": "We need to integrate new technology into our workflow.",
-      "exampleTrans": "我们需要将新技术整合到我们的工作流程中。",
-      "level": "6.5+"
-    },
-    {
-      "word": "exploit",
-      "phonetic": "/ɪkˈsplɔɪt/",
-      "chinese": "利用",
-      "englishDef": "To make full use of and derive benefit from",
-      "example": "We should exploit this opportunity.",
-      "exampleTrans": "我们应该利用这个机会。",
-      "level": "6.5+"
-    },
-    {
-      "word": "adequate",
-      "phonetic": "/ˈædɪkwət/",
-      "chinese": "足够的",
-      "englishDef": "Enough or satisfactory for a particular purpose",
-      "example": "The salary is adequate for living expenses.",
-      "exampleTrans": "这份工资足够支付生活费用。",
+      "word": "capacity",
+      "phonetic": "/kəˈpæsəti/",
+      "chinese": "能力",
+      "englishDef": "The maximum amount that something can contain or produce",
+      "example": "The stadium has a capacity of 50,000 people.",
+      "exampleTrans": "这个体育场可以容纳5万人。",
       "level": "6.0+"
     },
     {
-      "word": "obtain",
-      "phonetic": "/əbˈteɪn/",
-      "chinese": "获得",
-      "englishDef": "To get or acquire",
-      "example": "How did you obtain this information?",
-      "exampleTrans": "你是如何获得这些信息的？",
+      "word": "emerge",
+      "phonetic": "/ɪˈmɜːdʒ/",
+      "chinese": "出现",
+      "englishDef": "To become known or apparent",
+      "example": "New evidence has emerged in the case.",
+      "exampleTrans": "案件中出现了新证据。",
       "level": "6.0+"
+    },
+    {
+      "word": "scrutinize",
+      "phonetic": "/ˈskruːtɪnaɪz/",
+      "chinese": "仔细审查",
+      "englishDef": "To examine or inspect closely and thoroughly",
+      "example": "The committee scrutinized every detail.",
+      "exampleTrans": "委员会仔细审查了每一个细节。",
+      "level": "7.5+"
+    },
+    {
+      "word": "profound",
+      "phonetic": "/prəˈfaʊnd/",
+      "chinese": "深刻的",
+      "englishDef": "Very great or intense",
+      "example": "The experience had a profound impact on her.",
+      "exampleTrans": "这次经历对她产生了深刻的影响。",
+      "level": "7.0+"
+    },
+    {
+      "word": "arbitrary",
+      "phonetic": "/ˈɑːbɪtrəri/",
+      "chinese": "任意的",
+      "englishDef": "Based on random choice rather than reason",
+      "example": "The decision seemed arbitrary and unfair.",
+      "exampleTrans": "这个决定似乎很武断且不公平。",
+      "level": "7.5+"
+    },
+    {
+      "word": "interpret",
+      "phonetic": "/ɪnˈtɜːprɪt/",
+      "chinese": "解释",
+      "englishDef": "To explain the meaning of something",
+      "example": "How do you interpret these results?",
+      "exampleTrans": "你如何解释这些结果？",
+      "level": "6.5+"
     },
     {
       "word": "substantial",
@@ -85,13 +76,22 @@
       "level": "6.5+"
     },
     {
-      "word": "yield",
-      "phonetic": "/jiːld/",
-      "chinese": "产出",
-      "englishDef": "To produce or provide",
-      "example": "The investment yielded good returns.",
-      "exampleTrans": "这项投资产生了良好的回报。",
-      "level": "6.5+"
+      "word": "accomplish",
+      "phonetic": "/əˈkʌmplɪʃ/",
+      "chinese": "完成",
+      "englishDef": "To succeed in doing something",
+      "example": "She accomplished her goal of graduating with honors.",
+      "exampleTrans": "她完成了以优异成绩毕业的目标。",
+      "level": "6.0+"
+    },
+    {
+      "word": "demonstrate",
+      "phonetic": "/ˈdemənstreɪt/",
+      "chinese": "证明",
+      "englishDef": "To show clearly and deliberately",
+      "example": "The experiment demonstrates the theory.",
+      "exampleTrans": "这个实验证明了这个理论。",
+      "level": "6.0+"
     }
   ]
 }
