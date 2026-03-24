@@ -1,97 +1,108 @@
 {
   "date": "2026-03-24",
-  "updatedAt": "2026-03-24T00:01:12.991Z",
-  "totalVocab": 130,
+  "updatedAt": "2026-03-24T18:47:33.105Z",
+  "totalVocab": 202,
+  "source": "GRE高频词 + Word Power Made Easy体系",
   "words": [
     {
-      "word": "perceive",
-      "phonetic": "/pəˈsiːv/",
-      "chinese": "感知",
-      "englishDef": "To become aware through senses",
-      "example": "How do you perceive this situation?",
-      "exampleTrans": "你如何看待这种情况？",
-      "level": "7.0+"
+      "word": "abjure",
+      "phonetic": "/æbˈdʒʊər/",
+      "chinese": "正式放弃；发誓放弃",
+      "englishDef": "To formally reject or renounce a belief or cause",
+      "example": "He abjured his former political views.",
+      "exampleTrans": "他正式放弃了以前的政治观点。",
+      "level": "GRE",
+      "etymology": "ab-(away)+jure(swear)"
     },
     {
-      "word": "capacity",
-      "phonetic": "/kəˈpæsəti/",
-      "chinese": "能力",
-      "englishDef": "The maximum amount that something can contain or produce",
-      "example": "The stadium has a capacity of 50,000 people.",
-      "exampleTrans": "这个体育场可以容纳5万人。",
-      "level": "6.0+"
+      "word": "assuage",
+      "phonetic": "/əˈsweɪdʒ/",
+      "chinese": "平息；缓和；满足",
+      "englishDef": "To make an unpleasant feeling less intense",
+      "example": "He tried to assuage her grief with kind words.",
+      "exampleTrans": "他试图用温言来减轻她的悲痛。",
+      "level": "GRE",
+      "etymology": "L.suavis(sweet, pleasant)"
     },
     {
-      "word": "emerge",
-      "phonetic": "/ɪˈmɜːdʒ/",
-      "chinese": "出现",
-      "englishDef": "To become known or apparent",
-      "example": "New evidence has emerged in the case.",
-      "exampleTrans": "案件中出现了新证据。",
-      "level": "6.0+"
+      "word": "ebullient",
+      "phonetic": "/ɪˈbʊliənt/",
+      "chinese": "热情洋溢的；活泼的",
+      "englishDef": "Cheerful and full of energy; exuberant",
+      "example": "Her ebullient personality lit up every room.",
+      "exampleTrans": "她热情洋溢的个性照亮了每个房间。",
+      "level": "GRE",
+      "etymology": "L.ebullire(to bubble up)"
     },
     {
-      "word": "scrutinize",
-      "phonetic": "/ˈskruːtɪnaɪz/",
-      "chinese": "仔细审查",
-      "englishDef": "To examine or inspect closely and thoroughly",
-      "example": "The committee scrutinized every detail.",
-      "exampleTrans": "委员会仔细审查了每一个细节。",
-      "level": "7.5+"
+      "word": "abscond",
+      "phonetic": "/æbˈskɒnd/",
+      "chinese": "潜逃；携款逃跑",
+      "englishDef": "To leave hurriedly and secretly to escape custody",
+      "example": "The accountant absconded with the company funds.",
+      "exampleTrans": "会计携公司资金潜逃了。",
+      "level": "GRE",
+      "etymology": "ab-(away)+cond(hide)"
     },
     {
-      "word": "profound",
-      "phonetic": "/prəˈfaʊnd/",
-      "chinese": "深刻的",
-      "englishDef": "Very great or intense",
-      "example": "The experience had a profound impact on her.",
-      "exampleTrans": "这次经历对她产生了深刻的影响。",
-      "level": "7.0+"
+      "word": "prosaic",
+      "phonetic": "/prəˈzeɪɪk/",
+      "chinese": "平淡无奇的；缺乏想象力的",
+      "englishDef": "Having the style of prose; lacking imagination; commonplace",
+      "example": "His life was utterly prosaic and devoid of adventure.",
+      "exampleTrans": "他的生活极其平淡，缺乏冒险。",
+      "level": "GRE",
+      "etymology": "L.prosa(prose)"
     },
     {
-      "word": "arbitrary",
-      "phonetic": "/ˈɑːbɪtrəri/",
-      "chinese": "任意的",
-      "englishDef": "Based on random choice rather than reason",
-      "example": "The decision seemed arbitrary and unfair.",
-      "exampleTrans": "这个决定似乎很武断且不公平。",
-      "level": "7.5+"
+      "word": "cacophony",
+      "phonetic": "/kæˈkɒfəni/",
+      "chinese": "刺耳的噪音；不和谐的声音",
+      "englishDef": "A harsh discordant mixture of sounds",
+      "example": "The cacophony of horns filled the streets.",
+      "exampleTrans": "喇叭声的嘈杂充斥着街道。",
+      "level": "GRE",
+      "etymology": "Gk.kakos(bad)+phone(sound)"
     },
     {
-      "word": "interpret",
-      "phonetic": "/ɪnˈtɜːprɪt/",
-      "chinese": "解释",
-      "englishDef": "To explain the meaning of something",
-      "example": "How do you interpret these results?",
-      "exampleTrans": "你如何解释这些结果？",
-      "level": "6.5+"
+      "word": "acrimony",
+      "phonetic": "/ˈækrɪməni/",
+      "chinese": "尖刻；激烈的争吵",
+      "englishDef": "Bitterness or ill feeling, especially in speech",
+      "example": "The divorce was settled with much acrimony.",
+      "exampleTrans": "离婚在激烈的争吵中解决了。",
+      "level": "GRE",
+      "etymology": "L.acer(sharp)"
     },
     {
-      "word": "substantial",
-      "phonetic": "/səbˈstænʃl/",
-      "chinese": "大量的",
-      "englishDef": "Of considerable importance or size",
-      "example": "There was a substantial increase in profits.",
-      "exampleTrans": "利润有了大幅增长。",
-      "level": "6.5+"
+      "word": "propitious",
+      "phonetic": "/prəˈpɪʃəs/",
+      "chinese": "吉祥的；有利的",
+      "englishDef": "Giving or indicating a good chance of success; favorable",
+      "example": "The timing was propitious for launching the product.",
+      "exampleTrans": "这个时机对产品发布非常有利。",
+      "level": "GRE",
+      "etymology": "L.propitius(favorable)"
     },
     {
-      "word": "accomplish",
-      "phonetic": "/əˈkʌmplɪʃ/",
-      "chinese": "完成",
-      "englishDef": "To succeed in doing something",
-      "example": "She accomplished her goal of graduating with honors.",
-      "exampleTrans": "她完成了以优异成绩毕业的目标。",
-      "level": "6.0+"
+      "word": "exemplary",
+      "phonetic": "/ɪɡˈzempləri/",
+      "chinese": "典范的；值得效仿的",
+      "englishDef": "Serving as a desirable model; representing the best",
+      "example": "Her exemplary work ethic inspired the whole team.",
+      "exampleTrans": "她典范的工作态度激励了整个团队。",
+      "level": "GRE",
+      "etymology": "L.exemplum(example)"
     },
     {
-      "word": "demonstrate",
-      "phonetic": "/ˈdemənstreɪt/",
-      "chinese": "证明",
-      "englishDef": "To show clearly and deliberately",
-      "example": "The experiment demonstrates the theory.",
-      "exampleTrans": "这个实验证明了这个理论。",
-      "level": "6.0+"
+      "word": "diffident",
+      "phonetic": "/ˈdɪfɪdənt/",
+      "chinese": "缺乏自信的；羞怯的",
+      "englishDef": "Modest or shy due to a lack of self-confidence",
+      "example": "She was diffident about sharing her opinion.",
+      "exampleTrans": "她对于分享自己的意见感到羞怯。",
+      "level": "GRE",
+      "etymology": "L.diffidere(to distrust)"
     }
   ]
 }
