@@ -1,108 +1,108 @@
 {
-  "date": "2026-03-24",
-  "updatedAt": "2026-03-24T18:47:33.105Z",
+  "date": "2026-03-25",
+  "updatedAt": "2026-03-25T00:01:27.044Z",
   "totalVocab": 202,
   "source": "GRE高频词 + Word Power Made Easy体系",
   "words": [
     {
-      "word": "abjure",
-      "phonetic": "/æbˈdʒʊər/",
-      "chinese": "正式放弃；发誓放弃",
-      "englishDef": "To formally reject or renounce a belief or cause",
-      "example": "He abjured his former political views.",
-      "exampleTrans": "他正式放弃了以前的政治观点。",
+      "word": "abase",
+      "phonetic": "/əˈbeɪs/",
+      "chinese": "贬低；使降低身份",
+      "englishDef": "To lower in rank, dignity, or esteem",
+      "example": "He refused to abase himself by begging for mercy.",
+      "exampleTrans": "他拒绝通过乞求宽恕来贬低自己。",
       "level": "GRE",
-      "etymology": "ab-(away)+jure(swear)"
+      "etymology": "a-(down)+base(low)"
     },
     {
-      "word": "assuage",
-      "phonetic": "/əˈsweɪdʒ/",
-      "chinese": "平息；缓和；满足",
-      "englishDef": "To make an unpleasant feeling less intense",
-      "example": "He tried to assuage her grief with kind words.",
-      "exampleTrans": "他试图用温言来减轻她的悲痛。",
+      "word": "arcane",
+      "phonetic": "/ɑːˈkeɪn/",
+      "chinese": "神秘的；晦涩难懂的",
+      "englishDef": "Understood by few; mysterious or secret knowledge",
+      "example": "He possessed arcane knowledge of ancient rituals.",
+      "exampleTrans": "他拥有关于古代仪式的神秘知识。",
       "level": "GRE",
-      "etymology": "L.suavis(sweet, pleasant)"
+      "etymology": "L.arcanus(secret, closed)"
     },
     {
-      "word": "ebullient",
-      "phonetic": "/ɪˈbʊliənt/",
-      "chinese": "热情洋溢的；活泼的",
-      "englishDef": "Cheerful and full of energy; exuberant",
-      "example": "Her ebullient personality lit up every room.",
-      "exampleTrans": "她热情洋溢的个性照亮了每个房间。",
+      "word": "animosity",
+      "phonetic": "/ˌænɪˈmɒsɪti/",
+      "chinese": "憎恨；强烈的敌意",
+      "englishDef": "Strong hostility or ill feeling toward someone",
+      "example": "There was deep animosity between the two factions.",
+      "exampleTrans": "两派之间存在深深的敌意。",
       "level": "GRE",
-      "etymology": "L.ebullire(to bubble up)"
+      "etymology": "L.animosus(spirited)"
     },
     {
-      "word": "abscond",
-      "phonetic": "/æbˈskɒnd/",
-      "chinese": "潜逃；携款逃跑",
-      "englishDef": "To leave hurriedly and secretly to escape custody",
-      "example": "The accountant absconded with the company funds.",
-      "exampleTrans": "会计携公司资金潜逃了。",
+      "word": "platitude",
+      "phonetic": "/ˈplætɪtjuːd/",
+      "chinese": "陈词滥调；老生常谈",
+      "englishDef": "A remark or statement that is dull because it has been said too often",
+      "example": "His speech was full of platitudes and offered nothing new.",
+      "exampleTrans": "他的演讲充满了陈词滥调，没有任何新意。",
       "level": "GRE",
-      "etymology": "ab-(away)+cond(hide)"
+      "etymology": "F.platitude(flatness)"
     },
     {
-      "word": "prosaic",
-      "phonetic": "/prəˈzeɪɪk/",
-      "chinese": "平淡无奇的；缺乏想象力的",
-      "englishDef": "Having the style of prose; lacking imagination; commonplace",
-      "example": "His life was utterly prosaic and devoid of adventure.",
-      "exampleTrans": "他的生活极其平淡，缺乏冒险。",
+      "word": "frugal",
+      "phonetic": "/ˈfruːɡl/",
+      "chinese": "节俭的；朴素的",
+      "englishDef": "Sparing or economical with money or food",
+      "example": "She lived a frugal life, saving every penny.",
+      "exampleTrans": "她过着节俭的生活，积攒每一分钱。",
       "level": "GRE",
-      "etymology": "L.prosa(prose)"
+      "etymology": "L.frugalis(economical)"
     },
     {
-      "word": "cacophony",
-      "phonetic": "/kæˈkɒfəni/",
-      "chinese": "刺耳的噪音；不和谐的声音",
-      "englishDef": "A harsh discordant mixture of sounds",
-      "example": "The cacophony of horns filled the streets.",
-      "exampleTrans": "喇叭声的嘈杂充斥着街道。",
+      "word": "vex",
+      "phonetic": "/veks/",
+      "chinese": "使烦恼；使苦恼",
+      "englishDef": "To make someone feel annoyed or frustrated",
+      "example": "The constant delays vexed the passengers.",
+      "exampleTrans": "不断的延误令乘客感到烦恼。",
       "level": "GRE",
-      "etymology": "Gk.kakos(bad)+phone(sound)"
+      "etymology": "L.vexare(to shake, disturb)"
     },
     {
-      "word": "acrimony",
-      "phonetic": "/ˈækrɪməni/",
-      "chinese": "尖刻；激烈的争吵",
-      "englishDef": "Bitterness or ill feeling, especially in speech",
-      "example": "The divorce was settled with much acrimony.",
-      "exampleTrans": "离婚在激烈的争吵中解决了。",
+      "word": "volatile",
+      "phonetic": "/ˈvɒlətaɪl/",
+      "chinese": "易变的；不稳定的；挥发性的",
+      "englishDef": "Liable to change rapidly and unpredictably",
+      "example": "The volatile stock market unsettled investors.",
+      "exampleTrans": "动荡的股市令投资者不安。",
       "level": "GRE",
-      "etymology": "L.acer(sharp)"
+      "etymology": "L.volatilis(flying, fleeting)"
     },
     {
-      "word": "propitious",
-      "phonetic": "/prəˈpɪʃəs/",
-      "chinese": "吉祥的；有利的",
-      "englishDef": "Giving or indicating a good chance of success; favorable",
-      "example": "The timing was propitious for launching the product.",
-      "exampleTrans": "这个时机对产品发布非常有利。",
+      "word": "ignominious",
+      "phonetic": "/ˌɪɡnəˈmɪniəs/",
+      "chinese": "可耻的；不光彩的",
+      "englishDef": "Deserving or causing public disgrace or shame",
+      "example": "The team suffered an ignominious defeat.",
+      "exampleTrans": "该队遭受了可耻的失败。",
       "level": "GRE",
-      "etymology": "L.propitius(favorable)"
+      "etymology": "L.ignominia(disgrace)"
     },
     {
-      "word": "exemplary",
-      "phonetic": "/ɪɡˈzempləri/",
-      "chinese": "典范的；值得效仿的",
-      "englishDef": "Serving as a desirable model; representing the best",
-      "example": "Her exemplary work ethic inspired the whole team.",
-      "exampleTrans": "她典范的工作态度激励了整个团队。",
+      "word": "admonish",
+      "phonetic": "/ədˈmɒnɪʃ/",
+      "chinese": "告诫；训诫",
+      "englishDef": "To warn or reprimand someone firmly but kindly",
+      "example": "The judge admonished the jury not to discuss the case.",
+      "exampleTrans": "法官告诫陪审团不要讨论案件。",
       "level": "GRE",
-      "etymology": "L.exemplum(example)"
+      "etymology": "L.admonere(to warn)"
     },
     {
-      "word": "diffident",
-      "phonetic": "/ˈdɪfɪdənt/",
-      "chinese": "缺乏自信的；羞怯的",
-      "englishDef": "Modest or shy due to a lack of self-confidence",
-      "example": "She was diffident about sharing her opinion.",
-      "exampleTrans": "她对于分享自己的意见感到羞怯。",
+      "word": "remonstrate",
+      "phonetic": "/rɪˈmɒnstreɪt/",
+      "chinese": "抗议；告诫",
+      "englishDef": "To make a forcefully reproachful protest",
+      "example": "The students remonstrated against the new policy.",
+      "exampleTrans": "学生们对新政策提出了强烈抗议。",
       "level": "GRE",
-      "etymology": "L.diffidere(to distrust)"
+      "etymology": "L.remonstrare(to demonstrate again)"
     }
   ]
 }
