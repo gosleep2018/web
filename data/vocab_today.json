@@ -1,108 +1,108 @@
 {
-  "date": "2026-03-25",
-  "updatedAt": "2026-03-25T00:01:27.044Z",
+  "date": "2026-03-26",
+  "updatedAt": "2026-03-26T00:03:20.435Z",
   "totalVocab": 202,
   "source": "GRE高频词 + Word Power Made Easy体系",
   "words": [
     {
-      "word": "abase",
-      "phonetic": "/əˈbeɪs/",
-      "chinese": "贬低；使降低身份",
-      "englishDef": "To lower in rank, dignity, or esteem",
-      "example": "He refused to abase himself by begging for mercy.",
-      "exampleTrans": "他拒绝通过乞求宽恕来贬低自己。",
+      "word": "desultory",
+      "phonetic": "/ˈdesəltri/",
+      "chinese": "散漫的；无目的的",
+      "englishDef": "Lacking a plan, purpose, or enthusiasm; disconnected",
+      "example": "He made a few desultory attempts at conversation.",
+      "exampleTrans": "他做了几次漫无目的的谈话尝试。",
       "level": "GRE",
-      "etymology": "a-(down)+base(low)"
+      "etymology": "L.desultorius(skipping about)"
     },
     {
-      "word": "arcane",
-      "phonetic": "/ɑːˈkeɪn/",
-      "chinese": "神秘的；晦涩难懂的",
-      "englishDef": "Understood by few; mysterious or secret knowledge",
-      "example": "He possessed arcane knowledge of ancient rituals.",
-      "exampleTrans": "他拥有关于古代仪式的神秘知识。",
+      "word": "ascetic",
+      "phonetic": "/əˈsetɪk/",
+      "chinese": "禁欲的；苦行的",
+      "englishDef": "Characterized by severe self-discipline and abstention",
+      "example": "The monks led an ascetic life in the mountains.",
+      "exampleTrans": "僧侣们在山中过着苦行的生活。",
       "level": "GRE",
-      "etymology": "L.arcanus(secret, closed)"
+      "etymology": "Gk.asketes(one who exercises)"
     },
     {
-      "word": "animosity",
-      "phonetic": "/ˌænɪˈmɒsɪti/",
-      "chinese": "憎恨；强烈的敌意",
-      "englishDef": "Strong hostility or ill feeling toward someone",
-      "example": "There was deep animosity between the two factions.",
-      "exampleTrans": "两派之间存在深深的敌意。",
+      "word": "exacerbate",
+      "phonetic": "/ɪɡˈzæsəbeɪt/",
+      "chinese": "使恶化；加剧",
+      "englishDef": "To make a problem or bad situation worse",
+      "example": "The drought was exacerbated by poor water management.",
+      "exampleTrans": "旱灾因水资源管理不善而加剧。",
       "level": "GRE",
-      "etymology": "L.animosus(spirited)"
+      "etymology": "L.exacerbare(to make harsh)"
     },
     {
-      "word": "platitude",
-      "phonetic": "/ˈplætɪtjuːd/",
-      "chinese": "陈词滥调；老生常谈",
-      "englishDef": "A remark or statement that is dull because it has been said too often",
-      "example": "His speech was full of platitudes and offered nothing new.",
-      "exampleTrans": "他的演讲充满了陈词滥调，没有任何新意。",
+      "word": "aesthetic",
+      "phonetic": "/iːsˈθetɪk/",
+      "chinese": "美学的；审美的",
+      "englishDef": "Concerned with beauty or the appreciation of beauty",
+      "example": "The building has great aesthetic appeal.",
+      "exampleTrans": "这栋建筑具有很强的审美吸引力。",
       "level": "GRE",
-      "etymology": "F.platitude(flatness)"
+      "etymology": "Gk.aisthetikos(perceptible)"
     },
     {
-      "word": "frugal",
-      "phonetic": "/ˈfruːɡl/",
-      "chinese": "节俭的；朴素的",
-      "englishDef": "Sparing or economical with money or food",
-      "example": "She lived a frugal life, saving every penny.",
-      "exampleTrans": "她过着节俭的生活，积攒每一分钱。",
+      "word": "acerbic",
+      "phonetic": "/əˈsɜːbɪk/",
+      "chinese": "尖刻的；辛辣的",
+      "englishDef": "Sharp and forthright in tone; biting",
+      "example": "Her acerbic wit made some people uncomfortable.",
+      "exampleTrans": "她尖刻的机智让一些人不舒服。",
       "level": "GRE",
-      "etymology": "L.frugalis(economical)"
+      "etymology": "L.acerbus(harsh, sharp)"
     },
     {
-      "word": "vex",
-      "phonetic": "/veks/",
-      "chinese": "使烦恼；使苦恼",
-      "englishDef": "To make someone feel annoyed or frustrated",
-      "example": "The constant delays vexed the passengers.",
-      "exampleTrans": "不断的延误令乘客感到烦恼。",
+      "word": "lassitude",
+      "phonetic": "/ˈlæsɪtjuːd/",
+      "chinese": "疲乏；倦怠；无精打采",
+      "englishDef": "Physical or mental weariness; lack of energy",
+      "example": "After the long journey, she felt overwhelming lassitude.",
+      "exampleTrans": "长途旅行后，她感到极度疲倦。",
       "level": "GRE",
-      "etymology": "L.vexare(to shake, disturb)"
+      "etymology": "L.lassus(weary)"
     },
     {
-      "word": "volatile",
-      "phonetic": "/ˈvɒlətaɪl/",
-      "chinese": "易变的；不稳定的；挥发性的",
-      "englishDef": "Liable to change rapidly and unpredictably",
-      "example": "The volatile stock market unsettled investors.",
-      "exampleTrans": "动荡的股市令投资者不安。",
+      "word": "fervid",
+      "phonetic": "/ˈfɜːvɪd/",
+      "chinese": "热情洋溢的；激烈的",
+      "englishDef": "Intensely enthusiastic or passionate; ardent",
+      "example": "She was a fervid supporter of the cause.",
+      "exampleTrans": "她是这一事业的热情支持者。",
       "level": "GRE",
-      "etymology": "L.volatilis(flying, fleeting)"
+      "etymology": "L.fervidus(glowing, burning)"
     },
     {
-      "word": "ignominious",
-      "phonetic": "/ˌɪɡnəˈmɪniəs/",
-      "chinese": "可耻的；不光彩的",
-      "englishDef": "Deserving or causing public disgrace or shame",
-      "example": "The team suffered an ignominious defeat.",
-      "exampleTrans": "该队遭受了可耻的失败。",
+      "word": "garrulous",
+      "phonetic": "/ˈɡærʊləs/",
+      "chinese": "话多的；喋喋不休的",
+      "englishDef": "Excessively talkative, especially on trivial matters",
+      "example": "The garrulous neighbor would talk for hours.",
+      "exampleTrans": "这位话多的邻居会说上几个小时。",
       "level": "GRE",
-      "etymology": "L.ignominia(disgrace)"
+      "etymology": "L.garrire(to chatter)"
     },
     {
-      "word": "admonish",
-      "phonetic": "/ədˈmɒnɪʃ/",
-      "chinese": "告诫；训诫",
-      "englishDef": "To warn or reprimand someone firmly but kindly",
-      "example": "The judge admonished the jury not to discuss the case.",
-      "exampleTrans": "法官告诫陪审团不要讨论案件。",
+      "word": "caustic",
+      "phonetic": "/ˈkɔːstɪk/",
+      "chinese": "腐蚀性的；刻薄尖锐的",
+      "englishDef": "Sarcastic in a scathing way; able to burn or corrode",
+      "example": "His caustic remarks wounded her deeply.",
+      "exampleTrans": "他刻薄的话深深伤害了她。",
       "level": "GRE",
-      "etymology": "L.admonere(to warn)"
+      "etymology": "Gk.kaustikos(burning)"
     },
     {
-      "word": "remonstrate",
-      "phonetic": "/rɪˈmɒnstreɪt/",
-      "chinese": "抗议；告诫",
-      "englishDef": "To make a forcefully reproachful protest",
-      "example": "The students remonstrated against the new policy.",
-      "exampleTrans": "学生们对新政策提出了强烈抗议。",
+      "word": "iconoclast",
+      "phonetic": "/aɪˈkɒnəklæst/",
+      "chinese": "打破传统者；反对偶像崇拜者",
+      "englishDef": "A person who criticizes or attacks cherished beliefs",
+      "example": "Darwin was an iconoclast who challenged religious dogma.",
+      "exampleTrans": "达尔文是一个挑战宗教教条的反传统者。",
       "level": "GRE",
-      "etymology": "L.remonstrare(to demonstrate again)"
+      "etymology": "Gk.eikon(image)+klastes(breaker)"
     }
   ]
 }
