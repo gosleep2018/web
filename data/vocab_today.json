@@ -1,108 +1,108 @@
 {
-  "date": "2026-03-26",
-  "updatedAt": "2026-03-26T00:03:20.435Z",
+  "date": "2026-03-27",
+  "updatedAt": "2026-03-27T00:04:54.565Z",
   "totalVocab": 202,
   "source": "GRE高频词 + Word Power Made Easy体系",
   "words": [
     {
-      "word": "desultory",
-      "phonetic": "/ˈdesəltri/",
-      "chinese": "散漫的；无目的的",
-      "englishDef": "Lacking a plan, purpose, or enthusiasm; disconnected",
-      "example": "He made a few desultory attempts at conversation.",
-      "exampleTrans": "他做了几次漫无目的的谈话尝试。",
+      "word": "abate",
+      "phonetic": "/əˈbeɪt/",
+      "chinese": "减弱；减少",
+      "englishDef": "To reduce in amount, degree, or intensity",
+      "example": "The storm finally abated after midnight.",
+      "exampleTrans": "暴风雨终于在午夜后减弱了。",
       "level": "GRE",
-      "etymology": "L.desultorius(skipping about)"
+      "etymology": "OF abatre(beat down)"
     },
     {
-      "word": "ascetic",
-      "phonetic": "/əˈsetɪk/",
-      "chinese": "禁欲的；苦行的",
-      "englishDef": "Characterized by severe self-discipline and abstention",
-      "example": "The monks led an ascetic life in the mountains.",
-      "exampleTrans": "僧侣们在山中过着苦行的生活。",
+      "word": "arduous",
+      "phonetic": "/ˈɑːdjuəs/",
+      "chinese": "艰难的；费力的",
+      "englishDef": "Involving or requiring strenuous effort; difficult",
+      "example": "The expedition through the mountains was arduous.",
+      "exampleTrans": "穿越山脉的探险艰苦但值得。",
       "level": "GRE",
-      "etymology": "Gk.asketes(one who exercises)"
+      "etymology": "L.arduus(steep, difficult)"
     },
     {
-      "word": "exacerbate",
-      "phonetic": "/ɪɡˈzæsəbeɪt/",
-      "chinese": "使恶化；加剧",
-      "englishDef": "To make a problem or bad situation worse",
-      "example": "The drought was exacerbated by poor water management.",
-      "exampleTrans": "旱灾因水资源管理不善而加剧。",
+      "word": "banal",
+      "phonetic": "/bəˈnɑːl/",
+      "chinese": "平庸的；陈腐的",
+      "englishDef": "So lacking in originality as to be obvious and boring",
+      "example": "The speech was full of banal platitudes.",
+      "exampleTrans": "演讲充满了陈腐的老生常谈。",
       "level": "GRE",
-      "etymology": "L.exacerbare(to make harsh)"
+      "etymology": "F.banal(commonplace)"
     },
     {
-      "word": "aesthetic",
-      "phonetic": "/iːsˈθetɪk/",
-      "chinese": "美学的；审美的",
-      "englishDef": "Concerned with beauty or the appreciation of beauty",
-      "example": "The building has great aesthetic appeal.",
-      "exampleTrans": "这栋建筑具有很强的审美吸引力。",
+      "word": "parsimonious",
+      "phonetic": "/ˌpɑːsɪˈməʊniəs/",
+      "chinese": "吝啬的；小气的",
+      "englishDef": "Unwilling to spend money or use resources; stingy",
+      "example": "Despite his wealth, he was notoriously parsimonious.",
+      "exampleTrans": "尽管富有，他却以吝啬著称。",
       "level": "GRE",
-      "etymology": "Gk.aisthetikos(perceptible)"
+      "etymology": "L.parsimonia(thrift)"
     },
     {
-      "word": "acerbic",
-      "phonetic": "/əˈsɜːbɪk/",
-      "chinese": "尖刻的；辛辣的",
-      "englishDef": "Sharp and forthright in tone; biting",
-      "example": "Her acerbic wit made some people uncomfortable.",
-      "exampleTrans": "她尖刻的机智让一些人不舒服。",
+      "word": "daunt",
+      "phonetic": "/dɔːnt/",
+      "chinese": "使气馁；使胆怯",
+      "englishDef": "To make someone feel intimidated or apprehensive",
+      "example": "She was not daunted by the scale of the challenge.",
+      "exampleTrans": "她没有被挑战的规模所吓倒。",
       "level": "GRE",
-      "etymology": "L.acerbus(harsh, sharp)"
+      "etymology": "L.domitare(to tame)"
     },
     {
-      "word": "lassitude",
-      "phonetic": "/ˈlæsɪtjuːd/",
-      "chinese": "疲乏；倦怠；无精打采",
-      "englishDef": "Physical or mental weariness; lack of energy",
-      "example": "After the long journey, she felt overwhelming lassitude.",
-      "exampleTrans": "长途旅行后，她感到极度疲倦。",
+      "word": "cogent",
+      "phonetic": "/ˈkəʊdʒənt/",
+      "chinese": "令人信服的；有说服力的",
+      "englishDef": "Clear, logical, and convincing in argument",
+      "example": "She presented a cogent case for reform.",
+      "exampleTrans": "她提出了一个令人信服的改革方案。",
       "level": "GRE",
-      "etymology": "L.lassus(weary)"
+      "etymology": "L.cogere(to drive together)"
     },
     {
-      "word": "fervid",
-      "phonetic": "/ˈfɜːvɪd/",
-      "chinese": "热情洋溢的；激烈的",
-      "englishDef": "Intensely enthusiastic or passionate; ardent",
-      "example": "She was a fervid supporter of the cause.",
-      "exampleTrans": "她是这一事业的热情支持者。",
+      "word": "debacle",
+      "phonetic": "/deɪˈbɑːkl/",
+      "chinese": "彻底失败；崩溃",
+      "englishDef": "A sudden, complete disaster or failure",
+      "example": "The project turned into a complete debacle.",
+      "exampleTrans": "这个项目彻底失败了。",
       "level": "GRE",
-      "etymology": "L.fervidus(glowing, burning)"
+      "etymology": "F.débâcler(to unbar)"
     },
     {
-      "word": "garrulous",
-      "phonetic": "/ˈɡærʊləs/",
-      "chinese": "话多的；喋喋不休的",
-      "englishDef": "Excessively talkative, especially on trivial matters",
-      "example": "The garrulous neighbor would talk for hours.",
-      "exampleTrans": "这位话多的邻居会说上几个小时。",
+      "word": "forbear",
+      "phonetic": "/fɔːˈbeər/",
+      "chinese": "克制；忍耐",
+      "englishDef": "To refrain from doing something that one wants to do",
+      "example": "He forbore from criticizing his colleague in public.",
+      "exampleTrans": "他克制自己不在公开场合批评同事。",
       "level": "GRE",
-      "etymology": "L.garrire(to chatter)"
+      "etymology": "OE forberan(to bear, endure)"
     },
     {
-      "word": "caustic",
-      "phonetic": "/ˈkɔːstɪk/",
-      "chinese": "腐蚀性的；刻薄尖锐的",
-      "englishDef": "Sarcastic in a scathing way; able to burn or corrode",
-      "example": "His caustic remarks wounded her deeply.",
-      "exampleTrans": "他刻薄的话深深伤害了她。",
+      "word": "euphemism",
+      "phonetic": "/ˈjuːfəmɪzəm/",
+      "chinese": "委婉语；婉辞",
+      "englishDef": "A mild or indirect word substituted for one considered harsh",
+      "example": "'Passed away' is a euphemism for 'died'.",
+      "exampleTrans": "'离世'是'死亡'的委婉说法。",
       "level": "GRE",
-      "etymology": "Gk.kaustikos(burning)"
+      "etymology": "Gk.eu-(good)+pheme(speech)"
     },
     {
-      "word": "iconoclast",
-      "phonetic": "/aɪˈkɒnəklæst/",
-      "chinese": "打破传统者；反对偶像崇拜者",
-      "englishDef": "A person who criticizes or attacks cherished beliefs",
-      "example": "Darwin was an iconoclast who challenged religious dogma.",
-      "exampleTrans": "达尔文是一个挑战宗教教条的反传统者。",
+      "word": "vicarious",
+      "phonetic": "/vɪˈkeəriəs/",
+      "chinese": "代替他人的；间接感受的",
+      "englishDef": "Experienced through another person rather than directly",
+      "example": "She lived vicariously through her adventurous daughter.",
+      "exampleTrans": "她通过爱冒险的女儿间接地体验生活。",
       "level": "GRE",
-      "etymology": "Gk.eikon(image)+klastes(breaker)"
+      "etymology": "L.vicarius(substitute)"
     }
   ]
 }
