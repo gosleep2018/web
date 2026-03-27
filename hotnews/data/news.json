@@ -1,399 +1,270 @@
 {
-  "generated_at": "2026-03-25 08:30:15 +08",
-  "generated_date": "2026-03-25",
+  "generated_at": "2026-03-27 08:26:51 +08",
+  "generated_date": "2026-03-27",
   "current_slot": "早",
   "slots_done": [
     "早"
   ],
   "sources": {
-    "中国": [
-      {
-        "title": "66岁老人每天跨江探视病妻：为治病卖房在工地做小工",
-        "link": "https://www.163.com/dy/article/KOQB1C4I053469LG.html",
-        "published": "2026-03-24 22:28",
-        "description": "",
-        "title_zh": "66岁老人每天跨江探视病妻：为治病卖房在工地做小工",
-        "title_en": "66岁老人每天跨江探视病妻：为治病卖房在工地做小工"
-      },
-      {
-        "title": "张雪峰因心源性猝死抢救无效去世 终年41岁",
-        "link": "https://www.163.com/news/article/KOQM90KO0001899O.html",
-        "published": "2026-03-24 22:28",
-        "description": "",
-        "title_zh": "张雪峰因心源性猝死抢救无效去世 终年41岁",
-        "title_en": "张雪峰因心源性猝死抢救无效去世 终年41岁"
-      },
-      {
-        "title": "农夫山泉发布2025年财报：营收首次突破500亿元大关",
-        "link": "https://www.163.com/dy/article/KOQK83RD053469M5.html",
-        "published": "2026-03-24 21:28",
-        "description": "",
-        "title_zh": "农夫山泉发布2025年财报：营收首次突破500亿元大关",
-        "title_en": "农夫山泉发布2025年财报：营收首次突破500亿元大关"
-      },
-      {
-        "title": "欧盟智库鼓噪＂和中国打贸易战＂ 媒体：打不赢也打不起",
-        "link": "https://www.163.com/dy/article/KOQE9P480514R9OJ.html",
-        "published": "2026-03-24 20:28",
-        "description": "",
-        "title_zh": "欧盟智库鼓噪＂和中国打贸易战＂ 媒体：打不赢也打不起",
-        "title_en": "欧盟智库鼓噪＂和中国打贸易战＂ 媒体：打不赢也打不起"
-      },
-      {
-        "title": "男子投保遭拒发现名下有手术记录 医院称系其亲人冒用",
-        "link": "https://www.163.com/dy/article/KOQAJCQJ053469LG.html",
-        "published": "2026-03-24 19:28",
-        "description": "",
-        "title_zh": "男子投保遭拒发现名下有手术记录 医院称系其亲人冒用",
-        "title_en": "男子投保遭拒发现名下有手术记录 医院称系其亲人冒用"
-      },
-      {
-        "title": "业主反映家中墙体像面粉＂一抠就碎＂ 物业：并非承重墙",
-        "link": "https://www.163.com/dy/article/KOPPS03305561G0D.html",
-        "published": "2026-03-24 18:28",
-        "description": "",
-        "title_zh": "业主反映家中墙体像面粉＂一抠就碎＂ 物业：并非承重墙",
-        "title_en": "业主反映家中墙体像面粉＂一抠就碎＂ 物业：并非承重墙"
-      },
-      {
-        "title": "内存价格暴涨 有人用7部旧手机换回1个二手iPhone 11",
-        "link": "https://www.163.com/dy/article/KONJK5UC0530WJIN.html",
-        "published": "2026-03-24 17:28",
-        "description": "",
-        "title_zh": "内存价格暴涨 有人用7部旧手机换回1个二手iPhone 11",
-        "title_en": "内存价格暴涨 有人用7部旧手机换回1个二手iPhone 11"
-      },
-      {
-        "title": "多地驾校上调报名费 C1车型最高涨500元",
-        "link": "https://www.163.com/dy/article/KOPQGK69053469LG.html",
-        "published": "2026-03-24 16:28",
-        "description": "",
-        "title_zh": "多地驾校上调报名费 C1车型最高涨500元",
-        "title_en": "多地驾校上调报名费 C1车型最高涨500元"
-      },
-      {
-        "title": "国家金融监督管理总局党委委员、副局长周亮被查",
-        "link": "https://www.163.com/news/article/KOQ0FQE30001899O.html",
-        "published": "2026-03-24 16:28",
-        "description": "",
-        "title_zh": "国家金融监督管理总局党委委员、副局长周亮被查",
-        "title_en": "国家金融监督管理总局党委委员、副局长周亮被查"
-      },
-      {
-        "title": "＂亿元村＂出现饮水难 有村民接屋檐雨水、喝腥臭溪沟水",
-        "link": "https://www.163.com/dy/article/KOPQ6V8J0514R9P4.html",
-        "published": "2026-03-24 14:28",
-        "description": "",
-        "title_zh": "＂亿元村＂出现饮水难 有村民接屋檐雨水、喝腥臭溪沟水",
-        "title_en": "＂亿元村＂出现饮水难 有村民接屋檐雨水、喝腥臭溪沟水"
-      },
-      {
-        "title": "楼上打工楼下透析续命 广州一制衣厂56名工人患尿毒症",
-        "link": "https://www.163.com/dy/article/KOP4S3BL055040N3.html",
-        "published": "2026-03-24 14:28",
-        "description": "",
-        "title_zh": "楼上打工楼下透析续命 广州一制衣厂56名工人患尿毒症",
-        "title_en": "楼上打工楼下透析续命 广州一制衣厂56名工人患尿毒症"
-      },
-      {
-        "title": "女子自称＂家里资产四个亿＂ 男友给50多万彩礼如今哭了",
-        "link": "https://www.163.com/dy/article/KOOCN7OF051494GR.html",
-        "published": "2026-03-24 14:28",
-        "description": "",
-        "title_zh": "女子自称＂家里资产四个亿＂ 男友给50多万彩礼如今哭了",
-        "title_en": "女子自称＂家里资产四个亿＂ 男友给50多万彩礼如今哭了"
-      },
-      {
-        "title": "美团App被指删除用户手机内的数百张照片 客服回应",
-        "link": "https://www.163.com/dy/article/KOPLDBJ4051492T3.html",
-        "published": "2026-03-24 13:28",
-        "description": "",
-        "title_zh": "美团App被指删除用户手机内的数百张照片 客服回应",
-        "title_en": "美团App被指删除用户手机内的数百张照片 客服回应"
-      },
-      {
-        "title": "昔日国内最大催收公司被催收 遭追债共计超5000万",
-        "link": "https://www.163.com/dy/article/KOPNQ4SI051492T3.html",
-        "published": "2026-03-24 13:28",
-        "description": "",
-        "title_zh": "昔日国内最大催收公司被催收 遭追债共计超5000万",
-        "title_en": "昔日国内最大催收公司被催收 遭追债共计超5000万"
-      },
-      {
-        "title": "男子娶外国新娘后确诊HIV：妻子和小儿子均已去世",
-        "link": "https://www.163.com/dy/article/KOPH47E9051492T3.html",
-        "published": "2026-03-24 13:28",
-        "description": "",
-        "title_zh": "男子娶外国新娘后确诊HIV：妻子和小儿子均已去世",
-        "title_en": "男子娶外国新娘后确诊HIV：妻子和小儿子均已去世"
-      },
-      {
-        "title": "穿纸尿裤的14岁少年死亡 曾因偷钱遭再婚父亲毒打",
-        "link": "https://www.163.com/dy/article/KOP9R1G10512D3VJ.html",
-        "published": "2026-03-24 12:28",
-        "description": "",
-        "title_zh": "穿纸尿裤的14岁少年死亡 曾因偷钱遭再婚父亲毒打",
-        "title_en": "穿纸尿裤的14岁少年死亡 曾因偷钱遭再婚父亲毒打"
-      }
-    ],
+    "中国": [],
     "美国（欧美媒体）": [
       {
-        "title": "Oil at $150 will trigger global recession, says boss of financial giant BlackRock",
-        "link": "https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 08:00",
-        "description": "Larry Fink says if oil prices stay high for a sustained period it will have \"profound implications\" for the world economy.",
-        "title_en": "Oil at $150 will trigger global recession, says boss of financial giant BlackRock",
-        "title_zh": "金融巨头贝莱德老板表示，油价跌至 150 美元将引发全球衰退"
+        "title": "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise",
+        "link": "https://www.bbc.com/news/articles/cx2r4wxdw3no?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 02:24",
+        "description": "There is renewed urgency for Ukraine to get a drone deal done, as the US increasingly focuses on Iran.",
+        "title_en": "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise",
+        "title_zh": "Zelensky visits Saudi Arabia after offering Ukraine's drone expertise"
       },
       {
-        "title": "Iran war shows norms of international conflicts have been overturned",
-        "link": "https://www.bbc.com/news/articles/c4gjv02g54ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 23:55",
-        "description": "US threats against energy infrastructure, and Iran's retaliation on its Gulf neighbours, signal a clear change.",
-        "title_en": "Iran war shows norms of international conflicts have been overturned",
-        "title_zh": "伊朗战争表明国际冲突准则已被推翻"
+        "title": "Rationing power and diluting petrol - how African countries are coping with effects of Iran war",
+        "link": "https://www.bbc.com/news/articles/cq8wkq1n9epo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 01:57",
+        "description": "The disruption in oil supplies has caused shortages and concerns in several African countries.",
+        "title_en": "Rationing power and diluting petrol - how African countries are coping with effects of Iran war",
+        "title_zh": "配给电力和稀释汽油——非洲国家如何应对伊朗战争的影响"
       },
       {
-        "title": "Pilots killed in LaGuardia plane crash named",
-        "link": "https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 04:34",
-        "description": "Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway.",
-        "title_en": "Pilots killed in LaGuardia plane crash named",
-        "title_zh": "拉瓜迪亚空难中丧生的飞行员被命名为"
+        "title": "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees",
+        "link": "https://www.bbc.com/news/articles/c4g8wxyq7v5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 02:49",
+        "description": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay lawyers.",
+        "title_en": "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees",
+        "title_zh": "美国检察官称马杜罗在法律费用法庭纠纷中“掠夺”了委内瑞拉财富"
       },
       {
-        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-        "link": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 05:47",
-        "description": "Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.",
-        "title_en": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-        "title_zh": "俄罗斯向乌克兰发射948架无人机，这是24小时内最大规模的袭击"
+        "title": "Spanish woman dies by euthanasia after long legal battle with father",
+        "link": "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 04:33",
+        "description": "The European Court of Human Rights (ECHR) ruled in Noelia Castillo's favour earlier this week.",
+        "title_en": "Spanish woman dies by euthanasia after long legal battle with father",
+        "title_zh": "Spanish woman dies by euthanasia after long legal battle with father"
       },
       {
-        "title": "Australia and EU agree sweeping trade deal in face of global uncertainty",
-        "link": "https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 20:14",
-        "description": "Australia and the EU sign sweeping trade and security deals after years of negotiations.",
-        "title_en": "Australia and EU agree sweeping trade deal in face of global uncertainty",
-        "title_zh": "面对全球不确定性，澳大利亚和欧盟达成全面贸易协议"
+        "title": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
+        "link": "https://www.bbc.com/news/articles/c36r0068xp2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 01:16",
+        "description": "A film quoting voters, mayors and a police officer alleges money and drugs are being offered to pressure people to back the ruling party.",
+        "title_en": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
+        "title_zh": "欧尔班领导的匈牙利政府被指控在选举前恐吓大规模选民"
       },
       {
-        "title": "Everyday life in Asia is being upended by Iran war fuel crisis",
-        "link": "https://www.bbc.com/news/articles/c1450zj6n48o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 01:12",
-        "description": "Asia relies heavily on oil and gas from the Gulf, and shortages and higher prices are starting to bite.",
-        "title_en": "Everyday life in Asia is being upended by Iran war fuel crisis",
-        "title_zh": "伊朗战争燃料危机正在颠覆亚洲的日常生活"
+        "title": "Rescuers attempt to save stranded humpback whale off German coast",
+        "link": "https://www.bbc.com/news/articles/ce3dn005x7xo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 01:02",
+        "description": "The marine mammal, which is stuck on a sandbank, was first spotted in Lübeck Bay on Monday.",
+        "title_en": "Rescuers attempt to save stranded humpback whale off German coast",
+        "title_zh": "救援人员试图拯救德国海岸搁浅的座头鲸"
       },
       {
-        "title": "'Truly magical woman': Tributes to Married at First Sight's Mel Schilling",
-        "link": "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 01:59",
-        "description": "The TV dating coach is remembered as \"a radiant, shining light\" following her death at the age of 54.",
-        "title_en": "'Truly magical woman': Tributes to Married at First Sight's Mel Schilling",
-        "title_zh": "“真正神奇的女人”：向一见钟情的梅尔·席林致敬"
+        "title": "Olympic women's sport limited to biological females",
+        "link": "https://www.bbc.com/sport/olympics/articles/cdj7dgvlj0no?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 22:29",
+        "description": "The women's category of Olympic sports will be limited to biological females from 2028, says the International Olympic Committee.",
+        "title_en": "Olympic women's sport limited to biological females",
+        "title_zh": "Olympic women's sport limited to biological females"
       },
       {
-        "title": "Journalists at Australia's national broadcaster begin 24-hour strike over pay",
-        "link": "https://www.bbc.com/news/articles/c208ngv1mz7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 08:00",
-        "description": "Staff at the Australian Broadcasting Corporation are striking for the first time in 20 years.",
-        "title_en": "Journalists at Australia's national broadcaster begin 24-hour strike over pay",
-        "title_zh": "澳大利亚国家广播公司的记者开始24小时罢工以讨薪"
+        "title": "Air Canada CEO 'deeply saddened' his English-only message distracted from victims of crash",
+        "link": "https://www.bbc.com/news/articles/cgrlnw70xyko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-27 01:57",
+        "description": "Michael Rousseau has faced calls to resign for not speaking French in his message after the LaGuardia crash, which killed two Air Canada pilots.",
+        "title_en": "Air Canada CEO 'deeply saddened' his English-only message distracted from victims of crash",
+        "title_zh": "加拿大航空首席执行官“深感悲痛”，他的纯英文信息分散了坠机受害者的注意力"
       },
       {
-        "title": "Israel says it will take control of large buffer zone in southern Lebanon",
-        "link": "https://www.bbc.com/news/articles/cy91j9qwp4do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 00:58",
-        "description": "Thousands of displaced Lebanese residents will not be allowed to return home until northern Israel is safe, Israel's defence minister says.",
-        "title_en": "Israel says it will take control of large buffer zone in southern Lebanon",
-        "title_zh": "以色列称将控制黎巴嫩南部大片缓冲区"
+        "title": "French court hands Islam scholar Tariq Ramadan 18-year jail term for rape",
+        "link": "https://www.bbc.com/news/articles/cj408984v2xo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 22:31",
+        "description": "Ramadan, a 63-year-old former Oxford professor, denied the charges but his lawyers said he was too ill to attend the trial.",
+        "title_en": "French court hands Islam scholar Tariq Ramadan 18-year jail term for rape",
+        "title_zh": "法国法院以强奸罪判处伊斯兰教学者塔里克·拉马丹 18 年监禁"
       },
       {
-        "title": "Decline in migratory fish populations prompts fight for protection",
-        "link": "https://www.bbc.com/news/articles/cr4105d93d3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 20:00",
-        "description": "The UN assessment of the state of migratory freshwater fish revealed an 81% decline in the last 50 years.",
-        "title_en": "Decline in migratory fish populations prompts fight for protection",
-        "title_zh": "洄游鱼类数量减少引发保护斗争"
+        "title": "Senegal to parade Afcon trophy despite title being stripped",
+        "link": "https://www.bbc.com/sport/football/articles/c070kg5rn0ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 22:35",
+        "description": "Senegal's Football Federation boss calls the decision to hand Morocco the Afcon title a \"robbery\" amid plans to parade the trophy before Saturday's friendly against Peru in Paris.",
+        "title_en": "Senegal to parade Afcon trophy despite title being stripped",
+        "title_zh": "尽管冠军头衔被剥夺，塞内加尔仍将游行非洲杯奖杯"
       },
       {
-        "title": "Danes vote as PM Mette Frederiksen seeks third term after Greenland boost",
-        "link": "https://www.bbc.com/news/articles/cvgk02j4l4ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 20:26",
-        "description": "Frederiksen enjoyed a surge in popularity for standing up to the US over Greenland but her support is down on 2022.",
-        "title_en": "Danes vote as PM Mette Frederiksen seeks third term after Greenland boost",
-        "title_zh": "丹麦人投票支持格陵兰岛总理梅特·弗雷德里克森寻求第三个任期"
+        "title": "Zimbabwe says 15 nationals killed after being lured to fight for Russia",
+        "link": "https://www.bbc.com/news/articles/clyxevz45x9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 18:55",
+        "description": "Zimbabwe says it is engaging the Russian government to repatriate bodies and bring home those still alive.",
+        "title_en": "Zimbabwe says 15 nationals killed after being lured to fight for Russia",
+        "title_zh": "津巴布韦称15名国民在被引诱为俄罗斯而战后被杀"
       },
       {
-        "title": "Death toll from Colombian military plane crash rises to 69 as search ends",
-        "link": "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-25 05:30",
-        "description": "The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru.",
-        "title_en": "Death toll from Colombian military plane crash rises to 69 as search ends",
-        "title_zh": "搜索结束后哥伦比亚军机失事死亡人数上升至69人"
+        "title": "Russia bans Oscar-winning film 'Mr Nobody Against Putin'",
+        "link": "https://www.bbc.com/news/articles/cly97ddwgeko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 21:18",
+        "description": "A court alleges that the documentary promoted \"negative attitudes\" about the Russian government and the war in Ukraine.",
+        "title_en": "Russia bans Oscar-winning film 'Mr Nobody Against Putin'",
+        "title_zh": "俄罗斯禁映奥斯卡获奖影片《无人反对普京先生》"
       },
       {
-        "title": "China dials back on fuel price hikes to 'reduce burden' on drivers",
-        "link": "https://www.bbc.com/news/articles/cwyvxejqyx4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 13:56",
-        "description": "It comes as countries across the region are taking various measures to weather the soaring cost of fuel.",
-        "title_en": "China dials back on fuel price hikes to 'reduce burden' on drivers",
-        "title_zh": "中国减少燃油价格上涨以“减轻司机负担”"
+        "title": "European Parliament gives conditional approval to EU-US trade deal",
+        "link": "https://www.bbc.com/news/articles/c33l4e6vdrvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 20:51",
+        "description": "The agreement would see EU tariffs on US goods reduced to zero while US tariffs on EU imports set at 15%.",
+        "title_en": "European Parliament gives conditional approval to EU-US trade deal",
+        "title_zh": "European Parliament gives conditional approval to EU-US trade deal"
       },
       {
-        "title": "Inside the alleged Russian operation to trigger anti-government protests in Angola",
-        "link": "https://www.bbc.com/news/articles/c1mklzkz41jo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 08:18",
-        "description": "A group of Russians and Angolans are going on trial in Angola after being accused of fomenting protests, which they deny.",
-        "title_en": "Inside the alleged Russian operation to trigger anti-government protests in Angola",
-        "title_zh": "涉嫌俄罗斯在安哥拉引发反政府抗议活动的内部情况"
+        "title": "Trump confirms May meeting with Xi Jinping as Iran war forces postponement",
+        "link": "https://www.bbc.com/news/articles/c05dpr1m71go?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 15:34",
+        "description": "Trump's delayed meeting with Xi Jinping will be the first visit to China by a US president since 2017.",
+        "title_en": "Trump confirms May meeting with Xi Jinping as Iran war forces postponement",
+        "title_zh": "特朗普确认五月会见习近平，因伊朗战争部队推迟"
       },
       {
-        "title": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
-        "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 05:13",
-        "description": "Leo Medina, who was on another plane on the tarmac when the crash happened, told the BBC what he saw.",
-        "title_en": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
-        "title_zh": "“就像飞机被切成两半”：导致两名飞行员死亡的拉瓜迪亚空难目前正在调查中"
+        "title": "New India bill to amend transgender rights sparks protests",
+        "link": "https://www.bbc.com/news/articles/czx9de4ygl7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 17:01",
+        "description": "The bill seeks to change how transgender people are legally recognised and their right to self-identify.",
+        "title_en": "New India bill to amend transgender rights sparks protests",
+        "title_zh": "印度新法案修改跨性别者权利引发抗议"
       },
       {
-        "title": "Elon Musk's Starlink blocked from operating in Namibia",
-        "link": "https://www.bbc.com/news/articles/crl1ny1g6e0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-24 18:50",
-        "description": "Namibia's regulator noted that Starlink's subsidiary is not locally owned.",
-        "title_en": "Elon Musk's Starlink blocked from operating in Namibia",
-        "title_zh": "埃隆·马斯克的 Starlink 被禁止在纳米比亚运营"
+        "title": "'A game-changing moment for social media' - what next for big tech after landmark addiction verdict?",
+        "link": "https://www.bbc.com/news/articles/c87wd0d84jqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-03-26 17:37",
+        "description": "The ruling could be the beginning of the end of social media as we know it, writes the BBC's technology editor Zoe Kleinman.",
+        "title_en": "'A game-changing moment for social media' - what next for big tech after landmark addiction verdict?",
+        "title_zh": "“社交媒体改变游戏规则的时刻”——在具有里程碑意义的成瘾判决之后，大型科技公司下一步将何去何从？"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Iran war live: Trump again says talks under way; 12 killed in south Tehran",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/3/25/iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran?traffic_source=rss",
-        "published": "2026-03-25 08:00",
-        "description": "US-Israeli strikes on Iran continue despite claim of talks, with at least 12 killed, 28 wounded in one attack on Tehran.",
-        "title_en": "Iran war live: Trump again says talks under way; 12 killed in south Tehran",
-        "title_zh": "伊朗战争直播：特朗普再次表示谈判正在进行中；"
+        "title": "Costa Rica to accept 25 deportees per week under Trump deportation effort",
+        "link": "https://www.aljazeera.com/news/2026/3/26/costa-rica-to-accept-25-deportees-per-week-under-trump-deportation-effort?traffic_source=rss",
+        "published": "2026-03-27 07:09",
+        "description": "The Central American nation is latest to sign a &#039;third-country&#039; deportation agreement with the Trump administration.",
+        "title_en": "Costa Rica to accept 25 deportees per week under Trump deportation effort",
+        "title_zh": "Costa Rica to accept 25 deportees per week under Trump deportation effort"
       },
       {
-        "title": "Russian weapons, tactics seen in Ukraine are shaping Myanmar’s civil war",
-        "link": "https://www.aljazeera.com/news/2026/3/24/russian-weapons-tactics-seen-in-ukraine-are-shaping-myanmars-civil-war?traffic_source=rss",
-        "published": "2026-03-25 07:43",
-        "description": "Russian role felt in Myanmar, from aircraft to waves of conscripts launching &#039;meat assaults&#039; made infamous in Ukraine.",
-        "title_en": "Russian weapons, tactics seen in Ukraine are shaping Myanmar’s civil war",
-        "title_zh": "乌克兰的俄罗斯武器和战术正在影响缅甸内战"
+        "title": "Trump ‘pausing’ plan to destroy Iranian power plants for 10 days",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/trump-pausing-plan-to-destroy-iranian-power-plants-for-10-days?traffic_source=rss",
+        "published": "2026-03-27 07:06",
+        "description": "Donald Trump says he is “pausing” his plan to destroy Iranian power plants for 10 days.",
+        "title_en": "Trump ‘pausing’ plan to destroy Iranian power plants for 10 days",
+        "title_zh": "特朗普“暂停”摧毁伊朗核电站的计划10天"
       },
       {
-        "title": "Activists label Larry Ellison’s yacht ‘The Trump Propagandist’",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/activists-label-larry-ellisons-yacht-the-trump-propagandist?traffic_source=rss",
-        "published": "2026-03-25 07:25",
-        "description": "Led By Donkeys released a video showing members labelling Larry Ellison’s superyacht “The Trump Propagandist.”",
-        "title_en": "Activists label Larry Ellison’s yacht ‘The Trump Propagandist’",
-        "title_zh": "活动人士将拉里·埃里森的游艇贴上“特朗普宣传员”的标签"
+        "title": "EU’s top diplomat urges US to pressure Russia to stop aiding Iran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/eus-top-diplomat-urges-us-to-pressure-russia-to-stop-aiding-iran?traffic_source=rss",
+        "published": "2026-03-27 07:04",
+        "description": "The European Union’s Foreign Policy Chief Kaja Kallas says the US needs to pressure Russia to stop assisting Iran.",
+        "title_en": "EU’s top diplomat urges US to pressure Russia to stop aiding Iran",
+        "title_zh": "欧盟高级外交官敦促美国向俄罗斯施压，要求其停止援助伊朗"
       },
       {
-        "title": "Trump keeps up claims of talks with ‘the right people’ in Iran",
-        "link": "https://www.aljazeera.com/news/2026/3/24/trump-keeps-up-claims-of-talks-with-the-right-people-in-iran?traffic_source=rss",
-        "published": "2026-03-25 07:25",
-        "description": "US reportedly engaged in backchannel efforts, though Israel apparently not on same page, and military buildup continues.",
-        "title_en": "Trump keeps up claims of talks with ‘the right people’ in Iran",
-        "title_zh": "特朗普继续声称与伊朗“正确的人”进行会谈"
+        "title": "Mbappe nets for 10-man France in win against Brazil in World Cup warm-up",
+        "link": "https://www.aljazeera.com/sports/2026/3/26/mbappe-nets-for-10-man-france-in-win-against-brazil-in-world-cup-warm-up?traffic_source=rss",
+        "published": "2026-03-27 06:37",
+        "description": "France beat Brazil 2-1 in a friendly in United States, in what was a potential dress rehearsal for World Cup 2026 final.",
+        "title_en": "Mbappe nets for 10-man France in win against Brazil in World Cup warm-up",
+        "title_zh": "姆巴佩在世界杯热身赛中为10人法国队战胜巴西队攻入一球"
       },
       {
-        "title": "Explosion, fire at Erbil high-rise amid Iranian attacks",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/explosion-fire-at-erbil-high-rise-amid-iranian-attacks?traffic_source=rss",
-        "published": "2026-03-25 07:00",
-        "description": "Video shows a large explosion and fire at a high-rise building in Erbil reportedly near the US Consulate.",
-        "title_en": "Explosion, fire at Erbil high-rise amid Iranian attacks",
-        "title_zh": "伊朗袭击中埃尔比勒高层发生爆炸和火灾"
+        "title": "Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis",
+        "link": "https://www.aljazeera.com/gallery/2026/3/26/manilas-streets-empty-as-fuel-prices-surge-amid-strait-of-hormuz-crisis?traffic_source=rss",
+        "published": "2026-03-27 06:30",
+        "description": "Empty streets expose another crisis as Filipinos battle soaring oil prices, dwindling incomes, and a stagnating economy.",
+        "title_en": "Manila’s streets empty as fuel prices surge amid Strait of Hormuz crisis",
+        "title_zh": "霍尔木兹海峡危机期间燃油价格飙升，马尼拉街道空无一人"
       },
       {
-        "title": "Palestinian refugees in Lebanon face another forced displacement",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/palestinian-refugees-in-lebanon-face-another-forced-displacement?traffic_source=rss",
-        "published": "2026-03-25 06:39",
-        "description": "After Israel’s bombing of Beirut’s southern suburb of Dahiyeh, Palestinian refugee Dalal Dawali fled to Beddawi camp.",
-        "title_en": "Palestinian refugees in Lebanon face another forced displacement",
-        "title_zh": "黎巴嫩境内巴勒斯坦难民再次面临被迫流离失所"
+        "title": "Why Iraq is the most fragile front in the US-Israel war on Iran",
+        "link": "https://www.aljazeera.com/video/the-take-2/2026/3/26/aje-onl-tt_irq_neighborspillover_av_v2-260326?traffic_source=rss",
+        "published": "2026-03-27 06:23",
+        "description": "Iraq is under attack from all sides as militias and foreign powers clash.",
+        "title_en": "Why Iraq is the most fragile front in the US-Israel war on Iran",
+        "title_zh": "为什么伊拉克是美以对伊朗战争中最脆弱的前线"
       },
       {
-        "title": "Arms manufacturer thrives amid US-Israel war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/arms-manufacturer-thrives-amid-us-israel-war-on-iran?traffic_source=rss",
-        "published": "2026-03-25 05:33",
-        "description": "Elbit Systems has seen rapid growth as wars intensify across Iran, Palestine, and Lebanon.",
-        "title_en": "Arms manufacturer thrives amid US-Israel war on Iran",
-        "title_zh": "武器制造商在美以对伊朗的战争中蓬勃发展"
+        "title": "Police fire water cannons at Chile student protest",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/police-fire-water-cannons-at-chile-student-protest?traffic_source=rss",
+        "published": "2026-03-27 06:15",
+        "description": "Police in Chile fired water cannons at students gathering in central Santiago to protest education policies.",
+        "title_en": "Police fire water cannons at Chile student protest",
+        "title_zh": "智利学生抗议警方发射高压水枪"
       },
       {
-        "title": "Long lines, unpaid TSA workers: Experts say US air travel system in crisis",
-        "link": "https://www.aljazeera.com/news/2026/3/24/long-lines-unpaid-tsa-workers-experts-say-us-air-travel-system-in-crisis?traffic_source=rss",
-        "published": "2026-03-25 05:13",
-        "description": "TSA workers face unpaid wages, causing long lines and staffing shortages at key US airports during shutdown chaos.",
-        "title_en": "Long lines, unpaid TSA workers: Experts say US air travel system in crisis",
-        "title_zh": "排长队、拖欠运输安全管理局工人工资：专家称美国航空旅行系统陷入危机"
+        "title": "Argentina declares Jalisco New Generation Cartel a ‘terrorist’ group",
+        "link": "https://www.aljazeera.com/news/2026/3/26/argentina-declares-jalisco-new-generation-cartel-a-terrorist-group?traffic_source=rss",
+        "published": "2026-03-27 06:03",
+        "description": "President Javier Milei&#039;s office said the designation &#039;strengthens international cooperation&#039; against crime.",
+        "title_en": "Argentina declares Jalisco New Generation Cartel a ‘terrorist’ group",
+        "title_zh": "Argentina declares Jalisco New Generation Cartel a ‘terrorist’ group"
       },
       {
-        "title": "Building collapses after Iranian missile strike on Israel",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/building-collapses-after-iranian-missile-strike-on-israel?traffic_source=rss",
-        "published": "2026-03-25 05:07",
-        "description": "A building has collapsed in Bnei Brak, near Tel Aviv, after Israeli authorities said it was hit by an Iranian missile.",
-        "title_en": "Building collapses after Iranian missile strike on Israel",
-        "title_zh": "伊朗导弹袭击以色列后建筑物倒塌"
+        "title": "What are the red lines for Iran and the US in the war?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/3/26/what-are-the-red-lines-for-iran-and-the-us-in-the-war?traffic_source=rss",
+        "published": "2026-03-27 06:03",
+        "description": "Tehran says US list of 15 demands does not reflect reality.",
+        "title_en": "What are the red lines for Iran and the US in the war?",
+        "title_zh": "伊朗和美国在战争中的红线是什么？"
       },
       {
-        "title": "Trump claims US has achieved ‘regime change’, ‘received present’ from Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-claims-us-has-achieved-regime-change-received-present-from-iran?traffic_source=rss",
-        "published": "2026-03-25 05:06",
-        "description": "US President Donald Trump has told reporters in the Oval Office that the US has achieved regime change in Iran.",
-        "title_en": "Trump claims US has achieved ‘regime change’, ‘received present’ from Iran",
-        "title_zh": "特朗普声称美国已经实现“政权更迭”，“收到伊朗的礼物”"
+        "title": "Trump postpones US strikes on Iranian power grid to April 6 amid talks",
+        "link": "https://www.aljazeera.com/news/2026/3/26/trump-postpones-us-strikes-on-iranian-power-grid-to-april-6-amid-talks?traffic_source=rss",
+        "published": "2026-03-27 06:03",
+        "description": "The US president has threatened the attacks as a means of pressuring Iran to reopen Strait of Hormuz, a vital waterway.",
+        "title_en": "Trump postpones US strikes on Iranian power grid to April 6 amid talks",
+        "title_zh": "特朗普在谈判中将美国对伊朗电网的打击推迟至4月6日"
       },
       {
-        "title": "Iraq to summon US, Iran envoys over deadly attacks: PM’s office",
-        "link": "https://www.aljazeera.com/news/2026/3/24/iraq-to-summon-us-iranian-envoys-over-deadly-attacks-pms-office?traffic_source=rss",
-        "published": "2026-03-25 05:05",
-        "description": "Iraqi government says it plans to deliver &#039;formal notes of protest&#039; amid recent strikes tied to US-Israeli war on Iran.",
-        "title_en": "Iraq to summon US, Iran envoys over deadly attacks: PM’s office",
-        "title_zh": "伊拉克总理办公室就致命袭击事件召集美国和伊朗特使"
+        "title": "WTO holds crunch meeting amid growing uncertainty over multilateral system",
+        "link": "https://www.aljazeera.com/news/2026/3/26/wto-holds-crunch-meeting-amid-collapsing-multilateral-system?traffic_source=rss",
+        "published": "2026-03-27 05:56",
+        "description": "Tariff wars smashed old system, but failure to agree on reforms could see ‘some people writing a new rulebook’.",
+        "title_en": "WTO holds crunch meeting amid growing uncertainty over multilateral system",
+        "title_zh": "多边体系不确定性加剧，世贸组织召开关键会议"
       },
       {
-        "title": "NASA to spend $20bn on moon base, nuclear-powered Mars spacecraft",
-        "link": "https://www.aljazeera.com/news/2026/3/24/nasa-to-spend-20bn-on-moon-base-nuclear-powered-mars-spacecraft?traffic_source=rss",
-        "published": "2026-03-25 04:58",
-        "description": "The agency will increase robotic missions to the Moon and launch a nuclear spacecraft called Space Reactor 1 Freedom.",
-        "title_en": "NASA to spend $20bn on moon base, nuclear-powered Mars spacecraft",
-        "title_zh": "NASA将斥资200亿美元建设月球基地、核动力火星飞船"
+        "title": "Al Jazeera visits Iran’s UNESCO-listed palace damaged by war",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/al-jazeera-visits-irans-unesco-listed-palace-damaged-by-war?traffic_source=rss",
+        "published": "2026-03-27 05:33",
+        "description": "Al Jazeera visited Tehran&#039;s UNESCO-listed Golestan Palace, which Iran says was damaged by US-Israeli strikes.",
+        "title_en": "Al Jazeera visits Iran’s UNESCO-listed palace damaged by war",
+        "title_zh": "Al Jazeera visits Iran’s UNESCO-listed palace damaged by war"
       },
       {
-        "title": "Iranian missiles cause injuries and major damage across Israel",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/iranian-missiles-cause-injuries-and-major-damage-across-israel?traffic_source=rss",
-        "published": "2026-03-25 04:54",
-        "description": "Iran released a video showing the launch of missiles as a new wave targeted areas across Israel.",
-        "title_en": "Iranian missiles cause injuries and major damage across Israel",
-        "title_zh": "伊朗导弹在以色列各地造成人员伤亡和重大破坏"
+        "title": "At least nine people dead, dozens missing as boat sinks off Djibouti coast",
+        "link": "https://www.aljazeera.com/news/2026/3/26/at-least-nine-people-dead-dozens-missing-as-boat-sinks-off-djibouti-coast?traffic_source=rss",
+        "published": "2026-03-27 05:21",
+        "description": "Rescue operation recovers 266 survivors as UN warns deadliest season on the route is just beginning.",
+        "title_en": "At least nine people dead, dozens missing as boat sinks off Djibouti coast",
+        "title_zh": "吉布提海岸船只沉没 至少九人死亡、数十人失踪"
       },
       {
-        "title": "Has Iran brought down an ‘unkillable’ US F-35 jet?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/has-iran-brought-down-an-unkillable-us-f-35-jet-3?traffic_source=rss",
-        "published": "2026-03-25 04:34",
-        "description": "Iran says it struck a US F-35 and released footage of the incident.",
-        "title_en": "Has Iran brought down an ‘unkillable’ US F-35 jet?",
-        "title_zh": "伊朗击落了一架“打不死”的美国F-35战机吗？"
+        "title": "Iran placing messages on missiles as war of narratives intensifies",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/iran-placing-messages-on-missiles-as-war-of-narratives-intensifies?traffic_source=rss",
+        "published": "2026-03-27 04:56",
+        "description": "Iran’s military has released a video showing a message being placed on a missile ahead of launch.",
+        "title_en": "Iran placing messages on missiles as war of narratives intensifies",
+        "title_zh": "Iran placing messages on missiles as war of narratives intensifies"
       },
       {
-        "title": "Rescuers race to save stranded whale in Germany",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/24/rescuers-race-to-save-stranded-whale-in-germany?traffic_source=rss",
-        "published": "2026-03-25 04:21",
-        "description": "Rescuers are trying to save a young humpback whale which is stranded in shallow waters in northern Germany.",
-        "title_en": "Rescuers race to save stranded whale in Germany",
-        "title_zh": "救援人员竞相拯救德国搁浅的鲸鱼"
+        "title": "Protests erupt outside US court over Maduro case",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/26/protests-erupt-outside-us-court-over-maduro-case?traffic_source=rss",
+        "published": "2026-03-27 04:44",
+        "description": "Supporters and opponents of Nicolas Maduro gathered outside a New York court.",
+        "title_en": "Protests erupt outside US court over Maduro case",
+        "title_zh": "美国法院外爆发马杜罗案抗议"
       },
       {
-        "title": "Russia fires 948 drones at Ukraine as new offensive begins",
-        "link": "https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts?traffic_source=rss",
-        "published": "2026-03-25 04:15",
-        "description": "Ukraine&#039;s President Zelenskyy warns that Kyiv faces a deficit of missiles as Washington is focused on its war on Iran.",
-        "title_en": "Russia fires 948 drones at Ukraine as new offensive begins",
-        "title_zh": "俄罗斯向乌克兰发射948架无人机，新攻势开始"
+        "title": "Israel sends more troops into southern Lebanon as ground invasion expands",
+        "link": "https://www.aljazeera.com/news/2026/3/26/israel-sends-more-troops-into-southern-lebanon-as-ground-invasion-expands?traffic_source=rss",
+        "published": "2026-03-27 04:10",
+        "description": "Lebanon&#039;s PM warns Israeli actions and statements threaten Lebanese sovereignty and violate international law.",
+        "title_en": "Israel sends more troops into southern Lebanon as ground invasion expands",
+        "title_zh": "Israel sends more troops into southern Lebanon as ground invasion expands"
       }
     ]
   },
