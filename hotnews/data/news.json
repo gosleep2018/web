@@ -1,663 +1,665 @@
 {
-  "generated_at": "2026-04-01 08:05:40 +08",
-  "generated_date": "2026-04-01",
-  "current_slot": "早",
+  "generated_at": "2026-04-03 20:01:57 +08",
+  "generated_date": "2026-04-03",
+  "current_slot": "晚",
   "slots_done": [
-    "早"
+    "早",
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
       {
+        "title": "气候与餐桌｜追寻当代的“鳗鱼问题”",
+        "link": "http://baijiahao.baidu.com/s?id=1861419634970595881",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861419634970595881><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2816642362%2C293160261%26fm%3D30%26app%3",
+        "title_zh": "气候与餐桌｜追寻当代的“鳗鱼问题”",
+        "title_en": "气候与餐桌｜追寻当代的“鳗鱼问题”"
+      },
+      {
+        "title": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1..",
+        "link": "http://baijiahao.baidu.com/s?id=1861377827868387822",
+        "published": "2026-04-03 12:00",
+        "description": "又一家科技巨头通过裁员“弥补”在AI（人工智能）领域的巨额投入。当地时间3月31日（周二），美国科技企业甲骨文（Oracle）在全球范围内启动了裁员行动，以此作为公司削减成本计划的一部分。多名受影响员",
+        "title_zh": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1..",
+        "title_en": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1.."
+      },
+      {
+        "title": "中高考撞上“大姨妈”？科学应对，让女孩们安心应考",
+        "link": "http://baijiahao.baidu.com/s?id=1861366533784773547",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861366533784773547><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D491002578%2C293110807%26fm%3D30%26app%3D",
+        "title_zh": "中高考撞上“大姨妈”？科学应对，让女孩们安心应考",
+        "title_en": "中高考撞上“大姨妈”？科学应对，让女孩们安心应考"
+      },
+      {
+        "title": "弯道超车：南雅名师杨育球揭秘高考数学抢分密码",
+        "link": "http://baijiahao.baidu.com/s?id=1861362909558985650",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861362909558985650><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D612477077%2C293107432%26fm%3D30%26app%3D",
+        "title_zh": "弯道超车：南雅名师杨育球揭秘高考数学抢分密码",
+        "title_en": "弯道超车：南雅名师杨育球揭秘高考数学抢分密码"
+      },
+      {
+        "title": "人社部等5部门对规范网络平台招聘类信息发布开展行政..",
+        "link": "http://baijiahao.baidu.com/s?id=1861354488571939098",
+        "published": "2026-04-03 12:00",
+        "description": "央广网北京4月2日消息（记者关灵子）记者从人社部获悉，近日，人力资源社会保障部会同中央网信办、工业和信息化部、公安部、金融监管总局，就规范网络平台招聘类信息发布，对智联招聘、BOSS直聘、58同城、脉",
+        "title_zh": "人社部等5部门对规范网络平台招聘类信息发布开展行政..",
+        "title_en": "人社部等5部门对规范网络平台招聘类信息发布开展行政.."
+      },
+      {
+        "title": "老河口城管：装备焕新添动能 环卫提质惠民生",
+        "link": "http://baijiahao.baidu.com/s?id=1861348979650885435",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861348979650885435><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D144233763%2C293094457%26fm%3D30%26app%3D",
+        "title_zh": "老河口城管：装备焕新添动能 环卫提质惠民生",
+        "title_en": "老河口城管：装备焕新添动能 环卫提质惠民生"
+      },
+      {
+        "title": "河声丨当好“顶梁柱” 勇做“排头兵”——论贯彻落实..",
+        "link": "http://baijiahao.baidu.com/s?id=1861337374613246621",
+        "published": "2026-04-03 12:00",
+        "description": "近日，全省国资国企工作会议在郑州召开。省委书记刘宁作出批示，省长王凯出席并讲话。刘宁在批示中强调，国资国企要在融入和服务全国统一大市场、建设现代化产业体系等工作中当好“顶梁柱”。这一重要要求，既是对国",
+        "title_zh": "河声丨当好“顶梁柱” 勇做“排头兵”——论贯彻落实..",
+        "title_en": "河声丨当好“顶梁柱” 勇做“排头兵”——论贯彻落实.."
+      },
+      {
+        "title": "刘健任上海市发改委主任",
+        "link": "http://baijiahao.baidu.com/s?id=1861289965529233529",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861289965529233529><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3345853993%2C293039493%26fm%3D30%26app%3",
+        "title_zh": "刘健任上海市发改委主任",
+        "title_en": "刘健任上海市发改委主任"
+      },
+      {
+        "title": "Patagonia开始收取“地球使用费”，首件15..",
+        "link": "http://baijiahao.baidu.com/s?id=1861274612665261688",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861274612665261688><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D867881487%2C293025197%26fm%3D30%26app%3D",
+        "title_zh": "Patagonia开始收取“地球使用费”，首件15..",
+        "title_en": "Patagonia开始收取“地球使用费”，首件15.."
+      },
+      {
+        "title": "黄陂城管进社区：守护石阳老街烟火气",
+        "link": "http://baijiahao.baidu.com/s?id=1861259139562403564",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861259139562403564><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2373561216%2C293010785%26fm%3D30%26app%3",
+        "title_zh": "黄陂城管进社区：守护石阳老街烟火气",
+        "title_en": "黄陂城管进社区：守护石阳老街烟火气"
+      },
+      {
+        "title": "锁定五年后站位：中科生涯规划院专本直通模式，以结构..",
+        "link": "http://baijiahao.baidu.com/s?id=1861258359645446332",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861258359645446332><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3966445465%2C293010055%26fm%3D30%26app%3",
+        "title_zh": "锁定五年后站位：中科生涯规划院专本直通模式，以结构..",
+        "title_en": "锁定五年后站位：中科生涯规划院专本直通模式，以结构.."
+      },
+      {
+        "title": "环保博主爆料铁岭一贮灰场门口成垃圾堆放点，当地回应..",
+        "link": "http://baijiahao.baidu.com/s?id=1861258203440955571",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861258203440955571><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D4062112908%2C293009911%26fm%3D30%26app%3",
+        "title_zh": "环保博主爆料铁岭一贮灰场门口成垃圾堆放点，当地回应..",
+        "title_en": "环保博主爆料铁岭一贮灰场门口成垃圾堆放点，当地回应.."
+      },
+      {
         "title": "瑞晨环保：截至目前，高效复合陶瓷泵相关营收占比较小..",
         "link": "http://baijiahao.baidu.com/s?id=1861194633532442796",
-        "published": "2026-04-01 08:04",
+        "published": "2026-04-03 12:00",
         "description": "证券日报网讯3月31日，瑞晨环保在互动平台回答投资者提问时表示，公司的高效复合陶瓷泵的过流部件采用反应烧结复合陶瓷（碳化硅+氮化硅+复合树脂），克服了传统陶瓷脆、易碎的缺点，同等工况下，其使",
         "title_zh": "瑞晨环保：截至目前，高效复合陶瓷泵相关营收占比较小..",
         "title_en": "瑞晨环保：截至目前，高效复合陶瓷泵相关营收占比较小.."
       },
       {
-        "title": "2000万奖学金，只为看见每一种成长",
-        "link": "http://baijiahao.baidu.com/s?id=1861190725493907183",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861190725493907183><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D512443430%2C292947071%26fm%3D30%26app%3D",
-        "title_zh": "2000万奖学金，只为看见每一种成长",
-        "title_en": "2000万奖学金，只为看见每一种成长"
-      },
-      {
-        "title": "以“仁勇宏睿”重构乡村教育的文化坐标——访石门县洞..",
-        "link": "http://baijiahao.baidu.com/s?id=1861177758602829394",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861177758602829394><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D723737689%2C292934994%26fm%3D30%26app%3D",
-        "title_zh": "以“仁勇宏睿”重构乡村教育的文化坐标——访石门县洞..",
-        "title_en": "以“仁勇宏睿”重构乡村教育的文化坐标——访石门县洞.."
-      },
-      {
-        "title": "美好校园丨闵行这所学校凭“六个一”健康组合拳，把校..",
-        "link": "http://baijiahao.baidu.com/s?id=1861184501550728070",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861184501550728070><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2299180206%2C292941275%26fm%3D30%26app%3",
-        "title_zh": "美好校园丨闵行这所学校凭“六个一”健康组合拳，把校..",
-        "title_en": "美好校园丨闵行这所学校凭“六个一”健康组合拳，把校.."
-      },
-      {
-        "title": "北安市兆麟小学校开展爱路护路青少年先锋主题活动",
-        "link": "http://baijiahao.baidu.com/s?id=1861179711893458762",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861179711893458762><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D819573055%2C292936814%26fm%3D30%26app%3D",
-        "title_zh": "北安市兆麟小学校开展爱路护路青少年先锋主题活动",
-        "title_en": "北安市兆麟小学校开展爱路护路青少年先锋主题活动"
-      },
-      {
-        "title": "十八而志 骐骥驰骋——芜湖市第二中学2026届高三..",
-        "link": "http://baijiahao.baidu.com/s?id=1861167786500096854",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861167786500096854><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2256417601%2C292926967%26fm%3D30%26app%3",
-        "title_zh": "十八而志 骐骥驰骋——芜湖市第二中学2026届高三..",
-        "title_en": "十八而志 骐骥驰骋——芜湖市第二中学2026届高三.."
+        "title": "晒“十四五”环保成绩单 绘“十五五”美丽娄底新蓝图",
+        "link": "http://baijiahao.baidu.com/s?id=1861171876568284139",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861171876568284139><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D668533151%2C292930047%26fm%3D30%26app%3D",
+        "title_zh": "晒“十四五”环保成绩单 绘“十五五”美丽娄底新蓝图",
+        "title_en": "晒“十四五”环保成绩单 绘“十五五”美丽娄底新蓝图"
       },
       {
         "title": "南京建邺城管：执法服务并重，守护河道水环境",
         "link": "http://baijiahao.baidu.com/s?id=1861171750923724321",
-        "published": "2026-04-01 08:04",
+        "published": "2026-04-03 12:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861171750923724321><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1527291203%2C292929400%26fm%3D30%26app%3",
         "title_zh": "南京建邺城管：执法服务并重，守护河道水环境",
         "title_en": "南京建邺城管：执法服务并重，守护河道水环境"
       },
       {
-        "title": "从“留不住”到“抢着来”，钢城教育凭啥连获两项国家..",
-        "link": "http://baijiahao.baidu.com/s?id=1861168731567071801",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861168731567071801><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1824397026%2C292926585%26fm%3D30%26app%3",
-        "title_zh": "从“留不住”到“抢着来”，钢城教育凭啥连获两项国家..",
-        "title_en": "从“留不住”到“抢着来”，钢城教育凭啥连获两项国家.."
-      },
-      {
-        "title": "「圣陶教研」强师赋能 以考促教丨临沂圣陶学校开展全..",
-        "link": "http://baijiahao.baidu.com/s?id=1861167535994050137",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861167535994050137><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2858529596%2C292925474%26fm%3D30%26app%3",
-        "title_zh": "「圣陶教研」强师赋能 以考促教丨临沂圣陶学校开展全..",
-        "title_en": "「圣陶教研」强师赋能 以考促教丨临沂圣陶学校开展全.."
-      },
-      {
-        "title": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨..",
-        "link": "http://baijiahao.baidu.com/s?id=1861160551520158425",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861160551520158425><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2658627179%2C292918977%26fm%3D30%26app%3",
-        "title_zh": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨..",
-        "title_en": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨.."
-      },
-      {
-        "title": "高考之外，教育何为？",
-        "link": "http://baijiahao.baidu.com/s?id=1861142431123282899",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861142431123282899><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D191855677%2C292907859%26fm%3D30%26app%3D",
-        "title_zh": "高考之外，教育何为？",
-        "title_en": "高考之外，教育何为？"
-      },
-      {
-        "title": "“无废金城·‘章’显五泉”2026年国际无废日主题..",
-        "link": "http://baijiahao.baidu.com/s?id=1861137172037615899",
-        "published": "2026-04-01 08:04",
-        "description": "3月30日，正值第四个“国际无废日”，一场以“无废金城·‘章’显五泉”为主题的国际无废日宣传活动在兰州五泉山公园举行。",
-        "title_zh": "“无废金城·‘章’显五泉”2026年国际无废日主题..",
-        "title_en": "“无废金城·‘章’显五泉”2026年国际无废日主题.."
-      },
-      {
-        "title": "国家发改委副主任周海兵会见德国联邦环境、气候保护、..",
-        "link": "http://baijiahao.baidu.com/s?id=1861089771630387981",
-        "published": "2026-04-01 08:04",
-        "description": "人民财讯3月30日电，3月30日上午，国家发展改革委副主任周海兵在委内会见德国联邦环境、气候保护、自然保护和核安全部部长施耐德，双方就“十五五”时期中国循环经济发展、中德循环经济合作、绿色产业投资合作",
-        "title_zh": "国家发改委副主任周海兵会见德国联邦环境、气候保护、..",
-        "title_en": "国家发改委副主任周海兵会见德国联邦环境、气候保护、.."
-      },
-      {
-        "title": "“中国单骑环保行卫士”曹胜亭双目失明“流浪”武汉..",
-        "link": "http://baijiahao.baidu.com/s?id=1861094207994728005",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861094207994728005><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2644950573%2C292857183%26fm%3D30%26app%3",
-        "title_zh": "“中国单骑环保行卫士”曹胜亭双目失明“流浪”武汉..",
-        "title_en": "“中国单骑环保行卫士”曹胜亭双目失明“流浪”武汉.."
-      },
-      {
-        "title": "济南市莱芜第一中学64级“十八而歌 誓耀莱一”成人..",
-        "link": "http://baijiahao.baidu.com/s?id=1861076938995525130",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861076938995525130><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3771681433%2C292841098%26fm%3D30%26app%3",
-        "title_zh": "济南市莱芜第一中学64级“十八而歌 誓耀莱一”成人..",
-        "title_en": "济南市莱芜第一中学64级“十八而歌 誓耀莱一”成人.."
-      },
-      {
-        "title": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉..",
-        "link": "http://baijiahao.baidu.com/s?id=1861002605931850498",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861002605931850498><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D196931906%2C292771874%26fm%3D30%26app%3D",
-        "title_zh": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉..",
-        "title_en": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉.."
+        "title": "人大哲学教授朱锐离世，生前口述成书《哲学家的最后一..",
+        "link": "http://baijiahao.baidu.com/s?id=1861163167761188649",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861163167761188649><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D514641958%2C292921411%26fm%3D30%26app%3D",
+        "title_zh": "人大哲学教授朱锐离世，生前口述成书《哲学家的最后一..",
+        "title_en": "人大哲学教授朱锐离世，生前口述成书《哲学家的最后一.."
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Iran using children in security roles in war, reports and witnesses say",
-        "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 20:56",
-        "description": "An 11-year-old is reported to have been killed in an air strike while manning a checkpoint in Tehran.",
-        "title_en": "Iran using children in security roles in war, reports and witnesses say",
-        "title_zh": "报道和目击者称，伊朗在战争中使用儿童担任安全职务"
+        "title": "Artemis II blasts ever closer to the far side of the Moon",
+        "link": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 11:35",
+        "description": "The mission's last, big push on its lunar journey takes humans out of the Earth's orbit for the first time since 1972.",
+        "title_en": "Artemis II blasts ever closer to the far side of the Moon",
+        "title_zh": "阿耳忒弥斯二号爆炸离月球背面越来越近"
       },
       {
-        "title": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-        "link": "https://www.bbc.com/news/articles/c5yx8knpr5no?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 02:57",
-        "description": "Defence Minister Israel Katz also says houses in Lebanese villages near the Israeli border will be demolished.",
-        "title_en": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-        "title_zh": "以色列表示，与真主党的战争结束后将继续控制黎巴嫩南部部分地区"
+        "title": "Trump removes US Attorney General Pam Bondi",
+        "link": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 08:31",
+        "description": "Bondi's time as top US law enforcement officer was overshadowed by her handling of the Epstein files.",
+        "title_en": "Trump removes US Attorney General Pam Bondi",
+        "title_zh": "特朗普罢免美国司法部长帕姆·邦迪"
       },
       {
-        "title": "US journalist Shelly Kittleson kidnapped in Baghdad",
-        "link": "https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 05:08",
-        "description": "The US state department says a suspect in her abduction has ties to an Iran-backed militia group, Kataib Hezbollah.",
-        "title_en": "US journalist Shelly Kittleson kidnapped in Baghdad",
-        "title_zh": "美国记者雪莉·基特森在巴格达遭绑架"
+        "title": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+        "link": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 00:09",
+        "description": "Ordinary people from various parts of Iran describe expanding strikes, economic pain and fear of repression.",
+        "title_en": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+        "title_zh": "“我已经好几天没有睡觉了”：伊朗人描述一个月战争后日益加剧的绝望"
       },
       {
-        "title": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-        "link": "https://www.bbc.com/news/articles/c05d7md899ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 06:07",
-        "description": "The deaths of the two Indonesian nationals came less than a day after another UN peacekeeper - also Indonesian - was killed in Lebanon.",
-        "title_en": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-        "title_zh": "初步报告发现，黎巴嫩维和人员在路边爆炸中丧生"
+        "title": "Iran war could make beer and bottled water pricier for Indians",
+        "link": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 07:16",
+        "description": "Makers of plastic and glass bottles are struggling to access raw materials as the war squeezes supplies.",
+        "title_en": "Iran war could make beer and bottled water pricier for Indians",
+        "title_zh": "伊朗战争可能会使印度人的啤酒和瓶装水价格更高"
       },
       {
-        "title": "Italian Christmas meal tragedy turns into murder inquiry",
-        "link": "https://www.bbc.com/news/articles/cje470qgl1yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 03:52",
-        "description": "Tests results suggest the two women may have been killed with ricin, according to Italian media, but police still do not have a suspect.",
-        "title_en": "Italian Christmas meal tragedy turns into murder inquiry",
-        "title_zh": "意大利圣诞大餐悲剧变成谋杀案调查"
+        "title": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+        "link": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 21:41",
+        "description": "The comments were an apparent jab at the US leader's sometimes contradictory stance on the US-Israeli war against Iran.",
+        "title_en": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+        "title_zh": "“认真点……不要每天都说话”：马克龙批评特朗普对伊朗战争的态度"
       },
       {
-        "title": "Hegseth ends suspension of US Army pilots who flew near Kid Rock's home",
-        "link": "https://www.bbc.com/news/articles/c4gx2rw87e9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 06:36",
-        "description": "President Donald Trump, when asked about the helicopters flying by his friend's house said: \"They like Kid Rock. I like Kid Rock.\"",
-        "title_en": "Hegseth ends suspension of US Army pilots who flew near Kid Rock's home",
-        "title_zh": "赫格斯终止了对在基德·洛克家附近飞行的美国陆军飞行员的停职"
+        "title": "Judge dismisses most of Blake Lively's claims in Justin Baldoni harassment suit",
+        "link": "https://www.bbc.com/news/articles/c3ex59yy4j2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 06:47",
+        "description": "The judge left in place three allegations against Baldoni, meaning the civil trial will go ahead next month.",
+        "title_en": "Judge dismisses most of Blake Lively's claims in Justin Baldoni harassment suit",
+        "title_zh": "法官驳回布莱克·莱弗利在贾斯汀·巴尔多尼骚扰诉讼中的大部分指控"
       },
       {
-        "title": "Woods to 'step away and seek treatment' after crash",
-        "link": "https://www.bbc.com/sport/golf/articles/c87wjj424vro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:44",
-        "description": "Tiger Woods says he is \"stepping away for a period of time to seek treatment and focus on my health\" following an arrest after a car crash.",
-        "title_en": "Woods to 'step away and seek treatment' after crash",
-        "title_zh": "伍兹在车祸后“离开并寻求治疗”"
+        "title": "Brazil grants joint custody over pets in new law for separated couples",
+        "link": "https://www.bbc.com/news/articles/ce8jzn180x2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 17:38",
+        "description": "Lawmakers in the Brazilian Congress view the law change as a reflection of pets' importance for their owners.",
+        "title_en": "Brazil grants joint custody over pets in new law for separated couples",
+        "title_zh": "巴西新法律允许分居夫妇共同监护宠物"
       },
       {
-        "title": "Judge temporarily halts construction of Trump's White House ballroom",
-        "link": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:58",
-        "description": "The Republican-appointed judge ruled that Trump was a \"steward\" of the White House, not the owner.",
-        "title_en": "Judge temporarily halts construction of Trump's White House ballroom",
-        "title_zh": "法官暂时停止特朗普白宫宴会厅的建设"
+        "title": "Hegseth asks US Army's top general to step down",
+        "link": "https://www.bbc.com/news/articles/cn8d63v058zo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 06:57",
+        "description": "Gen Randy George was nominated for the role in 2023 by former President Joe Biden.",
+        "title_en": "Hegseth asks US Army's top general to step down",
+        "title_zh": "赫格斯要求美军最高将领下台"
       },
       {
-        "title": "Tech giant Oracle makes 'significant' job cuts",
-        "link": "https://www.bbc.com/news/articles/cm296jzzl9yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 05:50",
-        "description": "It is thought that thousands of people may have lost their jobs at Oracle, one of the world's largest tech companies.",
-        "title_en": "Tech giant Oracle makes 'significant' job cuts",
-        "title_zh": "科技巨头甲骨文“大幅”裁员"
+        "title": "Iran's two largest steel plants shut down due to air strikes, companies say",
+        "link": "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 01:01",
+        "description": "The strikes, which Iran says were first launched by Israel in co-ordination with the US last week, could cause major damage to the Iranian economy.",
+        "title_en": "Iran's two largest steel plants shut down due to air strikes, companies say",
+        "title_zh": "公司表示，伊朗最大的两家钢铁厂因空袭而关闭"
       },
       {
-        "title": "China bans storing cremated remains in empty 'bone ash apartments'",
-        "link": "https://www.bbc.com/news/articles/cm25ynex2zxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 18:53",
-        "description": "China bans 'bone ash apartments' where mourners are storing cremated remains instead of cemeteries.",
-        "title_en": "China bans storing cremated remains in empty 'bone ash apartments'",
-        "title_zh": "中国禁止将火化遗体存放在空置的“骨灰公寓”中"
+        "title": "Ancient golden helmet recovered more than a year after Dutch heist",
+        "link": "https://www.bbc.com/news/articles/cpvxj4jzvvvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 22:20",
+        "description": "The helmet and three golden bracelets were stolen in January 2025, but one bracelet is yet to be found.",
+        "title_en": "Ancient golden helmet recovered more than a year after Dutch heist",
+        "title_zh": "荷兰抢劫案一年多后，古老的金头盔被寻获"
       },
       {
-        "title": "Wolf bites woman in shock German attack on busy Hamburg shopping street",
-        "link": "https://www.bbc.com/news/articles/c20qxjxe2nno?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 21:00",
-        "description": "It is believed to be the first wolf attack on a human since the animals began to reestablish themselves in Germany decades ago.",
-        "title_en": "Wolf bites woman in shock German attack on busy Hamburg shopping street",
-        "title_zh": "Wolf bites woman in shock German attack on busy Hamburg shopping street"
+        "title": "Baby shot dead in pram in New York City, police say",
+        "link": "https://www.bbc.com/news/articles/c203w57pkn3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 10:15",
+        "description": "The seven-month-old child is the unintended victim of a suspected gang-related shooting, officials say.",
+        "title_en": "Baby shot dead in pram in New York City, police say",
+        "title_zh": "警方称纽约市婴儿车内被枪杀"
       },
       {
-        "title": "King's state visit to US to go ahead in April, but no Harry meeting",
-        "link": "https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 05:00",
-        "description": "Despite political tensions between the US and UK, the King will travel to Washington next month.",
-        "title_en": "King's state visit to US to go ahead in April, but no Harry meeting",
-        "title_zh": "国王将于四月对美国进行国事访问，但不会与哈里会面"
+        "title": "Man dies in storm near Athens as Saharan dust shrouds Crete",
+        "link": "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 01:32",
+        "description": "Several regions are flooded in mainland Greece, while a Saharan dust storm envelopes the island of Crete.",
+        "title_en": "Man dies in storm near Athens as Saharan dust shrouds Crete",
+        "title_zh": "撒哈拉沙尘笼罩克里特岛，一名男子在雅典附近的风暴中死亡"
       },
       {
-        "title": "Eurovision Song Contest launches first-ever Asia edition",
-        "link": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 17:51",
-        "description": "Broadcasters from 10 countries, including South Korea and the Philippines, will be taking part.",
-        "title_en": "Eurovision Song Contest launches first-ever Asia edition",
-        "title_zh": "欧洲歌唱大赛推出首个亚洲版"
+        "title": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
+        "link": "https://www.bbc.com/news/articles/cje4l9de0d1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 19:55",
+        "description": "It is the latest sign of warming relations between the US and Venezuela after Nicolás Maduro was seized in a commando raid.",
+        "title_en": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
+        "title_zh": "美国解除对委内瑞拉临时领导人德尔西·罗德里格斯的制裁"
       },
       {
-        "title": "Russian oil tanker docks in Cuba ending near-total blockade",
-        "link": "https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 20:51",
-        "description": "A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.",
-        "title_en": "Russian oil tanker docks in Cuba ending near-total blockade",
-        "title_zh": "俄罗斯油轮停靠古巴结束近乎全面封锁"
+        "title": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
+        "link": "https://www.bbc.com/news/articles/cdj7xye8knxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 00:00",
+        "description": "Narges Mohammadi's brother says he fears her life is in imminent danger and she needs to be transferred to a hospital.",
+        "title_en": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
+        "title_zh": "伊朗诺贝尔奖得主家人称在狱中疑似心脏病发作"
       },
       {
-        "title": "'You're no longer my sister' - rows erupt as war divides Iranian families",
-        "link": "https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:25",
-        "description": "People in Iran describe angry scenes and tense relationships as rifts open up over the war.",
-        "title_en": "'You're no longer my sister' - rows erupt as war divides Iranian families",
-        "title_zh": "“你不再是我的妹妹”——战争分裂伊朗家庭引发争吵"
+        "title": "Four toddlers stabbed to death at Ugandan nursery school",
+        "link": "https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 05:23",
+        "description": "The suspect is in custody but his motive is unknown, the police say in a brief statement.",
+        "title_en": "Four toddlers stabbed to death at Ugandan nursery school",
+        "title_zh": "乌干达幼儿园四名幼儿被刺死"
       },
       {
-        "title": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-        "link": "https://www.bbc.com/news/articles/cvglv5v4yvpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:16",
-        "description": "Seizing the stockpile would be one of the \"most complicated special operations in history\", a former defence official tells the BBC.",
-        "title_en": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-        "title_zh": "“一百万件事都可能出错”——为什么扣押伊朗的铀对美国来说风险如此之大"
+        "title": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
+        "link": "https://www.bbc.com/news/articles/c2k35lg92dpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 15:05",
+        "description": "The company’s public stock debut is set to be one of the most valuable in history, and could make Musk the world's first trillionaire.",
+        "title_en": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
+        "title_zh": "埃隆·马斯克 (Elon Musk) 的 SpaceX 计划公开上市，市值将达 1 万亿美元"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Trump says US will be leaving Iran in two to three weeks",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/trump-says-us-will-be-leaving-iran-in-two-to-three-weeks?traffic_source=rss",
-        "published": "2026-04-01 07:47",
-        "description": "Speaking to reporters in the Oval Office, US President Donald Trump says US could leave Iran “in two or three weeks.&quot;",
-        "title_en": "Trump says US will be leaving Iran in two to three weeks",
-        "title_zh": "特朗普称美国将在两到三周内离开伊朗"
+        "title": "Iran vows retaliation after deadly US strike on bridge in Karaj",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/3/iran-vows-retaliation-after-deadly-us-strike-on-bridge-in-karaj?traffic_source=rss",
+        "published": "2026-04-03 10:11",
+        "description": "Iranian officials say the country’s largest bridge will be “built back stronger,” but America’s standing won&#039;t recover.",
+        "title_en": "Iran vows retaliation after deadly US strike on bridge in Karaj",
+        "title_zh": "伊朗誓言对美国袭击卡拉季大桥进行报复"
       },
       {
-        "title": "Pope Leo urges Trump to end war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/pope-leo-urges-trump-to-end-war-on-iran?traffic_source=rss",
-        "published": "2026-04-01 07:12",
-        "description": "Pope Leo XIV has urged US President Donald Trump to find an “off-ramp” from the US and Israel’s war on Iran.",
-        "title_en": "Pope Leo urges Trump to end war on Iran",
-        "title_zh": "教皇利奥敦促特朗普结束对伊朗的战争"
+        "title": "Trump unveils 100 percent tariff on drugs to push for pharmaceutical deals",
+        "link": "https://www.aljazeera.com/news/2026/4/2/trump-unveils-100-percent-tariff-on-drugs-to-push-for-pharmaceutical-deals?traffic_source=rss",
+        "published": "2026-04-03 07:38",
+        "description": "US president has said that he will use tariffs to bring down costly medical drugs, but the impact remains uncertain.",
+        "title_en": "Trump unveils 100 percent tariff on drugs to push for pharmaceutical deals",
+        "title_zh": "特朗普宣布对药品征收100%关税以推动药品交易"
       },
       {
-        "title": "After Strait of Hormuz opens, turmoil would still last months, analysts say",
-        "link": "https://www.aljazeera.com/news/2026/3/31/after-strait-of-hormuz-opens-turmoil-would-still-last-months-analysts-say?traffic_source=rss",
-        "published": "2026-04-01 07:03",
-        "description": "Effective shutdown of key waterway could lead to permanent changes in how shipping industry does business.",
-        "title_en": "After Strait of Hormuz opens, turmoil would still last months, analysts say",
-        "title_zh": "分析人士称，霍尔木兹海峡开放后，动荡仍将持续数月"
+        "title": "US court orders resentencing for Colorado clerk involved in election scheme",
+        "link": "https://www.aljazeera.com/news/2026/4/2/us-court-orders-resentencing-for-colorado-clerk-involved-in-election-scheme?traffic_source=rss",
+        "published": "2026-04-03 06:56",
+        "description": "Former clerk Tina Peters has become a cause celebre for the election denial movement and President Donald Trump.",
+        "title_en": "US court orders resentencing for Colorado clerk involved in election scheme",
+        "title_zh": "美国法院下令对参与选举计划的科罗拉多州职员重新判刑"
       },
       {
-        "title": "US exempts Gulf of Mexico oil drillers from endangered species protections",
-        "link": "https://www.aljazeera.com/news/2026/3/31/us-exempts-gulf-of-mexico-oil-drillers-from-endangered-species-protections?traffic_source=rss",
-        "published": "2026-04-01 07:02",
-        "description": "The Trump administration says protections would diminish US energy competitiveness amid the ongoing war on Iran.",
-        "title_en": "US exempts Gulf of Mexico oil drillers from endangered species protections",
-        "title_zh": "美国免除墨西哥湾石油钻探者的濒危物种保护"
+        "title": "Rights groups, Milwaukee leaders slam ICE’s arrest of Palestinian advocate",
+        "link": "https://www.aljazeera.com/news/2026/4/2/rights-groups-milwaukee-leaders-slam-ices-arrest-of-palestinian-advocate?traffic_source=rss",
+        "published": "2026-04-03 06:45",
+        "description": "Salah Sarsour, the president of Islamic Society of Milwaukee, was reportedly detained while driving on March 30.",
+        "title_en": "Rights groups, Milwaukee leaders slam ICE’s arrest of Palestinian advocate",
+        "title_zh": "人权组织和密尔沃基领导人猛烈抨击 ICE 逮捕巴勒斯坦倡导者"
       },
       {
-        "title": "EU warns oil and gas prices won’t quickly return to normal after Iran war",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/eu-warns-oil-and-gas-prices-wont-quickly-return-to-normal-after-iran-war?traffic_source=rss",
-        "published": "2026-04-01 06:56",
-        "description": "The EU’s energy commissioner has warned oil and gas prices will not return to normal any time soon.",
-        "title_en": "EU warns oil and gas prices won’t quickly return to normal after Iran war",
-        "title_zh": "EU warns oil and gas prices won’t quickly return to normal after Iran war"
+        "title": "Unbridled Bosnian joy marks World Cup qualification win over Italy",
+        "link": "https://www.aljazeera.com/sports/2026/4/2/unbridled-bosnian-joy-marks-world-cup-qualification-win-over-italy?traffic_source=rss",
+        "published": "2026-04-03 05:25",
+        "description": "Bosnia and Herzegovina&#039;s dramatic win over Italy sparks wild celebrations from Zenica to Sarajevo and evokes memories.",
+        "title_en": "Unbridled Bosnian joy marks World Cup qualification win over Italy",
+        "title_zh": "波斯尼亚队战胜意大利队晋级世界杯，欢呼雀跃"
       },
       {
-        "title": "Tiger Woods pleads not guilty to DUI in car crash where opioids found",
-        "link": "https://www.aljazeera.com/sports/2026/3/31/tiger-woods-pleads-not-guilty-to-dui-in-car-crash-where-opioids-found?traffic_source=rss",
-        "published": "2026-04-01 05:54",
-        "description": "Plea comes hours after sheriff&#039;s report said the golfer showed signs of impairment at the scene of last week&#039;s crash.",
-        "title_en": "Tiger Woods pleads not guilty to DUI in car crash where opioids found",
-        "title_zh": "老虎伍兹在车祸中发现阿片类药物，对酒后驾车罪不认罪"
+        "title": "Pope Leo condemns ‘brutality’ of world in first Easter services",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/pope-leo-condemns-brutality-of-world-in-first-easter-services?traffic_source=rss",
+        "published": "2026-04-03 05:24",
+        "description": "Pope Leo washed the feet of 12 priests in a ritual, using the moment to urge Catholics to stand with the oppressed.",
+        "title_en": "Pope Leo condemns ‘brutality’ of world in first Easter services",
+        "title_zh": "教皇利奥在首次复活节礼拜中谴责世界的“野蛮行径”"
       },
       {
-        "title": "Italy out as Bosnia and Herzegovina reach World Cup 2026 on penalties",
-        "link": "https://www.aljazeera.com/sports/2026/3/31/bosnia-and-herzegovina-dump-italy-out-of-world-cup-2026-qualifier?traffic_source=rss",
-        "published": "2026-04-01 05:52",
-        "description": "After the match was level at 1-1 after extra time, Bosnia and Herzegovina beat Italy 4-1 on penalties to reach finals.",
-        "title_en": "Italy out as Bosnia and Herzegovina reach World Cup 2026 on penalties",
-        "title_zh": "波斯尼亚和黑塞哥维那通过点球大战晋级 2026 年世界杯，意大利出局"
+        "title": "9-year-old boy recounts airstrike in Lebanon that killed whole family",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/9-year-old-boy-recounts-airstrike-in-lebanon-that-killed-whole-family?traffic_source=rss",
+        "published": "2026-04-03 05:22",
+        "description": "Karim Al-Haj Hussein survived an Israeli strike on his home in Lebanon’s Baalbek that killed his family members.",
+        "title_en": "9-year-old boy recounts airstrike in Lebanon that killed whole family",
+        "title_zh": "9-year-old boy recounts airstrike in Lebanon that killed whole family"
       },
       {
-        "title": "US Supreme Court rejects Colorado ban on LGBTQ child ‘conversion therapy’",
-        "link": "https://www.aljazeera.com/news/2026/3/31/us-supreme-court-rejects-colorado-ban-on-lgbtq-child-conversion?traffic_source=rss",
-        "published": "2026-04-01 05:45",
-        "description": "In an eight-to-one decision, the high court ruled against a law banning the discredited practice on free speech grounds.",
-        "title_en": "US Supreme Court rejects Colorado ban on LGBTQ child ‘conversion therapy’",
-        "title_zh": "美国最高法院驳回科罗拉多州对 LGBTQ 儿童“转化治疗”的禁令"
+        "title": "Oil shock triggers global price spikes as Iran war drags on",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/oil-shock-triggers-global-price-spikes-as-iran-war-drags-on?traffic_source=rss",
+        "published": "2026-04-03 05:04",
+        "description": "Fuel shocks from the US-Israel war on Iran are rippling worldwide, as Strait of Hormuz disruptions push prices higher.",
+        "title_en": "Oil shock triggers global price spikes as Iran war drags on",
+        "title_zh": "伊朗战争拖延，石油冲击引发全球价格飙升"
       },
       {
-        "title": "Iran ambassador refuses to leave Lebanon despite expulsion order",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/iran-ambassador-refuses-to-leave-lebanon-despite-expulsion-order?traffic_source=rss",
-        "published": "2026-04-01 05:43",
-        "description": "Lebanon has ordered Iran’s ambassador to leave the country, but he has refused to go.",
-        "title_en": "Iran ambassador refuses to leave Lebanon despite expulsion order",
-        "title_zh": "伊朗大使不顾驱逐令拒绝离开黎巴嫩"
+        "title": "Iran says army forces are ready to repel US-Israeli attacks",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/iran-says-army-forces-are-ready-to-repel-us-israeli-attacks?traffic_source=rss",
+        "published": "2026-04-03 04:54",
+        "description": "Iran says it is ready to counter any US-Israeli attacks, insisting its military capabilities remain intact.",
+        "title_en": "Iran says army forces are ready to repel US-Israeli attacks",
+        "title_zh": "伊朗称军队已准备好击退美以袭击"
       },
       {
-        "title": "Russian tanker reaches Cuba amid critical energy shortage",
-        "link": "https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage?traffic_source=rss",
-        "published": "2026-04-01 05:25",
-        "description": "Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.",
-        "title_en": "Russian tanker reaches Cuba amid critical energy shortage",
-        "title_zh": "俄罗斯油轮在能源严重短缺之际抵达古巴"
+        "title": "Russia sending second ship with oil to Cuba amid US blockade",
+        "link": "https://www.aljazeera.com/news/2026/4/2/russia-sending-second-ship-with-oil-to-cuba-amid-us-blockade?traffic_source=rss",
+        "published": "2026-04-03 04:51",
+        "description": "Announcement comes days after Russian tanker brought some 700,000 barrels of crude to Cuba in response to energy crisis.",
+        "title_en": "Russia sending second ship with oil to Cuba amid US blockade",
+        "title_zh": "在美国封锁期间俄罗斯向古巴派遣第二艘运载石油的船只"
       },
       {
-        "title": "‘I need to leave’: Cuba’s tourism workers reel from US oil blockade",
-        "link": "https://www.aljazeera.com/news/2026/3/31/i-need-to-leave-cubas-tourism-workers-reel-from-us-oil-blockade?traffic_source=rss",
-        "published": "2026-04-01 05:24",
-        "description": "From taxi drivers to tour guides, the collapse of Cuba’s tourism industry has left thousands struggling to get by.",
-        "title_en": "‘I need to leave’: Cuba’s tourism workers reel from US oil blockade",
-        "title_zh": "“我需要离开”：古巴旅游业工人因美国石油封锁而陷入困境"
+        "title": "At least 43 people killed in ADF attack in northeast DR Congo, army says",
+        "link": "https://www.aljazeera.com/news/2026/4/2/at-least-43-people-killed-in-adf-attack-in-northeast-dr-congo-army-says?traffic_source=rss",
+        "published": "2026-04-03 04:34",
+        "description": "Attacks by the Allied Democratic Forces have intensified in recent months.",
+        "title_en": "At least 43 people killed in ADF attack in northeast DR Congo, army says",
+        "title_zh": "军方称，民主同盟军在刚果民主共和国东北部发动袭击，造成至少 43 人死亡"
       },
       {
-        "title": "FBI agents who investigated Trump file lawsuit alleging retaliatory firing",
-        "link": "https://www.aljazeera.com/news/2026/3/31/fbi-agents-who-investigated-trump-file-lawsuit-alleging-retaliatory-firing?traffic_source=rss",
-        "published": "2026-04-01 05:17",
-        "description": "Former agents say that they were fired for work on probe into Trump&#039;s efforts to stay in power after 2020 election loss.",
-        "title_en": "FBI agents who investigated Trump file lawsuit alleging retaliatory firing",
-        "title_zh": "调查特朗普的联邦调查局特工提起诉讼，指控报复性解雇"
+        "title": "As war drags on, US reiterates Trump open to diplomacy with Iran",
+        "link": "https://www.aljazeera.com/news/2026/4/2/as-war-drags-on-us-reiterates-trump-open-to-diplomacy-with-iran?traffic_source=rss",
+        "published": "2026-04-03 04:24",
+        "description": "US State Department accuses Iran of attacking civilian sites as Trump shares footage of destruction of Iranian bridge.",
+        "title_en": "As war drags on, US reiterates Trump open to diplomacy with Iran",
+        "title_zh": "随着战争的拖延，美国重申特朗普对与伊朗进行外交开放"
       },
       {
-        "title": "UN aid chief warns of new Israeli occupation in southern Lebanon",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/un-aid-chief-warns-of-new-israeli-occupation-in-southern-lebanon?traffic_source=rss",
-        "published": "2026-04-01 05:15",
-        "description": "UN aid chief Tom Fletcher has warned of a potential new Israeli occupation in southern Lebanon.",
-        "title_en": "UN aid chief warns of new Israeli occupation in southern Lebanon",
-        "title_zh": "联合国援助负责人警告以色列将占领黎巴嫩南部"
+        "title": "Legal groups condemn arrival of a dozen deportees from US to Uganda",
+        "link": "https://www.aljazeera.com/news/2026/4/2/legal-groups-condemn-arrival-of-a-dozen-deportees-from-us-to-uganda?traffic_source=rss",
+        "published": "2026-04-03 04:17",
+        "description": "Advocates in Uganda described the deportation as an act of &#039;transnational repression&#039; and pledged to fight the process.",
+        "title_en": "Legal groups condemn arrival of a dozen deportees from US to Uganda",
+        "title_zh": "法律团体谴责十几名被驱逐者从美国抵达乌干达"
       },
       {
-        "title": "Turkiye and Sweden book World Cup 2026 spots as Kosovo and Poland bow out",
-        "link": "https://www.aljazeera.com/sports/2026/3/31/turkey-and-sweden-book-world-cup-2026-spots-as-kosovo-and-poland-bow-out?traffic_source=rss",
-        "published": "2026-04-01 05:04",
-        "description": "Turkiye beat Kosovo 1-0, and Sweden beat Poland 3-2, as winners secure latest FIFA World Cup 2026 qualifying spots.",
-        "title_en": "Turkiye and Sweden book World Cup 2026 spots as Kosovo and Poland bow out",
-        "title_zh": "科索沃和波兰退出，土耳其和瑞典获得 2026 年世界杯参赛资格"
+        "title": "State Department claims Iran ‘continually’ pursuing nuclear weapon",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/state-department-claims-iran-continually-pursuing-nuclear-weapon?traffic_source=rss",
+        "published": "2026-04-03 04:12",
+        "description": "A State Department spokesman claimed the US launched its war on Iran because Tehran was pursuing a nuclear weapon.",
+        "title_en": "State Department claims Iran ‘continually’ pursuing nuclear weapon",
+        "title_zh": "美国国务院声称伊朗“持续”追求核武器"
       },
       {
-        "title": "Why UN slavery resolution won’t be enough",
-        "link": "https://www.aljazeera.com/video/2026/3/31/why-un-slavery-resolution-wont-be-enough?traffic_source=rss",
-        "published": "2026-04-01 04:58",
-        "description": "Slavery declared the gravest crime against humanity.",
-        "title_en": "Why UN slavery resolution won’t be enough",
-        "title_zh": "为什么联合国奴隶制决议还不够"
+        "title": "Planning commission approves Trump’s White House ballroom plans",
+        "link": "https://www.aljazeera.com/news/2026/4/2/planning-commission-approves-trumps-white-house-ballroom-plans?traffic_source=rss",
+        "published": "2026-04-03 04:04",
+        "description": "Legal fight over Trump&#039;s enormous construction project will continue despite panel&#039;s approval.",
+        "title_en": "Planning commission approves Trump’s White House ballroom plans",
+        "title_zh": "规划委员会批准特朗普的白宫宴会厅计划"
       },
       {
-        "title": "Israeli air attack kills father and two-year-old son in Gaza",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/israeli-air-attack-kills-father-and-two-year-old-son-in-gaza?traffic_source=rss",
-        "published": "2026-04-01 04:51",
-        "description": "A father and his two-year-old son were amongst six people killed by Israeli forces in Gaza on Tuesday.",
-        "title_en": "Israeli air attack kills father and two-year-old son in Gaza",
-        "title_zh": "以色列空袭加沙父亲和两岁儿子身亡"
+        "title": "‘It’s the beginning of the end’ of the American security order",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/its-the-beginning-of-the-end-of-the-american-security-order?traffic_source=rss",
+        "published": "2026-04-03 03:54",
+        "description": "Trita Parsi, Vice President of the Quincy Institute, says the American security order is entering its final phase.",
+        "title_en": "‘It’s the beginning of the end’ of the American security order",
+        "title_zh": "美国安全秩序“这是终结的开始”"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Russian oil tanker docks in Cuba ending near-total blockade",
-      "event_hint_zh": "俄罗斯油轮停靠古巴结束近乎全面封锁",
-      "event_hint_en": "Russian oil tanker docks in Cuba ending near-total blockade",
+      "event_hint": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+      "event_hint_zh": "“认真点……不要每天都说话”：马克龙批评特朗普对伊朗战争的态度",
+      "event_hint_en": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Russian oil tanker docks in Cuba ending near-total blockade",
-        "link": "https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 20:51",
-        "description": "A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.",
-        "title_en": "Russian oil tanker docks in Cuba ending near-total blockade",
-        "title_zh": "俄罗斯油轮停靠古巴结束近乎全面封锁"
+        "title": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+        "link": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 21:41",
+        "description": "The comments were an apparent jab at the US leader's sometimes contradictory stance on the US-Israeli war against Iran.",
+        "title_en": "'Be serious... don't speak every day': Macron criticises Trump approach to Iran war",
+        "title_zh": "“认真点……不要每天都说话”：马克龙批评特朗普对伊朗战争的态度"
       },
       "伊斯兰（半岛等）": {
-        "title": "Russian tanker reaches Cuba amid critical energy shortage",
-        "link": "https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage?traffic_source=rss",
-        "published": "2026-04-01 05:25",
-        "description": "Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.",
-        "title_en": "Russian tanker reaches Cuba amid critical energy shortage",
-        "title_zh": "俄罗斯油轮在能源严重短缺之际抵达古巴"
+        "title": "As war drags on, US reiterates Trump open to diplomacy with Iran",
+        "link": "https://www.aljazeera.com/news/2026/4/2/as-war-drags-on-us-reiterates-trump-open-to-diplomacy-with-iran?traffic_source=rss",
+        "published": "2026-04-03 04:24",
+        "description": "US State Department accuses Iran of attacking civilian sites as Trump shares footage of destruction of Iranian bridge.",
+        "title_en": "As war drags on, US reiterates Trump open to diplomacy with Iran",
+        "title_zh": "随着战争的拖延，美国重申特朗普对与伊朗进行外交开放"
       },
-      "my_view": "BBC强调‘封锁结束’，隐含对俄制裁视角；半岛电视台突出‘能源危机’，关注古巴民生困境；中国媒体未报道，体现中立或避免卷入地缘博弈的立场差异。",
-      "summary": "俄罗斯油轮突破西方封锁向古巴输送能源，反映地缘政治博弈与古巴能源危机的双重现实。"
+      "my_view": "欧美视角聚焦领导人直接冲突，突出马克龙对特朗普个人风格的批评；伊斯兰视角弱化批评色彩，强调美国外交开放性，体现地区对局势缓和的期待；中国媒体未报道则反映其在中东事务中的谨慎态度。",
+      "summary": "马克龙公开质疑特朗普对伊朗问题的随意言论，暴露西方盟友在敏感外交策略上的分歧。"
     },
     {
-      "event_hint": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-      "event_hint_zh": "以色列表示，与真主党的战争结束后将继续控制黎巴嫩南部部分地区",
-      "event_hint_en": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-        "link": "https://www.bbc.com/news/articles/c5yx8knpr5no?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 02:57",
-        "description": "Defence Minister Israel Katz also says houses in Lebanese villages near the Israeli border will be demolished.",
-        "title_en": "Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends",
-        "title_zh": "以色列表示，与真主党的战争结束后将继续控制黎巴嫩南部部分地区"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "UN aid chief warns of new Israeli occupation in southern Lebanon",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/un-aid-chief-warns-of-new-israeli-occupation-in-southern-lebanon?traffic_source=rss",
-        "published": "2026-04-01 05:15",
-        "description": "UN aid chief Tom Fletcher has warned of a potential new Israeli occupation in southern Lebanon.",
-        "title_en": "UN aid chief warns of new Israeli occupation in southern Lebanon",
-        "title_zh": "联合国援助负责人警告以色列将占领黎巴嫩南部"
-      },
-      "my_view": "BBC客观陈述以色列官方立场；半岛电视台通过联合国官员警告，暗示占领行为的负面后果，体现伊斯兰世界对以军行动的警惕；中国媒体暂未报道反映其谨慎态度。",
-      "summary": "以色列计划在战后控制黎巴嫩南部部分地区，引发国际社会对潜在新占领状态的关注。"
-    },
-    {
-      "event_hint": "Woods to 'step away and seek treatment' after crash",
-      "event_hint_zh": "伍兹在车祸后“离开并寻求治疗”",
-      "event_hint_en": "Woods to 'step away and seek treatment' after crash",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Woods to 'step away and seek treatment' after crash",
-        "link": "https://www.bbc.com/sport/golf/articles/c87wjj424vro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:44",
-        "description": "Tiger Woods says he is \"stepping away for a period of time to seek treatment and focus on my health\" following an arrest after a car crash.",
-        "title_en": "Woods to 'step away and seek treatment' after crash",
-        "title_zh": "伍兹在车祸后“离开并寻求治疗”"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Tiger Woods pleads not guilty to DUI in car crash where opioids found",
-        "link": "https://www.aljazeera.com/sports/2026/3/31/tiger-woods-pleads-not-guilty-to-dui-in-car-crash-where-opioids-found?traffic_source=rss",
-        "published": "2026-04-01 05:54",
-        "description": "Plea comes hours after sheriff&#039;s report said the golfer showed signs of impairment at the scene of last week&#039;s crash.",
-        "title_en": "Tiger Woods pleads not guilty to DUI in car crash where opioids found",
-        "title_zh": "老虎伍兹在车祸中发现阿片类药物，对酒后驾车罪不认罪"
-      },
-      "my_view": "BBC标题中立陈述事实，强调“治疗”；半岛标题突出法律指控与药物细节，隐含道德审视；中国媒体未报道，可能因事件与中国关联度低或不符合主流叙事。",
-      "summary": "高尔夫球星伍兹因车祸涉药驾指控，宣布暂离公众视线并接受治疗。"
-    },
-    {
-      "event_hint": "Judge temporarily halts construction of Trump's White House ballroom",
-      "event_hint_zh": "法官暂时停止特朗普白宫宴会厅的建设",
-      "event_hint_en": "Judge temporarily halts construction of Trump's White House ballroom",
+      "event_hint": "Iran war could make beer and bottled water pricier for Indians",
+      "event_hint_zh": "伊朗战争可能会使印度人的啤酒和瓶装水价格更高",
+      "event_hint_en": "Iran war could make beer and bottled water pricier for Indians",
       "中国": {
-        "title": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨..",
-        "link": "http://baijiahao.baidu.com/s?id=1861160551520158425",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861160551520158425><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2658627179%2C292918977%26fm%3D30%26app%3",
-        "title_zh": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨..",
-        "title_en": "聚焦“无废城市”建设，杭州“国际无废日”主题活动暨.."
+        "title": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1..",
+        "link": "http://baijiahao.baidu.com/s?id=1861377827868387822",
+        "published": "2026-04-03 12:00",
+        "description": "又一家科技巨头通过裁员“弥补”在AI（人工智能）领域的巨额投入。当地时间3月31日（周二），美国科技企业甲骨文（Oracle）在全球范围内启动了裁员行动，以此作为公司削减成本计划的一部分。多名受影响员",
+        "title_zh": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1..",
+        "title_en": "一觉睡醒工作没了！科技巨头3万人大裁员，包括印度1.."
       },
       "美国（欧美媒体）": {
-        "title": "Judge temporarily halts construction of Trump's White House ballroom",
-        "link": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:58",
-        "description": "The Republican-appointed judge ruled that Trump was a \"steward\" of the White House, not the owner.",
-        "title_en": "Judge temporarily halts construction of Trump's White House ballroom",
-        "title_zh": "法官暂时停止特朗普白宫宴会厅的建设"
+        "title": "Iran war could make beer and bottled water pricier for Indians",
+        "link": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 07:16",
+        "description": "Makers of plastic and glass bottles are struggling to access raw materials as the war squeezes supplies.",
+        "title_en": "Iran war could make beer and bottled water pricier for Indians",
+        "title_zh": "伊朗战争可能会使印度人的啤酒和瓶装水价格更高"
       },
       "伊斯兰（半岛等）": {
-        "title": "FBI agents who investigated Trump file lawsuit alleging retaliatory firing",
-        "link": "https://www.aljazeera.com/news/2026/3/31/fbi-agents-who-investigated-trump-file-lawsuit-alleging-retaliatory-firing?traffic_source=rss",
-        "published": "2026-04-01 05:17",
-        "description": "Former agents say that they were fired for work on probe into Trump&#039;s efforts to stay in power after 2020 election loss.",
-        "title_en": "FBI agents who investigated Trump file lawsuit alleging retaliatory firing",
-        "title_zh": "调查特朗普的联邦调查局特工提起诉讼，指控报复性解雇"
+        "title": "Oil shock triggers global price spikes as Iran war drags on",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/oil-shock-triggers-global-price-spikes-as-iran-war-drags-on?traffic_source=rss",
+        "published": "2026-04-03 05:04",
+        "description": "Fuel shocks from the US-Israel war on Iran are rippling worldwide, as Strait of Hormuz disruptions push prices higher.",
+        "title_en": "Oil shock triggers global price spikes as Iran war drags on",
+        "title_zh": "伊朗战争拖延，石油冲击引发全球价格飙升"
       },
-      "my_view": "中国报道回避敏感事件，转向国内环保议题；欧美媒体聚焦司法对特朗普的直接制约；伊斯兰媒体则通过执法人员诉讼，强调权力滥用问题。三方分别体现回避、对抗、批判立场。",
-      "summary": "法官以法律程序暂时阻止特朗普私人项目建设，体现美国司法体系对前总统权力的制衡。"
+      "my_view": "中国视角关联印度裁员转移焦点，欧美视角聚焦消费品价格具象化影响，伊斯兰视角强调石油冲击的全球连锁反应。三方分别体现地缘博弈关切、民生消费视角与能源经济维度。",
+      "summary": "伊朗战争通过石油供应链传导，最终影响印度普通消费者的日常商品购买力。"
     },
     {
-      "event_hint": "Italian Christmas meal tragedy turns into murder inquiry",
-      "event_hint_zh": "意大利圣诞大餐悲剧变成谋杀案调查",
-      "event_hint_en": "Italian Christmas meal tragedy turns into murder inquiry",
+      "event_hint": "Trump removes US Attorney General Pam Bondi",
+      "event_hint_zh": "特朗普罢免美国司法部长帕姆·邦迪",
+      "event_hint_en": "Trump removes US Attorney General Pam Bondi",
       "中国": {
-        "title": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉..",
-        "link": "http://baijiahao.baidu.com/s?id=1861002605931850498",
-        "published": "2026-04-01 08:04",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861002605931850498><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D196931906%2C292771874%26fm%3D30%26app%3D",
-        "title_zh": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉..",
-        "title_en": "当川剧变脸遇上川渝说唱：“剧现公园城市”让外地来蓉.."
+        "title": "锁定五年后站位：中科生涯规划院专本直通模式，以结构..",
+        "link": "http://baijiahao.baidu.com/s?id=1861258359645446332",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861258359645446332><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3966445465%2C293010055%26fm%3D30%26app%3",
+        "title_zh": "锁定五年后站位：中科生涯规划院专本直通模式，以结构..",
+        "title_en": "锁定五年后站位：中科生涯规划院专本直通模式，以结构.."
       },
       "美国（欧美媒体）": {
-        "title": "Italian Christmas meal tragedy turns into murder inquiry",
-        "link": "https://www.bbc.com/news/articles/cje470qgl1yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 03:52",
-        "description": "Tests results suggest the two women may have been killed with ricin, according to Italian media, but police still do not have a suspect.",
-        "title_en": "Italian Christmas meal tragedy turns into murder inquiry",
-        "title_zh": "意大利圣诞大餐悲剧变成谋杀案调查"
+        "title": "Trump removes US Attorney General Pam Bondi",
+        "link": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 08:31",
+        "description": "Bondi's time as top US law enforcement officer was overshadowed by her handling of the Epstein files.",
+        "title_en": "Trump removes US Attorney General Pam Bondi",
+        "title_zh": "特朗普罢免美国司法部长帕姆·邦迪"
       },
       "伊斯兰（半岛等）": {
-        "title": "Italy out as Bosnia and Herzegovina reach World Cup 2026 on penalties",
-        "link": "https://www.aljazeera.com/sports/2026/3/31/bosnia-and-herzegovina-dump-italy-out-of-world-cup-2026-qualifier?traffic_source=rss",
-        "published": "2026-04-01 05:52",
-        "description": "After the match was level at 1-1 after extra time, Bosnia and Herzegovina beat Italy 4-1 on penalties to reach finals.",
-        "title_en": "Italy out as Bosnia and Herzegovina reach World Cup 2026 on penalties",
-        "title_zh": "波斯尼亚和黑塞哥维那通过点球大战晋级 2026 年世界杯，意大利出局"
+        "title": "Planning commission approves Trump’s White House ballroom plans",
+        "link": "https://www.aljazeera.com/news/2026/4/2/planning-commission-approves-trumps-white-house-ballroom-plans?traffic_source=rss",
+        "published": "2026-04-03 04:04",
+        "description": "Legal fight over Trump&#039;s enormous construction project will continue despite panel&#039;s approval.",
+        "title_en": "Planning commission approves Trump’s White House ballroom plans",
+        "title_zh": "规划委员会批准特朗普的白宫宴会厅计划"
       },
-      "my_view": "中国报道聚焦本土文化宣传，回避负面国际新闻；欧美媒体直击案件调查，体现对突发社会事件的新闻敏感；伊斯兰媒体则完全转移话题，选择报道体育新闻，反映其国际报道的选择性立场。",
-      "summary": "意大利圣诞聚餐中毒事件因发现人为投毒线索，转为谋杀案调查。"
+      "my_view": "网易回避政治事件，用教育内容转移焦点；BBC直接报道罢免事实，体现监督立场；半岛电视台则关联其他特朗普新闻，淡化美国内政影响。三方分别呈现回避、监督、淡化倾向。",
+      "summary": "特朗普行使行政权力罢免司法部长，是美国国内政治人事变动事件。"
     },
     {
-      "event_hint": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-      "event_hint_zh": "初步报告发现，黎巴嫩维和人员在路边爆炸中丧生",
-      "event_hint_en": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
+      "event_hint": "Four toddlers stabbed to death at Ugandan nursery school",
+      "event_hint_zh": "乌干达幼儿园四名幼儿被刺死",
+      "event_hint_en": "Four toddlers stabbed to death at Ugandan nursery school",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-        "link": "https://www.bbc.com/news/articles/c05d7md899ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 06:07",
-        "description": "The deaths of the two Indonesian nationals came less than a day after another UN peacekeeper - also Indonesian - was killed in Lebanon.",
-        "title_en": "Peacekeepers killed by roadside explosion in Lebanon, initial report finds",
-        "title_zh": "初步报告发现，黎巴嫩维和人员在路边爆炸中丧生"
+        "title": "Four toddlers stabbed to death at Ugandan nursery school",
+        "link": "https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 05:23",
+        "description": "The suspect is in custody but his motive is unknown, the police say in a brief statement.",
+        "title_en": "Four toddlers stabbed to death at Ugandan nursery school",
+        "title_zh": "乌干达幼儿园四名幼儿被刺死"
       },
       "伊斯兰（半岛等）": {
-        "title": "Iran ambassador refuses to leave Lebanon despite expulsion order",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/iran-ambassador-refuses-to-leave-lebanon-despite-expulsion-order?traffic_source=rss",
-        "published": "2026-04-01 05:43",
-        "description": "Lebanon has ordered Iran’s ambassador to leave the country, but he has refused to go.",
-        "title_en": "Iran ambassador refuses to leave Lebanon despite expulsion order",
-        "title_zh": "伊朗大使不顾驱逐令拒绝离开黎巴嫩"
+        "title": "Legal groups condemn arrival of a dozen deportees from US to Uganda",
+        "link": "https://www.aljazeera.com/news/2026/4/2/legal-groups-condemn-arrival-of-a-dozen-deportees-from-us-to-uganda?traffic_source=rss",
+        "published": "2026-04-03 04:17",
+        "description": "Advocates in Uganda described the deportation as an act of &#039;transnational repression&#039; and pledged to fight the process.",
+        "title_en": "Legal groups condemn arrival of a dozen deportees from US to Uganda",
+        "title_zh": "法律团体谴责十几名被驱逐者从美国抵达乌干达"
       },
-      "my_view": "欧美报道聚焦事件本身，突出维和人员遇袭的冲突事实；伊斯兰媒体将事件置于地区政治博弈框架，关联伊朗与黎巴嫩的外交角力；中国媒体暂未报道，可能基于外交考量或事件热度判断。",
-      "summary": "黎巴嫩路边爆炸致维和人员死亡的事件，被不同媒体置于安全冲突或地缘政治博弈的差异化叙事框架中。"
+      "my_view": "欧美媒体聚焦事件本身，突出暴力细节；伊斯兰媒体关联政治议题，转向人权批判；中国媒体未报道，可能基于新闻选择性或外交考量。三方立场体现各自议程设置差异。",
+      "summary": "乌干达幼儿园发生恶性凶杀案，四名幼儿遇刺身亡，但不同媒体对事件的报道角度存在显著差异。"
     },
     {
-      "event_hint": "Iran using children in security roles in war, reports and witnesses say",
-      "event_hint_zh": "报道和目击者称，伊朗在战争中使用儿童担任安全职务",
-      "event_hint_en": "Iran using children in security roles in war, reports and witnesses say",
+      "event_hint": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
+      "event_hint_zh": "伊朗诺贝尔奖得主家人称在狱中疑似心脏病发作",
+      "event_hint_en": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Iran using children in security roles in war, reports and witnesses say",
-        "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-03-31 20:56",
-        "description": "An 11-year-old is reported to have been killed in an air strike while manning a checkpoint in Tehran.",
-        "title_en": "Iran using children in security roles in war, reports and witnesses say",
-        "title_zh": "报道和目击者称，伊朗在战争中使用儿童担任安全职务"
+        "title": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
+        "link": "https://www.bbc.com/news/articles/cdj7xye8knxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 00:00",
+        "description": "Narges Mohammadi's brother says he fears her life is in imminent danger and she needs to be transferred to a hospital.",
+        "title_en": "Iranian Nobel laureate suffered suspected heart attack in prison, family says",
+        "title_zh": "伊朗诺贝尔奖得主家人称在狱中疑似心脏病发作"
       },
       "伊斯兰（半岛等）": {
-        "title": "Pope Leo urges Trump to end war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/pope-leo-urges-trump-to-end-war-on-iran?traffic_source=rss",
-        "published": "2026-04-01 07:12",
-        "description": "Pope Leo XIV has urged US President Donald Trump to find an “off-ramp” from the US and Israel’s war on Iran.",
-        "title_en": "Pope Leo urges Trump to end war on Iran",
-        "title_zh": "教皇利奥敦促特朗普结束对伊朗的战争"
+        "title": "At least 43 people killed in ADF attack in northeast DR Congo, army says",
+        "link": "https://www.aljazeera.com/news/2026/4/2/at-least-43-people-killed-in-adf-attack-in-northeast-dr-congo-army-says?traffic_source=rss",
+        "published": "2026-04-03 04:34",
+        "description": "Attacks by the Allied Democratic Forces have intensified in recent months.",
+        "title_en": "At least 43 people killed in ADF attack in northeast DR Congo, army says",
+        "title_zh": "军方称，民主同盟军在刚果民主共和国东北部发动袭击，造成至少 43 人死亡"
       },
-      "my_view": "欧美媒体聚焦事件本身，突出伊朗使用儿童参战的具体指控；伊斯兰媒体借教皇呼吁转移焦点，将矛盾引向美国；中国媒体暂未报道，体现对敏感国际事件的谨慎态度。",
-      "summary": "国际冲突中关于伊朗使用儿童参与军事行动的指控，不同媒体通过报道角度体现立场差异。"
+      "my_view": "欧美媒体聚焦个体权利与政治议题，突出诺贝尔奖得主体制内遭遇；伊斯兰媒体转向其他地区冲突，规避敏感批评；中国媒体暂不报道，体现对伊朗内政不干涉立场。三方选择反映各自地缘政治考量与报道框架差异。",
+      "summary": "伊朗诺贝尔奖得主在狱中健康出险，不同媒体通过报道选择体现其政治立场与议程设置倾向。"
     },
     {
-      "event_hint": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-      "event_hint_zh": "“一百万件事都可能出错”——为什么扣押伊朗的铀对美国来说风险如此之大",
-      "event_hint_en": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-        "link": "https://www.bbc.com/news/articles/cvglv5v4yvpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:16",
-        "description": "Seizing the stockpile would be one of the \"most complicated special operations in history\", a former defence official tells the BBC.",
-        "title_en": "'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US",
-        "title_zh": "“一百万件事都可能出错”——为什么扣押伊朗的铀对美国来说风险如此之大"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Why UN slavery resolution won’t be enough",
-        "link": "https://www.aljazeera.com/video/2026/3/31/why-un-slavery-resolution-wont-be-enough?traffic_source=rss",
-        "published": "2026-04-01 04:58",
-        "description": "Slavery declared the gravest crime against humanity.",
-        "title_en": "Why UN slavery resolution won’t be enough",
-        "title_zh": "为什么联合国奴隶制决议还不够"
-      },
-      "my_view": "欧美关注扣押伊朗铀的军事风险，伊斯兰媒体借联合国决议转移焦点至西方历史污点，中国媒体暂未报道可能避免选边站队。三方分别体现战略威慑、道义反击与谨慎观望立场。",
-      "summary": "美国扣押伊朗铀计划实为高风险地缘政治博弈，各方通过不同叙事框架争夺话语权。"
-    },
-    {
-      "event_hint": "King's state visit to US to go ahead in April, but no Harry meeting",
-      "event_hint_zh": "国王将于四月对美国进行国事访问，但不会与哈里会面",
-      "event_hint_en": "King's state visit to US to go ahead in April, but no Harry meeting",
+      "event_hint": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
+      "event_hint_zh": "美国解除对委内瑞拉临时领导人德尔西·罗德里格斯的制裁",
+      "event_hint_en": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
       "中国": {
-        "title": "国家发改委副主任周海兵会见德国联邦环境、气候保护、..",
-        "link": "http://baijiahao.baidu.com/s?id=1861089771630387981",
-        "published": "2026-04-01 08:04",
-        "description": "人民财讯3月30日电，3月30日上午，国家发展改革委副主任周海兵在委内会见德国联邦环境、气候保护、自然保护和核安全部部长施耐德，双方就“十五五”时期中国循环经济发展、中德循环经济合作、绿色产业投资合作",
-        "title_zh": "国家发改委副主任周海兵会见德国联邦环境、气候保护、..",
-        "title_en": "国家发改委副主任周海兵会见德国联邦环境、气候保护、.."
+        "title": "Patagonia开始收取“地球使用费”，首件15..",
+        "link": "http://baijiahao.baidu.com/s?id=1861274612665261688",
+        "published": "2026-04-03 12:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1861274612665261688><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D867881487%2C293025197%26fm%3D30%26app%3D",
+        "title_zh": "Patagonia开始收取“地球使用费”，首件15..",
+        "title_en": "Patagonia开始收取“地球使用费”，首件15.."
       },
       "美国（欧美媒体）": {
-        "title": "King's state visit to US to go ahead in April, but no Harry meeting",
-        "link": "https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 05:00",
-        "description": "Despite political tensions between the US and UK, the King will travel to Washington next month.",
-        "title_en": "King's state visit to US to go ahead in April, but no Harry meeting",
-        "title_zh": "国王将于四月对美国进行国事访问，但不会与哈里会面"
+        "title": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
+        "link": "https://www.bbc.com/news/articles/cje4l9de0d1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 19:55",
+        "description": "It is the latest sign of warming relations between the US and Venezuela after Nicolás Maduro was seized in a commando raid.",
+        "title_en": "US lifts sanctions on Venezuelan interim leader Delcy Rodríguez",
+        "title_zh": "美国解除对委内瑞拉临时领导人德尔西·罗德里格斯的制裁"
       },
       "伊斯兰（半岛等）": {
-        "title": "US exempts Gulf of Mexico oil drillers from endangered species protections",
-        "link": "https://www.aljazeera.com/news/2026/3/31/us-exempts-gulf-of-mexico-oil-drillers-from-endangered-species-protections?traffic_source=rss",
-        "published": "2026-04-01 07:02",
-        "description": "The Trump administration says protections would diminish US energy competitiveness amid the ongoing war on Iran.",
-        "title_en": "US exempts Gulf of Mexico oil drillers from endangered species protections",
-        "title_zh": "美国免除墨西哥湾石油钻探者的濒危物种保护"
+        "title": "‘It’s the beginning of the end’ of the American security order",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/its-the-beginning-of-the-end-of-the-american-security-order?traffic_source=rss",
+        "published": "2026-04-03 03:54",
+        "description": "Trita Parsi, Vice President of the Quincy Institute, says the American security order is entering its final phase.",
+        "title_en": "‘It’s the beginning of the end’ of the American security order",
+        "title_zh": "美国安全秩序“这是终结的开始”"
       },
-      "my_view": "中国报道聚焦国内经济外交，回避王室话题；欧美媒体强调王室家庭矛盾与访问细节；伊斯兰视角则完全转向地区性能源政策议题，三方基于自身受众关切选择报道焦点。",
-      "summary": "同一时间维度下，不同媒体依据自身立场与受众兴趣，从同一事件中选取截然不同的报道角度。"
+      "my_view": "中国媒体回避政治议题，转向环保话题；欧美媒体客观陈述制裁解除事实；伊斯兰媒体借机批判美国霸权体系，反映三方对同一事件的政治立场与报道倾向差异。",
+      "summary": "美国解除对委内瑞拉政治人物的制裁，本质是国际关系中的外交政策调整。"
     },
     {
-      "event_hint": "'You're no longer my sister' - rows erupt as war divides Iranian families",
-      "event_hint_zh": "“你不再是我的妹妹”——战争分裂伊朗家庭引发争吵",
-      "event_hint_en": "'You're no longer my sister' - rows erupt as war divides Iranian families",
+      "event_hint": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
+      "event_hint_zh": "埃隆·马斯克 (Elon Musk) 的 SpaceX 计划公开上市，市值将达 1 万亿美元",
+      "event_hint_en": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "'You're no longer my sister' - rows erupt as war divides Iranian families",
-        "link": "https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-01 07:25",
-        "description": "People in Iran describe angry scenes and tense relationships as rifts open up over the war.",
-        "title_en": "'You're no longer my sister' - rows erupt as war divides Iranian families",
-        "title_zh": "“你不再是我的妹妹”——战争分裂伊朗家庭引发争吵"
+        "title": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
+        "link": "https://www.bbc.com/news/articles/c2k35lg92dpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 15:05",
+        "description": "The company’s public stock debut is set to be one of the most valuable in history, and could make Musk the world's first trillionaire.",
+        "title_en": "Elon Musk's SpaceX set to be worth $1 trillion with planned public listing",
+        "title_zh": "埃隆·马斯克 (Elon Musk) 的 SpaceX 计划公开上市，市值将达 1 万亿美元"
       },
       "伊斯兰（半岛等）": {
-        "title": "Trump says US will be leaving Iran in two to three weeks",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/3/31/trump-says-us-will-be-leaving-iran-in-two-to-three-weeks?traffic_source=rss",
-        "published": "2026-04-01 07:47",
-        "description": "Speaking to reporters in the Oval Office, US President Donald Trump says US could leave Iran “in two or three weeks.&quot;",
-        "title_en": "Trump says US will be leaving Iran in two to three weeks",
-        "title_zh": "特朗普称美国将在两到三周内离开伊朗"
+        "title": "US court orders resentencing for Colorado clerk involved in election scheme",
+        "link": "https://www.aljazeera.com/news/2026/4/2/us-court-orders-resentencing-for-colorado-clerk-involved-in-election-scheme?traffic_source=rss",
+        "published": "2026-04-03 06:56",
+        "description": "Former clerk Tina Peters has become a cause celebre for the election denial movement and President Donald Trump.",
+        "title_en": "US court orders resentencing for Colorado clerk involved in election scheme",
+        "title_zh": "美国法院下令对参与选举计划的科罗拉多州职员重新判刑"
       },
-      "my_view": "欧美媒体聚焦战争对伊朗家庭的情感撕裂，突出人道视角；伊斯兰媒体将事件置于地缘政治框架，强调外部势力影响；中国媒体未报道显示其避免介入他国内政的立场差异。",
-      "summary": "战争导致伊朗家庭关系破裂，不同媒体的报道角度反映其地缘政治立场与价值观差异。"
+      "my_view": "欧美媒体聚焦商业价值，突出科技资本成就；伊斯兰媒体关联政治事件，隐含对美国体制的审视；中国媒体暂未报道，可能因涉及境外敏感资本或技术领域。",
+      "summary": "SpaceX上市计划引发不同文化背景媒体对科技资本、政治语境及报道边界的差异化呈现。"
+    },
+    {
+      "event_hint": "Ancient golden helmet recovered more than a year after Dutch heist",
+      "event_hint_zh": "荷兰抢劫案一年多后，古老的金头盔被寻获",
+      "event_hint_en": "Ancient golden helmet recovered more than a year after Dutch heist",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Ancient golden helmet recovered more than a year after Dutch heist",
+        "link": "https://www.bbc.com/news/articles/cpvxj4jzvvvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-02 22:20",
+        "description": "The helmet and three golden bracelets were stolen in January 2025, but one bracelet is yet to be found.",
+        "title_en": "Ancient golden helmet recovered more than a year after Dutch heist",
+        "title_zh": "荷兰抢劫案一年多后，古老的金头盔被寻获"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "9-year-old boy recounts airstrike in Lebanon that killed whole family",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/9-year-old-boy-recounts-airstrike-in-lebanon-that-killed-whole-family?traffic_source=rss",
+        "published": "2026-04-03 05:22",
+        "description": "Karim Al-Haj Hussein survived an Israeli strike on his home in Lebanon’s Baalbek that killed his family members.",
+        "title_en": "9-year-old boy recounts airstrike in Lebanon that killed whole family",
+        "title_zh": "9-year-old boy recounts airstrike in Lebanon that killed whole family"
+      },
+      "my_view": "欧美报道聚焦文物追回，体现对文化遗产的关注；伊斯兰媒体借儿童视角控诉战争伤害，展现人道立场；中国媒体未报道此事，可能因事件地缘关联度低或议程设置不同。",
+      "summary": "荷兰被盗文物金头盔被寻回，本质是跨国文化遗产保护案件。"
+    },
+    {
+      "event_hint": "Iran's two largest steel plants shut down due to air strikes, companies say",
+      "event_hint_zh": "公司表示，伊朗最大的两家钢铁厂因空袭而关闭",
+      "event_hint_en": "Iran's two largest steel plants shut down due to air strikes, companies say",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Iran's two largest steel plants shut down due to air strikes, companies say",
+        "link": "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 01:01",
+        "description": "The strikes, which Iran says were first launched by Israel in co-ordination with the US last week, could cause major damage to the Iranian economy.",
+        "title_en": "Iran's two largest steel plants shut down due to air strikes, companies say",
+        "title_zh": "公司表示，伊朗最大的两家钢铁厂因空袭而关闭"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "State Department claims Iran ‘continually’ pursuing nuclear weapon",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/state-department-claims-iran-continually-pursuing-nuclear-weapon?traffic_source=rss",
+        "published": "2026-04-03 04:12",
+        "description": "A State Department spokesman claimed the US launched its war on Iran because Tehran was pursuing a nuclear weapon.",
+        "title_en": "State Department claims Iran ‘continually’ pursuing nuclear weapon",
+        "title_zh": "美国国务院声称伊朗“持续”追求核武器"
+      },
+      "my_view": "欧美媒体聚焦事件本身，突出军事打击对工业的影响；伊斯兰媒体将话题转向核问题争议，隐含政治博弈；中国媒体暂未报道，体现对敏感国际事件的审慎态度。",
+      "summary": "伊朗钢铁厂遭空袭停产的事件，在不同媒体叙事中被分别呈现为工业破坏、核问题博弈或直接回避。"
+    },
+    {
+      "event_hint": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+      "event_hint_zh": "“我已经好几天没有睡觉了”：伊朗人描述一个月战争后日益加剧的绝望",
+      "event_hint_en": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+        "link": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-03 00:09",
+        "description": "Ordinary people from various parts of Iran describe expanding strikes, economic pain and fear of repression.",
+        "title_en": "'I haven't slept for days': Iranians describe mounting desperation after a month of war",
+        "title_zh": "“我已经好几天没有睡觉了”：伊朗人描述一个月战争后日益加剧的绝望"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Iran says army forces are ready to repel US-Israeli attacks",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/2/iran-says-army-forces-are-ready-to-repel-us-israeli-attacks?traffic_source=rss",
+        "published": "2026-04-03 04:54",
+        "description": "Iran says it is ready to counter any US-Israeli attacks, insisting its military capabilities remain intact.",
+        "title_en": "Iran says army forces are ready to repel US-Israeli attacks",
+        "title_zh": "伊朗称军队已准备好击退美以袭击"
+      },
+      "my_view": "欧美报道聚焦民众苦难，体现人道主义关切；伊斯兰媒体强调军事防御姿态，展现抵抗叙事；中国媒体暂未报道，可能反映中立或观望立场。三方差异体现各自地缘政治视角。",
+      "summary": "伊朗战争持续一月，民众陷入生存危机，而官方宣称已做好军事防御准备。"
     }
   ]
 }
