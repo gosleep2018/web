@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-04-14 12:02:27 +08",
+  "generated_at": "2026-04-14 20:01:58 +08",
   "generated_date": "2026-04-14",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -419,8 +420,8 @@
         "title_en": "Philippines accuses China of using cyanide to poison South China Sea atoll",
         "title_zh": "菲律宾指责中国使用氰化物毒害南海环礁"
       },
-      "my_view": "欧美标题客观陈述指控；伊斯兰标题使用'毒害'等情感化词汇，立场倾向菲律宾；中国媒体暂未报道，可能视为不实信息或淡化处理。三方差异体现地缘政治立场与叙事框架选择。",
-      "summary": "菲律宾在南海争议中通过环境指控对中国进行舆论施压，本质是地缘政治博弈的延伸。"
+      "my_view": "欧美标题客观陈述指控；伊斯兰标题使用'毒害'等情感词汇强化冲突性；中国媒体暂未报道，可能视为不实信息或避免炒作。三方分别体现中立报道、立场强化与信息管控差异。",
+      "summary": "菲律宾在南海争议中对中国提出未经证实的生态破坏指控，本质是地缘政治博弈的舆论战。"
     },
     {
       "event_hint": "Lebanon enters talks with Israel but with no cards to play",
@@ -443,8 +444,8 @@
         "title_en": "Hezbollah leader urges Lebanon’s government to pull out of Israel talks",
         "title_zh": "真主党领导人敦促黎巴嫩政府退出以色列谈判"
       },
-      "my_view": "BBC以现实主义视角强调黎巴嫩谈判劣势；半岛电视台聚焦真主党反对立场，体现地区抵抗力量态度；中国媒体暂未报道，反映对中东复杂议题的审慎。三方分别呈现了西方地缘分析、地区政治博弈与中方选择性关注的特点。",
-      "summary": "黎以谈判暴露黎巴嫩内部立场分裂与外交弱势，地区博弈中各方策略差异显著。"
+      "my_view": "欧美报道强调黎巴嫩在谈判中的弱势地位；伊斯兰视角突出真主党对政府的施压，暗示内部政治分歧；中国媒体暂未报道可能因事件敏感或与中东政策协调有关。",
+      "summary": "黎以谈判暴露黎巴嫩内部政治分裂与外交弱势，地区博弈中代理人势力影响主权决策。"
     },
     {
       "event_hint": "BBC joins paramedics on duty in Lebanon after Israeli strikes",
@@ -474,8 +475,8 @@
         "title_en": "Israel kills three Palestinians in separate Gaza strikes",
         "title_zh": "以色列在加沙的单独袭击中杀死三名巴勒斯坦人"
       },
-      "my_view": "BBC以亲历报道展现人道视角，半岛电视台聚焦巴勒斯坦伤亡凸显冲突代价，中国媒体则完全回避国际冲突，转向国内民生议题，反映三方在政治立场、报道框架和受众导向上的根本差异。",
-      "summary": "同一事件在不同意识形态下被重构为战地纪实、伤亡控诉或完全无关的国内新闻，本质是媒体通过议程设置传递立场。"
+      "my_view": "BBC以跟随式报道展现人道视角，半岛电视台聚焦巴勒斯坦伤亡突出冲突代价，中国媒体则完全回避国际冲突，转向国内民生议题，体现三方在政治立场、报道框架和受众导向上的根本差异。",
+      "summary": "同一中东冲突事件被不同媒体重构为战地纪实、伤亡控诉与完全无关的国内新闻，反映意识形态主导叙事选择。"
     },
     {
       "event_hint": "Italian PM condemns ally Trump over 'unacceptable' Pope criticism",
@@ -498,8 +499,8 @@
         "title_en": "Energy prices rise despite Jones Act suspension by Trump",
         "title_zh": "尽管特朗普暂停了《琼斯法案》，但能源价格仍在上涨"
       },
-      "my_view": "欧美视角聚焦政治人物间的价值观冲突，伊斯兰视角从经济政策切入反映地区关切，中国媒体未报道显示此事未进入主流议程。三方差异体现了地缘政治关注点的不同层级。",
-      "summary": "事件本质是特朗普对教皇的言论引发意大利总理基于价值观的公开外交谴责。"
+      "my_view": "欧美视角聚焦政治人物间的价值观冲突，伊斯兰视角关注经济政策对能源市场的实际影响，中国媒体未报道显示此事未进入其核心议程。三方差异体现各自地缘关注重点：西方重意识形态、中东重资源经济、中国选择性聚焦。",
+      "summary": "事件本质是特朗普言论引发国际政治立场分歧，但不同媒体依据受众关切选取了完全不同的报道切入点。"
     },
     {
       "event_hint": "Britney Spears goes into rehab after driving under the influence arrest",
@@ -529,8 +530,8 @@
         "title_en": "Anti-war protesters arrested in New York urging end to Israel weapon sales",
         "title_zh": "反战抗议者在纽约被捕，敦促停止向以色列出售武器"
       },
-      "my_view": "网易回避敏感国际娱乐新闻，转向国内正能量报道；BBC聚焦名人事件本身，体现西方媒体娱乐化特征；半岛借机转向反以政治议题，反映伊斯兰世界对巴以问题的持续关注。三方均通过选题体现自身议程设置。",
-      "summary": "布兰妮酒驾被捕后接受康复治疗的事件，在不同意识形态媒体中被转化为符合各自受众兴趣或政治立场的报道议题。"
+      "my_view": "网易回避敏感国际娱乐新闻，转向国内正能量报道；BBC聚焦名人事件本身，体现西方娱乐新闻关注度；半岛电视台借机关联反战议题，反映伊斯兰世界政治立场。三方均按自身议程设置选择报道焦点。",
+      "summary": "媒体通过选择性报道同一时间的不同事件，展现各自意识形态导向与受众关注差异。"
     },
     {
       "event_hint": "Peru election drags into second day after ballot delivery fiasco",
@@ -553,8 +554,8 @@
         "title_en": "Benin’s Wadagni wins presidential election with landslide 94% of votes",
         "title_zh": "贝宁瓦达尼以94%的压倒性优势赢得总统选举"
       },
-      "my_view": "BBC聚焦选举程序混乱，体现对民主流程的关注；半岛突出选举结果，反映伊斯兰媒体对非洲政治的关注；中国媒体未报道，可能因事件与本国关联度低或持观望态度。",
-      "summary": "秘鲁选举因选票交付问题延误，而贝宁选举已公布结果，两事件被不同媒体选择性报道。"
+      "my_view": "欧美报道聚焦选举程序混乱，强调技术性失败；伊斯兰媒体突出选举结果，呈现确定性叙事；中国媒体未报道，可能因事件与自身关联度低或持观望态度。",
+      "summary": "秘鲁选举因选票交付问题延误，但最终结果以贝宁候选人高票当选告终。"
     },
     {
       "event_hint": "Iran carried out highest number of executions in decades",
@@ -577,8 +578,8 @@
         "title_en": "Iran war live: Trump says Tehran wants deal as US blockade in Hormuz begins",
         "title_zh": "伊朗战争直播：特朗普表示，随着美国对霍尔木兹的封锁开始，德黑兰希望达成协议"
       },
-      "my_view": "欧美媒体直接聚焦人权议题，突出处决数量；伊斯兰媒体将事件置于地缘政治框架（美伊对抗），转移焦点；中国媒体选择不报道，体现避免介入他国内政的立场差异。",
-      "summary": "伊朗司法行动引发国际关注，不同媒体的报道角度反映其背后的意识形态与政治立场差异。"
+      "my_view": "欧美媒体直接聚焦人权议题，突出处决数量；伊斯兰媒体将事件置于地缘政治框架（美伊对抗），转移焦点；中国媒体回避报道，体现不干涉内政原则。三方分别呈现批判、对冲与沉默立场。",
+      "summary": "伊朗处决人数激增事件被不同媒体置于人权、地缘政治或回避报道的差异化叙事框架中。"
     },
     {
       "event_hint": "Leo becomes first Pope to visit Algeria at start of major Africa tour",
@@ -608,8 +609,8 @@
         "title_en": "French cement giant Lafarge guilty of financing ISIL in Syria",
         "title_zh": "法国水泥巨头拉法基因资助叙利亚境内的“伊斯兰国”而被判有罪"
       },
-      "my_view": "网易强调经济合作，回避宗教议题；BBC突出宗教领袖历史性访问，体现西方对宗教外交的关注；半岛电视台则转移焦点至西方企业丑闻，反映伊斯兰世界对西方双重标准的批判。三方报道角度体现各自政治立场与议程设置。",
-      "summary": "教皇首次访问阿尔及利亚开启非洲之行，但三方媒体分别从经济合作、宗教外交和西方丑闻角度选择性报道。"
+      "my_view": "中国报道聚焦基建合作，回避宗教议题；欧美报道突出教皇历史性访问，强调宗教领袖角色；伊斯兰报道则关联法国企业资助ISIL，暗示西方双重标准。三方分别体现发展叙事、宗教自由叙事与反殖民叙事。",
+      "summary": "教皇首次访问阿尔及利亚开启非洲之旅，但不同媒体通过选择性关联议题展现各自立场。"
     },
     {
       "event_hint": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
@@ -632,8 +633,8 @@
         "title_en": "What’s behind Viktor Orban’s defeat in Hungary’s election?",
         "title_zh": "欧尔班·维克托在匈牙利大选中落败的原因是什么？"
       },
-      "my_view": "欧美标题聚焦普京通话假设，突出对俄立场；伊斯兰标题转向选举结果分析，关注地区政治变动；中国媒体暂未报道，体现对俄乌议题的审慎态度。三方分别呈现直接立场、背景解读与选择性关注差异。",
-      "summary": "匈牙利新总理对俄通话立场的假设性报道，反映不同媒体在地缘政治事件中的叙事焦点差异。"
+      "my_view": "欧美标题聚焦普京通话假设，突出对俄立场；伊斯兰标题转向选举内因分析，体现地缘政治解读；中国媒体暂未报道，反映外交谨慎态度。三方分别呈现直接对抗、深层解构与战略静默的立场差异。",
+      "summary": "匈牙利新总理对俄通话立场的假设性报道，折射出不同媒体在地缘政治事件中的叙事焦点差异。"
     },
     {
       "event_hint": "Spanish PM's wife charged with corruption after two-year probe",
@@ -656,8 +657,8 @@
         "title_en": "Man charged with attempted murder after attack on OpenAI CEO Altman’s home",
         "title_zh": "Man charged with attempted murder after attack on OpenAI CEO Altman’s home"
       },
-      "my_view": "欧美媒体直接报道事件本身，突出首相夫人被控腐败；伊斯兰媒体转移焦点至无关科技界袭击事件；中国媒体选择不报道，可能出于外交考量避免评论他国内政。三方立场分别体现直接监督、议题转移和谨慎回避。",
-      "summary": "西班牙首相夫人因腐败指控被调查两年后正式起诉，事件本质是西方政治人物家属涉贪的司法案件。"
+      "my_view": "欧美媒体直接报道事件核心，突出本国政治人物负面；伊斯兰媒体选择报道其他国际事件，避免涉及西方政治敏感话题；中国媒体则未予报道，体现对西方领导人负面新闻的谨慎态度。三方立场反映各自的地缘政治考量。",
+      "summary": "西班牙首相夫人因腐败指控被调查两年后正式起诉，事件本质是西方政治人物的司法问责案例。"
     }
   ]
 }
