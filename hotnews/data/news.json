@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-15 12:02:34 +08",
+  "generated_at": "2026-04-15 20:01:52 +08",
   "generated_date": "2026-04-15",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Israel and Lebanon hold direct talks for first time in decades",
         "title_zh": "以色列和黎巴嫩数十年来首次举行直接会谈"
       },
-      "my_view": "欧美报道客观陈述事实；伊斯兰视角强调‘数十年’淡化历史成果；中国媒体未报道可能体现对中东敏感议题的谨慎态度，或认为会谈象征意义有限。",
-      "summary": "以色列与黎巴嫩在长期敌对后举行罕见直接对话，旨在解决海上边界争议。"
+      "my_view": "欧美报道中立陈述事实，伊斯兰媒体强调“数十年”淡化历史接触，中国媒体未报道可能因中东议题敏感或与当前外交重点关联度低。",
+      "summary": "以色列与黎巴嫩在长期敌对后首次举行直接会谈，标志着双方关系出现突破性接触。"
     },
     {
       "event_hint": "Trump hints Iran talks could resume this week as US port blockade continues",
@@ -444,8 +445,8 @@
         "title_en": "Iran war live: Trump says war ‘close to over’ as Hormuz blockade continues",
         "title_zh": "伊朗战争直播：特朗普称随着霍尔木兹海峡封锁继续，战争“接近结束”"
       },
-      "my_view": "欧美报道侧重谈判进程，伊斯兰媒体突出军事对峙与地区视角，中国媒体暂未报道可能因事件敏感或与自身直接关联度较低。三方分别体现务实外交、地缘冲突关切与选择性关注的特点。",
-      "summary": "美国以港口封锁为施压手段，试图重启伊朗核谈判，实质是军事威慑与外交博弈并行的对伊策略。"
+      "my_view": "欧美报道侧重谈判进程，伊斯兰媒体突出军事对峙与特朗普的强硬表态，中国媒体暂未报道可能体现谨慎中立态度。三方分别聚焦外交、冲突与战略沉默。",
+      "summary": "美国以港口封锁为施压手段，试图重启伊朗核谈判，事件本质是军事威慑下的外交博弈。"
     },
     {
       "event_hint": "Another woman accuses Swalwell of rape, saying he drugged her in 2018",
@@ -468,8 +469,8 @@
         "title_en": "Fifth woman accuses former US lawmaker Eric Swalwell of sexual misconduct",
         "title_zh": "第五名女性指控美国前议员埃里克·斯瓦尔韦尔性行为不端"
       },
-      "my_view": "欧美媒体直接使用‘强奸’等法律术语突出指控严重性；伊斯兰媒体强调‘第五名女性’体现模式性，用‘不当行为’相对克制；中国媒体未报道反映对西方政治人物丑闻的谨慎态度。",
-      "summary": "美国前议员埃里克·斯瓦尔韦尔再遭性侵指控，反映西方政界性丑闻频发的社会问题。"
+      "my_view": "欧美媒体直指强奸具体细节；伊斯兰媒体强调指控者数量与身份；中国媒体未报道反映对西方政治人物丑闻的谨慎态度。三方分别侧重事实细节、模式累积和传播选择。",
+      "summary": "美国前议员埃里克·斯瓦尔韦尔再遭性侵指控，多名女性指其2018年下药施暴。"
     },
     {
       "event_hint": "250 missing after migrant boat sinks in Indian Ocean",
@@ -492,8 +493,8 @@
         "title_en": "Hundreds missing after Rohingya refugee boat capsizes in Andaman Sea: UN",
         "title_zh": "联合国：罗兴亚难民船在安达曼海倾覆 数百人失踪"
       },
-      "my_view": "欧美报道侧重移民身份与地理范围，伊斯兰报道强调罗兴亚难民身份与具体海域，中国媒体未报道可能因事件与本国关联度低或信息核实中。三方差异体现各自关注焦点与叙事框架。",
-      "summary": "印度洋移民船沉没致250人失踪，本质是难民危机引发的人道主义悲剧。"
+      "my_view": "欧美报道侧重移民身份与地理范围，伊斯兰报道强调罗兴亚难民身份与具体海域，中国未报道可能因事件关联度低。三方差异体现地缘关注点与身份政治选择。",
+      "summary": "印度洋移民船沉没致250人失踪，本质是难民危机中的海上人道主义灾难。"
     },
     {
       "event_hint": "US blockade of Iran ports irresponsible and dangerous, China says",
@@ -523,8 +524,8 @@
         "title_en": "Israel and Lebanon hold rare talks in Washington, DC, amid Iran war",
         "title_zh": "伊朗战争期间，以色列和黎巴嫩在华盛顿特区举行罕见会谈"
       },
-      "my_view": "中国聚焦台湾问题主权立场，欧美突出中美在伊朗问题上的对立，伊斯兰媒体则关联地区冲突格局，三方分别强调主权维护、大国博弈和区域安全关切。",
-      "summary": "中国批评美国对伊朗的港口封锁行为，三方报道视角分别体现主权议题、大国对抗和地区冲突的关联性。"
+      "my_view": "中国聚焦台湾问题以强调主权，欧美直接报道中美在伊朗问题上的外交交锋，伊斯兰媒体则关联地区安全局势，三方分别突出主权立场、大国博弈和区域冲突视角。",
+      "summary": "中国就美国封锁伊朗港口行为提出外交批评，事件本质是中美在地区安全问题上的立场交锋。"
     },
     {
       "event_hint": "Partner of US influencer who died in Zanzibar speaking to police as witness",
@@ -554,8 +555,8 @@
         "title_en": "French police arrest students protesting anti-Semitism law",
         "title_zh": "法国警方逮捕抗议反犹太主义法的学生"
       },
-      "my_view": "网易聚焦国内基层就业，体现国家政策导向；BBC关注个体事件，强调证人陈述的新闻性；半岛电视台转向法国社会议题，反映伊斯兰世界对西方政策的敏感。三方分别呈现内政优先、个体叙事和跨文化关切的立场差异。",
-      "summary": "美国游客在桑给巴尔死亡事件中，其伴侣以证人身份配合当地警方调查。"
+      "my_view": "网易聚焦国内基层就业，体现国家政策导向；BBC关注外国公民海外案件，强调个体权利与司法程序；半岛电视台报道法国社会冲突，凸显西方内部价值观矛盾。三方均选择符合自身议程的报道角度。",
+      "summary": "同一国际事件被不同媒体选择性报道，折射出各自的地域关注点与意识形态立场差异。"
     },
     {
       "event_hint": "Hamas rejects Gaza disarmament plan, Palestinian official says",
@@ -585,8 +586,8 @@
         "title_en": "Israeli attack kills several people in Gaza refugee camp",
         "title_zh": "以色列袭击加沙难民营造成数人死亡"
       },
-      "my_view": "欧美媒体直击事件核心，突出哈马斯拒绝解除武装；伊斯兰媒体转向以军袭击平民，转移矛盾焦点；中国媒体回避敏感议题，用教育话题淡化国际冲突。三方分别呈现事实陈述、受害者叙事与话题回避策略。",
-      "summary": "围绕加沙武装控制权的政治博弈，各方通过选择性报道展现不同立场。"
+      "my_view": "中国媒体回避敏感国际冲突，聚焦国内教育议题；欧美媒体直接报道哈马斯拒绝解除武装，凸显其对抗性；伊斯兰媒体强调以色列攻击造成的平民伤亡，引导对以谴责。三方分别体现中立回避、对抗叙事与受害者叙事。",
+      "summary": "同一事件被不同意识形态媒体重构为教育话题、武装对峙或人道灾难，反映国际话语权争夺。"
     },
     {
       "event_hint": "Three years of messages at once - a chronicle of Sudan's war pours in as trapped reporter's phone turns on",
@@ -609,8 +610,8 @@
         "title_en": "The Take: Who is keeping the fight alive in Sudan’s war?",
         "title_zh": "观点：谁在苏丹战争中继续战斗？"
       },
-      "my_view": "BBC侧重战争纪实与个体遭遇，半岛聚焦冲突持续原因与责任方，中国媒体暂未报道体现对苏丹议题的谨慎态度。欧美重人道叙事，伊斯兰媒体重地缘政治分析。",
-      "summary": "被困记者手机数据公开成为苏丹战争微观缩影，不同媒体通过报道焦点差异体现各自立场与议程设置。"
+      "my_view": "BBC聚焦战争对个体的即时冲击，采用个人叙事引发情感共鸣；半岛电视台侧重战争持续的结构性原因，追问责任主体；中国媒体暂未报道，可能基于外交中立或事件热度考量。",
+      "summary": "被困记者手机开机后涌出的三年信息，成为苏丹战争微观创伤与宏观叙事的交汇点。"
     },
     {
       "event_hint": "Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war",
@@ -633,8 +634,8 @@
         "title_en": "Canada faces calls to rescind planned cuts to refugee healthcare scheme",
         "title_zh": "加拿大面临取消难民医疗计划削减计划的呼吁"
       },
-      "my_view": "欧美报道聚焦匈牙利新总理对俄通话意愿，体现对东欧国家立场的审视；伊斯兰媒体关注难民医疗议题，反映其民生关怀；中国媒体未报道此事，显示其在国际冲突中的谨慎中立态度。",
-      "summary": "事件本质是不同媒体基于自身立场，对国际政治同一信息源进行选择性报道或沉默处理。"
+      "my_view": "欧美视角聚焦匈牙利对俄外交立场，伊斯兰视角借难民议题转移焦点，中国媒体暂未报道体现中立审慎。三方分别呈现直接关联、议题转换与沉默观察三种处理方式。",
+      "summary": "事件本质是匈牙利候任总理表明愿通过对话解决乌克兰危机，但不同媒体通过选题差异折射地缘政治关注点的分野。"
     },
     {
       "event_hint": "Retrial over death of Argentina legend Maradona begins",
@@ -657,8 +658,8 @@
         "title_en": "Haiti’s Culture Ministry fires workers over citadel stampede that killed 25",
         "title_zh": "海地文化部因城堡踩踏事件解雇工作人员，造成25人死亡"
       },
-      "my_view": "欧美媒体客观报道司法程序，伊斯兰媒体关注其他地区伤亡事件体现不同议程设置，中国媒体暂未报道反映对国际体育司法新闻选择性关注。三方立场体现地域议题优先度差异。",
-      "summary": "阿根廷法院就马拉多纳医疗团队过失致死案启动重审程序，属于司法追责事件。"
+      "my_view": "欧美媒体聚焦名人司法进程，体现对个体权利的关注；伊斯兰媒体选择报道其他地区社会事件，反映地缘关注差异；中国媒体暂未报道此事，可能基于新闻价值判断或议程设置考量。",
+      "summary": "马拉多纳死亡案重审启动，体现国际社会对公众人物司法程序的持续关注。"
     }
   ]
 }
