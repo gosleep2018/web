@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-16 12:02:29 +08",
+  "generated_at": "2026-04-16 20:02:12 +08",
   "generated_date": "2026-04-16",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "US jury finds Ticketmaster and Live Nation had anticompetitive monopoly",
         "title_zh": "美国陪审团认定 Ticketmaster 和 Live Nation 存在反竞争垄断"
       },
-      "my_view": "欧美报道直指垄断与收费问题，强调消费者权益；伊斯兰媒体侧重反竞争行为的法律定性，视角相对中立；中国媒体未报道可能因事件本土关联度低或议程设置差异。",
-      "summary": "美国陪审团认定Live Nation通过垄断地位实施反竞争行为，导致票务市场失衡并损害消费者利益。"
+      "my_view": "欧美报道直接点明垄断与高收费，强调消费者权益；伊斯兰媒体聚焦反竞争行为，隐含对美国商业模式的批判；中国媒体未报道，可能因事件本土关联度低或避免讨论西方市场问题。",
+      "summary": "美国陪审团认定Live Nation与Ticketmaster通过垄断行为损害市场竞争，导致消费者支付不合理费用。"
     },
     {
       "event_hint": "Israeli triple-tap strike kills three paramedics in Lebanon, officials say",
@@ -451,8 +452,8 @@
         "title_en": "Russian attacks on Ukraine kills three, including a 12-year-old child",
         "title_zh": "俄罗斯对乌克兰的袭击造成三人死亡，其中包括一名 12 岁儿童"
       },
-      "my_view": "网易回避敏感国际事件，转向国内民生报道；BBC聚焦以色列军事行动细节，体现西方媒体对中东冲突的监督视角；半岛电视台则转移焦点至俄乌冲突，反映伊斯兰世界对西方双重标准的批判立场。",
-      "summary": "三方媒体通过选择性报道框架，将同一伤亡事件置于不同地缘政治语境中，呈现意识形态主导的新闻叙事差异。"
+      "my_view": "网易回避敏感国际事件，转向国内民生报道；BBC直指以色列军事行动造成医疗人员伤亡，体现西方媒体监督立场；半岛电视台则转移焦点至俄罗斯在乌克兰的袭击，反映伊斯兰世界对巴以冲突的立场选择。",
+      "summary": "三方媒体通过选择性报道或转移焦点，展现对同一地区冲突的不同政治立场与叙事策略。"
     },
     {
       "event_hint": "Frank Gardner: What is China's role in the Iran war?",
@@ -482,8 +483,8 @@
         "title_en": "Iran war live: Pakistan in push for new round of US-Iran peace negotiations",
         "title_zh": "伊朗战争直播：巴基斯坦推动新一轮美伊和平谈判"
       },
-      "my_view": "中国视角回避国际冲突，聚焦教育议题塑造正面形象；欧美视角直接追问中国地缘政治角色，体现西方审视立场；伊斯兰视角关注区域国家斡旋行动，反映本地利益关切。三方报道框架差异显著。",
-      "summary": "同一国际事件在不同意识形态主导的媒体中，被重构为符合各自受众认知框架的差异化叙事。"
+      "my_view": "中国报道回避国际冲突，聚焦教育议题塑造正面形象；BBC直接点明中国角色，体现西方对大国责任的审视；半岛台关注区域和平进程，反映伊斯兰世界对冲突解决的迫切诉求。三方立场体现各自政治议程与受众关切。",
+      "summary": "同一国际事件在不同意识形态媒体中呈现为教育宣传、大国博弈、区域和平三种截然不同的叙事框架。"
     },
     {
       "event_hint": "South Africa names apartheid-era politician as new ambassador to the US",
@@ -506,8 +507,8 @@
         "title_en": "Israel appoints first ambassador to Somaliland",
         "title_zh": "以色列任命首任驻索马里兰大使"
       },
-      "my_view": "BBC直述历史背景隐含批判，半岛转移焦点至以色列与索马里兰关系，中国媒体回避报道可能因无关直接利益或避免介入敏感历史议题。",
-      "summary": "南非任命具种族隔离背景的驻美大使引发国际关注，不同媒体通过报道选择体现立场差异。"
+      "my_view": "BBC聚焦南非大使任命本身，强调其种族隔离背景；半岛电视台则转移焦点至以色列与索马里兰关系，体现伊斯兰世界对巴以问题的敏感；中国媒体未报道，可能避免介入他国内政或认为此事不具报道价值。",
+      "summary": "同一事件在不同意识形态下被选择性报道或重构，反映媒体如何通过议程设置传递立场。"
     },
     {
       "event_hint": "Sri Lanka repatriates 238 Iranian sailors stranded after US torpedo attack",
@@ -530,8 +531,8 @@
         "title_en": "Democrats clash with US Energy Secretary over Iran war and gas prices",
         "title_zh": "民主党与美国能源部长就伊朗战争和天然气价格发生冲突"
       },
-      "my_view": "欧美媒体客观陈述事件本身，伊斯兰媒体将事件置于美国内政与能源政策冲突框架下，中国媒体未报道反映其地缘政治考量差异。三方分别体现事实呈现、政治关联与选择性关注的特征。",
-      "summary": "斯里兰卡基于人道主义遣返受国际冲突波及的伊朗水手，事件本质是中立国处理大国博弈衍生的人道危机。"
+      "my_view": "BBC客观陈述事件本身；半岛电视台将事件置于美国内政矛盾框架，隐含对美批评；中国媒体未报道可能因事件敏感度不足或外交考量。三方差异体现地缘政治关注点的不同。",
+      "summary": "斯里兰卡基于人道主义遣返受美伊冲突波及的伊朗水手，事件折射出中东地缘政治矛盾的溢出效应。"
     },
     {
       "event_hint": "Magyar calls for fast handover of power in talks with Hungary's president",
@@ -561,8 +562,8 @@
         "title_en": "Peru’s ballot count drags on amid frustration with presidential election",
         "title_zh": "由于对总统选举的不满，秘鲁的计票工作继续拖延"
       },
-      "my_view": "网易以教育新闻淡化政治议题，体现中国媒体聚焦国内议程；BBC直述权力移交诉求，反映欧美媒体对政治变动的直接关注；半岛电视台则转移至秘鲁选举，展现伊斯兰媒体对全球南方政治进程的侧重。",
-      "summary": "匈牙利反对派领袖在与总统会谈中要求加快政权过渡，本质是匈牙利国内政治权力博弈的公开化。"
+      "my_view": "中国报道完全回避政治事件，聚焦教育议题体现去政治化立场；欧美报道直接呈现反对派政治诉求，强调权力更迭；伊斯兰媒体报道他国选举拖延，间接呼应权力移交议题但保持地理距离。",
+      "summary": "匈牙利反对派领袖在与总统会谈中要求加速政权过渡，三方媒体通过不同报道框架体现意识形态立场差异。"
     },
     {
       "event_hint": "Trump's rift with Pope is playing out in public - it's costing him valuable support",
@@ -585,8 +586,8 @@
         "title_en": "Huge crowds greet Pope Leo in Cameroon 20 years after outreach trip",
         "title_zh": "外展旅行20年后，大批群众在喀麦隆迎接教皇利奥"
       },
-      "my_view": "欧美视角聚焦特朗普与教皇公开矛盾的政治代价；伊斯兰视角回避冲突，突出教皇历史访问的受欢迎场景；中国媒体未报道，体现对西方宗教政治话题的谨慎态度。三方分别呈现冲突性、转移性和沉默性叙事。",
-      "summary": "同一宗教政治事件被不同媒体框架重构，分别强调权力冲突、历史温情与回避立场，体现意识形态对新闻叙事的主导。"
+      "my_view": "欧美视角聚焦特朗普与教皇公开矛盾的政治代价；伊斯兰视角回避冲突，突出教皇历史访问的正面反响；中国媒体未报道，可能认为此事与本国关联度低或持谨慎态度。",
+      "summary": "同一宗教政治事件在不同文化语境中被重构为冲突代价、历史温情或无报道价值三种叙事。"
     },
     {
       "event_hint": "South Korea jails American YouTuber for public nuisance",
@@ -609,8 +610,8 @@
         "title_en": "Could the US oil blockade snuff out the Cuban cigar?",
         "title_zh": "美国石油封锁能否扼杀古巴雪茄？"
       },
-      "my_view": "欧美报道聚焦个案司法程序，伊斯兰媒体将事件置于美古地缘政治框架下解读，中国媒体未报道显示不同议程设置。三方分别体现法律中心主义、政治隐喻与选择性关注。",
-      "summary": "美国YouTuber因违反韩国公共秩序法律被判刑，本质是主权国家对违法行为的标准司法处置。"
+      "my_view": "欧美报道聚焦个案司法程序，伊斯兰媒体将事件关联地缘政治博弈，中国媒体未报道可能因事件不涉核心利益或避免讨论他国司法。",
+      "summary": "韩国司法机关依法对一名美国公民的公共滋扰行为作出判决，不同媒体基于自身立场选择报道角度或保持沉默。"
     },
     {
       "event_hint": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
@@ -633,8 +634,8 @@
         "title_en": "Israeli forces fire stun grenades at journalists in occupied Nablus",
         "title_zh": "以色列军队向被占领纳布卢斯的记者发射眩晕手榴弹"
       },
-      "my_view": "欧美媒体聚焦特朗普威胁解雇美联储主席，体现对国内政治经济事件的直接关注；伊斯兰媒体转向报道以色列与巴勒斯坦冲突，反映其地缘政治关切；中国媒体未报道此事，可能基于议题选择性或外交考量。",
-      "summary": "三方报道差异凸显媒体议程受地缘立场主导：欧美重国内政治，伊斯兰重巴以冲突，中国暂未参与此议题传播。"
+      "my_view": "欧美媒体直击事件核心，聚焦美国内政；伊斯兰媒体借机转移视线，将话题转向巴以冲突；中国媒体暂未报道，可能避免介入他国内政或等待官方口径。",
+      "summary": "特朗普对美联储主席施压事件，在不同媒体语境中被选择性呈现或关联至其他议题。"
     },
     {
       "event_hint": "Former US Marine pilot loses appeal against extradition from Australia",
@@ -657,8 +658,8 @@
         "title_en": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention",
         "title_zh": "巴西逃亡前间谍头子在 ICE 拘留后在美国获释"
       },
-      "my_view": "欧美视角聚焦法律程序本身，伊斯兰视角通过关联他国案例暗示引渡政治化，中国媒体未报道此事可能因与本国关联度低或避免涉及西方司法话题。",
-      "summary": "澳大利亚法院驳回前美军飞行员引渡上诉，体现跨国司法合作中个人权利与国家安全诉求的冲突。"
+      "my_view": "欧美报道聚焦司法程序本身，伊斯兰媒体通过关联他国案例暗示引渡政治化，中国媒体未报道可能因事件不涉核心利益或避免评论西方司法体系。",
+      "summary": "一名前美军飞行员在澳大利亚引渡上诉失败，凸显跨国司法合作中个人权利与地缘政治的复杂交织。"
     }
   ]
 }
