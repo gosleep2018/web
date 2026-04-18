@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-18 12:02:22 +08",
+  "generated_at": "2026-04-18 20:02:01 +08",
   "generated_date": "2026-04-18",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Lebanon president says country is no longer a pawn amid Israel ceasefire",
         "title_zh": "黎巴嫩总统表示该国不再是以色列停火中的棋子"
       },
-      "my_view": "欧美报道侧重停火的实际效果与和平障碍；伊斯兰视角强调黎巴嫩借停火摆脱棋子地位，彰显主体性；中国未报道此事，可能反映其在中东议题上的谨慎态度。",
-      "summary": "黎以停火带来短暂喘息，但各方对停火意义的解读凸显地缘政治立场差异。"
+      "my_view": "欧美报道侧重停火的实际效果与和平障碍；伊斯兰媒体强调黎巴嫩借此摆脱棋子地位，彰显主体性；中国媒体未报道，或反映对该地区冲突持谨慎态度。",
+      "summary": "黎以停火带来短暂喘息，但各方对停火意义的解读存在立场差异，和平前景仍不明朗。"
     },
     {
       "event_hint": "Pope criticises 'tyrants' who spend billions on wars after Trump spat",
@@ -444,8 +445,8 @@
         "title_en": "Trump seeks ‘resolution’ of his $10bn lawsuit against IRS, spurring concern",
         "title_zh": "特朗普寻求“解决”其针对国税局 100 亿美元的诉讼，引发担忧"
       },
-      "my_view": "欧美媒体聚焦宗教领袖对强权政治的批判，伊斯兰媒体将事件转向特朗普国内司法纠纷，中国媒体未报道显示选择性关注。三方分别突出道德谴责、国内政治博弈与信息过滤机制。",
-      "summary": "同一事件在不同意识形态下被重构为宗教批判、国内司法或沉默议题，体现媒体如何通过框架选择服务各自议程。"
+      "my_view": "欧美媒体聚焦宗教领袖对军费扩张的批判，伊斯兰媒体转向特朗普国内诉讼以弱化宗教冲突，中国媒体回避报道可能为避免卷入宗教政治争议，体现三方不同的意识形态关切与叙事策略。",
+      "summary": "事件本质是宗教领袖借特朗普争议批评军国主义，但各媒体通过选择性报道构建符合自身立场的叙事框架。"
     },
     {
       "event_hint": "Oil prices plunge as Iran says Strait 'open'",
@@ -468,8 +469,8 @@
         "title_en": "Iran war live: Tehran says Trump made ‘false’ claims, amid peace talks",
         "title_zh": "伊朗战争直播：德黑兰称特朗普在和谈中提出“虚假”主张"
       },
-      "my_view": "欧美聚焦经济影响，突出油价波动；伊斯兰媒体强调政治博弈与和谈进程，弱化经济表述；中国媒体暂未报道可能基于外交考量。三方分别体现经济导向、政治叙事与谨慎态度。",
-      "summary": "伊朗通过释放海峡通航信号影响全球油价，同时在外交层面否认美方指控，事件本质是地缘政治博弈与经济市场的联动反应。"
+      "my_view": "欧美标题聚焦经济影响（油价暴跌），伊斯兰标题强调政治博弈（驳斥特朗普、和谈背景），中国媒体暂未报道显示其在该事件中的中立或观察立场。",
+      "summary": "伊朗通过宣布海峡开放影响全球油价，同时在外交层面反驳美国指控，事件本质是地缘政治博弈对能源市场的即时冲击。"
     },
     {
       "event_hint": "Naples bank robbers hold 25 people hostage then vanish through tunnel",
@@ -499,8 +500,8 @@
         "title_en": "Will the ceasefire in Lebanon hold?",
         "title_zh": "黎巴嫩停火能否维持？"
       },
-      "my_view": "网易规避负面国际新闻，以国内企业报道转移视线；BBC客观报道事件细节，突出犯罪手法；半岛电视台完全回避该事件，转而报道中东议题，反映其地域关注偏好。",
-      "summary": "那不勒斯发生银行劫匪挟持人质后通过隧道逃脱的犯罪事件。"
+      "my_view": "网易以企业宣传覆盖负面国际新闻，体现国内媒体议程设置；BBC聚焦事件细节，符合西方新闻专业主义；半岛电视台则完全回避该事件，转而报道中东议题，反映其地域关注偏好。",
+      "summary": "那不勒斯发生银行劫匪劫持人质后通过隧道逃脱的刑事案件，但三方媒体基于各自立场选择了截然不同的报道焦点。"
     },
     {
       "event_hint": "Runaway wolf finally captured after nine-day search in South Korea",
@@ -530,8 +531,8 @@
         "title_en": "UN warns South Sudan at risk of ‘full-scale famine’ as fighting intensifies",
         "title_zh": "联合国警告南苏丹因战斗加剧面临“全面饥荒”风险"
       },
-      "my_view": "中国视角聚焦国内治理，回避国际事件；欧美视角直接报道韩国社会新闻，体现对动物议题的关注；伊斯兰视角则转向其他地区的民生危机，反映其地缘关切。三方报道取向体现各自议程设置差异。",
-      "summary": "韩国捕获逃逸狼只的社会新闻在不同媒体中被选择性报道或置换，体现媒体议程的地域性偏移。"
+      "my_view": "中国报道聚焦国内治理成就，回避国际事件；欧美报道客观陈述韩国社会新闻；伊斯兰视角关注人道危机，体现区域关切。三方分别呈现内宣优先、事实优先、议题优先的立场差异。",
+      "summary": "韩国成功捕获逃逸狼只的事件，在不同媒体视角下被选择性报道或完全忽略，反映各自议程设置差异。"
     },
     {
       "event_hint": "Iranian footballers say Australia has given them 'hope' for safe future",
@@ -554,8 +555,8 @@
         "title_en": "Iran rejects Trump claim on deal to surrender nuclear material stockpiles",
         "title_zh": "伊朗拒绝特朗普关于交出核材料库存协议的主张"
       },
-      "my_view": "欧美媒体聚焦个体自由选择，突出运动员对西方社会的向往；伊斯兰媒体转向政治议题对冲西方叙事；中国媒体暂未报道，体现对敏感移民话题的谨慎态度。",
-      "summary": "伊朗运动员的移民表态被不同媒体框架重构，本质是体育事件在国际舆论场中的政治化解读。"
+      "my_view": "欧美媒体聚焦个体自由选择，伊斯兰媒体强调主权抗争，中国媒体暂未报道显示对伊朗议题的谨慎态度，三方立场分别体现人道主义、政治对抗与外交审慎。",
+      "summary": "伊朗运动员借体育表达对安全的追求，折射出伊朗国内压力与国际政治博弈的交织。"
     },
     {
       "event_hint": "Japan reveals new name for 40C-and-hotter days after blistering summer",
@@ -578,8 +579,8 @@
         "title_en": "US Congress extends controversial surveillance power under FISA for 10 days",
         "title_zh": "美国国会将 FISA 有争议的监控权延长 10 天"
       },
-      "my_view": "欧美报道客观陈述事实，关注气候现象本身；伊斯兰媒体标题实际与事件无关，可能为误植或转移焦点；中国媒体未报道，体现对日本国内事务的低调态度。三方立场差异显著。",
-      "summary": "日本为极端高温天气制定新名称，反映气候变化的现实影响与官方应对措施。"
+      "my_view": "欧美报道客观陈述事实，关注气候现象本身；伊斯兰媒体标题看似无关，实则可能暗讽西方双重标准——关注日本高温命名，却忽视自身监控争议；中国媒体未报道，体现选择性关注。",
+      "summary": "日本为极端高温天气命名，反映出全球变暖背景下各国对气候现象认知与应对策略的差异化呈现。"
     }
   ]
 }
