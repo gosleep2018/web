@@ -1,7 +1,108 @@
 {
-  "date": "2026-04-18",
-  "updatedAt": "2026-04-18T00:06:10.728Z",
-  "totalVocab": 3,
+  "date": "2026-04-20",
+  "updatedAt": "2026-04-20T00:15:49.913Z",
+  "totalVocab": 202,
   "source": "GRE高频词 + Word Power Made Easy体系",
-  "words": []
+  "words": [
+    {
+      "word": "panegyric",
+      "phonetic": "/ˌpænɪˈdʒɪrɪk/",
+      "chinese": "颂词；赞美文",
+      "englishDef": "A public speech or published text in praise of someone",
+      "example": "The obituary was a panegyric to his achievements.",
+      "exampleTrans": "讣告是对他成就的颂扬。",
+      "level": "GRE",
+      "etymology": "Gk.panegyrikos(fit for assembly)"
+    },
+    {
+      "word": "acerbic",
+      "phonetic": "/əˈsɜːbɪk/",
+      "chinese": "尖刻的；辛辣的",
+      "englishDef": "Sharp and forthright in tone; biting",
+      "example": "Her acerbic wit made some people uncomfortable.",
+      "exampleTrans": "她尖刻的机智让一些人不舒服。",
+      "level": "GRE",
+      "etymology": "L.acerbus(harsh, sharp)"
+    },
+    {
+      "word": "appease",
+      "phonetic": "/əˈpiːz/",
+      "chinese": "安抚；平息",
+      "englishDef": "To pacify or placate someone by agreeing to their demands",
+      "example": "The government tried to appease the protesters.",
+      "exampleTrans": "政府试图安抚抗议者。",
+      "level": "GRE",
+      "etymology": "OF apaisier(to pacify)"
+    },
+    {
+      "word": "erudite",
+      "phonetic": "/ˈeruːdaɪt/",
+      "chinese": "博学的；学识渊博的",
+      "englishDef": "Having or showing great knowledge or learning",
+      "example": "His erudite commentary impressed the academics.",
+      "exampleTrans": "他博学的评论给学者们留下了深刻印象。",
+      "level": "GRE",
+      "etymology": "L.erudire(to instruct)"
+    },
+    {
+      "word": "acumen",
+      "phonetic": "/ˈækjʊmən/",
+      "chinese": "敏锐；聪明才智",
+      "englishDef": "The ability to make good judgements and decisions quickly",
+      "example": "She showed great business acumen in negotiations.",
+      "exampleTrans": "她在谈判中展现出卓越的商业头脑。",
+      "level": "GRE",
+      "etymology": "L.acuere(to sharpen)"
+    },
+    {
+      "word": "gregarious",
+      "phonetic": "/ɡrɪˈɡeəriəs/",
+      "chinese": "爱社交的；合群的",
+      "englishDef": "Fond of the company of others; sociable",
+      "example": "She was gregarious and loved meeting new people.",
+      "exampleTrans": "她爱社交，喜欢结识新朋友。",
+      "level": "GRE",
+      "etymology": "L.grex(flock)"
+    },
+    {
+      "word": "fallacious",
+      "phonetic": "/fəˈleɪʃəs/",
+      "chinese": "谬误的；误导性的",
+      "englishDef": "Based on a mistaken belief; misleading",
+      "example": "His argument was based on fallacious reasoning.",
+      "exampleTrans": "他的论点基于错误的推理。",
+      "level": "GRE",
+      "etymology": "L.fallax(deceptive)"
+    },
+    {
+      "word": "platitude",
+      "phonetic": "/ˈplætɪtjuːd/",
+      "chinese": "陈词滥调；老生常谈",
+      "englishDef": "A remark or statement that is dull because it has been said too often",
+      "example": "His speech was full of platitudes and offered nothing new.",
+      "exampleTrans": "他的演讲充满了陈词滥调，没有任何新意。",
+      "level": "GRE",
+      "etymology": "F.platitude(flatness)"
+    },
+    {
+      "word": "impartial",
+      "phonetic": "/ɪmˈpɑːʃl/",
+      "chinese": "公正的；不偏不倚的",
+      "englishDef": "Treating all rivals or disputants equally",
+      "example": "A judge must be completely impartial.",
+      "exampleTrans": "法官必须完全公正。",
+      "level": "GRE",
+      "etymology": "im-(not)+partial"
+    },
+    {
+      "word": "tendentious",
+      "phonetic": "/tenˈdenʃəs/",
+      "chinese": "有倾向性的；带偏见的",
+      "englishDef": "Expressing a particular point of view; not impartial",
+      "example": "His tendentious article ignored the opposing evidence.",
+      "exampleTrans": "他带有倾向性的文章忽略了反面证据。",
+      "level": "GRE",
+      "etymology": "L.tendere(to tend toward)"
+    }
+  ]
 }
