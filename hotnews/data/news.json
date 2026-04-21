@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-21 12:02:20 +08",
+  "generated_at": "2026-04-21 20:01:39 +08",
   "generated_date": "2026-04-21",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
         "title_zh": "以色列士兵在黎巴嫩砸碎耶稣雕像引发强烈抗议"
       },
-      "my_view": "欧美媒体侧重个体行为谴责，伊斯兰媒体强调集体情绪发酵，中国媒体未报道可能因事件敏感性与外交中立考量。三方差异体现地缘政治立场与受众关切点的不同。",
-      "summary": "以色列士兵破坏宗教雕像的行为引发国际谴责，本质是占领区文化冲突与宗教敏感性的政治事件。"
+      "my_view": "欧美报道强调个体士兵破坏行为引发愤怒，伊斯兰视角突出事件持续发酵的群体反应，中国媒体未报道显示对中东冲突的谨慎态度。三方差异体现在事件定性、传播重点和立场选择上。",
+      "summary": "以色列士兵破坏宗教雕像的行为引发国际舆论谴责，反映地区冲突中的文化宗教敏感性问题。"
     },
     {
       "event_hint": "Trump says US will not lift Hormuz blockade until deal made with Iran",
@@ -451,8 +452,8 @@
         "title_en": "Cuba confirms talks with US officials, wants end to Trump’s energy blockade",
         "title_zh": "古巴确认与美国官员会谈，希望结束特朗普的能源封锁"
       },
-      "my_view": "中国强调国际责任与既有协定，呼吁和平对话；欧美聚焦美国单边行动与条件交换，体现权力政治；伊斯兰世界从受制裁国视角出发，将封锁定性为需终止的压迫性措施。三方分别体现多边协调、强权博弈与反霸权立场。",
-      "summary": "美国以解除霍尔木兹海峡封锁为筹码要求伊朗谈判，各方围绕制裁合法性、对话前提与国际秩序产生立场分歧。"
+      "my_view": "中国强调国际责任与既有协定，呼吁和平对话；欧美聚焦美国单边行动与条件性表态；伊斯兰世界关注封锁对能源经济的实际影响，并将议题置于反美叙事框架下。三方分别体现多边协调、强权政治与反霸权立场。",
+      "summary": "美国以解除霍尔木兹海峡封锁为筹码，要求伊朗达成新协议，各方围绕封锁合法性、谈判前提及地区影响存在立场分歧。"
     },
     {
       "event_hint": "Oil prices rise after Trump says Iranian ship seized",
@@ -482,8 +483,8 @@
         "title_en": "‘Predators’: Amnesty slams Netanyahu, Putin, Trump as human rights decline",
         "title_zh": "“掠夺者”：国际特赦组织猛烈抨击内塔尼亚胡、普京和特朗普，称人权状况恶化"
       },
-      "my_view": "中国报道转移视线至国内民生议题，欧美聚焦事件本身与油价关联，伊斯兰媒体借人权议题将特朗普与争议领导人并列，三方分别体现回避、直述、批判立场。",
-      "summary": "同一油价波动事件被中欧美伊媒体分别塑造成民生谣言、事实报道、人权批判，体现意识形态主导叙事选择。"
+      "my_view": "中国报道回避国际冲突聚焦国内民生，欧美报道客观陈述事件因果，伊斯兰报道借人权议题批判西方领导人。三方分别体现内宣导向、事实优先和立场批判的传播策略。",
+      "summary": "同一国际油价波动事件被不同媒体赋予本土化、政治化或意识形态化的解读框架。"
     },
     {
       "event_hint": "What we know about the Iranian ship seized by the US",
@@ -506,8 +507,8 @@
         "title_en": "US is ‘pretty far behind where they started’ the war on Iran",
         "title_zh": "美国对伊朗的战争“远远落后于他们发动的地方”"
       },
-      "my_view": "BBC以事实陈述为主，侧重事件信息；半岛电视台强调美国战略失败，体现伊斯兰世界对美伊对抗的立场；中国媒体暂未报道，反映其谨慎态度。",
-      "summary": "美国扣押伊朗船只事件本质是美伊地缘政治博弈的又一次具体对抗。"
+      "my_view": "BBC以事实陈述为主，侧重事件信息；半岛电视台强调美国战略受挫，体现伊斯兰世界反美立场；中国媒体暂未报道，反映对美伊冲突的谨慎态度。三方分别体现客观报道、立场批判与战略回避。",
+      "summary": "美国扣押伊朗船只事件本质是美伊长期地缘政治博弈的最新对抗表现。"
     },
     {
       "event_hint": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
@@ -530,8 +531,8 @@
         "title_en": "D4vd charged with murder of 14-year-old Celeste Rivas Hernandez",
         "title_zh": "D4vd 被控谋杀 14 岁的塞莱斯特·里瓦斯·埃尔南德斯 (Celeste Rivas Hernandez)"
       },
-      "my_view": "欧美报道强调司法程序（不认罪），伊斯兰媒体突出受害者身份与年龄以引发共情，中国媒体未报道可能因事件缺乏国内关联性或不符合主流议程。",
-      "summary": "美国歌手D4vd因涉嫌谋杀一名14岁失踪少女被起诉，目前已在法庭上否认谋杀罪名。"
+      "my_view": "欧美报道强调司法程序（不认罪），伊斯兰媒体突出受害者身份细节（姓名年龄），中国媒体未报道可能因事件不涉本国或流量考量。三方差异体现关注焦点：程序正义、个体悲剧、新闻价值筛选。",
+      "summary": "美国歌手D4vd因涉嫌谋杀14岁少女被起诉，目前通过不认罪答辩进入司法程序。"
     },
     {
       "event_hint": "Apple names new chief executive to replace Tim Cook",
@@ -554,8 +555,8 @@
         "title_en": "Tim Cook to step down as Apple CEO",
         "title_zh": "Tim Cook to step down as Apple CEO"
       },
-      "my_view": "BBC直接突出人事更迭的新闻性，半岛聚焦库克离任的象征意义，中国媒体暂未报道可能因该人事变动未触及本土利益或尚在观察。",
-      "summary": "苹果公司高层管理权交接，库克卸任CEO并由新任接替。"
+      "my_view": "BBC直接报道人事更迭，突出权力交接；半岛聚焦库克离任，隐含对西方商业领袖变动的观察；中国媒体暂未报道，可能因事件商业属性或等待官方口径。",
+      "summary": "苹果公司高层管理职务正常更替，库克卸任CEO并由新任接替。"
     },
     {
       "event_hint": "Elon Musk snubs interview summons by French prosecutors amid X probe",
@@ -578,8 +579,8 @@
         "title_en": "Iran war live: Tehran spurns talks under threats; Trump says blockade stays",
         "title_zh": "伊朗战争直播：德黑兰在威胁下拒绝谈判；"
       },
-      "my_view": "欧美媒体聚焦法律程序，强调马斯克个人对抗法国司法；伊斯兰媒体将事件置于地缘政治框架，关联伊朗与西方对峙；中国媒体未报道显示此事未进入主流议程，或反映对跨国企业法律纠纷的谨慎态度。",
-      "summary": "马斯克拒绝配合法国对X平台的司法调查，体现科技巨头与主权国家法律管辖权的冲突。"
+      "my_view": "欧美报道聚焦马斯克个人对抗司法程序，体现对科技巨头法律边界的关注；伊斯兰媒体将事件置于地缘政治框架，关联伊朗与西方对抗叙事；中国媒体未报道，可能因事件不涉华或属他国内政。",
+      "summary": "马斯克拒绝法国检方传唤，反映跨国科技企业与主权国家司法管辖权的冲突。"
     },
     {
       "event_hint": "Japan on high alert for 'huge' second quake after lifting tsunami warning",
@@ -602,8 +603,8 @@
         "title_en": "CJ McCollum, Hawks rally late to shock Knicks in Game 2 of NBA playoffs",
         "title_zh": "CJ 麦科勒姆和老鹰队在 NBA 季后赛第二场比赛中重整旗鼓震惊尼克斯队"
       },
-      "my_view": "欧美媒体客观报道预警状态；伊斯兰媒体完全偏离主题，用体育新闻替代重大灾害报道，反映其议程设置的区域性偏好；中国媒体未报道可能因事件未触及核心关切。",
-      "summary": "日本在地震海啸预警解除后仍保持对二次强震的防灾戒备状态。"
+      "my_view": "欧美媒体客观报道预警状态；中国媒体未报道可能因事件未达国内关注阈值；伊斯兰媒体标题完全偏离主题，反映其国际新闻选择侧重地域与文化相关性。",
+      "summary": "日本在解除海啸警报后仍保持对可能发生的第二次大地震的高度警戒状态。"
     }
   ]
 }
