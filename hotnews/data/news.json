@@ -1,26 +1,96 @@
 {
-  "generated_at": "2026-04-20 20:02:08 +08",
-  "generated_date": "2026-04-20",
-  "current_slot": "晚",
+  "generated_at": "2026-04-21 08:01:41 +08",
+  "generated_date": "2026-04-21",
+  "current_slot": "早",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
-        "title": "新华社权威快报｜三部门联合发文破解“工厂开关窗”执..",
-        "link": "http://baijiahao.baidu.com/s?id=1862951760742424808",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862951760742424808><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1414274282%2C294587166%26fm%3D30%26app%3",
-        "title_zh": "新华社权威快报｜三部门联合发文破解“工厂开关窗”执..",
-        "title_en": "新华社权威快报｜三部门联合发文破解“工厂开关窗”执.."
+        "title": "萌娃凭“废”入场！六和社区这场环保课有点潮",
+        "link": "http://baijiahao.baidu.com/s?id=1863002312609085655",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863002312609085655><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3540053174%2C294634243%26fm%3D30%26app%3",
+        "title_zh": "萌娃凭“废”入场！六和社区这场环保课有点潮",
+        "title_en": "萌娃凭“废”入场！六和社区这场环保课有点潮"
+      },
+      {
+        "title": "从50人到6000人！宁乡这个环保志愿服务组织，凭..",
+        "link": "http://baijiahao.baidu.com/s?id=1863002185801603813",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863002185801603813><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2286534231%2C294634122%26fm%3D30%26app%3",
+        "title_zh": "从50人到6000人！宁乡这个环保志愿服务组织，凭..",
+        "title_en": "从50人到6000人！宁乡这个环保志愿服务组织，凭.."
+      },
+      {
+        "title": "南京六合城管：精细治理，擦亮背街小巷“颜值”",
+        "link": "http://baijiahao.baidu.com/s?id=1862995738178856888",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862995738178856888><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2275387605%2C294628118%26fm%3D30%26app%3",
+        "title_zh": "南京六合城管：精细治理，擦亮背街小巷“颜值”",
+        "title_en": "南京六合城管：精细治理，擦亮背街小巷“颜值”"
+      },
+      {
+        "title": "沈阳这所学校，低调却顶尖！",
+        "link": "http://baijiahao.baidu.com/s?id=1862992690466710147",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862992690466710147><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D4196916964%2C294625281%26fm%3D30%26app%3",
+        "title_zh": "沈阳这所学校，低调却顶尖！",
+        "title_en": "沈阳这所学校，低调却顶尖！"
+      },
+      {
+        "title": "我的雄安日志｜在“机器人学校”当一天“班主任”",
+        "link": "http://baijiahao.baidu.com/s?id=1862992339990695158",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862992339990695158><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3635683318%2C294625233%26fm%3D30%26app%3",
+        "title_zh": "我的雄安日志｜在“机器人学校”当一天“班主任”",
+        "title_en": "我的雄安日志｜在“机器人学校”当一天“班主任”"
+      },
+      {
+        "title": "产教融合聚合力 长安大学校企协同共绘发展新蓝图",
+        "link": "http://baijiahao.baidu.com/s?id=1862988786901194989",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862988786901194989><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2416019141%2C294621647%26fm%3D30%26app%3",
+        "title_zh": "产教融合聚合力 长安大学校企协同共绘发展新蓝图",
+        "title_en": "产教融合聚合力 长安大学校企协同共绘发展新蓝图"
+      },
+      {
+        "title": "「生态文化」一场特殊“环保课”！60余人徒步净山，..",
+        "link": "http://baijiahao.baidu.com/s?id=1862980356040327740",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862980356040327740><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3949698788%2C294613801%26fm%3D30%26app%3",
+        "title_zh": "「生态文化」一场特殊“环保课”！60余人徒步净山，..",
+        "title_en": "「生态文化」一场特殊“环保课”！60余人徒步净山，.."
+      },
+      {
+        "title": "溆浦县统溪河镇学校开展“青春护航 生命同行”生命健..",
+        "link": "http://baijiahao.baidu.com/s?id=1862973498220750425",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862973498220750425><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1367385976%2C294607456%26fm%3D30%26app%3",
+        "title_zh": "溆浦县统溪河镇学校开展“青春护航 生命同行”生命健..",
+        "title_en": "溆浦县统溪河镇学校开展“青春护航 生命同行”生命健.."
+      },
+      {
+        "title": "蛋鸡环保没变天，请养殖户放心丨九派时评",
+        "link": "http://baijiahao.baidu.com/s?id=1862969689634068078",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862969689634068078><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2232070138%2C294603946%26fm%3D30%26app%3",
+        "title_zh": "蛋鸡环保没变天，请养殖户放心丨九派时评",
+        "title_en": "蛋鸡环保没变天，请养殖户放心丨九派时评"
+      },
+      {
+        "title": "工资发放日遇到节假日咋办",
+        "link": "http://baijiahao.baidu.com/s?id=1862944115491980337",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862944115491980337><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2749271780%2C294580040%26fm%3D30%26app%3",
+        "title_zh": "工资发放日遇到节假日咋办",
+        "title_en": "工资发放日遇到节假日咋办"
       },
       {
         "title": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校..",
         "link": "http://baijiahao.baidu.com/s?id=1862895201452197853",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862895201452197853><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3555291139%2C294534485%26fm%3D30%26app%3",
         "title_zh": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校..",
         "title_en": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校.."
@@ -28,39 +98,15 @@
       {
         "title": "全国首个智慧教育产教基地落地上海：学校一站式“选好..",
         "link": "http://baijiahao.baidu.com/s?id=1862894539125826907",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862894539125826907><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3251877522%2C294534237%26fm%3D30%26app%3",
         "title_zh": "全国首个智慧教育产教基地落地上海：学校一站式“选好..",
         "title_en": "全国首个智慧教育产教基地落地上海：学校一站式“选好.."
       },
       {
-        "title": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱..",
-        "link": "http://baijiahao.baidu.com/s?id=1862883405410516027",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862883405410516027><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2997754865%2C294523500%26fm%3D30%26app%3",
-        "title_zh": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱..",
-        "title_en": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱.."
-      },
-      {
-        "title": "旧物新生，童心守护：运河体育公园“小小环保家”闲置..",
-        "link": "http://baijiahao.baidu.com/s?id=1862882207590373687",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862882207590373687><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D288325753%2C294522388%26fm%3D30%26app%3D",
-        "title_zh": "旧物新生，童心守护：运河体育公园“小小环保家”闲置..",
-        "title_en": "旧物新生，童心守护：运河体育公园“小小环保家”闲置.."
-      },
-      {
-        "title": "小学生春游游到自己家，直接爆哭：这是我家，那油菜花..",
-        "link": "http://baijiahao.baidu.com/s?id=1862813398444761481",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862813398444761481><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D66242075%2C294458300%26fm%3D30%26app%3D1",
-        "title_zh": "小学生春游游到自己家，直接爆哭：这是我家，那油菜花..",
-        "title_en": "小学生春游游到自己家，直接爆哭：这是我家，那油菜花.."
-      },
-      {
         "title": "上理工附中举办高中生学业指导讲座，老战士余锡生分享..",
         "link": "http://baijiahao.baidu.com/s?id=1862811745688832502",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862811745688832502><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2476379360%2C294456761%26fm%3D30%26app%3",
         "title_zh": "上理工附中举办高中生学业指导讲座，老战士余锡生分享..",
         "title_en": "上理工附中举办高中生学业指导讲座，老战士余锡生分享.."
@@ -68,108 +114,148 @@
       {
         "title": "环保新规推高养鸡成本致蛋价上涨？系谣言！",
         "link": "http://baijiahao.baidu.com/s?id=1862806943498231642",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862806943498231642><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1063323406%2C294452286%26fm%3D30%26app%3",
         "title_zh": "环保新规推高养鸡成本致蛋价上涨？系谣言！",
         "title_en": "环保新规推高养鸡成本致蛋价上涨？系谣言！"
       },
       {
-        "title": "从“含胸驼背”到“昂首挺胸”，一所学校的体育课如何..",
-        "link": "http://baijiahao.baidu.com/s?id=1862800165050327380",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862800165050327380><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D724477532%2C294445977%26fm%3D30%26app%3D",
-        "title_zh": "从“含胸驼背”到“昂首挺胸”，一所学校的体育课如何..",
-        "title_en": "从“含胸驼背”到“昂首挺胸”，一所学校的体育课如何.."
-      },
-      {
-        "title": "公司不给竞业限制补偿金，我还得守约吗？人社部：超过..",
-        "link": "http://baijiahao.baidu.com/s?id=1862785571452325715",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862785571452325715><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2866807991%2C294432383%26fm%3D30%26app%3",
-        "title_zh": "公司不给竞业限制补偿金，我还得守约吗？人社部：超过..",
-        "title_en": "公司不给竞业限制补偿金，我还得守约吗？人社部：超过.."
-      },
-      {
-        "title": "黄陂城管牵头联合多个部门推进全域门责试点，筑牢环境..",
-        "link": "http://baijiahao.baidu.com/s?id=1862777518973077682",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862777518973077682><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2626327626%2C294424885%26fm%3D30%26app%3",
-        "title_zh": "黄陂城管牵头联合多个部门推进全域门责试点，筑牢环境..",
-        "title_en": "黄陂城管牵头联合多个部门推进全域门责试点，筑牢环境.."
-      },
-      {
-        "title": "岗位陆续推出中，2026年广东国资国企专题招聘活动..",
-        "link": "http://baijiahao.baidu.com/s?id=1862732171882239289",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862732171882239289><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D644546880%2C294382657%26fm%3D30%26app%3D",
-        "title_zh": "岗位陆续推出中，2026年广东国资国企专题招聘活动..",
-        "title_en": "岗位陆续推出中，2026年广东国资国企专题招聘活动.."
-      },
-      {
-        "title": "“家门口的好学校”藏不住了！让孩子们的成长看得见",
-        "link": "http://baijiahao.baidu.com/s?id=1862709664926651192",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862709664926651192><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3515426240%2C294361691%26fm%3D30%26app%3",
-        "title_zh": "“家门口的好学校”藏不住了！让孩子们的成长看得见",
-        "title_en": "“家门口的好学校”藏不住了！让孩子们的成长看得见"
-      },
-      {
-        "title": "想象力智能中高考第3期赋能培训（广州站）圆满落幕",
-        "link": "http://baijiahao.baidu.com/s?id=1862707210431356193",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862707210431356193><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1014047954%2C294359434%26fm%3D30%26app%3",
-        "title_zh": "想象力智能中高考第3期赋能培训（广州站）圆满落幕",
-        "title_en": "想象力智能中高考第3期赋能培训（广州站）圆满落幕"
+        "title": "国家发改委低空司司长，首次公开亮相",
+        "link": "http://baijiahao.baidu.com/s?id=1862780832818263876",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862780832818263876><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3976935510%2C294427968%26fm%3D30%26app%3",
+        "title_zh": "国家发改委低空司司长，首次公开亮相",
+        "title_en": "国家发改委低空司司长，首次公开亮相"
       },
       {
         "title": "稳住“大后方”，当好“神助攻”！这份中高考家长通关..",
         "link": "http://baijiahao.baidu.com/s?id=1862632668362954980",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862632668362954980><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D819435411%2C294290296%26fm%3D30%26app%3D",
         "title_zh": "稳住“大后方”，当好“神助攻”！这份中高考家长通关..",
         "title_en": "稳住“大后方”，当好“神助攻”！这份中高考家长通关.."
-      },
-      {
-        "title": "一模后50天语文提高30分，他做对了什么？看完你也..",
-        "link": "http://baijiahao.baidu.com/s?id=1862531084345975631",
-        "published": "2026-04-20 12:02",
-        "description": "一模成绩出炉，多少同学盯着试卷上的语文分数emo到深夜？今年北京各区一模语文试题虽各有侧重，但共同释放出清晰的高考信号：反套路、重思辨、强素养。以海淀区为例，语文试卷紧扣高考命题导向，延续区域命题“素",
-        "title_zh": "一模后50天语文提高30分，他做对了什么？看完你也..",
-        "title_en": "一模后50天语文提高30分，他做对了什么？看完你也.."
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-        "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 09:38",
-        "description": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
-        "title_en": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-        "title_zh": "特朗普称美国拦截并扣押了悬挂伊朗国旗的货船"
+        "title": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+        "link": "https://www.bbc.com/news/articles/cpd575n1znzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 02:57",
+        "description": "The Israeli military says it views with \"great severity\" the actions of the soldier, as the US ambassador demands \"swift\" consequences.",
+        "title_en": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+        "title_zh": "对以色列士兵破坏黎巴嫩耶稣雕像的愤怒"
       },
       {
-        "title": "Eight children killed in Louisiana shooting, police say",
-        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 06:54",
-        "description": "The children, aged from one to 14 years old, were killed in a shooting that police are describing as a \"domestic disturbance\".",
-        "title_en": "Eight children killed in Louisiana shooting, police say",
-        "title_zh": "警方称路易斯安那州枪击事件中八名儿童丧生"
+        "title": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+        "link": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 06:53",
+        "description": "Prosecutors say the singer, real name David Anthony Burke, could face life in prison due to the nature of the case, if convicted.",
+        "title_en": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+        "title_zh": "美国歌手 D4vd 对失踪少女死亡的谋杀罪不认罪"
+      },
+      {
+        "title": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+        "link": "https://www.bbc.com/news/articles/czd7m7d699do?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 22:54",
+        "description": "Japan's meteorological agency warns another, stronger earthquake may hit in the next week,",
+        "title_en": "Japan on high alert for 'huge' second quake after issuing tsunami warning",
+        "title_zh": "日本在发布海啸警报后对“特大”第二次地震保持高度警惕"
+      },
+      {
+        "title": "What we know about the Iranian ship seized by the US",
+        "link": "https://www.bbc.com/news/articles/c75kg0vdxyro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 04:04",
+        "description": "The US has intercepted an Iranian ship entering the Gulf as part of its naval blockade, US President Donald Trump has said.",
+        "title_en": "What we know about the Iranian ship seized by the US",
+        "title_zh": "我们对美国扣押的伊朗船只了解多少"
       },
       {
         "title": "Oil prices rise after Trump says Iranian ship seized",
         "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 10:29",
+        "published": "2026-04-21 04:33",
         "description": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
         "title_en": "Oil prices rise after Trump says Iranian ship seized",
         "title_zh": "特朗普称伊朗船只被扣押后油价上涨"
       },
       {
-        "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-        "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 05:09",
-        "description": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
-        "title_en": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-        "title_zh": "伊朗高级政治家告诉 BBC，德黑兰永远不会放弃对霍尔木兹海峡的控制"
+        "title": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+        "link": "https://www.bbc.com/news/articles/c0q9v1p2dd2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 20:56",
+        "description": "Three boys and five girls, aged between three to 11, were killed in the shooting on Sunday, officials say.",
+        "title_en": "Man kills seven of his children, and an eighth child, in Louisiana mass shooting",
+        "title_zh": "一名男子在路易斯安那州大规模枪击事件中杀死了他的七个孩子和第八个孩子"
+      },
+      {
+        "title": "More than 200 rescued from IS-linked group in DR Congo",
+        "link": "https://www.bbc.com/news/articles/cy7144jr68lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 00:25",
+        "description": "The youngest of those freed from an Allied Democratic Forces camp is a girl aged just 14, Uganda's army says.",
+        "title_en": "More than 200 rescued from IS-linked group in DR Congo",
+        "title_zh": "刚果民主共和国有 200 多人从与 IS 相关的组织中获救"
+      },
+      {
+        "title": "Police gunfight with favela gang traps 200 tourists on hilltop",
+        "link": "https://www.bbc.com/news/articles/cjr9vvr904wo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 01:34",
+        "description": "The access route to Morro Dois Irmãos was blocked during the operation in Vidigal, leaving scores of alarmed sightseers stuck on the hill.",
+        "title_en": "Police gunfight with favela gang traps 200 tourists on hilltop",
+        "title_zh": "警方与贫民窟团伙发生枪战，200名游客被困在山顶"
+      },
+      {
+        "title": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
+        "link": "https://www.bbc.com/news/articles/cy41kklknreo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 01:38",
+        "description": "At the 1972 Miss World contest, Cynthia Shange was one of two contestants from South Africa - one black and one white.",
+        "title_en": "Trailblazing black beauty queen who defied apartheid South Africa dies aged 76",
+        "title_zh": "南非反抗种族隔离制度的黑人选美皇后去世，享年 76 岁"
+      },
+      {
+        "title": "New Zealand declares state of emergency in Wellington as floods hit",
+        "link": "https://www.bbc.com/news/articles/cly75d9zvj3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 13:48",
+        "description": "Footage online shows vehicles submerged, trees uprooted and houses hit by landslides.",
+        "title_en": "New Zealand declares state of emergency in Wellington as floods hit",
+        "title_zh": "新西兰因洪水袭击惠灵顿宣布进入紧急状态"
+      },
+      {
+        "title": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+        "link": "https://www.bbc.com/news/articles/czx9q51rldko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 23:51",
+        "description": "The actor and producer also appeared in Melrose Place and Saved By the Bell.",
+        "title_en": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+        "title_zh": "《我们的日子》和《星河战队》演员帕特里克·马尔登去世，享年 57 岁"
+      },
+      {
+        "title": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+        "link": "https://www.bbc.com/news/articles/crk151nn7j3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 23:44",
+        "description": "The Paris prosecutor's office told the BBC it had \"taken note of the absence of the people summoned\".",
+        "title_en": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+        "title_zh": "埃隆·马斯克在 X 调查中拒绝接受法国检察官的面谈传票"
+      },
+      {
+        "title": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+        "link": "https://www.bbc.com/news/articles/ce9m7m1nmdeo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 21:32",
+        "description": "Shamim Mafi is accused of brokering the sales of arms to Sudan's defence ministry on behalf of Iran.",
+        "title_en": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+        "title_zh": "伊朗妇女因涉嫌向苏丹贩运武器在美国被捕"
+      },
+      {
+        "title": "Rumen Radev's party wins Bulgarian election",
+        "link": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 21:01",
+        "description": "With 87% of the vote now counted, Progressive Bulgaria has secured a majority in parliament.",
+        "title_en": "Rumen Radev's party wins Bulgarian election",
+        "title_zh": "鲁门·拉德夫 (Rumen Radev) 领导的政党赢得保加利亚大选"
+      },
+      {
+        "title": "Rebel Wilson's claims against actress are 'malicious concoctions', Australian court hears",
+        "link": "https://www.bbc.com/news/articles/cn4vn021mg9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 18:19",
+        "description": "Wilson has been accused of defaming the star of her film The Deb over an incident involving a bath in Bondi.",
+        "title_en": "Rebel Wilson's claims against actress are 'malicious concoctions', Australian court hears",
+        "title_zh": "澳大利亚法庭获悉，瑞贝尔·威尔逊对女演员的指控是“恶意混合物”"
       },
       {
         "title": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
@@ -178,275 +264,163 @@
         "description": "Authorities say the officers have been suspended and an investigation into their actions is under way.",
         "title_en": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
         "title_zh": "乌克兰警察局长因涉嫌逃离致命枪击事件而辞职"
-      },
-      {
-        "title": "Rat poison found in HiPP baby food jar in Austria, police say",
-        "link": "https://www.bbc.com/news/articles/cvg07lq5ql4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 20:52",
-        "description": "The brand warned on Saturday that consuming the purées may be potentially \"life-threatening\".",
-        "title_en": "Rat poison found in HiPP baby food jar in Austria, police say",
-        "title_zh": "奥地利警方称在 HiPP 喜宝婴儿食品罐中发现老鼠药"
-      },
-      {
-        "title": "Zelensky condemns US extension of Russian sanctions waiver",
-        "link": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 17:55",
-        "description": "The US argues that the waiver is meant to ease the energy supply crunch sparked by the US-Israel war with Iran.",
-        "title_en": "Zelensky condemns US extension of Russian sanctions waiver",
-        "title_zh": "泽连斯基谴责美国延长俄罗斯制裁豁免"
-      },
-      {
-        "title": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-        "link": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 06:06",
-        "description": "Exit polls put his Progressive Bulgaria on 37%, more than double the score of the closest runner-up, but he will likely need to form a coalition to govern.",
-        "title_en": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-        "title_zh": "鲁门·拉德夫 (Rumen Radev) 有望赢得保加利亚议会选举"
-      },
-      {
-        "title": "Thousands of Parisians evacuated as WW2 bomb detonated",
-        "link": "https://www.bbc.com/news/articles/c4gxv3874vjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 23:50",
-        "description": "Residents within a 450m radius of the device were told to leave their homes while it was neutralised.",
-        "title_en": "Thousands of Parisians evacuated as WW2 bomb detonated",
-        "title_zh": "二战炸弹爆炸 数千巴黎人撤离"
-      },
-      {
-        "title": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
-        "link": "https://www.bbc.com/news/articles/cdxd8g47wnlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 03:25",
-        "description": "After confirming the purchase on Friday, Ford drew critcism from political opponents who called it a \"gravy plane\" and \"out of touch\".",
-        "title_en": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
-        "title_zh": "安大略省省长道格·福特在强烈抗议后同意出售价值 2100 万美元的私人飞机"
-      },
-      {
-        "title": "Pope says 'tyrants' speech was not aimed at Trump",
-        "link": "https://www.bbc.com/news/articles/ce84j261kj1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 15:47",
-        "description": "The pontiff says his remarks have been misinterpreted after a spat with the US president.",
-        "title_en": "Pope says 'tyrants' speech was not aimed at Trump",
-        "title_zh": "教皇称“暴君”演讲并非针对特朗普"
-      },
-      {
-        "title": "Alec Baldwin to face civil trial over Rust film set shooting",
-        "link": "https://www.bbc.com/news/articles/cp86rrld6dyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 07:08",
-        "description": "The criminal case against the actor was dismissed in 2024.",
-        "title_en": "Alec Baldwin to face civil trial over Rust film set shooting",
-        "title_zh": "亚历克·鲍德温因《铁锈》电影片场枪击事件面临民事审判"
-      },
-      {
-        "title": "Bodies of 50 infants dumped at Trinidad graveyard",
-        "link": "https://www.bbc.com/news/articles/ce8jl1271pjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 15:49",
-        "description": "Police say a preliminary investigation shows it may be a case of an \"unlawful disposal of unclaimed corpses\".",
-        "title_en": "Bodies of 50 infants dumped at Trinidad graveyard",
-        "title_zh": "50具婴儿尸体被扔在特立尼达墓地"
-      },
-      {
-        "title": "Australia's most-decorated soldier vows to fight war crime charges",
-        "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 13:12",
-        "description": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
-        "title_en": "Australia's most-decorated soldier vows to fight war crime charges",
-        "title_zh": "澳大利亚勋章最多的士兵发誓要打击战争罪指控"
-      },
-      {
-        "title": "Mexico's Sheinbaum denies 'diplomatic crisis' with Spain after conquest row",
-        "link": "https://www.bbc.com/news/articles/cp86r29l45go?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 05:27",
-        "description": "The Mexican president says there were never tensions over Spanish colonisation, which had become a thorny issue.",
-        "title_en": "Mexico's Sheinbaum denies 'diplomatic crisis' with Spain after conquest row",
-        "title_zh": "墨西哥的谢因鲍姆否认在征服争端后与西班牙发生“外交危机”"
-      },
-      {
-        "title": "Building of Trump's White House ballroom can resume in full, appeals court says",
-        "link": "https://www.bbc.com/news/articles/clyx9xyy0j9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 03:18",
-        "description": "Construction at the White House is expected to continue until the next hearing, due in June.",
-        "title_en": "Building of Trump's White House ballroom can resume in full, appeals court says",
-        "title_zh": "上诉法院表示，特朗普白宫宴会厅的建设可以全面恢复"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Oil prices surge amid mixed signals on US-Iran peace talks",
-        "link": "https://www.aljazeera.com/economy/2026/4/20/oil-prices-surge-amid-mixed-signals-on-us-iran-peace-talks?traffic_source=rss",
-        "published": "2026-04-20 10:41",
-        "description": "Brent crude rises more than 7 percent as Washington and Tehran offer conflicting accounts on ceasefire negotiations.",
-        "title_en": "Oil prices surge amid mixed signals on US-Iran peace talks",
-        "title_zh": "美伊和平谈判信号喜忧参半，油价飙升"
+        "title": "‘Predators’: Amnesty slams Netanyahu, Putin, Trump as human rights decline",
+        "link": "https://www.aljazeera.com/news/2026/4/20/predators-amnesty-slams-netanyahu-putin-trump-as-human-rights-decline?traffic_source=rss",
+        "published": "2026-04-21 07:43",
+        "description": "Global rights group says leaders of three countries behind devastating wars inspire other states to carry out abuses.",
+        "title_en": "‘Predators’: Amnesty slams Netanyahu, Putin, Trump as human rights decline",
+        "title_zh": "“掠夺者”：国际特赦组织猛烈抨击内塔尼亚胡、普京和特朗普，称人权状况恶化"
       },
       {
-        "title": "What’s behind the US army’s decision to raise enlistment age to 42?",
-        "link": "https://www.aljazeera.com/news/2026/4/20/whats-behind-the-us-armys-decision-to-raise-enlistment-age-to-42?traffic_source=rss",
-        "published": "2026-04-20 08:57",
-        "description": "Changes in US Army enlistment standards could be an effort to boost recruitment as numbers have lagged in recent years.",
-        "title_en": "What’s behind the US army’s decision to raise enlistment age to 42?",
-        "title_zh": "美军决定将入伍年龄提高至42岁，背后的原因是什么？"
+        "title": "Hungary’s incoming PM says Netanyahu would be arrested if he visits",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/hungarys-incoming-pm-says-netanyahu-would-be-arrested-if-he-visits?traffic_source=rss",
+        "published": "2026-04-21 07:08",
+        "description": "Hungary’s election winner says he would enact an ICC arrest warrant for Israeli PM Benjamin Netanyahu and detain him.",
+        "title_en": "Hungary’s incoming PM says Netanyahu would be arrested if he visits",
+        "title_zh": "匈牙利新任总理称内塔尼亚胡如果访问将被逮捕"
       },
       {
-        "title": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
-        "published": "2026-04-20 08:00",
-        "description": "Attack comes hours after US President Donald Trump announced he is sending his team to Islamabad for possible talks.",
-        "title_en": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
-        "title_zh": "伊朗战争直播：德黑兰在扣押船只后猛烈抨击美国的“海盗行为”，誓言做出回应"
+        "title": "D4vd charged with murder of 14-year-old Celeste Rivas Hernandez",
+        "link": "https://www.aljazeera.com/news/2026/4/20/d4vd-charged-with-murder-of-14-year-old-celeste-rivas-hernandez?traffic_source=rss",
+        "published": "2026-04-21 06:19",
+        "description": "Singer faces first-degree murder and additional charges that could lead to life without parole or the death penalty.",
+        "title_en": "D4vd charged with murder of 14-year-old Celeste Rivas Hernandez",
+        "title_zh": "D4vd 被控谋杀 14 岁的塞莱斯特·里瓦斯·埃尔南德斯 (Celeste Rivas Hernandez)"
       },
       {
-        "title": "Outrage after photo shows Israeli soldier smashing Jesus statue in Lebanon",
-        "link": "https://www.aljazeera.com/news/2026/4/19/outrage-after-photo-shows-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
-        "published": "2026-04-20 07:41",
-        "description": "Social media users condemn Western silence on attacks on religious symbols and sites by Israeli soldiers and settlers.",
-        "title_en": "Outrage after photo shows Israeli soldier smashing Jesus statue in Lebanon",
-        "title_zh": "照片显示以色列士兵在黎巴嫩砸碎耶稣雕像后引发愤怒"
+        "title": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
+        "link": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "published": "2026-04-21 06:12",
+        "description": "Some of Donald Trump&#039;s former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
+        "title_en": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
+        "title_zh": "以色列士兵在黎巴嫩砸碎耶稣雕像引发强烈抗议"
       },
       {
-        "title": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss",
-        "published": "2026-04-20 05:53",
-        "description": "US Central Command has published a video said to show a guided-missile destroyer firing at an Iranian-flagged ship.",
-        "title_en": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
-        "title_zh": "美军在霍尔木兹海峡附近袭击并扣押伊朗船只Touska"
+        "title": "Tim Cook to step down as Apple CEO",
+        "link": "https://www.aljazeera.com/economy/2026/4/20/tim-cook-to-step-down-as-apple-ceo?traffic_source=rss",
+        "published": "2026-04-21 06:06",
+        "description": "Cook will turn over CEO duties to Apple’s head of hardware engineering, John Ternus, on September 1.",
+        "title_en": "Tim Cook to step down as Apple CEO",
+        "title_zh": "蒂姆·库克将辞去苹果首席执行官一职"
       },
       {
-        "title": "Argentina’s Milei backs US-Israel war on Iran in Jerusalem visit",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/argentinas-milei-backs-us-israel-war-on-iran-in-jerusalem-visit?traffic_source=rss",
-        "published": "2026-04-20 05:23",
-        "description": "Argentina’s president reaffirmed alignment with the US and Israel during a visit to Jerusalem, backing their war on Iran",
-        "title_en": "Argentina’s Milei backs US-Israel war on Iran in Jerusalem visit",
-        "title_zh": "Argentina’s Milei backs US-Israel war on Iran in Jerusalem visit"
+        "title": "Fears over Ethiopia peace deal as TPLF restores Tigray government",
+        "link": "https://www.aljazeera.com/news/2026/4/20/fears-over-ethiopia-peace-deal-as-tplf-restores-tigray-government?traffic_source=rss",
+        "published": "2026-04-21 06:05",
+        "description": "Announcement from Tigray&#039;s main political party has sparked concern over the potential resumption of a deadly conflict.",
+        "title_en": "Fears over Ethiopia peace deal as TPLF restores Tigray government",
+        "title_zh": "随着提格雷人阵恢复提格雷政府，对埃塞俄比亚和平协议的担忧"
       },
       {
-        "title": "Schools, shops shut in northern Israel to protest the Lebanon ceasefire",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/schools-shops-shut-in-northern-israel-to-protest-the-lebanon-ceasefire?traffic_source=rss",
-        "published": "2026-04-20 05:21",
-        "description": "Shops and schools shut in northern Israel as residents protested a 10-day ceasefire with Lebanon.",
-        "title_en": "Schools, shops shut in northern Israel to protest the Lebanon ceasefire",
-        "title_zh": "以色列北部学校和商店关闭以抗议黎巴嫩停火"
+        "title": "EU eyes Ukraine loan, Israeli settler sanctions, after Hungarian election",
+        "link": "https://www.aljazeera.com/news/2026/4/20/eu-eyes-ukraine-loan-israeli-settler-sanctions-after-hungarian-election?traffic_source=rss",
+        "published": "2026-04-21 05:30",
+        "description": "Ouster of EU &#039;spoiler-in-chief&#039; Viktor Orban unlocks key foreign policy decisions in the 27-member bloc.",
+        "title_en": "EU eyes Ukraine loan, Israeli settler sanctions, after Hungarian election",
+        "title_zh": "匈牙利大选后欧盟关注乌克兰贷款、以色列定居者制裁"
       },
       {
-        "title": "Protesters defy Berlin rain to call for end to global wars",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/protesters-defy-berlin-rain-to-call-for-end-to-global-wars?traffic_source=rss",
-        "published": "2026-04-20 05:01",
-        "description": "Hundreds protested in Berlin against the US-Israeli aggression on Iran, and Israeli attacks on Gaza and Lebanon.",
-        "title_en": "Protesters defy Berlin rain to call for end to global wars",
-        "title_zh": "Protesters defy Berlin rain to call for end to global wars"
+        "title": "How is the war on Iran affecting the Russia-Ukraine conflict?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/4/20/how-is-the-iran-war-affecting-the-russia-ukraine-conflict?traffic_source=rss",
+        "published": "2026-04-21 05:15",
+        "description": "The global energy crisis has implications for both sides.",
+        "title_en": "How is the war on Iran affecting the Russia-Ukraine conflict?",
+        "title_zh": "伊朗战争对俄罗斯和乌克兰冲突有何影响？"
       },
       {
-        "title": "Who will shape the global agenda, the left or far right?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/4/19/who-will-shape-the-global-agenda-the-left-or-far-right?traffic_source=rss",
-        "published": "2026-04-20 04:54",
-        "description": "Left-wing leaders meet in Barcelona, while far-right protesters march in Milan.",
-        "title_en": "Who will shape the global agenda, the left or far right?",
-        "title_zh": "谁将塑造全球议程，左派还是极右派？"
+        "title": "FBI Director Kash Patel sues Atlantic for ‘false’ reporting on drinking",
+        "link": "https://www.aljazeera.com/news/2026/4/20/fbi-director-kash-patel-sues-atlantic-for-false-reporting-on-drinking?traffic_source=rss",
+        "published": "2026-04-21 05:09",
+        "description": "The Atlantic defends its reporting as Kash Patel denies allegations and files a $250m US defamation lawsuit.",
+        "title_en": "FBI Director Kash Patel sues Atlantic for ‘false’ reporting on drinking",
+        "title_zh": "联邦调查局局长卡什·帕特尔起诉《大西洋月刊》关于饮酒的“虚假”报道"
       },
       {
-        "title": "With loss at Man City, have Arsenal lost their grip on the Premier League?",
-        "link": "https://www.aljazeera.com/sports/2026/4/19/with-loss-at-man-city-have-arsenal-lost-their-grip-on-the-premier-league?traffic_source=rss",
-        "published": "2026-04-20 04:49",
-        "description": "Arsenal&#039;s loss to City and a woeful end-of-season run have now cost them their once-comfortable, top-of-the-table lead.",
-        "title_en": "With loss at Man City, have Arsenal lost their grip on the Premier League?",
-        "title_zh": "输给曼城后，阿森纳是否失去了对英超的控制权？"
+        "title": "Trump boasts on ‘winning war’ on social media posts",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/trump-boasts-on-winning-war-on-social-media-posts?traffic_source=rss",
+        "published": "2026-04-21 05:01",
+        "description": "Donald Trump has released various social media comments throughout the day, preaching about winning the war.",
+        "title_en": "Trump boasts on ‘winning war’ on social media posts",
+        "title_zh": "特朗普在社交媒体帖子上吹嘘“赢得战争”"
       },
       {
-        "title": "Bulgaria election: Ex-President Radev’s party leads in early results",
-        "link": "https://www.aljazeera.com/news/2026/4/19/exit-poll-shows-former-president-radevs-party-set-to-win-bulgaria-election?traffic_source=rss",
-        "published": "2026-04-20 04:47",
-        "description": "Rumen Radev&#039;s Progressive Bulgaria party takes strong lead in parliamentary election.",
-        "title_en": "Bulgaria election: Ex-President Radev’s party leads in early results",
-        "title_zh": "保加利亚选举：前总统拉德夫的政党在早期结果中领先"
+        "title": "What to know about the next round of US-Iran talks in Pakistan",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/what-to-know-about-the-next-round-of-us-iran-talks-in-pakistan?traffic_source=rss",
+        "published": "2026-04-21 04:48",
+        "description": "The US and Iran are supposed to have another round of direct talks in Pakistan on Tuesday, but will the Iranians skip?",
+        "title_en": "What to know about the next round of US-Iran talks in Pakistan",
+        "title_zh": "关于下一轮在巴基斯坦举行的美伊会谈需要了解什么"
       },
       {
-        "title": "Canadian PM says close economic ties with US have become a ‘weakness’",
-        "link": "https://www.aljazeera.com/news/2026/4/19/canadian-pm-says-close-economic-ties-with-us-have-become-a?traffic_source=rss",
-        "published": "2026-04-20 04:42",
-        "description": "Mark Carney says Canada must build economic ties with other countries amid shifting relationship with the United States.",
-        "title_en": "Canadian PM says close economic ties with US have become a ‘weakness’",
-        "title_zh": "加拿大总理表示与美国密切的经济关系已成为“弱点”"
+        "title": "Europol and partners trace 45 ‘forcibly transferred’ Ukrainian children",
+        "link": "https://www.aljazeera.com/news/2026/4/20/europol-and-partners-trace-45-forcibly-transferred-ukrainian-children?traffic_source=rss",
+        "published": "2026-04-21 04:44",
+        "description": "Agency says it shared information about children moved to Russia, Belarus or occupied Ukrainian territory with Ukraine.",
+        "title_en": "Europol and partners trace 45 ‘forcibly transferred’ Ukrainian children",
+        "title_zh": "欧洲刑警组织及其合作伙伴追踪 45 名“强行转移”的乌克兰儿童"
       },
       {
-        "title": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
-        "link": "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss",
-        "published": "2026-04-20 03:52",
-        "description": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
-        "title_en": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
-        "title_zh": "Trump says US seized Iranian ship trying to get past blockade near Hormuz"
+        "title": "Funerals held across Lebanon during 10-day ceasefire",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/funerals-held-across-lebanon-during-10-day-ceasefire?traffic_source=rss",
+        "published": "2026-04-21 04:13",
+        "description": "Mourners across Lebanon are burying victims of the war with Israel during a 10-day ceasefire.",
+        "title_en": "Funerals held across Lebanon during 10-day ceasefire",
+        "title_zh": "黎巴嫩各地在为期10天的停火期间举行葬礼"
       },
       {
-        "title": "Salah scores in Merseyside derby as Liverpool win to boost European hopes",
-        "link": "https://www.aljazeera.com/sports/2026/4/19/salah-scores-in-merseyside-derby-as-liverpool-win-to-boost-european-hopes?traffic_source=rss",
-        "published": "2026-04-20 03:33",
-        "description": "Salah scores Liverpool&#039;s first goal, but Virgil van Dijk scores an injury-time winner against local rivals Everton.",
-        "title_en": "Salah scores in Merseyside derby as Liverpool win to boost European hopes",
-        "title_zh": "萨拉赫在默西塞德德比中进球，利物浦获胜增强欧洲希望"
+        "title": "Rapper D4vd’ charged with murder of 14-year-old girl",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/rapper-d4vd-charged-with-murder-of-14-year-old-girl?traffic_source=rss",
+        "published": "2026-04-21 03:56",
+        "description": "Prosecutors in California are charging rapper D4vd with the murder of 14-year-old Celeste Rivas Hernandez.",
+        "title_en": "Rapper D4vd’ charged with murder of 14-year-old girl",
+        "title_zh": "说唱歌手 D4vd’ 被控谋杀 14 岁女孩"
       },
       {
-        "title": "Israeli ministers celebrate re-establishment of Sa-Nur West Bank settlement",
-        "link": "https://www.aljazeera.com/news/2026/4/19/israeli-ministers-celebrate-re-establishment-of-sa-nur-west-bank-settlement?traffic_source=rss",
-        "published": "2026-04-20 03:13",
-        "description": "Sa-Nur is one of four former West Bank settlements approved by the government two decades after settlers were evicted.",
-        "title_en": "Israeli ministers celebrate re-establishment of Sa-Nur West Bank settlement",
-        "title_zh": "以色列部长庆祝重建萨努尔西岸定居点"
+        "title": "Gunman kills Canadian woman, injures six at Mexico’s Teotihuacan pyramids",
+        "link": "https://www.aljazeera.com/news/2026/4/20/gunman-kills-canadian-woman-injures-more-at-mexicos-teotihuacan-pyramids?traffic_source=rss",
+        "published": "2026-04-21 03:45",
+        "description": "President Claudia Sheinbaum says she instructed authorities to &#039;thoroughly investigate&#039; incident outside Mexico City.",
+        "title_en": "Gunman kills Canadian woman, injures six at Mexico’s Teotihuacan pyramids",
+        "title_zh": "墨西哥特奥蒂瓦坎金字塔枪手杀死加拿大妇女，造成六人受伤"
       },
       {
-        "title": "Did the US misjudge Iran? A military strategist answers",
-        "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/4/19/did-the-us-misjudge-iran-a-military-strategist-answers-2?traffic_source=rss",
-        "published": "2026-04-20 03:06",
-        "description": "Strategist Bryan Clark examines shifting war aims, escalation traps, and whether Iran is now more dangerous to the US.",
-        "title_en": "Did the US misjudge Iran? A military strategist answers",
-        "title_zh": "美国误判伊朗了吗？"
+        "title": "UK PM Starmer admits Mandelson mistake, rejects resignation calls",
+        "link": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
+        "published": "2026-04-21 03:44",
+        "description": "PM insists he did not know security officials had recommended Mandelson be sidelined due to Epstein links.",
+        "title_en": "UK PM Starmer admits Mandelson mistake, rejects resignation calls",
+        "title_zh": "英国首相斯塔默承认曼德尔森错误，拒绝辞职呼吁"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-      "event_hint_zh": "伊朗高级政治家告诉 BBC，德黑兰永远不会放弃对霍尔木兹海峡的控制",
-      "event_hint_en": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
+      "event_hint": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+      "event_hint_zh": "对以色列士兵破坏黎巴嫩耶稣雕像的愤怒",
+      "event_hint_en": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-        "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 05:09",
-        "description": "Lyse Doucet speaks to Ebrahim Azizi, who says Iran \"will decide the right of passage\" through the crucial shipping route.",
-        "title_en": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
-        "title_zh": "伊朗高级政治家告诉 BBC，德黑兰永远不会放弃对霍尔木兹海峡的控制"
+        "title": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+        "link": "https://www.bbc.com/news/articles/cpd575n1znzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 02:57",
+        "description": "The Israeli military says it views with \"great severity\" the actions of the soldier, as the US ambassador demands \"swift\" consequences.",
+        "title_en": "Outrage over Israeli soldier's vandalism of Jesus statue in Lebanon",
+        "title_zh": "对以色列士兵破坏黎巴嫩耶稣雕像的愤怒"
       },
       "伊斯兰（半岛等）": {
-        "title": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/us-forces-attack-and-seize-iranian-ship-touska-near-strait-of-hormuz?traffic_source=rss",
-        "published": "2026-04-20 05:53",
-        "description": "US Central Command has published a video said to show a guided-missile destroyer firing at an Iranian-flagged ship.",
-        "title_en": "US forces attack and seize Iranian ship Touska near Strait of Hormuz",
-        "title_zh": "美军在霍尔木兹海峡附近袭击并扣押伊朗船只Touska"
+        "title": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
+        "link": "https://www.aljazeera.com/news/2026/4/20/outcry-grows-over-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
+        "published": "2026-04-21 06:12",
+        "description": "Some of Donald Trump&#039;s former MAGA allies denounce the desecration of Christian religious symbol by Israeli soldier.",
+        "title_en": "Outcry grows over Israeli soldier smashing Jesus statue in Lebanon",
+        "title_zh": "以色列士兵在黎巴嫩砸碎耶稣雕像引发强烈抗议"
       },
-      "my_view": "BBC突出伊朗强硬立场，半岛聚焦美军行动暗示地区紧张源于外部干预，中国媒体暂未报道可能避免选边站队。三方分别呈现宣言、冲突与沉默策略。",
-      "summary": "伊朗宣示对霍尔木兹海峡主权控制权，美军同期扣押伊朗船只，凸显地缘战略要冲的争夺实质。"
-    },
-    {
-      "event_hint": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-      "event_hint_zh": "鲁门·拉德夫 (Rumen Radev) 有望赢得保加利亚议会选举",
-      "event_hint_en": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-        "link": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 06:06",
-        "description": "Exit polls put his Progressive Bulgaria on 37%, more than double the score of the closest runner-up, but he will likely need to form a coalition to govern.",
-        "title_en": "Rumen Radev looks set to win Bulgarian Parliamentary election",
-        "title_zh": "鲁门·拉德夫 (Rumen Radev) 有望赢得保加利亚议会选举"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Bulgaria election: Ex-President Radev’s party leads in early results",
-        "link": "https://www.aljazeera.com/news/2026/4/19/exit-poll-shows-former-president-radevs-party-set-to-win-bulgaria-election?traffic_source=rss",
-        "published": "2026-04-20 04:47",
-        "description": "Rumen Radev&#039;s Progressive Bulgaria party takes strong lead in parliamentary election.",
-        "title_en": "Bulgaria election: Ex-President Radev’s party leads in early results",
-        "title_zh": "保加利亚选举：前总统拉德夫的政党在早期结果中领先"
-      },
-      "my_view": "欧美报道客观陈述选举结果，伊斯兰视角强调早期结果与人物背景，中国媒体暂未报道可能因事件与本国关联度较低或等待官方确认。",
-      "summary": "保加利亚议会选举中，前总统拉德夫所属政党在初步结果中领先。"
+      "my_view": "欧美媒体聚焦个体行为与宗教符号亵渎；伊斯兰媒体强调集体情绪与冲突背景；中国媒体未报道可能基于外交中立或事件地域性考量，避免介入宗教敏感议题。",
+      "summary": "以军士兵破坏宗教雕像事件激化地区宗教文化矛盾，反映巴以冲突中的象征性暴力。"
     },
     {
       "event_hint": "Oil prices rise after Trump says Iranian ship seized",
@@ -455,7 +429,7 @@
       "中国": {
         "title": "环保新规推高养鸡成本致蛋价上涨？系谣言！",
         "link": "http://baijiahao.baidu.com/s?id=1862806943498231642",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862806943498231642><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1063323406%2C294452286%26fm%3D30%26app%3",
         "title_zh": "环保新规推高养鸡成本致蛋价上涨？系谣言！",
         "title_en": "环保新规推高养鸡成本致蛋价上涨？系谣言！"
@@ -463,155 +437,210 @@
       "美国（欧美媒体）": {
         "title": "Oil prices rise after Trump says Iranian ship seized",
         "link": "https://www.bbc.com/news/articles/c5yjzy35825o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 10:29",
+        "published": "2026-04-21 04:33",
         "description": "Energy markets have seen wild swings since the US and Israel attacked Iran on 28 February.",
         "title_en": "Oil prices rise after Trump says Iranian ship seized",
         "title_zh": "特朗普称伊朗船只被扣押后油价上涨"
       },
       "伊斯兰（半岛等）": {
-        "title": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
-        "link": "https://www.aljazeera.com/news/2026/4/19/trump-says-us-seized-iran-flagged-ship-trying-to-get-past-hormuz-blockade?traffic_source=rss",
-        "published": "2026-04-20 03:52",
-        "description": "Iran vows retaliation, accuses US of violating ceasefire after attack on cargo ship Touska.",
-        "title_en": "Trump says US seized Iranian ship trying to get past blockade near Hormuz",
-        "title_zh": "Trump says US seized Iranian ship trying to get past blockade near Hormuz"
+        "title": "‘Predators’: Amnesty slams Netanyahu, Putin, Trump as human rights decline",
+        "link": "https://www.aljazeera.com/news/2026/4/20/predators-amnesty-slams-netanyahu-putin-trump-as-human-rights-decline?traffic_source=rss",
+        "published": "2026-04-21 07:43",
+        "description": "Global rights group says leaders of three countries behind devastating wars inspire other states to carry out abuses.",
+        "title_en": "‘Predators’: Amnesty slams Netanyahu, Putin, Trump as human rights decline",
+        "title_zh": "“掠夺者”：国际特赦组织猛烈抨击内塔尼亚胡、普京和特朗普，称人权状况恶化"
       },
-      "my_view": "中国报道回避国际冲突、聚焦国内民生议题；欧美报道客观陈述油价与事件的直接关联；伊斯兰报道强调美国行动的地缘政治对抗性，隐含对伊朗的同情。",
-      "summary": "美国扣押伊朗船只引发油价波动，三方媒体分别从国内维稳、事实陈述与地缘对抗角度呈现事件。"
+      "my_view": "中国报道回避国际冲突聚焦国内民生，欧美报道直接关联事件与油价波动，伊斯兰报道将事件置于人权批判框架，三方分别体现内宣导向、事实陈述和价值观输出立场。",
+      "summary": "同一国际事件被不同媒体基于各自政治立场和受众需求进行选择性框架构建。"
     },
     {
-      "event_hint": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-      "event_hint_zh": "特朗普称美国拦截并扣押了悬挂伊朗国旗的货船",
-      "event_hint_en": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-        "link": "https://www.bbc.com/news/articles/c239500dx8ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 09:38",
-        "description": "Tehran vows retaliation soon for what it calls an \"act of armed piracy\", which comes as the US prepares for a second round of talks.",
-        "title_en": "US intercepts and seizes Iranian-flagged cargo ship, Trump says",
-        "title_zh": "特朗普称美国拦截并扣押了悬挂伊朗国旗的货船"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/20/iran-war-live-tehran-slams-uss-piracy-after-ship-seizure-vows-response?traffic_source=rss",
-        "published": "2026-04-20 08:00",
-        "description": "Attack comes hours after US President Donald Trump announced he is sending his team to Islamabad for possible talks.",
-        "title_en": "Iran war live: Tehran slams US ‘piracy’ after ship seizure, vows response",
-        "title_zh": "伊朗战争直播：德黑兰在扣押船只后猛烈抨击美国的“海盗行为”，誓言做出回应"
-      },
-      "my_view": "欧美报道侧重事实陈述，强调美方行动；伊斯兰视角定性为‘海盗行为’，突出伊朗的对抗立场与反击警告；中国媒体暂未报道可能体现谨慎观望态度。三方差异反映地缘政治立场与叙事框架选择。",
-      "summary": "美国扣押伊朗货船事件本质是大国博弈下的海上对抗行动，引发国际法与主权争议。"
-    },
-    {
-      "event_hint": "Building of Trump's White House ballroom can resume in full, appeals court says",
-      "event_hint_zh": "上诉法院表示，特朗普白宫宴会厅的建设可以全面恢复",
-      "event_hint_en": "Building of Trump's White House ballroom can resume in full, appeals court says",
-      "中国": {
-        "title": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱..",
-        "link": "http://baijiahao.baidu.com/s?id=1862883405410516027",
-        "published": "2026-04-20 12:02",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862883405410516027><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2997754865%2C294523500%26fm%3D30%26app%3",
-        "title_zh": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱..",
-        "title_en": "烟台市中小学校食堂智慧管理系统建设现场交流活动在莱.."
-      },
-      "美国（欧美媒体）": {
-        "title": "Building of Trump's White House ballroom can resume in full, appeals court says",
-        "link": "https://www.bbc.com/news/articles/clyx9xyy0j9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 03:18",
-        "description": "Construction at the White House is expected to continue until the next hearing, due in June.",
-        "title_en": "Building of Trump's White House ballroom can resume in full, appeals court says",
-        "title_zh": "上诉法院表示，特朗普白宫宴会厅的建设可以全面恢复"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Canadian PM says close economic ties with US have become a ‘weakness’",
-        "link": "https://www.aljazeera.com/news/2026/4/19/canadian-pm-says-close-economic-ties-with-us-have-become-a?traffic_source=rss",
-        "published": "2026-04-20 04:42",
-        "description": "Mark Carney says Canada must build economic ties with other countries amid shifting relationship with the United States.",
-        "title_en": "Canadian PM says close economic ties with US have become a ‘weakness’",
-        "title_zh": "加拿大总理表示与美国密切的经济关系已成为“弱点”"
-      },
-      "my_view": "欧美报道聚焦特朗普个人事件，体现对权力阶层的关注；伊斯兰媒体报道经济依赖议题，反映地缘政治视角；中国报道转向本土民生工程，展现以国内事务为中心的叙事导向。",
-      "summary": "三方媒体通过选择截然不同的报道主题，展现了各自关注的优先议程和意识形态立场。"
-    },
-    {
-      "event_hint": "Australia's most-decorated soldier vows to fight war crime charges",
-      "event_hint_zh": "澳大利亚勋章最多的士兵发誓要打击战争罪指控",
-      "event_hint_en": "Australia's most-decorated soldier vows to fight war crime charges",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Australia's most-decorated soldier vows to fight war crime charges",
-        "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 13:12",
-        "description": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
-        "title_en": "Australia's most-decorated soldier vows to fight war crime charges",
-        "title_zh": "澳大利亚勋章最多的士兵发誓要打击战争罪指控"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Outrage after photo shows Israeli soldier smashing Jesus statue in Lebanon",
-        "link": "https://www.aljazeera.com/news/2026/4/19/outrage-after-photo-shows-israeli-soldier-smashing-jesus-statue-in-lebanon?traffic_source=rss",
-        "published": "2026-04-20 07:41",
-        "description": "Social media users condemn Western silence on attacks on religious symbols and sites by Israeli soldiers and settlers.",
-        "title_en": "Outrage after photo shows Israeli soldier smashing Jesus statue in Lebanon",
-        "title_zh": "照片显示以色列士兵在黎巴嫩砸碎耶稣雕像后引发愤怒"
-      },
-      "my_view": "BBC聚焦士兵个人抗辩，体现西方对司法程序的关注；半岛电视台借关联事件引导宗教与反以情绪，展现伊斯兰世界立场；中国媒体暂未报道，反映对澳国内事务的谨慎态度。",
-      "summary": "澳大利亚士兵被控战争罪引发多维度关注，本质是军事行为伦理在国际舆论场的不同价值投射。"
-    },
-    {
-      "event_hint": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
-      "event_hint_zh": "安大略省省长道格·福特在强烈抗议后同意出售价值 2100 万美元的私人飞机",
-      "event_hint_en": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
+      "event_hint": "What we know about the Iranian ship seized by the US",
+      "event_hint_zh": "我们对美国扣押的伊朗船只了解多少",
+      "event_hint_en": "What we know about the Iranian ship seized by the US",
       "中国": {
         "title": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校..",
         "link": "http://baijiahao.baidu.com/s?id=1862895201452197853",
-        "published": "2026-04-20 12:02",
+        "published": "2026-04-21 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862895201452197853><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3555291139%2C294534485%26fm%3D30%26app%3",
         "title_zh": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校..",
         "title_en": "聚焦AI时代学习新定义 长沙康礼·克雷格学校举行校.."
       },
       "美国（欧美媒体）": {
-        "title": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
-        "link": "https://www.bbc.com/news/articles/cdxd8g47wnlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-20 03:25",
-        "description": "After confirming the purchase on Friday, Ford drew critcism from political opponents who called it a \"gravy plane\" and \"out of touch\".",
-        "title_en": "Ontario Premier Doug Ford agrees to sell $21m private jet following outcry",
-        "title_zh": "安大略省省长道格·福特在强烈抗议后同意出售价值 2100 万美元的私人飞机"
+        "title": "What we know about the Iranian ship seized by the US",
+        "link": "https://www.bbc.com/news/articles/c75kg0vdxyro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 04:04",
+        "description": "The US has intercepted an Iranian ship entering the Gulf as part of its naval blockade, US President Donald Trump has said.",
+        "title_en": "What we know about the Iranian ship seized by the US",
+        "title_zh": "我们对美国扣押的伊朗船只了解多少"
       },
       "伊斯兰（半岛等）": {
-        "title": "Schools, shops shut in northern Israel to protest the Lebanon ceasefire",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/19/schools-shops-shut-in-northern-israel-to-protest-the-lebanon-ceasefire?traffic_source=rss",
-        "published": "2026-04-20 05:21",
-        "description": "Shops and schools shut in northern Israel as residents protested a 10-day ceasefire with Lebanon.",
-        "title_en": "Schools, shops shut in northern Israel to protest the Lebanon ceasefire",
-        "title_zh": "以色列北部学校和商店关闭以抗议黎巴嫩停火"
+        "title": "What to know about the next round of US-Iran talks in Pakistan",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/what-to-know-about-the-next-round-of-us-iran-talks-in-pakistan?traffic_source=rss",
+        "published": "2026-04-21 04:48",
+        "description": "The US and Iran are supposed to have another round of direct talks in Pakistan on Tuesday, but will the Iranians skip?",
+        "title_en": "What to know about the next round of US-Iran talks in Pakistan",
+        "title_zh": "关于下一轮在巴基斯坦举行的美伊会谈需要了解什么"
       },
-      "my_view": "网易回避敏感政治事件，转向教育话题；BBC直击官员财产争议，体现监督意识；半岛电视台则关联地区冲突，反映伊斯兰世界关切。三方报道取向体现各自政治立场与受众兴趣的显著差异。",
-      "summary": "加拿大省长迫于舆论压力出售奢侈公务资产，本质是公众对官员廉洁要求的胜利。"
+      "my_view": "中国回避敏感议题转向教育报道；欧美聚焦军事行动细节体现对抗叙事；伊斯兰媒体将扣押事件转化为外交谈判框架，弱化冲突强调对话可能。三方分别体现回避、对抗、调和的立场差异。",
+      "summary": "美国扣押伊朗船只事件被不同媒体重构为教育议题、军事行动或外交谈判，反映国际政治叙事的话语权博弈。"
     },
     {
-      "event_hint": "Zelensky condemns US extension of Russian sanctions waiver",
-      "event_hint_zh": "泽连斯基谴责美国延长俄罗斯制裁豁免",
-      "event_hint_en": "Zelensky condemns US extension of Russian sanctions waiver",
+      "event_hint": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+      "event_hint_zh": "美国歌手 D4vd 对失踪少女死亡的谋杀罪不认罪",
+      "event_hint_en": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Zelensky condemns US extension of Russian sanctions waiver",
-        "link": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-19 17:55",
-        "description": "The US argues that the waiver is meant to ease the energy supply crunch sparked by the US-Israel war with Iran.",
-        "title_en": "Zelensky condemns US extension of Russian sanctions waiver",
-        "title_zh": "泽连斯基谴责美国延长俄罗斯制裁豁免"
+        "title": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+        "link": "https://www.bbc.com/news/articles/crr1v4gzkvlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-21 06:53",
+        "description": "Prosecutors say the singer, real name David Anthony Burke, could face life in prison due to the nature of the case, if convicted.",
+        "title_en": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
+        "title_zh": "美国歌手 D4vd 对失踪少女死亡的谋杀罪不认罪"
       },
       "伊斯兰（半岛等）": {
-        "title": "Did the US misjudge Iran? A military strategist answers",
-        "link": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/4/19/did-the-us-misjudge-iran-a-military-strategist-answers-2?traffic_source=rss",
-        "published": "2026-04-20 03:06",
-        "description": "Strategist Bryan Clark examines shifting war aims, escalation traps, and whether Iran is now more dangerous to the US.",
-        "title_en": "Did the US misjudge Iran? A military strategist answers",
-        "title_zh": "美国误判伊朗了吗？"
+        "title": "Rapper D4vd’ charged with murder of 14-year-old girl",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/20/rapper-d4vd-charged-with-murder-of-14-year-old-girl?traffic_source=rss",
+        "published": "2026-04-21 03:56",
+        "description": "Prosecutors in California are charging rapper D4vd with the murder of 14-year-old Celeste Rivas Hernandez.",
+        "title_en": "Rapper D4vd’ charged with murder of 14-year-old girl",
+        "title_zh": "说唱歌手 D4vd’ 被控谋杀 14 岁女孩"
       },
-      "my_view": "欧美媒体聚焦事件本身，突出泽连斯基的谴责立场；伊斯兰媒体借机关联伊朗议题，体现地缘政治关切；中国媒体暂未报道，可能避免直接卷入美俄乌博弈。",
-      "summary": "乌克兰对美延长俄制裁豁免表达不满，反映西方阵营内部在制裁执行上的分歧与博弈。"
+      "my_view": "欧美标题强调司法程序（不认罪），伊斯兰标题突出指控事实（被控谋杀），中国媒体未报道可能因事件文化相关性低或不符合主流报道方向。",
+      "summary": "美国歌手D4vd因涉嫌谋杀一名14岁失踪少女被起诉，目前已在法庭上表示不认罪。"
+    },
+    {
+      "event_hint": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
+      "event_hint_zh": "乌克兰警察局长因涉嫌逃离致命枪击事件而辞职",
+      "event_hint_en": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
+      "中国": {
+        "title": "从50人到6000人！宁乡这个环保志愿服务组织，凭..",
+        "link": "http://baijiahao.baidu.com/s?id=1863002185801603813",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863002185801603813><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2286534231%2C294634122%26fm%3D30%26app%3",
+        "title_zh": "从50人到6000人！宁乡这个环保志愿服务组织，凭..",
+        "title_en": "从50人到6000人！宁乡这个环保志愿服务组织，凭.."
+      },
+      "美国（欧美媒体）": {
+        "title": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
+        "link": "https://www.bbc.com/news/articles/c8ejn778j4do?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 01:48",
+        "description": "Authorities say the officers have been suspended and an investigation into their actions is under way.",
+        "title_en": "Ukraine police chief resigns after officers allegedly fled deadly shooting",
+        "title_zh": "乌克兰警察局长因涉嫌逃离致命枪击事件而辞职"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Europol and partners trace 45 ‘forcibly transferred’ Ukrainian children",
+        "link": "https://www.aljazeera.com/news/2026/4/20/europol-and-partners-trace-45-forcibly-transferred-ukrainian-children?traffic_source=rss",
+        "published": "2026-04-21 04:44",
+        "description": "Agency says it shared information about children moved to Russia, Belarus or occupied Ukrainian territory with Ukraine.",
+        "title_en": "Europol and partners trace 45 ‘forcibly transferred’ Ukrainian children",
+        "title_zh": "欧洲刑警组织及其合作伙伴追踪 45 名“强行转移”的乌克兰儿童"
+      },
+      "my_view": "中国媒体回避敏感国际事件，聚焦国内正面议题；欧美媒体直接报道官员问责，体现监督意识；伊斯兰媒体借机关联西方机构责任，展现批判立场。三方分别呈现回避、监督、批判的报道倾向。",
+      "summary": "乌克兰警察局长因下属涉嫌临阵脱逃导致平民死亡而引咎辞职，本质是公职人员失职引发的问责事件。"
+    },
+    {
+      "event_hint": "Rumen Radev's party wins Bulgarian election",
+      "event_hint_zh": "鲁门·拉德夫 (Rumen Radev) 领导的政党赢得保加利亚大选",
+      "event_hint_en": "Rumen Radev's party wins Bulgarian election",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Rumen Radev's party wins Bulgarian election",
+        "link": "https://www.bbc.com/news/articles/cm2kgm1zpgro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 21:01",
+        "description": "With 87% of the vote now counted, Progressive Bulgaria has secured a majority in parliament.",
+        "title_en": "Rumen Radev's party wins Bulgarian election",
+        "title_zh": "鲁门·拉德夫 (Rumen Radev) 领导的政党赢得保加利亚大选"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "EU eyes Ukraine loan, Israeli settler sanctions, after Hungarian election",
+        "link": "https://www.aljazeera.com/news/2026/4/20/eu-eyes-ukraine-loan-israeli-settler-sanctions-after-hungarian-election?traffic_source=rss",
+        "published": "2026-04-21 05:30",
+        "description": "Ouster of EU &#039;spoiler-in-chief&#039; Viktor Orban unlocks key foreign policy decisions in the 27-member bloc.",
+        "title_en": "EU eyes Ukraine loan, Israeli settler sanctions, after Hungarian election",
+        "title_zh": "匈牙利大选后欧盟关注乌克兰贷款、以色列定居者制裁"
+      },
+      "my_view": "欧美媒体直接报道选举结果，体现对东欧政治的传统关注；伊斯兰媒体将此事置于欧盟整体议程中，侧重地缘政治联动；中国媒体暂未报道，可能因事件与核心利益关联度较低。",
+      "summary": "保加利亚大选结果反映该国政治格局变化，但不同媒体依据自身受众关切选择报道角度或保持沉默。"
+    },
+    {
+      "event_hint": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+      "event_hint_zh": "伊朗妇女因涉嫌向苏丹贩运武器在美国被捕",
+      "event_hint_en": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+        "link": "https://www.bbc.com/news/articles/ce9m7m1nmdeo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 21:32",
+        "description": "Shamim Mafi is accused of brokering the sales of arms to Sudan's defence ministry on behalf of Iran.",
+        "title_en": "Iranian woman arrested in US for allegedly trafficking arms to Sudan",
+        "title_zh": "伊朗妇女因涉嫌向苏丹贩运武器在美国被捕"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Gunman kills Canadian woman, injures six at Mexico’s Teotihuacan pyramids",
+        "link": "https://www.aljazeera.com/news/2026/4/20/gunman-kills-canadian-woman-injures-more-at-mexicos-teotihuacan-pyramids?traffic_source=rss",
+        "published": "2026-04-21 03:45",
+        "description": "President Claudia Sheinbaum says she instructed authorities to &#039;thoroughly investigate&#039; incident outside Mexico City.",
+        "title_en": "Gunman kills Canadian woman, injures six at Mexico’s Teotihuacan pyramids",
+        "title_zh": "墨西哥特奥蒂瓦坎金字塔枪手杀死加拿大妇女，造成六人受伤"
+      },
+      "my_view": "欧美报道聚焦伊朗武器贩运，体现对伊制裁立场；伊斯兰媒体未报道此事，转而关注墨西哥枪击案，可能有意淡化负面新闻；中国媒体未报道，反映中立或避免介入敏感国际议题的审慎态度。",
+      "summary": "美国以违反制裁为由逮捕伊朗公民，事件本质是国际地缘政治博弈在司法领域的体现。"
+    },
+    {
+      "event_hint": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+      "event_hint_zh": "埃隆·马斯克在 X 调查中拒绝接受法国检察官的面谈传票",
+      "event_hint_en": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+      "中国": {
+        "title": "全国首个智慧教育产教基地落地上海：学校一站式“选好..",
+        "link": "http://baijiahao.baidu.com/s?id=1862894539125826907",
+        "published": "2026-04-21 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1862894539125826907><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3251877522%2C294534237%26fm%3D30%26app%3",
+        "title_zh": "全国首个智慧教育产教基地落地上海：学校一站式“选好..",
+        "title_en": "全国首个智慧教育产教基地落地上海：学校一站式“选好.."
+      },
+      "美国（欧美媒体）": {
+        "title": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+        "link": "https://www.bbc.com/news/articles/crk151nn7j3o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 23:44",
+        "description": "The Paris prosecutor's office told the BBC it had \"taken note of the absence of the people summoned\".",
+        "title_en": "Elon Musk snubs interview summons by French prosecutors amid X probe",
+        "title_zh": "埃隆·马斯克在 X 调查中拒绝接受法国检察官的面谈传票"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "UK PM Starmer admits Mandelson mistake, rejects resignation calls",
+        "link": "https://www.aljazeera.com/news/2026/4/20/uk-pm-starmer-admits-mistaken-call-on-mandelson-rejects-calls-to-resign?traffic_source=rss",
+        "published": "2026-04-21 03:44",
+        "description": "PM insists he did not know security officials had recommended Mandelson be sidelined due to Epstein links.",
+        "title_en": "UK PM Starmer admits Mandelson mistake, rejects resignation calls",
+        "title_zh": "英国首相斯塔默承认曼德尔森错误，拒绝辞职呼吁"
+      },
+      "my_view": "欧美媒体聚焦事件本身，突出马斯克对抗司法程序；伊斯兰媒体转移话题至英国政治；中国媒体完全回避该事件，转而报道本土科技成就，体现选择性报道立场。",
+      "summary": "马斯克拒绝配合法国对X平台的司法调查，三方媒体通过报道内容的选择性呈现各自立场。"
+    },
+    {
+      "event_hint": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+      "event_hint_zh": "《我们的日子》和《星河战队》演员帕特里克·马尔登去世，享年 57 岁",
+      "event_hint_en": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+        "link": "https://www.bbc.com/news/articles/czx9q51rldko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-20 23:51",
+        "description": "The actor and producer also appeared in Melrose Place and Saved By the Bell.",
+        "title_en": "Days of Our Lives and Starship Troopers actor Patrick Muldoon dies aged 57",
+        "title_zh": "《我们的日子》和《星河战队》演员帕特里克·马尔登去世，享年 57 岁"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "FBI Director Kash Patel sues Atlantic for ‘false’ reporting on drinking",
+        "link": "https://www.aljazeera.com/news/2026/4/20/fbi-director-kash-patel-sues-atlantic-for-false-reporting-on-drinking?traffic_source=rss",
+        "published": "2026-04-21 05:09",
+        "description": "The Atlantic defends its reporting as Kash Patel denies allegations and files a $250m US defamation lawsuit.",
+        "title_en": "FBI Director Kash Patel sues Atlantic for ‘false’ reporting on drinking",
+        "title_zh": "联邦调查局局长卡什·帕特尔起诉《大西洋月刊》关于饮酒的“虚假”报道"
+      },
+      "my_view": "欧美媒体客观报道演员逝世，伊斯兰媒体聚焦政治诉讼，中国媒体未报道此事，体现各自关注重点：欧美重文化事件，伊斯兰重政治争议，中国可能因事件相关性低而未关注。",
+      "summary": "演员帕特里克·马尔登去世的消息在不同媒体中呈现显著差异，反映了各自的地域和文化关注焦点。"
     }
   ]
 }
