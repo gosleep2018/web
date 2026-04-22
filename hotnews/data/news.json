@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-22 12:03:06 +08",
+  "generated_at": "2026-04-22 20:01:33 +08",
   "generated_date": "2026-04-22",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,7 +428,7 @@
         "title_en": "Iran war live: Trump says ceasefire extended as talks with Tehran in limbo",
         "title_zh": "伊朗战争直播：特朗普表示与德黑兰的谈判陷入僵局，延长停火"
       },
-      "my_view": "欧美报道聚焦外交进程，强调特朗普的斡旋作用；伊斯兰媒体突出战争风险与谈判不确定性，体现地区关切；中国媒体则完全回避国际议题，转向国内教育报道，反映其选择性关注本土议程的立场。",
+      "my_view": "欧美标题聚焦外交进程，强调特朗普的主动斡旋；伊斯兰标题突出战争风险与谈判不确定性，体现地区关切；中国标题完全回避国际议题，转向国内教育报道，反映其媒体选择性关注。",
       "summary": "特朗普通过紧急外交为伊朗协议争取缓冲期，各方报道侧重反映其地缘政治立场差异。"
     },
     {
@@ -458,8 +459,8 @@
         "title_en": "US issues more Iran sanctions on eve of possible talks in Pakistan",
         "title_zh": "美国在巴基斯坦可能举行会谈前夕对伊朗实施更多制裁"
       },
-      "my_view": "中国媒体回避敏感国际冲突，聚焦国内教育议题；欧美媒体直接报道战争对伊朗的经济冲击；伊斯兰媒体则强调美国制裁压力，暗示外交可能性。三方分别体现中立回避、冲突叙事与抗争视角。",
-      "summary": "伊朗因战争与制裁导致大规模失业，但不同媒体基于自身立场选择了差异化的报道焦点。"
+      "my_view": "中国媒体回避敏感国际冲突，聚焦国内教育议题；欧美媒体直指战争导致的经济后果，突出冲突责任方；伊斯兰媒体强调美国制裁行动，暗示外部压力是谈判背景。三方分别体现中立回避、直接问责、反诉西方的立场差异。",
+      "summary": "伊朗因与美以冲突面临经济冲击，三方报道分别呈现回避态度、直接归因与反诉制裁的立场差异。"
     },
     {
       "event_hint": "Israeli soldiers punished over vandalism of Jesus statue in Lebanon",
@@ -482,8 +483,8 @@
         "title_en": "Argentina’s Milei sings and lights torch for Israeli national day",
         "title_zh": "阿根廷的米莱为以色列国庆日唱歌并点燃火炬"
       },
-      "my_view": "欧美媒体聚焦事件本身，强调法律追责；伊斯兰媒体通过关联事件转移焦点，暗含政治立场；中国媒体未报道可能基于外交考量或事件敏感性。三方呈现事实选择与框架差异。",
-      "summary": "以色列士兵因破坏宗教雕像受军纪惩处，不同媒体通过报道选择体现立场倾向。"
+      "my_view": "欧美媒体聚焦事件本身，强调问责；伊斯兰媒体通过关联事件转移焦点，隐含对以色列的批评；中国媒体未报道可能出于避免介入宗教冲突的考量。三方立场体现地缘政治差异。",
+      "summary": "以色列士兵破坏宗教雕像受惩事件，在不同媒体叙事中被赋予差异化的政治解读权重。"
     },
     {
       "event_hint": "US singer D4vd pleads not guilty to murder in death of missing teen girl",
@@ -506,8 +507,8 @@
         "title_en": "Nearly 8,000 people died or disappeared on migration routes in 2025: IOM",
         "title_zh": "IOM：2025年近8000人在移民路线上死亡或失踪"
       },
-      "my_view": "欧美媒体聚焦个案司法程序，伊斯兰媒体借机关联移民议题扩大批判西方，中国媒体因事件不涉本国利益或价值观而选择不报道。三方分别体现司法中心、政治批判与利益优先的立场差异。",
-      "summary": "美国歌手D4vd被控谋杀失踪少女案件进入司法程序，被告当庭否认指控。"
+      "my_view": "欧美媒体聚焦个案司法进程，伊斯兰媒体借事件关联移民议题展现人道关怀，中国媒体未报道反映对西方娱乐新闻的选择性忽略。",
+      "summary": "美国歌手D4vd因涉嫌与少女死亡案有关被起诉，目前通过认罪程序进入司法审理阶段。"
     },
     {
       "event_hint": "Unprecedented ruling finds Hungary's anti-LGBTQ laws in breach of EU values",
@@ -537,8 +538,8 @@
         "title_en": "Trump administration sues Southern Poverty Law Center on fraud charges",
         "title_zh": "特朗普政府以欺诈罪起诉南方​​贫困法律中心"
       },
-      "my_view": "欧美视角聚焦欧盟价值观与LGBTQ权利冲突；伊斯兰视角转移话题至美国国内诉讼，回避性少数议题；中国视角完全回避敏感国际议题，转向国内教育报道，体现立场差异。",
-      "summary": "欧盟法院裁定匈牙利反LGBTQ法违反欧盟核心价值观，引发不同文化背景媒体的选择性报道。"
+      "my_view": "欧美视角聚焦人权与欧盟价值观冲突；伊斯兰视角转移话题至美国国内诉讼，回避LGBTQ议题；中国视角完全回避国际争议，转向国内教育报道，体现不干涉内政原则。",
+      "summary": "欧盟法院裁定匈牙利反LGBTQ法违反欧盟核心价值观，凸显欧盟内部价值观与成员国主权间的冲突。"
     },
     {
       "event_hint": "Role of US officials killed in crash in Mexico under scrutiny",
@@ -561,8 +562,8 @@
         "title_en": "Paraguay plans to accept 25 third-country migrant deportees from US",
         "title_zh": "巴拉圭计划接收 25 名来自美国的第三国移民"
       },
-      "my_view": "欧美媒体聚焦事件本身，强调官员角色受审查；伊斯兰媒体从移民政策切入，关注事件衍生影响；中国媒体未报道，体现对拉美事务的选择性关注。三方立场反映各自地缘政治关切。",
-      "summary": "美国官员在墨西哥坠机事件引发对其生前职责的国际关注，不同媒体报道角度体现意识形态差异。"
+      "my_view": "欧美媒体聚焦事件核心，关注遇难美国官员的角色调查；伊斯兰媒体从移民议题切入，揭示事件的地缘政治延伸；中国媒体暂未报道，可能因事件关联度较低或报道时差。",
+      "summary": "墨西哥坠机事件引发对美国官员角色及移民政策的国际关注，凸显事件的政治复杂性。"
     },
     {
       "event_hint": "Japan loosens arms export rules in break from post-WW2 pacifism",
@@ -585,8 +586,8 @@
         "title_en": "Myanmar’s military government rebuffed on peace talks offer",
         "title_zh": "缅甸军政府拒绝和平谈判提议"
       },
-      "my_view": "BBC直接报道日本政策转变，体现西方关注亚太安全格局变化；半岛电视台转移焦点至缅甸问题，反映伊斯兰世界更关注地区冲突；中国媒体暂未报道，可能持谨慎观察态度。三方立场体现各自地缘政治关切。",
-      "summary": "日本调整武器出口政策实质是突破战后和平宪法约束，重塑国防安全战略的重要举措。"
+      "my_view": "BBC直击事件核心，强调日本和平主义转向；半岛电视台转移焦点至缅甸议题，反映伊斯兰世界对亚洲地缘政治的关注差异；中国媒体暂未报道，可能持谨慎观察态度。",
+      "summary": "日本调整武器出口政策，实质是突破战后军事限制，引发国际社会对东亚安全格局重组的关注。"
     },
     {
       "event_hint": "Domestic workers legally recognised in Indonesia after '22-year struggle'",
@@ -609,8 +610,8 @@
         "title_en": "Sudan refugees returning home face new ‘struggle for survival’: UN",
         "title_zh": "联合国：苏丹难民返回家园面临新的“生存斗争”"
       },
-      "my_view": "欧美视角聚焦劳工权益斗争历程，伊斯兰视角关注难民生存困境，中国媒体未报道此事，三方分别体现人权叙事、区域议题优先和选择性报道的立场差异。",
-      "summary": "印尼家佣22年维权终获法律承认，不同媒体基于自身立场选择报道角度或保持沉默。"
+      "my_view": "欧美视角聚焦劳工权益斗争历程，伊斯兰视角关注难民生存困境，中国媒体未报道此事，体现三方在人权议题上的不同关注重点与报道倾向。",
+      "summary": "印尼通过立法承认家庭佣工合法地位，结束了长达22年的权益斗争。"
     },
     {
       "event_hint": "Virginia approves redistricting, giving Democrats edge in midterms",
@@ -633,8 +634,8 @@
         "title_en": "Peru’s election chief steps down amid frustration over long vote count",
         "title_zh": "秘鲁选举主席因计票时间过长而感到沮丧而辞职"
       },
-      "my_view": "欧美媒体客观陈述事件结果，伊斯兰媒体未报道此事而关注其他选举新闻，中国媒体未作报道可能因议题与美国内政相关，三方立场差异体现各自关注焦点与议程设置的不同。",
-      "summary": "美国弗吉尼亚州通过选区重划方案，为民主党在中期选举中创造结构性优势。"
+      "my_view": "欧美媒体直接报道事件本身，突出选举政治的技术性操作；伊斯兰媒体选择报道其他地区选举争议，隐含对西方选举制度的间接质疑；中国媒体未报道，体现对美内政的谨慎态度。三方分别呈现了直接关注、转移对比和选择性沉默的立场差异。",
+      "summary": "美国州级选区重划本质是通过规则调整影响选举结果的政治博弈。"
     }
   ]
 }
