@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-23 12:02:17 +08",
+  "generated_at": "2026-04-23 20:01:13 +08",
   "generated_date": "2026-04-23",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Pope Leo urges justice reform in Equatorial Guinea’s prisons",
         "title_zh": "教皇利奥敦促赤道几内亚监狱进行司法改革"
       },
-      "my_view": "网易回避敏感议题，转向国内正面报道；BBC突出批评立场，强调冲突性；半岛电视台弱化对抗色彩，以改革呼吁体现伊斯兰价值观对正义的关注。三方分别体现宣传导向、监督立场与宗教价值观。",
-      "summary": "教皇在非洲之行结束时对赤道几内亚监狱制度提出批评，不同媒体基于自身立场呈现报道焦点差异。"
+      "my_view": "中国视角聚焦国内教育，回避非洲事件；欧美突出教皇批评，强调人权问题；伊斯兰侧重呼吁司法改革，体现中立但关注公正。三方立场分别反映内宣导向、西方价值批判及区域平衡视角。",
+      "summary": "教皇批评赤道几内亚监狱，不同媒体因立场和受众差异，选择性报道或转移焦点。"
     },
     {
       "event_hint": "Billionaire backer sues Trump family's crypto firm over alleged extortion",
@@ -458,8 +459,8 @@
         "title_en": "Trump calls Virginia election ‘rigged’ after redistricting referendum",
         "title_zh": "特朗普称弗吉尼亚州选举在重新选区公投后“被操纵”"
       },
-      "my_view": "网易回避敏感国际议题，聚焦国内正面报道；BBC直击富豪起诉特朗普家族的法律纠纷，体现监督立场；半岛电视台则关联特朗普其他争议言论，反映对西方政治批判视角。三方选择性地构建了截然不同的新闻现实。",
-      "summary": "特朗普家族加密货币公司遭起诉事件，在不同意识形态媒体中被重构为本土建设、权贵丑闻或政治斗争的不同叙事。"
+      "my_view": "中国视角侧重国企发展，回避敏感事件；欧美视角聚焦法律纠纷与勒索指控；伊斯兰视角转移至特朗普质疑选举，三方立场差异反映各自议程与利益关注点。",
+      "summary": "亿万富翁起诉特朗普家族加密货币公司勒索，但不同媒体选择性报道以服务自身立场。"
     },
     {
       "event_hint": "Trump buys time for Iran deal after frantic day of diplomacy",
@@ -482,8 +483,8 @@
         "title_en": "Trump calls for Republicans to unify around budget reconciliation push",
         "title_zh": "特朗普呼吁共和党团结起来推动预算和解"
       },
-      "my_view": "欧美视角聚焦外交进程，强调协议存续；伊斯兰视角转向美国内政，淡化伊朗议题；中国媒体暂未报道，可能反映对美伊关系持观望态度。",
-      "summary": "特朗普通过外交手段为伊朗核协议争取缓冲期，但各方关注点因立场不同而分化。"
+      "my_view": "中国视角缺失，欧美视角强调特朗普为伊朗协议争取时间，体现其外交斡旋；伊斯兰视角聚焦国内预算，回避伊朗议题，显示对美方外交诚意存疑。三方立场差异反映对美伊关系的关注点与信任度不同。",
+      "summary": "特朗普在密集外交后为伊朗协议争取时间，但国内外政治博弈仍存分歧。"
     },
     {
       "event_hint": "South Korean fighter jets collided due to pilots taking pictures, report finds",
@@ -506,8 +507,8 @@
         "title_en": "Top ministers quit after Peru’s president postpones F-16 fighter jet deal",
         "title_zh": "秘鲁总统推迟 F-16 战斗机交易后高级部长辞职"
       },
-      "my_view": "BBC聚焦事故直接原因（飞行员拍照），体现技术归因倾向；半岛台关联政治后果（部长辞职），展现事件政治化解读；中国媒体未报道，反映对特定国际事件的选择性关注。三方呈现事实选取的立场差异。",
-      "summary": "韩国战机相撞事故因飞行员违规拍照引发，不同媒体通过事实裁剪呈现技术归因或政治化解读。"
+      "my_view": "中国视角未报道，欧美聚焦韩国事故细节，伊斯兰视角则关联政治后果。三方立场差异：欧美重事实调查，伊斯兰重政治影响，中国或有选择性回避。",
+      "summary": "韩国战斗机因飞行员拍照导致相撞，不同媒体根据自身立场聚焦事故细节或政治关联。"
     },
     {
       "event_hint": "EU approves €90bn loan for Ukraine as pipeline is turned on ending deadlock",
@@ -530,8 +531,8 @@
         "title_en": "Turkiye making efforts to revive Russia-Ukraine talks, says Erdogan",
         "title_zh": "埃尔多安表示，土耳其正在努力恢复俄罗斯与乌克兰的谈判"
       },
-      "my_view": "欧美聚焦经济援助与僵局突破，强调对乌支持；伊斯兰视角关注土耳其的调停角色与和谈进程，体现区域外交立场；中国媒体暂未报道，可能反映对此事持谨慎或中立态度。",
-      "summary": "欧盟通过对乌大额贷款援助，伴随管道开通打破僵局，土耳其则尝试推动俄乌和谈。"
+      "my_view": "中国视角空缺，欧美聚焦金融援助与管道开通，凸显对乌支持；伊斯兰视角强调土耳其斡旋，侧重和平进程。三方立场差异体现关注点不同：援助与能源、外交调停。",
+      "summary": "欧盟批准900亿欧元贷款援助乌克兰，同时管道开通打破僵局，土耳其则推动俄乌和谈。"
     },
     {
       "event_hint": "Thirteen killed in second India fireworks blast in three days",
@@ -561,8 +562,8 @@
         "title_en": "US suspect accused of stealing Kristi Noem’s purse sentenced to three years",
         "title_zh": "被控盗窃克里斯蒂·诺姆钱包的美国嫌疑人被判三年徒刑"
       },
-      "my_view": "中国媒体聚焦国内正能量事件，回避报道印度负面新闻；欧美媒体客观报道灾难事实，突出伤亡数字；伊斯兰媒体转移视线，报道美国负面事件。三方均通过议程设置体现各自立场。",
-      "summary": "印度烟花厂爆炸致13人死亡的事件在不同媒体议程设置下被选择性报道或完全忽略。"
+      "my_view": "中国媒体聚焦国内教育仪式，淡化国际负面事件；欧美媒体突出印度安全治理问题；伊斯兰媒体转向美国司法案件，体现各自报道的议题选择与立场差异。",
+      "summary": "同一印度烟花爆炸事件，不同媒体基于受众与立场选择不同报道焦点。"
     },
     {
       "event_hint": "Los Angeles becomes first major US school district to limit classroom screen time",
@@ -592,8 +593,8 @@
         "title_en": "Warner Bros and Paramount merger could reshape US media landscape",
         "title_zh": "华纳兄弟和派拉蒙合并可能重塑美国媒体格局"
       },
-      "my_view": "网易强调实践教学优势，回避屏幕限制议题；BBC聚焦教育政策变革，突出美国地方行动；半岛转移话题至媒体资本运作，淡化教育科技讨论。三方均未直接报道事件核心。",
-      "summary": "洛杉矶学区限制课堂电子设备使用，三方媒体通过选择不同报道角度体现各自议程设置倾向。"
+      "my_view": "中国视角侧重正面实践案例，淡化限制屏幕时间；欧美视角聚焦政策本身与教育影响；伊斯兰视角偏离主题，转向媒体并购，体现不同利益关切。",
+      "summary": "洛杉矶学区率先限制课堂屏幕时间，反映全球对儿童数字依赖的治理分歧。"
     },
     {
       "event_hint": "US charges anti-extremism organisation over payments to informants in hate groups",
@@ -623,8 +624,8 @@
         "title_en": "Prediction market Kalshi docks three US candidates for betting on own races",
         "title_zh": "预测市场卡尔希将三名美国候选人押注于自己的比赛"
       },
-      "my_view": "中国报道完全回避敏感事件，转向环保议题；欧美报道聚焦司法指控，强调程序正义；伊斯兰媒体则转移视线至美国政治丑闻。三方分别体现回避立场、直接揭露、借题发挥的传播策略。",
-      "summary": "美国司法部指控某反极端组织用报酬招募仇恨团体线人，引发不同媒体的选择性报道或议题转移。"
+      "my_view": "中国视角聚焦国内环保，回避国际争议；欧美视角强调司法指控，凸显制度对抗；伊斯兰视角转向金融事件，淡化冲突。三方立场差异反映各自议程设置与利益关切。",
+      "summary": "同一事件因媒体立场不同被选择性报道，本质是信息传播中的政治与价值取向差异。"
     },
     {
       "event_hint": "From Epstein to sock puppets: Key takeaways from Kevin Warsh's Fed confirmation hearing",
@@ -647,8 +648,8 @@
         "title_en": "Sexual violence in the West Bank emerges as tool to intimidate Palestinians",
         "title_zh": "西岸的性暴力成为恐吓巴勒斯坦人的工具"
       },
-      "my_view": "欧美媒体聚焦听证会细节，伊斯兰媒体借机转移视线至巴以冲突，中国媒体未报道显示对美内部事务的谨慎态度。三方立场分别体现直接关注、议题嫁接与战略沉默。",
-      "summary": "美国金融官员确认听证会中，不同媒体通过选择性报道展现各自政治立场与议程设置。"
+      "my_view": "网易未报道显示中国对美联储人事关注度低；BBC聚焦听证会细节与争议；半岛台转向巴以冲突，凸显伊斯兰媒体对西方内部议题选择性忽略，侧重自身地缘关切。",
+      "summary": "同一事件因媒体立场差异，报道焦点从美联储人事转向巴以冲突，反映议程设置受地缘利益驱动。"
     },
     {
       "event_hint": "Meta to track workers' clicks and keystrokes to train AI",
@@ -671,8 +672,8 @@
         "title_en": "Israeli forces fire tear gas at funeral of Palestinians killed by settlers",
         "title_zh": "以色列军队在被定居者杀害的巴勒斯坦人的葬礼上发射催泪瓦斯"
       },
-      "my_view": "欧美报道聚焦科技伦理，直接陈述Meta监控员工行为；伊斯兰媒体将事件置于巴以冲突框架下，转移焦点至政治议题；中国媒体未报道，体现对西方科技企业负面新闻的选择性回避。",
-      "summary": "科技公司为训练AI监控员工操作引发争议，不同媒体基于自身立场呈现或回避该事件。"
+      "my_view": "网易未报道显示中国对隐私议题的审慎态度；BBC聚焦企业监控与AI训练的技术伦理；半岛则转向巴以冲突，凸显伊斯兰视角对西方科技议题的疏离，三方立场差异反映地缘政治与价值取向。",
+      "summary": "Meta利用员工操作数据训练AI，暴露科技公司监控与隐私边界的争议。"
     }
   ]
 }
