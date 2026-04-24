@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-24 12:01:13 +08",
+  "generated_at": "2026-04-24 20:00:51 +08",
   "generated_date": "2026-04-24",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "US soldier charged with using Polymarket to bet on Nicolas Maduro abduction",
         "title_zh": "美国士兵被控利用 Polymarket 押注尼古拉斯·马杜罗被绑架"
       },
-      "my_view": "BBC聚焦‘指控’与赌注，半岛突出‘绑架’细节，网易未报道显示中方对委内瑞拉事务的谨慎立场，三方侧重差异反映地缘政治倾向。",
-      "summary": "一名美军士兵因在预测平台押注马杜罗被推翻并赢取40万美元而面临法律指控。"
+      "my_view": "中国报道缺失，欧美聚焦金融投机指控，伊斯兰强调绑架背景。三方立场差异体现对事件核心定性不同：经济违规、政治干预还是军事行动。",
+      "summary": "美国士兵因在预测平台押注马杜罗下台并获利而被起诉，反映金融与政治干预的交叉。"
     },
     {
       "event_hint": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
@@ -451,8 +452,8 @@
         "title_en": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
         "title_zh": "伊朗驳斥特朗普关于领导层分歧的说法，称国家是“同一个灵魂”"
       },
-      "my_view": "中国报道侧重经济合作，淡化冲突；欧美聚焦美国对伊朗石油的强硬行动；伊斯兰强调伊朗内部团结，反驳特朗普分裂言论。三方立场分别体现避谈、施压、反击。",
-      "summary": "美国对伊朗石油运输实施拦截行动，引发美伊双方舆论博弈，中欧伊斯兰三方报道视角各异。"
+      "my_view": "中国视角侧重经济合作，淡化冲突；欧美强调美国强硬行动；伊斯兰视角聚焦伊朗内部团结，反驳特朗普言论。三方立场分别凸显利益、威慑与主权。",
+      "summary": "美伊对峙升级，美国拦截伊朗石油船，伊朗否认内部分裂，各方媒体选择性报道以服务自身立场。"
     },
     {
       "event_hint": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
@@ -475,8 +476,8 @@
         "title_en": "Funeral held for journalist killed in targeted Israeli strike",
         "title_zh": "为在以色列有针对性的袭击中丧生的记者举行葬礼"
       },
-      "my_view": "中国视角暂无报道，欧美侧重法律程序与个人权利，伊斯兰视角则将事件与巴以冲突关联，凸显不同媒体基于政治立场和地区利益的选择性报道。",
-      "summary": "一名美科双重国籍记者因社交媒体帖子在科威特被关押后获无罪释放，但伊斯兰媒体聚焦于另一记者遇害事件。"
+      "my_view": "网易未报道，BBC聚焦法律程序与个案，强调记者身份与释放结果；半岛转向以色列打击记者事件，凸显伊斯兰视角对西方媒体选择性报道的批判。",
+      "summary": "同一记者因社交媒体帖子在科威特被拘后获释，不同媒体依据自身立场选择性报道或转移议题。"
     },
     {
       "event_hint": "US government watchdog to investigate Epstein files release",
@@ -506,8 +507,8 @@
         "title_en": "US professors sue university over arrest during pro-Palestine protest",
         "title_zh": "美国教授因在支持巴勒斯坦抗议期间被捕而起诉大学"
       },
-      "my_view": "中国视角聚焦国内社会事件，突出安全议题；欧美视角关注政府监管机构对爱泼斯坦文件的调查，强调制度问责；伊斯兰视角则侧重校园内亲巴勒斯坦抗议中的学术自由与压制，三方立场差异反映各自社会关切与价值观。",
-      "summary": "同一事件在不同媒体视角下被重构，反映了各自社会议题与政治立场的选择性报道。"
+      "my_view": "中国视角聚焦国内社会安全，欧美视角关注政府监管与司法公正，伊斯兰视角强调政治抗议与学术自由。三方立场差异反映其媒体议程设置与受众关注点的不同。",
+      "summary": "同一事件因媒体立场和地域差异，被分别报道为国内治安、政府调查及学术抗议，本质是信息传播中的选择性呈现。"
     },
     {
       "event_hint": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
@@ -530,8 +531,8 @@
         "title_en": "How Trump’s Iran war is driving military dissent",
         "title_zh": "特朗普的伊朗战争如何引发军事异议"
       },
-      "my_view": "中国视角未报道，欧美聚焦特朗普对英关系表态，伊斯兰视角则转向伊朗战争议题，三方立场差异源于各自关注点：欧美重外交修复，伊斯兰重军事冲突。",
-      "summary": "特朗普表态访英有助于修复关系，但伊斯兰媒体关注其伊朗战争引发的军方异议。"
+      "my_view": "中国视角缺失，欧美聚焦特朗普与英王室互动，突出关系修复；伊斯兰视角借标题转向伊朗战争，转移议题并批判美国军事政策，立场对立明显。",
+      "summary": "特朗普借金访英表态修复关系，但伊斯兰媒体以伊朗战争议题转移焦点，反映地缘政治分歧。"
     },
     {
       "event_hint": "Meta says it will cut 8,000 jobs as AI spending soars",
@@ -554,8 +555,8 @@
         "title_en": "Meta lines up layoffs while Microsoft offers buyouts",
         "title_zh": "Meta 排队裁员，微软提供买断"
       },
-      "my_view": "网易未报道，可能淡化Meta裁员负面；BBC聚焦AI支出驱动裁员，突出科技理性；半岛对比微软买断，暗示Meta裁员更生硬，侧重劳资对比。",
-      "summary": "Meta因AI投入激增计划裁员8000人，各媒体立场影响报道侧重。"
+      "my_view": "网易未报道，BBC侧重Meta因AI支出裁员的事实，半岛则突出Meta裁员与微软买断的对比，暗示西方科技行业分化。中国视角缺失可能反映对AI竞争风险的审慎态度。",
+      "summary": "Meta因AI投入激增宣布裁员8000人，凸显科技行业在AI转型中的成本压力与就业调整。"
     },
     {
       "event_hint": "Warner Bros shareholders approve Paramount's $111bn takeover",
@@ -578,8 +579,8 @@
         "title_en": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
         "title_zh": "欧盟正式批准向乌克兰提供900亿欧元贷款以及对俄罗斯实施新制裁"
       },
-      "my_view": "三方报道侧重迥异：中国视角缺失，欧美聚焦商业并购，伊斯兰视角转向地缘政治，反映不同区域对同一事件的选择性忽略或重构。",
-      "summary": "华纳兄弟股东批准派拉蒙1110亿美元收购案，但不同媒体基于立场选择性报道或转移焦点。"
+      "my_view": "中国视角未报道，欧美聚焦华纳股东批准收购派拉蒙，强调资本运作；伊斯兰视角则转向欧盟援乌贷款与对俄制裁，凸显地缘政治立场差异。",
+      "summary": "同一事件因媒体立场不同，报道重心从商业收购转向地缘政治议题。"
     },
     {
       "event_hint": "South African police chief suspended over $20m health contract",
@@ -602,8 +603,8 @@
         "title_en": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
         "title_zh": "美国和伊朗在霍尔木兹海峡陷入僵局，油价升至每桶106美元以上"
       },
-      "my_view": "中国视角未报道，欧美聚焦南非警察局长个人责任，伊斯兰视角转向霍尔木兹海峡地缘冲突，三方立场差异体现媒体选择性报道与议程设置差异。",
-      "summary": "同一事件因媒体立场不同，报道焦点从南非内部腐败转向国际地缘冲突，反映新闻叙事的主观性。"
+      "my_view": "中国视角未报道，欧美聚焦南非警察局长涉贪，伊斯兰视角则关联伊朗局势，显示媒体立场各异：欧美关注制度问责，伊斯兰侧重地缘冲突。",
+      "summary": "同一事件因媒体立场不同，报道焦点从涉腐转向地缘危机，凸显信息选择性呈现。"
     },
     {
       "event_hint": "US Navy chief leaving post 'effective immediately', Pentagon says",
@@ -626,8 +627,8 @@
         "title_en": "US sanctions Cambodian senator over purported scam network links",
         "title_zh": "美国因涉嫌诈骗网络链接而制裁柬埔寨参议员"
       },
-      "my_view": "中国视角可能关注美国内部管理问题；BBC聚焦人事变动本身，体现制度程序；半岛则关联制裁与诈骗网络，凸显伊斯兰媒体对地缘政治及道德议题的侧重。三方立场差异反映不同利益关切。",
-      "summary": "美国海军司令因故被要求立即离职，但具体原因未明，各方报道侧重不同。"
+      "my_view": "中国视角未报道，欧美聚焦军事人事变动，伊斯兰视角转向关联制裁，三方关注点各异：欧美重官方程序，伊斯兰重地缘利益，中国或有意淡化。",
+      "summary": "美国海军司令突然离职，但不同媒体因立场差异而选择报道不同侧面。"
     },
     {
       "event_hint": "More than 500 people killed in Tanzania election violence, inquiry finds",
@@ -650,8 +651,8 @@
         "title_en": "Pope decries migrants and refugees being treated ‘worse than house pets’",
         "title_zh": "教皇谴责移民和难民的待遇“比家养宠物还差”"
       },
-      "my_view": "中国视角未报道，欧美聚焦选举暴力事实，伊斯兰视角转移至教皇言论，三方立场差异反映媒体选择性报道，政治倾向与议程设置主导叙事。",
-      "summary": "坦桑尼亚选举暴力致500余人死亡，西方与伊斯兰媒体分别关注事实与转移焦点。"
+      "my_view": "网易未报道显示中方对非洲内政的谨慎立场；BBC聚焦事实本身，强调死亡数字；半岛则转移至教皇批评难民待遇，暗示对西方双重标准的批判，三方立场差异明显。",
+      "summary": "坦桑尼亚选举暴力致500余人死亡，不同媒体基于立场选择性报道或转移焦点。"
     }
   ]
 }
