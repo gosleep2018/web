@@ -1,82 +1,120 @@
 {
-  "generated_at": "2026-04-24 20:00:51 +08",
-  "generated_date": "2026-04-24",
-  "current_slot": "晚",
+  "generated_at": "2026-04-25 12:03:56 +08",
+  "generated_date": "2026-04-25",
+  "current_slot": "中",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "中"
   ],
   "sources": {
     "中国": [
       {
+        "title": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
+        "link": "http://baijiahao.baidu.com/s?id=1863408304082179360",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863408304082179360><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3351108596%2C295012391%26fm%3D30%26app%3",
+        "title_zh": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
+        "title_en": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台.."
+      },
+      {
+        "title": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
+        "link": "http://baijiahao.baidu.com/s?id=1863404085598743261",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863404085598743261><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D298585708%2C295008422%26fm%3D30%26app%3D",
+        "title_zh": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
+        "title_en": "1个杭二，3个学军，3个杭高……杭州这所小学的班主.."
+      },
+      {
+        "title": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
+        "link": "http://baijiahao.baidu.com/s?id=1863403520794843787",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863403520794843787><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3040628780%2C295007895%26fm%3D30%26app%3",
+        "title_zh": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
+        "title_en": "山师出国留学培训基地在学校宣传思想文化工作先优评选.."
+      },
+      {
+        "title": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！",
+        "link": "http://baijiahao.baidu.com/s?id=1863403172798567868",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863403172798567868><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D4252295060%2C295007571%26fm%3D30%26app%3",
+        "title_zh": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！",
+        "title_en": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！"
+      },
+      {
+        "title": "石景山这所学校换了“新身份”",
+        "link": "http://baijiahao.baidu.com/s?id=1863363504938214567",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863363504938214567><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3911436231%2C294970629%26fm%3D30%26app%3",
+        "title_zh": "石景山这所学校换了“新身份”",
+        "title_en": "石景山这所学校换了“新身份”"
+      },
+      {
+        "title": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办",
+        "link": "http://baijiahao.baidu.com/s?id=1863344412014882036",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863344412014882036><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D226523210%2C294952847%26fm%3D30%26app%3D",
+        "title_zh": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办",
+        "title_en": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办"
+      },
+      {
+        "title": "每两位常住居民中就有一人是环保志愿者，丹江口“小水..",
+        "link": "http://baijiahao.baidu.com/s?id=1863337711779922880",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863337711779922880><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1190767693%2C294946635%26fm%3D30%26app%3",
+        "title_zh": "每两位常住居民中就有一人是环保志愿者，丹江口“小水..",
+        "title_en": "每两位常住居民中就有一人是环保志愿者，丹江口“小水.."
+      },
+      {
+        "title": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校..",
+        "link": "http://baijiahao.baidu.com/s?id=1863331889880358225",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863331889880358225><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1039142565%2C294941204%26fm%3D30%26app%3",
+        "title_zh": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校..",
+        "title_en": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校.."
+      },
+      {
         "title": "书香润校园 环保践文明——白云区校社联动开展读书日..",
         "link": "http://baijiahao.baidu.com/s?id=1863317200523680189",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863317200523680189><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2016069262%2C294931563%26fm%3D30%26app%3",
         "title_zh": "书香润校园 环保践文明——白云区校社联动开展读书日..",
         "title_en": "书香润校园 环保践文明——白云区校社联动开展读书日.."
       },
       {
-        "title": "临沂一小学体能课障碍赛比拼火出圈 男女生互相较量不..",
-        "link": "http://baijiahao.baidu.com/s?id=1863319559751367984",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863319559751367984><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1766467359%2C294929740%26fm%3D30%26app%3",
-        "title_zh": "临沂一小学体能课障碍赛比拼火出圈 男女生互相较量不..",
-        "title_en": "临沂一小学体能课障碍赛比拼火出圈 男女生互相较量不.."
-      },
-      {
         "title": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
         "link": "http://baijiahao.baidu.com/s?id=1863317924883400998",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863317924883400998><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1698866765%2C294928200%26fm%3D30%26app%3",
         "title_zh": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
         "title_en": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中.."
       },
       {
-        "title": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
-        "link": "http://baijiahao.baidu.com/s?id=1863314427754645453",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863314427754645453><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1168804616%2C294924922%26fm%3D30%26app%3",
-        "title_zh": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
-        "title_en": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官.."
-      },
-      {
         "title": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土..",
         "link": "http://baijiahao.baidu.com/s?id=1863313832947755868",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863313832947755868><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1128865888%2C294924368%26fm%3D30%26app%3",
         "title_zh": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土..",
         "title_en": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土.."
       },
       {
-        "title": "茶香润童心 实践促成长！济源西街学校开展卢仝茶园研..",
-        "link": "http://baijiahao.baidu.com/s?id=1863258186099991084",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863258186099991084><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2585314706%2C294872551%26fm%3D30%26app%3",
-        "title_zh": "茶香润童心 实践促成长！济源西街学校开展卢仝茶园研..",
-        "title_en": "茶香润童心 实践促成长！济源西街学校开展卢仝茶园研.."
+        "title": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
+        "link": "http://baijiahao.baidu.com/s?id=1863277374626923384",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863277374626923384><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3321757135%2C294890415%26fm%3D30%26app%3",
+        "title_zh": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
+        "title_en": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛.."
       },
       {
-        "title": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业..",
-        "link": "http://baijiahao.baidu.com/s?id=1863253120372750548",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863253120372750548><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3203914918%2C294867828%26fm%3D30%26app%3",
-        "title_zh": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业..",
-        "title_en": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业.."
-      },
-      {
-        "title": "重温雷雨寻根脉 情系周新话工商——杨立新携《雷雨》..",
-        "link": "http://baijiahao.baidu.com/s?id=1863250289965498827",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863250289965498827><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D242449073%2C294865188%26fm%3D30%26app%3D",
-        "title_zh": "重温雷雨寻根脉 情系周新话工商——杨立新携《雷雨》..",
-        "title_en": "重温雷雨寻根脉 情系周新话工商——杨立新携《雷雨》.."
+        "title": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替..",
+        "link": "http://baijiahao.baidu.com/s?id=1863257713628086116",
+        "published": "2026-04-25 12:03",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863257713628086116><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2852197442%2C294872100%26fm%3D30%26app%3",
+        "title_zh": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替..",
+        "title_en": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替.."
       },
       {
         "title": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球..",
         "link": "http://baijiahao.baidu.com/s?id=1863228459103982074",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863228459103982074><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1662789436%2C294844860%26fm%3D30%26app%3",
         "title_zh": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球..",
         "title_en": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球.."
@@ -84,575 +122,322 @@
       {
         "title": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道..",
         "link": "http://baijiahao.baidu.com/s?id=1863220990789660658",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863220990789660658><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2882399990%2C294838050%26fm%3D30%26app%3",
         "title_zh": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道..",
         "title_en": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道.."
       },
       {
-        "title": "国家发展改革委主任，与这五家企业负责人座谈→",
-        "link": "http://baijiahao.baidu.com/s?id=1863177831957270599",
-        "published": "2026-04-24 12:00",
-        "description": "",
-        "title_zh": "国家发展改革委主任，与这五家企业负责人座谈→",
-        "title_en": "国家发展改革委主任，与这五家企业负责人座谈→"
-      },
-      {
         "title": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
         "link": "http://baijiahao.baidu.com/s?id=1863170733920838457",
-        "published": "2026-04-24 12:00",
+        "published": "2026-04-25 12:03",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863170733920838457><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2090386992%2C294791095%26fm%3D30%26app%3",
         "title_zh": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
         "title_en": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司.."
-      },
-      {
-        "title": "沈阳铁西区携手企业打造沉浸式环保派对，共筑无废城市",
-        "link": "http://baijiahao.baidu.com/s?id=1863159632471740160",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863159632471740160><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2888660038%2C294780755%26fm%3D30%26app%3",
-        "title_zh": "沈阳铁西区携手企业打造沉浸式环保派对，共筑无废城市",
-        "title_en": "沈阳铁西区携手企业打造沉浸式环保派对，共筑无废城市"
-      },
-      {
-        "title": "济南高新区玉兰花园幼儿园：樱花树下，共赴一场成长与..",
-        "link": "http://baijiahao.baidu.com/s?id=1863154315241537160",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863154315241537160><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2148115672%2C294776473%26fm%3D30%26app%3",
-        "title_zh": "济南高新区玉兰花园幼儿园：樱花树下，共赴一场成长与..",
-        "title_en": "济南高新区玉兰花园幼儿园：樱花树下，共赴一场成长与.."
-      },
-      {
-        "title": "珍爱自然资源，宁乡市环保志愿者协会组织开展世界地球..",
-        "link": "http://baijiahao.baidu.com/s?id=1863152865392695885",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863152865392695885><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2611282969%2C294774462%26fm%3D30%26app%3",
-        "title_zh": "珍爱自然资源，宁乡市环保志愿者协会组织开展世界地球..",
-        "title_en": "珍爱自然资源，宁乡市环保志愿者协会组织开展世界地球.."
-      },
-      {
-        "title": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤..",
-        "link": "http://baijiahao.baidu.com/s?id=1863088947174420745",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863088947174420745><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D4082323553%2C294714961%26fm%3D30%26app%3",
-        "title_zh": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤..",
-        "title_en": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤.."
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-        "link": "https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 11:03",
-        "description": "In a phone interview with the BBC's North America editor, the president discussed next week's visit and his relationship with the UK PM.",
-        "title_en": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-        "title_zh": "特朗普告诉BBC，金的访问“绝对”有助于修复与英国的关系"
+        "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+        "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:02",
+        "description": "Iran says its Foreign Minister Abbas Araghchi is already in Pakistan but that there is no meeting planned between Iran and the US.",
+        "title_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+        "title_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈"
       },
       {
-        "title": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-        "link": "https://www.bbc.com/news/articles/cgldw5ekrjpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 04:45",
-        "description": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
-        "title_en": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-        "title_zh": "特朗普威胁布雷船，美国登上运载伊朗石油的船只"
+        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 00:04",
+        "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
+        "title_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
       },
       {
-        "title": "Masked Iranian forces appear to seize ships in staged video",
-        "link": "https://www.bbc.com/news/videos/cp86g5m8vyyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 02:15",
-        "description": "Analysis indicates that parts of the video appear to have been filmed hours after the ships were reportedly seized.",
-        "title_en": "Masked Iranian forces appear to seize ships in staged video",
-        "title_zh": "蒙面伊朗军队在视频中似乎扣押了船只"
+        "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+        "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 08:10",
+        "description": "On Friday morning, souring relations between Europe and the United States  reared its Medusa-like head again, writes the BBC's Europe editor.",
+        "title_en": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+        "title_zh": "卡蒂亚·阿德勒：欧洲北约盟国反击美国对西班牙的威胁"
       },
       {
-        "title": "US soldier charged after winning $400,000 betting on removal of Maduro",
-        "link": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 08:21",
-        "description": "Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.",
-        "title_en": "US soldier charged after winning $400,000 betting on removal of Maduro",
-        "title_zh": "美国士兵因押注推翻马杜罗赢得40万美元而被指控"
+        "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+        "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:55",
+        "description": "An internal Pentagon document reportedly raised the prospect of a change in position in retaliation for the UK not joining the Iran war.",
+        "title_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+        "title_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国"
       },
       {
-        "title": "Huge chunk of glacier blocks Everest route in peak climbing season",
-        "link": "https://www.bbc.com/news/articles/cy81lrnv5peo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 00:52",
-        "description": "Sherpas cannot prepare the route to the world's highest peak because a huge block of ice is in the way.",
-        "title_en": "Huge chunk of glacier blocks Everest route in peak climbing season",
-        "title_zh": "攀登高峰季节，巨大的冰川阻挡了珠穆朗玛峰的路线"
+        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 07:28",
+        "description": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
+        "title_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+        "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
       },
       {
-        "title": "Meta says it will cut 8,000 jobs as AI spending soars",
-        "link": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 06:56",
-        "description": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
-        "title_en": "Meta says it will cut 8,000 jobs as AI spending soars",
-        "title_zh": "Meta表示，随着人工智能支出飙升，它将裁员8000人"
+        "title": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
+        "link": "https://www.bbc.com/news/videos/cwy37w2y64ro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 07:00",
+        "description": "A Buckingham Palace source confirmed the Royals will not meet with survivors of sex offender Jeffrey Epstein during their state visit to the US.",
+        "title_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
+        "title_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”"
       },
       {
-        "title": "Singer D4vd had 'significant amount' of child sex abuse images when arrested, prosecutors say",
-        "link": "https://www.bbc.com/news/articles/cn53vg3y574o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 06:37",
-        "description": "The Tiktok star's attorneys have maintained his innocence and vowed to \"vigorously defend\" him.",
-        "title_en": "Singer D4vd had 'significant amount' of child sex abuse images when arrested, prosecutors say",
-        "title_zh": "检察官称歌手 D4vd 在被捕时拥有“大量”儿童性虐待图像"
+        "title": "China car giant BYD says it can thrive without US",
+        "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 05:25",
+        "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
+        "title_en": "China car giant BYD says it can thrive without US",
+        "title_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展"
       },
       {
-        "title": "Woman killed by bear in Polish forest, son and local government say",
-        "link": "https://www.bbc.com/news/articles/c20qrg4dyr3o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 02:16",
-        "description": "In an extremely rare fatal encounter, the 58-year-old was killed as she was walking in a mountainous area, her son told rescuers.",
-        "title_en": "Woman killed by bear in Polish forest, son and local government say",
-        "title_zh": "儿子和当地政府称，一名妇女在波兰森林中被熊杀死"
+        "title": "31 sloths die in Florida before opening of attraction",
+        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 12:02",
+        "description": "Many died due to conditions at a Florida warehouse where they'd been shipped, while others arrived from South America dead, authorities say.",
+        "title_en": "31 sloths die in Florida before opening of attraction",
+        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
       },
       {
-        "title": "US government watchdog to investigate Epstein files release",
-        "link": "https://www.bbc.com/news/articles/cvg0rkvjlvvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 04:40",
-        "description": "The justice department's inspector general will review the withholding and overdue release of secret files.",
-        "title_en": "US government watchdog to investigate Epstein files release",
-        "title_zh": "美国政府监管机构调查爱泼斯坦文件发布"
+        "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+        "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 09:18",
+        "description": "The boss of the controversial tech company with UK government contracts published a 22-point plan on the future of the West.",
+        "title_en": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+        "title_zh": "“反觉醒”科技老板与 NHS 和国防合同的病毒宣言"
       },
       {
-        "title": "White House memo claims mass AI theft by Chinese firms",
-        "link": "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 08:58",
-        "description": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
-        "title_en": "White House memo claims mass AI theft by Chinese firms",
-        "title_zh": "白宫备忘录称中国公司大规模盗窃人工智能"
+        "title": "US justice department drops probe into Fed chairman Jerome Powell",
+        "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 03:10",
+        "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
+        "title_en": "US justice department drops probe into Fed chairman Jerome Powell",
+        "title_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查"
       },
       {
-        "title": "More than 500 people killed in Tanzania election violence, inquiry finds",
-        "link": "https://www.bbc.com/news/articles/cgld775knzyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 23:33",
-        "description": "Opposition parties accused security forces but the official report does not say who was responsible.",
-        "title_en": "More than 500 people killed in Tanzania election violence, inquiry finds",
-        "title_zh": "调查发现坦桑尼亚选举暴力事件造成500多人死亡"
+        "title": "US to allow firing squads, gas, and electrocution for federal executions",
+        "link": "https://www.bbc.com/news/articles/cg73l2d079ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:15",
+        "description": "In a memo, the Department of Justice says the move will \"strengthen\" the death penalty and deter crime.",
+        "title_en": "US to allow firing squads, gas, and electrocution for federal executions",
+        "title_zh": "美国允许联邦执行行刑队、毒气和电刑"
       },
       {
-        "title": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-        "link": "https://www.bbc.com/news/articles/cy81ljrd445o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 23:11",
-        "description": "Ahmed Shihab-Eldin reportedly faced charges, including spreading false information, after he re-posted images related to the Iran war.",
-        "title_en": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-        "title_zh": "律师称，因社交媒体帖子而在科威特被关押的美国科威特记者被无罪释放"
+        "title": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+        "link": "https://www.bbc.com/news/articles/cvglxgq1p2jo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-24 18:41",
+        "description": "Amjad Youssef was wanted over the mass killing of blindfolded civilians in April 2013 in the district of Damascus.",
+        "title_en": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+        "title_zh": "叙利亚内战期间臭名昭著的塔达蒙大屠杀的主要嫌疑人被捕"
       },
       {
-        "title": "US Navy chief leaving post 'effective immediately', Pentagon says",
-        "link": "https://www.bbc.com/news/articles/ce9ml02g5k7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 16:37",
-        "description": "Reports say Phelan, whose role was largely administrative, left amid tension over US shipbuilding.",
-        "title_en": "US Navy chief leaving post 'effective immediately', Pentagon says",
-        "title_zh": "五角大楼表示，美国海军司令离职“立即生效”"
+        "title": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
+        "link": "https://www.bbc.com/news/articles/cz67qjn48eqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 00:20",
+        "description": "The British Israeli man says he was detained after someone took offence at his kippah embroidered with Israeli and Palestinian flags.",
+        "title_en": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
+        "title_zh": "以色列警方在警察从无边帽上“剪下巴勒斯坦国旗”后展开调查"
       },
       {
-        "title": "South African police chief suspended over $20m health contract",
-        "link": "https://www.bbc.com/news/articles/cvglxkjwr5lo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 00:05",
-        "description": "Cyril Ramaphosa said the suspension was because of the critical role Fannie Masemola plays in fighting crime.",
-        "title_en": "South African police chief suspended over $20m health contract",
-        "title_zh": "南非警察局长暂停价值2000万美元的医疗合同"
+        "title": "Pirates hijack oil tanker off the coast of Somalia",
+        "link": "https://www.bbc.com/news/articles/c78l26yn981o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 01:04",
+        "description": "Piracy, once notorious in this stretch of the Indian Ocean, has made a comeback in recent years.",
+        "title_en": "Pirates hijack oil tanker off the coast of Somalia",
+        "title_zh": "海盗在索马里海岸劫持油轮"
       },
       {
-        "title": "Two trains collide head-on in Denmark, leaving five critically hurt",
-        "link": "https://www.bbc.com/news/articles/cgqkw3qk0dlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 21:54",
-        "description": "The accident happened early on Thursday at a level crossing north of Copenhagen.",
-        "title_en": "Two trains collide head-on in Denmark, leaving five critically hurt",
-        "title_zh": "丹麦两列火车迎头相撞，造成五人重伤"
+        "title": "Mandelson under formal investigation by EU's anti-fraud office",
+        "link": "https://www.bbc.com/news/articles/c77m242z2j8o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 00:18",
+        "description": "The EU's anti-fraud office confirms it has \"sufficient information\" to launch  an investigation, but does not say if it involves fraud.",
+        "title_en": "Mandelson under formal investigation by EU's anti-fraud office",
+        "title_zh": "曼德尔森接受欧盟反欺诈办公室正式调查"
       },
       {
-        "title": "Warner Bros shareholders approve Paramount's $111bn takeover",
-        "link": "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 00:15",
-        "description": "The approval came as Donald Trump is to attend a dinner with billionaire Paramount backers the Ellisons.",
-        "title_en": "Warner Bros shareholders approve Paramount's $111bn takeover",
-        "title_zh": "华纳兄弟股东批准派拉蒙 1110 亿美元的收购"
+        "title": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege",
+        "link": "https://www.bbc.com/news/articles/crr1gwnx4e8o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 01:20",
+        "description": "Kosovo's court sentences two men to life imprisonment and another to a 30-year term for the 2023 attack.",
+        "title_en": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege",
+        "title_zh": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege"
       }
     ],
-    "伊斯兰（半岛等）": [
-      {
-        "title": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
-        "link": "https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz?traffic_source=rss",
-        "published": "2026-04-24 10:50",
-        "description": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
-        "title_en": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
-        "title_zh": "美国和伊朗在霍尔木兹海峡陷入僵局，油价升至每桶106美元以上"
-      },
-      {
-        "title": "Iran war live: Lebanon truce extended; Trump says time not on Tehran’s side",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side?traffic_source=rss",
-        "published": "2026-04-24 08:00",
-        "description": "Death toll from Israel&#039;s ongoing genocidal war on Gaza has reached 72,568 with 172,338 injured: Gaza&#039;s Health Ministry.",
-        "title_en": "Iran war live: Lebanon truce extended; Trump says time not on Tehran’s side",
-        "title_zh": "伊朗战事直播：黎巴嫩休战期延长；"
-      },
-      {
-        "title": "US professors sue university over arrest during pro-Palestine protest",
-        "link": "https://www.aljazeera.com/news/2026/4/23/us-professors-sue-university-over-arrest-during-pro-palestine-protest?traffic_source=rss",
-        "published": "2026-04-24 07:20",
-        "description": "Philosophy professor Noelle McAfee says university failed to protect students and staff in crackdown on protests.",
-        "title_en": "US professors sue university over arrest during pro-Palestine protest",
-        "title_zh": "美国教授因在支持巴勒斯坦抗议期间被捕而起诉大学"
-      },
-      {
-        "title": "US soldier charged with using Polymarket to bet on Nicolas Maduro abduction",
-        "link": "https://www.aljazeera.com/economy/2026/4/23/us-soldier-charged-with-using-polymarket-to-bet-on-nicolas-maduro-abduction?traffic_source=rss",
-        "published": "2026-04-24 07:04",
-        "description": "The suspect, 38-year-old Gannon Ken Van Dyke, allegedly made $400,000 from insider knowledge of the Venezuela attack.",
-        "title_en": "US soldier charged with using Polymarket to bet on Nicolas Maduro abduction",
-        "title_zh": "美国士兵被控利用 Polymarket 押注尼古拉斯·马杜罗被绑架"
-      },
-      {
-        "title": "Meta lines up layoffs while Microsoft offers buyouts",
-        "link": "https://www.aljazeera.com/economy/2026/4/23/meta-lines-up-layoffs-while-microsoft-offers-buyouts?traffic_source=rss",
-        "published": "2026-04-24 06:11",
-        "description": "Meta will lay off 8,000 workers while Microsoft is offering  buyouts to 8,750 people, a first for the Windows maker.",
-        "title_en": "Meta lines up layoffs while Microsoft offers buyouts",
-        "title_zh": "Meta 排队裁员，微软提供买断"
-      },
-      {
-        "title": "Milei administration in Argentina blocks journalist access to Casa Rosada",
-        "link": "https://www.aljazeera.com/news/2026/4/23/milei-administration-in-argentina-blocks-journalist-access-to-casa-rosada?traffic_source=rss",
-        "published": "2026-04-24 05:58",
-        "description": "Press advocates have warned of hostile rhetoric towards journalists and increasingly restrictive policies under Milei.",
-        "title_en": "Milei administration in Argentina blocks journalist access to Casa Rosada",
-        "title_zh": "阿根廷米雷政府阻止记者进入玫瑰宫"
-      },
-      {
-        "title": "Funeral held for journalist killed in targeted Israeli strike",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/23/funeral-held-for-journalist-killed-in-targeted-israeli-strike?traffic_source=rss",
-        "published": "2026-04-24 05:11",
-        "description": "Mourners attended the funeral of Amal Khalil, a journalist who was killed in an Israeli attack in south Lebanon.",
-        "title_en": "Funeral held for journalist killed in targeted Israeli strike",
-        "title_zh": "为在以色列有针对性的袭击中丧生的记者举行葬礼"
-      },
-      {
-        "title": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
-        "link": "https://www.aljazeera.com/news/2026/4/23/eu-formally-approves-90bn-euro-ukraine-loan-and-new-sanctions-on-russia?traffic_source=rss",
-        "published": "2026-04-24 05:03",
-        "description": "Ukrainian President Zelenskyy welcomes the development, urging that the first tranche be disbursed by May or June.",
-        "title_en": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
-        "title_zh": "欧盟正式批准向乌克兰提供900亿欧元贷款以及对俄罗斯实施新制裁"
-      },
-      {
-        "title": "Pope decries migrants and refugees being treated ‘worse than house pets’",
-        "link": "https://www.aljazeera.com/news/2026/4/23/pope-decries-migrants-and-refugees-being-treated-worse-than-house-pets?traffic_source=rss",
-        "published": "2026-04-24 05:01",
-        "description": "Pope Leo has previously criticised Donald Trump&#039;s US immigration policies, calling for better treatment of refugees.",
-        "title_en": "Pope decries migrants and refugees being treated ‘worse than house pets’",
-        "title_zh": "教皇谴责移民和难民的待遇“比家养宠物还差”"
-      },
-      {
-        "title": "War-driven demand boosts profits for weapons and aircraft manufacturers",
-        "link": "https://www.aljazeera.com/economy/2026/4/23/war-driven-demand-boosts-profits-for-weapons-and-aircraft-manufacturers?traffic_source=rss",
-        "published": "2026-04-24 05:00",
-        "description": "Boeing sees reduced first-quarter loss as defence earnings rise amid $2.3bn US Pentagon contract.",
-        "title_en": "War-driven demand boosts profits for weapons and aircraft manufacturers",
-        "title_zh": "战争驱动的需求提高了武器和飞机制造商的利润"
-      },
-      {
-        "title": "Will complex EU loan deal intensify conflict?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/4/23/will-complex-eu-loan-deal-intensify-conflict?traffic_source=rss",
-        "published": "2026-04-24 04:55",
-        "description": "Ukraine gets multibillion-dollar loan; Russia rakes in oil revenue.",
-        "title_en": "Will complex EU loan deal intensify conflict?",
-        "title_zh": "复杂的欧盟贷款协议是否会加剧冲突？"
-      },
-      {
-        "title": "Trump says he is keeping Strait of Hormuz closed, not Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/23/trump-says-he-is-keeping-strait-of-hormuz-closed-not-iran?traffic_source=rss",
-        "published": "2026-04-24 04:53",
-        "description": "Donald Trump said he is the one keeping the Strait of Hormuz closed, not Iran.",
-        "title_en": "Trump says he is keeping Strait of Hormuz closed, not Iran",
-        "title_zh": "Trump says he is keeping Strait of Hormuz closed, not Iran"
-      },
-      {
-        "title": "US sanctions Cambodian senator over purported scam network links",
-        "link": "https://www.aljazeera.com/news/2026/4/23/us-sanctions-cambodian-senator-over-purported-scam-network-links?traffic_source=rss",
-        "published": "2026-04-24 04:52",
-        "description": "US Treasury Department accuses Kok An and associates of using political influence to protect network of fraud centres.",
-        "title_en": "US sanctions Cambodian senator over purported scam network links",
-        "title_zh": "美国因涉嫌诈骗网络链接而制裁柬埔寨参议员"
-      },
-      {
-        "title": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
-        "link": "https://www.aljazeera.com/news/2026/4/23/iran-dismisses-trumps-claim-of-leadership-rift-says-nation-is-one-soul?traffic_source=rss",
-        "published": "2026-04-24 04:26",
-        "description": "Several Iranian officials share same message, emphasising what they call the &#039;iron unity of the nation and government&#039;.",
-        "title_en": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
-        "title_zh": "伊朗驳斥特朗普关于领导层分歧的说法，称国家是“同一个灵魂”"
-      },
-      {
-        "title": "Real Betis vs Real Madrid: La Liga – teams, start time, lineup",
-        "link": "https://www.aljazeera.com/sports/2026/4/23/real-betis-vs-real-madrid-la-liga-teams-start-lineup?traffic_source=rss",
-        "published": "2026-04-24 03:20",
-        "description": "Real Madrid could close gap on La Liga leaders Barcelona to six points on Friday, three weeks shy of a Clasico meeting.",
-        "title_en": "Real Betis vs Real Madrid: La Liga – teams, start time, lineup",
-        "title_zh": "皇家贝蒂斯 vs 皇家马德里：西甲 - 球队、开始时间、阵容"
-      },
-      {
-        "title": "How Trump’s Iran war is driving military dissent",
-        "link": "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss",
-        "published": "2026-04-24 03:08",
-        "description": "From protests to quiet resistance, dissent is rising inside the United States military over the US-Israel war on Iran.",
-        "title_en": "How Trump’s Iran war is driving military dissent",
-        "title_zh": "特朗普的伊朗战争如何引发军事异议"
-      }
-    ]
+    "伊斯兰（半岛等）": []
   },
   "triangle": [
     {
-      "event_hint": "US soldier charged after winning $400,000 betting on removal of Maduro",
-      "event_hint_zh": "美国士兵因押注推翻马杜罗赢得40万美元而被指控",
-      "event_hint_en": "US soldier charged after winning $400,000 betting on removal of Maduro",
+      "event_hint": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+      "event_hint_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈",
+      "event_hint_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "US soldier charged after winning $400,000 betting on removal of Maduro",
-        "link": "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 08:21",
-        "description": "Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.",
-        "title_en": "US soldier charged after winning $400,000 betting on removal of Maduro",
-        "title_zh": "美国士兵因押注推翻马杜罗赢得40万美元而被指控"
+        "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+        "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:02",
+        "description": "Iran says its Foreign Minister Abbas Araghchi is already in Pakistan but that there is no meeting planned between Iran and the US.",
+        "title_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+        "title_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈"
       },
-      "伊斯兰（半岛等）": {
-        "title": "US soldier charged with using Polymarket to bet on Nicolas Maduro abduction",
-        "link": "https://www.aljazeera.com/economy/2026/4/23/us-soldier-charged-with-using-polymarket-to-bet-on-nicolas-maduro-abduction?traffic_source=rss",
-        "published": "2026-04-24 07:04",
-        "description": "The suspect, 38-year-old Gannon Ken Van Dyke, allegedly made $400,000 from insider knowledge of the Venezuela attack.",
-        "title_en": "US soldier charged with using Polymarket to bet on Nicolas Maduro abduction",
-        "title_zh": "美国士兵被控利用 Polymarket 押注尼古拉斯·马杜罗被绑架"
-      },
-      "my_view": "中国报道缺失，欧美聚焦金融投机指控，伊斯兰强调绑架背景。三方立场差异体现对事件核心定性不同：经济违规、政治干预还是军事行动。",
-      "summary": "美国士兵因在预测平台押注马杜罗下台并获利而被起诉，反映金融与政治干预的交叉。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-      "event_hint_zh": "特朗普威胁布雷船，美国登上运载伊朗石油的船只",
-      "event_hint_en": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-      "中国": {
-        "title": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
-        "link": "http://baijiahao.baidu.com/s?id=1863314427754645453",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863314427754645453><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1168804616%2C294924922%26fm%3D30%26app%3",
-        "title_zh": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
-        "title_en": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官.."
-      },
-      "美国（欧美媒体）": {
-        "title": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-        "link": "https://www.bbc.com/news/articles/cgldw5ekrjpo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 04:45",
-        "description": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
-        "title_en": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
-        "title_zh": "特朗普威胁布雷船，美国登上运载伊朗石油的船只"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
-        "link": "https://www.aljazeera.com/news/2026/4/23/iran-dismisses-trumps-claim-of-leadership-rift-says-nation-is-one-soul?traffic_source=rss",
-        "published": "2026-04-24 04:26",
-        "description": "Several Iranian officials share same message, emphasising what they call the &#039;iron unity of the nation and government&#039;.",
-        "title_en": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
-        "title_zh": "伊朗驳斥特朗普关于领导层分歧的说法，称国家是“同一个灵魂”"
-      },
-      "my_view": "中国视角侧重经济合作，淡化冲突；欧美强调美国强硬行动；伊斯兰视角聚焦伊朗内部团结，反驳特朗普言论。三方立场分别凸显利益、威慑与主权。",
-      "summary": "美伊对峙升级，美国拦截伊朗石油船，伊朗否认内部分裂，各方媒体选择性报道以服务自身立场。"
-    },
-    {
-      "event_hint": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-      "event_hint_zh": "律师称，因社交媒体帖子而在科威特被关押的美国科威特记者被无罪释放",
-      "event_hint_en": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
+      "event_hint": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+      "event_hint_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国",
+      "event_hint_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-        "link": "https://www.bbc.com/news/articles/cy81ljrd445o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 23:11",
-        "description": "Ahmed Shihab-Eldin reportedly faced charges, including spreading false information, after he re-posted images related to the Iran war.",
-        "title_en": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
-        "title_zh": "律师称，因社交媒体帖子而在科威特被关押的美国科威特记者被无罪释放"
+        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 00:04",
+        "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
+        "title_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
       },
-      "伊斯兰（半岛等）": {
-        "title": "Funeral held for journalist killed in targeted Israeli strike",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/23/funeral-held-for-journalist-killed-in-targeted-israeli-strike?traffic_source=rss",
-        "published": "2026-04-24 05:11",
-        "description": "Mourners attended the funeral of Amal Khalil, a journalist who was killed in an Israeli attack in south Lebanon.",
-        "title_en": "Funeral held for journalist killed in targeted Israeli strike",
-        "title_zh": "为在以色列有针对性的袭击中丧生的记者举行葬礼"
-      },
-      "my_view": "网易未报道，BBC聚焦法律程序与个案，强调记者身份与释放结果；半岛转向以色列打击记者事件，凸显伊斯兰视角对西方媒体选择性报道的批判。",
-      "summary": "同一记者因社交媒体帖子在科威特被拘后获释，不同媒体依据自身立场选择性报道或转移议题。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "US government watchdog to investigate Epstein files release",
-      "event_hint_zh": "美国政府监管机构调查爱泼斯坦文件发布",
-      "event_hint_en": "US government watchdog to investigate Epstein files release",
-      "中国": {
-        "title": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤..",
-        "link": "http://baijiahao.baidu.com/s?id=1863088947174420745",
-        "published": "2026-04-24 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863088947174420745><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D4082323553%2C294714961%26fm%3D30%26app%3",
-        "title_zh": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤..",
-        "title_en": "女大学生校园内被一群狗围堵撕咬 全身被咬20多处伤.."
-      },
-      "美国（欧美媒体）": {
-        "title": "US government watchdog to investigate Epstein files release",
-        "link": "https://www.bbc.com/news/articles/cvg0rkvjlvvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 04:40",
-        "description": "The justice department's inspector general will review the withholding and overdue release of secret files.",
-        "title_en": "US government watchdog to investigate Epstein files release",
-        "title_zh": "美国政府监管机构调查爱泼斯坦文件发布"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "US professors sue university over arrest during pro-Palestine protest",
-        "link": "https://www.aljazeera.com/news/2026/4/23/us-professors-sue-university-over-arrest-during-pro-palestine-protest?traffic_source=rss",
-        "published": "2026-04-24 07:20",
-        "description": "Philosophy professor Noelle McAfee says university failed to protect students and staff in crackdown on protests.",
-        "title_en": "US professors sue university over arrest during pro-Palestine protest",
-        "title_zh": "美国教授因在支持巴勒斯坦抗议期间被捕而起诉大学"
-      },
-      "my_view": "中国视角聚焦国内社会安全，欧美视角关注政府监管与司法公正，伊斯兰视角强调政治抗议与学术自由。三方立场差异反映其媒体议程设置与受众关注点的不同。",
-      "summary": "同一事件因媒体立场和地域差异，被分别报道为国内治安、政府调查及学术抗议，本质是信息传播中的选择性呈现。"
-    },
-    {
-      "event_hint": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-      "event_hint_zh": "特朗普告诉BBC，金的访问“绝对”有助于修复与英国的关系",
-      "event_hint_en": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
+      "event_hint": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+      "event_hint_zh": "卡蒂亚·阿德勒：欧洲北约盟国反击美国对西班牙的威胁",
+      "event_hint_en": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-        "link": "https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 11:03",
-        "description": "In a phone interview with the BBC's North America editor, the president discussed next week's visit and his relationship with the UK PM.",
-        "title_en": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
-        "title_zh": "特朗普告诉BBC，金的访问“绝对”有助于修复与英国的关系"
+        "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+        "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 08:10",
+        "description": "On Friday morning, souring relations between Europe and the United States  reared its Medusa-like head again, writes the BBC's Europe editor.",
+        "title_en": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
+        "title_zh": "卡蒂亚·阿德勒：欧洲北约盟国反击美国对西班牙的威胁"
       },
-      "伊斯兰（半岛等）": {
-        "title": "How Trump’s Iran war is driving military dissent",
-        "link": "https://www.aljazeera.com/video/the-take-2/2026/4/23/how-trumps-iran-war-is-driving-military-dissent?traffic_source=rss",
-        "published": "2026-04-24 03:08",
-        "description": "From protests to quiet resistance, dissent is rising inside the United States military over the US-Israel war on Iran.",
-        "title_en": "How Trump’s Iran war is driving military dissent",
-        "title_zh": "特朗普的伊朗战争如何引发军事异议"
-      },
-      "my_view": "中国视角缺失，欧美聚焦特朗普与英王室互动，突出关系修复；伊斯兰视角借标题转向伊朗战争，转移议题并批判美国军事政策，立场对立明显。",
-      "summary": "特朗普借金访英表态修复关系，但伊斯兰媒体以伊朗战争议题转移焦点，反映地缘政治分歧。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "Meta says it will cut 8,000 jobs as AI spending soars",
-      "event_hint_zh": "Meta表示，随着人工智能支出飙升，它将裁员8000人",
-      "event_hint_en": "Meta says it will cut 8,000 jobs as AI spending soars",
+      "event_hint": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+      "event_hint_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国",
+      "event_hint_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Meta says it will cut 8,000 jobs as AI spending soars",
-        "link": "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 06:56",
-        "description": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
-        "title_en": "Meta says it will cut 8,000 jobs as AI spending soars",
-        "title_zh": "Meta表示，随着人工智能支出飙升，它将裁员8000人"
+        "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+        "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:55",
+        "description": "An internal Pentagon document reportedly raised the prospect of a change in position in retaliation for the UK not joining the Iran war.",
+        "title_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
+        "title_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国"
       },
-      "伊斯兰（半岛等）": {
-        "title": "Meta lines up layoffs while Microsoft offers buyouts",
-        "link": "https://www.aljazeera.com/economy/2026/4/23/meta-lines-up-layoffs-while-microsoft-offers-buyouts?traffic_source=rss",
-        "published": "2026-04-24 06:11",
-        "description": "Meta will lay off 8,000 workers while Microsoft is offering  buyouts to 8,750 people, a first for the Windows maker.",
-        "title_en": "Meta lines up layoffs while Microsoft offers buyouts",
-        "title_zh": "Meta 排队裁员，微软提供买断"
-      },
-      "my_view": "网易未报道，BBC侧重Meta因AI支出裁员的事实，半岛则突出Meta裁员与微软买断的对比，暗示西方科技行业分化。中国视角缺失可能反映对AI竞争风险的审慎态度。",
-      "summary": "Meta因AI投入激增宣布裁员8000人，凸显科技行业在AI转型中的成本压力与就业调整。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "Warner Bros shareholders approve Paramount's $111bn takeover",
-      "event_hint_zh": "华纳兄弟股东批准派拉蒙 1110 亿美元的收购",
-      "event_hint_en": "Warner Bros shareholders approve Paramount's $111bn takeover",
+      "event_hint": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+      "event_hint_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险",
+      "event_hint_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Warner Bros shareholders approve Paramount's $111bn takeover",
-        "link": "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 00:15",
-        "description": "The approval came as Donald Trump is to attend a dinner with billionaire Paramount backers the Ellisons.",
-        "title_en": "Warner Bros shareholders approve Paramount's $111bn takeover",
-        "title_zh": "华纳兄弟股东批准派拉蒙 1110 亿美元的收购"
+        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 07:28",
+        "description": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
+        "title_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+        "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
       },
-      "伊斯兰（半岛等）": {
-        "title": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
-        "link": "https://www.aljazeera.com/news/2026/4/23/eu-formally-approves-90bn-euro-ukraine-loan-and-new-sanctions-on-russia?traffic_source=rss",
-        "published": "2026-04-24 05:03",
-        "description": "Ukrainian President Zelenskyy welcomes the development, urging that the first tranche be disbursed by May or June.",
-        "title_en": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
-        "title_zh": "欧盟正式批准向乌克兰提供900亿欧元贷款以及对俄罗斯实施新制裁"
-      },
-      "my_view": "中国视角未报道，欧美聚焦华纳股东批准收购派拉蒙，强调资本运作；伊斯兰视角则转向欧盟援乌贷款与对俄制裁，凸显地缘政治立场差异。",
-      "summary": "同一事件因媒体立场不同，报道重心从商业收购转向地缘政治议题。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "South African police chief suspended over $20m health contract",
-      "event_hint_zh": "南非警察局长暂停价值2000万美元的医疗合同",
-      "event_hint_en": "South African police chief suspended over $20m health contract",
+      "event_hint": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
+      "event_hint_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”",
+      "event_hint_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "South African police chief suspended over $20m health contract",
-        "link": "https://www.bbc.com/news/articles/cvglxkjwr5lo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-24 00:05",
-        "description": "Cyril Ramaphosa said the suspension was because of the critical role Fannie Masemola plays in fighting crime.",
-        "title_en": "South African police chief suspended over $20m health contract",
-        "title_zh": "南非警察局长暂停价值2000万美元的医疗合同"
+        "title": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
+        "link": "https://www.bbc.com/news/videos/cwy37w2y64ro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 07:00",
+        "description": "A Buckingham Palace source confirmed the Royals will not meet with survivors of sex offender Jeffrey Epstein during their state visit to the US.",
+        "title_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
+        "title_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”"
       },
-      "伊斯兰（半岛等）": {
-        "title": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
-        "link": "https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz?traffic_source=rss",
-        "published": "2026-04-24 10:50",
-        "description": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
-        "title_en": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
-        "title_zh": "美国和伊朗在霍尔木兹海峡陷入僵局，油价升至每桶106美元以上"
-      },
-      "my_view": "中国视角未报道，欧美聚焦南非警察局长涉贪，伊斯兰视角则关联伊朗局势，显示媒体立场各异：欧美关注制度问责，伊斯兰侧重地缘冲突。",
-      "summary": "同一事件因媒体立场不同，报道焦点从涉腐转向地缘危机，凸显信息选择性呈现。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "US Navy chief leaving post 'effective immediately', Pentagon says",
-      "event_hint_zh": "五角大楼表示，美国海军司令离职“立即生效”",
-      "event_hint_en": "US Navy chief leaving post 'effective immediately', Pentagon says",
+      "event_hint": "China car giant BYD says it can thrive without US",
+      "event_hint_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展",
+      "event_hint_en": "China car giant BYD says it can thrive without US",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "US Navy chief leaving post 'effective immediately', Pentagon says",
-        "link": "https://www.bbc.com/news/articles/ce9ml02g5k7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 16:37",
-        "description": "Reports say Phelan, whose role was largely administrative, left amid tension over US shipbuilding.",
-        "title_en": "US Navy chief leaving post 'effective immediately', Pentagon says",
-        "title_zh": "五角大楼表示，美国海军司令离职“立即生效”"
+        "title": "China car giant BYD says it can thrive without US",
+        "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 05:25",
+        "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
+        "title_en": "China car giant BYD says it can thrive without US",
+        "title_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展"
       },
-      "伊斯兰（半岛等）": {
-        "title": "US sanctions Cambodian senator over purported scam network links",
-        "link": "https://www.aljazeera.com/news/2026/4/23/us-sanctions-cambodian-senator-over-purported-scam-network-links?traffic_source=rss",
-        "published": "2026-04-24 04:52",
-        "description": "US Treasury Department accuses Kok An and associates of using political influence to protect network of fraud centres.",
-        "title_en": "US sanctions Cambodian senator over purported scam network links",
-        "title_zh": "美国因涉嫌诈骗网络链接而制裁柬埔寨参议员"
-      },
-      "my_view": "中国视角未报道，欧美聚焦军事人事变动，伊斯兰视角转向关联制裁，三方关注点各异：欧美重官方程序，伊斯兰重地缘利益，中国或有意淡化。",
-      "summary": "美国海军司令突然离职，但不同媒体因立场差异而选择报道不同侧面。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     },
     {
-      "event_hint": "More than 500 people killed in Tanzania election violence, inquiry finds",
-      "event_hint_zh": "调查发现坦桑尼亚选举暴力事件造成500多人死亡",
-      "event_hint_en": "More than 500 people killed in Tanzania election violence, inquiry finds",
+      "event_hint": "31 sloths die in Florida before opening of attraction",
+      "event_hint_zh": "佛罗里达州31只树懒在景点开放前死亡",
+      "event_hint_en": "31 sloths die in Florida before opening of attraction",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "More than 500 people killed in Tanzania election violence, inquiry finds",
-        "link": "https://www.bbc.com/news/articles/cgld775knzyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-23 23:33",
-        "description": "Opposition parties accused security forces but the official report does not say who was responsible.",
-        "title_en": "More than 500 people killed in Tanzania election violence, inquiry finds",
-        "title_zh": "调查发现坦桑尼亚选举暴力事件造成500多人死亡"
+        "title": "31 sloths die in Florida before opening of attraction",
+        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 12:02",
+        "description": "Many died due to conditions at a Florida warehouse where they'd been shipped, while others arrived from South America dead, authorities say.",
+        "title_en": "31 sloths die in Florida before opening of attraction",
+        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
       },
-      "伊斯兰（半岛等）": {
-        "title": "Pope decries migrants and refugees being treated ‘worse than house pets’",
-        "link": "https://www.aljazeera.com/news/2026/4/23/pope-decries-migrants-and-refugees-being-treated-worse-than-house-pets?traffic_source=rss",
-        "published": "2026-04-24 05:01",
-        "description": "Pope Leo has previously criticised Donald Trump&#039;s US immigration policies, calling for better treatment of refugees.",
-        "title_en": "Pope decries migrants and refugees being treated ‘worse than house pets’",
-        "title_zh": "教皇谴责移民和难民的待遇“比家养宠物还差”"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
+    },
+    {
+      "event_hint": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+      "event_hint_zh": "“反觉醒”科技老板与 NHS 和国防合同的病毒宣言",
+      "event_hint_en": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+        "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 09:18",
+        "description": "The boss of the controversial tech company with UK government contracts published a 22-point plan on the future of the West.",
+        "title_en": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
+        "title_zh": "“反觉醒”科技老板与 NHS 和国防合同的病毒宣言"
       },
-      "my_view": "网易未报道显示中方对非洲内政的谨慎立场；BBC聚焦事实本身，强调死亡数字；半岛则转移至教皇批评难民待遇，暗示对西方双重标准的批判，三方立场差异明显。",
-      "summary": "坦桑尼亚选举暴力致500余人死亡，不同媒体基于立场选择性报道或转移焦点。"
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
+    },
+    {
+      "event_hint": "US justice department drops probe into Fed chairman Jerome Powell",
+      "event_hint_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查",
+      "event_hint_en": "US justice department drops probe into Fed chairman Jerome Powell",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "US justice department drops probe into Fed chairman Jerome Powell",
+        "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 03:10",
+        "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
+        "title_en": "US justice department drops probe into Fed chairman Jerome Powell",
+        "title_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查"
+      },
+      "伊斯兰（半岛等）": null,
+      "my_view": "",
+      "summary": ""
     }
   ]
 }
