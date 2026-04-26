@@ -1,174 +1,205 @@
 {
-  "generated_at": "2026-04-25 20:01:00 +08",
-  "generated_date": "2026-04-25",
-  "current_slot": "晚",
+  "generated_at": "2026-04-26 08:00:58 +08",
+  "generated_date": "2026-04-26",
+  "current_slot": "早",
   "slots_done": [
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
-        "title": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
-        "link": "http://baijiahao.baidu.com/s?id=1863408304082179360",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863408304082179360><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3351108596%2C295012391%26fm%3D30%26app%3",
-        "title_zh": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
-        "title_en": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台.."
+        "title": "绿茵逐梦！观山湖的足球少年们把热爱踢进了国家队",
+        "link": "http://baijiahao.baidu.com/s?id=1863487511526735858",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863487511526735858><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D487349519%2C295086120%26fm%3D30%26app%3D",
+        "title_zh": "绿茵逐梦！观山湖的足球少年们把热爱踢进了国家队",
+        "title_en": "绿茵逐梦！观山湖的足球少年们把热爱踢进了国家队"
+      },
+      {
+        "title": "高考拼营养｜脑力消耗大？补充优质蛋白是关键",
+        "link": "http://baijiahao.baidu.com/s?id=1863452660608132110",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863452660608132110><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2575086110%2C295053659%26fm%3D30%26app%3",
+        "title_zh": "高考拼营养｜脑力消耗大？补充优质蛋白是关键",
+        "title_en": "高考拼营养｜脑力消耗大？补充优质蛋白是关键"
+      },
+      {
+        "title": "成都再添83所AI试点校，快看你家孩子学校在不在（..",
+        "link": "http://baijiahao.baidu.com/s?id=1863437777620193808",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863437777620193808><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1015043362%2C295039802%26fm%3D30%26app%3",
+        "title_zh": "成都再添83所AI试点校，快看你家孩子学校在不在（..",
+        "title_en": "成都再添83所AI试点校，快看你家孩子学校在不在（.."
+      },
+      {
+        "title": "环保又增效，这波“氨气回收”操作一举两得！",
+        "link": "http://baijiahao.baidu.com/s?id=1863428558172041888",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863428558172041888><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2082577603%2C295031215%26fm%3D30%26app%3",
+        "title_zh": "环保又增效，这波“氨气回收”操作一举两得！",
+        "title_en": "环保又增效，这波“氨气回收”操作一举两得！"
       },
       {
         "title": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
         "link": "http://baijiahao.baidu.com/s?id=1863404085598743261",
-        "published": "2026-04-25 12:03",
+        "published": "2026-04-26 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863404085598743261><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D298585708%2C295008422%26fm%3D30%26app%3D",
         "title_zh": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
         "title_en": "1个杭二，3个学军，3个杭高……杭州这所小学的班主.."
       },
       {
-        "title": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
-        "link": "http://baijiahao.baidu.com/s?id=1863403520794843787",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863403520794843787><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3040628780%2C295007895%26fm%3D30%26app%3",
-        "title_zh": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
-        "title_en": "山师出国留学培训基地在学校宣传思想文化工作先优评选.."
-      },
-      {
-        "title": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！",
-        "link": "http://baijiahao.baidu.com/s?id=1863403172798567868",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863403172798567868><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D4252295060%2C295007571%26fm%3D30%26app%3",
-        "title_zh": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！",
-        "title_en": "五色信箱塞满小请求 想吃的菜、想办的赛……全安排！"
-      },
-      {
         "title": "石景山这所学校换了“新身份”",
         "link": "http://baijiahao.baidu.com/s?id=1863363504938214567",
-        "published": "2026-04-25 12:03",
+        "published": "2026-04-26 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863363504938214567><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3911436231%2C294970629%26fm%3D30%26app%3",
         "title_zh": "石景山这所学校换了“新身份”",
         "title_en": "石景山这所学校换了“新身份”"
       },
       {
-        "title": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办",
-        "link": "http://baijiahao.baidu.com/s?id=1863344412014882036",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863344412014882036><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D226523210%2C294952847%26fm%3D30%26app%3D",
-        "title_zh": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办",
-        "title_en": "第九届全球华语朗诵大赛老挝万象中老友谊学校成功举办"
+        "title": "长沙雨花区：一所所学校如何成为全民阅读的“支点”",
+        "link": "http://baijiahao.baidu.com/s?id=1863343591694619844",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863343591694619844><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2903460082%2C294952081%26fm%3D30%26app%3",
+        "title_zh": "长沙雨花区：一所所学校如何成为全民阅读的“支点”",
+        "title_en": "长沙雨花区：一所所学校如何成为全民阅读的“支点”"
+      },
+      {
+        "title": "“书香校园—让昆明孩子爱上阅读”品牌活动获评教育部..",
+        "link": "http://baijiahao.baidu.com/s?id=1863340478802462670",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863340478802462670><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D4244886903%2C294949195%26fm%3D30%26app%3",
+        "title_zh": "“书香校园—让昆明孩子爱上阅读”品牌活动获评教育部..",
+        "title_en": "“书香校园—让昆明孩子爱上阅读”品牌活动获评教育部.."
+      },
+      {
+        "title": "外交部回应大熊猫“平平”“福双”将赴美：相信新一轮..",
+        "link": "http://baijiahao.baidu.com/s?id=1863339975456711013",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863339975456711013><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3482781547%2C294948723%26fm%3D30%26app%3",
+        "title_zh": "外交部回应大熊猫“平平”“福双”将赴美：相信新一轮..",
+        "title_en": "外交部回应大熊猫“平平”“福双”将赴美：相信新一轮.."
       },
       {
         "title": "每两位常住居民中就有一人是环保志愿者，丹江口“小水..",
         "link": "http://baijiahao.baidu.com/s?id=1863337711779922880",
-        "published": "2026-04-25 12:03",
+        "published": "2026-04-26 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863337711779922880><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1190767693%2C294946635%26fm%3D30%26app%3",
         "title_zh": "每两位常住居民中就有一人是环保志愿者，丹江口“小水..",
         "title_en": "每两位常住居民中就有一人是环保志愿者，丹江口“小水.."
       },
       {
-        "title": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校..",
-        "link": "http://baijiahao.baidu.com/s?id=1863331889880358225",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863331889880358225><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1039142565%2C294941204%26fm%3D30%26app%3",
-        "title_zh": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校..",
-        "title_en": "银幕逐光，成长同行——盘古树教育为广东碧桂园学校校.."
-      },
-      {
-        "title": "书香润校园 环保践文明——白云区校社联动开展读书日..",
-        "link": "http://baijiahao.baidu.com/s?id=1863317200523680189",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863317200523680189><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2016069262%2C294931563%26fm%3D30%26app%3",
-        "title_zh": "书香润校园 环保践文明——白云区校社联动开展读书日..",
-        "title_en": "书香润校园 环保践文明——白云区校社联动开展读书日.."
+        "title": "“青”助花开——2026年济南市中高考“理响”护航..",
+        "link": "http://baijiahao.baidu.com/s?id=1863331692233975628",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863331692233975628><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1875543843%2C294941371%26fm%3D30%26app%3",
+        "title_zh": "“青”助花开——2026年济南市中高考“理响”护航..",
+        "title_en": "“青”助花开——2026年济南市中高考“理响”护航.."
       },
       {
         "title": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
         "link": "http://baijiahao.baidu.com/s?id=1863317924883400998",
-        "published": "2026-04-25 12:03",
+        "published": "2026-04-26 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863317924883400998><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1698866765%2C294928200%26fm%3D30%26app%3",
         "title_zh": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
         "title_en": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中.."
       },
       {
-        "title": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土..",
-        "link": "http://baijiahao.baidu.com/s?id=1863313832947755868",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863313832947755868><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1128865888%2C294924368%26fm%3D30%26app%3",
-        "title_zh": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土..",
-        "title_en": "常德书记校长谈丨石门县湘佳永兴学校高吉品：扎根沃土.."
+        "title": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
+        "link": "http://baijiahao.baidu.com/s?id=1863314427754645453",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863314427754645453><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1168804616%2C294924922%26fm%3D30%26app%3",
+        "title_zh": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
+        "title_en": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官.."
       },
       {
-        "title": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
-        "link": "http://baijiahao.baidu.com/s?id=1863277374626923384",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863277374626923384><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3321757135%2C294890415%26fm%3D30%26app%3",
-        "title_zh": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
-        "title_en": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛.."
-      },
-      {
-        "title": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替..",
-        "link": "http://baijiahao.baidu.com/s?id=1863257713628086116",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863257713628086116><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2852197442%2C294872100%26fm%3D30%26app%3",
-        "title_zh": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替..",
-        "title_en": "杭州家长亲历：选学校，千万别只看名气，这3个坑我替.."
-      },
-      {
-        "title": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球..",
-        "link": "http://baijiahao.baidu.com/s?id=1863228459103982074",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863228459103982074><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1662789436%2C294844860%26fm%3D30%26app%3",
-        "title_zh": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球..",
-        "title_en": "守护绿色旅途 共护美丽家园｜高速服务区开展世界地球.."
+        "title": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业..",
+        "link": "http://baijiahao.baidu.com/s?id=1863253120372750548",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863253120372750548><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3203914918%2C294867828%26fm%3D30%26app%3",
+        "title_zh": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业..",
+        "title_en": "京彩探校｜校中厂、校中店，新京报带你探秘北京市商业.."
       },
       {
         "title": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道..",
         "link": "http://baijiahao.baidu.com/s?id=1863220990789660658",
-        "published": "2026-04-25 12:03",
+        "published": "2026-04-26 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863220990789660658><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2882399990%2C294838050%26fm%3D30%26app%3",
         "title_zh": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道..",
         "title_en": "智慧监控、环保抑尘、边通边干 青岛公路中心：把干道.."
       },
       {
-        "title": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
-        "link": "http://baijiahao.baidu.com/s?id=1863170733920838457",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863170733920838457><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2090386992%2C294791095%26fm%3D30%26app%3",
-        "title_zh": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
-        "title_en": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司.."
+        "title": "晚潮｜书包轻了，笑容多了：教育减负进行时",
+        "link": "http://baijiahao.baidu.com/s?id=1863158026478283078",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863158026478283078><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3965841444%2C294780085%26fm%3D30%26app%3",
+        "title_zh": "晚潮｜书包轻了，笑容多了：教育减负进行时",
+        "title_en": "晚潮｜书包轻了，笑容多了：教育减负进行时"
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-        "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:02",
-        "description": "Iran says its Foreign Minister Abbas Araghchi is already in Pakistan but that there is no meeting planned between Iran and the US.",
-        "title_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-        "title_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈"
+        "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+        "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 05:34",
+        "description": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
+        "title_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+        "title_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程"
       },
       {
-        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 00:04",
-        "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
-        "title_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-        "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
+        "title": "Explosions and gunfire as armed groups launch co-ordinated attacks across Mali",
+        "link": "https://www.bbc.com/news/articles/clyx7nnrkqdo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 05:13",
+        "description": "Witnesses report clashes in the centre and north, in what has been described as the largest jihadist attack in years.",
+        "title_en": "Explosions and gunfire as armed groups launch co-ordinated attacks across Mali",
+        "title_zh": "武装团体在马里各地发动协同袭击，发生爆炸和枪击事件"
       },
       {
-        "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
-        "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 08:10",
-        "description": "On Friday morning, souring relations between Europe and the United States  reared its Medusa-like head again, writes the BBC's Europe editor.",
-        "title_en": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
-        "title_zh": "卡蒂亚·阿德勒：欧洲北约盟国反击美国对西班牙的威胁"
+        "title": "Mexico says US agents killed in crash weren't permitted to operate there",
+        "link": "https://www.bbc.com/news/articles/cx2491we011o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:40",
+        "description": "The two Americans who reportedly worked for the CIA died in a car crash after a Mexican-led operation to destroy a drug lab.",
+        "title_en": "Mexico says US agents killed in crash weren't permitted to operate there",
+        "title_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务"
       },
       {
-        "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-        "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:55",
-        "description": "An internal Pentagon document reportedly raised the prospect of a change in position in retaliation for the UK not joining the Iran war.",
-        "title_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-        "title_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国"
+        "title": "Palestinians in West Bank and some in Gaza vote in local elections",
+        "link": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:01",
+        "description": "Local elections have been held in the occupied West Bank and in one Gazan city, though Hamas and other groups are not taking part.",
+        "title_en": "Palestinians in West Bank and some in Gaza vote in local elections",
+        "title_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票"
+      },
+      {
+        "title": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+        "link": "https://www.bbc.com/news/articles/c0kr62z7z6lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:36",
+        "description": "More than 500 political prisoners are thought to still be in jail, despite the releases since the amnesty law was brought in.",
+        "title_en": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+        "title_zh": "委内瑞拉囚犯释放计划“即将结束”，人权组织提出批评"
+      },
+      {
+        "title": "Orbán steps down from Hungarian parliament after landslide defeat",
+        "link": "https://www.bbc.com/news/articles/cd9v1wll8qqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 03:22",
+        "description": "The outgoing prime minister will not take up his seat after leading his party back into opposition.",
+        "title_en": "Orbán steps down from Hungarian parliament after landslide defeat",
+        "title_zh": "欧尔班以压倒性失败从匈牙利议会辞职"
+      },
+      {
+        "title": "Thirty-one sloths die in Florida before opening of attraction",
+        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 12:02",
+        "description": "Many died due to conditions at a warehouse they'd been shipped to, while others arrived dead, authorities say.",
+        "title_en": "Thirty-one sloths die in Florida before opening of attraction",
+        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
+      },
+      {
+        "title": "Seven dead in major Russian attack on Ukraine",
+        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 20:29",
+        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
+        "title_en": "Seven dead in major Russian attack on Ukraine",
+        "title_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡"
       },
       {
         "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
@@ -179,36 +210,28 @@
         "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
       },
       {
-        "title": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-        "link": "https://www.bbc.com/news/videos/cwy37w2y64ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 07:00",
-        "description": "A Buckingham Palace source confirmed the Royals will not meet with survivors of sex offender Jeffrey Epstein during their state visit to the US.",
-        "title_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-        "title_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”"
-      },
-      {
-        "title": "China car giant BYD says it can thrive without US",
-        "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 05:25",
-        "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
-        "title_en": "China car giant BYD says it can thrive without US",
-        "title_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展"
-      },
-      {
-        "title": "31 sloths die in Florida before opening of attraction",
-        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 12:02",
-        "description": "Many died due to conditions at a Florida warehouse where they'd been shipped, while others arrived from South America dead, authorities say.",
-        "title_en": "31 sloths die in Florida before opening of attraction",
-        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
-      },
-      {
         "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
         "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
         "published": "2026-04-25 09:18",
         "description": "The boss of the controversial tech company with UK government contracts published a 22-point plan on the future of the West.",
         "title_en": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
         "title_zh": "“反觉醒”科技老板与 NHS 和国防合同的病毒宣言"
+      },
+      {
+        "title": "US to allow firing squads, gas and electrocution for federal executions",
+        "link": "https://www.bbc.com/news/articles/cg73l2d079ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 06:15",
+        "description": "In a memo, the Department of Justice says the move will \"strengthen\" the death penalty and deter crime.",
+        "title_en": "US to allow firing squads, gas and electrocution for federal executions",
+        "title_zh": "美国允许联邦执行行刑队、毒气和电刑"
+      },
+      {
+        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 00:04",
+        "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
+        "title_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
+        "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
       },
       {
         "title": "US justice department drops probe into Fed chairman Jerome Powell",
@@ -219,12 +242,12 @@
         "title_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查"
       },
       {
-        "title": "US to allow firing squads, gas, and electrocution for federal executions",
-        "link": "https://www.bbc.com/news/articles/cg73l2d079ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:15",
-        "description": "In a memo, the Department of Justice says the move will \"strengthen\" the death penalty and deter crime.",
-        "title_en": "US to allow firing squads, gas, and electrocution for federal executions",
-        "title_zh": "美国允许联邦执行行刑队、毒气和电刑"
+        "title": "China car giant BYD says it can thrive without US",
+        "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 05:25",
+        "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
+        "title_en": "China car giant BYD says it can thrive without US",
+        "title_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展"
       },
       {
         "title": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
@@ -241,176 +264,207 @@
         "description": "The British Israeli man says he was detained after someone took offence at his kippah embroidered with Israeli and Palestinian flags.",
         "title_en": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
         "title_zh": "以色列警方在警察从无边帽上“剪下巴勒斯坦国旗”后展开调查"
-      },
-      {
-        "title": "Pirates hijack oil tanker off the coast of Somalia",
-        "link": "https://www.bbc.com/news/articles/c78l26yn981o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 01:04",
-        "description": "Piracy, once notorious in this stretch of the Indian Ocean, has made a comeback in recent years.",
-        "title_en": "Pirates hijack oil tanker off the coast of Somalia",
-        "title_zh": "海盗在索马里海岸劫持油轮"
-      },
-      {
-        "title": "Mandelson under formal investigation by EU's anti-fraud office",
-        "link": "https://www.bbc.com/news/articles/c77m242z2j8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 00:18",
-        "description": "The EU's anti-fraud office confirms it has \"sufficient information\" to launch  an investigation, but does not say if it involves fraud.",
-        "title_en": "Mandelson under formal investigation by EU's anti-fraud office",
-        "title_zh": "曼德尔森接受欧盟反欺诈办公室正式调查"
-      },
-      {
-        "title": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege",
-        "link": "https://www.bbc.com/news/articles/crr1gwnx4e8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 01:20",
-        "description": "Kosovo's court sentences two men to life imprisonment and another to a 30-year term for the 2023 attack.",
-        "title_en": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege",
-        "title_zh": "Three Kosovo Serbs jailed over deadly gun battle and monastery siege"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Iran’s Infowar: Lego, AI and ever tightening control",
-        "link": "https://www.aljazeera.com/video/the-listening-post/2026/4/25/irans-infowar-lego-ai-and-ever-tightening-control?traffic_source=rss",
-        "published": "2026-04-25 18:13",
-        "description": "The tools and techniques behind Iran’s push in the battle of narratives.",
-        "title_en": "Iran’s Infowar: Lego, AI and ever tightening control",
-        "title_zh": "伊朗的信息战：乐高、人工智能和不断收紧的控制"
+        "title": "Protesters stage Epstein protest before White House Correspondents’ Dinner",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/protesters-stage-epstein-protest-before-white-house-correspondents-dinner?traffic_source=rss",
+        "published": "2026-04-26 07:50",
+        "description": "Photos of Jeffrey Epstein and US President Trump were projected onto the hotel hosting a gala for White House press.",
+        "title_en": "Protesters stage Epstein protest before White House Correspondents’ Dinner",
+        "title_zh": "抗议者在白宫记者晚宴前举行爱泼斯坦抗议"
       },
       {
-        "title": "Mali attacks live: Gunfire heard near Bamako airport and in several cities",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/25/mali-attacks-live-gunfire-heard-near-bamako-airport-and-in-several-cities?traffic_source=rss",
-        "published": "2026-04-25 18:04",
-        "description": "Unrest reported in several locations around the country.",
-        "title_en": "Mali attacks live: Gunfire heard near Bamako airport and in several cities",
-        "title_zh": "马里袭击现场：巴马科机场附近和几个城市听到枪声"
+        "title": "Explosion in southwest Colombia kills at least seven, state governor says",
+        "link": "https://www.aljazeera.com/news/2026/4/25/explosion-in-southwest-colombia-kills-at-leat-seven-state-governor-says?traffic_source=rss",
+        "published": "2026-04-26 05:03",
+        "description": "Authorities in Cauca region demand &#039;decisive&#039; government action after deadly explosion on Pan-American Highway.",
+        "title_en": "Explosion in southwest Colombia kills at least seven, state governor says",
+        "title_zh": "哥伦比亚西南部发生爆炸，至少七人死亡，州长称"
       },
       {
-        "title": "Palestinians cast their ballots as Gaza holds first election in 21 years",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/palestinians-cast-their-ballots-as-gaza-holds-first-election-in-21-years?traffic_source=rss",
-        "published": "2026-04-25 17:55",
-        "description": "Palestinians are voting in Gaza’s first municipal elections in 21 years. Around 70,000 people are registered to vote.",
-        "title_en": "Palestinians cast their ballots as Gaza holds first election in 21 years",
-        "title_zh": "加沙举行21年来首次选举，巴勒斯坦人投票"
+        "title": "How serious is the rift in NATO?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/4/25/how-serious-is-the-rift-in-nato?traffic_source=rss",
+        "published": "2026-04-26 04:55",
+        "description": "Trump fury over Europeans&#039; refusal to join Iran war.",
+        "title_en": "How serious is the rift in NATO?",
+        "title_zh": "北约分裂有多严重？"
       },
       {
-        "title": "Gunmen stage simultaneous attacks across Mali, army says",
-        "link": "https://www.aljazeera.com/news/2026/4/25/mali-army-says-armed-groups-launch-nationwide-attacks-gunfire-near-airport?traffic_source=rss",
-        "published": "2026-04-25 17:21",
-        "description": "Capital Bamako and several other locations hit in an apparently coordinated ⁠assault involving multiple groups.",
-        "title_en": "Gunmen stage simultaneous attacks across Mali, army says",
-        "title_zh": "军方称，武装分子在马里各地同时发动袭击"
+        "title": "Family longest held in US immigration detention re-arrested after release",
+        "link": "https://www.aljazeera.com/news/2026/4/25/family-longest-held-in-us-immigration-detention-re-arrested-after-release?traffic_source=rss",
+        "published": "2026-04-26 04:55",
+        "description": "Lawyers say El Gamal family detained by Trump administration hours after returning home from 10-month detention.",
+        "title_en": "Family longest held in US immigration detention re-arrested after release",
+        "title_zh": "被美国移民拘留时间最长的一家人获释后再次被捕"
       },
       {
-        "title": "Top Iranian and Pakistani officials meet in Islamabad",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss",
-        "published": "2026-04-25 16:57",
-        "description": "Iran’s FM Abbas Araghchi is in Islamabad for talks with Pakistani officials, as US envoys are also set to arrive.",
-        "title_en": "Top Iranian and Pakistani officials meet in Islamabad",
-        "title_zh": "伊朗和巴基斯坦高级官员在伊斯兰堡会面"
+        "title": "Trump puts onus on Iran’s authorities as they project hardened stance",
+        "link": "https://www.aljazeera.com/news/2026/4/25/irans-authorities-project-hardened-stance-with-more-talks-on-horizon?traffic_source=rss",
+        "published": "2026-04-26 03:54",
+        "description": "Some officials say Tehran must not even entertain any more talks on the nuclear issue amid the threats and blockade.",
+        "title_en": "Trump puts onus on Iran’s authorities as they project hardened stance",
+        "title_zh": "特朗普将责任归咎于伊朗当局，因为他们表现出更强硬的立场"
       },
       {
-        "title": "Overnight Russian attacks on Ukraine kill five, injure 30",
-        "link": "https://www.aljazeera.com/news/2026/4/25/overnight-russian-attacks-on-ukraine-kill-five-wound-over-30?traffic_source=rss",
-        "published": "2026-04-25 16:44",
-        "description": "Russia launched more than 600 drones and 47 missiles as it targeted eight regions in Dnipro, authorities say.",
-        "title_en": "Overnight Russian attacks on Ukraine kill five, injure 30",
-        "title_zh": "俄罗斯一夜之间对乌克兰发动袭击，造成 5 人死亡、30 人受伤"
+        "title": "Police arrest demonstrators at pro-Palestine rally in Berlin",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/police-arrest-demonstrators-at-pro-palestine-rally-in-berlin?traffic_source=rss",
+        "published": "2026-04-26 03:51",
+        "description": "Video footage shared on social media shows two women being arrested at a pro-Palestine demonstration in Berlin.",
+        "title_en": "Police arrest demonstrators at pro-Palestine rally in Berlin",
+        "title_zh": "警方在柏林亲巴勒斯坦集会上逮捕示威者"
       },
       {
-        "title": "Polls open in Gaza area in first municipal election in 20 years",
-        "link": "https://www.aljazeera.com/news/2026/4/25/polls-open-in-gaza-area-in-first-municipal-election-in-20-years?traffic_source=rss",
-        "published": "2026-04-25 16:37",
-        "description": "Gaza officials say Deir el-Balah vote is a &#039;pilot&#039;, while occupied West Bank also goes to first polls since 2023 war.",
-        "title_en": "Polls open in Gaza area in first municipal election in 20 years",
-        "title_zh": "加沙地区20年来首次市政选举开始投票"
+        "title": "Protestor depicts Israeli minister Ben Gvir covered in blood in Stockholm",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/protestor-depicts-israeli-minister-ben-gvir-covered-in-blood-in-stockholm?traffic_source=rss",
+        "published": "2026-04-26 03:40",
+        "description": "Activists organised a protest in solidarity with Palestine on Saturday in Stockholm, Sweden.",
+        "title_en": "Protestor depicts Israeli minister Ben Gvir covered in blood in Stockholm",
+        "title_zh": "斯德哥尔摩抗议者描绘以色列部长本·格维尔浑身是血"
       },
       {
-        "title": "Ireland to demand Israel pay for settler demolition of Palestinian school",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/ireland-to-demand-israel-pay-for-settler-demolition-of-palestinian-school?traffic_source=rss",
-        "published": "2026-04-25 16:06",
-        "description": "Ireland will demand that Israeli authorities repay the cost of a school that was demolished by settlers.",
-        "title_en": "Ireland to demand Israel pay for settler demolition of Palestinian school",
-        "title_zh": "爱尔兰要求以色列为定居者拆除巴勒斯坦学校支付费用"
+        "title": "Barcelona on the brink of defending La Liga title after beating Getafe",
+        "link": "https://www.aljazeera.com/sports/2026/4/25/barcelona-on-the-brink-of-defending-la-liga-title-after-beating-getafe?traffic_source=rss",
+        "published": "2026-04-26 03:15",
+        "description": "Barcelona move 11 points clear of Real Madrid in the La Liga title race with five games to play.",
+        "title_en": "Barcelona on the brink of defending La Liga title after beating Getafe",
+        "title_zh": "击败赫塔菲后，巴塞罗那有望卫冕西甲冠军"
       },
       {
-        "title": "West Bank scepticism as Palestinians doubt local elections will change much",
-        "link": "https://www.aljazeera.com/features/2026/4/25/west-bank-scepticism-as-palestinians-doubt-local-elections-will-change-much?traffic_source=rss",
-        "published": "2026-04-25 15:16",
-        "description": "Frustration with the Palestinian Authority and Israeli occupation fuel voter apathy in local West Bank elections.",
-        "title_en": "West Bank scepticism as Palestinians doubt local elections will change much",
-        "title_zh": "约旦河西岸的怀疑，因为巴勒斯坦人怀疑地方选举会发生很大变化"
+        "title": "Arsenal narrowly beat Newcastle to regain Premier League lead over Man City",
+        "link": "https://www.aljazeera.com/sports/2026/4/25/arsenal-narrowly-beat-newcastle-to-regain-premier-league-lead-over-man-city?traffic_source=rss",
+        "published": "2026-04-26 03:02",
+        "description": "Nervy Arsenal beat Newcastle 1-0 in the EPL to move three points clear of Manchester City, who hold a game in hand.",
+        "title_en": "Arsenal narrowly beat Newcastle to regain Premier League lead over Man City",
+        "title_zh": "阿森纳险胜纽卡斯尔，重新领先曼城"
       },
       {
-        "title": "US sanctions China’s ‘teapot’ refinery for buying Iranian oil",
-        "link": "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss",
-        "published": "2026-04-25 15:10",
-        "description": "The Hengli refinery has generated hundreds of millions of dollars for Iran&#039;s military, says US Treasury.",
-        "title_en": "US sanctions China’s ‘teapot’ refinery for buying Iranian oil",
-        "title_zh": "美国制裁中国“茶壶”炼油厂购买伊朗石油"
+        "title": "France defends abstention on UN slave trade resolution",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/france-defends-abstention-on-un-slave-trade-resolution?traffic_source=rss",
+        "published": "2026-04-26 02:58",
+        "description": "France justified abstaining on a UN resolution recognising the slave trade as the gravest crime against humanity.",
+        "title_en": "France defends abstention on UN slave trade resolution",
+        "title_zh": "法国捍卫对联合国奴隶贸易决议的弃权票"
       },
       {
-        "title": "Brazil and Chelsea star Estevao’s World Cup hopes in doubt after injury",
-        "link": "https://www.aljazeera.com/sports/2026/4/25/brazil-and-chelsea-star-estevaos-world-cup-hopes-in-doubt-after-injury?traffic_source=rss",
-        "published": "2026-04-25 15:09",
-        "description": "The winger will miss the rest of the season after suffering a hamstring injury in last week&#039;s 1-0 loss ⁠to Man United.",
-        "title_en": "Brazil and Chelsea star Estevao’s World Cup hopes in doubt after injury",
-        "title_zh": "巴西和切尔西球星埃斯特沃受伤后世界杯希望成疑"
+        "title": "Trump cancels US envoys’ trip after Iran’s Araghchi leaves Pakistan",
+        "link": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss",
+        "published": "2026-04-26 02:16",
+        "description": "Iranian state media reports foreign minister expected to return to Islamabad on Sunday night.",
+        "title_en": "Trump cancels US envoys’ trip after Iran’s Araghchi leaves Pakistan",
+        "title_zh": "伊朗阿拉格奇离开巴基斯坦后，特朗普取消了美国特使的行程"
       },
       {
-        "title": "Capture of ships by US, Iran violates international law, shipping body says",
-        "link": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
-        "published": "2026-04-25 14:27",
-        "description": "US and Iran should immediately release crews of captured vessels, says International Chamber of Shipping director.",
-        "title_en": "Capture of ships by US, Iran violates international law, shipping body says",
-        "title_zh": "航运机构称美国和伊朗扣押船只违反国际法"
+        "title": "CIA agents reported killed in Mexico were not authorised to operate: Gov’t",
+        "link": "https://www.aljazeera.com/news/2026/4/25/presence-of-reported-us-cia-agents-killed-in-crash-not-authorised-mexico?traffic_source=rss",
+        "published": "2026-04-26 01:26",
+        "description": "Mexican government says it is seeking details after incident raises questions about US activities on its territory.",
+        "title_en": "CIA agents reported killed in Mexico were not authorised to operate: Gov’t",
+        "title_zh": "据报道在墨西哥遇难的中央情报局特工没有获得行动授权：政府"
       },
       {
-        "title": "Lakers down Rockets in overtime for 3-0 series lead, Celtics beat Sixers",
-        "link": "https://www.aljazeera.com/sports/2026/4/25/lakers-down-rockets-in-overtime-for-3-0-series-lead-celtics-beat-sixers?traffic_source=rss",
-        "published": "2026-04-25 13:51",
-        "description": "Elsewhere in the NBA playoffs, Spurs beat Trail Blazers 120-108 without Victor Wembanyama to take a 2-1 series lead.",
-        "title_en": "Lakers down Rockets in overtime for 3-0 series lead, Celtics beat Sixers",
-        "title_zh": "湖人加时赛击败火箭系列赛3-0领先，凯尔特人队击败76人队"
+        "title": "Joy and desire for change as Gaza’s Deir el-Balah holds elections",
+        "link": "https://www.aljazeera.com/features/2026/4/25/joy-and-desire-for-change-as-gazas-deir-el-balah-holds-elections?traffic_source=rss",
+        "published": "2026-04-26 01:25",
+        "description": "Deir el-Balah residents vote for first time since 2006 despite destruction, displacement and genocide.",
+        "title_en": "Joy and desire for change as Gaza’s Deir el-Balah holds elections",
+        "title_zh": "加沙代尔巴拉举行选举时的喜悦和对变革的渴望"
       },
       {
-        "title": "Elections without sovereignty: What Palestine’s local vote represents",
-        "link": "https://www.aljazeera.com/opinions/2026/4/25/elections-without-sovereignty-what-palestines-local-vote-really-represent?traffic_source=rss",
-        "published": "2026-04-25 13:50",
-        "description": "The elections offer participation without power, revealing how occupation shapes and limits Palestinian political life.",
-        "title_en": "Elections without sovereignty: What Palestine’s local vote represents",
-        "title_zh": "没有主权的选举：巴勒斯坦当地选票代表什么"
+        "title": "Iran FM Abbas Araghchi and Pakistan PM Shehbaz Sharif meet in Pakistan",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/iran-fm-abbas-araghchi-and-pakistan-pm-shehbaz-sharif-meet-in-pakistan?traffic_source=rss",
+        "published": "2026-04-26 01:06",
+        "description": "Iranian FM Araghchi met Pakistani PM Sharif in Islamabad as part of efforts to revive direct negotiations with the US.",
+        "title_en": "Iran FM Abbas Araghchi and Pakistan PM Shehbaz Sharif meet in Pakistan",
+        "title_zh": "伊朗外长阿巴斯·阿拉格奇和巴基斯坦总理谢赫巴兹·谢里夫在巴基斯坦会面"
       },
       {
-        "title": "What’s at stake for Iran and the US in Islamabad?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/whats-at-stake-for-iran-and-the-us-in-islamabad?traffic_source=rss",
-        "published": "2026-04-25 12:30",
-        "description": "Iran’s foreign minister is in Islamabad, with US envoys also on the way.",
-        "title_en": "What’s at stake for Iran and the US in Islamabad?",
-        "title_zh": "伊朗和美国在伊斯兰堡面临着什么危险？"
+        "title": "US to allow Venezuelan government to cover Maduro’s lawyer fees",
+        "link": "https://www.aljazeera.com/news/2026/4/25/us-to-allow-venezuelan-government-to-cover-maduros-lawyer-fees?traffic_source=rss",
+        "published": "2026-04-26 00:21",
+        "description": "Defence lawyers had asked for case to be thrown out, claiming Maduro&#039;s rights were violated following US abduction.",
+        "title_en": "US to allow Venezuelan government to cover Maduro’s lawyer fees",
+        "title_zh": "美国允许委内瑞拉政府支付马杜罗的律师费"
       },
       {
-        "title": "Israel escalates attacks in Gaza, killing 12 people",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/israel-escalates-attacks-in-gaza-killing-12-people?traffic_source=rss",
-        "published": "2026-04-25 11:23",
-        "description": "Israeli forces have killed 12 Palestinians, including six police officers, in multiple attacks across Gaza.",
-        "title_en": "Israel escalates attacks in Gaza, killing 12 people",
-        "title_zh": "以色列升级加沙袭击 造成12人死亡"
+        "title": "After years of avoidance, Trump to attend first White House press dinner",
+        "link": "https://www.aljazeera.com/news/2026/4/25/after-years-of-avoidance-trump-to-attend-first-white-house-press-dinner?traffic_source=rss",
+        "published": "2026-04-25 22:33",
+        "description": "Professional organisations call on attendees to &#039;speak forcefully&#039; at annual event, which will not feature a comedian.",
+        "title_en": "After years of avoidance, Trump to attend first White House press dinner",
+        "title_zh": "多年回避后，特朗普首次出席白宫新闻晚宴"
       }
     ]
   },
   "triangle": [
     {
+      "event_hint": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+      "event_hint_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程",
+      "event_hint_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+      "中国": {
+        "title": "晚潮｜书包轻了，笑容多了：教育减负进行时",
+        "link": "http://baijiahao.baidu.com/s?id=1863158026478283078",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863158026478283078><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3965841444%2C294780085%26fm%3D30%26app%3",
+        "title_zh": "晚潮｜书包轻了，笑容多了：教育减负进行时",
+        "title_en": "晚潮｜书包轻了，笑容多了：教育减负进行时"
+      },
+      "美国（欧美媒体）": {
+        "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+        "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 05:34",
+        "description": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
+        "title_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+        "title_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Trump cancels US envoys’ trip after Iran’s Araghchi leaves Pakistan",
+        "link": "https://www.aljazeera.com/news/2026/4/25/trump-cancels-envoys-trip-to-pakistan-after-irans-araghchi-leaves-country?traffic_source=rss",
+        "published": "2026-04-26 02:16",
+        "description": "Iranian state media reports foreign minister expected to return to Islamabad on Sunday night.",
+        "title_en": "Trump cancels US envoys’ trip after Iran’s Araghchi leaves Pakistan",
+        "title_zh": "伊朗阿拉格奇离开巴基斯坦后，特朗普取消了美国特使的行程"
+      },
+      "my_view": "中国视角聚焦国内教育，回避国际冲突；欧美视角强调美国单边行动；伊斯兰视角突出伊朗外交动态，三方立场分别体现内政优先、西方主导、中东地缘博弈。",
+      "summary": "同一事件因媒体立场差异，报道侧重各异，本质是国际政治信息的选择性传播。"
+    },
+    {
+      "event_hint": "Mexico says US agents killed in crash weren't permitted to operate there",
+      "event_hint_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务",
+      "event_hint_en": "Mexico says US agents killed in crash weren't permitted to operate there",
+      "中国": {
+        "title": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
+        "link": "http://baijiahao.baidu.com/s?id=1863314427754645453",
+        "published": "2026-04-26 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863314427754645453><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1168804616%2C294924922%26fm%3D30%26app%3",
+        "title_zh": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官..",
+        "title_en": "国家发展改革委主任郑栅洁会见空客公司全球首席执行官.."
+      },
+      "美国（欧美媒体）": {
+        "title": "Mexico says US agents killed in crash weren't permitted to operate there",
+        "link": "https://www.bbc.com/news/articles/cx2491we011o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:40",
+        "description": "The two Americans who reportedly worked for the CIA died in a car crash after a Mexican-led operation to destroy a drug lab.",
+        "title_en": "Mexico says US agents killed in crash weren't permitted to operate there",
+        "title_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "CIA agents reported killed in Mexico were not authorised to operate: Gov’t",
+        "link": "https://www.aljazeera.com/news/2026/4/25/presence-of-reported-us-cia-agents-killed-in-crash-not-authorised-mexico?traffic_source=rss",
+        "published": "2026-04-26 01:26",
+        "description": "Mexican government says it is seeking details after incident raises questions about US activities on its territory.",
+        "title_en": "CIA agents reported killed in Mexico were not authorised to operate: Gov’t",
+        "title_zh": "据报道在墨西哥遇难的中央情报局特工没有获得行动授权：政府"
+      },
+      "my_view": "中国视角侧重经济合作，淡化坠机事件；欧美聚焦美墨外交冲突；伊斯兰强调CIA秘密行动合法性争议。三方立场分别服务于国内经济、西方霸权、反美叙事。",
+      "summary": "墨西哥政府否认坠亡美特工在墨执行任务的合法性，引发对美秘密行动权限的质疑。"
+    },
+    {
       "event_hint": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
       "event_hint_zh": "以色列警方在警察从无边帽上“剪下巴勒斯坦国旗”后展开调查",
       "event_hint_en": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
-      "中国": {
-        "title": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
-        "link": "http://baijiahao.baidu.com/s?id=1863403520794843787",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863403520794843787><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3040628780%2C295007895%26fm%3D30%26app%3",
-        "title_zh": "山师出国留学培训基地在学校宣传思想文化工作先优评选..",
-        "title_en": "山师出国留学培训基地在学校宣传思想文化工作先优评选.."
-      },
+      "中国": null,
       "美国（欧美媒体）": {
         "title": "Israeli police investigate after officers 'cut Palestinian flag' from skullcap",
         "link": "https://www.bbc.com/news/articles/cz67qjn48eqo?at_medium=RSS&at_campaign=rss",
@@ -420,70 +474,111 @@
         "title_zh": "以色列警方在警察从无边帽上“剪下巴勒斯坦国旗”后展开调查"
       },
       "伊斯兰（半岛等）": {
-        "title": "Ireland to demand Israel pay for settler demolition of Palestinian school",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/ireland-to-demand-israel-pay-for-settler-demolition-of-palestinian-school?traffic_source=rss",
-        "published": "2026-04-25 16:06",
-        "description": "Ireland will demand that Israeli authorities repay the cost of a school that was demolished by settlers.",
-        "title_en": "Ireland to demand Israel pay for settler demolition of Palestinian school",
-        "title_zh": "爱尔兰要求以色列为定居者拆除巴勒斯坦学校支付费用"
+        "title": "Police arrest demonstrators at pro-Palestine rally in Berlin",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/police-arrest-demonstrators-at-pro-palestine-rally-in-berlin?traffic_source=rss",
+        "published": "2026-04-26 03:51",
+        "description": "Video footage shared on social media shows two women being arrested at a pro-Palestine demonstration in Berlin.",
+        "title_en": "Police arrest demonstrators at pro-Palestine rally in Berlin",
+        "title_zh": "警方在柏林亲巴勒斯坦集会上逮捕示威者"
       },
-      "my_view": "中国视角侧重国内教育宣传，回避冲突；欧美视角聚焦以色列警方行为，体现程序争议；伊斯兰视角转向国际施压，凸显巴以对立。三方立场差异反映各自利益与叙事焦点。",
-      "summary": "以色列警方剪除巴勒斯坦国旗事件引发不同媒体基于政治立场的选择性报道。"
+      "my_view": "中国报道缺失，BBC聚焦以色列警方行为本身，半岛突出柏林抗议者被捕。三方立场差异：BBC偏重事件合法性争议，半岛强调巴勒斯坦支持者受压，中国视角需补充。",
+      "summary": "同一事件因媒体立场不同，报道焦点从以色列警方争议转向柏林抗议镇压。"
     },
     {
-      "event_hint": "China car giant BYD says it can thrive without US",
-      "event_hint_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展",
-      "event_hint_en": "China car giant BYD says it can thrive without US",
-      "中国": {
-        "title": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
-        "link": "http://baijiahao.baidu.com/s?id=1863170733920838457",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863170733920838457><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2090386992%2C294791095%26fm%3D30%26app%3",
-        "title_zh": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司..",
-        "title_en": "高质量发展看山西国企丨晋能控股山西煤业股份有限公司.."
-      },
-      "美国（欧美媒体）": {
-        "title": "China car giant BYD says it can thrive without US",
-        "link": "https://www.bbc.com/news/articles/cy01ele412yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 05:25",
-        "description": "With the price of fuel rising China's BYD says it is positioning itself to benefit from the global shift away from fossil fuels.",
-        "title_en": "China car giant BYD says it can thrive without US",
-        "title_zh": "中国汽车巨头比亚迪表示，没有美国它也能蓬勃发展"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "US sanctions China’s ‘teapot’ refinery for buying Iranian oil",
-        "link": "https://www.aljazeera.com/news/2026/4/25/us-sanctions-chinas-teapot-refinery-for-buying-iranian-oil?traffic_source=rss",
-        "published": "2026-04-25 15:10",
-        "description": "The Hengli refinery has generated hundreds of millions of dollars for Iran&#039;s military, says US Treasury.",
-        "title_en": "US sanctions China’s ‘teapot’ refinery for buying Iranian oil",
-        "title_zh": "美国制裁中国“茶壶”炼油厂购买伊朗石油"
-      },
-      "my_view": "中国视角侧重国企发展成就，淡化冲突；欧美视角强调比亚迪对美独立姿态，凸显竞争；伊斯兰视角聚焦美国制裁中国炼油厂，关联伊朗地缘博弈。三方立场分别服务于国内宣传、经济叙事和反美政治议程。",
-      "summary": "同一事件因媒体立场不同，被分别包装为国内成就、企业独立宣言和地缘制裁冲突，反映信息传播中的选择性叙事。"
-    },
-    {
-      "event_hint": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-      "event_hint_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈",
-      "event_hint_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
+      "event_hint": "Seven dead in major Russian attack on Ukraine",
+      "event_hint_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡",
+      "event_hint_en": "Seven dead in major Russian attack on Ukraine",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-        "link": "https://www.bbc.com/news/articles/cy8103xklreo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:02",
-        "description": "Iran says its Foreign Minister Abbas Araghchi is already in Pakistan but that there is no meeting planned between Iran and the US.",
-        "title_en": "Trump's envoys Witkoff and Kushner to fly to Pakistan for Iran talks",
-        "title_zh": "特朗普特使威特科夫和库什纳将飞往巴基斯坦参加伊朗会谈"
+        "title": "Seven dead in major Russian attack on Ukraine",
+        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-25 20:29",
+        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
+        "title_en": "Seven dead in major Russian attack on Ukraine",
+        "title_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡"
       },
       "伊斯兰（半岛等）": {
-        "title": "Top Iranian and Pakistani officials meet in Islamabad",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/top-iranian-and-pakistani-officials-meet-in-islamabad?traffic_source=rss",
-        "published": "2026-04-25 16:57",
-        "description": "Iran’s FM Abbas Araghchi is in Islamabad for talks with Pakistani officials, as US envoys are also set to arrive.",
-        "title_en": "Top Iranian and Pakistani officials meet in Islamabad",
-        "title_zh": "伊朗和巴基斯坦高级官员在伊斯兰堡会面"
+        "title": "Explosion in southwest Colombia kills at least seven, state governor says",
+        "link": "https://www.aljazeera.com/news/2026/4/25/explosion-in-southwest-colombia-kills-at-leat-seven-state-governor-says?traffic_source=rss",
+        "published": "2026-04-26 05:03",
+        "description": "Authorities in Cauca region demand &#039;decisive&#039; government action after deadly explosion on Pan-American Highway.",
+        "title_en": "Explosion in southwest Colombia kills at least seven, state governor says",
+        "title_zh": "哥伦比亚西南部发生爆炸，至少七人死亡，州长称"
       },
-      "my_view": "中国视角未报道，显示谨慎；欧美强调特朗普特使主导，凸显西方介入；伊斯兰侧重伊巴双边会晤，淡化美国角色，反映各方对伊朗问题的不同利益与立场。",
-      "summary": "美国特使赴巴基斯坦参与伊朗会谈，各方报道侧重不同，反映地缘政治博弈。"
+      "my_view": "网易未报道显示中国媒体选择性关注；BBC直接定性为俄袭击，凸显欧美反俄立场；半岛将地点误植为哥伦比亚，反映其关注重心偏离，三方立场差异明显。",
+      "summary": "俄罗斯对乌克兰的重大袭击造成七人死亡，但不同媒体因立场和关注点不同而报道侧重各异。"
+    },
+    {
+      "event_hint": "Palestinians in West Bank and some in Gaza vote in local elections",
+      "event_hint_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票",
+      "event_hint_en": "Palestinians in West Bank and some in Gaza vote in local elections",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Palestinians in West Bank and some in Gaza vote in local elections",
+        "link": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:01",
+        "description": "Local elections have been held in the occupied West Bank and in one Gazan city, though Hamas and other groups are not taking part.",
+        "title_en": "Palestinians in West Bank and some in Gaza vote in local elections",
+        "title_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Joy and desire for change as Gaza’s Deir el-Balah holds elections",
+        "link": "https://www.aljazeera.com/features/2026/4/25/joy-and-desire-for-change-as-gazas-deir-el-balah-holds-elections?traffic_source=rss",
+        "published": "2026-04-26 01:25",
+        "description": "Deir el-Balah residents vote for first time since 2006 despite destruction, displacement and genocide.",
+        "title_en": "Joy and desire for change as Gaza’s Deir el-Balah holds elections",
+        "title_zh": "加沙代尔巴拉举行选举时的喜悦和对变革的渴望"
+      },
+      "my_view": "中国未报道或因立场中立；BBC客观陈述事实；半岛强调选举带来的喜悦与变革渴望，凸显伊斯兰视角对民众情绪的关注。",
+      "summary": "巴勒斯坦人在约旦河西岸和加沙部分地区参与地方选举，反映其政治进程与民意表达。"
+    },
+    {
+      "event_hint": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+      "event_hint_zh": "委内瑞拉囚犯释放计划“即将结束”，人权组织提出批评",
+      "event_hint_en": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+        "link": "https://www.bbc.com/news/articles/c0kr62z7z6lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-26 01:36",
+        "description": "More than 500 political prisoners are thought to still be in jail, despite the releases since the amnesty law was brought in.",
+        "title_en": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
+        "title_zh": "委内瑞拉囚犯释放计划“即将结束”，人权组织提出批评"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "US to allow Venezuelan government to cover Maduro’s lawyer fees",
+        "link": "https://www.aljazeera.com/news/2026/4/25/us-to-allow-venezuelan-government-to-cover-maduros-lawyer-fees?traffic_source=rss",
+        "published": "2026-04-26 00:21",
+        "description": "Defence lawyers had asked for case to be thrown out, claiming Maduro&#039;s rights were violated following US abduction.",
+        "title_en": "US to allow Venezuelan government to cover Maduro’s lawyer fees",
+        "title_zh": "美国允许委内瑞拉政府支付马杜罗的律师费"
+      },
+      "my_view": "中国视角缺失，欧美聚焦人权批评，伊斯兰视角强调美国允许委方支付律师费，显示立场差异：欧美关注程序正义，伊斯兰侧重利益交换，中国未表态。",
+      "summary": "委内瑞拉囚犯释放计划将止，各方基于不同利益立场解读同一事件。"
+    },
+    {
+      "event_hint": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+      "event_hint_zh": "叙利亚内战期间臭名昭著的塔达蒙大屠杀的主要嫌疑人被捕",
+      "event_hint_en": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+        "link": "https://www.bbc.com/news/articles/cvglxgq1p2jo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-24 18:41",
+        "description": "Amjad Youssef was wanted over the mass killing of blindfolded civilians in April 2013 in the district of Damascus.",
+        "title_en": "Key suspect in notorious Tadamon massacre during Syria civil war arrested",
+        "title_zh": "叙利亚内战期间臭名昭著的塔达蒙大屠杀的主要嫌疑人被捕"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Family longest held in US immigration detention re-arrested after release",
+        "link": "https://www.aljazeera.com/news/2026/4/25/family-longest-held-in-us-immigration-detention-re-arrested-after-release?traffic_source=rss",
+        "published": "2026-04-26 04:55",
+        "description": "Lawyers say El Gamal family detained by Trump administration hours after returning home from 10-month detention.",
+        "title_en": "Family longest held in US immigration detention re-arrested after release",
+        "title_zh": "被美国移民拘留时间最长的一家人获释后再次被捕"
+      },
+      "my_view": "中国未报道此事，BBC聚焦叙利亚战争罪行，半岛则突出美移民拘留不公。三方立场迥异：欧美关注战争正义，伊斯兰视角批判美国，中国或规避敏感议题。",
+      "summary": "同一事件因媒体立场不同，报道焦点从叙利亚屠杀嫌犯被捕转向美国移民政策问题。"
     },
     {
       "event_hint": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
@@ -499,142 +594,15 @@
         "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
       },
       "伊斯兰（半岛等）": {
-        "title": "Capture of ships by US, Iran violates international law, shipping body says",
-        "link": "https://www.aljazeera.com/economy/2026/4/25/capture-of-ships-by-us-iran-violates-international-law-shipping-body-says?traffic_source=rss",
-        "published": "2026-04-25 14:27",
-        "description": "US and Iran should immediately release crews of captured vessels, says International Chamber of Shipping director.",
-        "title_en": "Capture of ships by US, Iran violates international law, shipping body says",
-        "title_zh": "航运机构称美国和伊朗扣押船只违反国际法"
+        "title": "How serious is the rift in NATO?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/4/25/how-serious-is-the-rift-in-nato?traffic_source=rss",
+        "published": "2026-04-26 04:55",
+        "description": "Trump fury over Europeans&#039; refusal to join Iran war.",
+        "title_en": "How serious is the rift in NATO?",
+        "title_zh": "北约分裂有多严重？"
       },
-      "my_view": "中国视角暂无报道，欧美侧重北约内部规则，强调无驱逐条款；伊斯兰视角聚焦美伊扣船违反国际法，三方立场差异显示不同利益关切。",
-      "summary": "北约澄清无驱逐成员条款，同时美伊扣押船只事件引发国际法争议。"
-    },
-    {
-      "event_hint": "Pirates hijack oil tanker off the coast of Somalia",
-      "event_hint_zh": "海盗在索马里海岸劫持油轮",
-      "event_hint_en": "Pirates hijack oil tanker off the coast of Somalia",
-      "中国": {
-        "title": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
-        "link": "http://baijiahao.baidu.com/s?id=1863277374626923384",
-        "published": "2026-04-25 12:03",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863277374626923384><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3321757135%2C294890415%26fm%3D30%26app%3",
-        "title_zh": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛..",
-        "title_en": "喜报！济南市莱芜凤城高中学子在全国各类文学写作类赛.."
-      },
-      "美国（欧美媒体）": {
-        "title": "Pirates hijack oil tanker off the coast of Somalia",
-        "link": "https://www.bbc.com/news/articles/c78l26yn981o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 01:04",
-        "description": "Piracy, once notorious in this stretch of the Indian Ocean, has made a comeback in recent years.",
-        "title_en": "Pirates hijack oil tanker off the coast of Somalia",
-        "title_zh": "海盗在索马里海岸劫持油轮"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Gunmen stage simultaneous attacks across Mali, army says",
-        "link": "https://www.aljazeera.com/news/2026/4/25/mali-army-says-armed-groups-launch-nationwide-attacks-gunfire-near-airport?traffic_source=rss",
-        "published": "2026-04-25 17:21",
-        "description": "Capital Bamako and several other locations hit in an apparently coordinated ⁠assault involving multiple groups.",
-        "title_en": "Gunmen stage simultaneous attacks across Mali, army says",
-        "title_zh": "军方称，武装分子在马里各地同时发动袭击"
-      },
-      "my_view": "中国视角侧重国内教育成就，与海盗事件无关；欧美视角客观陈述事实；伊斯兰视角聚焦马里的武装袭击，三者立场、关注点和报道地域完全不同。",
-      "summary": "同一事件在不同媒体中被扭曲或替换，反映新闻选择背后的立场与利益差异。"
-    },
-    {
-      "event_hint": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-      "event_hint_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险",
-      "event_hint_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 07:28",
-        "description": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
-        "title_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "What’s at stake for Iran and the US in Islamabad?",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/whats-at-stake-for-iran-and-the-us-in-islamabad?traffic_source=rss",
-        "published": "2026-04-25 12:30",
-        "description": "Iran’s foreign minister is in Islamabad, with US envoys also on the way.",
-        "title_en": "What’s at stake for Iran and the US in Islamabad?",
-        "title_zh": "伊朗和美国在伊斯兰堡面临着什么危险？"
-      },
-      "my_view": "中国视角未报道，显示选择性沉默；欧美聚焦系统失修与风险，强调责任缺失；伊斯兰视角转向美伊博弈，利用事件借题发挥。三方立场分别体现回避、问责与地缘政治化。",
-      "summary": "珠峰洪水预警系统因资金或维护问题失效，威胁当地居民安全，但各国媒体关注点迥异。"
-    },
-    {
-      "event_hint": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "event_hint_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国",
-      "event_hint_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-        "link": "https://www.bbc.com/news/articles/cde51y0zgjyo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:55",
-        "description": "An internal Pentagon document reportedly raised the prospect of a change in position in retaliation for the UK not joining the Iran war.",
-        "title_en": "No 10 says Falklands sovereignty rests with UK after report of US 'review'",
-        "title_zh": "美国“审查”报告后，第10号称福克兰群岛主权属于英国"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Elections without sovereignty: What Palestine’s local vote represents",
-        "link": "https://www.aljazeera.com/opinions/2026/4/25/elections-without-sovereignty-what-palestines-local-vote-really-represent?traffic_source=rss",
-        "published": "2026-04-25 13:50",
-        "description": "The elections offer participation without power, revealing how occupation shapes and limits Palestinian political life.",
-        "title_en": "Elections without sovereignty: What Palestine’s local vote represents",
-        "title_zh": "没有主权的选举：巴勒斯坦当地选票代表什么"
-      },
-      "my_view": "中国视角未报道，欧美强调英国主权立场，伊斯兰视角则关联巴勒斯坦选举，凸显不同阵营对主权议题的侧重：西方维护现有秩序，中东关注自身困境。",
-      "summary": "美国审查报告后，英国重申对福克兰群岛主权，但伊斯兰媒体将其与巴勒斯坦主权缺失对比。"
-    },
-    {
-      "event_hint": "31 sloths die in Florida before opening of attraction",
-      "event_hint_zh": "佛罗里达州31只树懒在景点开放前死亡",
-      "event_hint_en": "31 sloths die in Florida before opening of attraction",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "31 sloths die in Florida before opening of attraction",
-        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 12:02",
-        "description": "Many died due to conditions at a Florida warehouse where they'd been shipped, while others arrived from South America dead, authorities say.",
-        "title_en": "31 sloths die in Florida before opening of attraction",
-        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Israel escalates attacks in Gaza, killing 12 people",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/25/israel-escalates-attacks-in-gaza-killing-12-people?traffic_source=rss",
-        "published": "2026-04-25 11:23",
-        "description": "Israeli forces have killed 12 Palestinians, including six police officers, in multiple attacks across Gaza.",
-        "title_en": "Israel escalates attacks in Gaza, killing 12 people",
-        "title_zh": "以色列升级加沙袭击 造成12人死亡"
-      },
-      "my_view": "中国视角缺失，欧美聚焦动物死亡事件本身，伊斯兰视角则完全转向巴以冲突，显示媒体选择性报道受地缘政治与读者偏好影响。",
-      "summary": "同一时间，不同媒体因立场与受众差异，对全球事件进行截然不同的议程设置。"
-    },
-    {
-      "event_hint": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-      "event_hint_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”",
-      "event_hint_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-        "link": "https://www.bbc.com/news/videos/cwy37w2y64ro?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 07:00",
-        "description": "A Buckingham Palace source confirmed the Royals will not meet with survivors of sex offender Jeffrey Epstein during their state visit to the US.",
-        "title_en": "Meeting with the King would 'demonstrate human dignity', says Epstein survivor",
-        "title_zh": "爱泼斯坦幸存者表示，与国王会面将“展示人类尊严”"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "West Bank scepticism as Palestinians doubt local elections will change much",
-        "link": "https://www.aljazeera.com/features/2026/4/25/west-bank-scepticism-as-palestinians-doubt-local-elections-will-change-much?traffic_source=rss",
-        "published": "2026-04-25 15:16",
-        "description": "Frustration with the Palestinian Authority and Israeli occupation fuel voter apathy in local West Bank elections.",
-        "title_en": "West Bank scepticism as Palestinians doubt local elections will change much",
-        "title_zh": "约旦河西岸的怀疑，因为巴勒斯坦人怀疑地方选举会发生很大变化"
-      },
-      "my_view": "中国未报道此事件，欧美聚焦爱泼斯坦幸存者与英王会面的人权象征，伊斯兰视角则关注巴勒斯坦对选举的质疑，三方立场差异显著，分别体现西方个人权利叙事、中东政治现实关切及中国选择性报道策略。",
-      "summary": "同一事件因媒体立场和地域焦点不同，呈现从人权象征到政治质疑的多元解读。"
+      "my_view": "BBC聚焦北约规则无驱逐条款，淡化内部矛盾；半岛以“裂痕”为题强调分歧严重性；中国视角空缺，可能因事件未直接涉华或需谨慎表态。三方立场体现对北约团结性的不同解读。",
+      "summary": "北约内部因美国可能暂停西班牙成员国资格传闻出现分歧，但官方称无驱逐条款。"
     }
   ]
 }
