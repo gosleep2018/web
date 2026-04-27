@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-27 12:00:56 +08",
+  "generated_at": "2026-04-27 20:01:02 +08",
   "generated_date": "2026-04-27",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Abbas loyalists sweep Palestinian elections, including some seats in Gaza",
         "title_zh": "阿巴斯的忠诚者横扫巴勒斯坦选举，包括加沙的一些席位"
       },
-      "my_view": "网易标题完全回避巴勒斯坦选举，聚焦国内民生，体现中国媒体淡化国际敏感议题的倾向；BBC客观陈述事实，但未涉及政治派系；半岛突出阿巴斯派系获胜，强调选举政治影响，反映伊斯兰视角对权力格局的关注。",
-      "summary": "巴勒斯坦地方选举在约旦河西岸和加沙部分区域进行，阿巴斯派系取得明显优势。"
+      "my_view": "网易标题完全回避巴勒斯坦选举，凸显中国媒体对国际敏感事件的淡化处理；BBC客观报道投票事实，但未体现选举结果；半岛强调阿巴斯派系获胜，突出伊斯兰视角下的政治博弈。",
+      "summary": "巴勒斯坦地方选举中，阿巴斯领导的法塔赫在约旦河西岸和加沙部分区域获胜。"
     },
     {
       "event_hint": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
@@ -451,8 +452,8 @@
         "title_en": "Iran’s foreign minister leaves Pakistan, heads to Russia for more talks",
         "title_zh": "伊朗外长离开巴基斯坦前往俄罗斯进行更多会谈"
       },
-      "my_view": "中国视角缺位，未直接报道；BBC侧重美国决策行为，强调特朗普取消行程；半岛聚焦伊朗外长动向，突出其外交延续性。三方立场差异体现：欧美关注美方主导性，伊斯兰视角凸显伊朗主动外交，中国则可能持中立观察。",
-      "summary": "美国取消特使赴巴行程，伊朗外长转赴俄会谈，反映美伊对抗下多方外交博弈。"
+      "my_view": "中国报道缺失，欧美侧重美国决策行为，伊斯兰视角强调伊朗外交动向。三方立场差异体现：欧美聚焦美国单边行动，伊斯兰凸显伊朗主动外交，中国视角空缺或反映谨慎态度。",
+      "summary": "美国取消特使赴巴会谈，伊朗外长转赴俄罗斯，反映美伊博弈中外交路径分化。"
     },
     {
       "event_hint": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
@@ -475,8 +476,8 @@
         "title_en": "Accused shooter was targeting Trump and US officials, authorities say",
         "title_zh": "当局称，被指控的枪手瞄准的是特朗普和美国官员"
       },
-      "my_view": "BBC用‘likely’体现谨慎推测，半岛直接断言‘targeting’，立场差异在于对当局说法的确定性渲染：欧美侧重客观存疑，伊斯兰倾向强调攻击性。",
-      "summary": "当局认定新闻晚宴枪击案嫌疑人可能以特朗普及官员为攻击目标。"
+      "my_view": "BBC用“likely”体现谨慎推测，半岛直接称“targeting”更肯定，中国视角未报道反映对敏感事件的回避。三方立场差异在于措辞的确定性及政治敏感度。",
+      "summary": "当局认为新闻晚宴枪击嫌疑人可能以特朗普及官员为目标。"
     },
     {
       "event_hint": "Seven dead in major Russian attack on Ukraine",
@@ -506,8 +507,8 @@
         "title_en": "Bomb attack on Colombia highway kills 19 ahead of election",
         "title_zh": "哥伦比亚大选前夕高速公路炸弹袭击造成19人死亡"
       },
-      "my_view": "中国媒体侧重国内无关议题，回避国际冲突；BBC聚焦俄乌战争伤亡；半岛报道混淆不同国家事件，转移对伊斯兰世界不利焦点。三方立场均受政治利益驱动。",
-      "summary": "俄罗斯对乌克兰的军事袭击造成平民伤亡，不同媒体选择性报道反映其政治立场。"
+      "my_view": "中国视角聚焦国内企业动态，淡化国际冲突；欧美视角突出俄罗斯攻击行为及伤亡；伊斯兰视角则关注哥伦比亚选举前暴力事件，转移焦点。三方均服务于自身政治或区域议程。",
+      "summary": "同一袭击事件因媒体立场不同被选择性报道或替换议题，反映信息传播中的利益导向。"
     },
     {
       "event_hint": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
@@ -537,8 +538,8 @@
         "title_en": "Israel issues forced evacuation orders for southern Lebanon in escalation",
         "title_zh": "以色列向黎巴嫩南部发出强制撤离令，事态升级"
       },
-      "my_view": "网易聚焦国内教育合作，淡化国际冲突；BBC突出以色列主动攻击；半岛强调以色列强制撤离，凸显其侵略性。三方立场分别体现内政优先、西方亲以、伊斯兰反以倾向。",
-      "summary": "内塔尼亚胡下令强攻黎巴嫩真主党，引发军事升级，各方报道视角差异反映其政治立场。"
+      "my_view": "中国媒体侧重国内发展，淡化国际冲突；欧美媒体聚焦以色列行动，突出军事指令；伊斯兰媒体强调以色列强制撤离，渲染侵略性。三方立场分别体现中立、亲以、亲巴倾向。",
+      "summary": "内塔尼亚胡下令猛攻黎巴嫩真主党，引发地区局势升级与强制撤离。"
     },
     {
       "event_hint": "Mali defence minister killed as country hit by wave of rebel attacks",
@@ -561,8 +562,8 @@
         "title_en": "What’s driving attacks against gov’t and Russian forces in Mali?",
         "title_zh": "是什么导致马里政府和俄罗斯军队遭受袭击？"
       },
-      "my_view": "中国报道缺失，欧美聚焦事件本身并凸显马里动荡，伊斯兰视角则深究袭击动机、质疑政府与俄军合法性，三方立场差异体现信息选择与叙事导向。",
-      "summary": "马里国防部长在叛军连环袭击中身亡，凸显该国安全危机与外部势力介入的复杂矛盾。"
+      "my_view": "中国视角未报道，体现谨慎立场；BBC聚焦事件本身，突出叛军袭击的冲击；半岛追问动机，关联俄军存在，暗示对西方干预的批判。三方立场从事实陈述到原因探究，反映不同地缘关切。",
+      "summary": "马里国防部长在叛军袭击中身亡，事件凸显该国安全危机及外部势力介入的复杂背景。"
     },
     {
       "event_hint": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
@@ -585,8 +586,8 @@
         "title_en": "Thai police arrest Indonesian wanted for $10m cyberfraud",
         "title_zh": "泰国警方逮捕因网络诈骗 1000 万美元而通缉的印尼人"
       },
-      "my_view": "网易未报道，BBC聚焦系统失效与西方责任，半岛则完全偏离主题报道泰国网络诈骗，体现媒体选择性报道与议程设置差异。",
-      "summary": "耗资巨大的珠峰洪水预警系统因维护缺失生锈，导致数千人面临生命危险。"
+      "my_view": "中国视角未报道，欧美聚焦预警系统失修暴露西方援助管理问题，伊斯兰视角却转向无关案件，暗示其有意回避西方责任或转移议题。",
+      "summary": "珠峰洪水预警系统因资金和维护缺失而锈蚀失效，危及数千人安全。"
     },
     {
       "event_hint": "US justice department drops probe into Fed chairman Jerome Powell",
@@ -609,8 +610,8 @@
         "title_en": "Has Iran exposed the limits of what US can achieve by force?",
         "title_zh": "伊朗是否暴露了美国武力所能达到的极限？"
       },
-      "my_view": "网易未报道此事，BBC聚焦美国司法程序的中立性，半岛则借机质疑美国武力极限，凸显不同媒体对同一事件的选择性叙事与立场导向。",
-      "summary": "美国司法部终止对美联储主席鲍威尔的调查，但媒体关注点迥异，反映其政治与意识形态偏好。"
+      "my_view": "网易未报道显示中国对美内部事务持谨慎态度；BBC聚焦程序性事件，强调法律与制度；半岛则将事件与伊朗关联，借美司法动作质疑其武力效能，凸显反美视角。",
+      "summary": "美国司法部终止对美联储主席鲍威尔的调查，三国媒体立场差异反映其政治叙事取向。"
     },
     {
       "event_hint": "Mexico says US agents killed in crash weren't permitted to operate there",
@@ -633,8 +634,8 @@
         "title_en": "New footage shows moment of deadly bus bombing in Colombia",
         "title_zh": "新镜头显示哥伦比亚致命巴士爆炸事件的瞬间"
       },
-      "my_view": "网易未报道显示中方回避敏感事件；BBC侧重美方违规操作，隐含对美干涉的批评；半岛聚焦哥伦比亚恐袭，转移焦点，淡化美墨矛盾。三方立场差异明显：中国谨慎，欧美问责，伊斯兰借题发挥。",
-      "summary": "墨西哥坠机事件中丧生的美国特工被指非法行动，不同媒体因利益立场差异选择性报道。"
+      "my_view": "中国未报道，欧美聚焦美墨外交冲突，伊斯兰侧重拉美暴力事件。三方立场差异反映各自关注点：欧美重规则与主权，伊斯兰重地区安全，中国可能谨慎回避敏感。",
+      "summary": "墨西哥否认坠机美特工合法性，凸显跨国执法争议与地区安全复杂性。"
     }
   ]
 }
