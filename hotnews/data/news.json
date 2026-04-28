@@ -1,641 +1,584 @@
 {
-  "generated_at": "2026-04-27 20:01:02 +08",
-  "generated_date": "2026-04-27",
-  "current_slot": "晚",
+  "generated_at": "2026-04-28 08:00:57 +08",
+  "generated_date": "2026-04-28",
+  "current_slot": "早",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
-        "title": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人..",
-        "link": "http://baijiahao.baidu.com/s?id=1863593331873762762",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863593331873762762><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1357271383%2C295184693%26fm%3D30%26app%3",
-        "title_zh": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人..",
-        "title_en": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人.."
+        "title": "极目名校行｜全方位解码武汉育才美术高中的艺术升学之..",
+        "link": "http://baijiahao.baidu.com/s?id=1863624884348744935",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863624884348744935><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1858592142%2C295214057%26fm%3D30%26app%3",
+        "title_zh": "极目名校行｜全方位解码武汉育才美术高中的艺术升学之..",
+        "title_en": "极目名校行｜全方位解码武汉育才美术高中的艺术升学之.."
       },
       {
-        "title": "黄花岗、女志士与被遗忘的全球史：一场跨越百年的青春..",
-        "link": "http://baijiahao.baidu.com/s?id=1863591863912414570",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863591863912414570><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1565685858%2C295183305%26fm%3D30%26app%3",
-        "title_zh": "黄花岗、女志士与被遗忘的全球史：一场跨越百年的青春..",
-        "title_en": "黄花岗、女志士与被遗忘的全球史：一场跨越百年的青春.."
+        "title": "山海不为远 云端共此时——甘肃教育帮扶书写“数智赋..",
+        "link": "http://baijiahao.baidu.com/s?id=1863623761657311074",
+        "published": "2026-04-28 08:00",
+        "description": "",
+        "title_zh": "山海不为远 云端共此时——甘肃教育帮扶书写“数智赋..",
+        "title_en": "山海不为远 云端共此时——甘肃教育帮扶书写“数智赋.."
       },
       {
-        "title": "学生墙上写“求投喂”学校开深夜食堂 恩施这所中学太..",
-        "link": "http://baijiahao.baidu.com/s?id=1863591512814196182",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863591512814196182><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1719882926%2C295182974%26fm%3D30%26app%3",
-        "title_zh": "学生墙上写“求投喂”学校开深夜食堂 恩施这所中学太..",
-        "title_en": "学生墙上写“求投喂”学校开深夜食堂 恩施这所中学太.."
+        "title": "人大常委会丨我国拟修订企业国有资产法 以立法引领保..",
+        "link": "http://baijiahao.baidu.com/s?id=1863621645329349833",
+        "published": "2026-04-28 08:00",
+        "description": "",
+        "title_zh": "人大常委会丨我国拟修订企业国有资产法 以立法引领保..",
+        "title_en": "人大常委会丨我国拟修订企业国有资产法 以立法引领保.."
+      },
+      {
+        "title": "书香满校园，阅读向未来！官庄学区学校开展阅读活动周..",
+        "link": "http://baijiahao.baidu.com/s?id=1863618524975548062",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863618524975548062><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2898605243%2C295208621%26fm%3D30%26app%3",
+        "title_zh": "书香满校园，阅读向未来！官庄学区学校开展阅读活动周..",
+        "title_en": "书香满校园，阅读向未来！官庄学区学校开展阅读活动周.."
+      },
+      {
+        "title": "国家发展改革委：到2030年西藏森林覆盖率达12...",
+        "link": "http://baijiahao.baidu.com/s?id=1863617805422912458",
+        "published": "2026-04-28 08:00",
+        "description": "",
+        "title_zh": "国家发展改革委：到2030年西藏森林覆盖率达12...",
+        "title_en": "国家发展改革委：到2030年西藏森林覆盖率达12..."
+      },
+      {
+        "title": "直通部委｜65岁以上是药品不良反应高风险人群三部..",
+        "link": "http://baijiahao.baidu.com/s?id=1863617427106609179",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863617427106609179><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D432900710%2C295207111%26fm%3D30%26app%3D",
+        "title_zh": "直通部委｜65岁以上是药品不良反应高风险人群三部..",
+        "title_en": "直通部委｜65岁以上是药品不良反应高风险人群三部.."
+      },
+      {
+        "title": "吉林企业护航绿色低碳“加速度”",
+        "link": "http://baijiahao.baidu.com/s?id=1863615825717153047",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863615825717153047><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2989095334%2C295205619%26fm%3D30%26app%3",
+        "title_zh": "吉林企业护航绿色低碳“加速度”",
+        "title_en": "吉林企业护航绿色低碳“加速度”"
+      },
+      {
+        "title": "跨越山海 共筑友谊——济南龙奥学校举办新西兰圣约瑟..",
+        "link": "http://baijiahao.baidu.com/s?id=1863609226713180905",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863609226713180905><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2925371240%2C295199477%26fm%3D30%26app%3",
+        "title_zh": "跨越山海 共筑友谊——济南龙奥学校举办新西兰圣约瑟..",
+        "title_en": "跨越山海 共筑友谊——济南龙奥学校举办新西兰圣约瑟.."
+      },
+      {
+        "title": "花间言志 高考加油——济南市莱芜第一中学举办植物文..",
+        "link": "http://baijiahao.baidu.com/s?id=1863602907520449093",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863602907520449093><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D759377526%2C295193593%26fm%3D30%26app%3D",
+        "title_zh": "花间言志 高考加油——济南市莱芜第一中学举办植物文..",
+        "title_en": "花间言志 高考加油——济南市莱芜第一中学举办植物文.."
+      },
+      {
+        "title": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
+        "link": "http://baijiahao.baidu.com/s?id=1863591762030200097",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863591762030200097><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D644665516%2C295183207%26fm%3D30%26app%3D",
+        "title_zh": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
+        "title_en": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员.."
+      },
+      {
+        "title": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展..",
+        "link": "http://baijiahao.baidu.com/s?id=1863542277619209057",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863542277619209057><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D507833228%2C295137433%26fm%3D30%26app%3D",
+        "title_zh": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展..",
+        "title_en": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展.."
+      },
+      {
+        "title": "校长坐镇答疑！2026年烟台中考首场招生宣讲咨询会..",
+        "link": "http://baijiahao.baidu.com/s?id=1863539760939726490",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863539760939726490><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3116759115%2C295134778%26fm%3D30%26app%3",
+        "title_zh": "校长坐镇答疑！2026年烟台中考首场招生宣讲咨询会..",
+        "title_en": "校长坐镇答疑！2026年烟台中考首场招生宣讲咨询会.."
+      },
+      {
+        "title": "APEC工商咨询理事会第二次会议在墨西哥举行中国方..",
+        "link": "http://baijiahao.baidu.com/s?id=1863535398169346382",
+        "published": "2026-04-28 08:00",
+        "description": "",
+        "title_zh": "APEC工商咨询理事会第二次会议在墨西哥举行中国方..",
+        "title_en": "APEC工商咨询理事会第二次会议在墨西哥举行中国方.."
       },
       {
         "title": "临沂科技职业学院举办“春天送你一首诗”第二届青春诗..",
         "link": "http://baijiahao.baidu.com/s?id=1863527178656096269",
-        "published": "2026-04-27 12:00",
+        "published": "2026-04-28 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863527178656096269><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3020655755%2C295123060%26fm%3D30%26app%3",
         "title_zh": "临沂科技职业学院举办“春天送你一首诗”第二届青春诗..",
         "title_en": "临沂科技职业学院举办“春天送你一首诗”第二届青春诗.."
       },
       {
-        "title": "环保又增效，这波“氨气回收”操作一举两得！",
-        "link": "http://baijiahao.baidu.com/s?id=1863503237856369266",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863503237856369266><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2855819367%2C295100765%26fm%3D30%26app%3",
-        "title_zh": "环保又增效，这波“氨气回收”操作一举两得！",
-        "title_en": "环保又增效，这波“氨气回收”操作一举两得！"
-      },
-      {
         "title": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推..",
         "link": "http://baijiahao.baidu.com/s?id=1863498865851218072",
-        "published": "2026-04-27 12:00",
+        "published": "2026-04-28 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863498865851218072><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1161700444%2C295097210%26fm%3D30%26app%3",
         "title_zh": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推..",
         "title_en": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推.."
       },
       {
-        "title": "黔山贵水深山筑路 莞邑筑梦坚守匠心",
-        "link": "http://baijiahao.baidu.com/s?id=1863447433337777236",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863447433337777236><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1502757069%2C295048794%26fm%3D30%26app%3",
-        "title_zh": "黔山贵水深山筑路 莞邑筑梦坚守匠心",
-        "title_en": "黔山贵水深山筑路 莞邑筑梦坚守匠心"
-      },
-      {
-        "title": "成都再添83所AI试点校，快看你家孩子学校在不在（..",
-        "link": "http://baijiahao.baidu.com/s?id=1863437777620193808",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863437777620193808><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1015043362%2C295039802%26fm%3D30%26app%3",
-        "title_zh": "成都再添83所AI试点校，快看你家孩子学校在不在（..",
-        "title_en": "成都再添83所AI试点校，快看你家孩子学校在不在（.."
-      },
-      {
-        "title": "只有通勤车抵达的小站，“70后”师傅和“00后”徒..",
-        "link": "http://baijiahao.baidu.com/s?id=1863416793147185626",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863416793147185626><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2222357079%2C295020600%26fm%3D30%26app%3",
-        "title_zh": "只有通勤车抵达的小站，“70后”师傅和“00后”徒..",
-        "title_en": "只有通勤车抵达的小站，“70后”师傅和“00后”徒.."
-      },
-      {
-        "title": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
-        "link": "http://baijiahao.baidu.com/s?id=1863408304082179360",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863408304082179360><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3351108596%2C295012391%26fm%3D30%26app%3",
-        "title_zh": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台..",
-        "title_en": "“天际无垠 风筝可及” 外交部发言人毛宁在海外平台.."
-      },
-      {
-        "title": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
-        "link": "http://baijiahao.baidu.com/s?id=1863404085598743261",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863404085598743261><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D298585708%2C295008422%26fm%3D30%26app%3D",
-        "title_zh": "1个杭二，3个学军，3个杭高……杭州这所小学的班主..",
-        "title_en": "1个杭二，3个学军，3个杭高……杭州这所小学的班主.."
-      },
-      {
-        "title": "国家发改委副主任周海兵会见格鲁吉亚经济与可持续发展..",
-        "link": "http://baijiahao.baidu.com/s?id=1863354697205723686",
-        "published": "2026-04-27 12:00",
-        "description": "",
-        "title_zh": "国家发改委副主任周海兵会见格鲁吉亚经济与可持续发展..",
-        "title_en": "国家发改委副主任周海兵会见格鲁吉亚经济与可持续发展.."
-      },
-      {
-        "title": "四川五一加开多趟列车！包括成都到西安、昆明等线路",
-        "link": "http://baijiahao.baidu.com/s?id=1863349537475725881",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863349537475725881><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D4208274936%2C294957620%26fm%3D30%26app%3",
-        "title_zh": "四川五一加开多趟列车！包括成都到西安、昆明等线路",
-        "title_en": "四川五一加开多趟列车！包括成都到西安、昆明等线路"
-      },
-      {
-        "title": "山东省轻工工程学校：多层次办学体系助力学子多元成才",
-        "link": "http://baijiahao.baidu.com/s?id=1863342242262595413",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863342242262595413><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D318946636%2C294950825%26fm%3D30%26app%3D",
-        "title_zh": "山东省轻工工程学校：多层次办学体系助力学子多元成才",
-        "title_en": "山东省轻工工程学校：多层次办学体系助力学子多元成才"
-      },
-      {
-        "title": "现代投资：公司已在智慧高速、绿色养护、环保等领域开..",
-        "link": "http://baijiahao.baidu.com/s?id=1863325440565192754",
-        "published": "2026-04-27 12:00",
-        "description": "证券日报网讯4月24日，现代投资在互动平台回答投资者提问时表示，作为湖南省属国企，公司紧扣“三高四新”美好蓝图，立足交通主业，积极打造具有核心竞争力的科技创新高地。目前，公司已在智慧高速、绿",
-        "title_zh": "现代投资：公司已在智慧高速、绿色养护、环保等领域开..",
-        "title_en": "现代投资：公司已在智慧高速、绿色养护、环保等领域开.."
-      },
-      {
-        "title": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
-        "link": "http://baijiahao.baidu.com/s?id=1863317924883400998",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863317924883400998><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1698866765%2C294928200%26fm%3D30%26app%3",
-        "title_zh": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中..",
-        "title_en": "精准复盘明方向 凝心聚力备高考——济南市莱芜十七中.."
+        "title": "「天眼面对面·视频访谈」朝阳小学东都校区黄永发：学..",
+        "link": "http://baijiahao.baidu.com/s?id=1863165830153168425",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863165830153168425><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2366478893%2C294786622%26fm%3D30%26app%3",
+        "title_zh": "「天眼面对面·视频访谈」朝阳小学东都校区黄永发：学..",
+        "title_en": "「天眼面对面·视频访谈」朝阳小学东都校区黄永发：学.."
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-        "link": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-27 10:40",
-        "description": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
-        "title_en": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-        "title_zh": "当局认为特朗普和官员“可能”是新闻晚宴枪击嫌疑人的目标"
+        "title": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
+        "link": "https://www.bbc.com/news/articles/c04x40d4424o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 05:14",
+        "description": "In a parody aired days before the White House Correspondents' Dinner, Kimmel called Melania an \"expectant widow\".",
+        "title_en": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
+        "title_zh": "梅拉尼娅·特朗普在寡妇笑话后敦促美国广播公司对吉米·金梅尔“表明立场”"
       },
       {
-        "title": "I was in the room with Trump and heard the low thudding sound of gunfire",
-        "link": "https://www.bbc.com/news/articles/c62j23wzeqeo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 12:22",
-        "description": "The BBC's Gary O'Donoghue describes the moment he and others dived for cover as shots rang out at the venue.",
-        "title_en": "I was in the room with Trump and heard the low thudding sound of gunfire",
-        "title_zh": "我和特朗普在房间里，听到低沉的枪声"
+        "title": "Trump says King will be 'very safe' during US visit after security talks",
+        "link": "https://www.bbc.com/news/articles/c4gjger58jzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 17:19",
+        "description": "The state visit will go ahead despite concerns raised after a gunman targeted an event attended by the president.",
+        "title_en": "Trump says King will be 'very safe' during US visit after security talks",
+        "title_zh": "特朗普称金在安全会谈后访问美国期间“非常安全”"
       },
       {
-        "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-        "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 05:34",
-        "description": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
-        "title_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-        "title_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程"
+        "title": "Pakistan accused of attacking Afghan university",
+        "link": "https://www.bbc.com/news/articles/cvg0gxrgklro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 00:54",
+        "description": "Air attacks on the province of Kunar have killed at least seven people and injured 75, sources tell the BBC.",
+        "title_en": "Pakistan accused of attacking Afghan university",
+        "title_zh": "Pakistan accused of attacking Afghan university"
       },
       {
-        "title": "Mali defence minister killed as country hit by wave of rebel attacks",
-        "link": "https://www.bbc.com/news/articles/c5yvy7v66ndo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-27 04:56",
-        "description": "A wave of coordinated attacks by jihadist militants and separatists has spread through the country.",
-        "title_en": "Mali defence minister killed as country hit by wave of rebel attacks",
-        "title_zh": "马里国防部长因叛军袭击而丧生"
+        "title": "Venice opera house drops incoming music director after nepotism remarks",
+        "link": "https://www.bbc.com/news/articles/cx2d2ennv95o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 01:13",
+        "description": "Beatrice Venezi's appointment had been marred in controversy since being announced last September, prompting orchestra members to go on strike.",
+        "title_en": "Venice opera house drops incoming music director after nepotism remarks",
+        "title_zh": "威尼斯歌剧院在裙带关系言论后解雇了即将上任的音乐总监"
       },
       {
-        "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-        "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 08:34",
-        "description": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
-        "title_en": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-        "title_zh": "内塔尼亚胡命令军队“大力攻击”黎巴嫩真主党"
+        "title": "At least four killed and dozens injured in Indonesia train crash",
+        "link": "https://www.bbc.com/news/articles/ckgegg8r0v1o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 03:06",
+        "description": "Officials say a commuter train and a long-distance train collided on the outskirts of Jakarta on Monday.",
+        "title_en": "At least four killed and dozens injured in Indonesia train crash",
+        "title_zh": "印尼火车相撞事故造成至少四人死亡、数十人受伤"
       },
       {
-        "title": "Mexico says US agents killed in crash weren't permitted to operate there",
-        "link": "https://www.bbc.com/news/articles/cx2491we011o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 01:40",
-        "description": "The two Americans who reportedly worked for the CIA died in a car crash after a Mexican-led operation to destroy a drug lab.",
-        "title_en": "Mexico says US agents killed in crash weren't permitted to operate there",
-        "title_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务"
+        "title": "Gunmen raid Nigerian orphanage and kidnap children",
+        "link": "https://www.bbc.com/news/articles/cjd8dmx41vko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 23:39",
+        "description": "The attack saw 23 children and the facility's proprietress kidnapped by gunmen on Sunday.",
+        "title_en": "Gunmen raid Nigerian orphanage and kidnap children",
+        "title_zh": "枪手袭击尼日利亚孤儿院并绑架儿童"
       },
       {
-        "title": "Palestinians in West Bank and some in Gaza vote in local elections",
-        "link": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 01:01",
-        "description": "Local elections have been held in the occupied West Bank and in one Gazan city, though Hamas and other groups are not taking part.",
-        "title_en": "Palestinians in West Bank and some in Gaza vote in local elections",
-        "title_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票"
+        "title": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
+        "link": "https://www.bbc.com/news/articles/cwyjykv4j9do?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 19:42",
+        "description": "Officials say a rebel leader known as \"Marlon\" ordered the attack in which 20 people were killed.",
+        "title_en": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
+        "title_zh": "哥伦比亚悬赏创纪录的 140 万美元悬赏叛军，追究造成致命炸弹袭击的叛乱分子"
       },
       {
-        "title": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
-        "link": "https://www.bbc.com/news/articles/c0kr62z7z6lo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 01:36",
-        "description": "More than 500 political prisoners are thought to still be in jail, despite the releases since the amnesty law was brought in.",
-        "title_en": "Rights groups critical as Venezuela prisoner release scheme 'coming to an end'",
-        "title_zh": "委内瑞拉囚犯释放计划“即将结束”，人权组织提出批评"
+        "title": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
+        "link": "https://www.bbc.com/news/articles/c3w3wyq4v14o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 00:26",
+        "description": "Ethnic Tuareg fighters say they are in control of Kidal following a weekend of nationwide attacks, alongside Islamist groups.",
+        "title_en": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
+        "title_zh": "俄罗斯武装分子确认在分裂分子袭击后从马里北部城市撤军"
       },
       {
-        "title": "Orbán steps down from Hungarian parliament after landslide defeat",
-        "link": "https://www.bbc.com/news/articles/cd9v1wll8qqo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 03:22",
-        "description": "The outgoing prime minister will not take up his seat after leading his party back into opposition.",
-        "title_en": "Orbán steps down from Hungarian parliament after landslide defeat",
-        "title_zh": "欧尔班以压倒性失败从匈牙利议会辞职"
+        "title": "Michael Jackson biopic smashes box office record",
+        "link": "https://www.bbc.com/news/articles/crl1lpzp4z5o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 17:44",
+        "description": "The film received poor reviews but has stormed the box office, taking $217m (£160m) globally.",
+        "title_en": "Michael Jackson biopic smashes box office record",
+        "title_zh": "Michael Jackson biopic smashes box office record"
       },
       {
-        "title": "Thirty-one sloths die in Florida before opening of attraction",
-        "link": "https://www.bbc.com/news/articles/cz675j3y151o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 12:02",
-        "description": "Many died due to conditions at a warehouse they'd been shipped to, while others arrived dead, authorities say.",
-        "title_en": "Thirty-one sloths die in Florida before opening of attraction",
-        "title_zh": "佛罗里达州31只树懒在景点开放前死亡"
+        "title": "At least 42 killed in Chad after water well dispute escalates",
+        "link": "https://www.bbc.com/news/articles/cr717plvxvgo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 17:20",
+        "description": "The dispute was initially between two families before escalating into a cycle of reprisal attacks.",
+        "title_en": "At least 42 killed in Chad after water well dispute escalates",
+        "title_zh": "乍得水井纠纷升级 至少42人死亡"
       },
       {
-        "title": "Seven dead in major Russian attack on Ukraine",
-        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 20:29",
-        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
-        "title_en": "Seven dead in major Russian attack on Ukraine",
-        "title_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡"
+        "title": "Kim Jong Un opens memorial for N Korean soldiers killed in Ukraine war",
+        "link": "https://www.bbc.com/news/articles/cql7l707244o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 14:52",
+        "description": "Kim Jong Un and Russian Defence Minister Andrey Belousov unveiled the memorial in Pyongyang.",
+        "title_en": "Kim Jong Un opens memorial for N Korean soldiers killed in Ukraine war",
+        "title_zh": "金正恩为在乌克兰战争中丧生的朝鲜士兵开设纪念碑"
       },
       {
-        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 07:28",
-        "description": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
-        "title_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
+        "title": "French coastguard rescues more than 100 migrants crossing Channel",
+        "link": "https://www.bbc.com/news/articles/c3v6v4qd7qqo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 00:19",
+        "description": "A boat carrying 106 people broke down at sea, while others were rescued attempting to board the vessel.",
+        "title_en": "French coastguard rescues more than 100 migrants crossing Channel",
+        "title_zh": "法国海岸警卫队营救100多名穿越英吉利海峡的移民"
       },
       {
-        "title": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
-        "link": "https://www.bbc.com/news/articles/c4gjkj7975po?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 09:18",
-        "description": "The boss of the controversial tech company with UK government contracts published a 22-point plan on the future of the West.",
-        "title_en": "The viral manifesto of 'anti-woke' tech boss with NHS and defence contracts",
-        "title_zh": "“反觉醒”科技老板与 NHS 和国防合同的病毒宣言"
+        "title": "Plane crash in South Sudan kills all 15 on board",
+        "link": "https://www.bbc.com/news/articles/cg737x2pe4ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 23:52",
+        "description": "The authorities are investigating but early reports suggest bad weather and poor visibility may be to blame.",
+        "title_en": "Plane crash in South Sudan kills all 15 on board",
+        "title_zh": "南苏丹客机失事 机上15人全部遇难"
       },
       {
-        "title": "US to allow firing squads, gas and electrocution for federal executions",
-        "link": "https://www.bbc.com/news/articles/cg73l2d079ko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 06:15",
-        "description": "In a memo, the Department of Justice says the move will \"strengthen\" the death penalty and deter crime.",
-        "title_en": "US to allow firing squads, gas and electrocution for federal executions",
-        "title_zh": "美国允许联邦执行行刑队、毒气和电刑"
+        "title": "Sri Lankan monks arrested after 110kg of cannabis discovered in their luggage",
+        "link": "https://www.bbc.com/news/articles/cn4v4nzwj94o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 20:13",
+        "description": "Officials say each monk was found with around 5kg of Kush - a particularly potent form of the drug - hidden within \"false walls\" in their luggage.",
+        "title_en": "Sri Lankan monks arrested after 110kg of cannabis discovered in their luggage",
+        "title_zh": "Sri Lankan monks arrested after 110kg of cannabis discovered in their luggage"
       },
       {
-        "title": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-        "link": "https://www.bbc.com/news/articles/cz78x703lrvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 00:04",
-        "description": "An internal Pentagon email reportedly outlines options to punish allies over a perceived lack of support for Iran war.",
-        "title_en": "Nato says 'no provision' to expel members after report US could seek to suspend Spain",
-        "title_zh": "北约称美国可能寻求暂停西班牙成员国资格后“没有规定”驱逐成员国"
+        "title": "French teen who licked vending machine straw faces jail in Singapore",
+        "link": "https://www.bbc.com/news/articles/cjw8w849g6go?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 14:40",
+        "description": "The teen, who posted on social media a video of himself licking the straw, could be jailed for more than two years.",
+        "title_en": "French teen who licked vending machine straw faces jail in Singapore",
+        "title_zh": "法国青少年舔自动售货机吸管在新加坡面临牢狱之灾"
       },
       {
-        "title": "US justice department drops probe into Fed chairman Jerome Powell",
-        "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 03:10",
-        "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
-        "title_en": "US justice department drops probe into Fed chairman Jerome Powell",
-        "title_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查"
+        "title": "Pirates seize another vessel off Somali coast as threat level increased",
+        "link": "https://www.bbc.com/news/articles/cn7871n27nlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 14:53",
+        "description": "The UK's maritime monitor reports at least four suspected piracy incidents in the past week off the coast of Somalia.",
+        "title_en": "Pirates seize another vessel off Somali coast as threat level increased",
+        "title_zh": "随着威胁级别的增加，海盗在索马里海岸扣押了另一艘船只"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Iran’s foreign minister leaves Pakistan, heads to Russia for more talks",
-        "link": "https://www.aljazeera.com/news/2026/4/26/irans-foreign-minister-leaves-pakistan-en-route-to-russia-for-more-talks?traffic_source=rss",
-        "published": "2026-04-27 04:47",
-        "description": "Abbas Araghchi will speak with &#039;senior officials&#039; in Moscow, Iran&#039;s Foreign Ministry says.",
-        "title_en": "Iran’s foreign minister leaves Pakistan, heads to Russia for more talks",
-        "title_zh": "伊朗外长离开巴基斯坦前往俄罗斯进行更多会谈"
+        "title": "US Supreme Court reinstates Republican-favoured Texas electoral map",
+        "link": "https://www.aljazeera.com/news/2026/4/27/us-supreme-court-reinstates-republican-favoured-texas-electoral-map?traffic_source=rss",
+        "published": "2026-04-28 06:48",
+        "description": "The reinstated map, backed by President Donald Trump, could flip key districts to Republicans.",
+        "title_en": "US Supreme Court reinstates Republican-favoured Texas electoral map",
+        "title_zh": "美国最高法院恢复共和党青睐的德克萨斯州选举地图"
       },
       {
-        "title": "Israeli settler attacks Hebron activist’s home as soldier looks on",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/israeli-settler-attacks-hebron-activists-home-as-soldier-looks-on?traffic_source=rss",
-        "published": "2026-04-27 04:27",
-        "description": "An Israeli settler was filmed throwing rocks and trying to break into the home of Palestinian activist Issa Amro.",
-        "title_en": "Israeli settler attacks Hebron activist’s home as soldier looks on",
-        "title_zh": "以色列定居者袭击希伯伦活动家的家，士兵在一旁观看"
+        "title": "Bahrain strips 69 people of citizenship over Iran support",
+        "link": "https://www.aljazeera.com/news/2026/4/27/bahrain-strips-69-people-of-citizenship-over-iran-support?traffic_source=rss",
+        "published": "2026-04-28 05:51",
+        "description": "Rights groups have described the move as a &#039;blatant abuse of power&#039;.",
+        "title_en": "Bahrain strips 69 people of citizenship over Iran support",
+        "title_zh": "巴林因支持伊朗而剥夺69人公民身份"
       },
       {
-        "title": "What’s driving attacks against gov’t and Russian forces in Mali?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/4/26/whats-driving-attacks-against-govt-and-russian-forces-in-mali?traffic_source=rss",
-        "published": "2026-04-27 04:26",
-        "description": "Opponents, including al-Qaeda-linked group, join forces.",
-        "title_en": "What’s driving attacks against gov’t and Russian forces in Mali?",
-        "title_zh": "是什么导致马里政府和俄罗斯军队遭受袭击？"
+        "title": "Leavitt blames democrats for ‘cult of hatred’ against Trump",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/leavitt-blames-democrats-for-cult-of-hatred-against-trump?traffic_source=rss",
+        "published": "2026-04-28 05:15",
+        "description": "White House press secretary Karoline Leavitt blamed democrats for promoting the rhetoric which fuels &#039;cult of hatred&#039;.",
+        "title_en": "Leavitt blames democrats for ‘cult of hatred’ against Trump",
+        "title_zh": "莱维特指责民主党人对特朗普进行“仇恨崇拜”"
       },
       {
-        "title": "Bomb attack on Colombia highway kills 19 ahead of election",
-        "link": "https://www.aljazeera.com/gallery/2026/4/26/bomb-attack-on-colombia-highway-kills-19-ahead-of-election?traffic_source=rss",
-        "published": "2026-04-27 04:15",
-        "description": "Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a surge in violence ahead of next month’s election.",
-        "title_en": "Bomb attack on Colombia highway kills 19 ahead of election",
-        "title_zh": "哥伦比亚大选前夕高速公路炸弹袭击造成19人死亡"
+        "title": "Will vote make a difference to Palestinians under Israeli occupation?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/4/27/will-vote-make-a-difference-to-palestinians-under-israeli-occupation?traffic_source=rss",
+        "published": "2026-04-28 05:07",
+        "description": "The Palestinian Authority&#039;s Fatah party and its affiliates sweep council vote.",
+        "title_en": "Will vote make a difference to Palestinians under Israeli occupation?",
+        "title_zh": "投票会对以色列占领下的巴勒斯坦人产生影响吗？"
       },
       {
-        "title": "Former Israeli PMs Bennett, Lapid unite to challenge Netanyahu in elections",
-        "link": "https://www.aljazeera.com/news/2026/4/26/former-israeli-pms-bennett-lapid-unite-to-challenge-netanyahu-in-elections?traffic_source=rss",
-        "published": "2026-04-27 04:05",
-        "description": "The two politicians&#039; alliance is aimed at uniting a fragmented opposition against current PM Benjamin Netanyahu.",
-        "title_en": "Former Israeli PMs Bennett, Lapid unite to challenge Netanyahu in elections",
-        "title_zh": "以色列前总理贝内特和拉皮德联合起来在选举中挑战内塔尼亚胡"
+        "title": "Who holds the cards in Iran-US talks?",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/who-holds-the-cards-in-iran-us-talks?traffic_source=rss",
+        "published": "2026-04-28 05:00",
+        "description": "Both the US and Iran claim to have the upper hand in negotiations over the war, but who holds the cards?",
+        "title_en": "Who holds the cards in Iran-US talks?",
+        "title_zh": "伊美谈判中谁掌握主动权？"
       },
       {
-        "title": "Has Iran exposed the limits of what US can achieve by force?",
-        "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/26/has-iran-exposed-the-limits-of-what-us-can-achieve-by-force?traffic_source=rss",
-        "published": "2026-04-27 03:55",
-        "description": "Political scientist Vali Nasr argues that US and Israeli military options ‘have come up short&#039;.",
-        "title_en": "Has Iran exposed the limits of what US can achieve by force?",
-        "title_zh": "伊朗是否暴露了美国武力所能达到的极限？"
+        "title": "Iran FM in Russia says US has offered new round of talks",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/iran-fm-in-russia-says-us-has-offered-new-round-of-talks?traffic_source=rss",
+        "published": "2026-04-28 04:59",
+        "description": "Russia is hosting Iran’s Foreign Minister Abbas Araghchi in St. Petersburg for talks on a possible new round of talks.",
+        "title_en": "Iran FM in Russia says US has offered new round of talks",
+        "title_zh": "伊朗外长在俄罗斯称美国已提出新一轮会谈"
       },
       {
-        "title": "Israel issues forced evacuation orders for southern Lebanon in escalation",
-        "link": "https://www.aljazeera.com/news/2026/4/26/israel-issues-forced-evacuation-orders-for-southern-lebanon-in-escalation?traffic_source=rss",
-        "published": "2026-04-27 03:09",
-        "description": "Hezbollah rejects allegations from Israeli PM Benjamin Netanyahu that it is undermining the Israel-Lebanon ceasefire.",
-        "title_en": "Israel issues forced evacuation orders for southern Lebanon in escalation",
-        "title_zh": "以色列向黎巴嫩南部发出强制撤离令，事态升级"
+        "title": "China seeks to block US tech giant Meta from AI acquisition",
+        "link": "https://www.aljazeera.com/news/2026/4/27/china-blocks-us-tech-giant-meta-from-acquiring-ai-startup-manus?traffic_source=rss",
+        "published": "2026-04-28 04:27",
+        "description": "Bejing tightens scrutiny of AI industry amid intensifying geopolitical rivalry with the US over the technology.",
+        "title_en": "China seeks to block US tech giant Meta from AI acquisition",
+        "title_zh": "中国寻求阻止美国科技巨头Meta收购人工智能"
       },
       {
-        "title": "Kenya’s Sawe shatters two-hour marathon barrier",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/kenyas-sawe-shatters-two-hour-marathon-barrier?traffic_source=rss",
-        "published": "2026-04-27 02:43",
-        "description": "Sabastian Sawe of Kenya shattered a world record at the London Marathon.",
-        "title_en": "Kenya’s Sawe shatters two-hour marathon barrier",
-        "title_zh": "肯尼亚选手萨维打破马拉松两小时大关"
+        "title": "King Charles and Queen Camilla arrive for high-profile US state visit",
+        "link": "https://www.aljazeera.com/news/2026/4/27/king-charles-and-queen-camilla-arrive-for-high-profile-us-state-visit?traffic_source=rss",
+        "published": "2026-04-28 04:09",
+        "description": "The British monarch’s US visit underscores shared history amid strained ties and tensions over the Iran conflict.",
+        "title_en": "King Charles and Queen Camilla arrive for high-profile US state visit",
+        "title_zh": "查尔斯国王和卡米拉王后抵达美国进行备受瞩目的国事访问"
       },
       {
-        "title": "Accused shooter was targeting Trump and US officials, authorities say",
-        "link": "https://www.aljazeera.com/news/2026/4/26/trump-his-administration-likely-targets-at-media-dinner-us-official?traffic_source=rss",
-        "published": "2026-04-27 02:03",
-        "description": "President Donald Trump says suspect wrote an anti-Christian declaration and is &#039;sick guy&#039;.",
-        "title_en": "Accused shooter was targeting Trump and US officials, authorities say",
-        "title_zh": "当局称，被指控的枪手瞄准的是特朗普和美国官员"
+        "title": "Hezbollah and Israel swap threats and strikes across Lebanon’s border",
+        "link": "https://www.aljazeera.com/news/2026/4/27/hezbollah-and-israel-swap-threats-and-strikes-across-lebanons-border?traffic_source=rss",
+        "published": "2026-04-28 03:58",
+        "description": "Iran-linked group reiterates defiance; Israeli defence minister threatens to ‘burn all of Lebanon&#039;.",
+        "title_en": "Hezbollah and Israel swap threats and strikes across Lebanon’s border",
+        "title_zh": "真主党和以色列在黎巴嫩边境相互威胁和袭击"
       },
       {
-        "title": "First trial of Assad-era Syrian official starts in Damascus",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/first-trial-of-assad-era-syrian-official-starts-in-damascus?traffic_source=rss",
-        "published": "2026-04-27 01:49",
-        "description": "Syria begun its first public trial of former Assad-era officials, with ex-security chief Atef Najib appearing in court.",
-        "title_en": "First trial of Assad-era Syrian official starts in Damascus",
-        "title_zh": "对阿萨德时代叙利亚官员的首次审判在大马士革开始"
+        "title": "Elon Musk trial against Sam Altman to reveal OpenAI power struggle",
+        "link": "https://www.aljazeera.com/economy/2026/4/27/elon-musk-trial-against-sam-altman-to-reveal-openai-power-struggle?traffic_source=rss",
+        "published": "2026-04-28 03:37",
+        "description": "The trial’s outcome could sway the balance of power in AI, and jury selection starts on Monday.",
+        "title_en": "Elon Musk trial against Sam Altman to reveal OpenAI power struggle",
+        "title_zh": "埃隆·马斯克 (Elon Musk) 对萨姆·奥尔特曼 (Sam Altman) 的审判揭示了 OpenAI 的权力斗争"
       },
       {
-        "title": "Thai police arrest Indonesian wanted for $10m cyberfraud",
-        "link": "https://www.aljazeera.com/news/2026/4/26/thai-police-arrest-indonesian-wanted-for-10m-cyberfraud?traffic_source=rss",
-        "published": "2026-04-27 01:38",
-        "description": "The 33-year-old Indonesian taken into custody at luxury resort on island of Phuket after FBI tip-off.",
-        "title_en": "Thai police arrest Indonesian wanted for $10m cyberfraud",
-        "title_zh": "泰国警方逮捕因网络诈骗 1000 万美元而通缉的印尼人"
+        "title": "Thousands held by paramilitary RSF in Sudan’s el-Fasher: NGO",
+        "link": "https://www.aljazeera.com/news/2026/4/27/thousands-reportedly-held-by-paramilitary-rsf-in-sudans-el-fasher?traffic_source=rss",
+        "published": "2026-04-28 03:35",
+        "description": "Hundreds of women and children among those detained by the rebel group, says Sudan Doctors Network.",
+        "title_en": "Thousands held by paramilitary RSF in Sudan’s el-Fasher: NGO",
+        "title_zh": "非政府组织：苏丹法希尔的数千人被准军事部队无国界医生组织扣押"
       },
       {
-        "title": "Iran shifts economic focus to essentials during war uncertainty",
-        "link": "https://www.aljazeera.com/news/2026/4/26/iran-shifts-economic-focus-to-essentials-amid-war-uncertainty?traffic_source=rss",
-        "published": "2026-04-27 01:00",
-        "description": "The government is partly reversing a currency decision for basic items and tapping into the country&#039;s sovereign fund.",
-        "title_en": "Iran shifts economic focus to essentials during war uncertainty",
-        "title_zh": "在战争不确定性期间，伊朗将经济重点转向必需品"
+        "title": "What people in Beirut think about the Lebanon-Israel negotiations",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/what-people-in-beirut-think-about-the-lebanon-israel-negotiations?traffic_source=rss",
+        "published": "2026-04-28 03:17",
+        "description": "Lebanese leaders were in Washington earlier this month for the first direct negotiations with Israel in over 30 years.",
+        "title_en": "What people in Beirut think about the Lebanon-Israel negotiations",
+        "title_zh": "贝鲁特民众对黎巴嫩-以色列谈判的看法"
       },
       {
-        "title": "Abbas loyalists sweep Palestinian elections, including some seats in Gaza",
-        "link": "https://www.aljazeera.com/news/2026/4/26/abbas-loyalists-sweep-palestine-elections-in-occupied-west-bank-gaza-city?traffic_source=rss",
-        "published": "2026-04-27 00:50",
-        "description": "Voter turnout in Gaza remained low due to the ongoing impact of the genocide.",
-        "title_en": "Abbas loyalists sweep Palestinian elections, including some seats in Gaza",
-        "title_zh": "阿巴斯的忠诚者横扫巴勒斯坦选举，包括加沙的一些席位"
+        "title": "Iraqi president names Shia bloc candidate Ali al-Zaidi as PM-designate",
+        "link": "https://www.aljazeera.com/news/2026/4/27/iraqi-president-names-shia-bloc-candidate-ali-al-zaidi-as-pm-designate?traffic_source=rss",
+        "published": "2026-04-28 03:12",
+        "description": "Choice of al-Zaidi breaks a months-long deadlock after Trump opposed appointment of pro-Iran former PM al-Maliki.",
+        "title_en": "Iraqi president names Shia bloc candidate Ali al-Zaidi as PM-designate",
+        "title_zh": "伊拉克总统任命什叶派集团候选人阿里·扎伊迪为候任总理"
       },
       {
-        "title": "New footage shows moment of deadly bus bombing in Colombia",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/new-footage-shows-moment-of-deadly-bus-bombing-in-colombia?traffic_source=rss",
-        "published": "2026-04-26 23:38",
-        "description": "Newly released dashcam video shows the moment that a bomb-laden bus exploded in Colombia.",
-        "title_en": "New footage shows moment of deadly bus bombing in Colombia",
-        "title_zh": "新镜头显示哥伦比亚致命巴士爆炸事件的瞬间"
+        "title": "Timeline: The highs and lows of the US-UK ‘special relationship’",
+        "link": "https://www.aljazeera.com/news/2026/4/27/timeline-the-highs-and-lows-of-the-us-uk-special-relationship?traffic_source=rss",
+        "published": "2026-04-28 02:40",
+        "description": "Tensions between the allies punctuate King Charles&#039;s US visit, designed to strengthen the UK-US partnership.",
+        "title_en": "Timeline: The highs and lows of the US-UK ‘special relationship’",
+        "title_zh": "时间表：美英“特殊关系”的高潮和低谷"
       },
       {
-        "title": "‘State of war’: Why Israel has escalated attacks in Gaza",
-        "link": "https://www.aljazeera.com/news/2026/4/26/state-of-war-why-israel-has-escalated-attacks-in-gaza?traffic_source=rss",
-        "published": "2026-04-26 23:32",
-        "description": "Israel escalates attacks and expands control in Gaza Strip, sidelining the new US-backed technocratic administration.",
-        "title_en": "‘State of war’: Why Israel has escalated attacks in Gaza",
-        "title_zh": "“战争状态”：以色列为何升级对加沙的袭击"
+        "title": "US press gala shooting suspect charged with attempting to kill Trump",
+        "link": "https://www.aljazeera.com/news/2026/4/27/white-house-correspondents-dinner-shooting-suspect-charged?traffic_source=rss",
+        "published": "2026-04-28 02:07",
+        "description": "Prosecutor says Cole Tomas Allen &#039;attempted to assassinate the president of the United States&#039; in Saturday attack.",
+        "title_en": "US press gala shooting suspect charged with attempting to kill Trump",
+        "title_zh": "美国新闻晚会枪击案嫌疑人被控试图刺杀特朗普"
       },
       {
-        "title": "Will Yamal, Salah and Ekitike miss the World Cup 2026 due to injury?",
-        "link": "https://www.aljazeera.com/sports/2026/4/26/will-yamal-salah-and-ekitike-miss-the-world-cup-2026-due-to-injury?traffic_source=rss",
-        "published": "2026-04-26 23:19",
-        "description": "From Spanish prodigy Lamine Yamal to Egypt&#039;s Mohamed Salah and Brazil&#039;s trio, these 10 players could be out of action.",
-        "title_en": "Will Yamal, Salah and Ekitike miss the World Cup 2026 due to injury?",
-        "title_zh": "亚马尔、萨拉赫和埃基蒂克会因伤缺席2026年世界杯吗？"
+        "title": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks",
+        "link": "https://www.aljazeera.com/news/2026/4/27/ceasefire-at-risk-as-pakistan-and-afghanistan-report-cross-border-attacks?traffic_source=rss",
+        "published": "2026-04-28 01:27",
+        "description": "The strikes were the first since the two agreed to halt the violence at peace talks last month.",
+        "title_en": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks",
+        "title_zh": "巴基斯坦和阿富汗报告跨境袭击事件，停火面临风险"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Palestinians in West Bank and some in Gaza vote in local elections",
-      "event_hint_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票",
-      "event_hint_en": "Palestinians in West Bank and some in Gaza vote in local elections",
+      "event_hint": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
+      "event_hint_zh": "梅拉尼娅·特朗普在寡妇笑话后敦促美国广播公司对吉米·金梅尔“表明立场”",
+      "event_hint_en": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
       "中国": {
-        "title": "四川五一加开多趟列车！包括成都到西安、昆明等线路",
-        "link": "http://baijiahao.baidu.com/s?id=1863349537475725881",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863349537475725881><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D4208274936%2C294957620%26fm%3D30%26app%3",
-        "title_zh": "四川五一加开多趟列车！包括成都到西安、昆明等线路",
-        "title_en": "四川五一加开多趟列车！包括成都到西安、昆明等线路"
+        "title": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展..",
+        "link": "http://baijiahao.baidu.com/s?id=1863542277619209057",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863542277619209057><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D507833228%2C295137433%26fm%3D30%26app%3D",
+        "title_zh": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展..",
+        "title_en": "湖南交通工程学院赴湖南天择聚艺文化传媒有限公司开展.."
       },
       "美国（欧美媒体）": {
-        "title": "Palestinians in West Bank and some in Gaza vote in local elections",
-        "link": "https://www.bbc.com/news/articles/cn4vej3x0wxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 01:01",
-        "description": "Local elections have been held in the occupied West Bank and in one Gazan city, though Hamas and other groups are not taking part.",
-        "title_en": "Palestinians in West Bank and some in Gaza vote in local elections",
-        "title_zh": "约旦河西岸的巴勒斯坦人和加沙的一些巴勒斯坦人在地方选举中投票"
+        "title": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
+        "link": "https://www.bbc.com/news/articles/c04x40d4424o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 05:14",
+        "description": "In a parody aired days before the White House Correspondents' Dinner, Kimmel called Melania an \"expectant widow\".",
+        "title_en": "Melania Trump urges ABC to 'take stand' on Jimmy Kimmel after widow joke",
+        "title_zh": "梅拉尼娅·特朗普在寡妇笑话后敦促美国广播公司对吉米·金梅尔“表明立场”"
       },
       "伊斯兰（半岛等）": {
-        "title": "Abbas loyalists sweep Palestinian elections, including some seats in Gaza",
-        "link": "https://www.aljazeera.com/news/2026/4/26/abbas-loyalists-sweep-palestine-elections-in-occupied-west-bank-gaza-city?traffic_source=rss",
-        "published": "2026-04-27 00:50",
-        "description": "Voter turnout in Gaza remained low due to the ongoing impact of the genocide.",
-        "title_en": "Abbas loyalists sweep Palestinian elections, including some seats in Gaza",
-        "title_zh": "阿巴斯的忠诚者横扫巴勒斯坦选举，包括加沙的一些席位"
+        "title": "US press gala shooting suspect charged with attempting to kill Trump",
+        "link": "https://www.aljazeera.com/news/2026/4/27/white-house-correspondents-dinner-shooting-suspect-charged?traffic_source=rss",
+        "published": "2026-04-28 02:07",
+        "description": "Prosecutor says Cole Tomas Allen &#039;attempted to assassinate the president of the United States&#039; in Saturday attack.",
+        "title_en": "US press gala shooting suspect charged with attempting to kill Trump",
+        "title_zh": "美国新闻晚会枪击案嫌疑人被控试图刺杀特朗普"
       },
-      "my_view": "网易标题完全回避巴勒斯坦选举，凸显中国媒体对国际敏感事件的淡化处理；BBC客观报道投票事实，但未体现选举结果；半岛强调阿巴斯派系获胜，突出伊斯兰视角下的政治博弈。",
-      "summary": "巴勒斯坦地方选举中，阿巴斯领导的法塔赫在约旦河西岸和加沙部分区域获胜。"
+      "my_view": "中国报道聚焦国内校企合作，淡化国际事件；欧美突出名人争议，维护政治正确；伊斯兰侧重暴力犯罪，转移舆论焦点。三方立场差异体现媒体服务于不同政治叙事。",
+      "summary": "同一事件因媒体立场不同被分别解读为国内合作、名人丑闻或暴力犯罪，本质是政治议程主导报道视角。"
     },
     {
-      "event_hint": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-      "event_hint_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程",
-      "event_hint_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
+      "event_hint": "Trump says King will be 'very safe' during US visit after security talks",
+      "event_hint_zh": "特朗普称金在安全会谈后访问美国期间“非常安全”",
+      "event_hint_en": "Trump says King will be 'very safe' during US visit after security talks",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-        "link": "https://www.bbc.com/news/articles/c4g6nyvl29po?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 05:34",
-        "description": "Iran had earlier said there were no plans for a direct meeting with a US delegation led by Steve Witkoff and Jared Kushner.",
-        "title_en": "Trump cancels US envoys' trip to Pakistan for talks on Iran war",
-        "title_zh": "特朗普取消美国特使前往巴基斯坦就伊朗战争进行会谈的行程"
+        "title": "Trump says King will be 'very safe' during US visit after security talks",
+        "link": "https://www.bbc.com/news/articles/c4gjger58jzo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 17:19",
+        "description": "The state visit will go ahead despite concerns raised after a gunman targeted an event attended by the president.",
+        "title_en": "Trump says King will be 'very safe' during US visit after security talks",
+        "title_zh": "特朗普称金在安全会谈后访问美国期间“非常安全”"
       },
       "伊斯兰（半岛等）": {
-        "title": "Iran’s foreign minister leaves Pakistan, heads to Russia for more talks",
-        "link": "https://www.aljazeera.com/news/2026/4/26/irans-foreign-minister-leaves-pakistan-en-route-to-russia-for-more-talks?traffic_source=rss",
-        "published": "2026-04-27 04:47",
-        "description": "Abbas Araghchi will speak with &#039;senior officials&#039; in Moscow, Iran&#039;s Foreign Ministry says.",
-        "title_en": "Iran’s foreign minister leaves Pakistan, heads to Russia for more talks",
-        "title_zh": "伊朗外长离开巴基斯坦前往俄罗斯进行更多会谈"
+        "title": "King Charles and Queen Camilla arrive for high-profile US state visit",
+        "link": "https://www.aljazeera.com/news/2026/4/27/king-charles-and-queen-camilla-arrive-for-high-profile-us-state-visit?traffic_source=rss",
+        "published": "2026-04-28 04:09",
+        "description": "The British monarch’s US visit underscores shared history amid strained ties and tensions over the Iran conflict.",
+        "title_en": "King Charles and Queen Camilla arrive for high-profile US state visit",
+        "title_zh": "查尔斯国王和卡米拉王后抵达美国进行备受瞩目的国事访问"
       },
-      "my_view": "中国报道缺失，欧美侧重美国决策行为，伊斯兰视角强调伊朗外交动向。三方立场差异体现：欧美聚焦美国单边行动，伊斯兰凸显伊朗主动外交，中国视角空缺或反映谨慎态度。",
-      "summary": "美国取消特使赴巴会谈，伊朗外长转赴俄罗斯，反映美伊博弈中外交路径分化。"
+      "my_view": "中国视角缺位或未突出；BBC聚焦特朗普对国王安全的承诺，体现美英安全合作；半岛强调王室访问的高调性，淡化安全议题，侧重外交仪式。",
+      "summary": "美英安全会谈后，特朗普承诺国王访美安全，媒体侧重不同：安全承诺、王室仪式或外交平衡。"
     },
     {
-      "event_hint": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-      "event_hint_zh": "当局认为特朗普和官员“可能”是新闻晚宴枪击嫌疑人的目标",
-      "event_hint_en": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-        "link": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-27 10:40",
-        "description": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
-        "title_en": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-        "title_zh": "当局认为特朗普和官员“可能”是新闻晚宴枪击嫌疑人的目标"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Accused shooter was targeting Trump and US officials, authorities say",
-        "link": "https://www.aljazeera.com/news/2026/4/26/trump-his-administration-likely-targets-at-media-dinner-us-official?traffic_source=rss",
-        "published": "2026-04-27 02:03",
-        "description": "President Donald Trump says suspect wrote an anti-Christian declaration and is &#039;sick guy&#039;.",
-        "title_en": "Accused shooter was targeting Trump and US officials, authorities say",
-        "title_zh": "当局称，被指控的枪手瞄准的是特朗普和美国官员"
-      },
-      "my_view": "BBC用“likely”体现谨慎推测，半岛直接称“targeting”更肯定，中国视角未报道反映对敏感事件的回避。三方立场差异在于措辞的确定性及政治敏感度。",
-      "summary": "当局认为新闻晚宴枪击嫌疑人可能以特朗普及官员为目标。"
-    },
-    {
-      "event_hint": "Seven dead in major Russian attack on Ukraine",
-      "event_hint_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡",
-      "event_hint_en": "Seven dead in major Russian attack on Ukraine",
+      "event_hint": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
+      "event_hint_zh": "俄罗斯武装分子确认在分裂分子袭击后从马里北部城市撤军",
+      "event_hint_en": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
       "中国": {
-        "title": "现代投资：公司已在智慧高速、绿色养护、环保等领域开..",
-        "link": "http://baijiahao.baidu.com/s?id=1863325440565192754",
-        "published": "2026-04-27 12:00",
-        "description": "证券日报网讯4月24日，现代投资在互动平台回答投资者提问时表示，作为湖南省属国企，公司紧扣“三高四新”美好蓝图，立足交通主业，积极打造具有核心竞争力的科技创新高地。目前，公司已在智慧高速、绿",
-        "title_zh": "现代投资：公司已在智慧高速、绿色养护、环保等领域开..",
-        "title_en": "现代投资：公司已在智慧高速、绿色养护、环保等领域开.."
+        "title": "直通部委｜65岁以上是药品不良反应高风险人群三部..",
+        "link": "http://baijiahao.baidu.com/s?id=1863617427106609179",
+        "published": "2026-04-28 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863617427106609179><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D432900710%2C295207111%26fm%3D30%26app%3D",
+        "title_zh": "直通部委｜65岁以上是药品不良反应高风险人群三部..",
+        "title_en": "直通部委｜65岁以上是药品不良反应高风险人群三部.."
       },
       "美国（欧美媒体）": {
-        "title": "Seven dead in major Russian attack on Ukraine",
-        "link": "https://www.bbc.com/news/articles/c0rxk4q0pj0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 20:29",
-        "description": "The city of Dnipro was hardest hit, with officials saying four died in a strike on a residential building.",
-        "title_en": "Seven dead in major Russian attack on Ukraine",
-        "title_zh": "俄罗斯对乌克兰的重大袭击造成七人死亡"
+        "title": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
+        "link": "https://www.bbc.com/news/articles/c3w3wyq4v14o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 00:26",
+        "description": "Ethnic Tuareg fighters say they are in control of Kidal following a weekend of nationwide attacks, alongside Islamist groups.",
+        "title_en": "Russian fighters confirm withdrawal from northern Mali city after separatist attacks",
+        "title_zh": "俄罗斯武装分子确认在分裂分子袭击后从马里北部城市撤军"
       },
       "伊斯兰（半岛等）": {
-        "title": "Bomb attack on Colombia highway kills 19 ahead of election",
-        "link": "https://www.aljazeera.com/gallery/2026/4/26/bomb-attack-on-colombia-highway-kills-19-ahead-of-election?traffic_source=rss",
-        "published": "2026-04-27 04:15",
-        "description": "Highway bombing in Colombia’s Cauca kills 19, injures dozens amid a surge in violence ahead of next month’s election.",
-        "title_en": "Bomb attack on Colombia highway kills 19 ahead of election",
-        "title_zh": "哥伦比亚大选前夕高速公路炸弹袭击造成19人死亡"
+        "title": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks",
+        "link": "https://www.aljazeera.com/news/2026/4/27/ceasefire-at-risk-as-pakistan-and-afghanistan-report-cross-border-attacks?traffic_source=rss",
+        "published": "2026-04-28 01:27",
+        "description": "The strikes were the first since the two agreed to halt the violence at peace talks last month.",
+        "title_en": "Ceasefire at risk as Pakistan and Afghanistan report cross-border attacks",
+        "title_zh": "巴基斯坦和阿富汗报告跨境袭击事件，停火面临风险"
       },
-      "my_view": "中国视角聚焦国内企业动态，淡化国际冲突；欧美视角突出俄罗斯攻击行为及伤亡；伊斯兰视角则关注哥伦比亚选举前暴力事件，转移焦点。三方均服务于自身政治或区域议程。",
-      "summary": "同一袭击事件因媒体立场不同被选择性报道或替换议题，反映信息传播中的利益导向。"
+      "my_view": "中国视角侧重国内政策宣传，与事件无关；BBC聚焦俄军撤离事实；半岛强调跨境冲突威胁停火，反映各自地缘利益与议程设置差异。",
+      "summary": "俄武装分子确认从马里北部城市撤军，但各方报道重点因立场不同而偏离核心事件。"
     },
     {
-      "event_hint": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-      "event_hint_zh": "内塔尼亚胡命令军队“大力攻击”黎巴嫩真主党",
-      "event_hint_en": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-      "中国": {
-        "title": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推..",
-        "link": "http://baijiahao.baidu.com/s?id=1863498865851218072",
-        "published": "2026-04-27 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863498865851218072><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1161700444%2C295097210%26fm%3D30%26app%3",
-        "title_zh": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推..",
-        "title_en": "粤黔教育协作提质升级，广东省教育厅赴贵州铜仁调研推.."
-      },
-      "美国（欧美媒体）": {
-        "title": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-        "link": "https://www.bbc.com/news/articles/c5yv1nvd4gjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 08:34",
-        "description": "The Israeli PM's directive comes as six people were killed by strikes in Lebanon despite a ceasefire being extended by three weeks.",
-        "title_en": "Netanyahu orders army to 'vigorously attack' Hezbollah in Lebanon",
-        "title_zh": "内塔尼亚胡命令军队“大力攻击”黎巴嫩真主党"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Israel issues forced evacuation orders for southern Lebanon in escalation",
-        "link": "https://www.aljazeera.com/news/2026/4/26/israel-issues-forced-evacuation-orders-for-southern-lebanon-in-escalation?traffic_source=rss",
-        "published": "2026-04-27 03:09",
-        "description": "Hezbollah rejects allegations from Israeli PM Benjamin Netanyahu that it is undermining the Israel-Lebanon ceasefire.",
-        "title_en": "Israel issues forced evacuation orders for southern Lebanon in escalation",
-        "title_zh": "以色列向黎巴嫩南部发出强制撤离令，事态升级"
-      },
-      "my_view": "中国媒体侧重国内发展，淡化国际冲突；欧美媒体聚焦以色列行动，突出军事指令；伊斯兰媒体强调以色列强制撤离，渲染侵略性。三方立场分别体现中立、亲以、亲巴倾向。",
-      "summary": "内塔尼亚胡下令猛攻黎巴嫩真主党，引发地区局势升级与强制撤离。"
-    },
-    {
-      "event_hint": "Mali defence minister killed as country hit by wave of rebel attacks",
-      "event_hint_zh": "马里国防部长因叛军袭击而丧生",
-      "event_hint_en": "Mali defence minister killed as country hit by wave of rebel attacks",
+      "event_hint": "Plane crash in South Sudan kills all 15 on board",
+      "event_hint_zh": "南苏丹客机失事 机上15人全部遇难",
+      "event_hint_en": "Plane crash in South Sudan kills all 15 on board",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Mali defence minister killed as country hit by wave of rebel attacks",
-        "link": "https://www.bbc.com/news/articles/c5yvy7v66ndo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-27 04:56",
-        "description": "A wave of coordinated attacks by jihadist militants and separatists has spread through the country.",
-        "title_en": "Mali defence minister killed as country hit by wave of rebel attacks",
-        "title_zh": "马里国防部长因叛军袭击而丧生"
+        "title": "Plane crash in South Sudan kills all 15 on board",
+        "link": "https://www.bbc.com/news/articles/cg737x2pe4ko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 23:52",
+        "description": "The authorities are investigating but early reports suggest bad weather and poor visibility may be to blame.",
+        "title_en": "Plane crash in South Sudan kills all 15 on board",
+        "title_zh": "南苏丹客机失事 机上15人全部遇难"
       },
       "伊斯兰（半岛等）": {
-        "title": "What’s driving attacks against gov’t and Russian forces in Mali?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/4/26/whats-driving-attacks-against-govt-and-russian-forces-in-mali?traffic_source=rss",
-        "published": "2026-04-27 04:26",
-        "description": "Opponents, including al-Qaeda-linked group, join forces.",
-        "title_en": "What’s driving attacks against gov’t and Russian forces in Mali?",
-        "title_zh": "是什么导致马里政府和俄罗斯军队遭受袭击？"
+        "title": "Thousands held by paramilitary RSF in Sudan’s el-Fasher: NGO",
+        "link": "https://www.aljazeera.com/news/2026/4/27/thousands-reportedly-held-by-paramilitary-rsf-in-sudans-el-fasher?traffic_source=rss",
+        "published": "2026-04-28 03:35",
+        "description": "Hundreds of women and children among those detained by the rebel group, says Sudan Doctors Network.",
+        "title_en": "Thousands held by paramilitary RSF in Sudan’s el-Fasher: NGO",
+        "title_zh": "非政府组织：苏丹法希尔的数千人被准军事部队无国界医生组织扣押"
       },
-      "my_view": "中国视角未报道，体现谨慎立场；BBC聚焦事件本身，突出叛军袭击的冲击；半岛追问动机，关联俄军存在，暗示对西方干预的批判。三方立场从事实陈述到原因探究，反映不同地缘关切。",
-      "summary": "马里国防部长在叛军袭击中身亡，事件凸显该国安全危机及外部势力介入的复杂背景。"
+      "my_view": "网易未报道，BBC聚焦南苏丹空难事实，半岛则转向苏丹内战，暗示媒体议程受地缘政治与受众兴趣影响，立场差异显著。",
+      "summary": "同一日内，南苏丹空难与苏丹内战冲突分别被欧美和伊斯兰媒体选择性报道，反映新闻价值取向不同。"
     },
     {
-      "event_hint": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-      "event_hint_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险",
-      "event_hint_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
+      "event_hint": "Pirates seize another vessel off Somali coast as threat level increased",
+      "event_hint_zh": "随着威胁级别的增加，海盗在索马里海岸扣押了另一艘船只",
+      "event_hint_en": "Pirates seize another vessel off Somali coast as threat level increased",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "link": "https://www.bbc.com/news/articles/czjwr93vrrzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 07:28",
-        "description": "The flood warning system at Imja glacial lake has not been maintained since 2016, fearful locals tell BBC.",
-        "title_en": "Thousands at risk after multi-million dollar Everest flood warning system left to rust",
-        "title_zh": "耗资数百万美元的珠穆朗玛峰洪水预警系统生锈，数千人面临危险"
+        "title": "Pirates seize another vessel off Somali coast as threat level increased",
+        "link": "https://www.bbc.com/news/articles/cn7871n27nlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 14:53",
+        "description": "The UK's maritime monitor reports at least four suspected piracy incidents in the past week off the coast of Somalia.",
+        "title_en": "Pirates seize another vessel off Somali coast as threat level increased",
+        "title_zh": "随着威胁级别的增加，海盗在索马里海岸扣押了另一艘船只"
       },
       "伊斯兰（半岛等）": {
-        "title": "Thai police arrest Indonesian wanted for $10m cyberfraud",
-        "link": "https://www.aljazeera.com/news/2026/4/26/thai-police-arrest-indonesian-wanted-for-10m-cyberfraud?traffic_source=rss",
-        "published": "2026-04-27 01:38",
-        "description": "The 33-year-old Indonesian taken into custody at luxury resort on island of Phuket after FBI tip-off.",
-        "title_en": "Thai police arrest Indonesian wanted for $10m cyberfraud",
-        "title_zh": "泰国警方逮捕因网络诈骗 1000 万美元而通缉的印尼人"
+        "title": "Hezbollah and Israel swap threats and strikes across Lebanon’s border",
+        "link": "https://www.aljazeera.com/news/2026/4/27/hezbollah-and-israel-swap-threats-and-strikes-across-lebanons-border?traffic_source=rss",
+        "published": "2026-04-28 03:58",
+        "description": "Iran-linked group reiterates defiance; Israeli defence minister threatens to ‘burn all of Lebanon&#039;.",
+        "title_en": "Hezbollah and Israel swap threats and strikes across Lebanon’s border",
+        "title_zh": "真主党和以色列在黎巴嫩边境相互威胁和袭击"
       },
-      "my_view": "中国视角未报道，欧美聚焦预警系统失修暴露西方援助管理问题，伊斯兰视角却转向无关案件，暗示其有意回避西方责任或转移议题。",
-      "summary": "珠峰洪水预警系统因资金和维护缺失而锈蚀失效，危及数千人安全。"
+      "my_view": "中国视角缺失，欧美聚焦海盗威胁升级，伊斯兰视角转向黎巴嫩边境冲突，显示媒体立场与地缘利益紧密相关，事件选择存在显著偏向。",
+      "summary": "同一事件因媒体立场不同而被选择性报道或重构，反映信息传播中的地缘政治与意识形态差异。"
     },
     {
-      "event_hint": "US justice department drops probe into Fed chairman Jerome Powell",
-      "event_hint_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查",
-      "event_hint_en": "US justice department drops probe into Fed chairman Jerome Powell",
+      "event_hint": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
+      "event_hint_zh": "哥伦比亚悬赏创纪录的 140 万美元悬赏叛军，追究造成致命炸弹袭击的叛乱分子",
+      "event_hint_en": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "US justice department drops probe into Fed chairman Jerome Powell",
-        "link": "https://www.bbc.com/news/articles/cdxd1v0028vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-25 03:10",
-        "description": "President Donald Trump had accused Powell of improper cost overruns in renovating the Fed's building.",
-        "title_en": "US justice department drops probe into Fed chairman Jerome Powell",
-        "title_zh": "美国司法部撤销对美联储主席杰罗姆·鲍威尔的调查"
+        "title": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
+        "link": "https://www.bbc.com/news/articles/cwyjykv4j9do?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-27 19:42",
+        "description": "Officials say a rebel leader known as \"Marlon\" ordered the attack in which 20 people were killed.",
+        "title_en": "Colombia offers record $1.4m-reward for rebel it blames for deadly bomb attack",
+        "title_zh": "哥伦比亚悬赏创纪录的 140 万美元悬赏叛军，追究造成致命炸弹袭击的叛乱分子"
       },
       "伊斯兰（半岛等）": {
-        "title": "Has Iran exposed the limits of what US can achieve by force?",
-        "link": "https://www.aljazeera.com/video/the-bottom-line/2026/4/26/has-iran-exposed-the-limits-of-what-us-can-achieve-by-force?traffic_source=rss",
-        "published": "2026-04-27 03:55",
-        "description": "Political scientist Vali Nasr argues that US and Israeli military options ‘have come up short&#039;.",
-        "title_en": "Has Iran exposed the limits of what US can achieve by force?",
-        "title_zh": "伊朗是否暴露了美国武力所能达到的极限？"
+        "title": "Leavitt blames democrats for ‘cult of hatred’ against Trump",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/27/leavitt-blames-democrats-for-cult-of-hatred-against-trump?traffic_source=rss",
+        "published": "2026-04-28 05:15",
+        "description": "White House press secretary Karoline Leavitt blamed democrats for promoting the rhetoric which fuels &#039;cult of hatred&#039;.",
+        "title_en": "Leavitt blames democrats for ‘cult of hatred’ against Trump",
+        "title_zh": "莱维特指责民主党人对特朗普进行“仇恨崇拜”"
       },
-      "my_view": "网易未报道显示中国对美内部事务持谨慎态度；BBC聚焦程序性事件，强调法律与制度；半岛则将事件与伊朗关联，借美司法动作质疑其武力效能，凸显反美视角。",
-      "summary": "美国司法部终止对美联储主席鲍威尔的调查，三国媒体立场差异反映其政治叙事取向。"
+      "my_view": "中国视角未报道此事件，欧美聚焦叛军悬赏，半岛则转向美国政治，三方立场差异明显：欧美侧重安全与秩序，伊斯兰视角借机转移话题至国内党派斗争。",
+      "summary": "哥伦比亚悬赏追捕叛军，但不同媒体因政治立场选择报道重点各异，甚至偏离事件本身。"
     },
     {
-      "event_hint": "Mexico says US agents killed in crash weren't permitted to operate there",
-      "event_hint_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务",
-      "event_hint_en": "Mexico says US agents killed in crash weren't permitted to operate there",
+      "event_hint": "Venice opera house drops incoming music director after nepotism remarks",
+      "event_hint_zh": "威尼斯歌剧院在裙带关系言论后解雇了即将上任的音乐总监",
+      "event_hint_en": "Venice opera house drops incoming music director after nepotism remarks",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Mexico says US agents killed in crash weren't permitted to operate there",
-        "link": "https://www.bbc.com/news/articles/cx2491we011o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-26 01:40",
-        "description": "The two Americans who reportedly worked for the CIA died in a car crash after a Mexican-led operation to destroy a drug lab.",
-        "title_en": "Mexico says US agents killed in crash weren't permitted to operate there",
-        "title_zh": "墨西哥称坠机事件中丧生的美国特工不允许在那里执行任务"
+        "title": "Venice opera house drops incoming music director after nepotism remarks",
+        "link": "https://www.bbc.com/news/articles/cx2d2ennv95o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-28 01:13",
+        "description": "Beatrice Venezi's appointment had been marred in controversy since being announced last September, prompting orchestra members to go on strike.",
+        "title_en": "Venice opera house drops incoming music director after nepotism remarks",
+        "title_zh": "威尼斯歌剧院在裙带关系言论后解雇了即将上任的音乐总监"
       },
       "伊斯兰（半岛等）": {
-        "title": "New footage shows moment of deadly bus bombing in Colombia",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/26/new-footage-shows-moment-of-deadly-bus-bombing-in-colombia?traffic_source=rss",
-        "published": "2026-04-26 23:38",
-        "description": "Newly released dashcam video shows the moment that a bomb-laden bus exploded in Colombia.",
-        "title_en": "New footage shows moment of deadly bus bombing in Colombia",
-        "title_zh": "新镜头显示哥伦比亚致命巴士爆炸事件的瞬间"
+        "title": "Timeline: The highs and lows of the US-UK ‘special relationship’",
+        "link": "https://www.aljazeera.com/news/2026/4/27/timeline-the-highs-and-lows-of-the-us-uk-special-relationship?traffic_source=rss",
+        "published": "2026-04-28 02:40",
+        "description": "Tensions between the allies punctuate King Charles&#039;s US visit, designed to strengthen the UK-US partnership.",
+        "title_en": "Timeline: The highs and lows of the US-UK ‘special relationship’",
+        "title_zh": "时间表：美英“特殊关系”的高潮和低谷"
       },
-      "my_view": "中国未报道，欧美聚焦美墨外交冲突，伊斯兰侧重拉美暴力事件。三方立场差异反映各自关注点：欧美重规则与主权，伊斯兰重地区安全，中国可能谨慎回避敏感。",
-      "summary": "墨西哥否认坠机美特工合法性，凸显跨国执法争议与地区安全复杂性。"
+      "my_view": "中国视角暂无报道，体现对西方文化争议的审慎态度；BBC聚焦事件本身，强调裙带关系言论的行业影响；半岛电视台标题偏离主题，借机批评美英关系，凸显其反西方立场。",
+      "summary": "威尼斯歌剧院因新任音乐总监涉裙带关系言论将其解雇，反映艺术机构对伦理规范的敏感。"
     }
   ]
 }
