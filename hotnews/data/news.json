@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-29 12:01:14 +08",
+  "generated_at": "2026-04-29 20:01:00 +08",
   "generated_date": "2026-04-29",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,7 +421,7 @@
         "title_en": "UAE quits OPEC as oil cartel takes blow during war on Iran",
         "title_zh": "由于石油卡特尔在伊朗战争中遭受打击，阿联酋退出欧佩克"
       },
-      "my_view": "中国视角暂缺，可能更关注能源安全与中东平衡；欧美强调市场规则与地缘影响；伊斯兰视角突出与伊朗战争背景，暗示政治对抗。三方立场分别侧重经济、外交与宗教冲突。",
+      "my_view": "欧美侧重事实报道，强调阿联酋退出行为；伊斯兰视角突出对伊朗战争背景，暗示地缘政治冲突；中国视角暂无报道，可能因事件与自身利益关联度低或需谨慎表态。",
       "summary": "阿联酋退出欧佩克，反映产油国内部分歧及中东地缘政治博弈加剧。"
     },
     {
@@ -444,8 +445,8 @@
         "title_en": "Mountaineer climbs Everest for Palestinian children",
         "title_zh": "登山者为巴勒斯坦儿童攀登珠穆朗玛峰"
       },
-      "my_view": "BBC聚焦事件本身与登山安全，半岛台将登山行为与巴勒斯坦议题绑定，凸显政治化叙事；中国视角缺失，反映立场差异。",
-      "summary": "同一登山事件因媒体立场不同，分别被报道为自然救援、人道行动或政治象征。"
+      "my_view": "中国视角缺失，欧美聚焦客观事件，伊斯兰视角将登山行为与巴勒斯坦议题关联，凸显不同媒体对同一事件的选择性报道与立场差异。",
+      "summary": "巨大冰块为珠峰登山者清路，但不同媒体侧重各异，反映报道背后的意识形态导向。"
     },
     {
       "event_hint": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
@@ -475,8 +476,8 @@
         "title_en": "US appeals court rejects Trump’s immigration detention policy",
         "title_zh": "美国上诉法院驳回特朗普的移民拘留政策"
       },
-      "my_view": "中国视角侧重中美经贸互动，淡化争议；欧美聚焦娱乐与监管冲突；伊斯兰视角突出法律对抗。三方立场差异反映各自政治关切与报道侧重。",
-      "summary": "同一事件因媒体立场不同，报道焦点从经贸、娱乐到司法各异，凸显信息选择性呈现。"
+      "my_view": "中国视角淡化敏感冲突，侧重经贸合作；欧美视角聚焦娱乐事件与监管审查；伊斯兰视角转向移民政策，回避涉美负面。三方立场差异反映各自政治议程与受众偏好。",
+      "summary": "同一事件因媒体立场不同被选择性报道，凸显国际舆论场的信息过滤与议程设置差异。"
     },
     {
       "event_hint": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
@@ -506,8 +507,8 @@
         "title_en": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
         "title_zh": "黎巴嫩总理猛烈抨击以色列的“战争罪行”，袭击造成三名救援人员死亡"
       },
-      "my_view": "网易标题聚焦国内环保沟通，偏离印尼车祸；BBC突出救援紧迫性，强调人道主义；半岛则借机抨击以色列，转移事件焦点。三方均以自身政治或地域立场选择性报道。",
-      "summary": "同一印尼火车事故，三媒体分别借题发挥，服务各自叙事与意识形态。"
+      "my_view": "中国视角聚焦本土环保议题，欧美视角关注印尼事故救援，伊斯兰视角则突出黎以冲突。三方立场差异显著，反映媒体各自的地缘政治与议程设置偏好。",
+      "summary": "同一事件因媒体立场不同，报道焦点各异，本质是信息传播中的选择性叙事与利益导向。"
     },
     {
       "event_hint": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
@@ -530,8 +531,8 @@
         "title_en": "Musk testifies at OpenAI trial it’s not OK to ‘loot a charity’",
         "title_zh": "马斯克在 OpenAI 审判中作证“掠夺慈善机构”是不行的"
       },
-      "my_view": "中国视角报道缺失，欧美侧重法律与捐赠基础，伊斯兰强调道德批判。三方立场差异反映媒体对慈善、法律与道德侧重的不同解读。",
-      "summary": "马斯克在OpenAI诉讼中质疑慈善捐赠基础被侵蚀。"
+      "my_view": "中国报道缺席，侧重欧美与伊斯兰视角差异：BBC客观陈述马斯克观点，半岛则突出其批判性，强调慈善被‘掠夺’，立场更鲜明。",
+      "summary": "马斯克在OpenAI诉讼中指控其损害慈善捐赠基础，三方报道侧重不同，反映媒体立场差异。"
     },
     {
       "event_hint": "Suspect charged with attempted assassination of Trump at Washington dinner",
@@ -554,8 +555,8 @@
         "title_en": "Trump hails US-UK bond as he welcomes British royals",
         "title_zh": "特朗普在欢迎英国王室成员时赞扬美英关系"
       },
-      "my_view": "中国视角暂无报道，可能避免介入敏感政治事件；BBC聚焦嫌疑人指控，强调事件严重性；半岛电视台转移焦点至特朗普与英国王室互动，淡化暗杀企图，体现伊斯兰媒体对西方政治丑闻的回避或选择性报道。",
-      "summary": "同一暗杀未遂事件，欧美媒体突出法律指控，伊斯兰媒体转移话题，中国媒体未报道，反映不同政治立场与报道策略。"
+      "my_view": "中国报道缺失或未聚焦，BBC突出犯罪指控，半岛则淡化事件转向外交叙事。三方立场差异反映媒体选择性报道：欧美重事件本身，伊斯兰重政治关系，中国沉默。",
+      "summary": "同一暗杀未遂事件，不同媒体通过标题选择塑造了截然不同的叙事焦点。"
     },
     {
       "event_hint": "Russian superyacht sails through Strait of Hormuz despite blockade",
@@ -578,8 +579,8 @@
         "title_en": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
         "title_zh": "伊朗战争直播：特朗普表示德黑兰希望结束封锁；"
       },
-      "my_view": "网易暂无报道体现中国审慎中立；BBC聚焦游艇行为本身，淡化美伊矛盾；半岛强调美以军事行动，凸显反美反以立场。三方视角差异反映各自地缘利益与叙事重点。",
-      "summary": "俄罗斯游艇穿越霍尔木兹海峡，凸显美伊对峙下各方媒体立场分化。"
+      "my_view": "中国视角缺失，欧美侧重游艇突破封锁的违规性，伊斯兰视角突出伊朗与美国对立及以色列攻击医护人员，三方立场差异反映地缘政治叙事侧重不同。",
+      "summary": "俄罗斯超级游艇无视封锁穿越霍尔木兹海峡，引发美伊对立与地区紧张局势升级。"
     },
     {
       "event_hint": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
@@ -602,8 +603,8 @@
         "title_en": "Israeli soldier shows Gaza’s Beit Hanoon completely flattened",
         "title_zh": "以色列士兵展示加沙的拜特哈农完全被夷为平地"
       },
-      "my_view": "中国视角暂缺，欧美聚焦乌克兰指责以色列接收俄盗粮，突出俄乌冲突；伊斯兰视角转向以军摧毁加沙，淡化粮食争议，转移矛盾至巴以问题。三方立场差异反映地缘利益与叙事重点不同。",
-      "summary": "乌克兰指控以色列接收俄罗斯盗取粮食，但伊斯兰媒体借加沙破坏转移焦点，暴露冲突叙事中的选择性关注。"
+      "my_view": "中国未报道，欧美聚焦乌克兰指控以色列接收俄偷粮，伊斯兰则突出以军加沙暴行。三方立场差异显著：欧美偏俄乌冲突，伊斯兰重巴以矛盾，中国似回避涉以敏感议题。",
+      "summary": "同一事件因媒体立场不同，分别被塑造为俄乌粮食争端或巴以冲突加剧的叙事。"
     },
     {
       "event_hint": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
@@ -633,8 +634,8 @@
         "title_en": "The biggest military spenders",
         "title_zh": "军费开支最大的国家"
       },
-      "my_view": "网易聚焦国内民生，淡化国际事件；BBC突出丑闻主角身份及争议性；半岛转向军事开支，暗示资源分配问题，三方立场迥异。",
-      "summary": "同一意大利赦免丑闻，因媒体立场不同，报道焦点从民生、娱乐转向军事开支。"
+      "my_view": "网易聚焦国内民生，回避国际丑闻；BBC突出个人丑闻与政治腐败关联；半岛则转向军费开支，暗示西方资源浪费。三方立场反映各自议程与受众偏好。",
+      "summary": "意大利赦免女歌星案暴露政商勾结，各方媒体借题发挥，服务自身叙事。"
     },
     {
       "event_hint": "Suspected gunman aged 89 held in Greece after five wounded",
@@ -657,8 +658,8 @@
         "title_en": "Mali’s military leader emerges after alleged coup attempt",
         "title_zh": "马里军事领导人在涉嫌政变后现身"
       },
-      "my_view": "网易未报道，BBC聚焦嫌疑人高龄与受伤人数，淡化动机；半岛则转向马里军事领导人，暗示事件与政变关联。三方立场差异反映媒体对新闻价值与政治倾向的不同选择。",
-      "summary": "一名89岁枪手在希腊致五人受伤后被拘留，事件本质为高龄嫌疑人持枪伤人案。"
+      "my_view": "三方立场差异显著：中国视角暂未报道，欧美聚焦事件本身，伊斯兰视角则转向马里军事政变，凸显各自对新闻价值、区域利益及意识形态的侧重。",
+      "summary": "一名89岁枪手在希腊致五人受伤后被捕，但不同媒体因立场差异选择不同报道重点。"
     }
   ]
 }
