@@ -1,82 +1,104 @@
 {
-  "generated_at": "2026-04-29 20:01:00 +08",
-  "generated_date": "2026-04-29",
-  "current_slot": "晚",
+  "generated_at": "2026-04-30 08:01:11 +08",
+  "generated_date": "2026-04-30",
+  "current_slot": "早",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
-        "title": "当全行业都在谈环保，宝马拿出了一张不同的答卷｜北京..",
-        "link": "http://baijiahao.baidu.com/s?id=1863768990377685824",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863768990377685824><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2012100467%2C295348269%26fm%3D30%26app%3",
-        "title_zh": "当全行业都在谈环保，宝马拿出了一张不同的答卷｜北京..",
-        "title_en": "当全行业都在谈环保，宝马拿出了一张不同的答卷｜北京.."
+        "title": "第23届中国—东盟商务与投资峰会联络官会议、202..",
+        "link": "http://baijiahao.baidu.com/s?id=1863794470985872600",
+        "published": "2026-04-30 08:00",
+        "description": "",
+        "title_zh": "第23届中国—东盟商务与投资峰会联络官会议、202..",
+        "title_en": "第23届中国—东盟商务与投资峰会联络官会议、202.."
+      },
+      {
+        "title": "华安基金徐勇：碳金融与绿色技术“双轮驱动”，把环保..",
+        "link": "http://baijiahao.baidu.com/s?id=1863812211188676173",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863812211188676173><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D177767286%2C295388517%26fm%3D30%26app%3D",
+        "title_zh": "华安基金徐勇：碳金融与绿色技术“双轮驱动”，把环保..",
+        "title_en": "华安基金徐勇：碳金融与绿色技术“双轮驱动”，把环保.."
+      },
+      {
+        "title": "瓶藏春意，指尖植绿！萌娃巧手种下环保初心",
+        "link": "http://baijiahao.baidu.com/s?id=1863804359087527984",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863804359087527984><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D572916614%2C295381207%26fm%3D30%26app%3D",
+        "title_zh": "瓶藏春意，指尖植绿！萌娃巧手种下环保初心",
+        "title_en": "瓶藏春意，指尖植绿！萌娃巧手种下环保初心"
+      },
+      {
+        "title": "株洲市九方中学：纸短情长递温暖书信励志助高考",
+        "link": "http://baijiahao.baidu.com/s?id=1863800542984844461",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863800542984844461><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D483980312%2C295377652%26fm%3D30%26app%3D",
+        "title_zh": "株洲市九方中学：纸短情长递温暖书信励志助高考",
+        "title_en": "株洲市九方中学：纸短情长递温暖书信励志助高考"
+      },
+      {
+        "title": "长沙城管深入推进“城管进社区”行动，高效解决居民家..",
+        "link": "http://baijiahao.baidu.com/s?id=1863797552046354098",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863797552046354098><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3415568554%2C295375383%26fm%3D30%26app%3",
+        "title_zh": "长沙城管深入推进“城管进社区”行动，高效解决居民家..",
+        "title_en": "长沙城管深入推进“城管进社区”行动，高效解决居民家.."
+      },
+      {
+        "title": "高考进补不盲目，选对食材是关键",
+        "link": "http://baijiahao.baidu.com/s?id=1863796859176222205",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863796859176222205><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1689336856%2C295374220%26fm%3D30%26app%3",
+        "title_zh": "高考进补不盲目，选对食材是关键",
+        "title_en": "高考进补不盲目，选对食材是关键"
+      },
+      {
+        "title": "去年我国循环再利用化纤产能近1200万吨，行业呈规..",
+        "link": "http://baijiahao.baidu.com/s?id=1863776602026328201",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863776602026328201><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D377524390%2C295355410%26fm%3D30%26app%3D",
+        "title_zh": "去年我国循环再利用化纤产能近1200万吨，行业呈规..",
+        "title_en": "去年我国循环再利用化纤产能近1200万吨，行业呈规.."
       },
       {
         "title": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
         "link": "http://baijiahao.baidu.com/s?id=1863708916028125087",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "",
         "title_zh": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
         "title_en": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼.."
       },
       {
-        "title": "2026上海家装报告解读：环保豪宅装修公司哪家好？",
-        "link": "http://baijiahao.baidu.com/s?id=1863710036894427506",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863710036894427506><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D286004284%2C295293363%26fm%3D30%26app%3D",
-        "title_zh": "2026上海家装报告解读：环保豪宅装修公司哪家好？",
-        "title_en": "2026上海家装报告解读：环保豪宅装修公司哪家好？"
+        "title": "国家发展改革委：将在“十五五”期间指导地方分类推进..",
+        "link": "http://baijiahao.baidu.com/s?id=1863716338926731703",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863716338926731703><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2233064474%2C295299233%26fm%3D30%26app%3",
+        "title_zh": "国家发展改革委：将在“十五五”期间指导地方分类推进..",
+        "title_en": "国家发展改革委：将在“十五五”期间指导地方分类推进.."
       },
       {
-        "title": "外交部发言人转发分享！成都这条“空中花路” 美到国..",
-        "link": "http://baijiahao.baidu.com/s?id=1863709906774533714",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863709906774533714><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2833911905%2C295293245%26fm%3D30%26app%3",
-        "title_zh": "外交部发言人转发分享！成都这条“空中花路” 美到国..",
-        "title_en": "外交部发言人转发分享！成都这条“空中花路” 美到国.."
-      },
-      {
-        "title": "国家发改委：城市停车设施建设是老百姓讲的“老大难”..",
-        "link": "http://baijiahao.baidu.com/s?id=1863707899812957268",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863707899812957268><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3375273723%2C295291368%26fm%3D30%26app%3",
-        "title_zh": "国家发改委：城市停车设施建设是老百姓讲的“老大难”..",
-        "title_en": "国家发改委：城市停车设施建设是老百姓讲的“老大难”.."
-      },
-      {
-        "title": "山东移动冠县分公司与冠县职业教育中心学校签署合作协..",
-        "link": "http://baijiahao.baidu.com/s?id=1863678874191396821",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863678874191396821><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1359950700%2C295264340%26fm%3D30%26app%3",
-        "title_zh": "山东移动冠县分公司与冠县职业教育中心学校签署合作协..",
-        "title_en": "山东移动冠县分公司与冠县职业教育中心学校签署合作协.."
+        "title": "国家发改委：去年我国服务业规模突破80万亿元",
+        "link": "http://baijiahao.baidu.com/s?id=1863709866218245392",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863709866218245392><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2645190509%2C295293777%26fm%3D30%26app%3",
+        "title_zh": "国家发改委：去年我国服务业规模突破80万亿元",
+        "title_en": "国家发改委：去年我国服务业规模突破80万亿元"
       },
       {
         "title": "2026年长江流域“守护好一江碧水”青少年生态环保..",
         "link": "http://baijiahao.baidu.com/s?id=1863616618678563469",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "",
         "title_zh": "2026年长江流域“守护好一江碧水”青少年生态环保..",
         "title_en": "2026年长江流域“守护好一江碧水”青少年生态环保.."
       },
       {
-        "title": "中央纪委国家监委：2026年3月全国查处违反中央八..",
-        "link": "http://baijiahao.baidu.com/s?id=1863614752767260326",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863614752767260326><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D1824049619%2C295204756%26fm%3D30%26app%3",
-        "title_zh": "中央纪委国家监委：2026年3月全国查处违反中央八..",
-        "title_en": "中央纪委国家监委：2026年3月全国查处违反中央八.."
-      },
-      {
         "title": "花间言志 高考加油——济南市莱芜第一中学举办植物文..",
         "link": "http://baijiahao.baidu.com/s?id=1863602907520449093",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863602907520449093><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D759377526%2C295193593%26fm%3D30%26app%3D",
         "title_zh": "花间言志 高考加油——济南市莱芜第一中学举办植物文..",
         "title_en": "花间言志 高考加油——济南市莱芜第一中学举办植物文.."
@@ -84,582 +106,493 @@
       {
         "title": "爆火！“非遗+环保”解锁上海国际花卉节新看点",
         "link": "http://baijiahao.baidu.com/s?id=1863596599885144701",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863596599885144701><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2377136759%2C295187716%26fm%3D30%26app%3",
         "title_zh": "爆火！“非遗+环保”解锁上海国际花卉节新看点",
         "title_en": "爆火！“非遗+环保”解锁上海国际花卉节新看点"
       },
       {
-        "title": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人..",
-        "link": "http://baijiahao.baidu.com/s?id=1863593331873762762",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863593331873762762><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D1357271383%2C295184693%26fm%3D30%26app%3",
-        "title_zh": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人..",
-        "title_en": "6岁男孩夜间打鼾 挑食 呼吸困难 医院检查结果让人.."
-      },
-      {
         "title": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
         "link": "http://baijiahao.baidu.com/s?id=1863591762030200097",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863591762030200097><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D644665516%2C295183207%26fm%3D30%26app%3D",
         "title_zh": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
         "title_en": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员.."
       },
       {
-        "title": "APEC工商咨询理事会第二次会议在墨西哥举行中国方..",
-        "link": "http://baijiahao.baidu.com/s?id=1863535398169346382",
-        "published": "2026-04-29 12:00",
-        "description": "",
-        "title_zh": "APEC工商咨询理事会第二次会议在墨西哥举行中国方..",
-        "title_en": "APEC工商咨询理事会第二次会议在墨西哥举行中国方.."
-      },
-      {
-        "title": "2026年陕西省高考军队院校招收普通高中毕业生政治..",
-        "link": "http://baijiahao.baidu.com/s?id=1863508112638899405",
-        "published": "2026-04-29 12:00",
-        "description": "",
-        "title_zh": "2026年陕西省高考军队院校招收普通高中毕业生政治..",
-        "title_en": "2026年陕西省高考军队院校招收普通高中毕业生政治.."
-      },
-      {
-        "title": "环保又增效，这波“氨气回收”操作一举两得！",
-        "link": "http://baijiahao.baidu.com/s?id=1863503237856369266",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863503237856369266><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2855819367%2C295100765%26fm%3D30%26app%3",
-        "title_zh": "环保又增效，这波“氨气回收”操作一举两得！",
-        "title_en": "环保又增效，这波“氨气回收”操作一举两得！"
-      },
-      {
         "title": "高考拼营养｜脑力消耗大？补充优质蛋白是关键",
         "link": "http://baijiahao.baidu.com/s?id=1863452660608132110",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863452660608132110><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2575086110%2C295053659%26fm%3D30%26app%3",
         "title_zh": "高考拼营养｜脑力消耗大？补充优质蛋白是关键",
         "title_en": "高考拼营养｜脑力消耗大？补充优质蛋白是关键"
+      },
+      {
+        "title": "无电梯小区生活，轻量化婴儿车哪种好？安全认证与性价..",
+        "link": "http://baijiahao.baidu.com/s?id=1863451615360029265",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863451615360029265><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D301049945%2C295052855%26fm%3D30%26app%3D",
+        "title_zh": "无电梯小区生活，轻量化婴儿车哪种好？安全认证与性价..",
+        "title_en": "无电梯小区生活，轻量化婴儿车哪种好？安全认证与性价.."
       }
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Comey charged with threatening Trump's life in Instagram post",
-        "link": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 08:24",
-        "description": "The new case stems from a 2025 seashell photo posted by the former FBI director that the justice department says calls for violence against Trump.",
-        "title_en": "Comey charged with threatening Trump's life in Instagram post",
-        "title_zh": "科米被控在 Instagram 帖子中威胁特朗普生命"
+        "title": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+        "link": "https://www.bbc.com/news/articles/c70vzj1nrddo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 04:24",
+        "description": "Prosecutors say a 2025 seashell photo posted by the former FBI director was a call for violence against Trump.",
+        "title_en": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+        "title_zh": "科米因在 Instagram 帖子中威胁特朗普生命的指控而自首"
       },
       {
-        "title": "United Arab Emirates to quit oil cartel Opec",
-        "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:24",
-        "description": "The UAE's decision, after nearly 60 years of membership, is seen as a potential death knell for the oil cartel.",
-        "title_en": "United Arab Emirates to quit oil cartel Opec",
-        "title_zh": "阿拉伯联合酋长国退出石油卡特尔欧佩克"
+        "title": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+        "link": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:22",
+        "description": "US Defence Secretary Pete Hegseth sparred with Democratic lawmakers during a nearly six-hour-long hearing, in his first time facing questions under oath since the start of the Iran war.",
+        "title_en": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+        "title_zh": "赫格斯在近六个小时的听证会上与议员就伊朗战争发生冲突"
       },
       {
-        "title": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-        "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 03:43",
-        "description": "The case over OpenAI's history and public commitments could have major implications for the future of AI.",
-        "title_en": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-        "title_zh": "马斯克表示 OpenAI 诉讼中慈善捐赠的基础受到威胁"
+        "title": "US singer D4vd bought tools online to dispose of girl's body, prosecutors allege",
+        "link": "https://www.bbc.com/news/articles/cvgzll79529o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:59",
+        "description": "The Tiktok star's attorneys have maintained his innocence and vowed to \"vigorously defend\" him.",
+        "title_en": "US singer D4vd bought tools online to dispose of girl's body, prosecutors allege",
+        "title_zh": "检察官指控美国歌手 D4vd 在网上购买工具处理女孩尸体"
       },
       {
-        "title": "Third Ukrainian strike hits Russian oil refinery and prompts evacuations",
-        "link": "https://www.bbc.com/news/articles/cvgzd4qk7qgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 22:32",
-        "description": "Residents near a burning refinery in Tuapse are told to leave, and the Kremlin accuses Kyiv of destabilising global energy markets.",
-        "title_en": "Third Ukrainian strike hits Russian oil refinery and prompts evacuations",
-        "title_zh": "乌克兰第三次袭击袭击俄罗斯炼油厂并促使疏散"
+        "title": "King and Queen lay flowers at 9/11 Memorial in New York",
+        "link": "https://www.bbc.com/news/articles/cd7pxnv4j7ro?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 07:33",
+        "description": "King Charles and Queen Camilla on their state visit to the US visit the memorial in New York.",
+        "title_en": "King and Queen lay flowers at 9/11 Memorial in New York",
+        "title_zh": "国王和王后在纽约9/11纪念馆献花"
       },
       {
-        "title": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-        "link": "https://www.bbc.com/news/articles/c4g0zwxl3k0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 03:48",
-        "description": "The move comes as the White House pressures Disney-owned ABC to fire Kimmel after he called Melania an \"expectant widow\".",
-        "title_en": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-        "title_zh": "吉米·金梅尔拿梅拉尼娅·特朗普开玩笑后，美国监管机构将审查迪士尼的广播许可证"
+        "title": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+        "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:49",
+        "description": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
+        "title_en": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+        "title_zh": "有报道称伊朗“延长”封锁后油价升至 120 美元以上"
       },
       {
-        "title": "Indian billionaire's son offers to save Escobar's hippos",
-        "link": "https://www.bbc.com/news/articles/cr7prm4ke8do?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:44",
-        "description": "Anant Ambani - son of Asia's richest man Mukesh Ambani - says he can take care of the animals roaming free since the drug lord's death.",
-        "title_en": "Indian billionaire's son offers to save Escobar's hippos",
-        "title_zh": "印度亿万富翁的儿子主动提出拯救埃斯科巴的河马"
+        "title": "Hungary's next PM says frozen EU funds will be paid out soon",
+        "link": "https://www.bbc.com/news/articles/c392ln77w30o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 03:51",
+        "description": "Péter Magyar meets EU leaders in Brussels, for the first time since his Tisza party won a landslide election.",
+        "title_en": "Hungary's next PM says frozen EU funds will be paid out soon",
+        "title_zh": "匈牙利下一任总理表示冻结的欧盟资金将很快支付"
       },
       {
-        "title": "Path cleared for Everest climbers after huge ice block",
-        "link": "https://www.bbc.com/news/articles/cn0p2xp18yko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:59",
-        "description": "Experts warn there are still risks of further ice collapses, and there are fears climbers will again have to queue to reach the summit.",
-        "title_en": "Path cleared for Everest climbers after huge ice block",
-        "title_zh": "巨大冰块后为珠穆朗玛峰登山者开辟了道路"
+        "title": "New images show suspect taking selfies before Washington press dinner shooting",
+        "link": "https://www.bbc.com/news/articles/cm2p99n35z4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 00:06",
+        "description": "Prosecutors argue Cole Tomas Allen should remain in custody until trial on a charge of attempted assassination of President Donald Trump.",
+        "title_en": "New images show suspect taking selfies before Washington press dinner shooting",
+        "title_zh": "新图像显示嫌疑人在华盛顿新闻晚宴枪击事件前自拍"
       },
       {
-        "title": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
-        "link": "https://www.bbc.com/news/articles/cd9pdkeekkzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:59",
-        "description": "Nicole Minetti was convicted of facilitating prostitution in connection with the notorious \"bunga bunga\" parties at Silvio Berlusconi's villa.",
-        "title_en": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
-        "title_zh": "前电视女歌星的赦免是意大利丑闻不断扩大的中心"
+        "title": "Florida lawmakers approve new voting maps to favour Republicans",
+        "link": "https://www.bbc.com/news/articles/c5y9wvl0gkno?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:00",
+        "description": "The state is the latest to act in a national redistricting war that could shape what political party controls the US House of Representatives.",
+        "title_en": "Florida lawmakers approve new voting maps to favour Republicans",
+        "title_zh": "佛罗里达州立法者批准新的投票地图以支持共和党"
       },
       {
-        "title": "Suspected gunman aged 89 held in Greece after five wounded",
-        "link": "https://www.bbc.com/news/articles/cyv2pmz2v86o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 22:59",
-        "description": "Five people were left with non-life-threatening injuries, according to Greece's state broadcaster ERT.",
-        "title_en": "Suspected gunman aged 89 held in Greece after five wounded",
-        "title_zh": "造成五人受伤的 89 岁枪手嫌疑人在希腊被拘留"
+        "title": "Seven lawsuits filed against OpenAI by families of Canada mass-shooting victims",
+        "link": "https://www.bbc.com/news/articles/c99l03k0ly4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 03:51",
+        "description": "The lawsuits, filed in California, accuse OpenAI and Sam Altman of negligence and abetting a mass shooting by failing to flag the suspect's ChatGPT activity.",
+        "title_en": "Seven lawsuits filed against OpenAI by families of Canada mass-shooting victims",
+        "title_zh": "加拿大大规模枪击事件受害者家属对 OpenAI 提起七起诉讼"
       },
       {
-        "title": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-        "link": "https://www.bbc.com/news/articles/cqjplqgd1r2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 21:51",
-        "description": "Israel's foreign minister says it has received no evidence to support the claim that a vessel carrying grain from occupied Ukraine has reached Haifa.",
-        "title_en": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-        "title_zh": "乌克兰指责以色列接收俄罗斯“偷走”的粮食"
+        "title": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+        "link": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 21:01",
+        "description": "Russia says the annual commemoration of Soviet victory in World War Two will not feature military vehicles or cadets.",
+        "title_en": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+        "title_zh": "俄罗斯缩减莫斯科胜利日阅兵规模，指责乌克兰威胁"
       },
       {
-        "title": "Russian superyacht sails through Strait of Hormuz despite blockade",
-        "link": "https://www.bbc.com/news/articles/cm2pn8zdxdjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 20:03",
-        "description": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
-        "title_en": "Russian superyacht sails through Strait of Hormuz despite blockade",
-        "title_zh": "俄罗斯超级游艇不顾封锁穿越霍尔木兹海峡"
+        "title": "Stranded whale ferried out of German waters in barge",
+        "link": "https://www.bbc.com/news/articles/clyp559l06no?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 01:06",
+        "description": "The final operation to save the whale is being closely followed, after the failure of earlier attempts.",
+        "title_en": "Stranded whale ferried out of German waters in barge",
+        "title_zh": "Stranded whale ferried out of German waters in barge"
       },
       {
-        "title": "Suspect charged with attempted assassination of Trump at Washington dinner",
-        "link": "https://www.bbc.com/news/articles/cew7wez72vxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 08:41",
-        "description": "Investigators say the 31-year-old California man wanted to kill as many high-level officials as possible.",
-        "title_en": "Suspect charged with attempted assassination of Trump at Washington dinner",
-        "title_zh": "嫌疑人被控在华盛顿晚宴上企图暗杀特朗普"
+        "title": "Madagascar detains French national over alleged plot to stir unrest",
+        "link": "https://www.bbc.com/news/articles/c7v96615e99o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 01:03",
+        "description": "Malagasy prosecuters used a Whatsapp group as evidence for the detained individuals alleged crimes.",
+        "title_en": "Madagascar detains French national over alleged plot to stir unrest",
+        "title_zh": "马达加斯加因涉嫌策划煽动骚乱而拘留法国国民"
       },
       {
-        "title": "Man admits plotting attack on Taylor Swift concert in Vienna",
-        "link": "https://www.bbc.com/news/articles/c05d5qgprjzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 18:08",
-        "description": "The state prosecutor told the court that police found an almost completed bomb in a search of the man's house.",
-        "title_en": "Man admits plotting attack on Taylor Swift concert in Vienna",
-        "title_zh": "男子承认策划袭击泰勒·斯威夫特维也纳演唱会"
+        "title": "France urges citizens to leave Mali after rebel attacks",
+        "link": "https://www.bbc.com/news/articles/cp3pdgvpn27o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 00:46",
+        "description": "The UK has issued similar advice, telling citizens who stay, that they do so at their own risk.",
+        "title_en": "France urges citizens to leave Mali after rebel attacks",
+        "title_zh": "法国敦促公民在叛军袭击后离开马里"
       },
       {
-        "title": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
-        "link": "https://www.bbc.com/news/articles/ckgegg8r0v1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 12:18",
-        "description": "Two trains collided on the outskirts of the Indonesian capital on Monday, killing at least 15 people.",
-        "title_en": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
-        "title_zh": "印尼致命车祸后，救援人员竞相营救被困火车内的幸存者"
+        "title": "France investigates reappearance of website linked to Pelicot crimes",
+        "link": "https://www.bbc.com/news/articles/c0m2ndp2042o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 23:10",
+        "description": "Authorities say the Coco platform has been linked to sexual abuse of children, drug offences, rape and murder.",
+        "title_en": "France investigates reappearance of website linked to Pelicot crimes",
+        "title_zh": "法国调查与 Pelicot 犯罪相关的网站再次出现"
       },
       {
-        "title": "Ex-actor Nathan Chasing Horse jailed for at least 37 years for sexual assault",
-        "link": "https://www.bbc.com/news/articles/cx218vkdvpgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 23:36",
-        "description": "The 49-year-old exploited his position as a spiritual leader to prey on Indigenous women and girls, the US court heard.",
-        "title_en": "Ex-actor Nathan Chasing Horse jailed for at least 37 years for sexual assault",
-        "title_zh": "前演员内森追马因性侵犯被判入狱至少 37 年"
+        "title": "US Supreme Court limits use of race in drawing electoral maps",
+        "link": "https://www.bbc.com/news/articles/clyw3p7xv4wo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 23:05",
+        "description": "The decision will make it more difficult to successfully challenge legislative maps for diluting the voting power of racial minorities.",
+        "title_en": "US Supreme Court limits use of race in drawing electoral maps",
+        "title_zh": "美国最高法院限制在绘制选举地图时使用种族因素"
       },
       {
-        "title": "Japan Airlines trials humanoid robots as ground handlers",
-        "link": "https://www.bbc.com/news/articles/cpwp87j1llvo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 18:03",
-        "description": "These robots may in future help clean cabins and operate ground support equipment.",
-        "title_en": "Japan Airlines trials humanoid robots as ground handlers",
-        "title_zh": "日本航空试验人形机器人作为地勤人员"
+        "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+        "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 10:01",
+        "description": "In the two months since the deadly strike, the US defence department has said only that the incident is under investigation.",
+        "title_en": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+        "title_zh": "美国前官员批评五角大楼对伊朗学校致命袭击事件保持沉默"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "Trump to feature on limited-edition US passports for 250th anniversary",
-        "link": "https://www.aljazeera.com/news/2026/4/29/trump-to-feature-on-limited-edition-us-passports-for-250th-anniversary?traffic_source=rss",
-        "published": "2026-04-29 11:22",
-        "description": "The passports are part of broader plans to celebrate the milestone anniversary of the US Declaration of Independence.",
-        "title_en": "Trump to feature on limited-edition US passports for 250th anniversary",
-        "title_zh": "特朗普将出现在美国250周年限量版护照上"
+        "title": "Carney ‘strong’ in year one, now must deliver on promises in Canada",
+        "link": "https://www.aljazeera.com/economy/2026/4/29/carney-strong-and-resolute-in-first-year-now-has-to-deliver-on-promises?traffic_source=rss",
+        "published": "2026-04-30 06:33",
+        "description": "Canada&#039;s prime minister has used Trump&#039;s attacks on allies and others to refocus Ottawa&#039;s foreign policy.",
+        "title_en": "Carney ‘strong’ in year one, now must deliver on promises in Canada",
+        "title_zh": "卡尼第一年“强势”，现在必须兑现在加拿大的承诺"
       },
       {
-        "title": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
-        "link": "https://www.aljazeera.com/news/2026/4/29/lebanons-pm-slams-israels-war-crimes-as-attack-kills-3-rescue-workers?traffic_source=rss",
-        "published": "2026-04-29 11:11",
-        "description": "Lebanese President Joseph Aoun says Israel violating international law that protects civilians and humanitarian workers.",
-        "title_en": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
-        "title_zh": "黎巴嫩总理猛烈抨击以色列的“战争罪行”，袭击造成三名救援人员死亡"
+        "title": "Israel has begun intercepting Gaza-bound Global Sumud Flotilla aid boats",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/israel-has-begun-intercepting-gaza-bound-global-sumud-flotilla-aid-boats?traffic_source=rss",
+        "published": "2026-04-30 05:59",
+        "description": "Organisers of a Gaza-bound aid mission say their vessels are being intercepted by Israeli military speedboats.",
+        "title_en": "Israel has begun intercepting Gaza-bound Global Sumud Flotilla aid boats",
+        "title_zh": "以色列已开始拦截前往加沙的全球苏姆德船队援助船"
       },
       {
-        "title": "UAE quits OPEC as oil cartel takes blow during war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/uae-quits-opec-as-oil-cartel-takes-blow-during-war-on-iran?traffic_source=rss",
-        "published": "2026-04-29 11:06",
-        "description": "The UAE’s decision to quit OPEC to prioritise its ‘national interests’ deals a blow to the oil group.",
-        "title_en": "UAE quits OPEC as oil cartel takes blow during war on Iran",
-        "title_zh": "由于石油卡特尔在伊朗战争中遭受打击，阿联酋退出欧佩克"
+        "title": "Israel intercepts Global Sumud boats, demands activists halt their mission",
+        "link": "https://www.aljazeera.com/news/2026/4/29/israeli-military-speedboats-block-gaza-bound-aid-ship?traffic_source=rss",
+        "published": "2026-04-30 05:46",
+        "description": "Seven out of 58 vessels captured by Israel near Crete as flotilla aims to deliver aid to Gaza under blockade.",
+        "title_en": "Israel intercepts Global Sumud boats, demands activists halt their mission",
+        "title_zh": "以色列拦截 Global Sumud 船只，要求活动人士停止任务"
       },
       {
-        "title": "Mali’s military leader emerges after alleged coup attempt",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/malis-military-leader-emerges-after-alleged-coup-attempt?traffic_source=rss",
-        "published": "2026-04-29 10:51",
-        "description": "Mali’s military leader says the country is ‘under control’ after what’s been described as an attempted coup.",
-        "title_en": "Mali’s military leader emerges after alleged coup attempt",
-        "title_zh": "马里军事领导人在涉嫌政变后现身"
+        "title": "UAE quits OPEC",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/uae-quits-opec?traffic_source=rss",
+        "published": "2026-04-30 05:30",
+        "description": "The UAE announced it’s withdrawing from OPEC on May 1st.",
+        "title_en": "UAE quits OPEC",
+        "title_zh": "阿联酋退出欧佩克"
       },
       {
-        "title": "US appeals court rejects Trump’s immigration detention policy",
-        "link": "https://www.aljazeera.com/news/2026/4/29/us-appeals-court-rejects-trumps-immigration-detention-policy?traffic_source=rss",
-        "published": "2026-04-29 09:58",
-        "description": "In a 3-0 ruling, court says Trump administration misread a decades-old immigration law to justify mandatory detention.",
-        "title_en": "US appeals court rejects Trump’s immigration detention policy",
-        "title_zh": "美国上诉法院驳回特朗普的移民拘留政策"
+        "title": "Arsenal cruelly denied penalty by VAR in Champions League draw at Atletico",
+        "link": "https://www.aljazeera.com/sports/2026/4/29/arsenal-cruelly-denied-penalty-by-var-in-champions-league-tie-at-atletico?traffic_source=rss",
+        "published": "2026-04-30 05:08",
+        "description": "Arsenal scored one penalty, but VAR controversially denied them another in a 1-1 semifinal draw at Atletico Madrid.",
+        "title_en": "Arsenal cruelly denied penalty by VAR in Champions League draw at Atletico",
+        "title_zh": "欧冠战平马竞，阿森纳残酷地被VAR判罚无效"
       },
       {
-        "title": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss",
-        "published": "2026-04-29 08:00",
-        "description": "US president says Iran has reached out and asked Washington to lift its naval blockade on Iranian ports.",
-        "title_en": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
-        "title_zh": "伊朗战争直播：特朗普表示德黑兰希望结束封锁；"
+        "title": "New Florida map boosts Republican seats amid national redistricting fight",
+        "link": "https://www.aljazeera.com/news/2026/4/29/new-florida-map-boosts-republican-seats-amid-national-redistricting-fight?traffic_source=rss",
+        "published": "2026-04-30 04:56",
+        "description": "Florida has become latest state to redraw map, as national electoral landscape transforms before midterm elections.",
+        "title_en": "New Florida map boosts Republican seats amid national redistricting fight",
+        "title_zh": "佛罗里达州新地图在全国选区重新划分斗争中增加了共和党席位"
       },
       {
-        "title": "Israeli soldier shows Gaza’s Beit Hanoon completely flattened",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/israeli-soldier-shows-gazas-beit-hanoon-completely-flattened?traffic_source=rss",
-        "published": "2026-04-29 06:50",
-        "description": "A video filmed by an Israeli soldier shows widespread destruction in northern Gaza.",
-        "title_en": "Israeli soldier shows Gaza’s Beit Hanoon completely flattened",
-        "title_zh": "以色列士兵展示加沙的拜特哈农完全被夷为平地"
+        "title": "Trump: Putin offered to help settle Iranian nuclear enrichment impasse",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/trump-putin-offered-to-help-settle-iranian-nuclear-enrichment-impasse?traffic_source=rss",
+        "published": "2026-04-30 04:52",
+        "description": "Donald Trump said that Vladimir Putin told him he’d “like to be involved” in settling Iranian nuclear enrichment.",
+        "title_en": "Trump: Putin offered to help settle Iranian nuclear enrichment impasse",
+        "title_zh": "特朗普：普京愿意帮助解决伊朗核浓缩僵局"
       },
       {
-        "title": "Musk testifies at OpenAI trial it’s not OK to ‘loot a charity’",
-        "link": "https://www.aljazeera.com/economy/2026/4/28/musk-testifies-at-openai-trial-its-not-ok-to-loot-a-charity?traffic_source=rss",
-        "published": "2026-04-29 06:35",
-        "description": "In his lawsuit, Musk said OpenAI cofounder and president betrayed him and public by turning into profit-seeking firm.",
-        "title_en": "Musk testifies at OpenAI trial it’s not OK to ‘loot a charity’",
-        "title_zh": "马斯克在 OpenAI 审判中作证“掠夺慈善机构”是不行的"
+        "title": "Why is the UAE quitting OPEC – and what’s the impact?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/4/29/why-is-the-uae-quitting-opec-and-whats-the-impact?traffic_source=rss",
+        "published": "2026-04-30 04:51",
+        "description": "The decision by the United Arab Emirates comes during the worst global energy crisis of modern times.",
+        "title_en": "Why is the UAE quitting OPEC – and what’s the impact?",
+        "title_zh": "阿联酋为何退出欧佩克——有何影响？"
       },
       {
-        "title": "As US-Iran talks remain ‘stalled’, experts warn of ‘long-term disruptions’",
-        "link": "https://www.aljazeera.com/economy/2026/4/28/as-us-iran-talks-remain-stalled-experts-warn-of-long-term-disruptions?traffic_source=rss",
-        "published": "2026-04-29 06:08",
-        "description": "With the two sides locked in a standoff, oil prices have continued to soar.",
-        "title_en": "As US-Iran talks remain ‘stalled’, experts warn of ‘long-term disruptions’",
-        "title_zh": "由于美伊谈判仍然“陷入僵局”，专家警告称“长期中断”"
+        "title": "What’s behind Israel’s plan to move the Bnei Menashe?",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/whats-behind-israels-plan-to-move-the-bnei-menashe?traffic_source=rss",
+        "published": "2026-04-30 04:36",
+        "description": "The new wave of the Bnei Menashe community from Northeast India have arrived in Israel under a 2026 government plan.",
+        "title_en": "What’s behind Israel’s plan to move the Bnei Menashe?",
+        "title_zh": "以色列计划迁移Bnei Menashe的背后是什么？"
       },
       {
-        "title": "Former FBI director Comey again indicted by US Justice Department",
-        "link": "https://www.aljazeera.com/news/2026/4/28/former-fbi-director-comey-again-indicted-by-us-justice-department?traffic_source=rss",
-        "published": "2026-04-29 05:57",
-        "description": "Trump has long called for prosecution of Comey, who led an FBI investigation related to the president&#039;s 2016 campaign.",
-        "title_en": "Former FBI director Comey again indicted by US Justice Department",
-        "title_zh": "前联邦调查局局长科米再次被美国司法部起诉"
+        "title": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
+        "link": "https://www.aljazeera.com/news/2026/4/29/ukraine-asks-israel-to-seize-ship-carrying-stolen-russian-grain?traffic_source=rss",
+        "published": "2026-04-30 04:23",
+        "description": "Kyiv requested that Israel seize the vessel and its cargo, take grain ‌samples, and question crew ​members.",
+        "title_en": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
+        "title_zh": "乌克兰要求以色列扣押运载俄罗斯“偷走”粮食的船只"
       },
       {
-        "title": "The biggest military spenders",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/the-biggest-military-spenders?traffic_source=rss",
-        "published": "2026-04-29 05:49",
-        "description": "Global military spending is up again, according to SIPRI’s latest report showing the 11th consecutive year of growth.",
-        "title_en": "The biggest military spenders",
-        "title_zh": "军费开支最大的国家"
+        "title": "Musk accuses Altman of betraying OpenAI’s nonprofit founding mission",
+        "link": "https://www.aljazeera.com/economy/2026/4/29/musk-accuses-altman-of-betraying-openais-nonprofit-founding-mission?traffic_source=rss",
+        "published": "2026-04-30 04:23",
+        "description": "OpenAI’s lawyers argue Musk’s lawsuit aims to undermine the company for his competing venture, xAI.",
+        "title_en": "Musk accuses Altman of betraying OpenAI’s nonprofit founding mission",
+        "title_zh": "马斯克指责 Altman 背叛了 OpenAI 的非营利创始使命"
       },
       {
-        "title": "PSG beat Bayern 5-4 in record-breaking Champions League semifinal first leg",
-        "link": "https://www.aljazeera.com/sports/2026/4/28/psg-beat-bayern-5-4-in-record-breaking-champions-league-semifinal-first-leg?traffic_source=rss",
-        "published": "2026-04-29 05:27",
-        "description": "Title holders Paris Saint-Germain squander a three-goal lead but hold on to beat Bayern Munich 5-4 in Paris.",
-        "title_en": "PSG beat Bayern 5-4 in record-breaking Champions League semifinal first leg",
-        "title_zh": "欧冠半决赛首回合巴黎圣日耳曼5-4击败拜仁破纪录"
+        "title": "Mali’s Tuareg rebels say Russian fighters must withdraw from country",
+        "link": "https://www.aljazeera.com/news/2026/4/29/malis-tuareg-rebels-say-russian-fighters-must-withdraw-from-country?traffic_source=rss",
+        "published": "2026-04-30 04:17",
+        "description": "As military government battles to reassert control, spokesperson for Tuareg rebels says it will fall &#039;sooner or later&#039;.",
+        "title_en": "Mali’s Tuareg rebels say Russian fighters must withdraw from country",
+        "title_zh": "马里图阿雷格叛军称俄罗斯武装分子必须撤出该国"
       },
       {
-        "title": "King Charles calls for NATO unity, Ukraine support in US Congress speech",
-        "link": "https://www.aljazeera.com/news/2026/4/28/king-charles-calls-for-nato-unity-ukraine-support-in-us-congress-speech?traffic_source=rss",
-        "published": "2026-04-29 05:17",
-        "description": "UK sovereign hails national friendship, but delivers pointed messages in speech during four-day US visit.",
-        "title_en": "King Charles calls for NATO unity, Ukraine support in US Congress speech",
-        "title_zh": "查尔斯国王在美国国会演讲中呼吁北约团结和乌克兰支持"
+        "title": "Ex-FBI chief Comey appears in court over alleged Trump threat",
+        "link": "https://www.aljazeera.com/news/2026/4/29/ex-fbi-chief-comey-appears-in-court-over-alleged-trump-threat?traffic_source=rss",
+        "published": "2026-04-30 04:00",
+        "description": "Comey turned himself in on two charges, threatening the US president&#039;s life and transmitting threats across state lines.",
+        "title_en": "Ex-FBI chief Comey appears in court over alleged Trump threat",
+        "title_zh": "前联邦调查局局长科米因涉嫌特朗普威胁出庭"
       },
       {
-        "title": "Mountaineer climbs Everest for Palestinian children",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/mountaineer-climbs-everest-for-palestinian-children?traffic_source=rss",
-        "published": "2026-04-29 05:11",
-        "description": "Mostafa Salameh, a mountaineer, is on a mission to carry letters from children in Gaza to the top of Mount Everest.",
-        "title_en": "Mountaineer climbs Everest for Palestinian children",
-        "title_zh": "登山者为巴勒斯坦儿童攀登珠穆朗玛峰"
+        "title": "US lawmakers question Pete Hegseth over budget for war on Iran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss",
+        "published": "2026-04-30 03:39",
+        "description": "US Defense Secretary Pete Hegseth testified before Congress on the Pentagon’s budget for the US-Israeli war on Iran.",
+        "title_en": "US lawmakers question Pete Hegseth over budget for war on Iran",
+        "title_zh": "美国议员质疑皮特·赫格赛斯对伊朗战争的预算"
       },
       {
-        "title": "Armed group announces siege on Mali capital",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/armed-group-announces-siege-on-mali-capital?traffic_source=rss",
-        "published": "2026-04-29 05:08",
-        "description": "JNIM has announced the beginning of a “total siege” on Mali’s capital Bamako.",
-        "title_en": "Armed group announces siege on Mali capital",
-        "title_zh": "武装组织宣布围困马里首都"
+        "title": "Pentagon chief Hegseth first public hearing on Iran war: Key takeaways",
+        "link": "https://www.aljazeera.com/news/2026/4/29/pentagon-chief-hegseth-first-public-hearing-on-iran-war-key-takeaways?traffic_source=rss",
+        "published": "2026-04-30 03:38",
+        "description": "Pete Hegseth testifies alongside General Dan Caine, responds to questions on war Pentagon says has cost $25bn.",
+        "title_en": "Pentagon chief Hegseth first public hearing on Iran war: Key takeaways",
+        "title_zh": "五角大楼负责人赫格斯首次就伊朗战争举行公开听证会：要点"
       },
       {
-        "title": "Trump hails US-UK bond as he welcomes British royals",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/trump-hails-us-uk-bond-as-he-welcomes-british-royals?traffic_source=rss",
-        "published": "2026-04-29 04:29",
-        "description": "US President Donald Trump hailed the &quot;cherished bond&quot; between the United States and the United Kingdom.",
-        "title_en": "Trump hails US-UK bond as he welcomes British royals",
-        "title_zh": "特朗普在欢迎英国王室成员时赞扬美英关系"
+        "title": "Two Jewish men stabbed in London ‘terrorist attack’",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/two-jewish-men-stabbed-in-london-terrorist?traffic_source=rss",
+        "published": "2026-04-30 03:32",
+        "description": "Two Jewish men were stabbed in north London, after a man armed with a knife was seen running through the area.",
+        "title_en": "Two Jewish men stabbed in London ‘terrorist attack’",
+        "title_zh": "两名犹太男子在伦敦“恐怖袭击”中被刺伤"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "United Arab Emirates to quit oil cartel Opec",
-      "event_hint_zh": "阿拉伯联合酋长国退出石油卡特尔欧佩克",
-      "event_hint_en": "United Arab Emirates to quit oil cartel Opec",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "United Arab Emirates to quit oil cartel Opec",
-        "link": "https://www.bbc.com/news/articles/cj4pxwlr52yo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:24",
-        "description": "The UAE's decision, after nearly 60 years of membership, is seen as a potential death knell for the oil cartel.",
-        "title_en": "United Arab Emirates to quit oil cartel Opec",
-        "title_zh": "阿拉伯联合酋长国退出石油卡特尔欧佩克"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "UAE quits OPEC as oil cartel takes blow during war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/uae-quits-opec-as-oil-cartel-takes-blow-during-war-on-iran?traffic_source=rss",
-        "published": "2026-04-29 11:06",
-        "description": "The UAE’s decision to quit OPEC to prioritise its ‘national interests’ deals a blow to the oil group.",
-        "title_en": "UAE quits OPEC as oil cartel takes blow during war on Iran",
-        "title_zh": "由于石油卡特尔在伊朗战争中遭受打击，阿联酋退出欧佩克"
-      },
-      "my_view": "欧美侧重事实报道，强调阿联酋退出行为；伊斯兰视角突出对伊朗战争背景，暗示地缘政治冲突；中国视角暂无报道，可能因事件与自身利益关联度低或需谨慎表态。",
-      "summary": "阿联酋退出欧佩克，反映产油国内部分歧及中东地缘政治博弈加剧。"
-    },
-    {
-      "event_hint": "Path cleared for Everest climbers after huge ice block",
-      "event_hint_zh": "巨大冰块后为珠穆朗玛峰登山者开辟了道路",
-      "event_hint_en": "Path cleared for Everest climbers after huge ice block",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Path cleared for Everest climbers after huge ice block",
-        "link": "https://www.bbc.com/news/articles/cn0p2xp18yko?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:59",
-        "description": "Experts warn there are still risks of further ice collapses, and there are fears climbers will again have to queue to reach the summit.",
-        "title_en": "Path cleared for Everest climbers after huge ice block",
-        "title_zh": "巨大冰块后为珠穆朗玛峰登山者开辟了道路"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Mountaineer climbs Everest for Palestinian children",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/mountaineer-climbs-everest-for-palestinian-children?traffic_source=rss",
-        "published": "2026-04-29 05:11",
-        "description": "Mostafa Salameh, a mountaineer, is on a mission to carry letters from children in Gaza to the top of Mount Everest.",
-        "title_en": "Mountaineer climbs Everest for Palestinian children",
-        "title_zh": "登山者为巴勒斯坦儿童攀登珠穆朗玛峰"
-      },
-      "my_view": "中国视角缺失，欧美聚焦客观事件，伊斯兰视角将登山行为与巴勒斯坦议题关联，凸显不同媒体对同一事件的选择性报道与立场差异。",
-      "summary": "巨大冰块为珠峰登山者清路，但不同媒体侧重各异，反映报道背后的意识形态导向。"
-    },
-    {
-      "event_hint": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-      "event_hint_zh": "吉米·金梅尔拿梅拉尼娅·特朗普开玩笑后，美国监管机构将审查迪士尼的广播许可证",
-      "event_hint_en": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-      "中国": {
-        "title": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
-        "link": "http://baijiahao.baidu.com/s?id=1863708916028125087",
-        "published": "2026-04-29 12:00",
-        "description": "",
-        "title_zh": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
-        "title_en": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼.."
-      },
-      "美国（欧美媒体）": {
-        "title": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-        "link": "https://www.bbc.com/news/articles/c4g0zwxl3k0o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 03:48",
-        "description": "The move comes as the White House pressures Disney-owned ABC to fire Kimmel after he called Melania an \"expectant widow\".",
-        "title_en": "US regulator to review Disney broadcast licences after Jimmy Kimmel joke about Melania Trump",
-        "title_zh": "吉米·金梅尔拿梅拉尼娅·特朗普开玩笑后，美国监管机构将审查迪士尼的广播许可证"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "US appeals court rejects Trump’s immigration detention policy",
-        "link": "https://www.aljazeera.com/news/2026/4/29/us-appeals-court-rejects-trumps-immigration-detention-policy?traffic_source=rss",
-        "published": "2026-04-29 09:58",
-        "description": "In a 3-0 ruling, court says Trump administration misread a decades-old immigration law to justify mandatory detention.",
-        "title_en": "US appeals court rejects Trump’s immigration detention policy",
-        "title_zh": "美国上诉法院驳回特朗普的移民拘留政策"
-      },
-      "my_view": "中国视角淡化敏感冲突，侧重经贸合作；欧美视角聚焦娱乐事件与监管审查；伊斯兰视角转向移民政策，回避涉美负面。三方立场差异反映各自政治议程与受众偏好。",
-      "summary": "同一事件因媒体立场不同被选择性报道，凸显国际舆论场的信息过滤与议程设置差异。"
-    },
-    {
-      "event_hint": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
-      "event_hint_zh": "印尼致命车祸后，救援人员竞相营救被困火车内的幸存者",
-      "event_hint_en": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
+      "event_hint": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+      "event_hint_zh": "赫格斯在近六个小时的听证会上与议员就伊朗战争发生冲突",
+      "event_hint_en": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
       "中国": {
         "title": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
         "link": "http://baijiahao.baidu.com/s?id=1863591762030200097",
-        "published": "2026-04-29 12:00",
+        "published": "2026-04-30 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863591762030200097><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D644665516%2C295183207%26fm%3D30%26app%3D",
         "title_zh": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员..",
         "title_en": "“环保部门打电话和我沟通，几小时后隔壁乡镇工作人员.."
       },
       "美国（欧美媒体）": {
-        "title": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
-        "link": "https://www.bbc.com/news/articles/ckgegg8r0v1o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 12:18",
-        "description": "Two trains collided on the outskirts of the Indonesian capital on Monday, killing at least 15 people.",
-        "title_en": "Rescuers race to free survivors trapped inside train after fatal Indonesia crash",
-        "title_zh": "印尼致命车祸后，救援人员竞相营救被困火车内的幸存者"
+        "title": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+        "link": "https://www.bbc.com/news/articles/c78qd6ll8xlo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:22",
+        "description": "US Defence Secretary Pete Hegseth sparred with Democratic lawmakers during a nearly six-hour-long hearing, in his first time facing questions under oath since the start of the Iran war.",
+        "title_en": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
+        "title_zh": "赫格斯在近六个小时的听证会上与议员就伊朗战争发生冲突"
       },
       "伊斯兰（半岛等）": {
-        "title": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
-        "link": "https://www.aljazeera.com/news/2026/4/29/lebanons-pm-slams-israels-war-crimes-as-attack-kills-3-rescue-workers?traffic_source=rss",
-        "published": "2026-04-29 11:11",
-        "description": "Lebanese President Joseph Aoun says Israel violating international law that protects civilians and humanitarian workers.",
-        "title_en": "Lebanon’s PM slams Israel’s ‘war crimes’ as attack kills 3 rescue workers",
-        "title_zh": "黎巴嫩总理猛烈抨击以色列的“战争罪行”，袭击造成三名救援人员死亡"
+        "title": "Pentagon chief Hegseth first public hearing on Iran war: Key takeaways",
+        "link": "https://www.aljazeera.com/news/2026/4/29/pentagon-chief-hegseth-first-public-hearing-on-iran-war-key-takeaways?traffic_source=rss",
+        "published": "2026-04-30 03:38",
+        "description": "Pete Hegseth testifies alongside General Dan Caine, responds to questions on war Pentagon says has cost $25bn.",
+        "title_en": "Pentagon chief Hegseth first public hearing on Iran war: Key takeaways",
+        "title_zh": "五角大楼负责人赫格斯首次就伊朗战争举行公开听证会：要点"
       },
-      "my_view": "中国视角聚焦本土环保议题，欧美视角关注印尼事故救援，伊斯兰视角则突出黎以冲突。三方立场差异显著，反映媒体各自的地缘政治与议程设置偏好。",
-      "summary": "同一事件因媒体立场不同，报道焦点各异，本质是信息传播中的选择性叙事与利益导向。"
+      "my_view": "中国视角侧重内部沟通与地方反应，淡化冲突；欧美视角强调听证冲突与时长，凸显对抗性；伊斯兰视角聚焦关键结论，弱化个人冲突，突出政策影响。",
+      "summary": "赫格斯在伊朗战争相关听证会上与议员激烈交锋，各方报道侧重不同以服务自身立场。"
     },
     {
-      "event_hint": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-      "event_hint_zh": "马斯克表示 OpenAI 诉讼中慈善捐赠的基础受到威胁",
-      "event_hint_en": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
+      "event_hint": "Florida lawmakers approve new voting maps to favour Republicans",
+      "event_hint_zh": "佛罗里达州立法者批准新的投票地图以支持共和党",
+      "event_hint_en": "Florida lawmakers approve new voting maps to favour Republicans",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-        "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 03:43",
-        "description": "The case over OpenAI's history and public commitments could have major implications for the future of AI.",
-        "title_en": "Musk says basis of charitable giving at stake in OpenAI lawsuit",
-        "title_zh": "马斯克表示 OpenAI 诉讼中慈善捐赠的基础受到威胁"
+        "title": "Florida lawmakers approve new voting maps to favour Republicans",
+        "link": "https://www.bbc.com/news/articles/c5y9wvl0gkno?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:00",
+        "description": "The state is the latest to act in a national redistricting war that could shape what political party controls the US House of Representatives.",
+        "title_en": "Florida lawmakers approve new voting maps to favour Republicans",
+        "title_zh": "佛罗里达州立法者批准新的投票地图以支持共和党"
       },
       "伊斯兰（半岛等）": {
-        "title": "Musk testifies at OpenAI trial it’s not OK to ‘loot a charity’",
-        "link": "https://www.aljazeera.com/economy/2026/4/28/musk-testifies-at-openai-trial-its-not-ok-to-loot-a-charity?traffic_source=rss",
-        "published": "2026-04-29 06:35",
-        "description": "In his lawsuit, Musk said OpenAI cofounder and president betrayed him and public by turning into profit-seeking firm.",
-        "title_en": "Musk testifies at OpenAI trial it’s not OK to ‘loot a charity’",
-        "title_zh": "马斯克在 OpenAI 审判中作证“掠夺慈善机构”是不行的"
+        "title": "New Florida map boosts Republican seats amid national redistricting fight",
+        "link": "https://www.aljazeera.com/news/2026/4/29/new-florida-map-boosts-republican-seats-amid-national-redistricting-fight?traffic_source=rss",
+        "published": "2026-04-30 04:56",
+        "description": "Florida has become latest state to redraw map, as national electoral landscape transforms before midterm elections.",
+        "title_en": "New Florida map boosts Republican seats amid national redistricting fight",
+        "title_zh": "佛罗里达州新地图在全国选区重新划分斗争中增加了共和党席位"
       },
-      "my_view": "中国报道缺席，侧重欧美与伊斯兰视角差异：BBC客观陈述马斯克观点，半岛则突出其批判性，强调慈善被‘掠夺’，立场更鲜明。",
-      "summary": "马斯克在OpenAI诉讼中指控其损害慈善捐赠基础，三方报道侧重不同，反映媒体立场差异。"
+      "my_view": "中国视角未报道，体现选择性关注；BBC标题中性陈述事实，半岛突出‘全国重划斗争’，暗示争议性。三方立场差异在于报道角度与政治倾向的显隐。",
+      "summary": "佛罗里达州通过偏向共和党的选区重划方案，引发全国性政治博弈。"
     },
     {
-      "event_hint": "Suspect charged with attempted assassination of Trump at Washington dinner",
-      "event_hint_zh": "嫌疑人被控在华盛顿晚宴上企图暗杀特朗普",
-      "event_hint_en": "Suspect charged with attempted assassination of Trump at Washington dinner",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Suspect charged with attempted assassination of Trump at Washington dinner",
-        "link": "https://www.bbc.com/news/articles/cew7wez72vxo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 08:41",
-        "description": "Investigators say the 31-year-old California man wanted to kill as many high-level officials as possible.",
-        "title_en": "Suspect charged with attempted assassination of Trump at Washington dinner",
-        "title_zh": "嫌疑人被控在华盛顿晚宴上企图暗杀特朗普"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Trump hails US-UK bond as he welcomes British royals",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/trump-hails-us-uk-bond-as-he-welcomes-british-royals?traffic_source=rss",
-        "published": "2026-04-29 04:29",
-        "description": "US President Donald Trump hailed the &quot;cherished bond&quot; between the United States and the United Kingdom.",
-        "title_en": "Trump hails US-UK bond as he welcomes British royals",
-        "title_zh": "特朗普在欢迎英国王室成员时赞扬美英关系"
-      },
-      "my_view": "中国报道缺失或未聚焦，BBC突出犯罪指控，半岛则淡化事件转向外交叙事。三方立场差异反映媒体选择性报道：欧美重事件本身，伊斯兰重政治关系，中国沉默。",
-      "summary": "同一暗杀未遂事件，不同媒体通过标题选择塑造了截然不同的叙事焦点。"
-    },
-    {
-      "event_hint": "Russian superyacht sails through Strait of Hormuz despite blockade",
-      "event_hint_zh": "俄罗斯超级游艇不顾封锁穿越霍尔木兹海峡",
-      "event_hint_en": "Russian superyacht sails through Strait of Hormuz despite blockade",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Russian superyacht sails through Strait of Hormuz despite blockade",
-        "link": "https://www.bbc.com/news/articles/cm2pn8zdxdjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 20:03",
-        "description": "The 141m-long vessel, linked to a close ally of Russian President Vladimir Putin, cleared the waterway despite an ongoing blockade.",
-        "title_en": "Russian superyacht sails through Strait of Hormuz despite blockade",
-        "title_zh": "俄罗斯超级游艇不顾封锁穿越霍尔木兹海峡"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/4/29/iran-war-live-trump-says-tehran-wants-end-to-blockade-israel-kills-medics?traffic_source=rss",
-        "published": "2026-04-29 08:00",
-        "description": "US president says Iran has reached out and asked Washington to lift its naval blockade on Iranian ports.",
-        "title_en": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics",
-        "title_zh": "伊朗战争直播：特朗普表示德黑兰希望结束封锁；"
-      },
-      "my_view": "中国视角缺失，欧美侧重游艇突破封锁的违规性，伊斯兰视角突出伊朗与美国对立及以色列攻击医护人员，三方立场差异反映地缘政治叙事侧重不同。",
-      "summary": "俄罗斯超级游艇无视封锁穿越霍尔木兹海峡，引发美伊对立与地区紧张局势升级。"
-    },
-    {
-      "event_hint": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-      "event_hint_zh": "乌克兰指责以色列接收俄罗斯“偷走”的粮食",
-      "event_hint_en": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-      "中国": null,
-      "美国（欧美媒体）": {
-        "title": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-        "link": "https://www.bbc.com/news/articles/cqjplqgd1r2o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 21:51",
-        "description": "Israel's foreign minister says it has received no evidence to support the claim that a vessel carrying grain from occupied Ukraine has reached Haifa.",
-        "title_en": "Ukraine accuses Israel of receiving shipments of grain 'stolen' by Russia",
-        "title_zh": "乌克兰指责以色列接收俄罗斯“偷走”的粮食"
-      },
-      "伊斯兰（半岛等）": {
-        "title": "Israeli soldier shows Gaza’s Beit Hanoon completely flattened",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/israeli-soldier-shows-gazas-beit-hanoon-completely-flattened?traffic_source=rss",
-        "published": "2026-04-29 06:50",
-        "description": "A video filmed by an Israeli soldier shows widespread destruction in northern Gaza.",
-        "title_en": "Israeli soldier shows Gaza’s Beit Hanoon completely flattened",
-        "title_zh": "以色列士兵展示加沙的拜特哈农完全被夷为平地"
-      },
-      "my_view": "中国未报道，欧美聚焦乌克兰指控以色列接收俄偷粮，伊斯兰则突出以军加沙暴行。三方立场差异显著：欧美偏俄乌冲突，伊斯兰重巴以矛盾，中国似回避涉以敏感议题。",
-      "summary": "同一事件因媒体立场不同，分别被塑造为俄乌粮食争端或巴以冲突加剧的叙事。"
-    },
-    {
-      "event_hint": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
-      "event_hint_zh": "前电视女歌星的赦免是意大利丑闻不断扩大的中心",
-      "event_hint_en": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
+      "event_hint": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+      "event_hint_zh": "俄罗斯缩减莫斯科胜利日阅兵规模，指责乌克兰威胁",
+      "event_hint_en": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
       "中国": {
-        "title": "国家发改委：城市停车设施建设是老百姓讲的“老大难”..",
-        "link": "http://baijiahao.baidu.com/s?id=1863707899812957268",
-        "published": "2026-04-29 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863707899812957268><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3375273723%2C295291368%26fm%3D30%26app%3",
-        "title_zh": "国家发改委：城市停车设施建设是老百姓讲的“老大难”..",
-        "title_en": "国家发改委：城市停车设施建设是老百姓讲的“老大难”.."
+        "title": "国家发改委：去年我国服务业规模突破80万亿元",
+        "link": "http://baijiahao.baidu.com/s?id=1863709866218245392",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863709866218245392><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D2645190509%2C295293777%26fm%3D30%26app%3",
+        "title_zh": "国家发改委：去年我国服务业规模突破80万亿元",
+        "title_en": "国家发改委：去年我国服务业规模突破80万亿元"
       },
       "美国（欧美媒体）": {
-        "title": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
-        "link": "https://www.bbc.com/news/articles/cd9pdkeekkzo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-29 00:59",
-        "description": "Nicole Minetti was convicted of facilitating prostitution in connection with the notorious \"bunga bunga\" parties at Silvio Berlusconi's villa.",
-        "title_en": "Ex-TV showgirl's pardon at centre of widening Italian scandal",
-        "title_zh": "前电视女歌星的赦免是意大利丑闻不断扩大的中心"
+        "title": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+        "link": "https://www.bbc.com/news/articles/c794wp4yy93o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 21:01",
+        "description": "Russia says the annual commemoration of Soviet victory in World War Two will not feature military vehicles or cadets.",
+        "title_en": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
+        "title_zh": "俄罗斯缩减莫斯科胜利日阅兵规模，指责乌克兰威胁"
       },
       "伊斯兰（半岛等）": {
-        "title": "The biggest military spenders",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/28/the-biggest-military-spenders?traffic_source=rss",
-        "published": "2026-04-29 05:49",
-        "description": "Global military spending is up again, according to SIPRI’s latest report showing the 11th consecutive year of growth.",
-        "title_en": "The biggest military spenders",
-        "title_zh": "军费开支最大的国家"
+        "title": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
+        "link": "https://www.aljazeera.com/news/2026/4/29/ukraine-asks-israel-to-seize-ship-carrying-stolen-russian-grain?traffic_source=rss",
+        "published": "2026-04-30 04:23",
+        "description": "Kyiv requested that Israel seize the vessel and its cargo, take grain ‌samples, and question crew ​members.",
+        "title_en": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
+        "title_zh": "乌克兰要求以色列扣押运载俄罗斯“偷走”粮食的船只"
       },
-      "my_view": "网易聚焦国内民生，回避国际丑闻；BBC突出个人丑闻与政治腐败关联；半岛则转向军费开支，暗示西方资源浪费。三方立场反映各自议程与受众偏好。",
-      "summary": "意大利赦免女歌星案暴露政商勾结，各方媒体借题发挥，服务自身叙事。"
+      "my_view": "三方报道立场迥异：中国视角回避冲突，聚焦国内经济；欧美视角突出俄罗斯指责乌克兰威胁；伊斯兰视角则强调乌克兰指控俄罗斯偷粮，反映各自利益与叙事偏好。",
+      "summary": "同一事件因媒体立场不同，被分别报道为国内成就、俄方指责和乌方反诉，凸显信息选择性传播。"
     },
     {
-      "event_hint": "Suspected gunman aged 89 held in Greece after five wounded",
-      "event_hint_zh": "造成五人受伤的 89 岁枪手嫌疑人在希腊被拘留",
-      "event_hint_en": "Suspected gunman aged 89 held in Greece after five wounded",
-      "中国": null,
+      "event_hint": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+      "event_hint_zh": "美国前官员批评五角大楼对伊朗学校致命袭击事件保持沉默",
+      "event_hint_en": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+      "中国": {
+        "title": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
+        "link": "http://baijiahao.baidu.com/s?id=1863708916028125087",
+        "published": "2026-04-30 08:00",
+        "description": "",
+        "title_zh": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼..",
+        "title_en": "中国贸促会副会长李兴乾会见美国商会中国事务副会长兼.."
+      },
       "美国（欧美媒体）": {
-        "title": "Suspected gunman aged 89 held in Greece after five wounded",
-        "link": "https://www.bbc.com/news/articles/cyv2pmz2v86o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-04-28 22:59",
-        "description": "Five people were left with non-life-threatening injuries, according to Greece's state broadcaster ERT.",
-        "title_en": "Suspected gunman aged 89 held in Greece after five wounded",
-        "title_zh": "造成五人受伤的 89 岁枪手嫌疑人在希腊被拘留"
+        "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+        "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-29 10:01",
+        "description": "In the two months since the deadly strike, the US defence department has said only that the incident is under investigation.",
+        "title_en": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+        "title_zh": "美国前官员批评五角大楼对伊朗学校致命袭击事件保持沉默"
       },
       "伊斯兰（半岛等）": {
-        "title": "Mali’s military leader emerges after alleged coup attempt",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/malis-military-leader-emerges-after-alleged-coup-attempt?traffic_source=rss",
-        "published": "2026-04-29 10:51",
-        "description": "Mali’s military leader says the country is ‘under control’ after what’s been described as an attempted coup.",
-        "title_en": "Mali’s military leader emerges after alleged coup attempt",
-        "title_zh": "马里军事领导人在涉嫌政变后现身"
+        "title": "US lawmakers question Pete Hegseth over budget for war on Iran",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/us-lawmakers-question-pete-hegseth-over-budget-for-war-on-iran?traffic_source=rss",
+        "published": "2026-04-30 03:39",
+        "description": "US Defense Secretary Pete Hegseth testified before Congress on the Pentagon’s budget for the US-Israeli war on Iran.",
+        "title_en": "US lawmakers question Pete Hegseth over budget for war on Iran",
+        "title_zh": "美国议员质疑皮特·赫格赛斯对伊朗战争的预算"
       },
-      "my_view": "三方立场差异显著：中国视角暂未报道，欧美聚焦事件本身，伊斯兰视角则转向马里军事政变，凸显各自对新闻价值、区域利益及意识形态的侧重。",
-      "summary": "一名89岁枪手在希腊致五人受伤后被捕，但不同媒体因立场差异选择不同报道重点。"
+      "my_view": "中国视角侧重经贸互动，淡化冲突；欧美聚焦批评五角大楼沉默，强调责任；伊斯兰视角突出对伊战争预算质疑，彰显对抗立场。三方分别从合作、监督、敌意切入，反映不同利益取向。",
+      "summary": "美国前官员因五角大楼对伊朗学校袭击沉默而受批评，各国媒体依自身立场选择性报道。"
+    },
+    {
+      "event_hint": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+      "event_hint_zh": "科米因在 Instagram 帖子中威胁特朗普生命的指控而自首",
+      "event_hint_en": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+        "link": "https://www.bbc.com/news/articles/c70vzj1nrddo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 04:24",
+        "description": "Prosecutors say a 2025 seashell photo posted by the former FBI director was a call for violence against Trump.",
+        "title_en": "Comey surrenders over charge of threatening Trump's life in Instagram post",
+        "title_zh": "科米因在 Instagram 帖子中威胁特朗普生命的指控而自首"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Ex-FBI chief Comey appears in court over alleged Trump threat",
+        "link": "https://www.aljazeera.com/news/2026/4/29/ex-fbi-chief-comey-appears-in-court-over-alleged-trump-threat?traffic_source=rss",
+        "published": "2026-04-30 04:00",
+        "description": "Comey turned himself in on two charges, threatening the US president&#039;s life and transmitting threats across state lines.",
+        "title_en": "Ex-FBI chief Comey appears in court over alleged Trump threat",
+        "title_zh": "前联邦调查局局长科米因涉嫌特朗普威胁出庭"
+      },
+      "my_view": "中国媒体未报道此事件，体现对敏感政治新闻的谨慎态度；BBC标题直白陈述指控与自首，强调法律程序；半岛电视台使用‘据称’一词，语气更中立，侧重法庭出庭而非自首，体现对事件定性的微妙差异。",
+      "summary": "前FBI局长科米因涉嫌在Instagram上威胁特朗普生命而向警方自首并出庭。"
+    },
+    {
+      "event_hint": "France urges citizens to leave Mali after rebel attacks",
+      "event_hint_zh": "法国敦促公民在叛军袭击后离开马里",
+      "event_hint_en": "France urges citizens to leave Mali after rebel attacks",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "France urges citizens to leave Mali after rebel attacks",
+        "link": "https://www.bbc.com/news/articles/cp3pdgvpn27o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 00:46",
+        "description": "The UK has issued similar advice, telling citizens who stay, that they do so at their own risk.",
+        "title_en": "France urges citizens to leave Mali after rebel attacks",
+        "title_zh": "法国敦促公民在叛军袭击后离开马里"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Mali’s Tuareg rebels say Russian fighters must withdraw from country",
+        "link": "https://www.aljazeera.com/news/2026/4/29/malis-tuareg-rebels-say-russian-fighters-must-withdraw-from-country?traffic_source=rss",
+        "published": "2026-04-30 04:17",
+        "description": "As military government battles to reassert control, spokesperson for Tuareg rebels says it will fall &#039;sooner or later&#039;.",
+        "title_en": "Mali’s Tuareg rebels say Russian fighters must withdraw from country",
+        "title_zh": "马里图阿雷格叛军称俄罗斯武装分子必须撤出该国"
+      },
+      "my_view": "中国视角缺失，欧美侧重法国公民安全，伊斯兰视角突出叛军对俄罗斯的敌意。三方立场差异反映各自利益关切：西方维护殖民影响，伊斯兰反抗外部军事存在。",
+      "summary": "马里局势因叛军袭击恶化，法国撤侨与反俄诉求并存，凸显多方势力博弈。"
+    },
+    {
+      "event_hint": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+      "event_hint_zh": "有报道称伊朗“延长”封锁后油价升至 120 美元以上",
+      "event_hint_en": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+      "中国": {
+        "title": "长沙城管深入推进“城管进社区”行动，高效解决居民家..",
+        "link": "http://baijiahao.baidu.com/s?id=1863797552046354098",
+        "published": "2026-04-30 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863797552046354098><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D3415568554%2C295375383%26fm%3D30%26app%3",
+        "title_zh": "长沙城管深入推进“城管进社区”行动，高效解决居民家..",
+        "title_en": "长沙城管深入推进“城管进社区”行动，高效解决居民家.."
+      },
+      "美国（欧美媒体）": {
+        "title": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+        "link": "https://www.bbc.com/news/articles/cj4pxr0gr02o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-04-30 06:49",
+        "description": "The price of crude oil has swung sharply as uncertainty over the war in the Middle East continues.",
+        "title_en": "Oil price rises above $120 after reports of 'extended' Iran blockade",
+        "title_zh": "有报道称伊朗“延长”封锁后油价升至 120 美元以上"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Trump: Putin offered to help settle Iranian nuclear enrichment impasse",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/4/29/trump-putin-offered-to-help-settle-iranian-nuclear-enrichment-impasse?traffic_source=rss",
+        "published": "2026-04-30 04:52",
+        "description": "Donald Trump said that Vladimir Putin told him he’d “like to be involved” in settling Iranian nuclear enrichment.",
+        "title_en": "Trump: Putin offered to help settle Iranian nuclear enrichment impasse",
+        "title_zh": "特朗普：普京愿意帮助解决伊朗核浓缩僵局"
+      },
+      "my_view": "中国视角侧重国内民生与基层治理，欧美聚焦油价与地缘经济，伊斯兰视角突出美俄介入伊朗核问题，三方立场分别体现内政优先、市场关切与区域平衡。",
+      "summary": "伊朗封锁传闻推高油价，各国媒体从不同政治经济立场选择性报道同一事件。"
     }
   ]
 }
