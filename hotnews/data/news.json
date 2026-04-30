@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-04-30 12:01:25 +08",
+  "generated_at": "2026-04-30 20:01:12 +08",
   "generated_date": "2026-04-30",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "US charges Sinaloa state governor, 9 others over Mexican drug cartel links",
         "title_zh": "美国指控锡那罗亚州州长及其他 9 人涉嫌与墨西哥贩毒集团有关联"
       },
-      "my_view": "中国视角侧重经贸关系，淡化冲突；欧美聚焦指控本身，强调法律行动；伊斯兰视角突出具体人物，隐含对美国干预的批评。立场差异反映各自利益关切。",
-      "summary": "美国指控墨西哥官员与贩毒集团勾结，凸显跨国禁毒合作中的政治博弈。"
+      "my_view": "中国视角淡化冲突，聚焦经贸合作；欧美强调执法指控，突出美国主导；伊斯兰侧重地方人物，弱化美国立场。三方立场反映各自政治与受众偏好。",
+      "summary": "美国指控墨西哥州长等官员与贩毒集团勾结，凸显跨境禁毒执法与政治博弈。"
     },
     {
       "event_hint": "Florida lawmakers approve new voting maps to favour Republicans",
@@ -451,8 +452,8 @@
         "title_en": "New Florida map boosts Republican seats amid national redistricting fight",
         "title_zh": "佛罗里达州新地图在全国选区重新划分斗争中增加了共和党席位"
       },
-      "my_view": "中国视角缺席，欧美报道中性陈述事实，伊斯兰视角强调全国性选区争夺背景，暗含对共和党操弄选举的批评。三方立场差异体现在是否隐含对选举公平性的质疑。",
-      "summary": "佛罗里达州通过偏向共和党的新选区划分方案，反映美国两党在选举地图上的政治博弈。"
+      "my_view": "中国视角未报道，欧美侧重描述程序事实，伊斯兰视角强调全国性政治博弈背景。立场差异体现：欧美中立陈述，伊斯兰隐含对党派操纵的批评。",
+      "summary": "佛罗里达州通过有利于共和党的选区重划，加剧全国性选举争议。"
     },
     {
       "event_hint": "Russia scales back Moscow Victory Day parade, blaming threat from Ukraine",
@@ -475,8 +476,8 @@
         "title_en": "Ukraine asks Israel to seize ship carrying grain ‘stolen’ by Russia",
         "title_zh": "乌克兰要求以色列扣押运载俄罗斯“偷走”粮食的船只"
       },
-      "my_view": "中国视角缺位显示谨慎中立；欧美侧重俄罗斯缩减阅兵并归咎乌克兰，凸显西方对俄指责；伊斯兰视角聚焦乌克兰要求以色列扣押俄‘偷运’粮食船，反映对俄侵犯主权及粮食安全的关切。",
-      "summary": "俄罗斯缩减胜利日阅兵并指责乌克兰威胁，同时乌克兰指控俄盗窃粮食并寻求国际干预。"
+      "my_view": "网易未报道，BBC聚焦俄方因乌威胁缩小阅兵，半岛则突出乌要求以色列扣押俄‘偷运’粮船。三方立场差异明显：欧美强调俄对乌威胁的指责，伊斯兰视角侧重乌方指控俄掠夺资源。",
+      "summary": "俄罗斯缩减阅兵规模并指责乌克兰威胁，同时乌克兰指控俄偷运粮食并寻求国际干预。"
     },
     {
       "event_hint": "Hegseth clashes with lawmakers over Iran war in nearly six-hour-long hearing",
@@ -506,8 +507,8 @@
         "title_en": "Iran war live: Trump urges Tehran to ‘give up’; Ghalibaf mocks US strategy",
         "title_zh": "伊朗战争直播：特朗普敦促德黑兰“放弃”；"
       },
-      "my_view": "中国视角隐去核心冲突，转向国内行政琐事；欧美视角聚焦听证会对抗，凸显程序性争议；伊斯兰视角强调伊朗强硬姿态与美方施压，三方立场分别体现避重就轻、制度叙事与阵营对抗。",
-      "summary": "赫格斯在听证会上就伊朗战争议题与议员激烈交锋，反映美伊对抗升级及国内政治分歧。"
+      "my_view": "中国视角侧重国内民生与官僚互动，淡化国际冲突；欧美聚焦听证会对抗细节，凸显程序与个人冲突；伊斯兰视角强调双方领导人表态，体现地缘对抗与舆论战。",
+      "summary": "同一事件因媒体立场不同，分别呈现为国内事务、程序对抗和地缘博弈，反映报道背后的政治与受众导向。"
     },
     {
       "event_hint": "Seven lawsuits filed against OpenAI by families of Canada mass-shooting victims",
@@ -537,8 +538,8 @@
         "title_en": "Carney ‘strong’ in year one, now must deliver on promises in Canada",
         "title_zh": "卡尼第一年“强势”，现在必须兑现在加拿大的承诺"
       },
-      "my_view": "中国视角标题与事件无关，疑似错误；欧美视角聚焦受害者诉OpenAI的法律行动；伊斯兰视角则关注加拿大领导人政绩，三方立场和关注点截然不同。",
-      "summary": "加拿大枪击案受害者家属起诉OpenAI，但不同媒体因政治或文化立场选择报道不同侧面。"
+      "my_view": "中国视角标题与事件无关，疑似拼接错误；欧美视角聚焦受害者起诉OpenAI的法律行动；伊斯兰视角则转向加拿大政治人物评价，三方立场、议题和关注点截然不同。",
+      "summary": "加拿大枪击案受害者家属起诉OpenAI，但不同媒体因立场和议程设置差异，报道焦点各异。"
     },
     {
       "event_hint": "Comey surrenders over charge of threatening Trump's life in Instagram post",
@@ -568,8 +569,8 @@
         "title_en": "Trump: Putin offered to help settle Iranian nuclear enrichment impasse",
         "title_zh": "特朗普：普京愿意帮助解决伊朗核浓缩僵局"
       },
-      "my_view": "中国视角聚焦国内基层治理，淡化国际事件；欧美视角突出法律程序与个人行为；伊斯兰视角转向美俄伊关系，转移焦点。三方立场差异反映媒体选择性报道与议程设置。",
-      "summary": "科米因威胁特朗普生命指控自首，但不同媒体侧重各异，凸显信息传播中的立场与目的差异。"
+      "my_view": "中国视角聚焦国内民生，淡化国际事件；欧美视角突出司法程序与个人行为；伊斯兰视角转向俄美伊外交博弈，三方立场明显受各自政治议程影响。",
+      "summary": "同一事件因媒体立场不同被选择性报道，反映信息传播中的政治与地域偏向。"
     },
     {
       "event_hint": "Stranded whale ferried out of German waters in barge",
@@ -592,8 +593,8 @@
         "title_en": "Israeli forces raid Global Sumud Flotilla boats in international waters",
         "title_zh": "以色列军队在国际水域袭击了 Global Sumud 船队的船只"
       },
-      "my_view": "中国视角缺席，BBC客观报道鲸鱼救援，半岛则聚焦以色列袭击船队，凸显西方与伊斯兰媒体对同一事件选择性报道，立场差异源于各自关注的地缘议题。",
-      "summary": "不同媒体对同一海洋事件报道焦点迥异，反映其背后政治立场与议程设置差异。"
+      "my_view": "网易无报道，BBC聚焦德国鲸鱼救援的环保事件，半岛则关注以色列在公海袭击船只的政治冲突，三方选题和立场差异明显，反映媒体议程设置受地域与意识形态影响。",
+      "summary": "同一媒体空间内，不同视角报道截然不同的事件，揭示新闻选择背后的立场与价值取向。"
     },
     {
       "event_hint": "Bondi shooting inquiry calls for gun reform and more security at Jewish festivals",
@@ -623,8 +624,8 @@
         "title_en": "Hundreds of Ultra-Orthodox Jews protest Israel’s military draft",
         "title_zh": "数百名极端正统犹太人抗议以色列征兵"
       },
-      "my_view": "网易报道完全偏离事件，BBC聚焦澳洲枪击案呼吁改革，半岛则转向以色列征兵抗议，三方立场差异显著：中国媒体回避敏感，欧美关注本土议题，伊斯兰视角关联中东冲突。",
-      "summary": "同一事件因媒体立场和地域利益不同，报道焦点截然分化，反映信息传播的选择性呈现。"
+      "my_view": "中国媒体回避敏感事件，聚焦无关生活话题；欧美媒体关注事件本身并提出改革呼吁；伊斯兰媒体借机关联以色列兵役问题，凸显立场差异。",
+      "summary": "同一事件在不同媒体中因立场不同被选择性报道或完全回避，反映了媒体议程设置的意识形态差异。"
     }
   ]
 }
