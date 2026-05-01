@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-01 12:01:58 +08",
+  "generated_at": "2026-05-01 20:01:02 +08",
   "generated_date": "2026-05-01",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Flotilla activist: Israel’s ‘brutal attack’ will not deter us",
         "title_zh": "船队活动人士：以色列的“野蛮袭击”不会阻止我们"
       },
-      "my_view": "网易标题脱离事件本身，聚焦国内环保活动，回避国际冲突；BBC客观陈述事实，立场中立；半岛突出‘野蛮攻击’定性，强调抵抗意志，立场鲜明。三方差异反映媒体受政治与受众影响。",
-      "summary": "以色列在克里特岛附近拦截加沙船队并拘留175名活动人士，引发不同媒体立场各异的报道。"
+      "my_view": "中国视角侧重国内环保宣传，回避国际冲突；欧美视角客观陈述拦截事实；伊斯兰视角突出事件暴力性并强调抵抗意志，立场差异源于媒体服务对象与政治倾向。",
+      "summary": "以色列在克里特岛附近拦截加沙船队并拘留175名活动人士，引发不同立场媒体差异化报道。"
     },
     {
       "event_hint": "Trump says US studying troop cuts in Germany, as spat with Merz intensifies",
@@ -458,8 +459,8 @@
         "title_en": "Trump says Iran can play at World Cup in US after FIFA confirmation",
         "title_zh": "特朗普表示国际足联确认后伊朗可以参加美国世界杯"
       },
-      "my_view": "网易侧重中美经贸互动，淡化特朗普与德国矛盾；BBC聚焦美欧关系紧张，突出军事与政治争执；半岛则转向伊朗相关新闻，体现地缘利益差异。三方立场受各自受众与议程影响。",
-      "summary": "同一特朗普言论被不同媒体选择性报道，反映各自政治立场与受众偏好。"
+      "my_view": "网易侧重中美经贸互动，淡化特朗普与德国争执；BBC聚焦美欧军事与政治摩擦；半岛则转向伊朗体育议题，回避核心矛盾。三方立场差异反映各自利益关注点。",
+      "summary": "同一特朗普事件，中、欧、伊媒体分别选取经贸、军事、体育角度报道，体现不同地缘立场。"
     },
     {
       "event_hint": "Deadly Israeli strikes on southern Lebanon despite ceasefire",
@@ -482,8 +483,8 @@
         "title_en": "How is Israel replicating its Gaza tactics in Lebanon?",
         "title_zh": "以色列如何在黎巴嫩复制其加沙策略？"
       },
-      "my_view": "中国立场中立，强调停火与事实；BBC聚焦事件本身，隐晦批评以色列；半岛直接质疑以色列策略，凸显伊斯兰视角对以色列行为的强烈谴责。",
-      "summary": "以色列在停火后仍袭击黎巴嫩南部，暴露其军事行动的双重标准。"
+      "my_view": "中国报道缺位，欧美聚焦事件本身，强调‘停火后仍袭击’；伊斯兰视角直接质疑以色列战术复制，揭露其系统性暴力。差异体现政治立场与叙事框架。",
+      "summary": "以色列在停火后仍对黎巴嫩发动致命袭击，暴露其军事策略的延续性与地区冲突的复杂性。"
     },
     {
       "event_hint": "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options",
@@ -513,8 +514,8 @@
         "title_en": "Hegseth testifies on Iran war before Senate committee: Key takeaways",
         "title_zh": "赫格斯在参议院委员会就伊朗战争作证：关键要点"
       },
-      "my_view": "中国视角回避国际热点，转向民生话题；欧美聚焦油价与特朗普动作，凸显市场关切；伊斯兰视角强调战争风险，反映地缘紧张与立场分化。",
-      "summary": "特朗普将听取对伊新选项简报，油价升至2022年来最高，各方报道侧重迥异。"
+      "my_view": "中国媒体回避国际敏感，聚焦国内民生；欧美侧重市场反应与地缘经济；伊斯兰媒体突出军事听证与战争风险，三方立场分别体现淡化、经济化和安全化倾向。",
+      "summary": "特朗普涉伊新动向引发油价飙升，各媒体依自身立场选择性报道，聚焦不同侧面。"
     },
     {
       "event_hint": "Trump signs bill to end record shutdown over immigration enforcement",
@@ -537,8 +538,8 @@
         "title_en": "US passes law to resume DHS funding and end partial government shutdown",
         "title_zh": "US passes law to resume DHS funding and end partial government shutdown"
       },
-      "my_view": "中国视角空缺，欧美侧重特朗普个人行动，伊斯兰强调资金恢复与政府关闭结束，显示不同媒体对责任归属和事件焦点的选择性呈现。",
-      "summary": "特朗普签署法案结束因移民执法导致的政府部分停摆。"
+      "my_view": "网易未报道显规避敏感；BBC侧重特朗普个人签署行为；半岛强调国土安全资金恢复，淡化总统角色，反映其关注美国内政对穆斯林移民影响。",
+      "summary": "特朗普签署法案结束因移民执法僵局导致的美国政府部分停摆。"
     },
     {
       "event_hint": "Venice Biennale jury resigns days before start of exhibition",
@@ -561,8 +562,8 @@
         "title_en": "Arsenal vs Fulham: Premier League – teams, start, lineups, title race",
         "title_zh": "阿森纳 vs 富勒姆：英超联赛 – 球队、首发、阵容、冠军争夺战"
       },
-      "my_view": "中国视角未报道，欧美视角聚焦事件本身，伊斯兰视角却完全偏离主题，显示媒体选择性报道与立场差异显著。",
-      "summary": "威尼斯双年展评审团在展览开幕前集体辞职。"
+      "my_view": "中国视角缺失，BBC聚焦事件本身，半岛标题完全无关，显示媒体选择性报道或议程设置差异，反映不同地区对同一事件关注度的显著分歧。",
+      "summary": "威尼斯双年展评审团在开幕前集体辞职，但各媒体报道重点与立场截然不同。"
     },
     {
       "event_hint": "Myanmar ex-leader Aung San Suu Kyi moved to house arrest, military says",
@@ -585,8 +586,8 @@
         "title_en": "Kenya’s Sawe hailed at State House after historic marathon",
         "title_zh": "肯尼亚选手萨维在完成历史性马拉松后在州议会大厦欢呼"
       },
-      "my_view": "中国视角缺位，欧美聚焦昂山素季软禁事件本身，突出缅甸军方的控制行为；半岛电视台则报道肯尼亚马拉松运动员受表彰，与缅甸事件完全无关，显示其关注点偏离或刻意回避。三方立场差异体现媒体选择性报道的倾向。",
-      "summary": "缅甸军方宣布将前领导人昂山素季转为软禁，西方媒体关注人权议题，其他媒体则选择性报道无关内容。"
+      "my_view": "网易无报道可能因议题敏感或立场谨慎；BBC侧重缅甸军方行动与昂山素季个人命运；半岛标题完全偏离事件，聚焦肯尼亚，显示其伊斯兰视角下对非穆斯林国家新闻的选择性忽略。",
+      "summary": "缅甸军方将昂山素季转为软禁，不同媒体因政治立场和区域关注点差异呈现报道偏差。"
     }
   ]
 }
