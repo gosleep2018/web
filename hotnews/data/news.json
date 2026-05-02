@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-02 12:01:27 +08",
+  "generated_at": "2026-05-02 20:01:16 +08",
   "generated_date": "2026-05-02",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Iran war live: Trump says no ‘early’ end to war, unhappy with Tehran offer",
         "title_zh": "伊朗战争直播：特朗普表示不会“提前”结束战争，对德黑兰的提议不满意"
       },
-      "my_view": "中国报道缺失，欧美聚焦法律程序争议，伊斯兰强调冲突持续性和美方不满。三方立场差异反映：欧美关注制度制衡，伊斯兰侧重战事实况，中国则可能倾向回避敏感议题。",
-      "summary": "特朗普宣称停火协议可绕过国会授权对伊朗动武，引发国际媒体对程序合法性与战局走向的不同解读。"
+      "my_view": "中国视角缺失，欧美侧重法律程序，强调特朗普绕开国会；伊斯兰视角聚焦战争持续性与对伊朗不满，凸显冲突升级风险。三方立场折射出对战争合法性与地区影响的不同关切。",
+      "summary": "特朗普宣称停火协议使其无需国会批准即可对伊朗动武，引发各方对战争合法性与后果的争议。"
     },
     {
       "event_hint": "US to cut troop levels in Germany by 5,000 amid Trump spat with Merz",
@@ -451,8 +452,8 @@
         "title_en": "US judge bars Trump from ending protected status for Yemeni nationals",
         "title_zh": "美国法官禁止特朗普终止也门国民的保护地位"
       },
-      "my_view": "中国视角聚焦内部宣传，淡化事件；欧美视角突出冲突与军事调整；伊斯兰视角转向法律制约，回避美德矛盾。三方各取所需，立场鲜明。",
-      "summary": "美德因领导人争执导致驻军削减，但不同媒体选择性报道以服务自身议程。"
+      "my_view": "中国视角侧重国内宣传，淡化冲突；欧美视角聚焦美德外交摩擦；伊斯兰视角转向美国内政司法干预，三方均基于自身利益选择性报道。",
+      "summary": "美国因特朗普与默茨争执拟削减驻德美军，各方媒体立场不同导致报道焦点差异。"
     },
     {
       "event_hint": "Israel releases all but two activists in Greece after intercepting Gaza aid flotilla",
@@ -475,8 +476,8 @@
         "title_en": "Palestinian football boss refuses Israeli handshake at FIFA event",
         "title_zh": "巴勒斯坦足球老板拒绝在国际足联活动中与以色列握手"
       },
-      "my_view": "网易未报道反映中国对巴以冲突的谨慎立场；BBC侧重事件过程与法律结果；半岛突出巴勒斯坦象征性抵抗，凸显三方对以色列行为的不同侧重与叙事选择。",
-      "summary": "以色列拦截加沙援助船队后释放多数活动人士，巴勒斯坦足协主席在FIFA活动上拒绝与以色列方握手以示抗议。"
+      "my_view": "网易未报道显示中方谨慎；BBC聚焦以色列释放行动，淡化拦截争议；半岛突出巴以对抗情绪，借足球场合强化对立。三方立场差异体现媒体选择性叙事。",
+      "summary": "以色列拦截援助船队后释放活动人士，突显巴以冲突中人道与主权博弈。"
     },
     {
       "event_hint": "Israeli police arrest man after nun attacked in Jerusalem",
@@ -499,8 +500,8 @@
         "title_en": "At least 12 killed in latest Israeli attacks on Lebanon",
         "title_zh": "以色列最近对黎巴嫩的袭击造成至少12人死亡"
       },
-      "my_view": "网易未报道可能因事件敏感或低关注度；BBC聚焦以色列执法，淡化冲突背景；半岛强调以色列对黎巴嫩袭击，突出伤亡，反映伊斯兰视角对以色列行为的批判。三方立场差异明显，体现媒体选择性报道。",
-      "summary": "同一以色列相关事件，不同媒体基于政治立场与受众，呈现迥异报道焦点与叙事框架。"
+      "my_view": "网易未报道反映中方谨慎态度；BBC聚焦个案淡化冲突；半岛标题关联黎巴嫩伤亡，凸显伊斯兰视角对以色列系统性行为的批判。三方立场差异显著。",
+      "summary": "同一事件因媒体立场不同，报道焦点和叙事框架各异，反映了地缘政治与意识形态对新闻选择的影响。"
     },
     {
       "event_hint": "Missing Oscar found after Academy Award winner blocked from taking it on flight",
@@ -523,8 +524,8 @@
         "title_en": "Iranian Nobel laureate Narges Mohammadi hospitalised as health deteriorates",
         "title_zh": "伊朗诺贝尔奖获得者纳尔吉斯·穆罕默迪因健康状况恶化入院治疗"
       },
-      "my_view": "中国视角未报道，BBC侧重奥斯卡失而复得的趣闻，半岛电视台聚焦获奖者健康危机，反映西方娱乐化与伊斯兰视角人权关切的对立。",
-      "summary": "伊朗诺贝尔和平奖得主纳尔吉斯·穆罕默迪因健康恶化住院，其奥斯卡奖杯曾被禁带上飞机后寻回。"
+      "my_view": "中国视角未报道，BBC聚焦奥斯卡失而复得的戏剧性，淡化人物背景；半岛电视台突出获奖者健康危机，强调政治迫害。三方立场差异明显：欧美重事件趣味性，伊斯兰重人权叙事。",
+      "summary": "伊朗诺贝尔和平奖得主纳尔吉斯·穆罕默迪被禁止携带奥斯卡奖杯乘机后，奖杯失踪又找回，其健康状况恶化引发关注。"
     },
     {
       "event_hint": "Who shot a Secret Service officer at the Trump press dinner?",
@@ -547,8 +548,8 @@
         "title_en": "Trump says Iran seeks terms he ‘can’t agree to’ in latest peace proposal",
         "title_zh": "特朗普称伊朗在最新和平提案中寻求他“无法同意”的条款"
       },
-      "my_view": "中国视角暂缺，欧美聚焦事件本身，强调特勤局官员被枪杀；伊斯兰视角转向伊朗和谈，淡化事件，凸显对特朗普立场的批判。三方立场差异反映了各自政治议程和报道侧重。",
-      "summary": "同一事件因媒体立场不同被选择性报道，欧美聚焦安全事件，伊斯兰转向外交冲突，中国缺失。"
+      "my_view": "中国报道空缺，欧美聚焦事件细节，伊斯兰视角转向特朗普对伊朗和平提案的表态，三方立场差异明显：欧美侧重事实追踪，伊斯兰侧重政治关联，中国暂未介入。",
+      "summary": "同一事件因媒体立场和区域利益不同，报道焦点和叙事角度各异。"
     },
     {
       "event_hint": "British couple jailed in Iran: 'We're likely to be here for a long time'",
@@ -571,8 +572,8 @@
         "title_en": "Trump considering option to ‘blast the hell out of’ Iran",
         "title_zh": "特朗普考虑选择“炸毁”伊朗"
       },
-      "my_view": "网易未报道显示中国谨慎中立；BBC聚焦英国夫妇处境，强调人道关切；半岛突出特朗普威胁，凸显美伊对抗。三方立场分别体现回避、西方价值观及伊斯兰反美叙事。",
-      "summary": "英国夫妇被伊朗监禁事件，折射出西方与伊斯兰世界的地缘政治紧张及媒体叙事差异。"
+      "my_view": "网易未报道凸显中国规避敏感议题；BBC聚焦个体困境，强调西方视角下的人道关切；半岛直指美伊对抗，展现伊斯兰媒体对美方强硬立场的警惕。",
+      "summary": "英国夫妇在伊朗被监禁事件，被不同媒体分别用于呈现西方个体叙事、伊斯兰反美立场及中国选择性沉默。"
     },
     {
       "event_hint": "Turkish police arrest more than 500 people at May Day rallies",
@@ -602,8 +603,8 @@
         "title_en": "K-pop’s BTS comeback tour rallies South Korea’s global ‘soft power’ drive",
         "title_zh": "K-pop 防弹少年团复出巡演凝聚韩国全球“软实力”"
       },
-      "my_view": "中国视角侧重外交成就，淡化土耳其事件；欧美视角聚焦警方行动，强调人权问题；伊斯兰视角完全偏离主题，借韩流转移注意力。三方立场差异反映各自政治议程和受众偏好。",
-      "summary": "土耳其警方镇压五一集会引发国际关注，但各媒体选择性报道以服务自身立场。"
+      "my_view": "中国视角侧重外交成就，淡化土耳其事件；欧美聚焦警方行动，强调人权问题；伊斯兰视角转移话题到韩流，回避本国负面。立场差异源于各自利益与议程设置。",
+      "summary": "土耳其警方镇压五一集会，逮捕超500人，但不同媒体选择性报道以服务自身立场。"
     },
     {
       "event_hint": "Australia wants to become the first country to eliminate a cancer - can it?",
@@ -626,8 +627,8 @@
         "title_en": "Barcelona in sight of La Liga title a week before El Clasico with Real",
         "title_zh": "巴塞罗那有望在与皇马的国家德比前一周夺得西甲冠军"
       },
-      "my_view": "网易未报道显示中国对西方医疗成就关注度低；BBC客观报道澳大利亚目标；半岛标题无关，反映伊斯兰媒体对体育热点侧重，三方立场差异显著。",
-      "summary": "澳大利亚提出消除癌症目标，媒体视角反映不同区域关注点与议程差异。"
+      "my_view": "网易未报道，BBC聚焦澳大利亚消除癌症的技术可行性，体现欧美对医疗进步的理性关注；半岛电视台标题完全偏离事件，显示其以足球新闻替代，反映伊斯兰媒体对非相关议题的忽略或转移。",
+      "summary": "澳大利亚欲成首个消除癌症国家，不同媒体因立场和议程设置差异，报道焦点与相关性截然不同。"
     }
   ]
 }
