@@ -1,50 +1,40 @@
 {
-  "generated_at": "2026-05-03 20:01:15 +08",
-  "generated_date": "2026-05-03",
-  "current_slot": "晚",
+  "generated_at": "2026-05-04 08:01:18 +08",
+  "generated_date": "2026-05-04",
+  "current_slot": "早",
   "slots_done": [
-    "早",
-    "中",
-    "晚"
+    "早"
   ],
   "sources": {
     "中国": [
       {
+        "title": "“AI生成照片”作证据？法官一眼识破：假的！",
+        "link": "http://baijiahao.baidu.com/s?id=1864154023006945320",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864154023006945320><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D4123059942%2C295707463%26fm%3D30%26app%3",
+        "title_zh": "“AI生成照片”作证据？法官一眼识破：假的！",
+        "title_en": "“AI生成照片”作证据？法官一眼识破：假的！"
+      },
+      {
         "title": "西安校园里的“劳动新课堂”",
         "link": "http://baijiahao.baidu.com/s?id=1864124332340609292",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864124332340609292><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D572205051%2C295679203%26fm%3D30%26app%3D",
         "title_zh": "西安校园里的“劳动新课堂”",
         "title_en": "西安校园里的“劳动新课堂”"
       },
       {
-        "title": "堪称武汉最火摊位！今天万人冒雨清早赶来",
-        "link": "http://baijiahao.baidu.com/s?id=1864108733249760128",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864108733249760128><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D100214473%2C295664677%26fm%3D30%26app%3D",
-        "title_zh": "堪称武汉最火摊位！今天万人冒雨清早赶来",
-        "title_en": "堪称武汉最火摊位！今天万人冒雨清早赶来"
-      },
-      {
-        "title": "麻江教育“抱团记”",
-        "link": "http://baijiahao.baidu.com/s?id=1864088814688527415",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864088814688527415><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1269329%2C295646360%26fm%3D30%26app%3D10",
-        "title_zh": "麻江教育“抱团记”",
-        "title_en": "麻江教育“抱团记”"
-      },
-      {
-        "title": "探秘多彩校园，邂逅优质教育——看潍坊圣文科技高中特..",
-        "link": "http://baijiahao.baidu.com/s?id=1864052419642813928",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864052419642813928><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1702743038%2C295612229%26fm%3D30%26app%3",
-        "title_zh": "探秘多彩校园，邂逅优质教育——看潍坊圣文科技高中特..",
-        "title_en": "探秘多彩校园，邂逅优质教育——看潍坊圣文科技高中特.."
+        "title": "车尾流行挂“毛绒尾巴”？律师提醒",
+        "link": "http://baijiahao.baidu.com/s?id=1864079157373538757",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1864079157373538757><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3452817546%2C295637130%26fm%3D30%26app%3",
+        "title_zh": "车尾流行挂“毛绒尾巴”？律师提醒",
+        "title_en": "车尾流行挂“毛绒尾巴”？律师提醒"
       },
       {
         "title": "致敬劳动者｜出租车司机刘自立：用行动诠释劳模初心",
         "link": "http://baijiahao.baidu.com/s?id=1863983280087729692",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863983280087729692><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D4116276145%2C295547836%26fm%3D30%26app%3",
         "title_zh": "致敬劳动者｜出租车司机刘自立：用行动诠释劳模初心",
         "title_en": "致敬劳动者｜出租车司机刘自立：用行动诠释劳模初心"
@@ -52,23 +42,15 @@
       {
         "title": "高考拼营养｜三餐巧搭配 营养稳状态",
         "link": "http://baijiahao.baidu.com/s?id=1863978054045285086",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863978054045285086><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2335017315%2C295542970%26fm%3D30%26app%3",
         "title_zh": "高考拼营养｜三餐巧搭配 营养稳状态",
         "title_en": "高考拼营养｜三餐巧搭配 营养稳状态"
       },
       {
-        "title": "成都高新这场艺术展 获外交部发言人转发",
-        "link": "http://baijiahao.baidu.com/s?id=1863969928132031821",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863969928132031821><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1446200770%2C295535406%26fm%3D30%26app%3",
-        "title_zh": "成都高新这场艺术展 获外交部发言人转发",
-        "title_en": "成都高新这场艺术展 获外交部发言人转发"
-      },
-      {
         "title": "教育部长怀进鹏：要全力以赴打好首批疏解高校雄安校区..",
         "link": "http://baijiahao.baidu.com/s?id=1863961322455596239",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "据教育部官网消息，4月29日，雄安新区高校建设发展座谈会在河北雄安新区召开。会议强调，要深入贯彻落实习近平总书记在雄安新区考察时的重要讲话精神，推动北京地区高校向雄安疏解和承接工作提速提质，服务雄安新",
         "title_zh": "教育部长怀进鹏：要全力以赴打好首批疏解高校雄安校区..",
         "title_en": "教育部长怀进鹏：要全力以赴打好首批疏解高校雄安校区.."
@@ -76,15 +58,31 @@
       {
         "title": "以技筑梦 以农启航 湘潭生物机电学校农林牧渔技能竞..",
         "link": "http://baijiahao.baidu.com/s?id=1863958707444745479",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863958707444745479><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2820249293%2C295524953%26fm%3D30%26app%3",
         "title_zh": "以技筑梦 以农启航 湘潭生物机电学校农林牧渔技能竞..",
         "title_en": "以技筑梦 以农启航 湘潭生物机电学校农林牧渔技能竞.."
       },
       {
+        "title": "小升初5月22日报名！青岛发布义务教育招生政策，支..",
+        "link": "http://baijiahao.baidu.com/s?id=1863904726431797510",
+        "published": "2026-05-04 08:00",
+        "description": "",
+        "title_zh": "小升初5月22日报名！青岛发布义务教育招生政策，支..",
+        "title_en": "小升初5月22日报名！青岛发布义务教育招生政策，支.."
+      },
+      {
+        "title": "济源市济水东街学校：争做文明交通使者 践行志愿服务..",
+        "link": "http://baijiahao.baidu.com/s?id=1863900230537132320",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863900230537132320><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D2954064341%2C295470504%26fm%3D30%26app%3",
+        "title_zh": "济源市济水东街学校：争做文明交通使者 践行志愿服务..",
+        "title_en": "济源市济水东街学校：争做文明交通使者 践行志愿服务.."
+      },
+      {
         "title": "美国世外首届毕业生的成绩单，亮了",
         "link": "http://baijiahao.baidu.com/s?id=1863897344334325412",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863897344334325412><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D783949424%2C295467807%26fm%3D30%26app%3D",
         "title_zh": "美国世外首届毕业生的成绩单，亮了",
         "title_en": "美国世外首届毕业生的成绩单，亮了"
@@ -92,47 +90,47 @@
       {
         "title": "湖南农业大学举行2025-2026年度“五四”总结..",
         "link": "http://baijiahao.baidu.com/s?id=1863896736621231846",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863896736621231846><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D122535355%2C295467241%26fm%3D30%26app%3D",
         "title_zh": "湖南农业大学举行2025-2026年度“五四”总结..",
         "title_en": "湖南农业大学举行2025-2026年度“五四”总结.."
       },
       {
+        "title": "帝欧水华：公司主营高品质卫浴全系产品、建筑陶瓷及环..",
+        "link": "http://baijiahao.baidu.com/s?id=1863893552937229242",
+        "published": "2026-05-04 08:00",
+        "description": "证券日报网讯4月30日，帝欧水华在互动平台回答投资者提问时表示，公司作为国内建筑陶瓷与卫浴领域的领先制造企业，公司主营高品质卫浴全系产品、建筑陶瓷及环保新材料（亚克力）的研发、生产与销售。其",
+        "title_zh": "帝欧水华：公司主营高品质卫浴全系产品、建筑陶瓷及环..",
+        "title_en": "帝欧水华：公司主营高品质卫浴全系产品、建筑陶瓷及环.."
+      },
+      {
         "title": "2026年“环保宜春行”活动来啦！聚焦赣江流域水生..",
         "link": "http://baijiahao.baidu.com/s?id=1863886040763749034",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863886040763749034><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D3959859828%2C295457275%26fm%3D30%26app%3",
         "title_zh": "2026年“环保宜春行”活动来啦！聚焦赣江流域水生..",
         "title_en": "2026年“环保宜春行”活动来啦！聚焦赣江流域水生.."
       },
       {
-        "title": "贝德美地球日：解锁亲子环保新场景，让爱与守护自然成..",
-        "link": "http://baijiahao.baidu.com/s?id=1863885078103316118",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863885078103316118><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D273753002%2C295456391%26fm%3D30%26app%3D",
-        "title_zh": "贝德美地球日：解锁亲子环保新场景，让爱与守护自然成..",
-        "title_en": "贝德美地球日：解锁亲子环保新场景，让爱与守护自然成.."
-      },
-      {
-        "title": "教育高质量发展看山西丨大同师范高等专科学校召开20..",
-        "link": "http://baijiahao.baidu.com/s?id=1863884184661434843",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863884184661434843><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D1462883228%2C295455556%26fm%3D30%26app%3",
-        "title_zh": "教育高质量发展看山西丨大同师范高等专科学校召开20..",
-        "title_en": "教育高质量发展看山西丨大同师范高等专科学校召开20.."
-      },
-      {
         "title": "北京地铁一号线“服役”20多年的老列车在逐渐“告别..",
         "link": "http://baijiahao.baidu.com/s?id=1863863235401868433",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863863235401868433><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D691587766%2C295441328%26fm%3D30%26app%3D",
         "title_zh": "北京地铁一号线“服役”20多年的老列车在逐渐“告别..",
         "title_en": "北京地铁一号线“服役”20多年的老列车在逐渐“告别.."
       },
       {
+        "title": "公然叫嚣“动刀子”，校务纠纷不容逞勇斗狠｜新京报快..",
+        "link": "http://baijiahao.baidu.com/s?id=1863876289361530103",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863876289361530103><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2316367880%2C295448266%26fm%3D30%26app%3",
+        "title_zh": "公然叫嚣“动刀子”，校务纠纷不容逞勇斗狠｜新京报快..",
+        "title_en": "公然叫嚣“动刀子”，校务纠纷不容逞勇斗狠｜新京报快.."
+      },
+      {
         "title": "十年磨一剑！神仙学校给你稳稳的幸福",
         "link": "http://baijiahao.baidu.com/s?id=1863871924020179652",
-        "published": "2026-05-03 12:00",
+        "published": "2026-05-04 08:00",
         "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863871924020179652><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2586710165%2C295444138%26fm%3D30%26app%3",
         "title_zh": "十年磨一剑！神仙学校给你稳稳的幸福",
         "title_en": "十年磨一剑！神仙学校给你稳稳的幸福"
@@ -140,12 +138,12 @@
     ],
     "美国（欧美媒体）": [
       {
-        "title": "Germany says US troop withdrawal 'foreseeable' as Nato seeks clarification",
-        "link": "https://www.bbc.com/news/articles/cd9pn541jjlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 07:13",
-        "description": "In the US, two senior Republicans voice concern over President Trump's decision to pull out 5,000 troops.",
-        "title_en": "Germany says US troop withdrawal 'foreseeable' as Nato seeks clarification",
-        "title_zh": "德国称美国撤军是“可预见的” 北约寻求澄清"
+        "title": "Iran says US has responded to its latest peace proposal",
+        "link": "https://www.bbc.com/news/articles/cn0px2x53k2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-04 05:28",
+        "description": "The US is yet to formally confirm it has responded. However, Trump reportedly told Israel's Kan News it was unacceptable.",
+        "title_en": "Iran says US has responded to its latest peace proposal",
+        "title_zh": "伊朗称美国已对其最新和平提议做出回应"
       },
       {
         "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
@@ -156,6 +154,38 @@
         "title_zh": "伊朗战争以令人惊讶的方式增强了乌克兰的实力。"
       },
       {
+        "title": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+        "link": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-04 06:13",
+        "description": "The World Health Organization said one case of hantavirus infection has been confirmed, with five more suspected cases under investigation.",
+        "title_en": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+        "title_zh": "大西洋游轮疑似病毒爆发 三人死亡"
+      },
+      {
+        "title": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
+        "link": "https://www.bbc.com/news/articles/clyp41v1n1go?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 21:43",
+        "description": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
+        "title_en": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
+        "title_zh": "泽连斯基称乌克兰袭击油轮和码头，俄罗斯空袭造成10人死亡"
+      },
+      {
+        "title": "Nigeria summons South African envoy over attacks on its nationals",
+        "link": "https://www.bbc.com/news/articles/c78q6e98878o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 18:16",
+        "description": "There has been a wave of anti-migrant protests in South Africa, some of which have turned violent.",
+        "title_en": "Nigeria summons South African envoy over attacks on its nationals",
+        "title_zh": "尼日利亚就其国民遇袭事件召见南非特使"
+      },
+      {
+        "title": "Police officer lowered into crocodile-infested river to recover human remains",
+        "link": "https://www.bbc.com/news/articles/cz92gk18xn4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 23:47",
+        "description": "Police suspect the human remains belong to a businessman swept away by floodwater last week.",
+        "title_en": "Police officer lowered into crocodile-infested river to recover human remains",
+        "title_zh": "警察跳入鳄鱼出没的河流中打捞人类遗骸"
+      },
+      {
         "title": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
         "link": "https://www.bbc.com/news/articles/cvgzk91leweo?at_medium=RSS&at_campaign=rss",
         "published": "2026-05-03 07:17",
@@ -164,20 +194,44 @@
         "title_zh": "秘密网络将星链技术走私到伊朗以应对互联网中断"
       },
       {
-        "title": "Concern for jailed Iranian Nobel laureate as family say health deteriorating",
-        "link": "https://www.bbc.com/news/articles/c362pd8epw9o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 01:55",
-        "description": "On Friday her family said the 54-year-old had been taken from prison to a local hospital after a sharp deterioration in her health.",
-        "title_en": "Concern for jailed Iranian Nobel laureate as family say health deteriorating",
-        "title_zh": "被监禁的伊朗诺贝尔奖获得者家人表示健康状况恶化，令人担忧"
+        "title": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+        "link": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 16:41",
+        "description": "The chairs of the House and Senate armed services committees said withdrawing 5,000 service personnel risked undermining deterrence.",
+        "title_en": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+        "title_zh": "两位美国共和党高层表示，德国削减驻军向俄罗斯发出了错误信号"
       },
       {
-        "title": "US threatens shipping firms with sanctions if they pay Iran tolls",
-        "link": "https://www.bbc.com/news/articles/c3v2l2qq9qlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 22:18",
-        "description": "The warning comes as President Donald Trump said he was \"not excited\" by Iran's latest proposal for a peace deal.",
-        "title_en": "US threatens shipping firms with sanctions if they pay Iran tolls",
-        "title_zh": "美国威胁航运公司如果向伊朗支付通行费将受到制裁"
+        "title": "Concern for jailed Iranian Nobel laureate as brother fears she is dying",
+        "link": "https://www.bbc.com/news/articles/c362pd8epw9o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 22:44",
+        "description": "Her family said the 54-year-old had been taken from prison to a local hospital after a sharp deterioration in her health.",
+        "title_en": "Concern for jailed Iranian Nobel laureate as brother fears she is dying",
+        "title_zh": "对被监禁的伊朗诺贝尔奖得主的担忧，因为哥哥担心她快要死了"
+      },
+      {
+        "title": "Two US service members reported missing in Morocco, officials say",
+        "link": "https://www.bbc.com/news/articles/cn7prznmllko?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-04 01:27",
+        "description": "A search and rescue operation is underway for the service members, who are believed to have been involved in an accident, according to authorities.",
+        "title_en": "Two US service members reported missing in Morocco, officials say",
+        "title_zh": "官员称，两名美国军人在摩洛哥失踪"
+      },
+      {
+        "title": "Man charged with murder of 5-year-old Australian girl",
+        "link": "https://www.bbc.com/news/articles/cy92qennznjo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 13:52",
+        "description": "The girl's death sparked an outbreak of violence in the central Australian town from where she disappeared.",
+        "title_en": "Man charged with murder of 5-year-old Australian girl",
+        "title_zh": "男子被控谋杀 5 岁澳大利亚女孩"
+      },
+      {
+        "title": "'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans",
+        "link": "https://www.bbc.com/news/articles/c202m54xp0mo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-02 13:02",
+        "description": "In the Gaza Strip, the daily battles are now with rats, weasels, and other pests spreading diseases.",
+        "title_en": "'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans",
+        "title_zh": "“如果我们睡觉，它们就会咬人”：老鼠和黄鼠狼出没于流离失所的加沙人营地"
       },
       {
         "title": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
@@ -196,22 +250,6 @@
         "title_zh": "油轮在也门海岸被劫持并被带往索马里"
       },
       {
-        "title": "'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans",
-        "link": "https://www.bbc.com/news/articles/c202m54xp0mo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 13:02",
-        "description": "In the Gaza Strip, the daily battles are now with rats, weasels, and other pests spreading diseases.",
-        "title_en": "'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans",
-        "title_zh": "“如果我们睡觉，它们就会咬人”：老鼠和黄鼠狼出没于流离失所的加沙人营地"
-      },
-      {
-        "title": "Cuba condemns new US sanctions as 'illegal' and 'abusive'",
-        "link": "https://www.bbc.com/news/articles/cwy21n1970vo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 12:57",
-        "description": "The new measures come on top of a US blockade of oil to Cuba that has caused widespread blackouts and fuel shortages.",
-        "title_en": "Cuba condemns new US sanctions as 'illegal' and 'abusive'",
-        "title_zh": "古巴谴责美国新制裁“非法”和“滥用”"
-      },
-      {
         "title": "US Supreme Court asked to restore abortion pill access",
         "link": "https://www.bbc.com/news/articles/c2k20z5yj3wo?at_medium=RSS&at_campaign=rss",
         "published": "2026-05-03 05:06",
@@ -220,209 +258,200 @@
         "title_zh": "美国最高法院要求恢复堕胎药的使用"
       },
       {
-        "title": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-        "link": "https://www.bbc.com/news/articles/c4g4xexy4w7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 07:03",
-        "description": "The president writes that hostilities \"have terminated\" because of the ceasefire, arguing he does not need congressional authorisation.",
-        "title_en": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-        "title_zh": "特朗普告诉国会停火意味着他不需要他们批准伊朗战争"
-      },
-      {
-        "title": "Who shot a Secret Service officer at the Trump press dinner?",
-        "link": "https://www.bbc.com/news/articles/cm2pmk0r3pjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 05:44",
-        "description": "Court papers do not explicitly accuse the suspect of shooting the officer, even as officials say it was not \"friendly fire\".",
-        "title_en": "Who shot a Secret Service officer at the Trump press dinner?",
-        "title_zh": "谁在特朗普新闻晚宴上枪杀了特勤局官员？"
-      },
-      {
-        "title": "Trump claims other presidents flouted war powers law. It's a mixed record",
-        "link": "https://www.bbc.com/news/articles/c794zlx5lx8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 10:43",
-        "description": "Both Bushes and Reagan won authorisation for wars, but Obama and Clinton ducked the requirement.",
-        "title_en": "Trump claims other presidents flouted war powers law. It's a mixed record",
-        "title_zh": "特朗普声称其他总统藐视战争权力法。"
-      },
-      {
-        "title": "Ex-F1 driver and Paralympic champion Zanardi dies",
-        "link": "https://www.bbc.com/sport/formula1/articles/cvgz0kpxjpgo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 17:08",
-        "description": "Former Formula 1 driver and Paralympic champion Alex Zanardi dies at the age of 59.",
-        "title_en": "Ex-F1 driver and Paralympic champion Zanardi dies",
-        "title_zh": "前 F1 车手、残奥会冠军扎纳尔迪去世"
-      },
-      {
-        "title": "Taiwan president visits Eswatini days after blaming China for cancelled trip",
-        "link": "https://www.bbc.com/news/articles/c809ln029ldo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 01:01",
-        "description": "It is unclear how he reached Eswatini. China described his visit as a \"stowaway-style escape farce\".",
-        "title_en": "Taiwan president visits Eswatini days after blaming China for cancelled trip",
-        "title_zh": "台湾总统在指责中国取消行程几天后访问斯威士兰"
-      },
-      {
-        "title": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-        "link": "https://www.bbc.com/news/articles/c3e283g80n4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-01 23:12",
-        "description": "Mladic, 84, was jailed for life for genocide, war crimes and crimes against humanity during the Bosnian war in 1992-95.",
-        "title_en": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-        "title_zh": "律师称战犯姆拉迪奇濒临死亡，要求法官释放监狱"
+        "title": "Cuba condemns new US sanctions as 'illegal' and 'abusive'",
+        "link": "https://www.bbc.com/news/articles/cwy21n1970vo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-02 12:57",
+        "description": "The new measures come on top of a US blockade of oil to Cuba that has caused widespread blackouts and fuel shortages.",
+        "title_en": "Cuba condemns new US sanctions as 'illegal' and 'abusive'",
+        "title_zh": "Cuba condemns new US sanctions as 'illegal' and 'abusive'"
       }
     ],
     "伊斯兰（半岛等）": [
       {
-        "title": "UAE lifts all air traffic restrictions introduced since Iran war",
-        "link": "https://www.aljazeera.com/news/2026/5/3/uae-lifts-all-air-traffic-restrictions-introduced-since-iran-war?traffic_source=rss",
-        "published": "2026-05-03 11:29",
-        "description": "UAE aviation authority&#039;s announcement is the latest sign of the travel sector&#039;s recovery across the Middle East.",
-        "title_en": "UAE lifts all air traffic restrictions introduced since Iran war",
-        "title_zh": "阿联酋取消伊朗战争以来实行的所有空中交通限制"
+        "title": "Thousands in India’s Manipur mark three years since ethnic clashes began",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/thousands-in-indias-manipur-mark-three-years-since-ethnic-clashes-began?traffic_source=rss",
+        "published": "2026-05-04 07:04",
+        "description": "Thousands of protesters gathered in India’s Manipur state to mark three years since ethnic violence erupted.",
+        "title_en": "Thousands in India’s Manipur mark three years since ethnic clashes began",
+        "title_zh": "印度曼尼普尔邦数千人纪念种族冲突爆发三周年"
       },
       {
-        "title": "Trump reviews Iranian peace proposal, warns strikes could resume",
-        "link": "https://www.aljazeera.com/news/2026/5/3/trump-reviews-iranian-peace-proposal-warns-strikes-could-resume?traffic_source=rss",
-        "published": "2026-05-03 10:37",
-        "description": "US president says he is considering the 14-point peace plan, but warns strikes could resume if Tehran &#039;misbehaves&#039;.",
-        "title_en": "Trump reviews Iranian peace proposal, warns strikes could resume",
-        "title_zh": "特朗普审查伊朗和平提议，警告可能恢复袭击"
+        "title": "Three dead in suspected hantavirus outbreak on Atlantic cruise ship",
+        "link": "https://www.aljazeera.com/news/2026/5/3/three-dead-in-suspected-hantavirus-outbreak-on-atlantic-cruise-ship?traffic_source=rss",
+        "published": "2026-05-04 05:59",
+        "description": "Three of six passengers ill from a suspected rodent-transmitted virus have died, and one is in intensive care, WHO says.",
+        "title_en": "Three dead in suspected hantavirus outbreak on Atlantic cruise ship",
+        "title_zh": "大西洋游轮疑似汉坦病毒爆发 三人死亡"
       },
       {
-        "title": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon?traffic_source=rss",
-        "published": "2026-05-03 08:00",
-        "description": "US president says he will &#039;soon be reviewing the plan Iran has just sent to us&#039;, but doesn&#039;t think he can make a deal.",
-        "title_en": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
-        "title_zh": "伊朗战争直播：特朗普将审查14点计划；"
+        "title": "French left-wing’s Melenchon says he will run for president in 2027",
+        "link": "https://www.aljazeera.com/news/2026/5/3/french-left-wings-melenchon-says-he-will-run-for-president-in-2027?traffic_source=rss",
+        "published": "2026-05-04 05:25",
+        "description": "Melenchon says he will make fourth bid for presidency with President Macron term-limited and Le Pen facing ban.",
+        "title_en": "French left-wing’s Melenchon says he will run for president in 2027",
+        "title_zh": "法国左翼人士梅朗雄表示将在 2027 年竞选总统"
       },
       {
-        "title": "Philippines volcano erupts, blanketing ash across the sky",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/philippines-volcano-erupts-blanketing-ash-across-the-sky?traffic_source=rss",
-        "published": "2026-05-03 07:16",
-        "description": "The Mayon Volcano has erupted, spewing a cloud of ash and debris across Bicol, in the Philippines.",
-        "title_en": "Philippines volcano erupts, blanketing ash across the sky",
-        "title_zh": "菲律宾火山喷发，火山灰覆盖天空"
+        "title": "Real Madrid stays alive in La Liga title race with victory at Espanyol",
+        "link": "https://www.aljazeera.com/sports/2026/5/3/real-madrid-stays-alive-in-la-liga-title-race-with-victory-at-espanyol?traffic_source=rss",
+        "published": "2026-05-04 05:22",
+        "description": "Two goals by Vinicius Jr allowed Madrid to remain in title contention with Barcelona ahead of El Clasico next Sunday.",
+        "title_en": "Real Madrid stays alive in La Liga title race with victory at Espanyol",
+        "title_zh": "皇家马德里队战胜西班牙人队，在西甲冠军争夺战中保持活力"
       },
       {
-        "title": "The rise of political violence under Trump",
-        "link": "https://www.aljazeera.com/video/upfront/2026/5/2/the-rise-of-political-violence-under-trump?traffic_source=rss",
-        "published": "2026-05-03 05:25",
-        "description": "Redi Tlhabi speaks to Professor Robert Pape on the rise of political violence in the US.",
-        "title_en": "The rise of political violence under Trump",
-        "title_zh": "特朗普领导下政治暴力的兴起"
+        "title": "Iran lawmaker says Strait of Hormuz will not return to pre‑war state",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/iran-lawmaker-says-strait-of-hormuz-will-not-return-to-pre%e2%80%91war-state?traffic_source=rss",
+        "published": "2026-05-04 04:51",
+        "description": "Iran says the Strait of Hormuz will never return to the status quo that existed before the US-Israel war on Tehran.",
+        "title_en": "Iran lawmaker says Strait of Hormuz will not return to pre‑war state",
+        "title_zh": "伊朗议员表示霍尔木兹海峡不会恢复到战前状态"
       },
       {
-        "title": "Why are maritime laws failing to secure the seas?",
-        "link": "https://www.aljazeera.com/video/inside-story/2026/5/2/why-are-maritime-laws-failing-to-secure-the-seas?traffic_source=rss",
-        "published": "2026-05-03 05:04",
-        "description": "Wars and territorial disputes are rewriting the rules of global shipping.",
-        "title_en": "Why are maritime laws failing to secure the seas?",
-        "title_zh": "为什么海事法无法保障海洋安全？"
+        "title": "Trump says US will ‘help free up’ ships stuck in Hormuz Strait",
+        "link": "https://www.aljazeera.com/news/2026/5/3/trump-says-us-will-help-free-up-ships-stuck-in-hormuz-strait?traffic_source=rss",
+        "published": "2026-05-04 04:47",
+        "description": "US president says any interference with operation, which will start on Monday, will &#039;have to be dealt with forcefully&#039;.",
+        "title_en": "Trump says US will ‘help free up’ ships stuck in Hormuz Strait",
+        "title_zh": "特朗普称美国将“帮助释放”被困霍尔木兹海峡的船只"
       },
       {
-        "title": "Timmy the humpback whale escapes to the North Sea",
-        "link": "https://www.aljazeera.com/news/2026/5/2/timmy-the-humpback-whale-escapes-to-the-north-sea?traffic_source=rss",
-        "published": "2026-05-03 04:50",
-        "description": "The whale calf&#039;s repeated stranding off the coast of Germany sparked widespread concern and extensive media coverage.",
-        "title_en": "Timmy the humpback whale escapes to the North Sea",
-        "title_zh": "座头鲸蒂米逃往北海"
+        "title": "Is Mali’s military government losing control?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/5/3/is-malis-military-government-losing-control?traffic_source=rss",
+        "published": "2026-05-04 04:30",
+        "description": "A coalition of armed groups and rebels challenges the military government&#039;s authority.",
+        "title_en": "Is Mali’s military government losing control?",
+        "title_zh": "马里军政府是否正在失去控制？"
       },
       {
-        "title": "Spirit Airlines collapses amid rising fuel costs from war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/spirit-airlines-collapses-amid-rising-fuel-costs-from-war-on-iran?traffic_source=rss",
-        "published": "2026-05-03 04:28",
-        "description": "US budget carrier Spirit Airlines shuts down after talks for a government bailout failed.",
-        "title_en": "Spirit Airlines collapses amid rising fuel costs from war on Iran",
-        "title_zh": "精神航空因伊朗战争燃油成本上涨而倒闭"
+        "title": "Kimi Antonelli wins Miami GP to extend F1 title lead",
+        "link": "https://www.aljazeera.com/sports/2026/5/3/kimi-antonelli-wins-miami-grand-prix-to-extend-f1-title-lead?traffic_source=rss",
+        "published": "2026-05-04 04:28",
+        "description": "Nineteen-year-old becomes the first driver in F1 history to convert his first three pole positions into race victories.",
+        "title_en": "Kimi Antonelli wins Miami GP to extend F1 title lead",
+        "title_zh": "基米·安东内利 (Kimi Antonelli) 赢得迈阿密大奖赛，扩大 F1 冠军领先优势"
       },
       {
-        "title": "At least six dead in heavy rains in northeast Brazil, thousands displaced",
-        "link": "https://www.aljazeera.com/news/2026/5/2/at-least-six-dead-in-heavy-rains-in-northeast-brazil-thousands-displaced?traffic_source=rss",
-        "published": "2026-05-03 03:59",
-        "description": "Studies show extreme rain has become more frequent in country, as Pernambuco and Paraiba states again battered.",
-        "title_en": "At least six dead in heavy rains in northeast Brazil, thousands displaced",
-        "title_zh": "巴西东北部暴雨造成至少六人死亡，数千人流离失所"
+        "title": "World Press Freedom Day marked in Gaza as journalist death toll rises",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/world-press-freedom-day-marked-in-gaza-as-journalist-death-toll-rises?traffic_source=rss",
+        "published": "2026-05-04 04:07",
+        "description": "Palestinian journalists in Gaza marked World Press Freedom Day by honouring colleagues killed and targeted by Israel.",
+        "title_en": "World Press Freedom Day marked in Gaza as journalist death toll rises",
+        "title_zh": "加沙庆祝世界新闻自由日，记者死亡人数上升"
       },
       {
-        "title": "Khartoum drone strike kills five in Sudan, NGO reports",
-        "link": "https://www.aljazeera.com/news/2026/5/2/khartoum-drone-strike-kills-five-sudan-ngo-reports?traffic_source=rss",
-        "published": "2026-05-03 03:59",
-        "description": "The attack, the second in a week, follows months of relative calm in the city after government forces regained control.",
-        "title_en": "Khartoum drone strike kills five in Sudan, NGO reports",
-        "title_zh": "非政府组织报告称，喀土穆无人机袭击造成苏丹五人死亡"
+        "title": "Is Israel expanding into Gaza despite ceasefire?",
+        "link": "https://www.aljazeera.com/video/upfront/2026/5/3/is-israel-expanding-into-gaza-despite-ceasefire?traffic_source=rss",
+        "published": "2026-05-04 03:55",
+        "description": "Redi Tlhabi speaks to Ray Adams Row Farr from Forensic Architecture about Israel’s expansion into Gaza post-ceasefire.",
+        "title_en": "Is Israel expanding into Gaza despite ceasefire?",
+        "title_zh": "尽管停火，以色列是否仍在向加沙扩张？"
       },
       {
-        "title": "Ukraine eyes Belarus border activities as Russian strikes persist",
-        "link": "https://www.aljazeera.com/news/2026/5/2/ukraine-eyes-belarus-border-activities-as-russian-strikes-persist?traffic_source=rss",
-        "published": "2026-05-03 03:54",
-        "description": "The role of Belarus in Russia&#039;s war on Ukraine has provoked sanctions from Kyiv, which says it is ready to respond.",
-        "title_en": "Ukraine eyes Belarus border activities as Russian strikes persist",
-        "title_zh": "Ukraine eyes Belarus border activities as Russian strikes persist"
+        "title": "Germany’s Merz downplays rift with Washington despite US troop drawdown",
+        "link": "https://www.aljazeera.com/economy/2026/5/3/germanys-merz-downplays-rift-with-washington-despite-us-troop-drawdown?traffic_source=rss",
+        "published": "2026-05-04 03:42",
+        "description": "German chancellor says criticism of Donald Trump&#039;s strategy in Iran unrelated to troop withdrawal announcement.",
+        "title_en": "Germany’s Merz downplays rift with Washington despite US troop drawdown",
+        "title_zh": "尽管美国撤军，德国总理默茨淡化了与华盛顿的分歧"
       },
       {
-        "title": "Syria becomes alternative energy corridor for oil as Hormuz effectively blo",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/syria-becomes-alternative-energy-corridor-for-oil-as-hormuz-effectively-blo?traffic_source=rss",
-        "published": "2026-05-03 03:45",
-        "description": "Syria is receiving hundreds of Iraqi oil trucks hauling crude overland as an alternative energy corridor to Europe.",
-        "title_en": "Syria becomes alternative energy corridor for oil as Hormuz effectively blo",
-        "title_zh": "霍尔木兹海峡有效打击叙利亚成为石油替代能源走廊"
+        "title": "Israel’s strategy of ‘permanent war’: A race against time?",
+        "link": "https://www.aljazeera.com/video/the-bottom-line/2026/5/3/israels-strategy-of-permanent-war-a-race-against-time?traffic_source=rss",
+        "published": "2026-05-04 03:36",
+        "description": "Political analyst Daniel Levy says US policy is so ‘marinated’ in Israeli narratives, the two are indistinguishable.",
+        "title_en": "Israel’s strategy of ‘permanent war’: A race against time?",
+        "title_zh": "以色列的“永久战争”战略：与时间赛跑？"
       },
       {
-        "title": "Israel’s expanding ‘orange line’ tightens deadly no-go zones in Gaza",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/israels-expanding-orange-line-tightens-deadly-no-go-zones-in-gaza?traffic_source=rss",
-        "published": "2026-05-03 03:11",
-        "description": "Israel’s expanding “orange line” is deepening movement restrictions across Gaza, raising deadly risks for civilians.",
-        "title_en": "Israel’s expanding ‘orange line’ tightens deadly no-go zones in Gaza",
-        "title_zh": "以色列扩大“橙线”收紧加沙致命禁区"
+        "title": "Israeli forces kill Palestinian man in raid on Nablus in occupied West Ban",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/israeli-forces-kill-palestinian-man-in-raid-on-nablus-in-occupied-west-ban?traffic_source=rss",
+        "published": "2026-05-04 01:52",
+        "description": "Israeli forces have raided the city of Nablus in the occupied West Bank, killing a 26-year-old man.",
+        "title_en": "Israeli forces kill Palestinian man in raid on Nablus in occupied West Ban",
+        "title_zh": "以色列军队在被占领的西班纳布卢斯袭击中杀死一名巴勒斯坦男子"
       },
       {
-        "title": "Arsenal ease past Fulham to pull six points clear of Manchester City",
-        "link": "https://www.aljazeera.com/sports/2026/5/2/arsenal-thrash-fulham-to-pull-6-points-clear-of-manchester-city?traffic_source=rss",
-        "published": "2026-05-03 03:00",
-        "description": "Viktor Gyokeres scores twice in Arsenal&#039;s 3-0 win against Fulham to boost hopes of ending 22-year title wait.",
-        "title_en": "Arsenal ease past Fulham to pull six points clear of Manchester City",
-        "title_zh": "阿森纳轻松击败富勒姆，领先曼城六分"
+        "title": "Investigators say Trump assassination suspect shot officer at press gala",
+        "link": "https://www.aljazeera.com/news/2026/5/3/investigators-say-trump-assassination-suspect-shot-officer-at-press-gala?traffic_source=rss",
+        "published": "2026-05-04 01:25",
+        "description": "Secret Service agent at White House correspondents&#039; dinner was &#039;definitively&#039; hit by suspect&#039;s bullet, prosecutor says.",
+        "title_en": "Investigators say Trump assassination suspect shot officer at press gala",
+        "title_zh": "调查人员称特朗普暗杀嫌疑人在新闻晚会上枪杀了军官"
       },
       {
-        "title": "Spain demands Israel release arrested Gaza flotilla crew member",
-        "link": "https://www.aljazeera.com/news/2026/5/2/spain-demands-israel-release-arrested-gaza-flotilla-crew-member?traffic_source=rss",
-        "published": "2026-05-03 02:12",
-        "description": "Saif Abukeshek was taken to Israel after forces raided the Global Sumid Flotilla off the coast of Greece.",
-        "title_en": "Spain demands Israel release arrested Gaza flotilla crew member",
-        "title_zh": "西班牙要求以色列释放被捕的加沙船队船员"
+        "title": "Floods and landslides kill at least 18 in Kenya",
+        "link": "https://www.aljazeera.com/news/2026/5/3/floods-and-landslides-kill-at-least-18-in-kenya?traffic_source=rss",
+        "published": "2026-05-04 01:04",
+        "description": "Ongoing rains are causing floods and landslides in the East African nation.",
+        "title_en": "Floods and landslides kill at least 18 in Kenya",
+        "title_zh": "Floods and landslides kill at least 18 in Kenya"
       },
       {
-        "title": "Devastation of Southern Lebanon continues under ‘ceasefire’",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/devastation-of-southern-lebanon-continues-under?traffic_source=rss",
-        "published": "2026-05-03 02:05",
-        "description": "At least 41 people killed as Israel launches 50 airstrikes on southern Lebanon in 24 hours.",
-        "title_en": "Devastation of Southern Lebanon continues under ‘ceasefire’",
-        "title_zh": "“停火”期间黎巴嫩南部的破坏仍在继续"
+        "title": "Manchester United beat Liverpool to secure Champions League qualification",
+        "link": "https://www.aljazeera.com/sports/2026/5/3/man-united-beat-liverpool-3-2-to-secure-champions-league-qualification?traffic_source=rss",
+        "published": "2026-05-04 00:54",
+        "description": "Kobbie Mainoo&#039;s late strike earns a thrilling victory after bitter rivals Liverpool had fought back from two goals down.",
+        "title_en": "Manchester United beat Liverpool to secure Champions League qualification",
+        "title_zh": "曼联击败利物浦获得欧冠资格"
       }
     ]
   },
   "triangle": [
     {
-      "event_hint": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-      "event_hint_zh": "特朗普告诉国会停火意味着他不需要他们批准伊朗战争",
-      "event_hint_en": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
+      "event_hint": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+      "event_hint_zh": "大西洋游轮疑似病毒爆发 三人死亡",
+      "event_hint_en": "Three dead in suspected virus outbreak on Atlantic cruise ship",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-        "link": "https://www.bbc.com/news/articles/c4g4xexy4w7o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 07:03",
-        "description": "The president writes that hostilities \"have terminated\" because of the ceasefire, arguing he does not need congressional authorisation.",
-        "title_en": "Trump tells Congress ceasefire means he does not need their approval for Iran war",
-        "title_zh": "特朗普告诉国会停火意味着他不需要他们批准伊朗战争"
+        "title": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+        "link": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-04 06:13",
+        "description": "The World Health Organization said one case of hantavirus infection has been confirmed, with five more suspected cases under investigation.",
+        "title_en": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+        "title_zh": "大西洋游轮疑似病毒爆发 三人死亡"
       },
       "伊斯兰（半岛等）": {
-        "title": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
-        "link": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon?traffic_source=rss",
-        "published": "2026-05-03 08:00",
-        "description": "US president says he will &#039;soon be reviewing the plan Iran has just sent to us&#039;, but doesn&#039;t think he can make a deal.",
-        "title_en": "Iran war live: Trump to review 14-point plan; Israel pounds Lebanon",
-        "title_zh": "伊朗战争直播：特朗普将审查14点计划；"
+        "title": "Three dead in suspected hantavirus outbreak on Atlantic cruise ship",
+        "link": "https://www.aljazeera.com/news/2026/5/3/three-dead-in-suspected-hantavirus-outbreak-on-atlantic-cruise-ship?traffic_source=rss",
+        "published": "2026-05-04 05:59",
+        "description": "Three of six passengers ill from a suspected rodent-transmitted virus have died, and one is in intensive care, WHO says.",
+        "title_en": "Three dead in suspected hantavirus outbreak on Atlantic cruise ship",
+        "title_zh": "大西洋游轮疑似汉坦病毒爆发 三人死亡"
       },
-      "my_view": "中国视角回避报道，欧美聚焦法律程序争议，伊斯兰强调军事行动与计划并存。三方立场分别体现回避、制度合法性与冲突现实性差异。",
-      "summary": "特朗普借停火声明绕过国会授权，单方面推进对伊朗军事行动。"
+      "my_view": "网易未报道，BBC强调“疑似病毒”，半岛明确“汉坦病毒”，凸显欧美媒体模糊化风险，伊斯兰媒体更具体，反映信息透明度与立场差异。",
+      "summary": "大西洋游轮疑似疫情致三人死亡，各方报道侧重不同，体现信息选择与立场差异。"
+    },
+    {
+      "event_hint": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+      "event_hint_zh": "两位美国共和党高层表示，德国削减驻军向俄罗斯发出了错误信号",
+      "event_hint_en": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+      "中国": {
+        "title": "美国世外首届毕业生的成绩单，亮了",
+        "link": "http://baijiahao.baidu.com/s?id=1863897344334325412",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863897344334325412><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D783949424%2C295467807%26fm%3D30%26app%3D",
+        "title_zh": "美国世外首届毕业生的成绩单，亮了",
+        "title_en": "美国世外首届毕业生的成绩单，亮了"
+      },
+      "美国（欧美媒体）": {
+        "title": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+        "link": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 16:41",
+        "description": "The chairs of the House and Senate armed services committees said withdrawing 5,000 service personnel risked undermining deterrence.",
+        "title_en": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+        "title_zh": "两位美国共和党高层表示，德国削减驻军向俄罗斯发出了错误信号"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Germany’s Merz downplays rift with Washington despite US troop drawdown",
+        "link": "https://www.aljazeera.com/economy/2026/5/3/germanys-merz-downplays-rift-with-washington-despite-us-troop-drawdown?traffic_source=rss",
+        "published": "2026-05-04 03:42",
+        "description": "German chancellor says criticism of Donald Trump&#039;s strategy in Iran unrelated to troop withdrawal announcement.",
+        "title_en": "Germany’s Merz downplays rift with Washington despite US troop drawdown",
+        "title_zh": "尽管美国撤军，德国总理默茨淡化了与华盛顿的分歧"
+      },
+      "my_view": "中国视角聚焦国内教育成就，淡化国际军事议题；欧美视角强调美国对德削减驻军的战略担忧；伊斯兰视角侧重德国淡化美分歧，凸显其独立外交立场。三方立场分别服务于内宣、同盟维护与区域平衡。",
+      "summary": "美国共和党高层批评德国削减驻军向俄罗斯示弱，各方媒体基于自身立场选择性报道。"
     },
     {
       "event_hint": "Thirteen killed in Israeli strikes on southern Lebanon, health ministry says",
@@ -438,39 +467,70 @@
         "title_zh": "卫生部称，以色列对黎巴嫩南部的袭击造成十三人死亡"
       },
       "伊斯兰（半岛等）": {
-        "title": "Devastation of Southern Lebanon continues under ‘ceasefire’",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/devastation-of-southern-lebanon-continues-under?traffic_source=rss",
-        "published": "2026-05-03 02:05",
-        "description": "At least 41 people killed as Israel launches 50 airstrikes on southern Lebanon in 24 hours.",
-        "title_en": "Devastation of Southern Lebanon continues under ‘ceasefire’",
-        "title_zh": "“停火”期间黎巴嫩南部的破坏仍在继续"
+        "title": "Israeli forces kill Palestinian man in raid on Nablus in occupied West Ban",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/israeli-forces-kill-palestinian-man-in-raid-on-nablus-in-occupied-west-ban?traffic_source=rss",
+        "published": "2026-05-04 01:52",
+        "description": "Israeli forces have raided the city of Nablus in the occupied West Bank, killing a 26-year-old man.",
+        "title_en": "Israeli forces kill Palestinian man in raid on Nablus in occupied West Ban",
+        "title_zh": "以色列军队在被占领的西班纳布卢斯袭击中杀死一名巴勒斯坦男子"
       },
-      "my_view": "网易未报道，可能弱化冲突；BBC客观陈述事实，强调伤亡；半岛电视台突出‘停火下持续破坏’，谴责以色列，立场鲜明。",
-      "summary": "以色列对黎巴嫩南部的袭击造成13人死亡，各方报道立场差异反映不同地缘政治倾向。"
+      "my_view": "网易未报道显示中方对中东冲突审慎；BBC客观陈述黎巴嫩伤亡，聚焦以色列行动；半岛台转向约旦河西岸冲突，突出占领与暴力，体现伊斯兰视角对以色列的批判。",
+      "summary": "同一以色列军事行动在不同媒体中呈现地域与立场差异，反映中东冲突的叙事分化。"
     },
     {
-      "event_hint": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-      "event_hint_zh": "伊朗战争以令人惊讶的方式增强了乌克兰的实力。",
-      "event_hint_en": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-      "中国": null,
+      "event_hint": "Iran says US has responded to its latest peace proposal",
+      "event_hint_zh": "伊朗称美国已对其最新和平提议做出回应",
+      "event_hint_en": "Iran says US has responded to its latest peace proposal",
+      "中国": {
+        "title": "高考拼营养｜三餐巧搭配 营养稳状态",
+        "link": "http://baijiahao.baidu.com/s?id=1863978054045285086",
+        "published": "2026-05-04 08:00",
+        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863978054045285086><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft12.baidu.com%2Fit%2Fu%3D2335017315%2C295542970%26fm%3D30%26app%3",
+        "title_zh": "高考拼营养｜三餐巧搭配 营养稳状态",
+        "title_en": "高考拼营养｜三餐巧搭配 营养稳状态"
+      },
       "美国（欧美媒体）": {
-        "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-        "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-03 07:19",
-        "description": "President Zelensky has been visiting the Gulf to demonstrate his country's military nous.",
-        "title_en": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-        "title_zh": "伊朗战争以令人惊讶的方式增强了乌克兰的实力。"
+        "title": "Iran says US has responded to its latest peace proposal",
+        "link": "https://www.bbc.com/news/articles/cn0px2x53k2o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-04 05:28",
+        "description": "The US is yet to formally confirm it has responded. However, Trump reportedly told Israel's Kan News it was unacceptable.",
+        "title_en": "Iran says US has responded to its latest peace proposal",
+        "title_zh": "伊朗称美国已对其最新和平提议做出回应"
       },
       "伊斯兰（半岛等）": {
-        "title": "UAE lifts all air traffic restrictions introduced since Iran war",
-        "link": "https://www.aljazeera.com/news/2026/5/3/uae-lifts-all-air-traffic-restrictions-introduced-since-iran-war?traffic_source=rss",
-        "published": "2026-05-03 11:29",
-        "description": "UAE aviation authority&#039;s announcement is the latest sign of the travel sector&#039;s recovery across the Middle East.",
-        "title_en": "UAE lifts all air traffic restrictions introduced since Iran war",
-        "title_zh": "阿联酋取消伊朗战争以来实行的所有空中交通限制"
+        "title": "Iran lawmaker says Strait of Hormuz will not return to pre‑war state",
+        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/3/iran-lawmaker-says-strait-of-hormuz-will-not-return-to-pre%e2%80%91war-state?traffic_source=rss",
+        "published": "2026-05-04 04:51",
+        "description": "Iran says the Strait of Hormuz will never return to the status quo that existed before the US-Israel war on Tehran.",
+        "title_en": "Iran lawmaker says Strait of Hormuz will not return to pre‑war state",
+        "title_zh": "伊朗议员表示霍尔木兹海峡不会恢复到战前状态"
       },
-      "my_view": "中国报道缺失，欧美侧重伊朗战争对乌克兰的意外利好及停火可能，伊斯兰聚焦阿联酋解除空管限制，反映各自地缘利益与议程差异。",
-      "summary": "伊朗战争意外增强乌克兰实力，引发各方对地区局势的不同解读与反应。"
+      "my_view": "中国视角聚焦国内民生，淡化国际冲突；BBC客观陈述外交互动，立场中立；半岛强调伊朗强硬态度，突出地缘博弈，反映不同媒体服务各自受众与政治语境。",
+      "summary": "伊朗称美国回应其和平提议，但各方媒体因立场差异呈现不同叙事重点。"
+    },
+    {
+      "event_hint": "Oil tanker hijacked off coast of Yemen and taken towards Somalia",
+      "event_hint_zh": "油轮在也门海岸被劫持并被带往索马里",
+      "event_hint_en": "Oil tanker hijacked off coast of Yemen and taken towards Somalia",
+      "中国": null,
+      "美国（欧美媒体）": {
+        "title": "Oil tanker hijacked off coast of Yemen and taken towards Somalia",
+        "link": "https://www.bbc.com/news/articles/cpwprl0v2npo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 01:53",
+        "description": "It is the second time an oil tanker has been hijacked in the area in the past 10 days.",
+        "title_en": "Oil tanker hijacked off coast of Yemen and taken towards Somalia",
+        "title_zh": "油轮在也门海岸被劫持并被带往索马里"
+      },
+      "伊斯兰（半岛等）": {
+        "title": "Is Mali’s military government losing control?",
+        "link": "https://www.aljazeera.com/video/inside-story/2026/5/3/is-malis-military-government-losing-control?traffic_source=rss",
+        "published": "2026-05-04 04:30",
+        "description": "A coalition of armed groups and rebels challenges the military government&#039;s authority.",
+        "title_en": "Is Mali’s military government losing control?",
+        "title_zh": "马里军政府是否正在失去控制？"
+      },
+      "my_view": "中国视角未报道，欧美侧重事件本身的安全威胁，半岛则借机关联马里政府失能，反映各自立场：欧美关注航运安全，伊斯兰媒体倾向政治议题转移。",
+      "summary": "油轮在也门海岸被劫持并拖往索马里，暴露亚丁湾海盗与地区治理危机。"
     },
     {
       "event_hint": "'If we sleep, they bite': Rats and weasels infest camps for displaced Gazans",
@@ -486,118 +546,111 @@
         "title_zh": "“如果我们睡觉，它们就会咬人”：老鼠和黄鼠狼出没于流离失所的加沙人营地"
       },
       "伊斯兰（半岛等）": {
-        "title": "At least six dead in heavy rains in northeast Brazil, thousands displaced",
-        "link": "https://www.aljazeera.com/news/2026/5/2/at-least-six-dead-in-heavy-rains-in-northeast-brazil-thousands-displaced?traffic_source=rss",
-        "published": "2026-05-03 03:59",
-        "description": "Studies show extreme rain has become more frequent in country, as Pernambuco and Paraiba states again battered.",
-        "title_en": "At least six dead in heavy rains in northeast Brazil, thousands displaced",
-        "title_zh": "巴西东北部暴雨造成至少六人死亡，数千人流离失所"
+        "title": "Is Israel expanding into Gaza despite ceasefire?",
+        "link": "https://www.aljazeera.com/video/upfront/2026/5/3/is-israel-expanding-into-gaza-despite-ceasefire?traffic_source=rss",
+        "published": "2026-05-04 03:55",
+        "description": "Redi Tlhabi speaks to Ray Adams Row Farr from Forensic Architecture about Israel’s expansion into Gaza post-ceasefire.",
+        "title_en": "Is Israel expanding into Gaza despite ceasefire?",
+        "title_zh": "尽管停火，以色列是否仍在向加沙扩张？"
       },
-      "my_view": "中国视角暂无报道，欧美聚焦加沙营地鼠患与流离失所困境，伊斯兰视角则转向巴西暴雨灾情，凸显不同媒体对中东议题的立场与关注点差异。",
-      "summary": "加沙流离失所者营地鼠患成灾，欧美与伊斯兰媒体分别报道地域性灾情，反映议题选择的政治倾向。"
+      "my_view": "网易未报道，可能淡化加沙人道危机；BBC聚焦灾民困境，凸显人道关切；半岛质疑以色列违反停火，强调政治批判。三方立场差异反映媒体背后的国家利益与意识形态。",
+      "summary": "加沙流离失所者营地遭鼠患，反映人道灾难与停火协议脆弱性。"
     },
     {
-      "event_hint": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-      "event_hint_zh": "律师称战犯姆拉迪奇濒临死亡，要求法官释放监狱",
-      "event_hint_en": "War criminal Mladic close to death, say lawyers asking judge for jail release",
+      "event_hint": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
+      "event_hint_zh": "秘密网络将星链技术走私到伊朗以应对互联网中断",
+      "event_hint_en": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-        "link": "https://www.bbc.com/news/articles/c3e283g80n4o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-01 23:12",
-        "description": "Mladic, 84, was jailed for life for genocide, war crimes and crimes against humanity during the Bosnian war in 1992-95.",
-        "title_en": "War criminal Mladic close to death, say lawyers asking judge for jail release",
-        "title_zh": "律师称战犯姆拉迪奇濒临死亡，要求法官释放监狱"
+        "title": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
+        "link": "https://www.bbc.com/news/articles/cvgzk91leweo?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 07:17",
+        "description": "Sahand tells the BBC World Service he sends satellite internet terminals into Iran to help show \"the real picture\".",
+        "title_en": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
+        "title_zh": "秘密网络将星链技术走私到伊朗以应对互联网中断"
       },
       "伊斯兰（半岛等）": {
-        "title": "Spain demands Israel release arrested Gaza flotilla crew member",
-        "link": "https://www.aljazeera.com/news/2026/5/2/spain-demands-israel-release-arrested-gaza-flotilla-crew-member?traffic_source=rss",
-        "published": "2026-05-03 02:12",
-        "description": "Saif Abukeshek was taken to Israel after forces raided the Global Sumid Flotilla off the coast of Greece.",
-        "title_en": "Spain demands Israel release arrested Gaza flotilla crew member",
-        "title_zh": "西班牙要求以色列释放被捕的加沙船队船员"
+        "title": "Manchester United beat Liverpool to secure Champions League qualification",
+        "link": "https://www.aljazeera.com/sports/2026/5/3/man-united-beat-liverpool-3-2-to-secure-champions-league-qualification?traffic_source=rss",
+        "published": "2026-05-04 00:54",
+        "description": "Kobbie Mainoo&#039;s late strike earns a thrilling victory after bitter rivals Liverpool had fought back from two goals down.",
+        "title_en": "Manchester United beat Liverpool to secure Champions League qualification",
+        "title_zh": "曼联击败利物浦获得欧冠资格"
       },
-      "my_view": "中国视角未报道，欧美聚焦姆拉迪奇律师诉求，凸显西方对前南战犯的司法程序关注；伊斯兰视角转向西班牙与以色列冲突，反映其侧重巴勒斯坦议题，三方立场差异明显。",
-      "summary": "同一事件因媒体立场不同，报道焦点从战犯健康转向地区冲突，体现国际舆论的碎片化与选择性叙事。"
+      "my_view": "中国视角未报道，欧美侧重技术走私细节，伊斯兰视角标题与事件无关，显示三方关注点不同，欧美聚焦技术对抗审查，伊斯兰则偏离主题。",
+      "summary": "秘密网络将星链技术走私至伊朗以应对互联网中断事件。"
     },
     {
-      "event_hint": "Trump claims other presidents flouted war powers law. It's a mixed record",
-      "event_hint_zh": "特朗普声称其他总统藐视战争权力法。",
-      "event_hint_en": "Trump claims other presidents flouted war powers law. It's a mixed record",
+      "event_hint": "Police officer lowered into crocodile-infested river to recover human remains",
+      "event_hint_zh": "警察跳入鳄鱼出没的河流中打捞人类遗骸",
+      "event_hint_en": "Police officer lowered into crocodile-infested river to recover human remains",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Trump claims other presidents flouted war powers law. It's a mixed record",
-        "link": "https://www.bbc.com/news/articles/c794zlx5lx8o?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 10:43",
-        "description": "Both Bushes and Reagan won authorisation for wars, but Obama and Clinton ducked the requirement.",
-        "title_en": "Trump claims other presidents flouted war powers law. It's a mixed record",
-        "title_zh": "特朗普声称其他总统藐视战争权力法。"
+        "title": "Police officer lowered into crocodile-infested river to recover human remains",
+        "link": "https://www.bbc.com/news/articles/cz92gk18xn4o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 23:47",
+        "description": "Police suspect the human remains belong to a businessman swept away by floodwater last week.",
+        "title_en": "Police officer lowered into crocodile-infested river to recover human remains",
+        "title_zh": "警察跳入鳄鱼出没的河流中打捞人类遗骸"
       },
       "伊斯兰（半岛等）": {
-        "title": "The rise of political violence under Trump",
-        "link": "https://www.aljazeera.com/video/upfront/2026/5/2/the-rise-of-political-violence-under-trump?traffic_source=rss",
-        "published": "2026-05-03 05:25",
-        "description": "Redi Tlhabi speaks to Professor Robert Pape on the rise of political violence in the US.",
-        "title_en": "The rise of political violence under Trump",
-        "title_zh": "特朗普领导下政治暴力的兴起"
+        "title": "Investigators say Trump assassination suspect shot officer at press gala",
+        "link": "https://www.aljazeera.com/news/2026/5/3/investigators-say-trump-assassination-suspect-shot-officer-at-press-gala?traffic_source=rss",
+        "published": "2026-05-04 01:25",
+        "description": "Secret Service agent at White House correspondents&#039; dinner was &#039;definitively&#039; hit by suspect&#039;s bullet, prosecutor says.",
+        "title_en": "Investigators say Trump assassination suspect shot officer at press gala",
+        "title_zh": "调查人员称特朗普暗杀嫌疑人在新闻晚会上枪杀了军官"
       },
-      "my_view": "中国未报道显示其避免介入美内政；BBC侧重事实核查，淡化争议；半岛则突出特朗普任内政治暴力，批判性更强。三方立场反映各自媒体议程与受众定位。",
-      "summary": "特朗普指责前任藐视战争权力法，但自身记录存在争议，引发不同媒体立场分化报道。"
+      "my_view": "中国报道缺失，欧美聚焦警察英勇与冒险，伊斯兰视角却关联特朗普遇刺案，显示媒体通过选题和框架凸显不同政治立场与议程设置。",
+      "summary": "同一警察打捞遗骸事件，欧美突出救援细节，伊斯兰转向关联政治暗杀，反映媒体选择性报道的本质。"
     },
     {
-      "event_hint": "Who shot a Secret Service officer at the Trump press dinner?",
-      "event_hint_zh": "谁在特朗普新闻晚宴上枪杀了特勤局官员？",
-      "event_hint_en": "Who shot a Secret Service officer at the Trump press dinner?",
+      "event_hint": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
+      "event_hint_zh": "泽连斯基称乌克兰袭击油轮和码头，俄罗斯空袭造成10人死亡",
+      "event_hint_en": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
       "中国": null,
       "美国（欧美媒体）": {
-        "title": "Who shot a Secret Service officer at the Trump press dinner?",
-        "link": "https://www.bbc.com/news/articles/cm2pmk0r3pjo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 05:44",
-        "description": "Court papers do not explicitly accuse the suspect of shooting the officer, even as officials say it was not \"friendly fire\".",
-        "title_en": "Who shot a Secret Service officer at the Trump press dinner?",
-        "title_zh": "谁在特朗普新闻晚宴上枪杀了特勤局官员？"
+        "title": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
+        "link": "https://www.bbc.com/news/articles/clyp41v1n1go?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 21:43",
+        "description": "Fatalities have been reported around Ukraine as Kyiv says Russian \"shadow fleet\" tankers were hit by drones.",
+        "title_en": "Russian strikes kill 10 as Zelensky says Ukraine hits oil tankers and terminal",
+        "title_zh": "泽连斯基称乌克兰袭击油轮和码头，俄罗斯空袭造成10人死亡"
       },
       "伊斯兰（半岛等）": {
-        "title": "Trump reviews Iranian peace proposal, warns strikes could resume",
-        "link": "https://www.aljazeera.com/news/2026/5/3/trump-reviews-iranian-peace-proposal-warns-strikes-could-resume?traffic_source=rss",
-        "published": "2026-05-03 10:37",
-        "description": "US president says he is considering the 14-point peace plan, but warns strikes could resume if Tehran &#039;misbehaves&#039;.",
-        "title_en": "Trump reviews Iranian peace proposal, warns strikes could resume",
-        "title_zh": "特朗普审查伊朗和平提议，警告可能恢复袭击"
+        "title": "Floods and landslides kill at least 18 in Kenya",
+        "link": "https://www.aljazeera.com/news/2026/5/3/floods-and-landslides-kill-at-least-18-in-kenya?traffic_source=rss",
+        "published": "2026-05-04 01:04",
+        "description": "Ongoing rains are causing floods and landslides in the East African nation.",
+        "title_en": "Floods and landslides kill at least 18 in Kenya",
+        "title_zh": "Floods and landslides kill at least 18 in Kenya"
       },
-      "my_view": "中国暂未报道，显示谨慎立场；BBC聚焦枪击事件，强调安全危机；半岛突出伊朗和平提议与军事警告，体现地缘博弈视角。三方差异反映媒体议程设置受政治利益驱动。",
-      "summary": "同一事件因媒体立场不同，被分别塑造为安全事件、外交博弈或选择性沉默，本质是信息传播中的政治叙事竞争。"
+      "my_view": "中国视角暂无报道，欧美侧重俄罗斯空袭伤亡及泽连斯基表态，伊斯兰视角则完全偏离事件，报道肯尼亚灾害，显示媒体议程设置受地域与利益影响。",
+      "summary": "俄乌冲突中双方互袭目标，欧美聚焦俄方伤亡后果，伊斯兰媒体回避该冲突。"
     },
     {
-      "event_hint": "US threatens shipping firms with sanctions if they pay Iran tolls",
-      "event_hint_zh": "美国威胁航运公司如果向伊朗支付通行费将受到制裁",
-      "event_hint_en": "US threatens shipping firms with sanctions if they pay Iran tolls",
-      "中国": {
-        "title": "美国世外首届毕业生的成绩单，亮了",
-        "link": "http://baijiahao.baidu.com/s?id=1863897344334325412",
-        "published": "2026-05-03 12:00",
-        "description": "<a target=\"_blank\" href=http://baijiahao.baidu.com/s?id=1863897344334325412><img border=\"0\" src=\"http://t1.baidu.com/it/u=http%3A%2F%2Ft10.baidu.com%2Fit%2Fu%3D783949424%2C295467807%26fm%3D30%26app%3D",
-        "title_zh": "美国世外首届毕业生的成绩单，亮了",
-        "title_en": "美国世外首届毕业生的成绩单，亮了"
-      },
+      "event_hint": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "event_hint_zh": "伊朗战争以令人惊讶的方式增强了乌克兰的实力。",
+      "event_hint_en": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "中国": null,
       "美国（欧美媒体）": {
-        "title": "US threatens shipping firms with sanctions if they pay Iran tolls",
-        "link": "https://www.bbc.com/news/articles/c3v2l2qq9qlo?at_medium=RSS&at_campaign=rss",
-        "published": "2026-05-02 22:18",
-        "description": "The warning comes as President Donald Trump said he was \"not excited\" by Iran's latest proposal for a peace deal.",
-        "title_en": "US threatens shipping firms with sanctions if they pay Iran tolls",
-        "title_zh": "美国威胁航运公司如果向伊朗支付通行费将受到制裁"
+        "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+        "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
+        "published": "2026-05-03 07:19",
+        "description": "President Zelensky has been visiting the Gulf to demonstrate his country's military nous.",
+        "title_en": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+        "title_zh": "伊朗战争以令人惊讶的方式增强了乌克兰的实力。"
       },
       "伊斯兰（半岛等）": {
-        "title": "Spirit Airlines collapses amid rising fuel costs from war on Iran",
-        "link": "https://www.aljazeera.com/video/newsfeed/2026/5/2/spirit-airlines-collapses-amid-rising-fuel-costs-from-war-on-iran?traffic_source=rss",
-        "published": "2026-05-03 04:28",
-        "description": "US budget carrier Spirit Airlines shuts down after talks for a government bailout failed.",
-        "title_en": "Spirit Airlines collapses amid rising fuel costs from war on Iran",
-        "title_zh": "精神航空因伊朗战争燃油成本上涨而倒闭"
+        "title": "Israel’s strategy of ‘permanent war’: A race against time?",
+        "link": "https://www.aljazeera.com/video/the-bottom-line/2026/5/3/israels-strategy-of-permanent-war-a-race-against-time?traffic_source=rss",
+        "published": "2026-05-04 03:36",
+        "description": "Political analyst Daniel Levy says US policy is so ‘marinated’ in Israeli narratives, the two are indistinguishable.",
+        "title_en": "Israel’s strategy of ‘permanent war’: A race against time?",
+        "title_zh": "以色列的“永久战争”战略：与时间赛跑？"
       },
-      "my_view": "中国视角回避事件核心，用无关话题转移注意力；欧美视角直接陈述美国制裁威胁；伊斯兰视角将事件与战争后果关联，强调对航运业的实际冲击。",
-      "summary": "美国以制裁施压航运公司，阻止其与伊朗的经济往来，本质是地缘政治博弈。"
+      "my_view": "中方未表态，侧重平衡；欧美聚焦乌克兰借伊朗战争获优势，促和谈；伊斯兰视角强调以色列永久战争策略，揭示地区冲突关联性。三方立场折射各自地缘利益与叙事框架。",
+      "summary": "伊朗战争间接增强乌克兰实力，引发对俄乌停火及中东冲突持久化的不同解读。"
     }
   ]
 }
