@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-05 12:01:13 +08",
+  "generated_at": "2026-05-05 20:01:15 +08",
   "generated_date": "2026-05-05",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Mali leader Goita takes defence post after minister killed",
         "title_zh": "马里部长被杀后，领导人戈伊塔接任国防部长职务"
       },
-      "my_view": "网易聚焦国内教育，忽略马里事件；BBC强调军政府自我任命与前任被杀；半岛突出领导人接任国防职位，三方立场差异显著。",
-      "summary": "马里军政府领导人在前任国防部长被杀后，自行兼任该职位以巩固权力。"
+      "my_view": "中国视角聚焦国内教育，未报道马里事件；BBC强调军政府自封行为，隐含对权力不正当的批判；半岛电视台侧重领导人更替事实，立场相对中立。",
+      "summary": "马里军政府领导人在前任国防部长被杀后自行兼任该职位，巩固权力控制。"
     },
     {
       "event_hint": "Modi's BJP conquers Bengal, one of India's toughest political frontiers",
@@ -451,8 +452,8 @@
         "title_en": "Video: Modi’s BJP poised to take control in India’s West Bengal",
         "title_zh": "视频：莫迪领导的印度人民党准备控制印度西孟加拉邦"
       },
-      "my_view": "网易未报道，BBC强调‘征服’体现西方对印度民主的担忧；半岛以‘控制’暗示穆斯林权益受损，侧重地缘政治与宗教冲突。",
-      "summary": "莫迪领导的印度人民党在长期由反对党执政的西孟加拉邦选举中取得突破性胜利。"
+      "my_view": "网易未报道体现谨慎或回避；BBC用“conquers”强调印度人民党强势攻陷，立场偏西方自由派；半岛用“poised to take control”侧重过程，体现对印度教民族主义扩张的警惕。",
+      "summary": "莫迪领导的印度人民党在西孟加拉邦选举中取得关键胜利，巩固其政治版图。"
     },
     {
       "event_hint": "Two killed and many injured after car driven into crowd in German city of Leipzig",
@@ -475,8 +476,8 @@
         "title_en": "Car ploughs into pedestrians in central Leipzig, Germany",
         "title_zh": "德国莱比锡市中心汽车冲撞行人"
       },
-      "my_view": "网易暂无报道，BBC侧重伤亡事实与城市背景，半岛突出行为主体与地点，后者更强调袭击性质。三方立场差异体现为对事件定性、信息详略及受众关注的取舍。",
-      "summary": "德国莱比锡市发生汽车冲撞行人事件，导致两人死亡、多人受伤。"
+      "my_view": "网易未报道或立场谨慎；BBC侧重伤亡事实，强调事件冲击性；半岛表述中性，聚焦行为本身。差异体现媒体对敏感事件的选择性凸显或淡化。",
+      "summary": "德国莱比锡市发生汽车冲撞人群事件，致两人死亡多人受伤。"
     },
     {
       "event_hint": "Ukrainian drone hits upmarket Moscow high-rise ahead of Victory Day celebrations",
@@ -499,8 +500,8 @@
         "title_en": "Moscow rehearses V-Day parade marking WWII victory",
         "title_zh": "莫斯科排练纪念二战胜利的胜利日阅兵"
       },
-      "my_view": "中国报道缺失，BBC侧重渲染乌克兰攻击行为，半岛则强调俄方纪念活动。欧美聚焦冲突升级，伊斯兰视角淡化袭击，凸显不同阵营对事件的选择性叙事。",
-      "summary": "乌克兰无人机在胜利日前袭击莫斯科，各方媒体依立场侧重攻击或纪念活动。"
+      "my_view": "中国报道缺失，可能因避免强化冲突叙事；BBC突出乌克兰攻击性，强调“高档”以暗示俄罗斯受损；半岛淡化袭击，聚焦俄罗斯纪念二战胜利，体现对俄立场差异。",
+      "summary": "乌克兰无人机在胜利日前袭击莫斯科，各方媒体报道侧重不同，反映其政治立场与叙事策略。"
     },
     {
       "event_hint": "US strikes Iranian fast boats as Iran attacks UAE oil facility",
@@ -523,8 +524,8 @@
         "title_en": "Iran-US clash over alleged warship attack in Strait of Hormuz",
         "title_zh": "伊朗与美国因霍尔木兹海峡军舰袭击事件发生冲突"
       },
-      "my_view": "中国报道缺失，BBC侧重美国反击行为，半岛淡化袭击细节并突出“指控”性质。三方立场差异反映对美伊冲突责任归属的不同倾向。",
-      "summary": "美伊在霍尔木兹海峡发生军事摩擦，双方互相指责对方先攻击。"
+      "my_view": "BBC侧重美国反击行动，凸显西方对伊朗的军事压制；半岛强调“指控”与冲突，体现对美伊对抗的谨慎立场；中国报道缺失，反映其避免介入中东敏感议题。",
+      "summary": "美伊在霍尔木兹海峡因袭击事件发生军事摩擦，双方各执一词，地区紧张升级。"
     },
     {
       "event_hint": "European leaders converge on Armenia as Russia looks on",
@@ -547,8 +548,8 @@
         "title_en": "Russia and Ukraine declare competing ceasefires",
         "title_zh": "俄罗斯和乌克兰宣布竞争停火"
       },
-      "my_view": "中国视角缺位，欧美聚焦欧洲领导力与俄罗斯旁观，伊斯兰视角突出俄乌对立与停火竞争。三方立场差异体现地缘博弈焦点不同：欧美重战略存在，伊斯兰重冲突解决。",
-      "summary": "欧洲领导人齐聚亚美尼亚，俄罗斯旁观，同时俄乌各自宣布停火，显示该地区多重地缘矛盾交织。"
+      "my_view": "中国视角缺失，欧美聚焦俄罗斯被孤立，半岛强调俄乌冲突延伸。三方差异体现地缘博弈：欧美凸显俄影响力衰退，伊斯兰侧重冲突对立，中国或持平衡立场。",
+      "summary": "欧洲领导人访亚美尼亚，俄旁观，俄乌同时宣布停火，反映地区权力重组与冲突交织。"
     },
     {
       "event_hint": "Three dead after monster truck crashes into crowd",
@@ -571,8 +572,8 @@
         "title_en": "Car-ramming incident kills at least two people in Germany",
         "title_zh": "德国发生撞车事件 至少两人死亡"
       },
-      "my_view": "网易未报道显示中国媒体对此类事件可能持谨慎态度；BBC用“monster truck”强调冲击力与戏剧性；半岛用“car-ramming”暗示袭击嫌疑，凸显不同立场对事件性质的侧重。",
-      "summary": "一辆巨型卡车冲撞人群致三人死亡，不同媒体因立场差异在标题中凸显不同叙事重点。"
+      "my_view": "网易未报道，BBC强调‘monster truck’渲染冲击力，半岛淡化伤亡并突出‘ramming incident’暗示动机，体现西方与伊斯兰媒体对事件性质的不同倾向。",
+      "summary": "一辆巨型卡车在德国冲撞人群，造成至少三人死亡，事件引发不同媒体对伤亡与动机的侧重报道。"
     },
     {
       "event_hint": "Britney Spears pleads guilty to reckless driving after arrest",
@@ -595,8 +596,8 @@
         "title_en": "Police clash with protesters after ICE arrest in New York",
         "title_zh": "ICE 在纽约逮捕后警察与抗议者发生冲突"
       },
-      "my_view": "中国视角空缺，欧美聚焦布兰妮个人认罪细节，伊斯兰视角则转向ICE逮捕引发的警民冲突，凸显不同媒体对同一事件的选择性报道与立场差异。",
-      "summary": "同一事件因媒体立场不同，报道焦点从个人认罪转向社会冲突。"
+      "my_view": "中国视角空缺，欧美聚焦布兰妮认罪细节，伊斯兰视角则将标题转向纽约移民执法冲突，凸显不同媒体对事件核心的立场选择与议程设置差异。",
+      "summary": "布兰妮·斯皮尔斯被捕后承认鲁莽驾驶罪，但不同媒体侧重报道角度各异。"
     },
     {
       "event_hint": "Second hantavirus case confirmed after three die in suspected cruise ship outbreak",
@@ -619,8 +620,8 @@
         "title_en": "Gangland wars killing dozens of bystanders, report Swedish police",
         "title_zh": "瑞典警方报告黑帮战争造成数十名旁观者死亡"
       },
-      "my_view": "网易未报道，BBC聚焦疾病本身与游轮安全，半岛则转向瑞典黑帮暴力，显示欧美与伊斯兰媒体对同一事件的不同议程设置和关注点转移。",
-      "summary": "同一事件在不同媒体视角下呈现迥异报道焦点，反映媒体立场与受众导向的显著差异。"
+      "my_view": "网易无报道显淡化；BBC聚焦病毒与邮轮关联，强调公共卫生风险；半岛突出瑞典帮派战争，转移焦点。三方立场差异反映各自媒体议程与地域关注点。",
+      "summary": "同一事件在不同媒体视角下被选择性报道，体现媒体议程设置与地域立场差异。"
     }
   ]
 }
