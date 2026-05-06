@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-06 12:01:31 +08",
+  "generated_at": "2026-05-06 20:00:59 +08",
   "generated_date": "2026-05-06",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "US pauses plan to guide ships through the Strait of Hormuz",
         "title_zh": "美国暂停引导船只通过霍尔木兹海峡的计划"
       },
-      "my_view": "中国视角聚焦国内劳动者，淡化国际事件；欧美突出特朗普个人决策；伊斯兰强调美国行动暂停，隐现对美主导的警惕。",
-      "summary": "美国暂停引导船只通过霍尔木兹海峡，各方报道侧重不同，反映其政治立场与受众偏好。"
+      "my_view": "中国视角标题与事件无关，可能为误植；BBC强调特朗普个人决策，体现西方对领导人言论的关注；半岛电视台淡化美国主导色彩，侧重美方行动暂停，反映伊斯兰世界对美方介入的警惕。",
+      "summary": "美国暂停引导船只通过霍尔木兹海峡的行动，各方媒体因立场不同而呈现差异化叙事。"
     },
     {
       "event_hint": "Hantavirus may have spread between passengers on cruise ship, WHO says",
@@ -458,8 +459,8 @@
         "title_en": "Spain agrees to let hantavirus-hit cruise ship dock in Canary Islands",
         "title_zh": "西班牙同意让受汉坦病毒袭击的游轮停靠在加那利群岛"
       },
-      "my_view": "中国视角侧重教育议题，与事件无关；欧美视角强调病毒传播风险；伊斯兰视角关注西班牙人道主义决策。三方报道侧重点不同，反映各自读者关切。",
-      "summary": "世界卫生组织警告汉坦病毒可能在游轮乘客间传播，西班牙同意该船靠港。"
+      "my_view": "中国视角侧重教育焦虑与流量，欧美聚焦病毒传播的公共卫生风险，伊斯兰关注事件中的政治决策与外交协调，三方立场差异反映媒体与受众的关切点不同。",
+      "summary": "世界卫生组织警告汉坦病毒可能在游轮乘客间传播，各国媒体从不同角度报道。"
     },
     {
       "event_hint": "Oil prices ease as US pauses Project Freedom to seek deal with Iran",
@@ -482,8 +483,8 @@
         "title_en": "US Army says ‘Project Freedom’ in blockaded Hormuz has ‘just begun’",
         "title_zh": "美国陆军称封锁霍尔木兹的“自由计划”“刚刚开始”"
       },
-      "my_view": "中国视角缺失，欧美侧重经济影响（油价下跌），伊斯兰视角强调军事行动未止（“刚刚开始”），体现各自利益关切：欧美重市场稳定，伊斯兰重主权与安全。",
-      "summary": "美国暂停“自由计划”以推动与伊朗谈判，但各方对事件进程解读不同，反映地缘与利益分歧。"
+      "my_view": "中国视角暂无报道，欧美侧重油价下跌与经济影响，凸显市场导向；伊斯兰视角强调军事行动‘刚刚开始’，突出对抗与主权立场。三方分别关注经济、军事、地缘政治，反映不同利益关切。",
+      "summary": "美国暂停‘自由计划’与伊朗谈判，引发油价波动，但各方解读存在显著立场差异。"
     },
     {
       "event_hint": "Two killed and many injured after car driven into crowd in German city of Leipzig",
@@ -506,8 +507,8 @@
         "title_en": "Israel kills one boy, injures officers in strike on Gaza police station",
         "title_zh": "以色列袭击加沙警察局，造成一名男孩死亡，多名警察受伤"
       },
-      "my_view": "网易未报道，BBC聚焦德国汽车撞人事件本身，突出伤亡数据；半岛电视台标题转向以色列袭击加沙，显示其侧重巴以冲突的立场。三方报道的选题和角度差异显著。",
-      "summary": "同一时间，不同媒体基于其政治立场和受众，选择报道或忽略不同事件，呈现信息筛选的倾向性。"
+      "my_view": "中国视角未报道，欧美聚焦德国事件细节，伊斯兰视角突出以色列冲突，显示媒体选择性报道受政治立场和地域利益影响。",
+      "summary": "同一事件因媒体立场不同被差异化呈现，反映信息传播中的偏见与议程设置。"
     },
     {
       "event_hint": "Romanian PM ousted in no-confidence vote",
@@ -537,8 +538,8 @@
         "title_en": "Mauritania’s plan to close private schools sparks backlash",
         "title_zh": "毛里塔尼亚关闭私立学校的计划引发强烈反对"
       },
-      "my_view": "中国视角侧重教育话题，脱离事件本身；欧美视角直接报道政治变动；伊斯兰视角聚焦他国教育政策争议。三方立场差异明显，反映媒体对同一事件的选择性关注与价值取向。",
-      "summary": "罗马尼亚总理因不信任投票下台，但不同媒体聚焦点各异，凸显报道的立场与议程设置差异。"
+      "my_view": "中国视角聚焦国内教育理念，淡化国际事件；欧美视角客观报道政治变动；伊斯兰视角转向本土教育政策争议，三方立场差异体现媒体选择性报道与议程设置。",
+      "summary": "同一政治事件因媒体立场不同被赋予不同叙事重点，反映国际舆论的碎片化。"
     },
     {
       "event_hint": "Deadly China plane crash was caused by fuel cut-off, says report",
@@ -561,8 +562,8 @@
         "title_en": "US plans to hike tariffs on EU cars to 25% will hit luxury market the most",
         "title_zh": "美国计划将欧盟汽车关税提高至25%将对豪华车市场造成最大打击"
       },
-      "my_view": "网易未报道，可能因失事原因敏感。BBC聚焦技术原因，侧重客观事实。半岛标题与事件无关，显示其关注美欧贸易摩擦，立场分散。",
-      "summary": "中国空难因燃油切断所致，但不同媒体因政治或议程设置呈现报道差异。"
+      "my_view": "网易未报道，BBC聚焦飞机失事原因，半岛却突兀插入美欧关税新闻，显示其刻意转移焦点或借机批评美国，缺乏对事件本身的直接关注。",
+      "summary": "同一飞机失事事件，欧美报道技术原因，伊斯兰媒体却偏离主题炒作美欧贸易争端，凸显立场与议程差异。"
     },
     {
       "event_hint": "Apple to pay $250m to US iPhone buyers over AI features lawsuit",
@@ -585,8 +586,8 @@
         "title_en": "CENTCOM: ‘Safe path’ through Hormuz is US priority in ‘Project Freedom’",
         "title_zh": "中央司令部：穿越霍尔木兹的“安全道路”是美国“自由计划”的首要任务"
       },
-      "my_view": "中国视角暂无报道，欧美聚焦苹果赔偿，凸显消费者权益保护；伊斯兰视角转向中东地缘安全，反映其关注美国军事行动，三方立场差异显著。",
-      "summary": "苹果因AI功能诉讼赔偿美国用户，但伊斯兰媒体转向报道美国在中东的军事优先事项。"
+      "my_view": "中国视角未报道，欧美聚焦苹果赔偿细节，伊斯兰视角则转向美国军事战略，显示不同地区媒体对同一事件的关注点与利益立场差异显著。",
+      "summary": "苹果因AI功能诉讼向美国用户支付2.5亿美元，但不同媒体视角下报道重心各异。"
     },
     {
       "event_hint": "Russian attacks kill more than 20 ahead of rival ceasefires proposed by Kyiv and Moscow",
@@ -609,8 +610,8 @@
         "title_en": "Before Vatican trip, Rubio defends Trump remarks on Pope Leo over Iran",
         "title_zh": "在梵蒂冈之行之前，卢比奥为特朗普就伊朗问题对教皇利奥的言论进行辩护"
       },
-      "my_view": "中国视角暂无报道，欧美聚焦俄罗斯袭击造成伤亡，强调双方停火提议的对抗性；伊斯兰视角则转向鲁比奥为特朗普涉教皇言论辩护，偏离事件核心，反映不同地缘利益与议程设置。",
-      "summary": "俄罗斯袭击致20余人死亡，基辅与莫斯科各自提出停火提议，但立场对立。"
+      "my_view": "中国报道空缺，欧美聚焦俄乌冲突伤亡与停火提议，伊斯兰视角则转向鲁比奥为特朗普涉教皇言论辩护，凸显各自议程设置差异。",
+      "summary": "俄乌冲突中袭击与停火提议并行，但不同媒体选择突出各自地缘政治关注点。"
     }
   ]
 }
