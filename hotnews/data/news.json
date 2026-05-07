@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-07 12:01:26 +08",
+  "generated_at": "2026-05-07 20:01:21 +08",
   "generated_date": "2026-05-07",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Trump says war will be ‘over quickly’ as Iran reviews US peace proposal",
         "title_zh": "特朗普表示，随着伊朗审查美国的和平提议，战争将“很快结束”"
       },
-      "my_view": "中国报道缺失，欧美标题客观陈述伊朗考虑美方提议，半岛则突出特朗普表态，强调美方主动与战争快速结束，立场差异体现对美伊角色的不同侧重。",
-      "summary": "伊朗正评估美国提出的结束战争提议，各方报道角度反映各自立场与关注点。"
+      "my_view": "中国视角缺位，欧美标题侧重伊朗被动考虑，半岛标题强调特朗普声称战争将迅速结束，凸显美方主动姿态与伊方审查立场差异。",
+      "summary": "伊朗正评估美国提出的结束战争提议，各方报道侧重不同主体的主动权与表述。"
     },
     {
       "event_hint": "Hantavirus-hit cruise ship leaves Cape Verde after three evacuated",
@@ -444,8 +445,8 @@
         "title_en": "Argentina investigates link to deadly hantavirus outbreak on cruise ship",
         "title_zh": "阿根廷调查游轮上致命汉坦病毒爆发的关联"
       },
-      "my_view": "中国未报道，显示对国际疫情关注度低；BBC聚焦游轮离港与撤离事实，倾向中性；半岛强调阿根廷调查疫情关联，隐含对病毒扩散责任的追问。",
-      "summary": "游轮因汉坦病毒疫情撤离三人后离港，阿根廷正调查疫情源头。"
+      "my_view": "中国报道缺失，欧美侧重事件进程与撤离，伊斯兰视角关注疫情溯源与阿根廷关联，反映不同媒体对责任归属与地域影响的关注差异。",
+      "summary": "汉坦病毒疫情致游轮三人撤离，船只离港后引发多国调查与关注。"
     },
     {
       "event_hint": "BBC traces how 10 minutes of Israeli bombing brought devastation to Lebanon",
@@ -468,8 +469,8 @@
         "title_en": "Israeli soldier caught desecrating statue of Virgin Mary in Lebanon",
         "title_zh": "以色列士兵在黎巴嫩亵渎圣母玛利亚雕像被捕"
       },
-      "my_view": "BBC聚焦以色列军事行动后果，呈现西方对冲突破坏性的关注；半岛突出宗教象征亵渎，强化伊斯兰情感动员；中国视角缺失，显示立场中立或信息选择性回避。",
-      "summary": "同一以黎冲突事件，不同媒体基于政治与受众立场选择性报道，凸显信息传播的立场化本质。"
+      "my_view": "BBC聚焦以色列军事行动的直接破坏，凸显西方对冲突后果的关切；半岛则转用宗教符号受辱，强化伊斯兰视角的情感动员；网易未报道，反映中国媒体选择性回避敏感议题。",
+      "summary": "同一事件因媒体立场不同，分别呈现为战争暴行、宗教挑衅或沉默处理，揭示报道背后的政治与意识形态驱动。"
     },
     {
       "event_hint": "Oil prices drop and stock markets rise after reports of deal to end Iran war",
@@ -492,8 +493,8 @@
         "title_en": "Iran war live: Trump says deal with Tehran ‘possible’; Israel bombs Beirut",
         "title_zh": "伊朗战争直播：特朗普称与德黑兰达成协议“有可能”；"
       },
-      "my_view": "网易未报道，BBC侧重经济影响，强调油价与股市联动；半岛聚焦军事动态，突出特朗普表态与以色列行动，反映西方与伊斯兰世界对事件关注点的根本差异。",
-      "summary": "伊朗战争协议传闻引发金融市场波动，但各方报道侧重不同，凸显地缘政治与利益分歧。"
+      "my_view": "中国未报道体现克制；BBC侧重经济影响，凸显西方利益关切；半岛聚焦冲突动态，强调伊朗与以色列对立，反映伊斯兰视角对战争与谈判的敏感。",
+      "summary": "协议传闻引发市场波动，不同媒体依立场突出经济或冲突面。"
     },
     {
       "event_hint": "Israel strikes Beirut for first time since Hezbollah ceasefire",
@@ -516,8 +517,8 @@
         "title_en": "US says Hezbollah is ‘trying to derail talks’ with Israel",
         "title_zh": "美国称真主党“试图破坏与以色列的谈判”"
       },
-      "my_view": "中国视角暂缺，欧美聚焦以色列行动事实，伊斯兰视角强调美方指责真主党破坏谈判，暗示其主动挑衅。三方立场差异体现对冲突责任归因和叙事重点的不同选择。",
-      "summary": "以色列在真主党停火后首次空袭贝鲁特，美方指责真主党试图破坏谈判，冲突再起。"
+      "my_view": "BBC聚焦以色列军事行动事实，半岛强调美方指责真主党破坏和谈，前者凸显西方对以安全关切，后者暗示伊斯兰视角下美以对真主党的施压，中国视角缺失反映立场中立或信息滞后。",
+      "summary": "以色列在真主党停火后首次空袭贝鲁特，美方指责真主党破坏与以谈判进程。"
     },
     {
       "event_hint": "China calls for Strait to be reopened 'as soon as possible' in Iran talks",
@@ -540,8 +541,8 @@
         "title_en": "What are China’s surprise gains in the war on Iran?",
         "title_zh": "中国在伊朗战争中有何意外收获？"
       },
-      "my_view": "中国聚焦于航道通行效率，欧美强调中国在伊朗谈判中的具体诉求，伊斯兰视角则质疑中国在冲突中的战略利益。三方立场反映各自地缘关切：中国务实、欧美规则化、伊斯兰警惕。",
-      "summary": "中国呼吁重开海峡，各方基于自身利益解读其动机，折射出伊朗问题上的立场分化。"
+      "my_view": "中国主张务实解决海峡通航问题，强调尽快恢复稳定；欧美侧重报道中国对伊朗的施压意图；伊斯兰视角则质疑中国在冲突中的战略收益，暗示其立场可能隐含地缘算计。三方立场折射出不同利益关切。",
+      "summary": "中国呼吁在伊朗谈判中尽快重开海峡，欧美与伊斯兰媒体分别从施压和地缘获利角度解读。"
     },
     {
       "event_hint": "Russia ignores Ukraine's unilateral ceasefire and attacks kindergarten",
@@ -564,8 +565,8 @@
         "title_en": "Russia tells diplomats to leave Kyiv in case Moscow launches mass strikes",
         "title_zh": "俄罗斯要求外交官离开基辅，以防莫斯科发动大规模罢工"
       },
-      "my_view": "中国报道缺失，欧美聚焦俄罗斯攻击行为，伊斯兰侧重俄方撤离外交官的军事准备。三方立场差异体现：欧美强调俄罗斯侵略性，伊斯兰暗示战争升级风险，中国则回避直接冲突叙事。",
-      "summary": "俄罗斯在乌克兰单方停火期间袭击幼儿园，并撤离外交官预备大规模打击，暴露其持续军事升级意图。"
+      "my_view": "中国报道缺失，欧美侧重谴责俄方行动，伊斯兰视角强调俄方外交撤离预示更大打击。三方立场差异反映对冲突核心关切不同：欧美聚焦人道侵害，伊斯兰关注地缘升级。",
+      "summary": "俄罗斯在乌克兰单方停火期间袭击幼儿园，同时要求外交官撤离，显示军事行动与外交姿态并存。"
     },
     {
       "event_hint": "German police raid neo-Nazi criminal youth groups",
@@ -595,8 +596,8 @@
         "title_en": "Police arrest protester after five-days atop Washington bridge",
         "title_zh": "抗议者在华盛顿大桥上停留五天后被警方逮捕"
       },
-      "my_view": "中国视角侧重青年正能量宣传，淡化事件本身；欧美视角直接报道警方行动，强调新纳粹犯罪；伊斯兰视角则转向美国抗议事件，偏离原主题，反映不同媒体议程设置与价值观差异。",
-      "summary": "德国警方打击新纳粹青年组织，但不同媒体基于立场选择不同报道焦点。"
+      "my_view": "中国视角聚焦青年正面宣传，欧美视角强调打击极右势力，伊斯兰视角转向美国抗议事件，三方立场迥异，反映各自政治议程与受众偏好。",
+      "summary": "德国警方打击新纳粹青年犯罪，但媒体报道因立场不同而聚焦各异。"
     },
     {
       "event_hint": "Vivek Ramaswamy wins Republican nomination for Ohio governor",
@@ -619,8 +620,8 @@
         "title_en": "SpaceX backs Anthropic with data centre deal amidst Musk’s OpenAI lawsuit",
         "title_zh": "在马斯克的 OpenAI 诉讼中，SpaceX 通过数据中心交易支持 Anthropic"
       },
-      "my_view": "中国视角未报道，欧美聚焦选举进程，伊斯兰视角却关联马斯克诉讼与交易，凸显立场差异：欧美重制度，伊斯兰重冲突与资本关联。",
-      "summary": "同一事件因媒体视角不同，报道焦点各异，反映各自政治与利益关切。"
+      "my_view": "中国视角缺位；BBC聚焦事实报道；半岛台标题偏离主题，借马斯克诉讼关联SpaceX交易，强调资本与科技巨头博弈，立场偏向揭露幕后利益链。",
+      "summary": "不同媒体基于自身立场和议程设置，对同一政治事件选择不同报道角度或关联其他议题。"
     },
     {
       "event_hint": "To stay or risk the 'Road of Death' - Ukrainian civilians trapped in frontline city",
@@ -643,8 +644,8 @@
         "title_en": "Israeli strikes kill five Palestinians across Gaza in one day",
         "title_zh": "以色列空袭一天内在加沙地带造成五名巴勒斯坦人死亡"
       },
-      "my_view": "中国视角未报道此事件，BBC聚焦乌克兰平民困境，半岛电视台则转向巴以冲突，显示媒体立场与区域利益紧密相关，报道选择差异显著。",
-      "summary": "不同媒体根据自身政治立场与受众需求，选择性报道或忽略乌克兰平民的生存危机。"
+      "my_view": "网易暂无报道，BBC聚焦乌克兰平民困境，突出人道危机；半岛标题转向加沙冲突，显示伊斯兰媒体对巴以议题的侧重。三方立场差异反映各自报道重心与地缘关注点不同。",
+      "summary": "同一事件因媒体立场与地域关注不同，报道焦点各异，反映国际舆论碎片化。"
     }
   ]
 }
