@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-08 12:01:36 +08",
+  "generated_at": "2026-05-08 20:01:20 +08",
   "generated_date": "2026-05-08",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Huge fire at Mexican fair kills five people",
         "title_zh": "墨西哥集市发生大火，造成五人死亡"
       },
-      "my_view": "网易暂无报道，可能因事件非国内热点。BBC标题强调死亡数字，半岛则更中立陈述事实。欧美媒体侧重信息传递，伊斯兰媒体用词更平实。",
-      "summary": "墨西哥游乐场大火致五人死亡，各媒体报道视角略有差异但事实一致。"
+      "my_view": "三方标题均客观陈述事实，但欧美和伊斯兰媒体用词中立，中国视角暂无报道，可能因事件非国内焦点或审核策略，体现不同媒体对国际新闻的取舍差异。",
+      "summary": "墨西哥游乐场火灾致五人死亡，全球媒体报道侧重事实，但中国媒体暂未跟进。"
     },
     {
       "event_hint": "Trump says US-Iran ceasefire still in place after exchange of fire in Strait of Hormuz",
@@ -444,8 +445,8 @@
         "title_en": "Iran war live: Trump says ceasefire still ‘in effect’ as Iran, US clash",
         "title_zh": "伊朗战争直播：特朗普表示伊朗与美国发生冲突时停火仍然“有效”"
       },
-      "my_view": "中国视角未报道，显示谨慎；欧美侧重特朗普表态与停火延续；伊斯兰强调冲突细节与双方对峙，立场更偏向伊朗。",
-      "summary": "特朗普宣称霍尔木兹海峡交火后美伊停火仍有效，各方报道侧重不同。"
+      "my_view": "网易未报道显谨慎，BBC侧重美方声明，半岛强调冲突与停火矛盾。三方立场差异反映对美伊关系及地区稳定的不同侧重。",
+      "summary": "特朗普宣称霍尔木兹海峡交火后美伊停火仍有效，但各方对事件定性存在分歧。"
     },
     {
       "event_hint": "Valverde cut head when he 'accidentally hit table' in Tchouameni row",
@@ -468,8 +469,8 @@
         "title_en": "Real Madrid’s Valverde hospitalised with head injury after Tchouameni fight",
         "title_zh": "皇马球员巴尔韦德在与特胡梅尼打架后头部受伤住院"
       },
-      "my_view": "网易无报道或淡化处理；BBC用“争吵”和“不小心”弱化冲突责任；半岛直接称“打架”并突出伤情，立场更偏向事件严重性。",
-      "summary": "皇马球员巴尔韦德与丘阿梅尼发生冲突后头部受伤送医，各方报道侧重不同。"
+      "my_view": "网易未报道，BBC强调‘意外’淡化冲突，半岛突出‘斗殴’暗示暴力，立场差异体现媒体对事件严重性的不同定调。",
+      "summary": "皇马球员巴尔韦德与丘阿梅尼发生冲突，前者头部受伤送医。"
     },
     {
       "event_hint": "Hantavirus outbreak on cruise ship not start of pandemic, UN health agency says",
@@ -499,8 +500,8 @@
         "title_en": "Tenerife resort town awaits hantavirus-hit cruise ship",
         "title_zh": "特内里费岛度假胜地等待受汉坦病毒袭击的游轮"
       },
-      "my_view": "网易聚焦地方政务，淡化疫情；BBC强调联合国辟谣，安抚恐慌；半岛突出地点和事件冲击感，反映不同受众对安全议题的关注差异。",
-      "summary": "联合国澄清游轮汉坦病毒疫情并非全球大流行开端。"
+      "my_view": "中国媒体侧重国内地方会议，淡化国际事件；欧美媒体强调联合国辟谣，凸显防疫信心；伊斯兰媒体聚焦当地影响，体现地域关切。三方立场差异反映各自受众与议程设置。",
+      "summary": "联合国卫生机构澄清游轮汉坦病毒非大流行开端，但不同媒体基于自身立场各有侧重报道。"
     },
     {
       "event_hint": "Trump gives EU ultimatum deadline to approve trade deal with US",
@@ -523,8 +524,8 @@
         "title_en": "Trump sets July 4 deadline for EU tariff hike decision",
         "title_zh": "特朗普设定7月4日为欧盟加征关税决定的最后期限"
       },
-      "my_view": "中国报道暂缺，欧美侧重特朗普施压欧盟批准协议，伊斯兰则强调关税升级威胁。三方立场差异体现：欧美聚焦贸易谈判进程，伊斯兰更突出对抗性冲突。",
-      "summary": "特朗普以关税升级为要挟，向欧盟发出限期批准贸易协议的最后通牒。"
+      "my_view": "中国视角暂缺，欧美视角强调特朗普施压欧盟批准协议，凸显美国主导性；伊斯兰视角突出关税升级威胁，侧重经济对抗。立场差异反映各自对美欧关系核心矛盾的关注点不同。",
+      "summary": "特朗普向欧盟下达限期批准贸易协议的最后通牒，否则将面临关税升级。"
     },
     {
       "event_hint": "'I wouldn't pay it' - Trump on USA ticket price",
@@ -547,8 +548,8 @@
         "title_en": "US trade court rules against Trump’s 10 percent global tariffs",
         "title_zh": "美国贸易法庭裁定特朗普征收 10% 的全球关税无效"
       },
-      "my_view": "中国视角缺失，欧美侧重特朗普个人表态，凸显其任性；半岛聚焦贸易法庭裁决，强调规则对特朗普的约束。三方立场分别体现媒体对事件的不同侧重与价值取向。",
-      "summary": "同一事件因媒体立场不同，报道焦点从个人言论转向司法裁决，反映信息传播中的议程设置差异。"
+      "my_view": "网易未报道，BBC聚焦特朗普个人言论，凸显其拒绝态度；半岛则报道贸易法庭裁决，强调国际规则对特朗普政策的约束。三方立场分别体现淡化、个体化和规则化倾向。",
+      "summary": "特朗普拒绝接受美国票价，但贸易法庭裁定其全球关税政策违规。"
     },
     {
       "event_hint": "Disturbances and 127 arrests mar Paris party after PSG Champions League victory",
@@ -571,8 +572,8 @@
         "title_en": "Seafarers trapped in limbo as US and Iran clash in Strait of Hormuz",
         "title_zh": "美国和伊朗在霍尔木兹海峡发生冲突，海员陷入困境"
       },
-      "my_view": "中国视角缺失，BBC侧重骚乱后果，半岛则完全偏离主题报道美伊冲突，显示媒体选择性报道受其政治立场和议程影响，同一事件在不同语境下被差异化呈现。",
-      "summary": "巴黎圣日耳曼夺冠后发生骚乱，127人被捕，但不同媒体侧重各异。"
+      "my_view": "中国报道缺失，欧美侧重巴黎骚乱与治安问题，半岛则转向美伊冲突，显示媒体立场与选择性报道差异，反映各自关注点与政治议程。",
+      "summary": "同一事件因媒体立场不同，报道焦点与叙事角度存在显著差异。"
     },
     {
       "event_hint": "South Africa condemns 'fake videos' of alleged xenophobic attacks",
@@ -595,8 +596,8 @@
         "title_en": "Iran says it attacked US Navy ships after they targeted Iranian tanker",
         "title_zh": "伊朗称在美国海军舰艇瞄准伊朗油轮后对其进行了袭击"
       },
-      "my_view": "中国视角缺失，欧美聚焦南非辟谣，伊斯兰视角则突出伊朗反击美军。三方立场差异明显：欧美重事实核查，伊斯兰重冲突叙事，中国未表态或体现谨慎。",
-      "summary": "同一事件在不同媒体视角下呈现完全不同的报道焦点，反映各自政治立场与利益关切。"
+      "my_view": "中国视角缺位，BBC聚焦南非辟谣仇外视频，半岛报道伊朗袭击美舰，三方议题无关，显示媒体选择差异源于各自地缘利益与议程设置。",
+      "summary": "不同媒体选择性报道无关事件，反映各自立场与关注点差异。"
     },
     {
       "event_hint": "US judge releases Jeffrey Epstein's purported suicide note",
@@ -619,8 +620,8 @@
         "title_en": "The Palestinian shot dead hours before his son was born",
         "title_zh": "巴勒斯坦人在儿子出生前几小时被枪杀"
       },
-      "my_view": "中国视角暂无报道，欧美聚焦法律程序与证据公开，伊斯兰视角将事件关联巴勒斯坦冲突，凸显不同媒体基于政治立场和地域利益的议程设置差异。",
-      "summary": "同一事件在不同媒体中被选择性报道或嫁接，反映信息传播受意识形态与地缘政治影响。"
+      "my_view": "网易未报道表明中国媒体对非涉华丑闻选择性忽略；BBC聚焦法律程序，体现西方对司法透明度的关注；半岛标题完全偏离事件，将爱泼斯坦案与巴勒斯坦悲剧关联，凸显其反美及亲巴勒斯坦立场。",
+      "summary": "同一事件因媒体立场不同被选择性报道或重构，反映地缘政治与意识形态对新闻框架的深刻影响。"
     },
     {
       "event_hint": "US to revoke passports of parents with child support debt",
@@ -643,8 +644,8 @@
         "title_en": "Oil prices jump as US, Iran trade fire in Strait of Hormuz",
         "title_zh": "美国和伊朗在霍尔木兹海峡交火，油价上涨"
       },
-      "my_view": "中国视角暂无报道，欧美聚焦美国国内政策，半岛则转向美伊冲突，显示媒体立场与地缘利益密切相关：欧美关注内政，伊斯兰视角突出自身区域冲突。",
-      "summary": "同一事件在不同媒体中因立场和议程不同，报道重点各异，反映信息选择受政治与地域利益影响。"
+      "my_view": "中美伊三方报道侧重迥异：中国未关注此事件；欧美聚焦内部政策，强调法律执行；伊斯兰媒体则转向地缘冲突，凸显油价与美伊对抗，反映各自利益与议程设置差异。",
+      "summary": "美国拟吊销欠抚养费父母的护照，但不同媒体选择性报道以服务自身立场。"
     }
   ]
 }
