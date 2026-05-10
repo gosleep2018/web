@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-10 12:01:34 +08",
+  "generated_at": "2026-05-10 20:01:17 +08",
   "generated_date": "2026-05-10",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "For the first time, Putin says he’s open to meeting Zelensky outside Russia",
         "title_zh": "普京首次表示他愿意在俄罗斯境外会见泽伦斯基"
       },
-      "my_view": "中国视角尚未报道，欧美侧重普京对冲突即将结束的判断，伊斯兰视角则强调普京首次表态愿在境外会晤泽连斯基，三方立场分别体现谨慎观望、冲突缓和信号及外交突破可能。",
-      "summary": "普京释放乌克兰冲突或将结束的信号，但各方关注点不同，凸显对局势走向的差异化解读。"
+      "my_view": "中国报道暂缺，BBC侧重普京对冲突结束的判断，半岛强调谈判姿态与条件。三方立场差异：欧美关注战局走向，伊斯兰视角突出外交突破可能，中国或保持平衡。",
+      "summary": "普京释放冲突接近结束信号，但各方解读侧重不同，反映地缘立场与议程差异。"
     },
     {
       "event_hint": "Iran accuses US of 'reckless military adventure'",
@@ -444,8 +445,8 @@
         "title_en": "Iran war live: IRGC warns US against attacks on ships; Israel bombs Lebanon",
         "title_zh": "伊朗战争直播：伊朗伊斯兰革命卫队警告美国不要袭击船只；"
       },
-      "my_view": "中国视角缺失，欧美侧重伊朗对美指责的官方表态，伊斯兰视角强调伊朗警告美军及以色列行动，三方立场差异显示媒体对冲突焦点与叙事主导权的选择性呈现。",
-      "summary": "伊朗指责美国军事冒险，同时警告美军并关注以色列行动，中东局势持续紧张。"
+      "my_view": "中国视角未报道，体现其谨慎中立；BBC标题聚焦伊朗对美指控，凸显西方对伊核问题的关注；半岛强调伊朗警告与以色列行动，反映伊斯兰世界对美以军事压力的警惕。",
+      "summary": "伊朗指责美国军事冒险，同时以色列袭击黎巴嫩，中东紧张局势升级。"
     },
     {
       "event_hint": "Mexican parents criticise ending school year a month early for World Cup",
@@ -475,8 +476,8 @@
         "title_en": "Brazil judge bars law that could reduce Bolsonaro’s 27-year prison sentence",
         "title_zh": "巴西法官禁止可能减轻博尔索纳罗27年徒刑的法律"
       },
-      "my_view": "网易渲染家长焦虑与留学热潮，BBC聚焦墨西哥教育安排争议，半岛则转向巴西司法政治。三方立场差异显著：中国侧重个体竞争，欧美关注公共政策，伊斯兰视角带出拉美政治博弈。",
-      "summary": "同一事件因媒体立场不同，报道视角从教育争议转向政治司法，反映信息筛选的意识形态差异。"
+      "my_view": "网易突出教育焦虑与功利宣传，BBC聚焦家长对世界杯干扰学业的批评，半岛则关联巴西司法与右翼政治，三方立场分别服务于民族自豪、西方自由价值与中东地缘政治叙事。",
+      "summary": "同一事件因媒体立场不同被赋予教育、文化或政治冲突标签，反映信息传播中的选择性建构。"
     },
     {
       "event_hint": "I will serve - not rule over Hungary, says new PM",
@@ -506,8 +507,8 @@
         "title_en": "WHO chief says Hantavirus outbreak ‘is not COVID’",
         "title_zh": "世卫组织总干事称汉坦病毒爆发“不是新冠病毒”"
       },
-      "my_view": "网易聚焦国内旅游服务，BBC凸显新总理谦逊执政姿态，半岛则关注世卫澄清汉坦病毒非新冠。三方立场差异明显：中国重民生细节，欧美重政治表态，伊斯兰重疫情辟谣。",
-      "summary": "同一事件因媒体立场不同被选择性报道，反映信息传播中的视角与议程设置差异。"
+      "my_view": "网易聚焦国内旅游服务，BBC突出新总理谦卑表态，半岛则关注世卫澄清汉坦病毒非新冠。三方选题迥异，反映各自媒体立足本地、欧美政治与伊斯兰世界的不同议程设置。",
+      "summary": "同一事件因媒体立场不同，报道焦点各异，凸显信息传播中的选择性叙事。"
     },
     {
       "event_hint": "Lebanon says Israeli strikes killed 39",
@@ -530,8 +531,8 @@
         "title_en": "Syria and Lebanon make ‘significant progress’ at talks on joint interests",
         "title_zh": "叙利亚和黎巴嫩在共同利益谈判中取得“重大进展”"
       },
-      "my_view": "中国视角暂缺报道，欧美侧重事实陈述，伊斯兰视角则强调叙黎合作进展，凸显不同媒体对同一事件的立场与议程差异。",
-      "summary": "黎以冲突造成伤亡，但不同媒体基于自身立场选择性报道或转移焦点。"
+      "my_view": "网易未报道此事，BBC聚焦黎巴嫩伤亡数字，半岛则突出叙黎合作进展。三方立场差异显著：西方关注冲突伤亡，伊斯兰视角淡化军事行动、强调地区合作，中国媒体可能选择性回避。",
+      "summary": "以色列空袭黎巴嫩致39人死亡，不同媒体基于政治立场选择性呈现事件侧面。"
     },
     {
       "event_hint": "UK warship HMS Dragon heads to Middle East for potential Strait of Hormuz mission",
@@ -554,8 +555,8 @@
         "title_en": "Venezuela’s Delcy Rodriguez heads to The Hague for land dispute case",
         "title_zh": "委内瑞拉的德尔西·罗德里格斯前往海牙处理土地纠纷案"
       },
-      "my_view": "中国视角未报道，欧美聚焦英国军事行动，突出战略威慑；伊斯兰视角则转移焦点至委内瑞拉法律纠纷，意在淡化英美军事存在并强调其他国际议题。",
-      "summary": "同一事件因媒体立场不同，报道角度和议题选择迥异，反映地缘政治与舆论导向的差异。"
+      "my_view": "中国视角暂未报道，欧美聚焦英国军舰任务，强调军事存在；伊斯兰视角转向委内瑞拉法律争端，转移焦点。三方立场差异反映各自地缘利益与议程设置。",
+      "summary": "同一事件在不同媒体中被选择性报道或重构，凸显信息传播中的立场与利益导向。"
     },
     {
       "event_hint": "International cyber attack disrupts swathe of universities and schools",
@@ -585,8 +586,8 @@
         "title_en": "Three police officers killed in car bomb attack in northwest Pakistan",
         "title_zh": "巴基斯坦西北部三名警察在汽车炸弹袭击中丧生"
       },
-      "my_view": "中国媒体侧重正面宣传校园活动，淡化网络攻击；欧美媒体聚焦事件本身，强调影响范围；伊斯兰媒体则关注本土冲突，与网络攻击无关，反映各自议程设置差异。",
-      "summary": "同一网络攻击事件被不同媒体选择性报道，凸显立场与关注点的显著分歧。"
+      "my_view": "中国视角侧重正面宣传，淡化事件；欧美视角聚焦事件本身，强调影响；伊斯兰视角偏离主题，报道本地冲突，反映媒体立场与议程设置差异。",
+      "summary": "国际网络攻击导致多所大学和学校系统瘫痪，不同媒体因立场不同而报道侧重点各异。"
     },
     {
       "event_hint": "Person killed after being hit by plane on runway at Denver airport",
@@ -609,8 +610,8 @@
         "title_en": "One killed in Gaza as Turkish FM talks peace efforts with Hamas official",
         "title_zh": "土耳其外长与哈马斯官员讨论和平努力，加沙一人丧生"
       },
-      "my_view": "中国视角未报道，欧美聚焦事故本身，伊斯兰视角却将同一事件嫁接至加沙冲突，凸显不同媒体借单一事件服务各自政治议程的立场差异。",
-      "summary": "同一机场事故被伊斯兰媒体曲解为加沙冲突事件，揭示信息被政治化扭曲的本质。"
+      "my_view": "中国视角暂缺报道，欧美聚焦机场事故本身，伊斯兰视角将话题转向加沙冲突，体现各自立场与议程设置差异。",
+      "summary": "同一机场事故在欧美与伊斯兰媒体中被分别报道为独立事件或关联他地冲突。"
     },
     {
       "event_hint": "Tenerife medics poised for arrival of virus-hit cruise ship",
@@ -633,8 +634,8 @@
         "title_en": "Should we be worried about the hantavirus outbreak?",
         "title_zh": "我们应该担心汉坦病毒的爆发吗？"
       },
-      "my_view": "中国视角未报道，欧美聚焦事件本身与应对措施，伊斯兰视角则转向对汉坦病毒传播的担忧。三方立场差异反映媒体选择议题的偏好与受众关注点不同。",
-      "summary": "同一游轮疫情事件，欧美关注应对，伊斯兰转移议题，中国未报道，体现媒体立场与议程设置差异。"
+      "my_view": "中国视角缺失，表明事件未纳入其议程；BBC聚焦医疗应对，体现欧美对公共卫生事件的务实关切；半岛以问句引导公众情绪，突出伊斯兰媒体对风险传播的警惕与质疑。",
+      "summary": "同一游轮疫情事件，不同媒体基于受众立场选择不同报道角度，反映信息传播的议程设置差异。"
     }
   ]
 }
