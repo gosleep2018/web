@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-11 12:01:36 +08",
+  "generated_at": "2026-05-11 20:01:20 +08",
   "generated_date": "2026-05-11",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Medics among 51 killed in Israeli attacks on Lebanon in past 24 hours",
         "title_zh": "过去24小时内以色列对黎巴嫩的袭击造成51名医务人员死亡"
       },
-      "my_view": "网易未报道反映中国谨慎立场；BBC客观陈述黎方说法；半岛强调医护伤亡，凸显伊斯兰视角对以色列行动的谴责。三方差异体现政治与价值取向。",
-      "summary": "以色列对黎巴嫩空袭致多人死亡，各方报道侧重不同，反映立场与利益分歧。"
+      "my_view": "网易未报道，BBC客观陈述黎方说法，半岛突出医护伤亡并采用更高死亡数，体现对以色列的批判立场。三方差异反映媒体政治倾向与信息选择。",
+      "summary": "以色列空袭黎巴嫩致数十人死亡，各方报道侧重不同，反映地缘政治与媒体立场分歧。"
     },
     {
       "event_hint": "Trump calls Iran response to US proposal to end war 'totally unacceptable'",
@@ -444,8 +445,8 @@
         "title_en": "Trump says US will not allow Iran to reach enriched uranium",
         "title_zh": "特朗普称美国不会允许伊朗获得浓缩铀"
       },
-      "my_view": "中国视角暂缺，欧美聚焦特朗普对伊朗回应定调，强调美方不满；伊斯兰视角突出美方对铀浓缩的强硬立场，显示核问题核心。三方差异反映各自受众关切：欧美重外交博弈，伊斯兰重安全威胁。",
-      "summary": "特朗普拒绝伊朗对美结束战争提议的回应，并重申不许其获取浓缩铀。"
+      "my_view": "中国视角报道缺失，隐含中立或谨慎态度；欧美侧重伊朗拒绝美方提议，凸显博弈主导权；伊斯兰聚焦美方限制伊朗核能力，强调主权与安全威胁。三方立场反映各自地缘利益与叙事焦点。",
+      "summary": "美伊就结束冲突谈判立场对立，美方强硬表态，伊方诉求未被满足。"
     },
     {
       "event_hint": "Oil prices jump after Trump dismisses Iran proposal to end war",
@@ -468,8 +469,8 @@
         "title_en": "Iran war live: Trump slams Tehran’s reply; Israel kills 2 medics in Lebanon",
         "title_zh": "伊朗战争直播：特朗普猛烈抨击德黑兰的回应；"
       },
-      "my_view": "中国报道缺失，欧美聚焦市场反应，凸显经济霸权；伊斯兰视角强调冲突与伤亡，揭露西方双重标准。三方立场差异反映利益优先、道德叙事与政治站位的不同。",
-      "summary": "特朗普拒绝伊朗停战提议导致油价上涨，凸显大国博弈与局部冲突对全球经济的即时影响。"
+      "my_view": "中国视角暂缺，可能侧重油价影响；欧美视角聚焦市场反应，隐含对美方立场的默认；伊斯兰视角强调冲突延续与人道悲剧，凸显对美以的批判。三方立场分别从经济、地缘、人道切入。",
+      "summary": "特朗普拒绝伊朗停战提议，引发油价上涨，同时以色列在黎巴嫩造成人员伤亡，冲突持续。"
     },
     {
       "event_hint": "Iran activists tell BBC how threat of war intensifies trauma of repression",
@@ -492,8 +493,8 @@
         "title_en": "Food inflation hammers households in war-hit Iran",
         "title_zh": "食品价格上涨对饱受战争打击的伊朗家庭造成重创"
       },
-      "my_view": "BBC侧重西方对伊朗的‘镇压-战争’叙事，半岛聚焦经济民生，中国视角空缺。三方立场差异在于：西方强调政治压迫，伊斯兰视角关注生活困境，中国未表态。",
-      "summary": "伊朗在战争威胁下，国内镇压创伤与经济通胀双重压力并存。"
+      "my_view": "BBC侧重战争威胁与镇压的创伤，凸显西方对伊朗人权批评；半岛聚焦民生通胀，贴近伊斯兰世界实际困境；中国无报道体现中立或避免介入敏感议题。",
+      "summary": "伊朗内外压力（战争威胁与制裁）加剧社会矛盾，不同媒体选取角度反映其政治立场与受众关切。"
     },
     {
       "event_hint": "Why Eurovision's fallout over Israel may change the competition forever",
@@ -516,8 +517,8 @@
         "title_en": "US Jewish leader, Israel advocate Abe Foxman dies at 86",
         "title_zh": "美国犹太领袖、以色列倡导者安倍·福克斯曼去世，享年 86 岁"
       },
-      "my_view": "中国视角未报道，显示选择性关注；欧美聚焦比赛规则受以色列影响，侧重娱乐政治化；伊斯兰视角转向以色列支持者去世，淡化赛事本身，凸显对立叙事。",
-      "summary": "欧洲电视网因以色列参与引发争议，各方媒体从自身立场选择性报道，凸显政治对娱乐事件的渗透。"
+      "my_view": "中国视角无报道，欧美聚焦比赛受以色列影响的长期改变，伊斯兰视角以人物讣告转移焦点，凸显不同利益集团对同一事件的选择性叙事。",
+      "summary": "欧洲电视网因以色列参与引发争议，可能永久改变比赛规则或格局。"
     },
     {
       "event_hint": "Army parachutes onto remote island to help Briton with suspected hantavirus",
@@ -547,8 +548,8 @@
         "title_en": "Gaza documentary dropped by the BBC wins BAFTA",
         "title_zh": "BBC 制作的加沙纪录片荣获英国电影和电视艺术学院奖 (BAFTA)"
       },
-      "my_view": "中国视角侧重国内正面人物宣传，欧美聚焦具体救援事件，伊斯兰视角则转向巴以冲突相关纪录片获奖，三方立场差异明显。",
-      "summary": "同一事件在不同媒体中因政治立场和受众需求被选择性报道或替换。"
+      "my_view": "中国视角侧重国内正面典型宣传，欧美聚焦具体救援事件，伊斯兰视角则突出巴以冲突相关报道。三方立场差异明显：中国强调成就，欧美关注事件本身，伊斯兰重视政治议题。",
+      "summary": "同一事件在不同媒体视角下被选择性报道，反映各自立场与议程设置差异。"
     },
     {
       "event_hint": "Dress made from 500 loaves stuns African film awards",
@@ -578,8 +579,8 @@
         "title_en": "Indian film star Vijay becomes chief minister of Tamil Nadu",
         "title_zh": "印度电影明星维杰出任泰米尔纳德邦首席部长"
       },
-      "my_view": "三方立场差异显著：中国视角聚焦本土明星成就，欧美视角突出环保创意事件，伊斯兰视角关注政治权力变动，反映各自媒体偏好与受众兴趣。",
-      "summary": "同一非洲电影奖事件，不同媒体因立场与受众不同，选取报道角度迥异。"
+      "my_view": "三方报道侧重差异显著：中国视角聚焦国内明星获奖，欧美视角突出服装新奇性，伊斯兰视角则强调印度演员的政治转型，反映各自媒体对事件核心利益点的不同选择。",
+      "summary": "同一非洲电影奖事件，不同地区媒体选择性报道以符合其受众兴趣与意识形态。"
     },
     {
       "event_hint": "Ailing Iran Nobel laureate given bail and hospital transfer",
@@ -602,8 +603,8 @@
         "title_en": "Iran may ‘give assurances on the use of nuclear facilities’",
         "title_zh": "伊朗可能“就使用核设施做出保证”"
       },
-      "my_view": "中国报道缺位，欧美聚焦人道保释，伊斯兰视角转向核设施保证，凸显立场差异：西方侧重个体权利，中东关联地缘政治。",
-      "summary": "伊朗患病诺贝尔奖得主获保释转院，但各方报道重心因政治立场迥异。"
+      "my_view": "网易未报道显示中方低调避谈伊朗内政；BBC聚焦人道关怀，淡化政治；半岛突出核设施保证，将事件与核议题捆绑，立场鲜明。",
+      "summary": "伊朗患病诺贝尔奖得主获保释转院，各方媒体借机传递自身政治关切。"
     },
     {
       "event_hint": "French national shows symptoms on return from hantavirus-hit ship",
@@ -626,8 +627,8 @@
         "title_en": "South Korea says ship was struck by ‘unidentified flying objects’ in Hormuz",
         "title_zh": "韩国称船只在霍尔木兹海峡被“不明飞行物”击中"
       },
-      "my_view": "中国视角缺位，欧美聚焦公共卫生事件，伊斯兰视角借病毒背景突出地缘政治叙事，三方立场差异反映媒体对同一事件的不同议题选择与价值导向。",
-      "summary": "法国公民从韩国船只返国后出现汉坦病毒症状，但伊斯兰媒体称该船在霍尔木兹遭不明飞行物袭击。"
+      "my_view": "中国视角暂无报道，欧美聚焦法国患者症状，伊斯兰视角突出“不明飞行物”说法。三方立场差异：欧美重疫情事实，伊斯兰重神秘化叙事，中国未介入。",
+      "summary": "同一事件因媒体立场不同，呈现疫情、神秘现象或沉默的多元解读。"
     },
     {
       "event_hint": "Australia's right-wing One Nation party scores historic parliamentary win",
@@ -650,8 +651,8 @@
         "title_en": "Trossard scores late as Arsenal beats West Ham, moves closer to title",
         "title_zh": "特罗萨德迟到进球，阿森纳击败西汉姆联，距离冠军更近了"
       },
-      "my_view": "中国视角未报道显示其对该事件持谨慎态度；BBC聚焦选举结果本身，体现西方主流媒体对右翼崛起的客观报道；半岛电视台标题完全无关，可能因关注体育而忽略政治，反映其立场选择性。",
-      "summary": "同一事件因媒体立场和议程设置不同，报道角度和关注点存在显著差异。"
+      "my_view": "中国视角可能低调处理或避免突出极右势力，BBC侧重客观报道选举结果，半岛电视台标题明显错误（将体育新闻混入），反映其编辑疏漏或对事件不重视。",
+      "summary": "澳大利亚一国党在议会选举中取得历史性胜利，不同媒体因政治立场和编辑把关差异呈现迥异报道。"
     }
   ]
 }
