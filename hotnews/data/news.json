@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-13 12:01:09 +08",
+  "generated_at": "2026-05-13 20:00:59 +08",
   "generated_date": "2026-05-13",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -420,8 +421,8 @@
         "title_en": "Basketball star Brandon Clarke, Memphis Grizzlies forward, dies at age 29",
         "title_zh": "孟菲斯灰熊队前锋、篮球明星布兰登·克拉克去世，享年 29 岁"
       },
-      "my_view": "中国视角暂无报道，体现对非本土议题的低关注；BBC突出柯林斯的身份标签，强调LGBTQ+议题；半岛电视台误报另一球员，显示对西方文化符号的疏离与信息偏差。",
-      "summary": "同一事件因媒体立场与地域文化差异，导致报道焦点、对象甚至真实性出现显著分歧。"
+      "my_view": "网易未报道显示中国对LGBT议题的敏感性；BBC聚焦身份标签，体现欧美对多元性别的关注；半岛误报另一球员，反映伊斯兰文化对同性恋议题的回避或信息偏差。",
+      "summary": "同一篮球运动员去世事件因媒体立场不同，报道焦点、人物身份甚至事实均出现显著差异。"
     },
     {
       "event_hint": "A decade on, Trump returns to a stronger and more assertive China",
@@ -444,8 +445,8 @@
         "title_en": "Trump says he doesn’t need Xi’s help on Iran war as he heads to China",
         "title_zh": "特朗普表示他前往中国时不需要习近平在伊朗战争问题上的帮助"
       },
-      "my_view": "中国视角侧重友好合作；BBC强调中国实力增长与自信；半岛突出特朗普对伊政策分歧，显亲伊立场。三方立场分别聚焦双边关系、力量对比、地区冲突。",
-      "summary": "特朗普访华，各方媒体基于自身利益和价值观，对同一事件进行不同侧重解读。"
+      "my_view": "网易未报道或回避敏感议题；BBC侧重中国实力与自信的客观变化；半岛突出特朗普对伊朗问题的强硬表态，反映其地缘博弈立场。三方视角分别体现回避、中立与对抗性叙事差异。",
+      "summary": "特朗普十年后访华，各方媒体基于自身立场选择性报道事件的不同侧面。"
     },
     {
       "event_hint": "Trump's 'Golden Dome' will cost $1.2tn and might not stop all-out missile attack",
@@ -468,8 +469,8 @@
         "title_en": "US court pauses decision blocking Trump’s 10 percent global tariff",
         "title_zh": "美国法院暂停阻止特朗普征收 10% 全球关税的决定"
       },
-      "my_view": "中国视角暂缺，欧美侧重成本与效果质疑，伊斯兰视角聚焦关税司法争议，三方立场迥异：欧美质疑防御合理性，伊斯兰关注经济制裁，中国或更关注战略平衡。",
-      "summary": "特朗普的‘金顶’计划成本高昂且效果存疑，同时其关税政策遭司法挑战，反映其内政外交双重困境。"
+      "my_view": "中国视角未报道此事件；欧美侧重质疑金顶的性价比与防御漏洞；伊斯兰视角则聚焦美国国内关税政策争议，偏离事件核心，体现不同媒体对议题的筛选与立场差异。",
+      "summary": "特朗普的‘金顶’防御系统因成本高昂且效果存疑，遭到欧美媒体质疑，而伊斯兰媒体则关注其关税政策。"
     },
     {
       "event_hint": "Mexico cancels plans to end school year early for World Cup",
@@ -499,8 +500,8 @@
         "title_en": "Red Cross says people displaced by conflict in Colombia doubled last year",
         "title_zh": "红十字会称去年哥伦比亚因冲突而流离失所的人数增加了一倍"
       },
-      "my_view": "网易渲染焦虑与功利教育，BBC客观陈述政策变动，半岛聚焦人道危机。三者分别折射国内民生、国际规则与冲突关怀的立场差异。",
-      "summary": "墨西哥取消为世界杯提前结束学年计划，不同媒体基于受众兴趣选择性报道。"
+      "my_view": "中国视角突出教育竞争与家长焦虑，欧美视角聚焦墨西哥政策调整本身，伊斯兰视角则转向哥伦比亚冲突人道危机，三方关注点受各自社会议题与地缘利益影响。",
+      "summary": "同一事件因媒体立场与受众不同，报道角度截然分化，反映信息传播中的选择性叙事。"
     },
     {
       "event_hint": "Hamas 'weaponised' sexual violence in 7 October attacks, Israeli investigation says",
@@ -523,8 +524,8 @@
         "title_en": "Sam Altman says Elon Musk wanted 90 percent of OpenAI in high-stakes trial",
         "title_zh": "萨姆·奥尔特曼 (Sam Altman) 表示，伊隆·马斯克 (Elon Musk) 希望在高风险试验中获得 OpenAI 90% 的股份"
       },
-      "my_view": "中国视角暂无报道，体现对事件审慎态度；欧美视角强调哈马斯将性暴力武器化，突出指控；伊斯兰视角标题完全无关，可能回避或转移焦点，立场差异显著。",
-      "summary": "以色列调查指控哈马斯在10月7日袭击中系统性使用性暴力，但不同媒体因立场差异呈现选择性报道或回避。"
+      "my_view": "中国未报道此事件；BBC聚焦以色列指控哈马斯性暴力，体现西方对以色列的支持；半岛标题与事件无关，显示伊斯兰媒体选择性回避或转移焦点。",
+      "summary": "以色列调查指控哈马斯在10月7日袭击中系统使用性暴力，但不同媒体基于立场报道差异显著。"
     },
     {
       "event_hint": "Uganda's president sworn in for record seventh term",
@@ -547,8 +548,8 @@
         "title_en": "Peru presidential candidate Roberto Sanchez charged with financial crimes",
         "title_zh": "秘鲁总统候选人罗伯托·桑切斯被控金融犯罪"
       },
-      "my_view": "中国视角空缺，可能淡化报道；BBC聚焦乌干达总统连任，突出“创纪录”的负面暗示；半岛报道完全偏离事件，标题实为秘鲁新闻，显示其立场转移或编辑错误。三方差异反映媒体选择性报道的意识形态导向。",
-      "summary": "乌干达总统第七次就职，暴露西方媒体对非洲长期执政的批判倾向及伊斯兰媒体议程偏移。"
+      "my_view": "中国视角未报道，可能回避敏感议题；BBC聚焦乌干达总统连任创纪录，强调任期延续性；半岛电视台标题与事件无关，疑似错位或转移焦点。三方立场差异显著，反映媒体选择性报道。",
+      "summary": "乌干达总统宣誓就职第七任期，不同媒体因立场差异呈现报道角度与焦点分歧。"
     },
     {
       "event_hint": "Dali ship operator charged over deadly  Baltimore bridge collapse",
@@ -571,8 +572,8 @@
         "title_en": "FBI Director Kash Patel fires back at drinking allegations",
         "title_zh": "联邦调查局局长卡什·帕特尔回击饮酒指控"
       },
-      "my_view": "中国视角未报道，欧美聚焦运营商被指控的法律责任，伊斯兰视角则转向FBI局长反击饮酒指控，三者立场差异显示媒体对同一事件的选择性关注和议程设置。",
-      "summary": "巴尔的摩大桥倒塌事故后，不同媒体分别从法律追责、政治反击等角度切入报道，凸显事件的多维解读。"
+      "my_view": "中国暂无报道；欧美聚焦法律追责；伊斯兰视角转向FBI局长丑闻，偏离事件核心。三方立场差异反映媒体议程设置受政治、地域利益影响。",
+      "summary": "巴尔的摩大桥倒塌事故中，船舶运营商被起诉，但不同媒体侧重迥异，凸显报道选择性。"
     }
   ]
 }
