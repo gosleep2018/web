@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-14 12:01:08 +08",
+  "generated_at": "2026-05-14 20:01:00 +08",
   "generated_date": "2026-05-14",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "Xi Jinping welcomes Donald Trump with ceremony ahead of high-stakes meeting",
         "title_zh": "习近平在高风险会议前举行仪式欢迎唐纳德·特朗普"
       },
-      "my_view": "中国媒体侧重国内娱乐淡化政治，BBC突出议题分歧与对抗性，半岛聚焦仪式与外交形式，反映各自立场与受众导向。",
-      "summary": "特朗普访华与习近平进行高风险会谈，议题涉及贸易、伊朗和台湾问题。"
+      "my_view": "中国媒体侧重国内娱乐新闻淡化政治；欧美强调议程中的冲突点；伊斯兰聚焦仪式与礼节，体现各自立场与受众偏好。",
+      "summary": "特朗普访华与习近平举行高风险会谈，核心议题为贸易、伊朗和台湾问题。"
     },
     {
       "event_hint": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
@@ -451,8 +452,8 @@
         "title_en": "Funeral held for two Lebanese paramedics killed in Israeli attack",
         "title_zh": "为两名在以色列袭击中丧生的黎巴嫩护理人员举行葬礼"
       },
-      "my_view": "网易无报道或回避敏感事件；BBC侧重官方伤亡数据，立场中立；半岛聚焦人道悲剧，凸显伊斯兰视角下的冲突伤害与情感叙事。",
-      "summary": "以色列空袭黎巴嫩致22人死亡，各方报道侧重不同，反映立场与关注点差异。"
+      "my_view": "中国视角未报道，欧美侧重官方伤亡数据，伊斯兰聚焦人道悲剧。立场差异体现：西方重事实陈述，伊斯兰重情感动员，中国或持谨慎中立。",
+      "summary": "以色列空袭黎巴嫩致22死，不同媒体通过选材和措辞凸显各自政治与情感立场。"
     },
     {
       "event_hint": "What to know as Trump visits Xi in China",
@@ -475,8 +476,8 @@
         "title_en": "Trump taps David Venturella, former private prison executive, to lead ICE",
         "title_zh": "特朗普任命前私人监狱主管戴维·文图拉 (David Venturella) 领导 ICE"
       },
-      "my_view": "网易未报道显示中国淡化特朗普访华；BBC侧重访问事件本身，立场中性；半岛聚焦特朗普任命私企高管，凸显批评其移民政策及商业利益介入。",
-      "summary": "同一访华事件，三方因政治立场不同，报道焦点与倾向差异显著。"
+      "my_view": "网易未报道显示中国对特朗普访华持低调态度；BBC侧重外交议程；半岛聚焦特朗普任命私人监狱高管，揭露其移民政策强硬立场，三方视角差异显著。",
+      "summary": "特朗普访华事件在不同媒体中呈现外交、内政与批判性报道的立场分化。"
     },
     {
       "event_hint": "Air India crisis deepens ahead of final Ahmedabad crash report",
@@ -499,8 +500,8 @@
         "title_en": "Iran war: Why the BRICS foreign ministers meeting in India matters",
         "title_zh": "伊朗战争：为什么金砖国家外长在印度举行的会议很重要"
       },
-      "my_view": "网易未报道暗示回避敏感事件；BBC聚焦印度航空危机本身；半岛将坠机与伊朗战争、金砖会议关联，凸显地缘政治意图。三方立场差异反映媒体选择性报道和议程设置。",
-      "summary": "同一印度航空坠机事件，因媒体立场和地缘背景不同，报道重点和关联议题截然不同。"
+      "my_view": "中国视角未报道，显示对印度内政保持距离；BBC聚焦印度航空危机本身，体现西方对安全问题的关注；半岛将事件关联伊朗战争与金砖会议，凸显伊斯兰媒体地缘政治叙事。",
+      "summary": "印度航空危机加深，但不同媒体基于自身立场选择报道角度，反映信息传播中的政治与地域偏向。"
     },
     {
       "event_hint": "Climbers clear path to Everest summit past giant chunk of ice",
@@ -530,8 +531,8 @@
         "title_en": "Trump-Xi summit: Why Beijing might have the advantage",
         "title_zh": "特习峰会：为何北京可能拥有优势"
       },
-      "my_view": "中国视角聚焦劳工权益与法律漏洞，欧美视角侧重登山事件本身，伊斯兰视角则转向中美政治博弈。三方立场差异显著，反映媒体议程设置受政治、社会和文化背景影响。",
-      "summary": "同一登山事件因媒体立场不同被赋予劳工、探险或政治议题，本质是信息传播中的选择性叙事。"
+      "my_view": "中国视角聚焦劳工权益与责任缺失，欧美视角客观描述登山事件本身，伊斯兰视角则借题发挥为中美峰会博弈，三方立场分别侧重社会问题、事实报道与政治隐喻。",
+      "summary": "同一登山事件被不同媒体重构，反映其各自的社会关切、报道传统与政治立场。"
     },
     {
       "event_hint": "Epstein abused me while under house arrest, survivor tells US lawmakers",
@@ -561,8 +562,8 @@
         "title_en": "US waives visa bonds of up to $15,000 for FIFA World Cup ticket holders",
         "title_zh": "美国为 FIFA 世界杯门票持有者免除高达 15,000 美元的签证押金"
       },
-      "my_view": "网易标题偏离事件核心，借家长群焦虑引流教育话题；BBC聚焦受害者控诉爱泼斯坦，体现西方对性侵追责的重视；半岛则关注美国世界杯签证政策，反映中东视角下的国际博弈。三方立场差异显著，凸显媒体议程设置的地缘与价值取向。",
-      "summary": "幸存者向美国立法者陈述爱泼斯坦在软禁期间对其实施虐待的指控。"
+      "my_view": "中国媒体侧重教育话题吸引流量，欧美聚焦司法个案，伊斯兰报道关联国际体育政策。三方立场差异体现各自受众关切与政治议程。",
+      "summary": "同一事件在不同媒体中被选择性报道，反映其服务本土读者与政治导向的本质。"
     },
     {
       "event_hint": "Shrinking Milka chocolate bar tricked consumers, says German court",
@@ -585,8 +586,8 @@
         "title_en": "Man City beat Palace to close gap with Arsenal to 2, with two games to play",
         "title_zh": "在还剩两场比赛的情况下，曼城击败水晶宫将与阿森纳的差距缩小为2分"
       },
-      "my_view": "中国视角未报道，欧美聚焦消费者权益与法律判决，伊斯兰视角完全偏离主题报道体育新闻，体现媒体议程设置差异。",
-      "summary": "德国法院裁定Milka巧克力棒缩水构成欺骗消费者行为。"
+      "my_view": "中国视角未报道，欧美聚焦消费者权益与法律判决，伊斯兰视角完全偏离主题，报道足球新闻，显示媒体议程设置受地域与受众偏好影响显著。",
+      "summary": "德国法院裁定米尔卡巧克力棒缩水构成欺骗消费者行为。"
     },
     {
       "event_hint": "Gunshots fired in Philippine Senate where lawmaker wanted by ICC is holed up",
@@ -609,8 +610,8 @@
         "title_en": "Why Louisiana paused its US House primary election amid redistricting push",
         "title_zh": "为什么路易斯安那州在重新选区的推动下暂停了美国众议院初选"
       },
-      "my_view": "中国视角未报道，欧美侧重枪击与ICC通缉关联，突出法治冲突；伊斯兰视角转向美国选举争议，体现不同区域议程设置差异。",
-      "summary": "菲律宾参议院枪击事件涉及被国际刑事法院通缉的议员藏匿，反映法律与政治博弈。"
+      "my_view": "中国视角暂无报道，体现其谨慎或不突出涉菲事件；欧美聚焦ICC通缉犯与枪击关联，强调法律与安全；伊斯兰视角偏离主题，关注美国内政，显示其选择性报道。",
+      "summary": "菲律宾参议院枪击事件中，一名被国际刑事法院通缉的议员藏身其中，引发各方不同关注。"
     }
   ]
 }
