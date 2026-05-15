@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-05-15 12:01:08 +08",
+  "generated_at": "2026-05-15 20:00:55 +08",
   "generated_date": "2026-05-15",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
     "早",
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -427,8 +428,8 @@
         "title_en": "UN aid convoy hit by drone strikes in Ukraine’s Kherson",
         "title_zh": "联合国援助车队在乌克兰赫尔松遭无人机袭击"
       },
-      "my_view": "中国视角侧重国内政务，淡化国际冲突；欧美视角聚焦俄罗斯袭击的惨烈后果，凸显人道危机；伊斯兰视角突出联合国车队遇袭，强调中立援助受威胁。三方立场差异体现了媒体选择与政治导向的密切关联。",
-      "summary": "同一乌克兰袭击事件，不同媒体因立场导向而选择性报道，呈现迥异叙事重点。"
+      "my_view": "中国视角侧重国内政治活动，淡化国际冲突；欧美聚焦俄乌战争的人道灾难；伊斯兰视角关注第三方（UN）卷入，凸显战争外溢效应。三方立场差异反映各自利益与叙事重点。",
+      "summary": "同一乌克兰战争事件，因媒体立场不同，报道焦点从国内政治、人道救援转向国际组织受袭。"
     },
     {
       "event_hint": "Flattery and fanfare as Trump welcomed to China - but thorny issues remain",
@@ -458,8 +459,8 @@
         "title_en": "After Trump’s pledge to ‘open up’ China, low expectations for summit deal",
         "title_zh": "特朗普承诺“开放”中国后，对峰会协议的期望较低"
       },
-      "my_view": "中国视角侧重娱乐化淡化政治；欧美视角强调特朗普访华的形式与实质矛盾；伊斯兰视角聚焦美国对华施压预期，三方立场分别服务于国内宣传、西方叙事及地区利益。",
-      "summary": "特朗普访华表面友好，但中美在关键议题上分歧未解，各方媒体各取所需报道。"
+      "my_view": "中国视角侧重娱乐新闻，淡化政治；欧美视角强调特朗普访华的形式与实质矛盾；伊斯兰视角关注美国对华战略意图，质疑峰会成果。三方立场分别体现内宣、外宣与地缘政治分歧。",
+      "summary": "特朗普访华表面友好，但中美间核心分歧未解，各方媒体基于自身立场选择性报道。"
     },
     {
       "event_hint": "Israeli strikes in southern Lebanon kill 22 people, health ministry says",
@@ -482,8 +483,8 @@
         "title_en": "Cautious optimism in Lebanon as direct talks with Israel progress",
         "title_zh": "随着与以色列的直接谈判取得进展，黎巴嫩持谨慎乐观态度"
       },
-      "my_view": "中国视角报道缺失，欧美侧重事实陈述但隐含以色列行动合法性，伊斯兰视角强调谈判进展与乐观情绪，凸显各自立场与利益导向。",
-      "summary": "以色列空袭致黎巴嫩22人死亡，不同媒体基于政治立场呈现选择性报道与解读。"
+      "my_view": "中国视角未报道，欧美侧重事实陈述伤亡，伊斯兰聚焦和谈进展，立场差异体现西方关注事件本身，伊斯兰更倾向政治解读。",
+      "summary": "以色列空袭黎南部致22死，各方报道侧重不同，反映地缘政治立场分歧。"
     },
     {
       "event_hint": "CIA chief visits Cuba as energy crisis worsens",
@@ -506,8 +507,8 @@
         "title_en": "Cuba’s Diaz-Canel open to US aid amid worsening fuel crisis, blackouts",
         "title_zh": "在日益恶化的燃料危机和停电之际，古巴迪亚斯-卡内尔向美国开放援助"
       },
-      "my_view": "中国视角未报道，显示对涉美古事务的审慎；BBC突出CIA访问与危机关联，隐含西方对古巴的干预逻辑；半岛强调古巴接受美援，体现伊斯兰媒体对受制裁国家的同情与务实立场。",
-      "summary": "能源危机下，古巴为缓解困境在美古敌对关系中寻求有限合作。"
+      "my_view": "中国报道缺失，反映对拉美事务的低调态度；BBC强调CIA行动，凸显西方对古巴的干预视角；半岛聚焦古巴接受美援，体现其务实外交与能源困境。",
+      "summary": "能源危机下，古巴在美方情报互动中寻求援助，反映地缘与生存的复杂博弈。"
     },
     {
       "event_hint": "'Floating armoury' ship reportedly seized by Iran",
@@ -537,8 +538,8 @@
         "title_en": "‘China is gaining from what the US is doing in Iran’",
         "title_zh": "“中国正在从美国在伊朗的行动中获益”"
       },
-      "my_view": "中国视角侧重国内劳动模范宣传，回避国际事件；欧美视角聚焦事件本身，强调伊朗行动；伊斯兰视角将事件与中美博弈关联，凸显地缘政治解读。三方立场差异反映媒体服务不同受众与议程。",
-      "summary": "伊朗扣押被指为“浮动军械库”的船只，引发不同媒体基于各自立场的选择性报道与解读。"
+      "my_view": "中国视角突出国内劳动者正面形象，回避国际冲突；欧美聚焦事件本身，强调伊朗行为；伊斯兰视角则借机批评美国政策，凸显中美博弈。三方立场差异反映各自利益与叙事偏好。",
+      "summary": "伊朗扣押外国船只事件被不同媒体按自身政治立场选择性报道，本质是地缘博弈中的信息操控。"
     },
     {
       "event_hint": "Latvian PM resigns after row over stray Ukrainian drones",
@@ -561,8 +562,8 @@
         "title_en": "Border Patrol chief Mike Banks resigns in latest Trump immigration shakeup",
         "title_zh": "边境巡逻队队长迈克·班克斯在特朗普最新的移民改革中辞职"
       },
-      "my_view": "网易未报道显示中国对此事低调处理；BBC聚焦拉脱维亚总理辞职与乌克兰无人机关联，隐含对俄罗斯压力的关注；半岛报道则完全偏离事件主体，将标题用于美国移民问题，体现其反美立场与议程设置。",
-      "summary": "同一事件在欧美、伊斯兰媒体中呈现不同焦点，中国媒体则选择回避，反映各方利益与叙事偏好。"
+      "my_view": "中国视角空缺，可能谨慎回避涉乌敏感话题。BBC突出拉脱维亚与乌克兰的‘争执’，隐含西方内部矛盾。半岛电视台标题完全错位，聚焦美国移民问题，暴露其对中东以外议题的偏见或编辑失误。",
+      "summary": "拉脱维亚总理因乌克兰无人机越境引发政治争议而辞职，西方媒体聚焦冲突，中国未报道，伊斯兰媒体误报。"
     },
     {
       "event_hint": "'They shot my neighbour in the head' - the lakeside city traumatised by war",
@@ -585,8 +586,8 @@
         "title_en": "Could Iran war trigger a hunger crisis?",
         "title_zh": "伊朗战争会引发饥饿危机吗？"
       },
-      "my_view": "中国视角缺失，欧美聚焦个体创伤与战争悲剧，伊斯兰视角转向伊朗战争引发的饥荒危机，三方立场差异明显：欧美重人道叙事，伊斯兰重地缘政治后果，中国未介入此议题。",
-      "summary": "同一湖滨城市战争事件，欧美报道个人苦难，伊斯兰关联伊朗战争风险，中国未报道。"
+      "my_view": "中国视角暂缺，欧美聚焦个体战争创伤与城市悲剧，突出人道主义；伊斯兰视角转向伊朗战争可能引发的饥饿危机，侧重地缘政治后果。立场差异反映媒体议程设置：欧美重情感叙事，伊斯兰重战略关联。",
+      "summary": "同一战争事件在不同媒体中被分别呈现为个体创伤、城市悲剧或地缘危机，体现报道视角的意识形态差异。"
     }
   ]
 }
