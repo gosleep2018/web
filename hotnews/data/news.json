@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-05-16 12:01:10 +08",
+  "generated_at": "2026-05-16 20:01:02 +08",
   "generated_date": "2026-05-16",
-  "current_slot": "中",
+  "current_slot": "晚",
   "slots_done": [
-    "中"
+    "中",
+    "晚"
   ],
   "sources": {
     "中国": [
@@ -419,8 +420,8 @@
         "title_en": "Seven killed in Gaza on Nakba Day as Israel says it targets Hamas member",
         "title_zh": "以色列称其针对哈马斯成员，在大灾难日加沙造成七人死亡"
       },
-      "my_view": "中国报道空缺可能因审慎立场；BBC侧重以色列行动声明，隐含合法性；半岛突出伤亡人数与“灾难日”语境，强调巴方苦难。三方差异反映各自政治叙事与受众定位。",
-      "summary": "以色列空袭加沙打死哈马斯指挥官，但各方报道侧重不同，凸显冲突中的信息战与立场分化。"
+      "my_view": "中国视角回避报道，体现谨慎立场；BBC强调以色列行动合法性，侧重军事目标；半岛突出伤亡与历史象征日，暗示以色列暴力。三方差异反映政治立场与受众导向。",
+      "summary": "以色列空袭加沙打死哈马斯指挥官，但伤亡与时机引发不同解读，本质是巴以冲突中的军事行动与舆论博弈。"
     },
     {
       "event_hint": "Lebanon says six killed in Israeli strike as US announces ceasefire extension",
@@ -443,8 +444,8 @@
         "title_en": "Iran war live: Lebanon, Israel extend truce; Tehran ready for more US talks",
         "title_zh": "伊朗战事直播：黎巴嫩、以色列延长休战；"
       },
-      "my_view": "中国视角缺失，欧美侧重以色列行动与美方斡旋，伊斯兰视角突出伊朗角色与谈判延续，三方立场折射不同地缘利益与叙事焦点。",
-      "summary": "黎以冲突中，以色列袭击致平民伤亡，美国推动停火延长，伊朗积极介入外交。"
+      "my_view": "中国视角暂缺，欧美侧重以色列行动与美方调停，伊斯兰强调伊朗角色与谈判意愿，三方立场分别聚焦冲突事实、外交进程与阵营表态。",
+      "summary": "黎以冲突中以色列袭击致伤亡，美国推动停火延长，伊朗表达谈判意愿，多方角力未息。"
     },
     {
       "event_hint": "Trump says 20-year nuclear programme suspension by Iran would be enough",
@@ -467,8 +468,8 @@
         "title_en": "Trump calls journalist’s Iran reporting ‘treasonous’",
         "title_zh": "特朗普称记者的伊朗报道是“叛国”"
       },
-      "my_view": "中国视角未报道，体现其谨慎中立；BBC侧重核协议进展，欧美关注国际安全；半岛聚焦特朗普对记者攻击，凸显伊斯兰世界对言论干预的敏感。",
-      "summary": "特朗普对伊朗核问题的表态在不同媒体中呈现安全、政治与言论自由的多重解读。"
+      "my_view": "网易未报道显示中方谨慎回避敏感议题；BBC聚焦核协议本身，体现西方对伊核问题的务实态度；半岛突出特朗普攻击记者，反映伊斯兰世界对其言论的警惕与对抗立场。",
+      "summary": "同一事件因媒体立场不同，报道焦点从核协议转向对记者攻击，凸显政治叙事差异。"
     },
     {
       "event_hint": "What China critics in Maga movement make of Trump's Beijing trip",
@@ -498,8 +499,8 @@
         "title_en": "What did Trump and Xi discuss during the China summit?",
         "title_zh": "What did Trump and Xi discuss during the China summit?"
       },
-      "my_view": "中国视角聚焦国内劳工权益问题，欧美视角关注Maga运动对特朗普访华的批评，伊斯兰视角侧重中美峰会讨论内容。三方立场差异体现各自利益关切：中国关注民生，欧美聚焦政治对立，伊斯兰关注外交议题。",
-      "summary": "同一事件因媒体立场不同，报道视角分别聚焦国内民生、政治批评与外交对话。"
+      "my_view": "中国视角聚焦国内民生问题，欧美视角关注特朗普外交评价，伊斯兰视角侧重中美峰会内容。三方立场差异显著：中国关注内政，欧美强调批判声音，伊斯兰聚焦国际对话。",
+      "summary": "同一事件因媒体立场不同，报道焦点从国内民生转向外交批判再至峰会内容。"
     },
     {
       "event_hint": "New York Times defends journalist after Israel threatens to sue",
@@ -522,8 +523,8 @@
         "title_en": "Israel launches deadly air strikes on Gaza City apartment building",
         "title_zh": "以色列对加沙城公寓楼发动致命空袭"
       },
-      "my_view": "中国视角缺失，欧美侧重媒体辩护与法律冲突，伊斯兰聚焦以色列军事行动。三方立场差异体现：西方重程序正义，中东重现实暴力，中国则选择性回避。",
-      "summary": "同一事件因媒体立场不同，报道重心从法律纠纷转向军事冲突，揭示国际报道中的叙事博弈。"
+      "my_view": "网易未报道显回避争议；BBC聚焦媒体辩护，淡化冲突；半岛突出以军行动，强调受害者。三方立场分别体现亲以、中立、亲巴倾向。",
+      "summary": "同一事件因媒体立场不同，报道侧重迥异，反映地缘政治与媒体叙事的选择性。"
     },
     {
       "event_hint": "Why is Ireland not taking part in this year's Eurovision?",
@@ -553,8 +554,8 @@
         "title_en": "What are World Cup 2026 national team base camps and their locations?",
         "title_zh": "2026 年世界杯国家队大本营及其位置是什么？"
       },
-      "my_view": "中国视角标题与事件无关，疑似误植或标题党；欧美视角直接聚焦爱尔兰缺席原因；伊斯兰视角则转向2026世界杯驻地，三方议题完全错位，反映不同媒体议程设置的差异。",
-      "summary": "同一事件在不同媒体中被扭曲或替换，凸显各自政治文化立场与议程偏好。"
+      "my_view": "中国视角标题与事件无关，显示流量导向；欧美直接聚焦事件本身；伊斯兰视角则完全偏离，转向世界杯话题。三方立场差异显著，反映媒体议程设置与受众定位不同。",
+      "summary": "同一事件因媒体立场不同，报道标题呈现完全不同的关注点与信息偏差。"
     },
     {
       "event_hint": "CIA chief visits Cuba as energy crisis worsens",
@@ -577,8 +578,8 @@
         "title_en": "Ex-Sinaloa security chief in Mexico arrested in US over alleged cartel ties",
         "title_zh": "墨西哥前锡那罗亚州安全局长因涉嫌卡特尔关系在美国被捕"
       },
-      "my_view": "中国视角未报道，欧美侧重能源危机与情报活动关联，伊斯兰视角聚焦墨西哥前安全官员被捕，反映不同地区对事件核心利益与关注点的选择性叙事。",
-      "summary": "同一事件因媒体立场差异，分别突出能源危机、情报干预或地区安全议题，揭示国际报道的视角分化。"
+      "my_view": "中国视角缺失，欧美聚焦能源危机下CIA访古巴的西方战略关切，伊斯兰视角则转向墨西哥前安全官员被捕，凸显不同地域对同一事件核心议题的差异选择。",
+      "summary": "同一事件因媒体立场不同，报道焦点从地缘政治转向内部安全，反映信息筛选的主观性。"
     },
     {
       "event_hint": "Trump warns Taiwan against declaring independence, hours after summit with China's Xi",
@@ -601,8 +602,8 @@
         "title_en": "Is the US dialling down its support for Taiwan?",
         "title_zh": "美国是否会减少对台湾的支持？"
       },
-      "my_view": "中国立场强调主权不容挑战；欧美聚焦特朗普对台警告，隐含维护现状；伊斯兰视角质疑美国对台支持减弱，反映其怀疑美方战略模糊。三方立场差异体现主权、安全与地缘博弈的不同侧重。",
-      "summary": "特朗普在与中国领导人峰会后警告台湾勿宣布独立，反映大国博弈下台湾问题的敏感性与战略模糊。"
+      "my_view": "中国媒体未报道，可能淡化敏感议题；BBC强调特朗普对台警告，凸显美国对台政策矛盾；半岛质疑美国是否降温挺台，反映伊斯兰世界对美中博弈的观望立场。",
+      "summary": "特朗普在与中国领导人会晤后警告台湾勿独立，显示美中关系中对台政策的微妙平衡。"
     },
     {
       "event_hint": "Brutal raid on woman's birthday party highlights rise of Russian vigilante group",
@@ -625,8 +626,8 @@
         "title_en": "WHO confirms 10 global hantavirus cases, Hondius crew remain symptom-free",
         "title_zh": "世卫组织确认全球 10 例汉坦病毒病例，Hondius 船员仍无症状"
       },
-      "my_view": "网易未报道，BBC侧重谴责俄罗斯治安组织崛起，半岛则转移话题至汉坦病毒，呈现回避或弱化事件的政治立场差异。",
-      "summary": "妇女生日聚会遭暴力袭击，暴露俄罗斯治安组织扩张的社会问题。"
+      "my_view": "网易未报道，BBC聚焦俄罗斯治安组织暴力事件，半岛则转向全球汉坦病毒案例。三方立场差异明显：欧美关注俄罗斯内部安全危机，伊斯兰视角转移话题，中国视角缺席或选择性回避。",
+      "summary": "妇女生日聚会遭袭事件暴露俄罗斯治安组织崛起，但不同媒体因政治立场选择报道或回避。"
     },
     {
       "event_hint": "Judge declares another mistrial in Harvey Weinstein New York rape case",
@@ -649,8 +650,8 @@
         "title_en": "Activists hang Palestinian flag on the Eiffel Tower for Nakba Day",
         "title_zh": "活动人士在埃菲尔铁塔上悬挂巴勒斯坦国旗庆祝灾难日"
       },
-      "my_view": "中国视角未报道，欧美聚焦司法程序，伊斯兰视角借机关联巴勒斯坦议题。三方立场差异反映媒体议程设置不同：欧美重法律细节，伊斯兰重政治象征，中国可能选择性回避。",
-      "summary": "同一事件因媒体立场不同被赋予迥异叙事框架，折射出国际报道的意识形态与利益导向。"
+      "my_view": "中国视角未报道，体现选择性回避；欧美视角聚焦司法程序，强调法律公正；伊斯兰视角借机关联巴勒斯坦议题，凸显政治化倾向。三方立场差异反映媒体议程设置与意识形态导向。",
+      "summary": "同一司法事件因媒体立场不同，被分别报道为法律新闻、政治符号或选择性沉默。"
     }
   ]
 }
